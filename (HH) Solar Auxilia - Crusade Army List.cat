@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7f243fc5-c5fd-8b2c-7b07-907bf684bb72" name="太阳辅助军" revision="1" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7f243fc5-c5fd-8b2c-7b07-907bf684bb72" name="太阳辅助军" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7f243fc5--pubN65537" name="Crusade Imperialis"/>
     <publication id="7f243fc5--pubN65563" name="AoDRB"/>
@@ -109,7 +109,8 @@
     <forceEntry id="6329-878c-da3f-aa5e" name="玩家制定-百夫长分队" page="https://ia801902.us.archive.org/12/items/CENTURION1.1/CENTURION%201.1.pdf" hidden="false">
       <rules>
         <rule id="046f-848f-7dfe-36c3" name="Fan Made - Centurion Mode" hidden="false">
-          <description>CENTURION – draft ruleset 1.1
+          <description>
+CENTURION – draft ruleset 1.1
 The Centurion Discipline is a middle-ground between Zone Mortalis* and Frontline* games.
 Aesthetically drawing inspiration from Warhammer 40k 2nd Edition, and rules-wise
 providing more narrative games where 步兵 and 人物 are the focus of
@@ -128,7 +129,8 @@ Tanks, Fliers, Drop Pods, Superheavies are not allowed.
 Bikes, Attack Bikes, Jet Bikes, 炮兵, 巨兽, Leviathan
 Siege Dreadnoughts are 0-1 choices.
 
-Note this precludes some Rites of War and Army Lists from Centurion mode.</description>
+Note this precludes some Rites of War and Army Lists from Centurion mode.
+          </description>
         </rule>
       </rules>
       <categoryLinks>
