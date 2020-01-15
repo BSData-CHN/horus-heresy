@@ -861,7 +861,7 @@
       </profiles>
       <rules>
         <rule id="04f1-8a04-30c6-2c94" name="Expulsion Protocol" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Instead of performing a Sweeping Advance models with this special rule may overwatch their weapons at units which Fall Back, even if they are not normally permitted to conduct a Sweeping Advance.</description>
+          <description>Instead of performing a Sweeping Advance models with this 规则 may 坚守射击 their weapons at units which Fall Back, even if they are not normally permitted to conduct a Sweeping Advance.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1170,7 +1170,7 @@
           </profiles>
           <rules>
             <rule id="48c8-9239-ffd8-ab5f" name="Royal Court" hidden="false">
-              <description>The members of the Conclave may be distributed and attached amongst the armies Dynastic 军团 units, except for Tomb Blades. In addition they may be attached to the armies Lords, Nemesor and/or Overlord.</description>
+              <description>The members of the Conclave may be distributed and attached amongst the armies Dynastic 军团 units, except for Tomb Blades. 此外 they may be attached to the armies Lords, Nemesor and/or Overlord.</description>
             </rule>
             <rule id="3726-cda0-9e9a-426b" name="Technomancer" hidden="false">
               <description>If this model and the unit it is attached to is destroyed, the Technomancer may attempt its Reanimation Protocol first and, if successful, allows for the rest of the unit to also attempt its Reanimation Protocol.</description>
@@ -1564,7 +1564,7 @@
           <description>By selecting a Doomsday Monolith, the regular Monolith option in the 重型槽位 slot becomes unavailable, allowing Monoliths only to be taken through this unit option. All Monoliths may be deployed independently and still count as 重型槽位 choices for mission rules and other purposes except for the Force Organisation slot use.</description>
         </rule>
         <rule id="d155-e2f9-1111-9eba" name="Energy Grid" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Any Monolith within 12寸 of the Doomsday Monolith may forgo firing any of its weapons in the Shooting phase in favour of focusing its energy into the Doomsday Monliths energy grid. Declare how many Monoliths will do this at the start of the Shooting phase. For each Monolith that chooses to act in this fashion, the number of shots fired by the Doomsday Monoliths Gauss Obliterator is increased by one for that Turn. These extra shots may be fired at different targets. Any Monolith which opts to do this may not use its Eternity Gate the following turn.</description>
+          <description>Any Monolith within 12寸 of the Doomsday Monolith may forgo firing any of its weapons in the 射击阶段 in favour of focusing its energy into the Doomsday Monliths energy grid. Declare how many Monoliths will do this at the start of the 射击阶段. For each Monolith that chooses to act in this fashion, the number of shots fired by the Doomsday Monoliths Gauss Obliterator is increased by one for that Turn. These extra shots may be fired at different targets. Any Monolith which opts to do this may not use its Eternity Gate the following turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1603,11 +1603,11 @@
                 <profile id="bc06-327b-df06-4b36" name="Null Field Emitter" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If two models with a Null Field Emitter are within 24寸 of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its line of sight across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla weapons.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
+此外, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
 
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
-• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. In addition all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</characteristic>
+• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. 此外 all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1699,10 +1699,10 @@ If there are three or more models all projecting Nightshrouds between them, they
               <rules>
                 <rule id="9679-b5c4-fc73-f849" name="Null Field Emitters" hidden="false">
                   <description>If two models with Null Field Emitters are within 24寸 of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its line of sight across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla weapons.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
+此外, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
-• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. In addition all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</description>
+• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. 此外 all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</description>
                 </rule>
               </rules>
               <costs>
@@ -1762,7 +1762,7 @@ If there are three or more models all projecting Nightshrouds between them, they
           <profiles>
             <profile id="6bf5-7b5a-a568-626e" name="Nightmare Shroud" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Nightmare Shroud can be used during the Shooting phase instead of firing a weapon. Choose an unengaged enemy within 18寸 of the Cryptek. That unit must immediately take a Morale check.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Nightmare Shroud can be used during the 射击阶段 instead of firing a weapon. Choose an unengaged enemy within 18寸 of the Cryptek. That unit must immediately take a Morale check.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1778,7 +1778,7 @@ If there are three or more models all projecting Nightshrouds between them, they
           <profiles>
             <profile id="038f-9274-3342-e8dd" name="Veil of Darkness" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Cryptek with a Veil of Darkness can use it in the Movement phase instead of moving normally. The Cryptek and its unit are removed from the tabletop and immediately 深度打击 back onto the
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Cryptek with a Veil of Darkness can use it in the 移动阶段 instead of moving normally. The Cryptek and its unit are removed from the tabletop and immediately 深度打击 back onto the
 battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in combat.</characteristic>
               </characteristics>
             </profile>
@@ -1842,7 +1842,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="6b13-307d-e59b-3f76" name="Seismic Crucible" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the start of the enemies Assault Phase, roll a D3 and nominate an enemy unit. If the nominated unit attempts to assault Cryptek, or its unit, reduce their assault move by the result of the D3 for that phase.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the start of the enemies 突击阶段, roll a D3 and nominate an enemy unit. If the nominated unit attempts to assault Cryptek, or its unit, reduce their assault move by the result of the D3 for that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1919,7 +1919,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="e196-0fdc-990e-2184" name="Timesplinter Cloak" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Timesplinter Cloak has a 3+ Invulnerable save</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Timesplinter Cloak has a 3+ 特殊保护</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1956,7 +1956,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           </profiles>
           <rules>
             <rule id="52e0-03e9-1d2f-4ff7" name="Chronal Charge" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-              <description>Models which suffer an unsaved Wound or loses a Hull Point from this weapon loses the 迅捷 special rule and has its Weapon Skill, Ballistic Skill, Initiative and Attack values reduced to 1 for the remainder of the game.</description>
+              <description>Models which suffer an unsaved Wound or loses a Hull Point from this weapon loses the 迅捷 规则 and has its WS, BS, Initiative and Attack values reduced to 1 for the remainder of the game.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2092,7 +2092,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
       <rules>
         <rule id="1928-affd-14ba-62fb" name="Divert Power" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>A 载具 can only fire a weapon with this rule if it
-remained stationary in its preceding Movement phase.</description>
+remained stationary in its preceding 移动阶段.</description>
         </rule>
       </rules>
       <costs>
@@ -2983,7 +2983,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="7dfc-bc94-23e7-027c" name="Nebuloscope" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If a model is equipped with a nebuloscope, all of its ranged weapons have the 忽视掩体 special rule.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If a model is equipped with a nebuloscope, all of its ranged weapons have the 忽视掩体 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3001,7 +3001,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="a583-efb7-82d2-8fb9" name="Phylactery" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model equipped with a phylactery has the 他不会死 and 永恒战士 special rule. If the model is the rider of a 战车, both he and the 战车 have the 他不会死 special rule.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model equipped with a phylactery has the 他不会死 and 永恒战士 规则. If the model is the rider of a 战车, both he and the 战车 have the 他不会死 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3020,7 +3020,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="652f-e998-1b0b-2318" name="Teleportation Matrix" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 深度打击 special rule.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 深度打击 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3057,7 +3057,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="20e7-5829-7f25-9646" name="Mindshackle Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When fighting in a challenge, a model with mindshackle scarabs has the 恐怖 special rule. 恐怖 tests taken as a result of mindshackle scarabs must be taken on 3D6.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When fighting in a challenge, a model with mindshackle scarabs has the 恐怖 规则. 恐怖 tests taken as a result of mindshackle scarabs must be taken on 3D6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3072,7 +3072,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="7755-9afe-21c8-0bdc" name="Sempiternal Weave" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with Sempiternal Weave has a 2+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with Sempiternal Weave has a 2+ 装甲保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3102,7 +3102,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="0e79-9828-69d8-8b6d" name="Phase Shifter" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A phase shifter confers a 4+ invulnerable save. If the bearer is the rider of a 战车, then only the rider benefits from this invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A phase shifter 提供 4+ 特殊保护. If the bearer is the rider of a 战车, then only the rider benefits from this 特殊保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3123,7 +3123,7 @@ the Fight subphase.</description>
       </constraints>
       <rules>
         <rule id="b91d-ed6a-b5d5-43e3" name="Nodal Command: Bronze" hidden="false">
-          <description>Units with this special rule can only be included in armies of 1,000 points or more, but allow the inclusion of all units with Awakening Level Bronze. Units containing models with the Dynastic 军团 special rule within 6寸 of this model may use its leadership as their own and benefit from the rule Expulsion Protocol</description>
+          <description>Units with this 规则 can only be included in armies of 1,000 points or more, but allow the inclusion of all units with Awakening Level Bronze. Units containing models with the Dynastic 军团 规则 within 6寸 of this model may use its leadership as their own and benefit from the rule Expulsion Protocol</description>
         </rule>
       </rules>
       <costs>
@@ -3291,11 +3291,11 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
           <description>Trazyn may take one unit of Lychguard as his personal retinue for every 1,000 pts in the army, using the profile found in the primary Necron army list section. However they can only ever claim objectives that are part of Trazyn&apos;s Curator of History mission.</description>
         </rule>
         <rule id="9c72-2b0e-e3d7-2504" name="Curator of History" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Each time Trazyn takes to the field, whether it is through a surrogate or in person, it is in pursuit of a relic of such importance that it must be preserved for the sake of history. The risk of exposing himself in these instances is immense, both by showing his hand to the other Dynasties and by revealing his presence to the lesser races. But the loss of even just a single relic is a devastating prospect which must be averted for the sake of all. Fielding Trazyn the Infinite dramatically alters the victory conditions for the side that includes the model, for the presence of such a recluse individual is a sure indication that there is a truly important artefact indeed. At the beginning of the game, at the same time that Warlord Traits and Psychic powers are determined, an Exhibit must be secretly noted down for each model with this special rule.
-The note is revealed at the end of the game when Victory points are being tallied. Each Exhibit represents an objective which that version of Trazyn must achieve, chosen from the list below. Each of the secret objectives has an associated Victory points score- if the objective is achieved, Trazyn&apos;s side earns the indicated number of bonus Victory points in addition to any claimed as part of the mission. If the secret objective is not achieved, the model&apos;s side may not claim a victory in the battle, regardless of any other factors.
+          <description>Each time Trazyn takes to the field, whether it is through a surrogate or in person, it is in pursuit of a relic of such importance that it must be preserved for the sake of history. The risk of exposing himself in these instances is immense, both by showing his hand to the other Dynasties and by revealing his presence to the lesser races. But the loss of even just a single relic is a devastating prospect which must be averted for the sake of all. Fielding Trazyn the Infinite dramatically alters the victory conditions for the side that includes the model, for the presence of such a recluse individual is a sure indication that there is a truly important artefact indeed. At the beginning of the game, at the same time that Warlord Traits and Psychic powers are determined, an Exhibit must be secretly noted down for each model with this 规则.
+The note is revealed at the end of the game when Victory points are being tallied. Each Exhibit represents an objective which that version of Trazyn must achieve, chosen from the list below. Each of the secret objectives has an associated Victory points score- if the objective is achieved, Trazyn&apos;s side earns the indicated number of bonus Victory points 此外 to any claimed as part of the mission. If the secret objective is not achieved, the model&apos;s side may not claim a victory in the battle, regardless of any other factors.
 
 Trinkets of Curiosity ............................................................. 1 Victory point
-If Points of Interest are being used, Trazyn must investigate at least two before the game concludes to achieve this Exhibits objective. In addition if this Exhibit is chosen any Points of Interest investigated by Trazyn may be drawn/rolled twice and the player may select one.
+If Points of Interest are being used, Trazyn must investigate at least two before the game concludes to achieve this Exhibits objective. 此外 if this Exhibit is chosen any Points of Interest investigated by Trazyn may be drawn/rolled twice and the player may select one.
 
 Trophies of War ................................................................. 1+ Victory points
 Each time an enemy 超重型(or 超级巨兽) is destroyed, place a wreckage marker on the spot where the model came to rest. These markers are considered objectives for Trazyn and his Acquisition Phalanx Lychguards and are worth 1 Victory Point for every 6 wounds or hull points the original model had.
@@ -3359,7 +3359,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
           </constraints>
           <rules>
             <rule id="de3d-fbec-e43e-0ad4" name="Royal Guard" hidden="false">
-              <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. In addition they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
+              <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. 此外 they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3691,7 +3691,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </constraints>
       <rules>
         <rule id="4698-ca07-913f-905a" name="Nodal Command: Silver" hidden="false">
-          <description>Units with this special rule can only be included in armies of 1,500 points or more, but allow the inclusion of all units with Awakening Level Silver. Units containing models with the Dynastic 军团 special rule within 9寸 of this model may use its leadership as their own and benefit from the rule Undying Majesty</description>
+          <description>Units with this 规则 can only be included in armies of 1,500 points or more, but allow the inclusion of all units with Awakening Level Silver. Units containing models with the Dynastic 军团 规则 within 9寸 of this model may use its leadership as their own and benefit from the rule Undying Majesty</description>
         </rule>
       </rules>
       <costs>
@@ -3735,7 +3735,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </profiles>
       <rules>
         <rule id="a091-b02b-21b8-9459" name="Indomitable Advance" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Models with this special rule replace the 缓慢沉着 special rule with 毫不留情.</description>
+          <description>Models with this 规则 replace the 缓慢沉着 规则 with 毫不留情.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3762,7 +3762,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
           </profiles>
           <rules>
             <rule id="19a0-ad11-9fec-b019" name="Command Wave" hidden="false">
-              <description>All friendly units with the Dynastic 军团 special rule within the Overlords Command range re-roll all failed Morale, 压制 and 恐怖 tests. If this model is the armies Warlord and has the Immortal Hubris Warlord Trait, it also gains the Advanced Networking Algorithms as an additional Trait.</description>
+              <description>All friendly units with the Dynastic 军团 规则 within the Overlords Command range re-roll all failed Morale, 压制 and 恐怖 tests. If this model is the armies Warlord and has the Immortal Hubris Warlord Trait, it also gains the Advanced Networking Algorithms as an additional Trait.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3898,7 +3898,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </constraints>
       <rules>
         <rule id="faff-dc00-6ebe-79af" name="Nodal Command: Gold" hidden="false">
-          <description>Units with this special rule can only be included in armies of 2,000 points or more, but allow the inclusion of all units with Awakening Level Gold. Units containing models with the Dynastic 军团 special rule within 12寸 of this model may use its leadership as their own and benefit from the rule Indomitable Advance</description>
+          <description>Units with this 规则 can only be included in armies of 2,000 points or more, but allow the inclusion of all units with Awakening Level Gold. Units containing models with the Dynastic 军团 规则 within 12寸 of this model may use its leadership as their own and benefit from the rule Indomitable Advance</description>
         </rule>
       </rules>
       <costs>
@@ -3931,7 +3931,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
         <profile id="c766-22a7-0ae9-895e" name="Canoptek Khepri Drones" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Each drone should be represented by a suitable model, on a 25mm base, which must remain in coherency with the Cryptek it is attached to. While the drones themselves cannot attack, they can be shot and hit in close combat, although their destruction does not count towards combat resolution. At the start of any phase, including their opponents, the player may elect to sacrifice a drone in order to allow the drones Cryptek, and any attached unit, to reroll 1&apos;s for their next Reannimation Protocol test.
-In addition, the controlling may sacrifice any number of drones in their shooting phase to use them as a single shooting attack with the Transdimensional Beamer profile and the owning Crypteks Ballistic Skill. This shots must be at the same unit as the Cyptek and any attached unit shot at, unless the Crytpek has the 分散火力 rule.</characteristic>
+此外, the controlling may sacrifice any number of drones in their 射击阶段 to use them as a single shooting attack with the Transdimensional Beamer profile and the owning Crypteks BS. This shots must be at the same unit as the Cyptek and any attached unit shot at, unless the Crytpek has the 分散火力 rule.</characteristic>
           </characteristics>
         </profile>
         <profile id="8066-903f-0d81-cc0e" name="Canoptek Khepri Drones" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
@@ -3986,7 +3986,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
       </profiles>
       <rules>
         <rule id="8222-2b27-6aab-c6dc" name="Necrodermis" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>This model has a 4+ invulnerable save. If it is ever reduced to 0 Wounds, before removing the model as a casualty, each nearby unit (friend or foe) suffers a Strength 4 AP1 hit for each model it has within D6寸 of this model.</description>
+          <description>This model has a 4+ 特殊保护. If it is ever reduced to 0 Wounds, before removing the model as a casualty, each nearby unit (friend or foe) suffers a Strength 4 AP1 hit for each model it has within D6寸 of this model.</description>
         </rule>
         <rule id="e2de-4b94-0e43-2293" name="Immune to Natural Law" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>When moving, this model can move over all other models and terrain freely, and automatically passes Dangerous Terrain tests. However, it cannot end its move on top of other models and can only end its move on top of impassable terrain if it is possible to actually place the model on top of it.</description>
@@ -4010,7 +4010,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
               </constraints>
               <rules>
                 <rule id="739f-a00d-40ec-7bcf" name="Gaze of Death" hidden="false">
-                  <description>In the Assault phase, after all other blows in the C&apos;tan Shards combat have been struck, centre the 大爆炸 marker on the C&apos;tan Shard. All other models beneath the marker (friend or foe) suffer a Strength 3 AP1 hit. For each unsaved Wound caused in this manner, the C&apos;tan Shard regains one Wound previously lost. These Wounds do not count towards Combat Resolution and they cannot take the C&apos;tan Shard above its starting Wounds.</description>
+                  <description>In the 突击阶段, after all other blows in the C&apos;tan Shards combat have been struck, centre the 大爆炸 marker on the C&apos;tan Shard. All other models beneath the marker (friend or foe) suffer a Strength 3 AP1 hit. For each unsaved Wound caused in this manner, the C&apos;tan Shard regains one Wound previously lost. These Wounds do not count towards Combat Resolution and they cannot take the C&apos;tan Shard above its starting Wounds.</description>
                 </rule>
               </rules>
               <costs>
@@ -4043,7 +4043,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
               </constraints>
               <rules>
                 <rule id="fa79-675b-8920-e2cc" name="Time&apos;s Arrow" hidden="false">
-                  <description>At the start of the Assault phase, after the assault moves have been made but before blows are struck, nominate one enemy model in base contact with the C&apos;tan Shard. That model must pass an Initiative test or be removed as a casualty with no saves of any kind allowed.</description>
+                  <description>At the start of the 突击阶段, after the assault moves have been made but before blows are struck, nominate one enemy model in base contact with the C&apos;tan Shard. That model must pass an Initiative test or be removed as a casualty with no saves of any kind allowed.</description>
                 </rule>
               </rules>
               <costs>
@@ -4118,7 +4118,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
               </constraints>
               <rules>
                 <rule id="e11b-6f05-3c0b-92c3" name="Swarm of Spirit Dust" hidden="false">
-                  <description>The C&apos;tan Shard is treated as having Assault and Defensive Grenades, in addition it also gains the 隐蔽 special rule.</description>
+                  <description>The C&apos;tan Shard is treated as having Assault and Defensive Grenades, 此外 it also gains the 隐蔽 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4228,7 +4228,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
               <description>During the player turn in which this unit arrives from 深度打击 Reserve, all shooting attacks made by the Deathmarks in this unit will wound on To Wound rolls of 2+, regardless of the victim’s Toughness.</description>
             </rule>
             <rule id="7e3c-2405-abef-d8a0" name="Ethereal Interception" hidden="false">
-              <description>If this unit is in 深度打击 Reserve, immediately after an enemy unit arrives from 深度打击 Reserve this unit may choose to immediately arrive using the rules for 深度打击 (if this unit does not enter play in this manner, make Reserve Rolls for it as normal in subsequent turns). At the end of that enemy Movement phase, any friendly Deathmarks unit that arrived on the board in this manner during that turn may fire its weapons at any enemy unit that arrived from Reserves that phase; any Deathmarks unit that does so cannot fire its weapons in its following turn.</description>
+              <description>If this unit is in 深度打击 Reserve, immediately after an enemy unit arrives from 深度打击 Reserve this unit may choose to immediately arrive using the rules for 深度打击 (if this unit does not enter play in this manner, make Reserve Rolls for it as normal in subsequent turns). At the end of that enemy 移动阶段, any friendly Deathmarks unit that arrived on the board in this manner during that turn may fire its weapons at any enemy unit that arrived from Reserves that phase; any Deathmarks unit that does so cannot fire its weapons in its following turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4287,7 +4287,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
       </profiles>
       <rules>
         <rule id="bb14-b242-ad0f-7686" name="Invasion Beamer" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>A unit that begins its Movement phase embarked upon a Night Scythe can disembark either before or after it has moved (including pivoting on the spot), even though it is Zooming, so long it has not moved more than 36寸 in that Movement phase. If a unit disembarks from a Night Scythe after it has moved 24寸 or more, models in the unit can only fire Snap Shots until the start of their next turn. Units embarked on a Night Scythe ignore all effects of damage on passengers. If a Night Scythe is destroyed, the units embarked upon it suffer no damage or ill effects – instead they are immediately placed into Teleportation Reserve.</description>
+          <description>A unit that begins its 移动阶段 embarked upon a Night Scythe can disembark either before or after it has moved (including pivoting on the spot), even though it is Zooming, so long it has not moved more than 36寸 in that 移动阶段. If a unit disembarks from a Night Scythe after it has moved 24寸 or more, models in the unit can only fire Snap Shots until the start of their next turn. Units embarked on a Night Scythe ignore all effects of damage on passengers. If a Night Scythe is destroyed, the units embarked upon it suffer no damage or ill effects – instead they are immediately placed into Teleportation Reserve.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4340,7 +4340,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
       </profiles>
       <rules>
         <rule id="47a3-3be3-7fda-5c82" name="Repair Barge" hidden="false">
-          <description>At the start of each friendly Movement phase, this model can repair fallen Necron Warriors. To do so, nominate a friendly unit of Necron Warriors that is either within 6寸 of this model or embarked upon it, and roll a D3. Add a number of Necron Warriors to the unit equal to the result – this cannot take the unit beyond its starting size nor, if it is currently embarked in the Ghost Ark, beyond the 载具’s 运输载具 Capacity (any excess are destroyed). These Necron Warriors must be placed within 6寸 of the Ghost Ark, or if the unit is currently embarked in the Ghost Ark, within it. If a model cannot be placed for any reason, it is destroyed. Necron Warriors repaired in this manner can move and act normally this turn.</description>
+          <description>At the start of each friendly 移动阶段, this model can repair fallen Necron Warriors. To do so, nominate a friendly unit of Necron Warriors that is either within 6寸 of this model or embarked upon it, and roll a D3. Add a number of Necron Warriors to the unit equal to the result – this cannot take the unit beyond its starting size nor, if it is currently embarked in the Ghost Ark, beyond the 载具’s 运输载具 Capacity (any excess are destroyed). These Necron Warriors must be placed within 6寸 of the Ghost Ark, or if the unit is currently embarked in the Ghost Ark, within it. If a model cannot be placed for any reason, it is destroyed. Necron Warriors repaired in this manner can move and act normally this turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4463,7 +4463,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
     <selectionEntry id="0c7c-a0a3-bf78-997e" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="c0ab-cfb8-fb5d-beac" name="Hyper-fractal Programming" hidden="false">
-          <description>Even when outside of Nodal Command range, models with this special rule are able to move as normal, ignoring the effects of 缓慢沉着 for movement only (they still cannot perform Sweeping Advance).</description>
+          <description>Even when outside of Nodal Command range, models with this 规则 are able to move as normal, ignoring the effects of 缓慢沉着 for movement only (they still cannot perform Sweeping Advance).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4486,7 +4486,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jetbike</characteristic>
+                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4512,7 +4512,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jetbike</characteristic>
+                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4709,7 +4709,7 @@ In addition, the controlling may sacrifice any number of drones in their shootin
       <profiles>
         <profile id="1a58-69b4-a88e-af15" name="Shield Vanes" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Shield vanes confer a 3+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Shield vanes confer a 3+ 装甲保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4745,10 +4745,10 @@ In addition, the controlling may sacrifice any number of drones in their shootin
       </constraints>
       <rules>
         <rule id="834f-ee1b-40a0-19ac" name="Psychic Anathema" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>• Models with this special rule are immune to all psychic powers and cannot be affected by them. They also ignore the effects of any Telepathy Discipline Blessings on enemy units which would negatively affect the models which have the Psychic Anathema special rule. This effect does not extend to 运输载具 载具 used by models with this special rule.
-• All units within 12寸 of any model with this special rule suffer -1 to their Leadership value, increasing to a -2 penalty if the model is a 灵能者. Models who have the 无畏 special rule or who themselves have the Psychic Anathema special rule, are not subject to this effect (although models who are just immune to 恐怖 are). Note this affects friend and foe equally.
-• Units within 12寸 of models with the Psychic Anathema targeted by a Pyschic power must re-roll failed Deny the Witch Tests • All units with the 恶魔 special rule within 12寸 of any model with Psychic Anathema suffer -1 to their Toughness, or if they have an Armour value instead of Toughness, they add +1 to all rolls on the 载具 Damage table they suffer when within this range.
-• All models with psychic powers suffer a penalty to their roll to manifest psychic powers when near any model with the Psychic Anathema special rule; this penalty is -1 when within 12寸, increasing to -2 when in base contact. For example, if a 灵能者 usually manifests their powers on a roll of 4+, this becomes 5+ when within 12寸 of any model with the Psychic Anathema special rule, and 6+ in base contact.</description>
+          <description>• Models with this 规则 are immune to all psychic powers and cannot be affected by them. They also ignore the effects of any Telepathy Discipline Blessings on enemy units which would negatively affect the models which have the Psychic Anathema 规则. This effect does not extend to 运输载具 载具 used by models with this 规则.
+• All units within 12寸 of any model with this 规则 suffer -1 to their Leadership value, increasing to a -2 penalty if the model is a 灵能者. Models who have the 无畏 规则 or who themselves have the Psychic Anathema 规则, are not subject to this effect (although models who are just immune to 恐怖 are). Note this affects friend and foe equally.
+• Units within 12寸 of models with the Psychic Anathema targeted by a Pyschic power must re-roll failed Deny the Witch Tests • All units with the 恶魔 规则 within 12寸 of any model with Psychic Anathema suffer -1 to their Toughness, or if they have an Armour value instead of Toughness, they add +1 to all rolls on the 载具 Damage table they suffer when within this range.
+• All models with psychic powers suffer a penalty to their roll to manifest psychic powers when near any model with the Psychic Anathema 规则; this penalty is -1 when within 12寸, increasing to -2 when in base contact. For example, if a 灵能者 usually manifests their powers on a roll of 4+, this becomes 5+ when within 12寸 of any model with the Psychic Anathema 规则, and 6+ in base contact.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4880,8 +4880,8 @@ In addition, the controlling may sacrifice any number of drones in their shootin
       </constraints>
       <rules>
         <rule id="e0b6-3ec8-268c-2c45" name="Dynastic 军团" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Models have the 缓慢沉着 special rule.
-In addition, models with this special rule may use the Leadership value of any Nodal Command unit, from the same Dynasty, within range along with any associated benefits of that particular Nodal Command Level. Once out of range those benefits are lost immediately.</description>
+          <description>Models have the 缓慢沉着 规则.
+此外, models with this 规则 may use the Leadership value of any Nodal Command unit, from the same Dynasty, within range along with any associated benefits of that particular Nodal Command Level. Once out of range those benefits are lost immediately.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4905,7 +4905,7 @@ In addition, models with this special rule may use the Leadership value of any N
       </constraints>
       <rules>
         <rule id="1318-0ade-4678-b7e7" name="Royal Guard" hidden="false">
-          <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. In addition they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
+          <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. 此外 they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5071,8 +5071,8 @@ In addition, models with this special rule may use the Leadership value of any N
     <selectionEntry id="6ed4-c372-d443-e26d" name="Canoptek Spyders" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="c3ea-1a89-a50d-4450" name="Scarab Hive" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Once per friendly Movement phase, each Canoptek Spyder can use this special rule to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6寸 of the Canoptek Spyder. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6寸 of the Canoptek Spyder. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time a Canoptek Spyder uses its Scarab Hive special rule, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Canoptek Spyder suffers a single Wound with no saves of any kind allowed
- In addition, for each unit of Spyders in the army, a unit of Canoptek Scarabs may be taken which do count towards the maximum number of units in their respective Force Organisation slot.</description>
+          <description>Once per friendly 移动阶段, each Canoptek Spyder can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6寸 of the Canoptek Spyder. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6寸 of the Canoptek Spyder. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time a Canoptek Spyder uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Canoptek Spyder suffers a single Wound with no saves of any kind allowed
+ 此外, for each unit of Spyders in the army, a unit of Canoptek Scarabs may be taken which do count towards the maximum number of units in their respective Force Organisation slot.</description>
         </rule>
         <rule id="a318-f497-a0b2-d18e" name="Nodal Relay" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>If a Canoptek Spyder is within Command range of a Nodal Command model it will extend that range an additional 6寸 from the Spyder model, acting as a relay point.</description>
@@ -5330,7 +5330,7 @@ In addition, models with this special rule may use the Leadership value of any N
       </constraints>
       <rules>
         <rule id="9164-fa2c-62ec-174f" name="Sepulchral Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>The Canoptek Tomb Sentinel gains the 他不会死 special rule.</description>
+          <description>The Canoptek Tomb Sentinel gains the 他不会死 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5356,7 +5356,7 @@ In addition, models with this special rule may use the Leadership value of any N
           <description>When moving, Canoptek Wraiths can move over all other models and terrain as if they were open ground. However, they cannot end their move on top of other models and can only end their move on top of impassable terrain if it is possible to actually place the models on top of it.</description>
         </rule>
         <rule id="166f-43f9-7d49-564e" name="Wraith Form" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Canoptek Wraiths have a 3+ invulnerable save.</description>
+          <description>Canoptek Wraiths have a 3+ 特殊保护.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5548,11 +5548,11 @@ In addition, models with this special rule may use the Leadership value of any N
             <profile id="7dc6-49fa-a818-ec3d" name="Null Field Emitter" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If two models with a Null Field Emitter are within 24寸 of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its line of sight across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla weapons.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
+此外, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
 
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
-• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. In addition all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</characteristic>
+• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. 此外 all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5589,7 +5589,7 @@ If there are three or more models all projecting Nightshrouds between them, they
       <profiles>
         <profile id="7473-20cd-4fab-2857" name="Eternity Gate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">For each Eternity Gate, at the start of each friendly turn, you may choose one friendly unit with the Necrons Faction consisting entirely of models with either the 步兵 or 跳跃步兵 unit type that is in Teleportation Reserve, or is on the table and not locked in combat. If the chosen unit is in Teleportation Reserve, it automatically arrives this turn (no dice roll is required) and it is placed as if it were disembarking from the portal at the start of the Movement phase. If the chosen unit is currently on the battlefield, it is first removed from the table and then placed into Teleportation Reserve, any Reanimation Protocol rolls which need to be made are done so with the benefits of a Resurrection Amplifier. Any models that cannot be placed are removed as casualties, but the unit is otherwise treated exactly as if it were disembarking from a 运输载具 载具.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">For each Eternity Gate, at the start of each friendly turn, you may choose one friendly unit with the Necrons Faction consisting entirely of models with either the 步兵 or 跳跃步兵 unit type that is in Teleportation Reserve, or is on the table and not locked in combat. If the chosen unit is in Teleportation Reserve, it automatically arrives this turn (no dice roll is required) and it is placed as if it were disembarking from the portal at the start of the 移动阶段. If the chosen unit is currently on the battlefield, it is first removed from the table and then placed into Teleportation Reserve, any Reanimation Protocol rolls which need to be made are done so with the benefits of a Resurrection Amplifier. Any models that cannot be placed are removed as casualties, but the unit is otherwise treated exactly as if it were disembarking from a 运输载具 载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5798,7 +5798,7 @@ If there are three or more models all projecting Nightshrouds between them, they
           <rules>
             <rule id="726a-1294-6729-d1d7" name="Tesseract Singularity Chamber" hidden="false">
               <description>The Tesseract Singularity Chamber is treated as a weapon and can be taken out of action by a Weapon Destroyed damage result with potentially catastrophic consequences, and while active provides the several abilities as well as being used as a ranged weapon:
-• Containment Fields: The containment field of the Singularity Chamber provides the Tessearct Ark with a 5+ Invulnerable Save.
+• Containment Fields: The containment field of the Singularity Chamber provides the Tessearct Ark with a 5+ 特殊保护.
 • Gravitational Flux: Any model trying to assault or ram the Tesseract Ark must take a Dangerous Terrain test, and any unit charging the Ark is always forced into making a Disordered Charge by doing so.
 • Unleashed Power: The Tesseract Singularity Chamber can unleash its energies as a shooting attack from the 载具 forward arc. Pick one of the following energy modes each time the Ark fires:</description>
             </rule>
@@ -5859,8 +5859,8 @@ If there are three or more models all projecting Nightshrouds between them, they
       </profiles>
       <rules>
         <rule id="2da2-0f4f-043d-658e" name="Terrestrial Assault" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Instead of the usual rules for Deep Striking,when this unit enters play via 深度打击, place an 启示录级爆炸 (10寸) marker on the table and scatter it to determine the final position of the units arrival, as per the 深度打击 special rule. Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle posed. A single 载具 or 工事槽位 which obstructs the arrival of the unit in this manner (pick the closest to the original position) immediately suffers a S10 AP- hit. 载具 are hit on their Side armour. All units engaged in a combat which obstructs the marker suffer D6 S6 AP4 hits. If the final position of the marker covers or touches any enemy or friendly unit, then that unit suffers D6 S6 AP4 hits.
-Should the unit be placed on top of any unit which does not pose an obstacle to its arrival, as described above, the Terrestrial Assault special rule allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the unit when it reaches its final position (it makes no difference whether the unit is Falling Back or not), these models must be moved out of the way by the controlling player by the shortest distance, leaving at least 1寸 between them and the 载具 (and indeed any other unit), whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
+          <description>Instead of the usual rules for Deep Striking,when this unit enters play via 深度打击, place an 启示录级爆炸 (10寸) marker on the table and scatter it to determine the final position of the units arrival, as per the 深度打击 规则. Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle posed. A single 载具 or 工事槽位 which obstructs the arrival of the unit in this manner (pick the closest to the original position) immediately suffers a S10 AP- hit. 载具 are hit on their Side armour. All units engaged in a combat which obstructs the marker suffer D6 S6 AP4 hits. If the final position of the marker covers or touches any enemy or friendly unit, then that unit suffers D6 S6 AP4 hits.
+Should the unit be placed on top of any unit which does not pose an obstacle to its arrival, as described above, the Terrestrial Assault 规则 allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the unit when it reaches its final position (it makes no difference whether the unit is Falling Back or not), these models must be moved out of the way by the controlling player by the shortest distance, leaving at least 1寸 between them and the 载具 (and indeed any other unit), whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5892,7 +5892,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
       <profiles>
         <profile id="2080-c257-65a1-49ad" name="Phase Shift Generator" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Pylon itself and all Necron models within 12寸 of the Gauss Pylon receive a 5+ Invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Pylon itself and all Necron models within 12寸 of the Gauss Pylon receive a 5+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5915,10 +5915,10 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
       </profiles>
       <rules>
         <rule id="d6b5-6c7a-13d1-890e" name="Gravity Pulse" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>All enemy 飞行器, 悬浮, Jetbike and 飞行巨兽 units treat all terrain within 18寸 of an Obelisk, including open ground, as dangerous terrain. Zooming 飞行器 and Swooping 巨兽 must also take a Dangerous Terrain test if they move within 18寸 of an Obelisk, even though they do not normally take dangerous terrain tests.</description>
+          <description>All enemy 飞行器, 悬浮, 喷气摩托 and 飞行巨兽 units treat all terrain within 18寸 of an Obelisk, including open ground, as dangerous terrain. Zooming 飞行器 and Swooping 巨兽 must also take a Dangerous Terrain test if they move within 18寸 of an Obelisk, even though they do not normally take dangerous terrain tests.</description>
         </rule>
         <rule id="088e-d7f2-bdc9-07df" name="Sleeping Sentry" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>When you deploy an Obelisk, you can choose whether it is powered up or powered down. If it is powered up, it follows the normal rules for a 载具 of its type. If it is powered down, it may not move or shoot, but has a 3+ invulnerable save. You can choose to power up the Obelisk at the start of any of your Movement phases. An Obelisk that arrives by 深度打击 is automatically considered to be powered up. Once powered up, an Obelisk cannot power down later in the game.</description>
+          <description>When you deploy an Obelisk, you can choose whether it is powered up or powered down. If it is powered up, it follows the normal rules for a 载具 of its type. If it is powered down, it may not move or shoot, but has a 3+ 特殊保护. You can choose to power up the Obelisk at the start of any of your Movement phases. An Obelisk that arrives by 深度打击 is automatically considered to be powered up. Once powered up, an Obelisk cannot power down later in the game.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5967,7 +5967,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
               </conditions>
             </modifier>
           </modifiers>
-          <description> The containment field of the Singularity Chamber provides the Construct with a 5+ Invulnerable Save.</description>
+          <description> The containment field of the Singularity Chamber provides the Construct with a 5+ 特殊保护.</description>
         </rule>
         <rule id="93d6-2d43-3a8d-8712" name="Gravitational Flux" hidden="true">
           <modifiers>
@@ -6075,7 +6075,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
       </profiles>
       <rules>
         <rule id="eda9-95f7-54e9-a733" name="Vengeance of the Enchained" hidden="false">
-          <description>When a Tesseract Vault loses its last Hull Point, it always suffers a Titanic Explosion! – there is no need to roll on the Catastrophic Damage table. Roll to scatter the explosion as normal, however before resolving the damage, place a Transcendant C&apos;tan model at the center of the marker. If there are any models or impassable terrain underneath the C&apos;tan, move it and the marker the shortest distance possible so that it can be placed. Then resolve the explosion damage with a +1 on the To Wound roll for the C&apos;tan, in addition it gets no saves of any kind.
+          <description>When a Tesseract Vault loses its last Hull Point, it always suffers a Titanic Explosion! – there is no need to roll on the Catastrophic Damage table. Roll to scatter the explosion as normal, however before resolving the damage, place a Transcendant C&apos;tan model at the center of the marker. If there are any models or impassable terrain underneath the C&apos;tan, move it and the marker the shortest distance possible so that it can be placed. Then resolve the explosion damage with a +1 on the To Wound roll for the C&apos;tan, 此外 it gets no saves of any kind.
 The Transcendant C&apos;tan is no longer under the control of the Necron player. At the end of each subsequent Game Turn, roll a D6, if it is equal to or more than the current Turn the C&apos;tan flees the battlefield to plot it vengeance against its former captors, otherwise it will move and attack the closest Necron unit.</description>
         </rule>
       </rules>
@@ -6109,7 +6109,7 @@ The Transcendant C&apos;tan is no longer under the control of the Necron player.
       </profiles>
       <rules>
         <rule id="56e7-417b-bd0e-3f73" name="Transcendant Necrodermis" hidden="false">
-          <description>This model has a 4+ Invulnerable save. If the C&apos;tan loses its last Wound, all models within 4D6寸 suffer a Strength 10 AP2 hit.</description>
+          <description>This model has a 4+ 特殊保护. If the C&apos;tan loses its last Wound, all models within 4D6寸 suffer a Strength 10 AP2 hit.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6159,7 +6159,7 @@ The Transcendant C&apos;tan is no longer under the control of the Necron player.
               <profiles>
                 <profile id="9edc-95bb-0d91-956d" name="Storm of Heavenly Fire" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the end of the C&apos;tan&apos;s Movement phase, place a 大爆炸 marker centered over the model. All models under the marker (friend and foe, othe than the C&apos;tan) immediately suffer a single Strength 6 AP3 hit with the 忽视掩体 special rule.</characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the end of the C&apos;tan&apos;s 移动阶段, place a 大爆炸 marker centered over the model. All models under the marker (friend and foe, othe than the C&apos;tan) immediately suffer a single Strength 6 AP3 hit with the 忽视掩体 规则.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6390,7 +6390,7 @@ The Transcendant C&apos;tan is no longer under the control of the Necron player.
           <characteristics>
             <characteristic name="Composition" typeId="d34f-9153-d292-adab">One Ziggurat, One Power Crucible, Two Obelisk Markers. The Ziggurat and Power Crucible must be placed within a 24寸 square in opposite corners with the Obelisk Markers in the remaining two corners. Alternatively the Forge World Tomb Citadel Realm of Battle tile can be used. </characteristic>
             <characteristic name="Terrain type" typeId="98d6-2143-3017-6d46">Unique. The surface of the Tomb Citadel (the area wityhin the 24寸 square) counts as Open terrain with the usual rules for line of sight applying accordingly. To move onto or off of the Tomb Citadel counts as moving through Difficult Terrain.
-Enemy models attempting to 深度打击 onto the Tomb Citadel will suffer a 深度打击 Mishap on any &apos;double&apos; rolled on the Scatter dice in addition to that due to any other cause.</characteristic>
+Enemy models attempting to 深度打击 onto the Tomb Citadel will suffer a 深度打击 Mishap on any &apos;double&apos; rolled on the Scatter dice 此外 to that due to any other cause.</characteristic>
             <characteristic name="Access Points &amp; Fire Points" typeId="beac-711d-f76d-e254">None</characteristic>
             <characteristic name="Weapons" typeId="0ecb-8865-b3eb-97c9">None</characteristic>
             <characteristic name="Options" typeId="a782-1362-048c-ff45"/>
@@ -6403,7 +6403,7 @@ Enemy models attempting to 深度打击 onto the Tomb Citadel will suffer a 深�
           <description>If the Tomb Citadel is upgraded to have two Blackstone Pylons they immediately create a Nightshroud and Nodal Grid as if there were Pylons in the remaining two corners. Should one Pylon be destroyed the other will still operate, but should it too be destroyed all effects are lost.</description>
         </rule>
         <rule id="c6d2-8f7b-bedd-379a" name="Augmented Power Crucible" hidden="false">
-          <description>Until the Power Crucible is Destroyed its Phase Shift Generator is replaced by an effect which instead covers the Tomb Citadel, granting all Necron units a 3+ Invulnerable against Shooting attacks. In addition the Resurrection Amplifier affects all friendly Necron units on the surface of the Tomb Citadel. Its normal 12寸 area is removed.</description>
+          <description>Until the Power Crucible is Destroyed its Phase Shift Generator is replaced by an effect which instead covers the Tomb Citadel, granting all Necron units a 3+ Invulnerable against Shooting attacks. 此外 the Resurrection Amplifier affects all friendly Necron units on the surface of the Tomb Citadel. Its normal 12寸 area is removed.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -6517,10 +6517,10 @@ Enemy models attempting to 深度打击 onto the Tomb Citadel will suffer a 深�
                   <rules>
                     <rule id="65c0-50a9-e109-7f24" name="Null Field Emitters" hidden="false">
                       <description>If two models with Null Field Emitters are within 24寸 of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its line of sight across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla weapons.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
+此外, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line must take a Leadership test or treat it as impassable terrain.
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
-• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. In addition all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</description>
+• Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate Warp Charges and all Pyschic effects are nullified. 此外 all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -6579,10 +6579,10 @@ If there are three or more models all projecting Nightshrouds between them, they
       <rules>
         <rule id="7aa6-7238-b76d-a14c" name="Ziggurat Dock" hidden="false">
           <description>When deploying their forces, the Ziggurat&apos;s controlling player may opt to have either a Monolith or a Sentry Pylon docked atop the Ziggurat. While docked, all weapons used by the docked war machine are at +1 Strength but while docked, should the Ziggurat be destroyed, the war machine will take an automatic S10 AP2 hit.
-A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock and move normally at the start of its Movement phase, after which it cannot redock but gains the use of its Eternity Gate.</description>
+A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock and move normally at the start of its 移动阶段, after which it cannot redock but gains the use of its Eternity Gate.</description>
         </rule>
         <rule id="0eed-7a50-0f67-68f1" name="Scarab Hive" hidden="false">
-          <description>Once per friendly Movement phase, the Ziggurat can use this special rule to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6寸 of the Ziggurat. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6寸 of the Ziggurat. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time the Ziggurat uses its Scarab Hive special rule, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Ziggurat cannot produce anymore Scarabs.</description>
+          <description>Once per friendly 移动阶段, the Ziggurat can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6寸 of the Ziggurat. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6寸 of the Ziggurat. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time the Ziggurat uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Ziggurat cannot produce anymore Scarabs.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -6780,12 +6780,12 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
         </profile>
         <profile id="b646-6401-eb33-f81a" name="Shroud Armour" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Shroud Armour grants its wearer a 3+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Shroud Armour grants its wearer a 3+ 装甲保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="7933-ab7a-554e-8b17" name="Shroud Cloak" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The wearer gains a 4+ Invulnerable Save.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The wearer gains a 4+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6797,7 +6797,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
           <description>This model can never be targeted or affected by psychic powers.</description>
         </rule>
         <rule id="6e72-73d2-e621-558f" name="Necrotic Aura" hidden="false">
-          <description>Surrounded by a mist of Necrotic chemicals exuded by its body, the model immune to all 毒伤 and othe chemical effects (辐射噬菌体, Rad-grenades included). In addition if the model is ever reduced to zero Wounds, each model within D6寸 suffers a 毒伤 4+ AP- hit.</description>
+          <description>Surrounded by a mist of Necrotic chemicals exuded by its body, the model immune to all 毒伤 and othe chemical effects (辐射噬菌体, Rad-grenades included). 此外 if the model is ever reduced to zero Wounds, each model within D6寸 suffers a 毒伤 4+ AP- hit.</description>
         </rule>
         <rule id="c3c9-d80f-22cb-2323" name="Cranial Hunger" hidden="false">
           <description>Gain +1 VP at the end of the game if the enemy&apos;s Warlord was removed as a casualty as a result of a Wound inflicted by a model with this rule.</description>
@@ -7027,7 +7027,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
     <selectionEntry id="829e-510c-9657-9e45" name="Triarch Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="d8b9-f6a8-370c-a6c5" name="Targeting Relay" hidden="false">
-          <description>All friendly non-载具 units in the Necron army within 6寸 of at least one Triarch Stalker add 1 to their Ballistic Skill, unless they are firing Snap Shots.</description>
+          <description>All friendly non-载具 units in the Necron army within 6寸 of at least one Triarch Stalker add 1 to their BS, unless they are firing Snap Shots.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7244,42 +7244,42 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
       <description>Only a single unit with Annihilation Protocol may be taken in armies using the Nodal Command Force Organisation Chart that contains any Fortifications.</description>
     </rule>
     <rule id="667c-046f-f5be-4f4e" name="Teleportation Reserves" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>A unit which has been placed into Teleportation Reserve may only enter play through another unit, 工事槽位 or effect which has this special rule. Most commonly this would be through an Eternity Gate on a Monolith or attached to a 工事槽位.</description>
+      <description>A unit which has been placed into Teleportation Reserve may only enter play through another unit, 工事槽位 or effect which has this 规则. Most commonly this would be through an Eternity Gate on a Monolith or attached to a 工事槽位.</description>
     </rule>
     <rule id="d0e0-b3d2-1273-9e33" name="Reanimation Protocols" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>When a model with this special rule suffers an unsaved Wound, there is a chance that it will self repair and return to play at the end of the current phase. Whenever a unit takes one or more casualties, either lay the models down or replace them with counters/markers to indicate how many casualties were taken. If the unit makes a fall back move, remove any counters from it - any damaged Necrons are left behind and self-destruct. At the start of the players following turn, after Reserves but before Movement, roll a D6 for each Reanimation Protocol counter next to the unit. On a 1-4 the damage is too severe and no self-repair occurs - nothing happens. On a 5+, a Necron reassembles itself and continues to fight - return one model, with a single wound, for each successful Reanimation Protocol roll made to the unit. Each returning model must be placed within unit coherency of a 人物 or another model which did not self-repair from the same unit, and at least 1寸 away from enemy models. If the model&apos;s unit is engaged in Close Combat, the model immediately makes a pile in move. Models that cannot be placed in this way do not return. Reanimation Protocol rolls cannot be attempted if the unit was detroyed - once the last model has been removed as a casualty, remove all of the counters unless it is affected by Technomancer rule . Note that while 人物 do not count as part of the unit for the purposes of Reanimation Protocols, they may always attempt to self-repair whether their accompanying unit was destroyed or not, or even if they were by themselves.</description>
+      <description>When a model with this 规则 suffers an unsaved Wound, there is a chance that it will self repair and return to play at the end of the current phase. Whenever a unit takes one or more casualties, either lay the models down or replace them with counters/markers to indicate how many casualties were taken. If the unit makes a fall back move, remove any counters from it - any damaged Necrons are left behind and self-destruct. At the start of the players following turn, after Reserves but before Movement, roll a D6 for each Reanimation Protocol counter next to the unit. On a 1-4 the damage is too severe and no self-repair occurs - nothing happens. On a 5+, a Necron reassembles itself and continues to fight - return one model, with a single wound, for each successful Reanimation Protocol roll made to the unit. Each returning model must be placed within unit coherency of a 人物 or another model which did not self-repair from the same unit, and at least 1寸 away from enemy models. If the model&apos;s unit is engaged in Close Combat, the model immediately makes a pile in move. Models that cannot be placed in this way do not return. Reanimation Protocol rolls cannot be attempted if the unit was detroyed - once the last model has been removed as a casualty, remove all of the counters unless it is affected by Technomancer rule . Note that while 人物 do not count as part of the unit for the purposes of Reanimation Protocols, they may always attempt to self-repair whether their accompanying unit was destroyed or not, or even if they were by themselves.</description>
     </rule>
     <rule id="50eb-0732-d269-4c45" name="Nodal Command" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>Models with this special rule will have an accompanying rank, Bronze, Silver or Gold. Each rank will have a unique benefit which can be bestowed onto units containing models with the Dynastic 军团 rule (and from the same Dynasty) along with a range for which these benefits take affect. These benefits will be listed in the units profile alongside its other special rules. In addition the highest Nodal Command level must be the armies Warlord.
-In addition all units which are within Nodal Command range gain the 坚毅 special rule while they are inside the range, should the Nodal Command be severed, the unit will lose the 坚毅 rule.</description>
+      <description>Models with this 规则 will have an accompanying rank, Bronze, Silver or Gold. Each rank will have a unique benefit which can be bestowed onto units containing models with the Dynastic 军团 rule (and from the same Dynasty) along with a range for which these benefits take affect. These benefits will be listed in the units profile alongside its other special rules. 此外 the highest Nodal Command level must be the armies Warlord.
+此外 all units which are within Nodal Command range gain the 坚毅 规则 while they are inside the range, should the Nodal Command be severed, the unit will lose the 坚毅 rule.</description>
     </rule>
     <rule id="3968-2abf-2a9f-ae4e" name="Living Metal" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>A model with this special rule ignores the effects of Crew Shaken (but still loses a Hull Point). At the end of each of your turns, roll a D6 for each of your 重型 or 超重型载具 with this special rule that has less than its starting number of Hull Points, but has not been destroyed. On a roll of a 6, that model regains a Hull Point lost earlier in the game.</description>
+      <description>A model with this 规则 ignores the effects of Crew Shaken (but still loses a Hull Point). At the end of each of your turns, roll a D6 for each of your 重型 or 超重型载具 with this 规则 that has less than its starting number of Hull Points, but has not been destroyed. On a roll of a 6, that model regains a Hull Point lost earlier in the game.</description>
     </rule>
     <rule id="6b11-84af-1688-9c6f" name="Entropic Strike" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>If a model has this special rule, or is attacking with a 肉搏 weapon that has this special rule, a To Wound roll of a 6 Wounds automatically, regardless of the target’s Toughness. Against 载具 and buildings, an Armour Penetration roll of 6 that does not cause a penetrating hit automatically causes a glancing hit.</description>
+      <description>If a model has this 规则, or is attacking with a 肉搏 weapon that has this 规则, a To Wound roll of a 6 Wounds automatically, regardless of the target’s Toughness. Against 载具 and buildings, an Armour Penetration roll of 6 that does not cause a penetrating hit automatically causes a glancing hit.</description>
     </rule>
     <rule id="63d6-6625-10bb-8d3e" name="Awakening Protocol" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>This rule will be accompanied a Nodal Command level, Bronze, Silver or Gold. Units with this rule can only be included in lists which a 指挥槽位 model with the corresponding Nodal Command level. In addition the unit entry will include a Necron Ankh of the corresponding colour, black signifying they are available from awakening.</description>
+      <description>This rule will be accompanied a Nodal Command level, Bronze, Silver or Gold. Units with this rule can only be included in lists which a 指挥槽位 model with the corresponding Nodal Command level. 此外 the unit entry will include a Necron Ankh of the corresponding colour, black signifying they are available from awakening.</description>
     </rule>
     <rule id="e4fc-6585-aac2-ecbe" name="Gauss" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>When firing a weapon with this special rule, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness. Against 载具 and buildings, an Armour Penetration roll of a 6 inflicts a Glancing hit. 超重型and 超级巨兽s are immune to this effect.
+      <description>When firing a weapon with this 规则, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness. Against 载具 and buildings, an Armour Penetration roll of a 6 inflicts a Glancing hit. 超重型and 超级巨兽 are immune to this effect.
 </description>
     </rule>
     <rule id="db75-ec9d-ae0b-0c6a" name="独立 Targeting" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>A weapon with this special rule can fire at a different target to the 载具’s other weapons.</description>
+      <description>A weapon with this 规则 can fire at a different target to the 载具’s other weapons.</description>
     </rule>
     <rule id="6422-5ce8-7b67-2b3e" name="Fractal Lock" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
       <description>This weapon ignores the Hard to Hit rule.</description>
     </rule>
     <rule id="136a-1e73-dd95-f141" name="Quake" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>All enemy units hit by a weapon with the Quake type treat open ground as Difficult terrain during their next Movement phase.</description>
+      <description>All enemy units hit by a weapon with the Quake type treat open ground as Difficult terrain during their next 移动阶段.</description>
     </rule>
     <rule id="7f0d-89f6-5811-f6f1" name="Tesla" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>When firing a weapon with this special rule, a To Hit roll of a 6 causes 2 additional hits on the target. Snap Shots never cause additional hits as a result of this special rule.</description>
+      <description>When firing a weapon with this 规则, a To Hit roll of a 6 causes 2 additional hits on the target. Snap Shots never cause additional hits as a result of this 规则.</description>
     </rule>
     <rule id="5787-7bfb-ea91-2792" name="Exile Ray" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>When firing a weapon with this special rule, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness, and the Wound has the 即死 special rule. Against 载具 and buildings, an Armour Penetration roll of a 6 causes a penetrating hit, regardless of the target’s Armour Value.</description>
+      <description>When firing a weapon with this 规则, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness, and the Wound has the 即死 规则. Against 载具 and buildings, an Armour Penetration roll of a 6 causes a penetrating hit, regardless of the target’s Armour Value.</description>
     </rule>
     <rule id="ca17-7a52-ec00-bf1d" name="Exile 爆炸" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
       <description>All models hit by this weapon must pass a Strength test or be removed as casualties, rerolling any Invulnerable Saves. Models with no Strength value automatically pass the test, however if they were a 载具 or building they suffer an automatic penetrating hit.</description>

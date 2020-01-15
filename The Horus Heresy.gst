@@ -2097,7 +2097,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit 获得反击规则 and fire Overwatch using their full BS, rather than BS 1.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit 获得反击规则 and fire 坚守射击 using their full BS, rather than BS 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="dcf4-8194-115c-45cc" name="2. Forewarning" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2291,7 +2291,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from(roll once for the whole unit).  1-2: The unit must take a 压制 Test. 3-4: 只要释放成功, all models in the unit suffer a -1 penalty to their Weapon Skill, BS, Initiative and Attacks(to a minimum of 1). 5-6: Randomly select one 人物 in the target unit. That model suffers a single Strength 3 hit for every other model in the target unit. 掩体保护s cannot be taken against these hits, and they can never be allocated to another model. If there are no 人物 models in the target unit, or if there are no other modelsapart from the 人物 model, treat this result as 3-4 instead.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from(roll once for the whole unit).  1-2: The unit must take a 压制 Test. 3-4: 只要释放成功, all models in the unit suffer a -1 penalty to their WS, BS, Initiative and Attacks(to a minimum of 1). 5-6: Randomly select one 人物 in the target unit. That model suffers a single Strength 3 hit for every other model in the target unit. 掩体保护s cannot be taken against these hits, and they can never be allocated to another model. If there are no 人物 models in the target unit, or if there are no other modelsapart from the 人物 model, treat this result as 3-4 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c98-79ed-ecc1-8507" name="1. Dominate" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2299,7 +2299,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire Overwatch does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire 坚守射击 does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7251-be85-3b42-d921" name="3. Terrify" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2339,7 +2339,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Targets a single 敌方 unit. Whilst this power is in effect, all models in the target unit reduce their Ballastic Skill and Weapon Skill to 1.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Targets a single 敌方 unit. Whilst this power is in effect, all models in the target unit reduce their Ballastic Skill and WS to 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2798,7 +2798,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="1f44-916a-9413-cee3" name="Plasma Overheat" hidden="false">
-          <description>If this 建筑 suffers a glancing hit as a result of the plasma obliterator&apos;s 过热规则 then, in addition to any other effects, any unit embarked in the 建筑 suffers D3 Wounds. These Wounds are Randomly Allocated.</description>
+          <description>If this 建筑 suffers a glancing hit as a result of the plasma obliterator&apos;s 过热规则 then, 此外 to any other effects, any unit embarked in the 建筑 suffers D3 Wounds. These Wounds are Randomly Allocated.</description>
         </rule>
       </rules>
       <entryLinks>
@@ -2841,7 +2841,7 @@ While counted as a single 建筑, multiple units may be embarked within the Prim
 Redoubt. Multiple units may enter or exit the 建筑 each turn, so long as each uses a different Access Point.</description>
         </rule>
         <rule id="f321-4a11-3252-3915" name="Reactor Breach" hidden="false">
-          <description>Should the Primus Redoubt suffer a Detonation! result on the 建筑 损伤表, in addition to the effects described and after they have been resolved, roll on the Catastrophic 损伤表, centring the 启示录级大爆炸 marker in the centre of the turbo laser turret.</description>
+          <description>Should the Primus Redoubt suffer a Detonation! result on the 建筑 损伤表, 此外 to the effects described and after they have been resolved, roll on the Catastrophic 损伤表, centring the 启示录级大爆炸 marker in the centre of the turbo laser turret.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2865,7 +2865,7 @@ Redoubt. Multiple units may enter or exit the 建筑 each turn, so long as each 
           </profiles>
           <rules>
             <rule id="7368-118f-28b6-7b82" name="Battle Crew" hidden="false">
-              <description>This weapon is controlled by a crew of dedicated gunners, located far below the turret and protected by metres-thick 重型 armour. The owning side always fires the turbo laser destructor and it may not be fired by embarked models. The crew count as having a BS3, increased to 4 when firing at 超重型载具 or 超级巨兽s. The weapon may fire independently and need not target the same 敌方 as the redoubt’s other weapons.
+              <description>This weapon is controlled by a crew of dedicated gunners, located far below the turret and protected by metres-thick 重型 armour. The owning side always fires the turbo laser destructor and it may not be fired by embarked models. The crew count as having a BS3, increased to 4 when firing at 超重型载具 or 超级巨兽. The weapon may fire independently and need not target the same 敌方 as the redoubt’s other weapons.
 
 In the event of 敌方 models embarking inside the Primus Redoubt, the Battle Crew are slain and the weapon may not be fired again for the remainder of the battle.</description>
             </rule>
@@ -5141,7 +5141,7 @@ D6    结果  S AP
             <infoLink id="30eb-80db-5372-9f10" name="New InfoLink" hidden="false" targetId="2189-13e6-c68c-ab23" type="rule"/>
             <infoLink id="af99-aca2-528a-c233" name="New InfoLink" hidden="false" targetId="0122-421f-88f2-9c68" type="rule">
               <modifiers>
-                <modifier type="append" field="name" value="Mastery level 3"/>
+                <modifier type="append" field="name" value="精通等级 3"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -7764,7 +7764,7 @@ Command Benefits:
       <description>冲锋时造成D3下愤怒之锤攻击(1个单位只投1次)</description>
     </rule>
     <rule id="73db-afdc-2c95-993c" name="Graviton Hammer" publicationId="ca571888--pubN66489" page="35" hidden="false">
-      <description>In addition to its weapon attacks, units 突击ing a model or unit with a Graviton Hammer always count as making a Disordered Charge when doing so.</description>
+      <description>此外 to its weapon attacks, units 突击ing a model or unit with a Graviton Hammer always count as making a Disordered Charge when doing so.</description>
     </rule>
     <rule id="9c80-5c1a-3b9d-971e" name="笼罩" publicationId="ca571888--pubN106502" page="171" hidden="false">
       <description>至少包含1个具有该规则的模型的单位的掩体保护比通常情况获得2 加成,意味着它即使在无掩体的开阔地上也有5+掩体保护.笼罩规则可以和隐蔽规则叠加</description>
@@ -7923,7 +7923,7 @@ Furthermore, to represent the crushing impact of such a charge, a model that use
       <description>At the start of any Fight sub-phase, this model gains an additional D3 attacks if they are locked in combat with more than one 敌方 model. A model that has made a disordered charge that turn receives no benefit from Berserk Fighter.</description>
     </rule>
     <rule id="2353-5421-d842-34fb" name="Blinding Distraction" hidden="false">
-      <description>Any target hit in 肉搏 by this model must take an Initiative test at the end of the current phase. If the test is passed, all is well – they have seen through the distraction. If the Initiative test is failed, the target is reduced to Weapon Skill and BS 1 until the end of their next turn. Any model that does not have an Initiative characteristic(for example, 非步行机甲 载具, 建筑s etc.) is unaffected by this规则.</description>
+      <description>Any target hit in 肉搏 by this model must take an Initiative test at the end of the current phase. If the test is passed, all is well – they have seen through the distraction. If the Initiative test is failed, the target is reduced to WS and BS 1 until the end of their next turn. Any model that does not have an Initiative characteristic(for example, 非步行机甲 载具, 建筑s etc.) is unaffected by this规则.</description>
     </rule>
     <rule id="8e59-1172-280d-75e8" name="灵能者兄弟会/巫师兄弟会" publicationId="ca571888--pubN106502" page="161" hidden="false">
       <description>
@@ -7990,7 +7990,7 @@ D 武器攻击表(D6投掷结果):
 for each successful hit.</description>
     </rule>
     <rule id="d191-d6ec-e3c8-31f6" name="Improved Arcs of Fire" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Any model within a Defence Emplacement section 重投 failed To-Hit rolsl when resolving Overwatch if using a weapon with the 重型 type.</description>
+      <description>Any model within a Defence Emplacement section 重投 failed To-Hit rolsl when resolving 坚守射击 if using a weapon with the 重型 type.</description>
     </rule>
     <rule id="d3e5-b43d-a89c-3bd8" name="闪避" publicationId="ca571888--pubN106502" page="167" hidden="false">
       <description>具有该规则的模型若被对方选择为射击目标,可以在对方投射击命中之前选择是否进行闪避,如果这样做,这个单位中所有拥有闪避规则的模型获得4+掩体保护,直到下个他们的移动阶段开始,但是他们下个回合只能仓促射击.</description>
@@ -8080,8 +8080,8 @@ for each successful hit.</description>
     </rule>
     <rule id="092c-188d-753d-404e" name="践踏" publicationId="ca571888--pubN106502" page="92" hidden="false">
       <description>
-超重型步行机甲 or 超级巨兽s engageed in combat may make a special type of attack called a Stomp attack.  The Stomp attack is made in addition to the 超重型步行机甲&apos;s normal attacks. Stomp attacks are resolved during the Fight sub-phase at the Initiative 1 step.  This does not grant the model an additional Pile In move at the Initiative 1 step.
-A Stomp attack consists of D3 Stomps.  建筑s, 飞行器, Swooping 飞行 巨兽, 超级巨兽s, 飞行超级巨兽s, 超重型载具, 超重型步行机甲, and 超重型飞行器 cannot be stomped; do not roll on the Stomp table for them if they fall under the 爆炸 marker.  Any other units with models under the 爆炸 marker are stomped as normal.
+超重型步行机甲 or 超级巨兽 engageed in combat may make a special type of attack called a Stomp attack.  The Stomp attack is made 此外 to the 超重型步行机甲&apos;s normal attacks. Stomp attacks are resolved during the Fight sub-phase at the Initiative 1 step.  This does not grant the model an additional Pile In move at the Initiative 1 step.
+A Stomp attack consists of D3 Stomps.  建筑s, 飞行器, Swooping 飞行 巨兽, 超级巨兽, 飞行超级巨兽s, 超重型载具, 超重型步行机甲, and 超重型飞行器 cannot be stomped; do not roll on the Stomp table for them if they fall under the 爆炸 marker.  Any other units with models under the 爆炸 marker are stomped as normal.
       </description>
     </rule>
     <rule id="c6d4-50ae-eef2-e963" name="践踏结果表" publicationId="ca571888--pubN106502" hidden="false">
@@ -8306,12 +8306,12 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       <description>是使用地狱风暴盖板的喷射盖板武器</description>
     </rule>
     <rule id="903b-709a-b328-d48d" name="Armoured Steed" publicationId="ca571888--pubN106502" page="64" hidden="false">
-      <description>Bikes and Jetbikes cannot Go to Ground and cannot be Pinned.</description>
+      <description>Bikes and 喷气摩托 cannot Go to Ground and cannot be Pinned.</description>
     </rule>
     <rule id="6124-c329-b1b4-a52a" name="Turbo Boost" publicationId="ca571888--pubN106502" page="64" hidden="false">
       <description>
-Bikes and Jetbikes cannot Run, but can make a special Turbo-boost move instead of firing in their 射击阶段.
-Turbo-boosting Bikes move up to 12寸 and Turbo-boosting Jetbikes move up to 24寸. Bikes or Jetbikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.
+Bikes and 喷气摩托 cannot Run, but can make a special 涡轮加速 move instead of firing in their 射击阶段.
+Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to 24寸. Bikes or 喷气摩托 cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.
       </description>
     </rule>
     <rule id="5c8a-63f9-5cdc-b17b" name="Skybourne" publicationId="ca571888--pubN106502" page="66" hidden="false">
@@ -8321,7 +8321,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting Jetbikes move up to 24�
       <description>A 喷射背包 unit that is not locked in combat or charging can move up to 2D6寸 in the 突击阶段, even if they have shot or Run in the preceding 射击阶段 or arrived by 深度打击 that turn. When 喷射背包 units move in the 突击阶段 and do not charge, they move just as they would when using their 喷射背包s in the 移动阶段.</description>
     </rule>
     <rule id="2eaf-7ad1-5fbb-2b94" name="Shooting(超级巨兽)" publicationId="ca571888--pubN106502" page="69" hidden="false">
-      <description>When a 超级巨兽 or 飞行超级巨兽 makes a 射击攻击, it may fire each of its weapons at a different target if desired. 此外 firing 重炮 weapons has no effect on a 超级巨兽’s or 飞行超级巨兽’s ability to fire other weapons. 超级巨兽s and 飞行超级巨兽s cannot fire Overwatch.</description>
+      <description>When a 超级巨兽 or 飞行超级巨兽 makes a 射击攻击, it may fire each of its weapons at a different target if desired. 此外 firing 重炮 weapons has no effect on a 超级巨兽’s or 飞行超级巨兽’s ability to fire other weapons. 超级巨兽 and 飞行超级巨兽s cannot fire 坚守射击.</description>
     </rule>
     <rule id="7d16-10ce-5d05-6166" name="Unshakable Nerve" publicationId="ca571888--pubN106502" page="77" hidden="false">
       <description>Units embarked upon transports 获得无畏规则 while they are embarked.</description>
@@ -8921,7 +8921,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting Jetbikes move up to 24�
     </profile>
     <profile id="16b1-5d9f-cc76-f19d" name="动力甲" publicationId="ca571888--pubN99753" page="133" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Power Armour confers a 3+ 装甲保护.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">动力甲 提供 3+ 装甲保护.  </characteristic>
       </characteristics>
     </profile>
     <profile id="d890-1b84-bbd9-12d3" name="破片手雷" publicationId="ca571888--pubN106502" page="182" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -8976,17 +8976,17 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting Jetbikes move up to 24�
     </profile>
     <profile id="7b47-c268-cdaf-fa1e" name="麻醉药" publicationId="ca571888--pubN99753" page="132" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">While the Apothecary who carries this specialised medical and alchemical gear is still alive, all Space Marine models in their squad and any Space Marine 独立人物 that have joined it 获得不知疼痛 universal规则.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">While the Apothecary who carries this specialised medical and alchemical gear is still alive, all 星际战士 models in their squad and any 星际战士 独立人物 that have joined it 获得不知疼痛 universal规则.  </characteristic>
       </characteristics>
     </profile>
     <profile id="0434-8c4b-9614-73dd" name="星际战士摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">+1 Toughness, cannot Go to Ground, and cannot be Pinned, not slowed down by 困难地形, treat all 困难地形 as dangerous, Move 3D6寸 when Falling Back, Turbo-boost up to 12寸</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">+1 Toughness, cannot Go to Ground, and cannot be Pinned, not slowed down by 困难地形, treat all 困难地形 as dangerous, Move 3D6寸 when Falling Back, 涡轮加速 up to 12寸</characteristic>
       </characteristics>
     </profile>
     <profile id="3c28-4994-00ed-bbe5" name="星际战士喷气摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">ARMOURED STEED Bike and Jetbike riders benefit from an increase to their Toughness characteristic by 1. If the Bike or Jetbike is part of the model’s standard wargear, this bonus is already included on its profile. 此外 Bikes and Jetbikes cannot Go to Ground, and cannot be Pinned.  MOVEMENT Bikes and Jetbikes can move up to 12寸 in the 移动阶段.  BIKES &amp; TERRAIN Bikes and Jetbikes are not slowed down by 困难地形(even when charging). However, Bikes treat all 困难地形 as 危险地形 instead.  JETBIKES, MODELS AND TERRAIN Jetbikes can move over all other models and terrain freely. However, if a moving Jetbike begins or ends its move in 困难地形, it must take a 危险地形 test. Jetbikes cannot end their move over other models or 不可通过地形, except that they can end their move on top of 不可通过地形 if it is actually possible to place the models on top of it. If they do so, they treat the 不可通过地形 as 危险地形.  撤退移动 Bikes and Jetbikes move 3D6寸 when Falling Back, rather than 2D6寸.  SHOOTING Each Bike or Jetbike in a unit can fire with one weapon for each rider on the Bike. Thus a Space Marine Attack Bike with a driver and passenger in sidecar can fire two weapons. 规则 Bikes and Jetbikes 获得愤怒之锤, 闪避, 毫不留情 and 非常庞大规则.  TURBO-BOOST Bikes and Jetbikes cannot Run, but can make a special Turbo-boost move instead of firing in their 射击阶段. Turbo-boosting Bikes move up to 12寸, Turbo-boosting Jetbikes move up to 24寸. Controlling their Bikes at such speeds takes all the riders’ concentration and skill, however. Bikes and Jetbikes therefore cannot shoot, charge or execute any other voluntary action until the end of their turn after Turbo-boosting.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">ARMOURED STEED Bike and 喷气摩托 riders benefit from an increase to their Toughness characteristic by 1. If the Bike or 喷气摩托 is part of the model’s standard wargear, this bonus is already included on its profile. 此外 Bikes and 喷气摩托 cannot Go to Ground, and cannot be Pinned.  MOVEMENT Bikes and 喷气摩托 can move up to 12寸 in the 移动阶段.  BIKES &amp; TERRAIN Bikes and 喷气摩托 are not slowed down by 困难地形(even when charging). However, Bikes treat all 困难地形 as 危险地形 instead.  喷气摩托, MODELS AND TERRAIN 喷气摩托 can move over all other models and terrain freely. However, if a moving 喷气摩托 begins or ends its move in 困难地形, it must take a 危险地形 test. 喷气摩托 cannot end their move over other models or 不可通过地形, except that they can end their move on top of 不可通过地形 if it is actually possible to place the models on top of it. If they do so, they treat the 不可通过地形 as 危险地形.  撤退移动 Bikes and 喷气摩托 move 3D6寸 when Falling Back, rather than 2D6寸.  SHOOTING Each Bike or 喷气摩托 in a unit can fire with one weapon for each rider on the Bike. Thus a 星际战士 Attack Bike with a driver and passenger in sidecar can fire two weapons. 规则 Bikes and 喷气摩托 获得愤怒之锤, 闪避, 毫不留情 and 非常庞大规则.  涡轮加速 Bikes and 喷气摩托 cannot Run, but can make a special 涡轮加速 move instead of firing in their 射击阶段. Turbo-boosting Bikes move up to 12寸, Turbo-boosting 喷气摩托 move up to 24寸. Controlling their Bikes at such speeds takes all the riders’ concentration and skill, however. Bikes and 喷气摩托 therefore cannot shoot, charge or execute any other voluntary action until the end of their turn after Turbo-boosting.</characteristic>
       </characteristics>
     </profile>
     <profile id="376f-adc9-b9bf-7fc9" name="占卜扫描仪" publicationId="ca571888--pubN99753" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -9975,7 +9975,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting Jetbikes move up to 24�
     </profile>
     <profile id="6176-c8fa-7b50-26a2" name="辐射手雷" publicationId="ca571888--pubN106502" page="183" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">During a turn in which a unit equipped with rad grenades launches an 突击, or is themselves 突击ed, the 敌方 unit(s) suffers a -1 penalty to their Toughness until the end of the 突击阶段. Note: This does affect the victims’ 即死 thresholds.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">在1个装备有辐射手雷的单位冲锋或被冲锋的回合中,敌方单位的T-1,直到冲锋阶段结束.这会影响到目标的的即死阈值.</characteristic>
       </characteristics>
     </profile>
     <profile id="0466-931b-dd0b-34e9" name="肉搏武器" publicationId="ca571888--pubN106502" page="42" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">

@@ -2494,8 +2494,8 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       </constraints>
       <rules>
         <rule id="a41a-3473-ef5f-7a99" name="伺服臂阵列" publicationId="cf03-f607-pubN82540" page="112" hidden="false">
-          <description>A machinator array adds +1 to its user’s Toughness value and provides the 夜视 special rule. It also incorporates a flamer and an inferno pistol, and the user can either opt to fire both of these weapons in the Shooting phase, or one of them and another ranged weapon the model is carrying.
-A model with the 战争铁匠 special rule may add +2 to their Repair roll result if they are also equipped with a machinator array.
+          <description>A machinator array adds +1 to its user’s Toughness value and provides the 夜视 规则. It also incorporates a flamer and an inferno pistol, and the user can either opt to fire both of these weapons in the 射击阶段, or one of them and another ranged weapon the model is carrying.
+A model with the 战争铁匠 规则 may add +2 to their Repair roll result if they are also equipped with a machinator array.
 A model equipped with a machinator array may make two additional attacks per turn in close combat as well as any they would normally be eligible to make. This is done using the profile shown below:</description>
         </rule>
       </rules>
@@ -5865,12 +5865,12 @@ D6  结果       S      AP
                         passed, the chosen power is used as described. If the test is failed, the power is not used and
                         the Navigator and their unit is Pinned (though they do not Go to Ground).
                         • The Lidless Stare
-                        Use in the controlling player’s Shooting phase, counting as a shooting attack. Place a 喷射盖板
+                        Use in the controlling player’s 射击阶段, counting as a shooting attack. Place a 喷射盖板
                         as if the Navigator was shooting a 喷射盖板 weapon. Every 步兵 type model, friend or foe,
                         under the 喷射盖板 must pass an Initiative test. Models that fail the test suffer an automatic
                         即死 wound with no Armour saves possible.
                         • Warp Prescience
-                        Use at the beginning of the enemy’s Shooting phase. Shooting attacks directed at the Navigator
+                        Use at the beginning of the enemy’s 射击阶段. Shooting attacks directed at the Navigator
                         and their unit that player turn are made at -1 BS.
                         • Ætheric Disruption
                         Use at the start of the controlling player’s turn. Until the beginning of their next player
@@ -8934,9 +8934,9 @@ D6  结果       S      AP
       </profiles>
       <rules>
         <rule id="bbac-9e94-552b-65b7" name="毁灭大师" publicationId="cf03-f607-pubN120279" page="83" hidden="false">
-          <description>All of a Magos/Archmagos Reductor’s attacks count as having the 碎裂 special rule, and in addition rolls made by their attacks on the 载具 Damage and Building Damage table where is this used have a +1 bonus, which is cumulative with any bonus for the attack’s AP value, etc.
+          <description>All of a Magos/Archmagos Reductor’s attacks count as having the 碎裂 规则, and 此外 rolls made by their attacks on the 载具 Damage and Building Damage table where is this used have a +1 bonus, which is cumulative with any bonus for the attack’s AP value, etc.
 
-Alternatively, instead of firing any weapons in the Shooting phase, the Magos/Archmagos Reductor may confer their Master of Destruction special rule’s benefits on a single 重型 or 重炮 weapon fired by a friendly 载具 or unit within 6寸. This may be a 载具 in which the Magos Reductor is being 运输载具ed.</description>
+Alternatively, instead of firing any weapons in the 射击阶段, the Magos/Archmagos Reductor may confer their Master of Destruction 规则’s benefits on a single 重型 or 重炮 weapon fired by a friendly 载具 or unit within 6寸. This may be a 载具 in which the Magos Reductor is being 运输载具ed.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -10190,7 +10190,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
                 </profile>
                 <profile id="bf51-5ebd-8e9f-7225" name="Ion Gauntlet Shield" publicationId="cf03-f607-pubN76979" page="2310" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Operates as a Knights Ion Shield with the following exceptions:  - May not protect Rear armour - Provides 5++ Invulnerable save in close combat - Forces close combat attacks by other 超重型步行机甲 or 超级巨兽s to suffer a -1 to hit. </characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Operates as a Knights Ion Shield with the following exceptions:  - May not protect Rear armour - Provides 5++ 特殊保护 in close combat - Forces close combat attacks by other 超重型步行机甲 or 超级巨兽 to suffer a -1 to hit. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10465,7 +10465,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
                   <description>Before firing the weapon, roll a D6. On a result of a 1, the firing
                                         Knight-Atrapos suffers a single Hull Point of damage with no saves of any kind
                                         before the attack is carried out. On a result of a 6, the attack is carried out
-                                        with the 漩涡Vortex special rule.</description>
+                                        with the 漩涡Vortex 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -11087,7 +11087,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         </rule>
         <rule id="1fb3-b3d4-e5d2-4159" name="重力锤" hidden="false">
           <description>Note that the Domitar is equipped with two graviton hammers, which have the effect of granting it an additional attack – this is already included in its profile.
-In addition to its weapon attacks, units assaulting a model or unit with a graviton hammer always count as making a Disordered Charge when doing so.</description>
+此外 to its weapon attacks, units assaulting a model or unit with a graviton hammer always count as making a Disordered Charge when doing so.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -11283,7 +11283,7 @@ In addition to its weapon attacks, units assaulting a model or unit with a gravi
         </rule>
         <rule id="2e3b-2788-0c87-ac93" name="来自地底的死亡" hidden="false">
           <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault 载具 enters play via 深度打击, place a 大爆炸 (5寸)
-marker on the table and scatter this to determine the final position of its arrival as per the 深度打击 special rule. The 爆炸 marker must not be initially placed on top of impassable terrain or within 1寸 of another model.
+marker on the table and scatter this to determine the final position of its arrival as per the 深度打击 规则. The 爆炸 marker must not be initially placed on top of impassable terrain or within 1寸 of another model.
 
 Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce
 the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was
@@ -11297,7 +11297,7 @@ The area under the 大爆炸 (5寸) marker is now difficult terrain for the rest
 represent this area with a piece of crater terrain.
 
 Should a Subterranean Assault 载具 be placed on top of any unit which does not pose an obstacle to its arrival as described above,
-the Death from Below special rule allows it to be placed as though the unit was not there. If some models in the unit would end up
+the Death from Below 规则 allows it to be placed as though the unit was not there. If some models in the unit would end up
 underneath the Subterranean Assault 载具 when it reaches its final position (it makes no difference whether the unit is Falling
 Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1寸 between them and the Subterranean Assault 载具 (and indeed any other unit) whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
@@ -11305,13 +11305,13 @@ Back or not), these models must be moved by the controlling player out of the wa
           <description>白蚁忽视困难地形和危险地形,当白蚁撞击防御工事时S+2</description>
         </rule>
         <rule id="7156-e43f-72ee-617d" name="地下突击" hidden="false">
-          <description>Should the Termite Assault Drill, and any unit it 运输载具s, enter play using the 深度打击 special rule, they count as being a
+          <description>Should the Termite Assault Drill, and any unit it 运输载具s, enter play using the 深度打击 规则, they count as being a
 Subterranean Assault 载具 for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling
 player’s first turn, they must choose half of their Subterranean Assault 载具 held in reserve for the purpose of Deep Striking
 (rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
 remaining Subterranean Assault 载具 in the player’s force is rolled for as usual for the mission.
 
-This rule, while similar in function to the 空降仓 Assault special rule, does not interact with it for the purposes of calculating how
+This rule, while similar in function to the 空降仓 Assault 规则, does not interact with it for the purposes of calculating how
 many units may arrive on the table by 深度打击. Armies may consist of units with both the 空降仓 Assault and Subterranean
 Assault rules unless otherwise noted.</description>
         </rule>
@@ -12673,8 +12673,8 @@ Assault rules unless otherwise noted.</description>
     <rule id="7c0b-31e3-daa1-0d3a" name="致盲弹幕" hidden="false">
       <description>So long as the unit contains at least five models equipped with Galvanic-Casters, once per
                 game, the unit&apos;s controlling player may declare the use of a 致盲弹幕 by the unit instead of that
-                unit firing its weapons in the Shooting phase. In this case, select a friendly unit within 18寸 and
-                within line of sight of the Peltasts unit. That friendly unit gains the 笼罩 special rule until the
+                unit firing its weapons in the 射击阶段. In this case, select a friendly unit within 18寸 and
+                within line of sight of the Peltasts unit. That friendly unit gains the 笼罩 规则 until the
                 beginning of the controlling player&apos;s next player turn. 超重型units may not be 笼罩 unless two
                 Secutarii units simultaneously use their 致盲弹幕 ability to conceal it.</description>
     </rule>

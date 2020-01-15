@@ -457,7 +457,7 @@
         <rule id="bd33-ff5a-7b00-bf43" name="Noisome Tide of Flesh" publicationId="640c-568f-pubN68833" hidden="false">
           <description>Cor’bax Utterblight’s corporeal form is little more than a mass of roiling gelatinous and pestilential flesh, which makes him even harder to harm than many of his 恶魔 kin and allows him to seethe across the battlefield like a destroying tide of plague.
 
-Cor’bax Utterblight inflicts D3 愤怒之锤 hits 冲锋时. He ignores all dangerous terrain and difficult terrain. He counts as being armed with assault grenades 冲锋时. In addition, if he is destroyed replace his 模型 with the 巨大 爆炸(7寸) 喷射盖板. 所有 模型 under the 喷射盖板 that do not 拥有 纳垢恶魔 规则 suffer 1个 毒伤(4+) AP 4 hit.</description>
+Cor’bax Utterblight inflicts D3 愤怒之锤 hits 冲锋时. He ignores all dangerous terrain and difficult terrain. He counts as being armed with assault grenades 冲锋时. 此外, if he is destroyed replace his 模型 with the 巨大 爆炸(7寸) 喷射盖板. 所有 模型 under the 喷射盖板 that do not 拥有 纳垢恶魔 规则 suffer 1个 毒伤(4+) AP 4 hit.</description>
         </rule>
         <rule id="e300-9af4-712b-b5c2" name="毒伤(3+)" hidden="false"/>
         <rule id="2d0b-97c5-c3e9-1a72" name="灵能者(等级 2)" hidden="false"/>
@@ -921,7 +921,7 @@ Cor’bax Utterblight inflicts D3 愤怒之锤 hits 冲锋时. He ignores all da
                       <description>Drags the target 模型 into 肉搏. Counts as a shooting attack that hits on a 4+. If successfuly hit or penetrating(and the target survives), move the target 2D6寸 straight towards the Blood Slaughterer.
 不能 drag 模型 through obstructions it 不能 normally pass through and stops 1寸 away from the obstruction.
 
-Super-heavies, 超级巨兽s and buildings 不能 be dragged by the impaler.</description>
+Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -1000,7 +1000,7 @@ Super-heavies, 超级巨兽s and buildings 不能 be dragged by the impaler.</de
           </profiles>
           <rules>
             <rule id="d5ef-2bd0-11f8-1363" name="Foe-reaper" hidden="false">
-              <description>Add +1 to the Str D table result when rolling against 敌方 巨兽 and 超级巨兽s.</description>
+              <description>Add +1 to the Str D table result when rolling against 敌方 巨兽 and 超级巨兽.</description>
             </rule>
           </rules>
           <costs>
@@ -1586,7 +1586,7 @@ Super-heavies, 超级巨兽s and buildings 不能 be dragged by the impaler.</de
           </profiles>
           <rules>
             <rule id="1334-08aa-46e2-8c92" name="Foe-reaper" hidden="false">
-              <description>Add +1 to the Str D table result when rolling against 敌方 巨兽 and 超级巨兽s.</description>
+              <description>Add +1 to the Str D table result when rolling against 敌方 巨兽 and 超级巨兽.</description>
             </rule>
           </rules>
           <costs>
@@ -4877,7 +4877,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
       <profiles>
         <profile id="ee5c-46b0-ebd5-e8a8" name="Herald of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
-            <modifier type="set" field="556e6974205479706523232344415441232323" value="Jetbike">
+            <modifier type="set" field="556e6974205479706523232344415441232323" value="喷气摩托">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -5060,7 +5060,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
           <description>Kairos has a 4+ 特殊保护.</description>
         </rule>
         <rule id="3492-f154-6cc0-1eff" name="The Two Heads of Fate" page="0" hidden="false">
-          <description>Each of Kairos Fateweaver&apos;s heads is a 灵能者(等级 4). Both heads know all the powers from the Change discipline. In addition, the right head also randomly generates one power from each of the Pyromancy and Divination disciplines; the left head also randomly generates one power each from the Telepathy and Biomancy disciplines. At the start of each of his turns, declare which head Kairos Fateweaver will use that turn. Until the start of his next turn, he 可以 only use the psychic powers known to that head. Note that as Kairos Fateweaver can only use one head at a time, he only generates the 次元充能点数 for 1个 等级 4 灵能者, not two.</description>
+          <description>Each of Kairos Fateweaver&apos;s heads is a 灵能者(等级 4). Both heads know all the powers from the Change discipline. 此外, the right head also randomly generates one power from each of the Pyromancy and Divination disciplines; the left head also randomly generates one power each from the Telepathy and Biomancy disciplines. At the start of each of his turns, declare which head Kairos Fateweaver will use that turn. Until the start of his next turn, he 可以 only use the psychic powers known to that head. Note that as Kairos Fateweaver can only use one head at a time, he only generates the 次元充能点数 for 1个 等级 4 灵能者, not two.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5113,7 +5113,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         </profile>
         <profile id="f128-ed4c-6063-a8dd" name="Brass Collar of Bloody Vengeance" page="0" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">See Collar of 恐虐.  In addition, any 灵能者 that takes a Psychic test 范围内 12寸 of Karank suffers Perils of the Warp on any double.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">See Collar of 恐虐.  此外, any 灵能者 that takes a Psychic test 范围内 12寸 of Karank suffers Perils of the Warp on any double.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6655,7 +6655,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
       <profiles>
         <profile id="d887-ecaf-d79a-08f5" name="The Blue Scribes" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Jetbike(人物)</characteristic>
+            <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷气摩托(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
@@ -7118,7 +7118,7 @@ Wounds / Effect
       <profiles>
         <profile id="fe53-1e4c-e08a-b037" name="Arcane Icon" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">An Arcane Icon is an Icon of Chaos. In addition, 所有 模型 in a 单位 equipped with an Arcane Icon 拥有 精金意志 规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">An Arcane Icon is an Icon of Chaos. 此外, 所有 模型 in a 单位 equipped with an Arcane Icon 拥有 精金意志 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>

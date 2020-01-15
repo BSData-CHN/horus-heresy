@@ -3004,7 +3004,7 @@
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5602-e490-e3e7-b883" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="8e4f-d856-6060-dfb1" name="Gyrfalcon Jetbike" hidden="false" targetId="634b-5e08-5355-c8d1" type="profile"/>
+            <infoLink id="8e4f-d856-6060-dfb1" name="Gyrfalcon 喷气摩托" hidden="false" targetId="634b-5e08-5355-c8d1" type="profile"/>
             <infoLink id="ca05-4f8e-8851-736c" name="Custodian Agamatus" hidden="false" targetId="dcf0-ff9a-7712-e3e1" type="profile"/>
             <infoLink id="dde3-8d94-0c47-d4e0" name="Power Lance" hidden="false" targetId="fdd4-9bf3-da9d-5479" type="profile"/>
             <infoLink id="45ac-757b-bc95-cb2e" name="Refractor Field" hidden="false" targetId="4845-0bfe-2c22-883f" type="profile"/>
@@ -5806,7 +5806,7 @@
 - 恫吓(+1 肉搏结果)</description>
     </rule>
     <rule id="6774-89d9-ba61-1071" name="Cadre Tactics" publicationId="a30a-7522-pubN95872" hidden="false">
-      <description>One of the following additional benefits may be given to all units in the detachment with the Company-Cadre special rule.
+      <description>One of the following additional benefits may be given to all units in the detachment with the Company-Cadre 规则.
 渗透
 远征军
 隐蔽
@@ -6566,7 +6566,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
     </profile>
     <profile id="dcf0-ff9a-7712-e3e1" name="阿伽马图斯" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
       <characteristics>
-        <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Jetbike (人物)</characteristic>
+        <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷气摩托 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
         <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
         <characteristic name="S" typeId="5323232344415441232323">5</characteristic>

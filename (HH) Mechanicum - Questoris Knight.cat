@@ -348,7 +348,7 @@
           <description>家族轻骑兵只能对24寸以外的单位进行仓促射击.</description>
         </rule>
         <rule id="439b-6d0c-4981-2dd2" name="打带跑" hidden="false">
-          <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any 突击 phase. If the unit wishes to do so, it must take an Initiative test.
+          <description>A unit that contains at least one model with this 规则 that is locked in combat can choose to leave close combat at the end of any 突击 phase. If the unit wishes to do so, it must take an Initiative test.
 
 If the test is failed, nothing happens and the models remain locked in the fight.
 
@@ -1749,14 +1749,14 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <cost name="分" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dd74-ccdb-9bc6-7069" name="Artificer Armour" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dd74-ccdb-9bc6-7069" name="精工甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c587-5d7f-6151-005d" name="Artificer Armour" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+            <profile id="c587-5d7f-6151-005d" name="精工甲" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Artificer Armour confers a 2+ Armour save.  </characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">精工甲 提供 2+ 装甲保护.  </characteristic>
               </characteristics>
             </profile>
           </profiles>

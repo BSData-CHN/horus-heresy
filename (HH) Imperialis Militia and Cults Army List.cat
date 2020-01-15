@@ -1095,7 +1095,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       </constraints>
       <rules>
         <rule id="6cbb-0977-3f2f-b238" name="支援军官" publicationId="90aa-c2c8-pubN73320" hidden="false">
-          <description>A Consul of this type may not be used as a 强制指挥槽位 choice for the army unless specifically exempted by a particular 阿斯塔特军团 special rule or Rite of War.</description>
+          <description>A Consul of this type may not be used as a 强制指挥槽位 choice for the army unless specifically exempted by a particular 阿斯塔特军团 规则 or Rite of War.</description>
         </rule>
       </rules>
       <costs>
@@ -2358,7 +2358,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <description>肉搏阶段为每个锁入肉搏的变异卵单位投掷D6,结果加上各种修正值便是此次攻击的A值.</description>
         </rule>
         <rule id="e675-dcb8-b476-2d4d" name="盲目冲动" publicationId="90aa-c2c8-pubN73486" page="209" hidden="false">
-          <description>Must always charge in the Assault phase if it is a possibility and make sweeping advances.  The controlling player may choose the target.
+          <description>Must always charge in the 突击阶段 if it is a possibility and make sweeping advances.  The controlling player may choose the target.
 
 单位在冲锋阶段如果可能必须冲锋(如果目标有多个则由玩家选择1个),也必须扫荡打击.</description>
         </rule>
@@ -4321,13 +4321,13 @@ D3  变异
           </profiles>
           <rules>
             <rule id="f39d-bc4b-d91c-cca1" name="战争铁匠" publicationId="90aa-c2c8-pubN76431" page="81" hidden="false">
-              <description>If a 战争铁匠 is embarked on or in base contact with one or more damaged 载具 during the shooting phase, they may attempt to repair one of them instead of firing a weapon.  To attempt, roll a D6.  On a result of 5+ the 战争铁匠 may do one of the following:
+              <description>If a 战争铁匠 is embarked on or in base contact with one or more damaged 载具 during the 射击阶段, they may attempt to repair one of them instead of firing a weapon.  To attempt, roll a D6.  On a result of 5+ the 战争铁匠 may do one of the following:
 
 - Restore a lost Hull Point
 - Repair a Weapon Destroyed result
 - Repair an Immobilised result
 
-If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The 战争铁匠 cannot use this ability if he has gone to ground or is falling back.</description>
+If a Weapon Destroyed result is repaired, that weapon may be fired in the following 射击阶段.  The 战争铁匠 cannot use this ability if he has gone to ground or is falling back.</description>
             </rule>
             <rule id="a000-c50f-b7c4-6480" name="自动伺服机器支援" publicationId="90aa-c2c8-pubN73486" page="201" hidden="false">
               <description>单位中每个自动伺服机器, 为引擎先知的战争铁匠投掷+1.  然而出1仍然失败.</description>
@@ -7887,24 +7887,24 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <description>白蚁永远不能以战斗速度更快的速度移动和进行极速移动.</description>
         </rule>
         <rule id="c9de-425e-bace-6cb3" name="来自地底的死亡" hidden="false">
-          <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault 载具 enters play via 深度打击, place a 大爆炸 (5寸) marker on the table and scatter this to determine the final position of its arrival as per the 深度打击 special rule.
+          <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault 载具 enters play via 深度打击, place a 大爆炸 (5寸) marker on the table and scatter this to determine the final position of its arrival as per the 深度打击 规则.
 
 Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was displaced in this way by a 载具 or 工事槽位, the closest 载具 or 工事槽位 to the marker immediately suffers a Str 10 AP- hit
 – 载具 are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in close combat, all units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
 
 After all damage is resolved, the Subterranean Assault 载具 may be placed in any orientation so long as the centre of the 大爆炸 (5寸) marker is underneath part of the 载具’s hull and it remains 1寸 away from any 工事槽位, 载具 or unit engaged in combat. The area under the 大爆炸 (5寸) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead
 represent this area with a piece of crater terrain. 
-Should a Subterranean Assault 载具 be placed on top of any unit which does not pose an obstacle to its arrival as described above, the Death from Below special rule allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the Subterranean Assault 载具 when it reaches its final position (it makes no difference whether the unit is Falling
+Should a Subterranean Assault 载具 be placed on top of any unit which does not pose an obstacle to its arrival as described above, the Death from Below 规则 allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the Subterranean Assault 载具 when it reaches its final position (it makes no difference whether the unit is Falling
 Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1寸 between them and the Subterranean Assault 载具 (and indeed any other unit) whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
         <rule id="255d-2ce6-727e-364b" name="热熔切割机" hidden="false">
           <description>白蚁忽视困难地形和危险地形,当白蚁撞击防御工事时S+2</description>
         </rule>
         <rule id="6b3b-8961-6c32-a5d4" name="地下突击" hidden="false">
-          <description>Should the Termite Assault Drill, and any unit it 运输载具s, enter play using the 深度打击 special rule, they count as being a Subterranean Assault 载具 for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling player’s first turn, they must choose half of their Subterranean Assault 载具 held in reserve for the purpose of Deep Striking (rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
+          <description>Should the Termite Assault Drill, and any unit it 运输载具s, enter play using the 深度打击 规则, they count as being a Subterranean Assault 载具 for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling player’s first turn, they must choose half of their Subterranean Assault 载具 held in reserve for the purpose of Deep Striking (rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
 remaining Subterranean Assault 载具 in the player’s force is rolled for as usual for the mission.
 
-This rule, while similar in function to the 空降仓 Assault special rule, does not interact with it for the purposes of calculating how many units may arrive on the table by 深度打击. Armies may consist of units with both the 空降仓 Assault and Subterranean Assault rules unless otherwise noted.</description>
+This rule, while similar in function to the 空降仓 Assault 规则, does not interact with it for the purposes of calculating how many units may arrive on the table by 深度打击. Armies may consist of units with both the 空降仓 Assault and Subterranean Assault rules unless otherwise noted.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8598,10 +8598,10 @@ This rule, while similar in function to the 空降仓 Assault special rule, does
       <description>具有此特殊规则的小队不能被选作部队的强制槽位.</description>
     </rule>
     <rule id="ef5f-9bb7-8cf1-0ec1" name="Warmaster&apos;s Due" hidden="false">
-      <description>Any Model with the 阿斯塔特军团 special rule that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the Imperialis Militia and Cults army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the cover save bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
+      <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the Imperialis Militia and Cults army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the cover save bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
     </rule>
     <rule id="5b86-272e-132e-75d5" name="Disposable" hidden="false">
-      <description>The Disposable special rule given in the unit entry for the Inducted Levy Squad in the Imperialis Militia and Cults army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only Inducted Levy Squads</description>
+      <description>The Disposable 规则 given in the unit entry for the Inducted Levy Squad in the Imperialis Militia and Cults army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only Inducted Levy Squads</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
