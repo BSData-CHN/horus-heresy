@@ -4635,7 +4635,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="15d3-828f-6f4e-7afe" name="辅助军引擎先知" publicationId="7f243fc5--pubN93391" page="271" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="15d3-828f-6f4e-7afe" name="辅助军工造士" publicationId="7f243fc5--pubN93391" page="271" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
         <selectionEntry id="5557-2380-d2f2-1b56" name="神甫" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4761,7 +4761,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
           </constraints>
           <rules>
             <rule id="f62d-1b78-aa12-b830" name="自动伺服机器支援" publicationId="7f243fc5--pubN94125" page="219" hidden="false">
-              <description>单位中每个自动伺服机器, 为引擎先知的战争铁匠投掷+1.  然而出1仍然失败.</description>
+              <description>单位中每个自动伺服机器, 为工造士的战争铁匠投掷+1.  然而出1仍然失败.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8435,7 +8435,7 @@ Assault rules unless otherwise noted.
       <description>只要同中队的2个或多个坦克射击相同目标,这些坦克的BS+1.</description>
     </rule>
     <rule id="d5ad8357-ac59-2060-1faa-9526914fa0d1" name="赛博尼提卡" publicationId="7f243fc5--pubN70233" page="23" hidden="false">
-      <description>如果自动伺服机器不再陪同引擎先知,则必须在每个移动阶段开始时做压制测试,除非其已被锁入肉搏.</description>
+      <description>如果自动伺服机器不再陪同工造士,则必须在每个移动阶段开始时做压制测试,除非其已被锁入肉搏.</description>
     </rule>
     <rule id="80c70524-9908-04af-634b-d216772445fe" name="遵纪指挥" publicationId="7f243fc5--pubN74753" page="243" hidden="false">
       <description>

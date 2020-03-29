@@ -4293,18 +4293,18 @@ D3  变异
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2a9-6662-7cb6-8de7" name="辅助军引擎先知" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f2a9-6662-7cb6-8de7" name="辅助军工造士" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d37f-b8a9-d46f-1db8" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7002-66e4-2ab0-c51b" name="引擎先知" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7002-66e4-2ab0-c51b" name="工造士" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d29-6dec-6ac4-d960" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25a8-9f48-0444-a6ee" type="max"/>
           </constraints>
           <profiles>
-            <profile id="76e0-2898-6141-73c6" name="引擎先知" publicationId="90aa-c2c8-pubN73486" page="201" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="76e0-2898-6141-73c6" name="工造士" publicationId="90aa-c2c8-pubN73486" page="201" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4330,7 +4330,7 @@ D3  变异
 If a Weapon Destroyed result is repaired, that weapon may be fired in the following 射击阶段.  The 战争铁匠 cannot use this ability if he has gone to ground or is falling back.</description>
             </rule>
             <rule id="a000-c50f-b7c4-6480" name="自动伺服机器支援" publicationId="90aa-c2c8-pubN73486" page="201" hidden="false">
-              <description>单位中每个自动伺服机器, 为引擎先知的战争铁匠投掷+1.  然而出1仍然失败.</description>
+              <description>单位中每个自动伺服机器, 为工造士的战争铁匠投掷+1.  然而出1仍然失败.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -4372,7 +4372,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="29cd-b520-d5e2-6a1f" name="引擎先知可以选择任何:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="29cd-b520-d5e2-6a1f" name="工造士可以选择任何:" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="3d69-a63d-b429-eaaf" name="真理频道" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4509,7 +4509,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           </profiles>
           <rules>
             <rule id="9942-a551-e432-c5f9" name="赛博尼提卡" publicationId="90aa-c2c8-pubN73486" page="201" hidden="false">
-              <description>如果自动伺服机器不再陪同引擎先知,则必须在每个移动阶段开始时做压制测试,除非其已被锁入肉搏.</description>
+              <description>如果自动伺服机器不再陪同工造士,则必须在每个移动阶段开始时做压制测试,除非其已被锁入肉搏.</description>
             </rule>
           </rules>
           <selectionEntryGroups>
