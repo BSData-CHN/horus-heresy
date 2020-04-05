@@ -4476,7 +4476,7 @@
         <cost name="分" typeId="points" value="320.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8594-6f9f-c58d-440d" name="猎户座突击登陆艇" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8594-6f9f-c58d-440d" name="猎户座突击登陆艇" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="7e6c-26d8-68c5-b552" name="猎户座突击登陆艇" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -4709,7 +4709,7 @@
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc85-086f-2a21-9002" name="阿瑞斯炮艇" publicationId="a30a-7522-pubN94931" page="286" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dc85-086f-2a21-9002" name="阿瑞斯炮艇" publicationId="a30a-7522-pubN94931" page="286" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="56a6-7db0-83ed-1efa" name="阿瑞斯炮艇" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>

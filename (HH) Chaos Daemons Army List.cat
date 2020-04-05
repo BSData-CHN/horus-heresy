@@ -840,7 +840,7 @@ Cor’bax Utterblight inflicts D3 愤怒之锤 hits 冲锋时. He ignores all da
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cb8-b090-10d5-8c7b" name="Blood Slaughterers of 恐虐" publicationId="640c-568f-pubN71445" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3cb8-b090-10d5-8c7b" name="Blood Slaughterers of 恐虐" publicationId="640c-568f-pubN71445" page="0" hidden="false" collective="false" import="true" type="单位">
       <selectionEntries>
         <selectionEntry id="ffee-daec-6fc4-f078" name="Blood Slaughterer of 恐虐" page="0" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1121,7 +1121,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="425.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1320-2184-57b9-82d0" name="Beast of 纳垢" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1320-2184-57b9-82d0" name="Beast of 纳垢" page="0" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="88c9-b1b9-3751-2b42" name="Attention Seeker" page="0" hidden="false"/>
       </rules>
@@ -1154,7 +1154,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="478b-7a13-7e19-7f98" name="Blight Drones of 纳垢" publicationId="640c-568f-pubN73053" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="478b-7a13-7e19-7f98" name="Blight Drones of 纳垢" publicationId="640c-568f-pubN73053" hidden="false" collective="false" import="true" type="单位">
       <selectionEntries>
         <selectionEntry id="d0e4-eb4e-71a8-4e07" name="Blight Drones" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1246,7 +1246,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69d3-e9ac-04d6-ad3c" name="Bloodcrushers of 恐虐" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="69d3-e9ac-04d6-ad3c" name="Bloodcrushers of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="0d4d-4e34-f723-aafe" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="876a-40ad-abdc-573a" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1334,7 +1334,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72df-6da9-0772-3be3" name="Bloodletters of 恐虐" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="72df-6da9-0772-3be3" name="Bloodletters of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="3dc6-7539-8d1b-e83c" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="c019-13ec-fe0b-ac63" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1422,7 +1422,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f9e-a2e7-783d-ca0e" name="Chaos Furies" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4f9e-a2e7-783d-ca0e" name="Chaos Furies" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="de0b-ef5d-843d-e91e" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="2142-5be1-1df8-f5b9" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1770,7 +1770,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
         <cost name="分" typeId="points" value="525.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6acc-d892-b7ae-35b5" name="Brimstone Horrors" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6acc-d892-b7ae-35b5" name="Brimstone Horrors" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="bbcf-c73d-fb1b-f7cd" name="New InfoLink" hidden="false" targetId="20fc-183d-2ac3-1f8f" type="rule"/>
         <infoLink id="f80c-eec8-860f-afcc" name="New InfoLink" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1812,7 +1812,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cca7-9a05-cc56-6d74" name="Blue Horrors" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cca7-9a05-cc56-6d74" name="Blue Horrors" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="d602-bd70-1947-c0bf" name="Blue Horrors" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <modifiers>
@@ -1833,7 +1833,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
           <description>A 单位 of 11-20 Blue Horrors generates 2 次元充能点数 instead of 1.</description>
         </rule>
         <rule id="25c7-8b7c-8e45-b219" name="Split" hidden="false">
-          <description>If a 友方 单位 of Pink Horrors suffers any casualties, the slain Horrors will split and create Blue Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). Two Blue Horrors are created for each slain Pink Horror - if there is already a 友方 Blue HOrror 单位 范围内 6寸 of the Pink Horrors, add the newly created Blue Horrors to that unit, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Pink Horrors. If a rule causes a whole 单位 of Pink Horrors to be removed at once(excluding Daemonic Instability), you can immediately create a 单位 of Blue HOrrors, just before removing the last 模型 from the Pink Horrors unit. The 单位 of Blue Horrors has two 模型 for each 模型 in the 单位 of Pink Horrors at the point at which it is removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Pink Horrors unit.</description>
+          <description>If a 友方 单位 of Pink Horrors suffers any casualties, the slain Horrors will split and create Blue Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). Two Blue Horrors are created for each slain Pink Horror - if there is already a 友方 Blue HOrror 单位 范围内 6寸 of the Pink Horrors, add the newly created Blue Horrors to that 单位, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Pink Horrors. If a rule causes a whole 单位 of Pink Horrors to be removed at once(excluding Daemonic Instability), you can immediately create a 单位 of Blue HOrrors, just before removing the last 模型 from the Pink Horrors 单位. The 单位 of Blue Horrors has two 模型 for each 模型 in the 单位 of Pink Horrors at the point at which it is removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Pink Horrors 单位.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2816,7 +2816,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7d5-b3fb-521a-9215" name="Be&apos;lakor, The Dark Master" publicationId="640c-568f-pubN82090" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e7d5-b3fb-521a-9215" name="Be&apos;lakor, The Dark Master" publicationId="640c-568f-pubN82090" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a303-53ea-68e1-1844" type="max"/>
       </constraints>
@@ -2862,7 +2862,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="350.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ca5-1953-a40e-4920" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1ca5-1953-a40e-4920" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc89-5ab8-9c1c-dca0" type="max"/>
       </constraints>
@@ -2902,7 +2902,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2102-6ec8-b30a-e803" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2102-6ec8-b30a-e803" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="8763-4da4-8fd8-bbe2" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -3002,7 +3002,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10ea-aaeb-7cbd-f648" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="10ea-aaeb-7cbd-f648" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="2b56-c28a-e65a-defc" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -3619,7 +3619,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
       <profiles>
         <profile id="4493-ebd7-4e26-313c" name="Greater Locus of Trickery" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">At the beginning of each turn, roll a D6; any 命中骰 that target the model, or any 模型 in his unit, that 拥有 same score as the result this turn count as having rolled a 1 instead.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">At the beginning of each turn, roll a D6; any 命中骰 that target the model, or any 模型 in his 单位, that 拥有 same score as the result this turn count as having rolled a 1 instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3631,7 +3631,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
       <profiles>
         <profile id="7d98-01d8-0b74-a671" name="Lesser Locus of Metamorphosis" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">This model, and 所有 模型 in its unit, 拥有 他不会死 规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">This model, and 所有 模型 in its 单位, 拥有 他不会死 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3642,7 +3642,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="43a8-6e78-73a7-317e" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="43a8-6e78-73a7-317e" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="d4af-a469-7116-2430" name="Burning 战车 of 奸奇" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -3694,7 +3694,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e1c-ebde-afaf-12ab" name="恶魔王子" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1e1c-ebde-afaf-12ab" name="恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="3600-6707-4ec0-297e" name="必须选择" hidden="false" collective="false" import="true">
           <constraints>
@@ -3766,7 +3766,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24c0-5e37-4273-2248" name="恐虐恶魔王子" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="24c0-5e37-4273-2248" name="恐虐恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="c522-09a1-2f30-e4d5" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="a3b9-f62d-39d5-b50e" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -3802,7 +3802,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42c8-87b8-1615-0446" name="纳垢恶魔王子" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="42c8-87b8-1615-0446" name="纳垢恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="e2b2-fd83-46b0-5fb0" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="d79b-88d8-3b11-ed6d" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -3880,7 +3880,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2db3-f8ec-3020-4e6c" name="色孽恶魔王子" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2db3-f8ec-3020-4e6c" name="色孽恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="72fa-de11-9333-6e86" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="33c7-62f1-6842-b6e0" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -3957,7 +3957,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="523d-14b8-290f-e132" name="奸奇恶魔王子" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="523d-14b8-290f-e132" name="奸奇恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="bd74-9467-1cca-a98e" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="3634-1f2d-bd1c-96e9" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -4034,7 +4034,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2379-c282-6e0e-dd6e" name="Daemonettes of 色孽" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2379-c282-6e0e-dd6e" name="Daemonettes of 色孽" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="f837-629a-b785-e626" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="29da-026d-30ff-e952" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -4119,7 +4119,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57b7-84c2-b736-3bed" name="Daemonic Heralds" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="57b7-84c2-b736-3bed" name="Daemonic Heralds" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ade5-3e3d-adbc-8d0e" type="max"/>
       </constraints>
@@ -4146,7 +4146,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4800-8283-e6cb-1cc1" name="Fiends of 色孽" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4800-8283-e6cb-1cc1" name="Fiends of 色孽" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="2237-c9dc-a286-6f95" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
         <infoLink id="b613-ed20-d9f3-289d" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -4187,7 +4187,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c7b-36fe-5d2f-48b8" name="Flamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0c7b-36fe-5d2f-48b8" name="Flamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="58be-1504-2f9b-893c" name="Flames of 奸奇" page="0" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -4268,7 +4268,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d480-5db3-6dab-c952" name="Flesh Hounds of 恐虐" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d480-5db3-6dab-c952" name="Flesh Hounds of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="1caf-31cb-1cbe-f251" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="cf73-3c8c-7dd1-964f" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
@@ -4309,7 +4309,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="296f-6e6d-ce01-6d84" name="大不净者" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="296f-6e6d-ce01-6d84" name="大不净者" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="f7d5-4c9e-cca9-aded" name="大不净者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -4389,7 +4389,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="190.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5510-34ef-843c-c43e" name="Hellflayers of 色孽" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5510-34ef-843c-c43e" name="Hellflayers of 色孽" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="dc8f-f788-e3cd-57cf" name="Hellflayer 战车 of 色孽" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -4514,7 +4514,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="45.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0a3f-dc0b-59de-aae5" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="0a3f-dc0b-59de-aae5" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7fd4-92a0-9af1-95f3" type="max"/>
               </constraints>
@@ -4762,7 +4762,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="44a8-e7f7-d958-576f" name="至尊色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="44a8-e7f7-d958-576f" name="至尊色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="单位">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1674-0fff-bcc0-d072" type="max"/>
               </constraints>
@@ -4789,7 +4789,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="80.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7c45-f0d7-9a0d-7a2c" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="7c45-f0d7-9a0d-7a2c" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="单位">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26e0-8f86-368e-057d" type="max"/>
               </constraints>
@@ -4936,7 +4936,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c3e5-f2b3-10aa-7605" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="c3e5-f2b3-10aa-7605" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
               <profiles>
                 <profile id="4086-a208-e109-e17d" name="Burning 战车 of 奸奇" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
                   <characteristics>
@@ -5030,7 +5030,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5202-702d-90b7-115c" name="Kairos Fateweaver" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5202-702d-90b7-115c" name="Kairos Fateweaver" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39a8-66e0-38b9-77de" type="max"/>
       </constraints>
@@ -5140,7 +5140,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
           <profiles>
             <profile id="f40c-a8db-6d53-7a1c" name="Greater Locus of Fury" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">This model, and 所有 模型 in its unit, 拥有 暴怒 规则.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">This model, and 所有 模型 in its 单位, 拥有 暴怒 规则.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5160,7 +5160,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2276-01c7-1651-26ad" name="Keeper of Secrets" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2276-01c7-1651-26ad" name="Keeper of Secrets" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7556-ece7-cde9-457c" type="max"/>
       </constraints>
@@ -5417,7 +5417,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="888.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58c9-f812-0adc-4105" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="58c9-f812-0adc-4105" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5298-8112-0c90-ab11" type="max"/>
       </constraints>
@@ -5491,7 +5491,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82dd-7e56-181f-008f" name="Lord of Change" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="82dd-7e56-181f-008f" name="Lord of Change" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="1b96-14ee-fc50-7409" name="Lord of Change" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -5564,7 +5564,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="230.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="64e6-0c00-930a-041f" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="64e6-0c00-930a-041f" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="5296-9291-ece8-865a" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="e175-37ae-5143-f60a" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -5605,10 +5605,10 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f5b-77ea-5734-1376" name="Pink Horrors of 奸奇" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0f5b-77ea-5734-1376" name="Pink Horrors of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="cf6b-d69c-c171-48a8" name="Split" hidden="false">
-          <description>If a 友方 单位 of Pink Horrors suffers any casualties, the slain Horrors will split and create Blue Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). Two Blue Horrors are created for each slain Pink Horror - if there is already a 友方 Blue HOrror 单位 范围内 6寸 of the Pink Horrors, add the newly created Blue Horrors to that unit, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Pink Horrors. If a rule causes a whole 单位 of Pink Horrors to be removed at once(excluding Daemonic Instability), you can immediately create a 单位 of Blue HOrrors, just before removing the last 模型 from the Pink Horrors unit. The 单位 of Blue Horrors has two 模型 for each 模型 in the 单位 of Pink Horrors at the point at which it is removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Pink Horrors unit.</description>
+          <description>If a 友方 单位 of Pink Horrors suffers any casualties, the slain Horrors will split and create Blue Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). Two Blue Horrors are created for each slain Pink Horror - if there is already a 友方 Blue HOrror 单位 范围内 6寸 of the Pink Horrors, add the newly created Blue Horrors to that 单位, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Pink Horrors. If a rule causes a whole 单位 of Pink Horrors to be removed at once(excluding Daemonic Instability), you can immediately create a 单位 of Blue HOrrors, just before removing the last 模型 from the Pink Horrors 单位. The 单位 of Blue Horrors has two 模型 for each 模型 in the 单位 of Pink Horrors at the point at which it is removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Pink Horrors 单位.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5708,7 +5708,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fe9-e4ce-3227-109b" name="Plague Drones of 纳垢" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8fe9-e4ce-3227-109b" name="Plague Drones of 纳垢" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="3a1b-3a2e-8ca6-218e" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="fde5-8dde-93b1-0a1d" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
@@ -5817,7 +5817,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1f04-b549-d1b0-1c68" name="Unit 可以 take one" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1f04-b549-d1b0-1c68" name="单位 可以 take one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1e0-29df-abe2-2cc2" type="max"/>
           </constraints>
@@ -5879,7 +5879,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3c5-f5c9-8599-6877" name="Plaguebearers of 纳垢" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e3c5-f5c9-8599-6877" name="Plaguebearers of 纳垢" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="27b7-6663-e453-6b66" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="ca19-972e-c4ff-b1ab" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -6072,7 +6072,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="777.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8830-55fb-8dd6-ae37" name="Screamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8830-55fb-8dd6-ae37" name="Screamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="849e-edb5-ca75-3c72" name="Lamprey&apos;s Bite" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -6123,7 +6123,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bda2-04a2-e853-d176" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bda2-04a2-e853-d176" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="ba1a-74bc-695e-807a" name="色孽寻觅者战车" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -6158,7 +6158,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eba0-6b65-77e3-2b1c" name="色孽寻觅者" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="eba0-6b65-77e3-2b1c" name="色孽寻觅者" page="0" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="aed6-f4d2-d8eb-8b74" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="e7f8-f0e1-b93d-c06c" hidden="false" targetId="de18-25a0-504b-74be" type="rule"/>
@@ -6245,7 +6245,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bdb1-333c-deff-9421" name="Skull Cannon of 恐虐" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bdb1-333c-deff-9421" name="Skull Cannon of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="9cec-fe93-e7c7-5f53" name="Skull Cannon of 恐虐" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -6379,7 +6379,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d184-75d9-c4ee-9444" name="Skarbarand" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d184-75d9-c4ee-9444" name="Skarbarand" page="0" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec7e-a26e-1696-a27f" type="max"/>
       </constraints>
@@ -6445,7 +6445,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f631-8ba8-0d1b-3ed1" name="Soul Grinder of Chaos" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f631-8ba8-0d1b-3ed1" name="Soul Grinder of Chaos" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="eb2c-e32d-a287-26cc" name="Soul Grinder of Chaos" page="0" hidden="false" typeId="57616c6b657223232344415441232323" typeName="步行机甲">
           <characteristics>
@@ -6768,7 +6768,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
 
 The Dance of Caging: Until the start of the Masque&apos;s next 射击阶段, the target 单位 suffers a -5 penalty to WS(to a minimum of 1) and can only move, run, charge, and fall back D3寸.
 
-The Dance of Death: The target 单位 suffers a number of S1 hits equal to the number of 模型 in the unit. These hits are resolved at AP2, and 拥有 忽视掩体 规则 - allocate any Wound as for a shooting attack.
+The Dance of Death: The target 单位 suffers a number of S1 hits equal to the number of 模型 in the 单位. These hits are resolved at AP2, and 拥有 忽视掩体 规则 - allocate any Wound as for a shooting attack.
 
 The Dance of Dreaming: Until the start of the Masque&apos;s next 射击阶段, the target 单位 suffers a -5 penalty to their BS(to a minimum of 1) and 不能 fire 坚守射击.</description>
         </rule>
@@ -6789,7 +6789,7 @@ The Dance of Dreaming: Until the start of the Masque&apos;s next 射击阶段, t
         <cost name="分" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aadc-dc6f-2f27-e926" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="aadc-dc6f-2f27-e926" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="2b6c-4794-9021-3ae3" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -6957,7 +6957,7 @@ The Dance of Dreaming: Until the start of the Masque&apos;s next 射击阶段, t
       <rules>
         <rule id="1849-94f6-6654-a2fc" name="Angel of Despair" hidden="false">
           <description>It 重投 all 失败的 To-hit and To-wound rolls in combat and is equipped with assault grenades 冲锋时. 冲锋时 into an assault, it gets A+D3.
-Any 非无畏 单位 in CC with this 单位 must pass a leadership check or be unable to strike blows that turn. Roll once for the unit, with IC&apos;s rolled separately.</description>
+Any 非无畏 单位 in CC with this 单位 must pass a leadership check or be unable to strike blows that turn. Roll once for the 单位, with IC&apos;s rolled separately.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7571,7 +7571,7 @@ If you roll Rot, Glorious Rot, you 可以 重投 1个 dice roll to determine if 
 If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determine if a 单位 is hit or not for each 友方 色孽恶魔  模型 with an Instrument of Chaos currently on the table.</description>
     </rule>
     <rule id="20fc-183d-2ac3-1f8f" name="Split Again" hidden="false">
-      <description>if a 友方 单位 of Blue Horrors suffers any casualties, the slain Horrors will split and create Brimstone Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). One 模型 is created for each slain Blue Horror - if there is already a 友方 Brimstone Horror 单位 范围内 6寸 of the Blue Horrors, add the newly created Brimstone Horrors to that unit, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Blue Horrors. If a rule causes a whole 单位 of Blue Horrors to be removed at once(excluding Daemonic Instabilities), you can immediately create a 单位 of Brimstone Horrors just before removing the last 模型 from the Blue Horrors unit. The 单位 of Brimstone Horrors has one 模型 for each 模型 in the 单位 of Blue Horrors at the point as which it was removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Blue Horrors unit.</description>
+      <description>if a 友方 单位 of Blue Horrors suffers any casualties, the slain Horrors will split and create Brimstone Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). One 模型 is created for each slain Blue Horror - if there is already a 友方 Brimstone Horror 单位 范围内 6寸 of the Blue Horrors, add the newly created Brimstone Horrors to that 单位, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Blue Horrors. If a rule causes a whole 单位 of Blue Horrors to be removed at once(excluding Daemonic Instabilities), you can immediately create a 单位 of Brimstone Horrors just before removing the last 模型 from the Blue Horrors 单位. The 单位 of Brimstone Horrors has one 模型 for each 模型 in the 单位 of Blue Horrors at the point as which it was removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Blue Horrors 单位.</description>
     </rule>
     <rule id="229a-0176-cf56-22fa" name="灵能者 Discipline - Change" page="0" hidden="false"/>
     <rule id="d5aa-71d3-ef97-0481" name="Warlord Trait - Death Incarnate" hidden="false">

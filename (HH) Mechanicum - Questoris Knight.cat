@@ -136,7 +136,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="48ee846f-5f68-d83d-4f9a-e1a797dc1cd1" name="死士" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48ee846f-5f68-d83d-4f9a-e1a797dc1cd1" name="死士" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -158,7 +158,7 @@
         <cost name="分" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a" name="家族领主" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a" name="家族领主" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -177,7 +177,7 @@
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="导师" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="导师" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="c95171e5-7f98-b827-ef57-0b6e15cc6719" name="战地神谕" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
           <description>如果战场上有至少1名导师,则军表中的骑士预备队进场骰结果+1,在导师6寸内的所有骑士单位(包括骑士导师本身)均获得拦截特殊规则,并且直到下一个玩家的回合可以使用任何合适的武器进行坚守射击.
@@ -194,7 +194,7 @@
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0374f5e8-736f-e990-acd5-75cb44d303a1" name="家族劲弩" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0374f5e8-736f-e990-acd5-75cb44d303a1" name="家族劲弩" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="b6d3b822-a604-fbc5-8dbf-4dcdb913ad6b" name="武器校准" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
           <description>拥有坦克猎手规则.如果在移动阶段中没有移动,可以选择其某件武器在射击阶段拥有对空火力规则</description>
@@ -213,7 +213,7 @@
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-17e9-3707-22f2" name="家族新血" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2f44-17e9-3707-22f2" name="家族新血" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="increment" field="maxInForce" value="1.0">
           <repeats>
@@ -286,7 +286,7 @@
         <cost name="分" typeId="points" value="-35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="97fcca37-2121-18e9-f084-4f254332c535" name="家族杀手" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="97fcca37-2121-18e9-f084-4f254332c535" name="家族杀手" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="1ad8fa30-bf2e-1ade-84b2-f035101f3d86" name="杀手突击" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
           <description>必须重掷失败的冲锋,并且必须重掷失败的扫荡打击</description>
@@ -305,7 +305,7 @@
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9b3942b-357b-159d-698d-73661a1f3bff" name="家族猛士" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a9b3942b-357b-159d-698d-73661a1f3bff" name="家族猛士" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="f6ca3bc6-aa39-58f0-dd9e-2ba8d2c83fbf" name="破墙者" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
           <description>建筑破坏骰结果+1(可与AP加成累计).</description>
@@ -324,7 +324,7 @@
         <cost name="分" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5053f8a2-cc7f-f635-1044-b149aed1513e" name="家族骑士" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5053f8a2-cc7f-f635-1044-b149aed1513e" name="家族骑士" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="f46d7af6-d9cf-a52c-39b3-d6569197ff0f" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
@@ -339,7 +339,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff61-cf0e-681b-82bb" name="家族轻骑兵" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ff61-cf0e-681b-82bb" name="家族轻骑兵" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="955c6a6d-62db-3190-a6fb-ad53119398ca" name="勇猛冲锋" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
           <description>家族轻骑兵拥有侦察和打带跑规则,但其前装甲-1</description>
@@ -348,11 +348,11 @@
           <description>家族轻骑兵只能对24寸以外的单位进行仓促射击.</description>
         </rule>
         <rule id="439b-6d0c-4981-2dd2" name="打带跑" hidden="false">
-          <description>A unit that contains at least one model with this 规则 that is locked in combat can choose to leave close combat at the end of any 突击 phase. If the unit wishes to do so, it must take an Initiative test.
+          <description>A 单位 that contains at least one model with this 规则 that is locked in combat can choose to leave close combat at the end of any 突击 phase. If the 单位 wishes to do so, it must take an Initiative test.
 
 If the test is failed, nothing happens and the models remain locked in the fight.
 
-If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1寸 away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6寸.
+If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire 单位 to move over 1寸 away from all of the enemy units they are locked in combat with, the 单位 breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6寸.
 
 A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1寸 away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.
     </description>
@@ -371,7 +371,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33d55e37-58db-535e-ffb4-0c9136c15e25" name="总管" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="33d55e37-58db-535e-ffb4-0c9136c15e25" name="总管" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -393,7 +393,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbcc-f750-c3cb-2dcf" name="家族从者" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dbcc-f750-c3cb-2dcf" name="家族从者" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="9f59-5499-23fb-9144" name="Objective Secured" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
@@ -407,7 +407,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d67-3c94-ab8b-58da" name="家族护卫" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d67-3c94-ab8b-58da" name="家族护卫" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="bbfe-f633-a486-1d67" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -572,7 +572,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="deb3-68a3-5d36-eb3d" name="锯齿蚁级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="deb3-68a3-5d36-eb3d" name="锯齿蚁级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="a080-e2a8-dc43-1112" name="New InfoLink" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
         <infoLink id="57a5-1a50-7092-3d9c" name="New InfoLink" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
@@ -795,7 +795,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
         <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>

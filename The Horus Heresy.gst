@@ -324,7 +324,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="11c8-2e78-8328-31e4" name="远征军复仇者强袭攻击机" publicationId="ca571888--pubN66489" page="47" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="11c8-2e78-8328-31e4" name="远征军复仇者强袭攻击机" publicationId="ca571888--pubN66489" page="47" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="341f-27c1-0e88-9c83" name="复仇者爆弹炮" publicationId="ca571888--pubN66500" page="272" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -546,7 +546,7 @@
         </profile>
         <profile id="45e2-3ee8-5b96-aa28" name="Ætherlabe Staff" publicationId="ca571888--pubN67636" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Should an enemy unit 深度打击 into play within 12寸 of the Navigator, the Navigator and their unit may make a Snap Shot 射击攻击 at the arriving unit at the end of that phase, subject to the normal rules for doing so. If the enemy unit enters play by way of a 召唤 psychic power, these Snap Shots are carried out at the firers’ normal BS rather than at BS 1.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Should an enemy 单位 深度打击 into play within 12寸 of the Navigator, the Navigator and their 单位 may make a Snap Shot 射击攻击 at the arriving 单位 at the end of that phase, subject to the normal rules for doing so. If the enemy 单位 enters play by way of a 召唤 psychic power, these Snap Shots are carried out at the firers’ normal BS rather than at BS 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -555,13 +555,13 @@
           <description>
 Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the Navigator is not engaged in an 突击. These powers do not count as Psychic Powers and the Navigator does not use Warp Charge points or have access to any Psychic Disciplines. However, the Navigator does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨(Psykers) or weapons that have additional rules against Psykers.
 
-In order to use a Navigator power, the Navigator must make a Leadership test. If the test is passed, the chosen power is used as described. If the test is failed, the power is not used and the Navigator and their unit is Pinned(though they do not Go to Ground).
+In order to use a Navigator power, the Navigator must make a Leadership test. If the test is passed, the chosen power is used as described. If the test is failed, the power is not used and the Navigator and their 单位 is Pinned(though they do not Go to Ground).
 
 -The Lidless Stare
 Use in the controlling player’s 射击阶段, counting as a 射击攻击. Place a 喷射盖板 as if the Navigator was shooting a 喷射盖板 weapon. Every 步兵 type model, friend or foe, under the 喷射盖板 must pass an Initiative test. Models that fail the test suffer an automatic 即死 wound with no 装甲保护s possible.
 
 -Warp Prescience
-Use at the beginning of the enemy’s 射击阶段. 射击攻击 directed at the Navigator and their unit that player turn are made at -1 BS.
+Use at the beginning of the enemy’s 射击阶段. 射击攻击 directed at the Navigator and their 单位 that player turn are made at -1 BS.
 
 -Ætheric Disruption
 Use at the start of the controlling player’s turn. Until the beginning of their next player turn, all Psykers, friend or foe, roll three dice and discard the lowest result for the purposes of Perils of the Warp results.
@@ -1548,7 +1548,7 @@ D6    结果  S AP
       <profiles>
         <profile id="acfc-9384-8119-d9d8" name="Aegis Defence Line" publicationId="ca571888--pubN73904" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ 掩体保护. If a unit Goes to Ground, then models from the unit gain +2 to the 掩体保护 from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that defence line. Units charging an 敌方 that is behind a defence line count as charging through 困难地形.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ 掩体保护. If a 单位 Goes to Ground, then models from the 单位 gain +2 to the 掩体保护 from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that defence line. Units charging an 敌方 that is behind a defence line count as charging through 困难地形.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1840,7 +1840,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target unit suffers a -1 penalty to both Strength and Toughness, and treats all terrain(even open ground) as 困难地形.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target 单位 suffers a -1 penalty to both Strength and Toughness, and treats all terrain(even open ground) as 困难地形.</characteristic>
           </characteristics>
         </profile>
         <profile id="315b-628b-d4b1-b075" name="1. Iron Arm" publicationId="ca571888--pubN106502" page="184" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -1875,7 +1875,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, all models in the target unit gain the 永恒战士, 不知疼痛(4+) and 毫不留情规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, all models in the target 单位 gain the 永恒战士, 不知疼痛(4+) and 毫不留情规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="e140-e6e5-cc6d-ebb3" name="6. Haemorrhage" publicationId="ca571888--pubN106502" page="184" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -1916,7 +1916,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">3</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">召唤</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">6</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units(your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the 灵能者 is immediately removed as a casualty(if the 灵能者 was part of a unit with the 灵能者兄弟会/巫师兄弟会规则, remove the entire unit as casualties). If, when using this power, the 灵能者 fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units(your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the 灵能者 is immediately removed as a casualty(if the 灵能者 was part of a 单位 with the 灵能者兄弟会/巫师兄弟会规则, remove the entire 单位 as casualties). If, when using this power, the 灵能者 fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="9bc0-7e8d-d0cf-d07c" name="3. Infernal Gaze" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="攻击灵能">
@@ -1991,7 +1991,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the 灵能者 and his unit have +2 Strength</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the 灵能者 and his 单位 have +2 Strength</characteristic>
           </characteristics>
         </profile>
         <profile id="ae82-4bd3-bff9-24e9" name="(Primaris) Banishment" publicationId="ca571888--pubN106502" page="189" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -1999,7 +1999,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, all models in the target 恶魔 unit suffer a -1 penalty to their 特殊保护(normally reducing it to a 6+). This is cumulative with any other modifiers to a 恶魔&apos;s 特殊保护, but cannot make it worse than 6+.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, all models in the target 恶魔 单位 suffer a -1 penalty to their 特殊保护(normally reducing it to a 6+). This is cumulative with any other modifiers to a 恶魔&apos;s 特殊保护, but cannot make it worse than 6+.</characteristic>
           </characteristics>
         </profile>
         <profile id="3843-43d4-0fb8-3875" name="1. Gate of Infinity" publicationId="ca571888--pubN106502" page="189" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2007,7 +2007,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming or Swooping, remove the target and his unit from the board. It then immediately arrives anywhere on the board using the rules for 深度打击.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming or Swooping, remove the target and his 单位 from the board. It then immediately arrives anywhere on the board using the rules for 深度打击.</characteristic>
           </characteristics>
         </profile>
         <profile id="2751-d13c-bcee-b421" name="3. Sanctuary" publicationId="ca571888--pubN106502" page="189" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2015,7 +2015,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功 the 灵能者 and all models in his unit receive a +1 bonus to their 特殊保护(models that do not have an 特殊保护 gain a 6+ 特殊保护 whilst this power is in effect instead). 此外 all units with the 恶魔规则(friend or foe) treat allterrain, including open ground, within 12寸 of the 灵能者 as 危险地形.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功 the 灵能者 and all models in his 单位 receive a +1 bonus to their 特殊保护(models that do not have an 特殊保护 gain a 6+ 特殊保护 whilst this power is in effect instead). 此外 all units with the 恶魔规则(friend or foe) treat allterrain, including open ground, within 12寸 of the 灵能者 as 危险地形.</characteristic>
           </characteristics>
         </profile>
         <profile id="04a8-89e7-3f89-6c7f" name="4. Purge Soul" publicationId="ca571888--pubN106502" page="189" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2065,7 +2065,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit&apos;s weapons ahve the 忽视掩体规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his 单位&apos;s weapons ahve the 忽视掩体规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="1b8f-06fb-82f8-9f6c" name="4. Precognition" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2081,7 +2081,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, all attacks that hit the target unit 获得撕裂规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, all attacks that hit the target 单位 获得撕裂规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="5954-4cb9-4bdd-6d18" name="6. Scrier&apos;s Gaze" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2097,7 +2097,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit 获得反击规则 and fire 坚守射击 using their full BS, rather than BS 1.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his 单位 获得反击规则 and fire 坚守射击 using their full BS, rather than BS 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="dcf4-8194-115c-45cc" name="2. Forewarning" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2105,7 +2105,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target unit has a 4+ 特殊保护.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target 单位 has a 4+ 特殊保护.</characteristic>
           </characteristics>
         </profile>
         <profile id="e7a3-0f73-f77d-ffdc" name="(Primaris) Prescience" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2113,7 +2113,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target unit can 重投 all failed To Hit rolls.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the target 单位 can 重投 all failed To Hit rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2152,7 +2152,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target unit has a 4+ 掩体保护 and all 敌方 units treat all terrain within 6寸 of the target as 危险地形.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target 单位 has a 4+ 掩体保护 and all 敌方 units treat all terrain within 6寸 of the target as 危险地形.</characteristic>
           </characteristics>
         </profile>
         <profile id="3d84-b3a6-0b6c-1c1b" name="4. Sunburst" publicationId="ca571888--pubN106502" page="186" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="攻击灵能">
@@ -2262,7 +2262,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, all of the target’s ranged weapons 获得过热规则. 此外 if the target is a 载具(or 载具 squadron), each 载具 in the unit suffers a single Strength 1 hit with the 电磁干扰规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, all of the target’s ranged weapons 获得过热规则. 此外 if the target is a 载具(or 载具 squadron), each 载具 in the 单位 suffers a single Strength 1 hit with the 电磁干扰规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="5702-6c49-983f-aeaf" name="4. Levitation" publicationId="ca571888--pubN106502" page="187" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2270,7 +2270,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming, Swooping or is locked in 肉搏, the 灵能者 and his unit immediately make a move of up to 12寸. This move cannot end up on top of another unit or 不可通过地形, but ignores intervening units, terrain etc. Any model that starts or ends this move in 困难地形must take a 危险地形 test. The 灵能者 and his unit cannot charge in the sameturn that they use this power, and all models count as having moved in the 移动阶段 for the purposes of shooting weapons in the 射击阶段.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Unless the target is Zooming, Swooping or is locked in 肉搏, the 灵能者 and his 单位 immediately make a move of up to 12寸. This move cannot end up on top of another 单位 or 不可通过地形, but ignores intervening units, terrain etc. Any model that starts or ends this move in 困难地形must take a 危险地形 test. The 灵能者 and his 单位 cannot charge in the sameturn that they use this power, and all models count as having moved in the 移动阶段 for the purposes of shooting weapons in the 射击阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2291,7 +2291,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from(roll once for the whole unit).  1-2: The unit must take a 压制 Test. 3-4: 只要释放成功, all models in the unit suffer a -1 penalty to their WS, BS, Initiative and Attacks(to a minimum of 1). 5-6: Randomly select one 人物 in the target unit. That model suffers a single Strength 3 hit for every other model in the target unit. 掩体保护s cannot be taken against these hits, and they can never be allocated to another model. If there are no 人物 models in the target unit, or if there are no other modelsapart from the 人物 model, treat this result as 3-4 instead.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Roll once this power has been successfully manifested to determine the manner of hallucinations the target is suffering from(roll once for the whole 单位).  1-2: The 单位 must take a 压制 Test. 3-4: 只要释放成功, all models in the 单位 suffer a -1 penalty to their WS, BS, Initiative and Attacks(to a minimum of 1). 5-6: Randomly select one 人物 in the target 单位. That model suffers a single Strength 3 hit for every other model in the target 单位. 掩体保护s cannot be taken against these hits, and they can never be allocated to another model. If there are no 人物 models in the target 单位, or if there are no other modelsapart from the 人物 model, treat this result as 3-4 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c98-79ed-ecc1-8507" name="1. Dominate" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2299,7 +2299,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">24寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire 坚守射击 does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">只要释放成功, the target 单位 must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the 单位 can do nothing else that phase. A 单位 that fails this test when attempting to fire 坚守射击 does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7251-be85-3b42-d921" name="3. Terrify" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2315,7 +2315,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">巫火</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">18寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Roll 3D6 and subtract the target’s Leadership – the target unit suffers a number of Wounds equal to the result. Armour and 掩体保护s cannot be taken against Wounds caused by Psychic Shriek.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Roll 3D6 and subtract the target’s Leadership – the target 单位 suffers a number of Wounds equal to the result. Armour and 掩体保护s cannot be taken against Wounds caused by Psychic Shriek.</characteristic>
           </characteristics>
         </profile>
         <profile id="2fa6-56c5-974f-9368" name="2. Mental Fortitude" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2339,7 +2339,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="射程" typeId="fd64-cbc4-94de-24cc">12寸</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Targets a single 敌方 unit. Whilst this power is in effect, all models in the target unit reduce their Ballastic Skill and WS to 1.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Targets a single 敌方 单位. Whilst this power is in effect, all models in the target 单位 reduce their Ballastic Skill and WS to 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2491,7 +2491,7 @@ D6    结果  S AP
       <profiles>
         <profile id="944e-63e0-c589-b37c" name="Defence Line" publicationId="ca571888--pubN106502" page="111" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ 掩体保护. If a unit Goes to Ground, then models from the unit gain +2 to the 掩体保护 from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any 敌方 models who are directly opposite them and in base contact with the other side of that defence line. Units charging an 敌方 that is behind a defence line count as charging through 困难地形.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ 掩体保护. If a 单位 Goes to Ground, then models from the 单位 gain +2 to the 掩体保护 from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any 敌方 models who are directly opposite them and in base contact with the other side of that defence line. Units charging an 敌方 that is behind a defence line count as charging through 困难地形.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2635,7 +2635,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="b27c-0dbd-e299-41b3" name="The Eagle&apos;s Gaze" publicationId="ca571888--pubN106502" page="118" hidden="false">
-          <description>If a unit with the Loyalist 联军 has any of its models within a Shrine of the Aquila, it 重投 failed Morale checks. Any unit with the Traitor 联军 that is in a Shrine of the Aquila has the 憎恨(Loyalist)规则.</description>
+          <description>If a 单位 with the Loyalist 联军 has any of its models within a Shrine of the Aquila, it 重投 failed Morale checks. Any 单位 with the Traitor 联军 that is in a Shrine of the Aquila has the 憎恨(Loyalist)规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2674,7 +2674,7 @@ D6    结果  S AP
           </constraints>
           <rules>
             <rule id="06a0-3947-0f73-4a55" name="Mysterious Containers" publicationId="ca571888--pubN80309" hidden="false">
-              <description>The first time a unit moves or deploys in base contact with a Munitorum Armoured Container, roll a D6 and consult the following table to discover its contents. If you are using the Munitorum Armoured Containers to represent Objective Markers, this table replaces the Mysterious Objectives in BRB. 
+              <description>The first time a 单位 moves or deploys in base contact with a Munitorum Armoured Container, roll a D6 and consult the following table to discover its contents. If you are using the Munitorum Armoured Containers to represent Objective Markers, this table replaces the Mysterious Objectives in BRB.
 
 1 - Xenos Creature: The container was transporting a rare and deadly xenos creature that immediately lashes out in anger as it escapes. All units within 6寸 of the armoured container take D6 S 4 AP 6 hits with the 忽视掩体规则. Wounds are randomly allocated.
 2 - Nothing of Note: The container contains vital supplies of red berets en route to an Astra Militarum regiment, but has no additional effect on the game.
@@ -2757,7 +2757,7 @@ D6    结果  S AP
               <profiles>
                 <profile id="c564-d5a8-6e04-b606" name="Fuel Drum" publicationId="ca571888--pubN80309" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a fuel drum has a 5+ 掩体保护. However, each time a unit successfully makes this 掩体保护 on the roll of a 6, immediately roll another D6. If the result of this roll is a 1, the unit that made the 掩体保护 immediately suffers an additional D3 S4 AP5 hits with the 忽视掩体规则. These additional hits use Random Allocation, and 载具 are hit on the armour facing nearest to the Fuel Drum.  Any Flamer weapon(as defined in BRB) fired by a 非载具 model within 2寸 of a fuel drum in the 射击阶段 can change its weapon type from 突击 to 重型, or from Pistol to 重型. If it does so, the weapon 获得爆发喷射规则 until the end of that phase.</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a fuel drum has a 5+ 掩体保护. However, each time a 单位 successfully makes this 掩体保护 on the roll of a 6, immediately roll another D6. If the result of this roll is a 1, the 单位 that made the 掩体保护 immediately suffers an additional D3 S4 AP5 hits with the 忽视掩体规则. These additional hits use Random Allocation, and 载具 are hit on the armour facing nearest to the Fuel Drum.  Any Flamer weapon(as defined in BRB) fired by a 非载具 model within 2寸 of a fuel drum in the 射击阶段 can change its weapon type from 突击 to 重型, or from Pistol to 重型. If it does so, the weapon 获得爆发喷射规则 until the end of that phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2798,7 +2798,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="1f44-916a-9413-cee3" name="Plasma Overheat" hidden="false">
-          <description>If this 建筑 suffers a glancing hit as a result of the plasma obliterator&apos;s 过热规则 then, 此外 to any other effects, any unit embarked in the 建筑 suffers D3 Wounds. These Wounds are Randomly Allocated.</description>
+          <description>If this 建筑 suffers a glancing hit as a result of the plasma obliterator&apos;s 过热规则 then, 此外 to any other effects, any 单位 embarked in the 建筑 suffers D3 Wounds. These Wounds are Randomly Allocated.</description>
         </rule>
       </rules>
       <entryLinks>
@@ -3097,7 +3097,7 @@ In the event of 敌方 models embarking inside the Primus Redoubt, the Battle Cr
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e40b-468f-f1d7-d05d" name="帝国城堡要塞" publicationId="ca571888--pubN82424" page="94" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e40b-468f-f1d7-d05d" name="帝国城堡要塞" publicationId="ca571888--pubN82424" page="94" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="d307-b16a-5b89-9612" name="Shielded Gate Barriers" publicationId="ca571888--pubN82437" page="75" hidden="false">
           <description>The main entrances of the Castellum Stronghold are covered not by plascrete and adamantium, but crackling barriers of energy that can be raised or lowered at the will of the 工事槽位’s controller.
@@ -5418,11 +5418,11 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="0ecc-85fa-880b-5e24" name="Mysterious Wreckage" publicationId="ca571888--pubN106502" page="123" hidden="false">
-          <description>The first time a unit enters or deploys in base contact with a Crashed Imperial Lander, roll a D6 and consult the following table:
+          <description>The first time a 单位 enters or deploys in base contact with a Crashed Imperial Lander, roll a D6 and consult the following table:
 
 D6 Result
 1 Unstable Fuel Core: 
-The unit that entered or deployed in base contact with the Crashed Imperial Lander immediately suffers D6 Strength 5 AP- hits with the 忽视掩体规则. Wounds are Randomly Allocated.
+The 单位 that entered or deployed in base contact with the Crashed Imperial Lander immediately suffers D6 Strength 5 AP- hits with the 忽视掩体规则. Wounds are Randomly Allocated.
 
 2-4 Nothing of Note: 
 The Crashed Imperial Lander has no additional effects this game.
@@ -5450,7 +5450,7 @@ Immediately place an objective marker within 3寸 of any part of the Crashed Imp
       </profiles>
       <rules>
         <rule id="1977-5241-c842-f51a" name="Foxholes" publicationId="ca571888--pubN106502" page="125" hidden="false">
-          <description>Models in Moonscape Craters receive a 6+ 掩体保护, regardless of whether or not they are 25% obscured. If a unit Goes to Ground, models from the unit gain +2 to their 掩体保护 if they are in Moonscape Craters rather than +1.</description>
+          <description>Models in Moonscape Craters receive a 6+ 掩体保护, regardless of whether or not they are 25% obscured. If a 单位 Goes to Ground, models from the 单位 gain +2 to their 掩体保护 if they are in Moonscape Craters rather than +1.</description>
         </rule>
       </rules>
       <costs>
@@ -6120,9 +6120,9 @@ Please let us know what worked well as a part of these rules and also what could
                       <description>快速 Moving, Hard Hitting: Raider detachment must consist of models of a single faction, and no other detachment in the army may take a Fortifications detachment.  All 精英槽位 units are counted as scoring units, while 基础槽位 choices are Denial units only.
 
 此外 any 战争之王槽位 must fulfil one of the following criteria:
-- Unit has the 超重型(快速) type
-- Unit is a 超重型载具 or 步行机甲 with less than 6 Hull Points
-- Unit has the 超重型飞行器 type
+- 单位 has the 超重型(快速) type
+- 单位 is a 超重型载具 or 步行机甲 with less than 6 Hull Points
+- 单位 has the 超重型飞行器 type
 
 The Element of Surprise: Prior to any rolls for for first turn or units are deployed.  The player using the Raider Detachment chooses one fo the following options, informing their opponent before beginning play.  
 - 夜战 rules are automatically in effect for the first turn, and the second turn on a 4+
@@ -6143,7 +6143,7 @@ The Element of Surprise: Prior to any rolls for for first turn or units are depl
                     <rule id="28a4-8d94-085d-757d" name="Garrison Primary Detachment" publicationId="ca571888--pubN84158" page="177" hidden="false">
                       <description>Prepared Ground: In games where objectives are in use, the player using a Garrison Detachment may reposition all placed objectives by 6寸 in any direction before beginning the first turn, as long as this does not place them outside the play area, within 不可通过地形, or within a 载具, 建筑, or 工事槽位.
 
-Fortress-bound: Each 工事槽位 deployed on the table must be occupied by at least one 步兵 unit from the same detachment if it has either Battlements or a 运输载具 Capacity.</description>
+Fortress-bound: Each 工事槽位 deployed on the table must be occupied by at least one 步兵 单位 from the same detachment if it has either Battlements or a 运输载具 Capacity.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -6208,7 +6208,7 @@ Fortress-bound: Each 工事槽位 deployed on the table must be occupied by at l
                       <description>Restrictions: All units chosen must be of the same Faction(or have no Faction).  Only 1 指挥槽位 in the Incursion Force may be a 执政官, across all 3 available Incursion Force Detachments.  No Rites of War may be used.
 
 Command Benefits:
-- Objective Secured: All 基础槽位 units from this detatchment 获得Objective Secured规则.  A unit with this rule controls objectives and occupies a ruin, even if an 敌方 scoring unit is within range of the objective or within the ruin, unless the 敌方 unit also has this rule.
+- Objective Secured: All 基础槽位 units from this detatchment 获得Objective Secured规则.  A 单位 with this rule controls objectives and occupies a ruin, even if an 敌方 scoring 单位 is within range of the objective or within the ruin, unless the 敌方 单位 also has this rule.
 - Close Coordination: 步兵 units from this detachment gain the 拦截 rule when within 6寸 of any 载具 from the same sub-detachment, but only when firing at 敌方 步兵 models.</description>
                     </rule>
                   </rules>
@@ -6230,10 +6230,10 @@ Command Benefits:
                   </constraints>
                   <rules>
                     <rule id="4b23-8920-a6e2-4649" name="Entrenched Force Primary Detachment" publicationId="ca571888--pubN84158" page="193" hidden="false">
-                      <description>Restrictions: All units chosen must be of the same Faction(or have no Faction).  Compulsory 重型槽位  must be a unit with the 步兵 type.  Optional 工事槽位 Detachment may not include any fortifications with the 固若金汤规则.
+                      <description>Restrictions: All units chosen must be of the same Faction(or have no Faction).  Compulsory 重型槽位  must be a 单位 with the 步兵 type.  Optional 工事槽位 Detachment may not include any fortifications with the 固若金汤规则.
 
 Command Benefits:
-- Objective Secured: All 基础槽位 units from this detatchment 获得Objective Secured规则.  A unit with this rule controls objectives and occupies a ruin, even if an 敌方 scoring unit is within range of the objective or within the ruin, unless the 敌方 unit also has this rule.
+- Objective Secured: All 基础槽位 units from this detatchment 获得Objective Secured规则.  A 单位 with this rule controls objectives and occupies a ruin, even if an 敌方 scoring 单位 is within range of the objective or within the ruin, unless the 敌方 单位 also has this rule.
 - Entrenched: On the first game turn only, all units with the 步兵 type in this detachment gain +1 to any 掩体保护s granted by ruins, defence lines, craters, battlements, and barricades, to a maximum of 2+.</description>
                     </rule>
                   </rules>
@@ -6258,7 +6258,7 @@ Command Benefits:
                       <description>Restrictions: All units chosen must be of the same Faction(or have no Faction).  Only 1 指挥槽位 in the Incursion Force may be a 执政官, across all 3 available Incursion Force Detachments.  No Rites of War may be used.
 
 Command Benefits:
-- Objective Secured: All 基础槽位 units from this detatchment 获得Objective Secured规则.  A unit with this rule controls objectives and occupies a ruin, even if an 敌方 scoring unit is within range of the objective or within the ruin, unless the 敌方 unit also has this rule.
+- Objective Secured: All 基础槽位 units from this detatchment 获得Objective Secured规则.  A 单位 with this rule controls objectives and occupies a ruin, even if an 敌方 scoring 单位 is within range of the objective or within the ruin, unless the 敌方 单位 also has this rule.
 - Close Coordination: 步兵 units from this detachment gain the 拦截 rule when within 6寸 of any 载具 from the same sub-detachment, but only when firing at 敌方 步兵 models.</description>
                     </rule>
                   </rules>
@@ -7764,7 +7764,7 @@ Command Benefits:
       <description>冲锋时造成D3下愤怒之锤攻击(1个单位只投1次)</description>
     </rule>
     <rule id="73db-afdc-2c95-993c" name="Graviton Hammer" publicationId="ca571888--pubN66489" page="35" hidden="false">
-      <description>此外 to its weapon attacks, units 突击ing a model or unit with a Graviton Hammer always count as making a Disordered Charge when doing so.</description>
+      <description>此外 to its weapon attacks, units 突击ing a model or 单位 with a Graviton Hammer always count as making a Disordered Charge when doing so.</description>
     </rule>
     <rule id="9c80-5c1a-3b9d-971e" name="笼罩" publicationId="ca571888--pubN106502" page="171" hidden="false">
       <description>至少包含1个具有该规则的模型的单位的掩体保护比通常情况获得2 加成,意味着它即使在无掩体的开阔地上也有5+掩体保护.笼罩规则可以和隐蔽规则叠加</description>
@@ -7782,7 +7782,7 @@ Command Benefits:
       <description>自动通过士气,压制,重整,恐怖测试,并且不能卧倒,也不能因为武器无效选择士气自动失败,如果1个正在卧倒的单位获得本规则,会立即取消卧倒效果,另外, 至少包含1个具有此规则模型的单位可以重投每次肉搏中第一轮(阶段)所有失败的命中</description>
     </rule>
     <rule id="1744-88c6-ac43-76f1" name="射线" publicationId="ca571888--pubN105292" hidden="false">
-      <description>To use a 巫火 power with the 射线 sub-type, target a point within the power’s range and trace a line(about 1mm thick) between the chosen point and the centre of the 灵能者’s base – this line cannot be drawn over any unit that is locked in combat. All units under the line(friend and foe) are hit, with the exception of Zooming 飞行器, Swooping 飞行 巨兽 and the 灵能者 himself. Each unit hit by the attack takes a number of hits equal to the number of models from that unit that are under the line. Only one unit that has a model under the line can attempt to Deny the Witch.</description>
+      <description>To use a 巫火 power with the 射线 sub-type, target a point within the power’s range and trace a line(about 1mm thick) between the chosen point and the centre of the 灵能者’s base – this line cannot be drawn over any 单位 that is locked in combat. All units under the line(friend and foe) are hit, with the exception of Zooming 飞行器, Swooping 飞行 巨兽 and the 灵能者 himself. Each 单位 hit by the attack takes a number of hits equal to the number of models from that 单位 that are under the line. Only one 单位 that has a model under the line can attempt to Deny the Witch.</description>
     </rule>
     <rule id="5eea-958c-d623-c3c9" name="笨重" publicationId="ca571888--pubN106502" page="175" hidden="false">
       <description>使用这种武器肉搏的模型只能在I1阶段攻击并跟进移动,除非它是巨兽或机甲才可以免除此规则的影响.</description>
@@ -7810,7 +7810,7 @@ Command Benefits:
     </rule>
     <rule id="8cb0-ff25-22a2-d480" name="跳跃单位" publicationId="ca571888--pubN105292" hidden="false">
       <description>
-跳跃单位可以在每回合的移动阶段或突击阶段使用跳跃背包进行1次更快的移动 – they cannot use their 跳跃背包 in both phases in the same turn. If not using its 跳跃背包, a model moves as a normal model of its type. Indeed, a 跳跃单位can always choose to move as a normal model of their type if they wish. Note that the entire unit must always use the same form of movement. Units that are described as ‘moving like’ 跳跃单位follow all of the rules for 跳跃单位, and use the same规则.
+跳跃单位可以在每回合的移动阶段或突击阶段使用跳跃背包进行1次更快的移动 – they cannot use their 跳跃背包 in both phases in the same turn. If not using its 跳跃背包, a model moves as a normal model of its type. Indeed, a 跳跃单位can always choose to move as a normal model of their type if they wish. Note that the entire 单位 must always use the same form of movement. Units that are described as ‘moving like’ 跳跃单位follow all of the rules for 跳跃单位, and use the same规则.
 
 SKYBORNE
 When using its 跳跃背包(whether moving, charging or Falling Back, as we’ll discuss in a moment) a model can move over all other models and all terrain freely. However, if the model begins or ends its move in 困难地形, it must take a 危险地形 test.
@@ -8037,7 +8037,7 @@ for each successful hit.</description>
       <description>整场战斗只能使用1次</description>
     </rule>
     <rule id="0a50-8f46-c9e4-be2a" name="Orbital" publicationId="ca571888--pubN106502" hidden="false">
-      <description>If an arrow is rolled on the scatter dice when firing a weapon that has this规则, the shot always scatters the full 2D6寸 regardless of the firing model&apos;s BS.  此外 firing an 重炮 weapon that has this规则 does not prevent the firing model from declaring a charge against the target unit in the same turn.</description>
+      <description>If an arrow is rolled on the scatter dice when firing a weapon that has this规则, the shot always scatters the full 2D6寸 regardless of the firing model&apos;s BS.  此外 firing an 重炮 weapon that has this规则 does not prevent the firing model from declaring a charge against the target 单位 in the same turn.</description>
     </rule>
     <rule id="a5ff-1cb1-bee4-d809" name="毒伤" publicationId="ca571888--pubN106502" page="169" hidden="false">
       <description>如果模型或肉搏武器拥有毒性攻击规则,那么其肉搏攻击的出伤会是1个写明的固定数值,无视对方的T值,除非正常出伤的数值比这还低,并且在肉搏攻击中如果S大于对方的T值,则必须重投失败的肉搏伤害.射击武器如果拥有毒性攻击规则,其出伤也会是1个写明的固定数值,如果没写明就是4+,除非正常出伤的数值比这个还低.毒性射击武器除非特殊说明,算作S1,并且毒性攻击规则对载具无效</description>
@@ -8046,7 +8046,7 @@ for each successful hit.</description>
       <description>在肉搏阶段,此武器固定4+造伤,除非正常出伤的数值比这还低.并且如果S大于对方的T值,则必须重投失败的肉搏伤害.对载具无效.</description>
     </rule>
     <rule id="38b6-e53f-8514-a49e" name="Primary Target" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Emplaced weapons on a Firestorm Redoubt that 获得对空火力规则 must fire at the nearest 敌方 飞行器 of 飞行巨兽 unit within range and line of sight. If no 敌方 unit of either of these types is within range or line of sight, that emplaced weapon must instead fire at the nearest 敌方 unit within range and line of sight.</description>
+      <description>Emplaced weapons on a Firestorm Redoubt that 获得对空火力规则 must fire at the nearest 敌方 飞行器 of 飞行巨兽 单位 within range and line of sight. If no 敌方 单位 of either of these types is within range or line of sight, that emplaced weapon must instead fire at the nearest 敌方 单位 within range and line of sight.</description>
     </rule>
     <rule id="92e1-df2b-07ca-179c" name="Prometheum Charges" hidden="false">
       <description>This model counts as being equipped with 突击 grenades(see Warhammer 40,000: The Rules ). However, 掩体保护s cannot be taken against Wounds caused by promethium charges in the 射击阶段.</description>
@@ -8088,13 +8088,13 @@ A Stomp attack consists of D3 Stomps.  建筑s, 飞行器, Swooping 飞行 巨�
       <description>
 Non 载具:
 1: No Effect.
-2-5: Each Model from the unit being stomped that is even partially under the 爆炸 marker suffers a S6 AP4 hit.
-6: Each model from the unit being stomped that is even partially under the 爆炸 marker is removed as a casualty.
+2-5: Each Model from the 单位 being stomped that is even partially under the 爆炸 marker suffers a S6 AP4 hit.
+6: Each model from the 单位 being stomped that is even partially under the 爆炸 marker is removed as a casualty.
 
 载具:
 1: No Effect
-2-5: One 载具 in the unit being stomped that is even partially under the 爆炸 marker(stomping model&apos;s choice) suffers a penetrating hit.
-6: One 载具 in the unit being stomped that is even partially under the 爆炸 marker(stomping model&apos;s choice) scatters D6寸 and then suffers an Explodes! result.
+2-5: One 载具 in the 单位 being stomped that is even partially under the 爆炸 marker(stomping model&apos;s choice) suffers a penetrating hit.
+6: One 载具 in the 单位 being stomped that is even partially under the 爆炸 marker(stomping model&apos;s choice) scatters D6寸 and then suffers an Explodes! result.
       </description>
     </rule>
     <rule id="f14f-8413-de9b-ed19" name="超重型载具" publicationId="ca571888--pubN106502" hidden="false">
@@ -8141,8 +8141,8 @@ If the规则 of a model specify that they can never be Pinned, they automaticall
       <description>
 坦克震撼:
 1: No Effect. Then, Carry on with the 坦克震撼 as normal.
-2-5: The unit being 坦克 Shocked suffers D6 S6 AP4 hits. Then, Carry on with the 坦克震撼 as normal.
-6: The unit being 坦克 Shocked suffers 2D6 S10 AP2 hits. Then, Carry on with the 坦克震撼 as normal.
+2-5: The 单位 being 坦克 Shocked suffers D6 S6 AP4 hits. Then, Carry on with the 坦克震撼 as normal.
+6: The 单位 being 坦克 Shocked suffers 2D6 S10 AP2 hits. Then, Carry on with the 坦克震撼 as normal.
 
 冲撞:
 1: No Effect. Then, Carry on with the Ram as normal.
@@ -8184,7 +8184,7 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       <description>Wing Leaders are free upgrades for 飞行器.  One model in each 飞行器 wing can be upgraded to a Wing Leader at no additional points cost.  At the start of any game, immediately after determining your 主将特性, roll on the Wing Leader table for each Wing Leader to determine their规则.</description>
     </rule>
     <rule id="376e-9c4d-f804-6d61" name="Remote Fire" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Any of the 工事槽位&apos;s emplaced weapons can be fired(using either automated or manual fire) by models occupying the main tower, even if the 建筑 housing the emplaced weapons itself is unoccupied.  This rule cannot be used to fire emplaced weapons on any part of the 工事槽位 occupied by an 敌方 unit.</description>
+      <description>Any of the 工事槽位&apos;s emplaced weapons can be fired(using either automated or manual fire) by models occupying the main tower, even if the 建筑 housing the emplaced weapons itself is unoccupied.  This rule cannot be used to fire emplaced weapons on any part of the 工事槽位 occupied by an 敌方 单位.</description>
     </rule>
     <rule id="c49d-a848-144a-14d6" name="战斗机兵动力刃" hidden="false">
       <description>A+1且视作双手</description>
@@ -8318,7 +8318,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
       <description>When using its 跳跃背包(whether moving, charging or Falling Back), a model can move over all other models and terrain freely. However, if the model begins or ends its move in 困难地形, it must take a 危险地形 test.</description>
     </rule>
     <rule id="97c4-1c1c-3727-757f" name="Trust Move" publicationId="ca571888--pubN106502" page="66" hidden="false">
-      <description>A 喷射背包 unit that is not locked in combat or charging can move up to 2D6寸 in the 突击阶段, even if they have shot or Run in the preceding 射击阶段 or arrived by 深度打击 that turn. When 喷射背包 units move in the 突击阶段 and do not charge, they move just as they would when using their 喷射背包s in the 移动阶段.</description>
+      <description>A 喷射背包 单位 that is not locked in combat or charging can move up to 2D6寸 in the 突击阶段, even if they have shot or Run in the preceding 射击阶段 or arrived by 深度打击 that turn. When 喷射背包 units move in the 突击阶段 and do not charge, they move just as they would when using their 喷射背包s in the 移动阶段.</description>
     </rule>
     <rule id="2eaf-7ad1-5fbb-2b94" name="Shooting(超级巨兽)" publicationId="ca571888--pubN106502" page="69" hidden="false">
       <description>When a 超级巨兽 or 飞行超级巨兽 makes a 射击攻击, it may fire each of its weapons at a different target if desired. 此外 firing 重炮 weapons has no effect on a 超级巨兽’s or 飞行超级巨兽’s ability to fire other weapons. 超级巨兽 and 飞行超级巨兽s cannot fire 坚守射击.</description>
@@ -8986,7 +8986,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="3c28-4994-00ed-bbe5" name="星际战士喷气摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">ARMOURED STEED Bike and 喷气摩托 riders benefit from an increase to their Toughness characteristic by 1. If the Bike or 喷气摩托 is part of the model’s standard wargear, this bonus is already included on its profile. 此外 Bikes and 喷气摩托 cannot Go to Ground, and cannot be Pinned.  MOVEMENT Bikes and 喷气摩托 can move up to 12寸 in the 移动阶段.  BIKES &amp; TERRAIN Bikes and 喷气摩托 are not slowed down by 困难地形(even when charging). However, Bikes treat all 困难地形 as 危险地形 instead.  喷气摩托, MODELS AND TERRAIN 喷气摩托 can move over all other models and terrain freely. However, if a moving 喷气摩托 begins or ends its move in 困难地形, it must take a 危险地形 test. 喷气摩托 cannot end their move over other models or 不可通过地形, except that they can end their move on top of 不可通过地形 if it is actually possible to place the models on top of it. If they do so, they treat the 不可通过地形 as 危险地形.  撤退移动 Bikes and 喷气摩托 move 3D6寸 when Falling Back, rather than 2D6寸.  SHOOTING Each Bike or 喷气摩托 in a unit can fire with one weapon for each rider on the Bike. Thus a 星际战士 Attack Bike with a driver and passenger in sidecar can fire two weapons. 规则 Bikes and 喷气摩托 获得愤怒之锤, 闪避, 毫不留情 and 非常庞大规则.  涡轮加速 Bikes and 喷气摩托 cannot Run, but can make a special 涡轮加速 move instead of firing in their 射击阶段. Turbo-boosting Bikes move up to 12寸, Turbo-boosting 喷气摩托 move up to 24寸. Controlling their Bikes at such speeds takes all the riders’ concentration and skill, however. Bikes and 喷气摩托 therefore cannot shoot, charge or execute any other voluntary action until the end of their turn after Turbo-boosting.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">ARMOURED STEED Bike and 喷气摩托 riders benefit from an increase to their Toughness characteristic by 1. If the Bike or 喷气摩托 is part of the model’s standard wargear, this bonus is already included on its profile. 此外 Bikes and 喷气摩托 cannot Go to Ground, and cannot be Pinned.  MOVEMENT Bikes and 喷气摩托 can move up to 12寸 in the 移动阶段.  BIKES &amp; TERRAIN Bikes and 喷气摩托 are not slowed down by 困难地形(even when charging). However, Bikes treat all 困难地形 as 危险地形 instead.  喷气摩托, MODELS AND TERRAIN 喷气摩托 can move over all other models and terrain freely. However, if a moving 喷气摩托 begins or ends its move in 困难地形, it must take a 危险地形 test. 喷气摩托 cannot end their move over other models or 不可通过地形, except that they can end their move on top of 不可通过地形 if it is actually possible to place the models on top of it. If they do so, they treat the 不可通过地形 as 危险地形.  撤退移动 Bikes and 喷气摩托 move 3D6寸 when Falling Back, rather than 2D6寸.  SHOOTING Each Bike or 喷气摩托 in a 单位 can fire with one weapon for each rider on the Bike. Thus a 星际战士 Attack Bike with a driver and passenger in sidecar can fire two weapons. 规则 Bikes and 喷气摩托 获得愤怒之锤, 闪避, 毫不留情 and 非常庞大规则.  涡轮加速 Bikes and 喷气摩托 cannot Run, but can make a special 涡轮加速 move instead of firing in their 射击阶段. Turbo-boosting Bikes move up to 12寸, Turbo-boosting 喷气摩托 move up to 24寸. Controlling their Bikes at such speeds takes all the riders’ concentration and skill, however. Bikes and 喷气摩托 therefore cannot shoot, charge or execute any other voluntary action until the end of their turn after Turbo-boosting.</characteristic>
       </characteristics>
     </profile>
     <profile id="376f-adc9-b9bf-7fc9" name="占卜扫描仪" publicationId="ca571888--pubN99753" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -9212,7 +9212,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="d4b6-7a3a-aee5-d293" name="弹药店" publicationId="ca571888--pubN106502" page="106" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A unit occupying this 建筑 重投 To Hit rolls of a 1 when firing out of the 建筑’s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A 单位 occupying this 建筑 重投 To Hit rolls of a 1 when firing out of the 建筑’s fire points. Note this does not apply to a model manually firing an emplaced weapon.</characteristic>
       </characteristics>
     </profile>
     <profile id="58a2-c92e-57cc-d44c" name="Ammunition Dump" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -9227,7 +9227,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="2a6f-53c2-d2ea-092f" name="诱敌陷阱" publicationId="ca571888--pubN106502" page="106" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The first unit to occupy this 建筑(friend or foe) immediately suffers 2D6 Strength 4 AP 5 hits with the 忽视掩体规则.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The first 单位 to occupy this 建筑(friend or foe) immediately suffers 2D6 Strength 4 AP 5 hits with the 忽视掩体规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="8194-4688-65b3-f996" name="链锯拳" publicationId="ca571888--pubN106502" page="180" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -9459,7 +9459,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="f0ec-023c-4865-fe5a" name="Psychic Hood" publicationId="ca571888--pubN106502" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Each time a unit(or model) is targeted by an 敌方 psycic power and is within 12寸 of a 友方 model with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit.  If the Deny the Witch attempt is failed, the psychic power is resolved as norma, but effects only the initial target, not the wearer of the hood.  If a model with a psychic hood is embarked in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or buildign he is embarked within.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Each time a 单位(or model) is targeted by an 敌方 psycic power and is within 12寸 of a 友方 model with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target 单位.  If the Deny the Witch attempt is failed, the psychic power is resolved as norma, but effects only the initial target, not the wearer of the hood.  If a model with a psychic hood is embarked in a 载具 or 建筑, he can only use the hood to nullify powers targeting the 载具 or buildign he is embarked within.</characteristic>
       </characteristics>
     </profile>
     <profile id="becf-8670-0c83-dc94" name="破片风暴导弹" publicationId="ca571888--pubN73893" page="111" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">

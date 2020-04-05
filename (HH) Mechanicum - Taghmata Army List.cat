@@ -142,7 +142,7 @@ using Shadow War missions and a points level of 1500-2000 to represent smaller
 actions, insurgency, and tactical skirmishes.
 
 步兵, 步行机甲, and Speeders should be the focus of your army and the
-following unit are restricted:
+following 单位 are restricted:
 
 Tanks, Fliers, Drop Pods, Superheavies are not allowed.
 Bikes, Attack Bikes, Jet Bikes, 炮兵, 巨兽, Leviathan
@@ -414,7 +414,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d266-0416-a5a6-881e" type="equalTo"/>
-                    <condition field="selections" scope="486561767920537570706f727423232344415441232323" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="greaterThan"/>
+                    <condition field="selections" scope="486561767920537570706f727423232344415441232323" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="单位" type="greaterThan"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1610,7 +1610,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7c6-3866-37eb-af76" name="死亡级自动攻城机兵小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d7c6-3866-37eb-af76" name="死亡级自动攻城机兵小队" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="67d4-e1ef-588a-47e9" name="赛博尼提卡处理器" hidden="false" targetId="f6c9-cdb7-c695-5b6b" type="rule"/>
         <infoLink id="cba2-88ce-8788-ec9b" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
@@ -1764,7 +1764,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
         <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
@@ -2003,7 +2003,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1351-345f-cd72-e42d" name="Support Unit" hidden="false" collective="false" import="true" targetId="36c5-d6db-7224-1e47" type="selectionEntry"/>
+        <entryLink id="1351-345f-cd72-e42d" name="Support 单位" hidden="false" collective="false" import="true" targetId="36c5-d6db-7224-1e47" type="selectionEntry"/>
         <entryLink id="9e93-5e2f-d21c-63bf" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dff8-d7b6-960a-aa5b" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -2019,7 +2019,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="deb3-68a3-5d36-eb3d" name="锯齿蚁级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="deb3-68a3-5d36-eb3d" name="锯齿蚁级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="a080-e2a8-dc43-1112" name="New InfoLink" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
         <infoLink id="57a5-1a50-7092-3d9c" name="New InfoLink" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
@@ -2814,7 +2814,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="314b-bec3-5501-a0aa" name="海妖自动守卫机兵小队" publicationId="cf03-f607-pubN76780" page="40" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="314b-bec3-5501-a0aa" name="海妖自动守卫机兵小队" publicationId="cf03-f607-pubN76780" page="40" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3092,7 +3092,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bcad-45c9-3b27-a7ca" name="支援科技教士" publicationId="cf03-f607-pubN76780" page="34" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bcad-45c9-3b27-a7ca" name="支援科技教士" publicationId="cf03-f607-pubN76780" page="34" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3624,7 +3624,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8190-e779-2c49-c564" name="泰坦禁卫轻步兵小队" publicationId="cf03-f607-pubN89244" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8190-e779-2c49-c564" name="泰坦禁卫轻步兵小队" publicationId="cf03-f607-pubN89244" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ca6-c4ee-0f61-effa" type="max"/>
       </constraints>
@@ -3927,7 +3927,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ff6-b526-4208-0d33" name="泰坦禁卫重步兵小队" publicationId="cf03-f607-pubN89244" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4ff6-b526-4208-0d33" name="泰坦禁卫重步兵小队" publicationId="cf03-f607-pubN89244" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fb1-d527-17a7-2ba0" type="max"/>
       </constraints>
@@ -4096,7 +4096,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec0b-3124-e0e4-6336" name="卡拉克诺斯突击坦克" publicationId="cf03-f607-pubN92488" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ec0b-3124-e0e4-6336" name="卡拉克诺斯突击坦克" publicationId="cf03-f607-pubN92488" page="" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="52d0-f4db-e027-430a" name="Triaros Armoured Conveyor" hidden="false" targetId="fda8-891c-9dc6-8f59" type="profile">
           <modifiers>
@@ -4321,7 +4321,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="972c-91a0-764b-3fe0" name="枪鹰自动支援机兵小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="972c-91a0-764b-3fe0" name="枪鹰自动支援机兵小队" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="d253-b242-911f-5b6f" name="New InfoLink" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
         <infoLink id="002f-a0d8-35f3-9608" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
@@ -4540,7 +4540,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd94-0269-4234-4a81" name="泰坦禁卫总督" publicationId="cf03-f607-pubN92488" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bd94-0269-4234-4a81" name="泰坦禁卫总督" publicationId="cf03-f607-pubN92488" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f855-004d-6a48-f343" type="max"/>
       </constraints>
@@ -4683,7 +4683,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b0f-7bfb-ca1f-e761" name="远征军阿尔乌斯轻型轨道驳船" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7b0f-7bfb-ca1f-e761" name="远征军阿尔乌斯轻型轨道驳船" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="44e0-2678-2bb6-c576" name="阿尔乌斯轻型轨道驳船" publicationId="cf03-f607-pubN76270" page="50" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -4860,7 +4860,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d68-1fb8-1f66-af3a" name="远征军原型闪电攻击机" publicationId="cf03-f607-pubN76780" page="47" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5d68-1fb8-1f66-af3a" name="远征军原型闪电攻击机" publicationId="cf03-f607-pubN76780" page="47" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="5f6b-d6dd-568b-ebad" name="远征军原型闪电攻击机" publicationId="cf03-f607-pubN76270" page="48" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -5210,7 +5210,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b39b-9817-025c-62da" name="赛莱克斯小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b39b-9817-025c-62da" name="赛莱克斯小队" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="ddd9-4b79-18cf-650b" value="2.0">
           <conditions>
@@ -5403,7 +5403,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e54-a6b2-1982-0706" name="科技奴工小队" publicationId="cf03-f607-pubN76780" page="37" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7e54-a6b2-1982-0706" name="科技奴工小队" publicationId="cf03-f607-pubN76780" page="37" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="86e5-0663-2fde-0bc1" value="1">
           <repeats>
@@ -5703,7 +5703,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="83ef-4568-5093-61d5" name="阿纳查瑞斯·斯科瑞亚" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="83ef-4568-5093-61d5" name="阿纳查瑞斯·斯科瑞亚" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -5832,7 +5832,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="00f3-1eed-88ff-5c46" name="导航者" publicationId="cf03-f607-pubN102601" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="00f3-1eed-88ff-5c46" name="导航者" publicationId="cf03-f607-pubN102601" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="fa77-894f-2c36-3d29" name="导航者" publicationId="cf03-f607-pubN102601" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -5850,7 +5850,7 @@ D6  结果       S      AP
         </profile>
         <profile id="5ec8-4529-62be-8430" name="Ætherlabe Staff" publicationId="cf03-f607-pubN102601" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Should an enemy unit 深度打击 into play within 12寸 of the Navigator, the Navigator and their unit may make a Snap Shot shooting attack at the arriving unit at the end of that phase, subject to the normal rules for doing so. If the enemy unit enters play by way of a Conjuration psychic power, these Snap Shots are carried out at the firers’ normal BS rather than at BS 1.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Should an enemy 单位 深度打击 into play within 12寸 of the Navigator, the Navigator and their 单位 may make a Snap Shot shooting attack at the arriving 单位 at the end of that phase, subject to the normal rules for doing so. If the enemy 单位 enters play by way of a Conjuration psychic power, these Snap Shots are carried out at the firers’ normal BS rather than at BS 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5863,7 +5863,7 @@ D6  结果       S      AP
                         against Psykers, such as 憎恨 (Psykers) or weapons that have additional rules against Psykers.
                         In order to use a Navigator power, the Navigator must make a Leadership test. If the test is
                         passed, the chosen power is used as described. If the test is failed, the power is not used and
-                        the Navigator and their unit is Pinned (though they do not Go to Ground).
+                        the Navigator and their 单位 is Pinned (though they do not Go to Ground).
                         • The Lidless Stare
                         Use in the controlling player’s 射击阶段, counting as a shooting attack. Place a 喷射盖板
                         as if the Navigator was shooting a 喷射盖板 weapon. Every 步兵 type model, friend or foe,
@@ -5871,7 +5871,7 @@ D6  结果       S      AP
                         即死 wound with no Armour saves possible.
                         • Warp Prescience
                         Use at the beginning of the enemy’s 射击阶段. Shooting attacks directed at the Navigator
-                        and their unit that player turn are made at -1 BS.
+                        and their 单位 that player turn are made at -1 BS.
                         • Ætheric Disruption
                         Use at the start of the controlling player’s turn. Until the beginning of their next player
                         turn, all Psykers, friend or foe, roll three dice and discard the lowest result for the purposes
@@ -5930,7 +5930,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f28-034a-ca2c-5b9e" name="乌斯莱克斯小队" publicationId="cf03-f607-pubN76780" page="43" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2f28-034a-ca2c-5b9e" name="乌斯莱克斯小队" publicationId="cf03-f607-pubN76780" page="43" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="47fb-bdfe-8989-9696" name="乌斯莱克斯" publicationId="cf03-f607-pubN76979" page="225" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -6028,7 +6028,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4934-5161-12f7-f0f8" name="克里奥主战坦克中队" publicationId="cf03-f607-pubN76979" page="228" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4934-5161-12f7-f0f8" name="克里奥主战坦克中队" publicationId="cf03-f607-pubN76979" page="228" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="d19c-9afa-c7ef-08df" name="克里奥主战坦克中队" hidden="false" collective="false" import="true">
           <constraints>
@@ -6217,7 +6217,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eaf8-70d7-0806-b22e" name="阿拉塔克斯级自动战斗机兵小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="eaf8-70d7-0806-b22e" name="阿拉塔克斯级自动战斗机兵小队" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="9d1b-8ca5-c405-616a" name="单独模型的小队可以升级:" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -6232,7 +6232,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="911d-55a5-94c4-41ac" name="多米塔级自动战斗机兵小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="911d-55a5-94c4-41ac" name="多米塔级自动战斗机兵小队" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="a4f5-ed7a-3379-4dbb" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false"/>
         <categoryLink id="8dab-0ef9-4395-de1d" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false"/>
@@ -6386,7 +6386,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e35c-8e84-62ed-7814" name="还源修会牛头怪阵列" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e35c-8e84-62ed-7814" name="还源修会牛头怪阵列" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="1713-81a7-f38b-9588" name="New CategoryLink" hidden="false" targetId="e59c-462e-9d9c-66dd" primary="false"/>
         <categoryLink id="5db6-bc2e-9503-d125" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
@@ -6541,7 +6541,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de9f-f10c-c0a9-789b" name="还源修会火炮坦克阵列" publicationId="cf03-f607-pubN76270" page="84" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="de9f-f10c-c0a9-789b" name="还源修会火炮坦克阵列" publicationId="cf03-f607-pubN76270" page="84" hidden="true" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -7254,7 +7254,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e35b-b300-7fb2-e063" name="统御大贤者" publicationId="cf03-f607-pubN76780" page="75" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e35b-b300-7fb2-e063" name="统御大贤者" publicationId="cf03-f607-pubN76780" page="75" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="28e7-3147-1161-5deb" value="-1">
           <conditions>
@@ -7555,7 +7555,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93b9-6dc9-3d02-db32" name="死亡-卡莱克斯级自动攻城机兵" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="93b9-6dc9-3d02-db32" name="死亡-卡莱克斯级自动攻城机兵" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="ca31-e06c-7410-8919" name="死亡-卡莱克斯级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="51" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
@@ -7658,7 +7658,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="295.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c888-532b-f933-ce1d" name="死亡-赛尼斯级自动攻城机兵小队" publicationId="cf03-f607-pubN76780" page="54" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c888-532b-f933-ce1d" name="死亡-赛尼斯级自动攻城机兵小队" publicationId="cf03-f607-pubN76780" page="54" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="eb31-58bc-0c7a-67dd" name="赛尼斯等离子喷射器" publicationId="cf03-f607-pubN80965" page="226" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -7860,7 +7860,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ff2-0526-3cea-acb2" name="大贤者-德拉科维克" publicationId="cf03-f607-pubN99227" page="300" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2ff2-0526-3cea-acb2" name="大贤者-德拉科维克" publicationId="cf03-f607-pubN99227" page="300" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d70e-7d52-7354-6eb2" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="045d-777e-67ae-c597" type="max"/>
@@ -7955,7 +7955,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7095-280b-9ccc-b7bc" name="大贤者-尹拿·赛特利尔" publicationId="cf03-f607-pubN76780" page="30" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7095-280b-9ccc-b7bc" name="大贤者-尹拿·赛特利尔" publicationId="cf03-f607-pubN76780" page="30" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="9138-f7a5-41ad-dacb" name="尹拿·赛特利尔" publicationId="cf03-f607-pubN76979" page="216" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -8049,7 +8049,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="295.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f891-cee8-321e-f159" name="统御贤者" publicationId="cf03-f607-pubN76780" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f891-cee8-321e-f159" name="统御贤者" publicationId="cf03-f607-pubN76780" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="594a-289b-a120-b0fe" name="统御贤者" publicationId="cf03-f607-pubN76979" page="218" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
@@ -8860,7 +8860,7 @@ D6  结果       S      AP
         <cost name="分" typeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04e8-11de-2eb4-67e0" name="还源贤者" publicationId="cf03-f607-pubN76780" page="82" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="04e8-11de-2eb4-67e0" name="还源贤者" publicationId="cf03-f607-pubN76780" page="82" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8936,7 +8936,7 @@ D6  结果       S      AP
         <rule id="bbac-9e94-552b-65b7" name="毁灭大师" publicationId="cf03-f607-pubN120279" page="83" hidden="false">
           <description>All of a Magos/Archmagos Reductor’s attacks count as having the 碎裂 规则, and 此外 rolls made by their attacks on the 载具 Damage and Building Damage table where is this used have a +1 bonus, which is cumulative with any bonus for the attack’s AP value, etc.
 
-Alternatively, instead of firing any weapons in the 射击阶段, the Magos/Archmagos Reductor may confer their Master of Destruction 规则’s benefits on a single 重型 or 重炮 weapon fired by a friendly 载具 or unit within 6寸. This may be a 载具 in which the Magos Reductor is being 运输载具ed.</description>
+Alternatively, instead of firing any weapons in the 射击阶段, the Magos/Archmagos Reductor may confer their Master of Destruction 规则’s benefits on a single 重型 or 重炮 weapon fired by a friendly 载具 or 单位 within 6寸. This may be a 载具 in which the Magos Reductor is being 运输载具ed.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9370,7 +9370,7 @@ Alternatively, instead of firing any weapons in the 射击阶段, the Magos/Arch
         <cost name="分" typeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a087-30ae-b858-1c8e" name="还源贤者-卡勒布·德西马" publicationId="cf03-f607-pubN76780" page="32-33" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a087-30ae-b858-1c8e" name="还源贤者-卡勒布·德西马" publicationId="cf03-f607-pubN76780" page="32-33" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9537,7 +9537,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c89b-889f-bb97-a271" name="毁灭者仆从" publicationId="cf03-f607-pubN76979" page="229" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c89b-889f-bb97-a271" name="毁灭者仆从" publicationId="cf03-f607-pubN76979" page="229" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="700e-5378-627e-a333" name="宿敌 (所有)" page="0" hidden="false"/>
       </rules>
@@ -9710,7 +9710,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="75ff-b7a9-dfbf-502e" name="剑斗士仆从" publicationId="cf03-f607-pubN76979" page="220" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="75ff-b7a9-dfbf-502e" name="剑斗士仆从" publicationId="cf03-f607-pubN76979" page="220" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="48cf-8f80-14e4-fbb2" hidden="false" targetId="8e53a9a8-1408-23bf-5be8-4601caec5d10" type="rule"/>
         <infoLink id="ee26-1bcb-47f4-a01a" hidden="false" targetId="797e55b1-251e-6606-9cb3-64661b0b18a3" type="rule"/>
@@ -9906,7 +9906,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4798-67b6-5f51-b275" name="战争机器分队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4798-67b6-5f51-b275" name="战争机器分队" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="543d-21ab-e9dc-df8a" name="战争机器分队" hidden="false" collective="false" import="true">
           <constraints>
@@ -10507,7 +10507,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="91f0-3f18-50b7-ed4e" name="毁灭引擎" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="91f0-3f18-50b7-ed4e" name="毁灭引擎" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0cd3-e53a-514d-b271" type="max"/>
       </constraints>
@@ -10555,7 +10555,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d56-481b-6478-681e" name="风暴之主" publicationId="cf03-f607-pubN130224" page="50" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d56-481b-6478-681e" name="风暴之主" publicationId="cf03-f607-pubN130224" page="50" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="b5c1-ea37-0dfe-51b0" name="风暴之主" publicationId="cf03-f607-pubN130235" page="50" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
@@ -10666,7 +10666,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="490.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed2c-8dcf-d0d2-720e" name="影剑" publicationId="cf03-f607-pubN130224" page="49" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ed2c-8dcf-d0d2-720e" name="影剑" publicationId="cf03-f607-pubN130224" page="49" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="579e-ecea-a30c-2d38" name="影剑" publicationId="cf03-f607-pubN99227" page="286" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
@@ -10733,7 +10733,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="455.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5ad-07be-63c1-71e3" name="风暴之剑" publicationId="cf03-f607-pubN131159" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e5ad-07be-63c1-71e3" name="风暴之剑" publicationId="cf03-f607-pubN131159" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="6154-6951-1106-ee9b" name="风暴之剑" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
@@ -10814,7 +10814,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="485.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="093f-6472-95d0-553f" name="毒刃" publicationId="cf03-f607-pubN130224" page="44" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="093f-6472-95d0-553f" name="毒刃" publicationId="cf03-f607-pubN130224" page="44" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="8db8-1aae-d50b-5f8a" name="毒刃" publicationId="cf03-f607-pubN99227" page="284" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
@@ -10895,7 +10895,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="535.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3663-a86a-0957-9a6a" name="毒锤" publicationId="cf03-f607-pubN130224" page="45" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3663-a86a-0957-9a6a" name="毒锤" publicationId="cf03-f607-pubN130224" page="45" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="bfb6-7c23-a3c3-bc0e" name="毒锤" publicationId="cf03-f607-pubN99227" page="284" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
@@ -10981,7 +10981,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="410.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b04c-44bf-53d8-352c" name="末日之锤" publicationId="cf03-f607-pubN130224" page="45" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b04c-44bf-53d8-352c" name="末日之锤" publicationId="cf03-f607-pubN130224" page="45" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="5256-0080-e7cf-b9cf" name="末日之锤" publicationId="cf03-f607-pubN99227" page="284" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
@@ -11087,7 +11087,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         </rule>
         <rule id="1fb3-b3d4-e5d2-4159" name="重力锤" hidden="false">
           <description>Note that the Domitar is equipped with two graviton hammers, which have the effect of granting it an additional attack – this is already included in its profile.
-此外 to its weapon attacks, units assaulting a model or unit with a graviton hammer always count as making a Disordered Charge when doing so.</description>
+此外 to its weapon attacks, units assaulting a model or 单位 with a graviton hammer always count as making a Disordered Charge when doing so.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -11257,7 +11257,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d3d9-21fc-ec42-270a" name="白蚁掘进机" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d3d9-21fc-ec42-270a" name="白蚁掘进机" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="14d8-2140-c2f0-5d6f" name="白蚁掘进机" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -11285,27 +11285,27 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
           <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault 载具 enters play via 深度打击, place a 大爆炸 (5寸)
 marker on the table and scatter this to determine the final position of its arrival as per the 深度打击 规则. The 爆炸 marker must not be initially placed on top of impassable terrain or within 1寸 of another model.
 
-Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce
+Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any 单位 engaged in combat, reduce
 the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was
 displaced in this way by a 载具 or 工事槽位, the closest 载具 or 工事槽位 to the marker immediately suffers a Str 10 AP- hit
 – 载具 are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in close combat, all
-units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
+units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any enemy or friendly 单位, then that 单位 also suffers D6 Str 6 AP 4 hits.
 
 After all damage is resolved, the Subterranean Assault 载具 may be placed in any orientation so long as the centre of the 大爆炸
-(5寸) marker is underneath part of the 载具’s hull and it remains 1寸 away from any 工事槽位, 载具 or unit engaged in combat.
+(5寸) marker is underneath part of the 载具’s hull and it remains 1寸 away from any 工事槽位, 载具 or 单位 engaged in combat.
 The area under the 大爆炸 (5寸) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead
 represent this area with a piece of crater terrain.
 
-Should a Subterranean Assault 载具 be placed on top of any unit which does not pose an obstacle to its arrival as described above,
-the Death from Below 规则 allows it to be placed as though the unit was not there. If some models in the unit would end up
-underneath the Subterranean Assault 载具 when it reaches its final position (it makes no difference whether the unit is Falling
-Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1寸 between them and the Subterranean Assault 载具 (and indeed any other unit) whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
+Should a Subterranean Assault 载具 be placed on top of any 单位 which does not pose an obstacle to its arrival as described above,
+the Death from Below 规则 allows it to be placed as though the 单位 was not there. If some models in the 单位 would end up
+underneath the Subterranean Assault 载具 when it reaches its final position (it makes no difference whether the 单位 is Falling
+Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1寸 between them and the Subterranean Assault 载具 (and indeed any other 单位) whilst maintaining 单位 coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
         <rule id="33a6-e597-6d29-5058" name="热熔切割机" hidden="false">
           <description>白蚁忽视困难地形和危险地形,当白蚁撞击防御工事时S+2</description>
         </rule>
         <rule id="7156-e43f-72ee-617d" name="地下突击" hidden="false">
-          <description>Should the Termite Assault Drill, and any unit it 运输载具s, enter play using the 深度打击 规则, they count as being a
+          <description>Should the Termite Assault Drill, and any 单位 it 运输载具s, enter play using the 深度打击 规则, they count as being a
 Subterranean Assault 载具 for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling
 player’s first turn, they must choose half of their Subterranean Assault 载具 held in reserve for the purpose of Deep Striking
 (rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
@@ -11697,7 +11697,7 @@ Assault rules unless otherwise noted.</description>
         <cost name="分" typeId="points" value="375.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d893-4871-06f4-d2a9" name="赛莱克斯小队 (伊卡里安)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d893-4871-06f4-d2a9" name="赛莱克斯小队 (伊卡里安)" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="355c-4fbc-d3c6-5e77" name="伊卡里安" publicationId="cf03-f607-pubN76270" page="39" hidden="false">
           <description>如果该回合静止不动,则此回合该单位所有远程武器都具有对空火力的特殊规则.具有这种能力的单位将被视为重型槽位,而不是基础槽位.</description>
@@ -12671,10 +12671,10 @@ Assault rules unless otherwise noted.</description>
       <description>无视目标T值,每个结果为6的造伤骰造成2个伤害</description>
     </rule>
     <rule id="7c0b-31e3-daa1-0d3a" name="致盲弹幕" hidden="false">
-      <description>So long as the unit contains at least five models equipped with Galvanic-Casters, once per
-                game, the unit&apos;s controlling player may declare the use of a 致盲弹幕 by the unit instead of that
-                unit firing its weapons in the 射击阶段. In this case, select a friendly unit within 18寸 and
-                within line of sight of the Peltasts unit. That friendly unit gains the 笼罩 规则 until the
+      <description>So long as the 单位 contains at least five models equipped with Galvanic-Casters, once per
+                game, the 单位&apos;s controlling player may declare the use of a 致盲弹幕 by the 单位 instead of that
+                单位 firing its weapons in the 射击阶段. In this case, select a friendly 单位 within 18寸 and
+                within line of sight of the Peltasts 单位. That friendly 单位 gains the 笼罩 规则 until the
                 beginning of the controlling player&apos;s next player turn. 超重型units may not be 笼罩 unless two
                 Secutarii units simultaneously use their 致盲弹幕 ability to conceal it.</description>
     </rule>

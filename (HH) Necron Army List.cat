@@ -837,7 +837,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25cb-e3f5-a3b3-20e9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="938f-856b-b279-4115" name="Necron Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="938f-856b-b279-4115" name="Necron Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5361766523232344415441232323" value="2+">
               <conditions>
@@ -846,7 +846,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -967,9 +967,9 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e192-d183-9e30-fb6e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="82b8-9997-eee0-2528" name="Canoptek Acanthrites" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="82b8-9997-eee0-2528" name="Canoptek Acanthrites" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -1035,9 +1035,9 @@
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ef-0002-9d45-c982" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5a83-c905-0d63-e165" name="Dynastic Warriors" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="5a83-c905-0d63-e165" name="Dynastic Warriors" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -1153,9 +1153,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e736-669d-a5d1-f3f3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9fc1-b10e-8db6-1fcf" name="Cryptek" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="9fc1-b10e-8db6-1fcf" name="Cryptek" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -1173,7 +1173,7 @@
               <description>The members of the Conclave may be distributed and attached amongst the armies Dynastic 军团 units, except for Tomb Blades. 此外 they may be attached to the armies Lords, Nemesor and/or Overlord.</description>
             </rule>
             <rule id="3726-cda0-9e9a-426b" name="Technomancer" hidden="false">
-              <description>If this model and the unit it is attached to is destroyed, the Technomancer may attempt its Reanimation Protocol first and, if successful, allows for the rest of the unit to also attempt its Reanimation Protocol.</description>
+              <description>If this model and the 单位 it is attached to is destroyed, the Technomancer may attempt its Reanimation Protocol first and, if successful, allows for the rest of the 单位 to also attempt its Reanimation Protocol.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1424,14 +1424,14 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f730-4ede-4f34-b819" name="Any unit of Cyptek may choose to follow one discipline at 20pts per Cryptek:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f730-4ede-4f34-b819" name="Any 单位 of Cyptek may choose to follow one discipline at 20pts per Cryptek:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="973c-3238-3488-f6b7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28bc-f0a3-cd7f-61bd" type="max"/>
           </constraints>
           <rules>
             <rule id="a43b-3fb2-6c01-c368" name="Conclave Discipline" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-              <description>If there are Crypteks from different Disciplines in the army they can never be in the same unit. In additionthey will treat Crypteks of other Disciplines (and any unit they are attached to) as the lowest possible rank onthe Allies matrix. If two or more Crypteks from differing Disciplines are ever in the same combat they will,after the mutual enemy is destroyed, issue challanges to one another and fight until one or the other isdestroyed. In such a case their attached unit may, at the completion of the original combat, elect to leave the 人物 to their infighting and conslidate/move on without them.</description>
+              <description>If there are Crypteks from different Disciplines in the army they can never be in the same 单位. In additionthey will treat Crypteks of other Disciplines (and any 单位 they are attached to) as the lowest possible rank onthe Allies matrix. If two or more Crypteks from differing Disciplines are ever in the same combat they will,after the mutual enemy is destroyed, issue challanges to one another and fight until one or the other isdestroyed. In such a case their attached 单位 may, at the completion of the original combat, elect to leave the 人物 to their infighting and conslidate/move on without them.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -1561,7 +1561,7 @@
       </profiles>
       <rules>
         <rule id="a082-9776-2e0e-53ad" name="Doomsday Phalanx" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>By selecting a Doomsday Monolith, the regular Monolith option in the 重型槽位 slot becomes unavailable, allowing Monoliths only to be taken through this unit option. All Monoliths may be deployed independently and still count as 重型槽位 choices for mission rules and other purposes except for the Force Organisation slot use.</description>
+          <description>By selecting a Doomsday Monolith, the regular Monolith option in the 重型槽位 slot becomes unavailable, allowing Monoliths only to be taken through this 单位 option. All Monoliths may be deployed independently and still count as 重型槽位 choices for mission rules and other purposes except for the Force Organisation slot use.</description>
         </rule>
         <rule id="d155-e2f9-1111-9eba" name="Energy Grid" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>Any Monolith within 12寸 of the Doomsday Monolith may forgo firing any of its weapons in the 射击阶段 in favour of focusing its energy into the Doomsday Monliths energy grid. Declare how many Monoliths will do this at the start of the 射击阶段. For each Monolith that chooses to act in this fashion, the number of shots fired by the Doomsday Monoliths Gauss Obliterator is increased by one for that Turn. These extra shots may be fired at different targets. Any Monolith which opts to do this may not use its Eternity Gate the following turn.</description>
@@ -1762,7 +1762,7 @@ If there are three or more models all projecting Nightshrouds between them, they
           <profiles>
             <profile id="6bf5-7b5a-a568-626e" name="Nightmare Shroud" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Nightmare Shroud can be used during the 射击阶段 instead of firing a weapon. Choose an unengaged enemy within 18寸 of the Cryptek. That unit must immediately take a Morale check.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Nightmare Shroud can be used during the 射击阶段 instead of firing a weapon. Choose an unengaged enemy within 18寸 of the Cryptek. That 单位 must immediately take a Morale check.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1778,7 +1778,7 @@ If there are three or more models all projecting Nightshrouds between them, they
           <profiles>
             <profile id="038f-9274-3342-e8dd" name="Veil of Darkness" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Cryptek with a Veil of Darkness can use it in the 移动阶段 instead of moving normally. The Cryptek and its unit are removed from the tabletop and immediately 深度打击 back onto the
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Cryptek with a Veil of Darkness can use it in the 移动阶段 instead of moving normally. The Cryptek and its 单位 are removed from the tabletop and immediately 深度打击 back onto the
 battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in combat.</characteristic>
               </characteristics>
             </profile>
@@ -1842,7 +1842,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="6b13-307d-e59b-3f76" name="Seismic Crucible" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the start of the enemies 突击阶段, roll a D3 and nominate an enemy unit. If the nominated unit attempts to assault Cryptek, or its unit, reduce their assault move by the result of the D3 for that phase.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the start of the enemies 突击阶段, roll a D3 and nominate an enemy 单位. If the nominated 单位 attempts to assault Cryptek, or its 单位, reduce their assault move by the result of the D3 for that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1880,7 +1880,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="a6aa-1100-2c62-75e2" name="Lightning Field" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When an enemy unit successfully moves into Assault with the Cryptek (and its unit) the assaulting unit immediately suffers D6 Strength 8 AP5 hits.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When an enemy 单位 successfully moves into Assault with the Cryptek (and its 单位) the assaulting 单位 immediately suffers D6 Strength 8 AP5 hits.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1896,7 +1896,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="fdd7-b911-daa6-f479" name="Ether Crystals" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any enemy unit arriving by Depp Strike within 6寸 of the bearer of an Ether Crystal suffers D6 Strength 8 AP5 hits.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any enemy 单位 arriving by Depp Strike within 6寸 of the bearer of an Ether Crystal suffers D6 Strength 8 AP5 hits.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1935,7 +1935,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="a3a4-38d4-9d8b-758e" name="Chronometron" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Chronometron can re-roll one of its D6 rolls each phase. If the bearer is in a unit, this ability can be used to instead reroll one of the units D6 rolls each phase.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Chronometron can re-roll one of its D6 rolls each phase. If the bearer is in a 单位, this ability can be used to instead reroll one of the units D6 rolls each phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1996,7 +1996,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           <profiles>
             <profile id="35da-9330-ff73-aac0" name="Gaze of Flame" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Cryptek, and its unit, are treated as being armed with Defensive grenades. Any attached unit lose this ability if the Cryptek leaves the unit or is destroyed.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The Cryptek, and its 单位, are treated as being armed with Defensive grenades. Any attached 单位 lose this ability if the Cryptek leaves the 单位 or is destroyed.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2040,7 +2040,7 @@ battlefield. The Veil of Darkness cannot be used if the Cryptek is locked in com
           </profiles>
           <rules>
             <rule id="e296-a99c-b1e2-2c78" name="Variable Beam" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-              <description>To fire the focussed death ray, nominate a point on the table anywhere within its ranges and Line of Sight, then nominate a second points within 3D6寸 of the first, also in Line of Sight. Draw a straight line between the two points, each unit (friendly or enemy) underneath the line suffers a number of hits equal to twice the number of models underneath the lines.</description>
+              <description>To fire the focussed death ray, nominate a point on the table anywhere within its ranges and Line of Sight, then nominate a second points within 3D6寸 of the first, also in Line of Sight. Draw a straight line between the two points, each 单位 (friendly or enemy) underneath the line suffers a number of hits equal to twice the number of models underneath the lines.</description>
             </rule>
           </rules>
           <costs>
@@ -3020,7 +3020,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="652f-e998-1b0b-2318" name="Teleportation Matrix" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 深度打击 规则.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The 单位 gains the 深度打击 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3087,7 +3087,7 @@ the Fight subphase.</description>
       <profiles>
         <profile id="9f27-03ad-6a30-1bab" name="Resurrection Orb" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The bearer of the Resurrection Orb and its unit pass Reanimation Protocols rolls on a 4+.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The bearer of the Resurrection Orb and its 单位 pass Reanimation Protocols rolls on a 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3198,7 +3198,7 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
     <selectionEntry id="c1ea-3972-7ee6-764b" name="Flayed Ones" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="62a6-b377-c5f7-77e4" name="Drawn to Blood" hidden="false">
-          <description>All Flayed One units must start the game in Reserve. Each time an enemy unit is completely destroyed the Necron player may move one unit of Flayed Ones from Reserve into Ongoing Reserve, even if this means that a unit will appear turn One.</description>
+          <description>All Flayed One units must start the game in Reserve. Each time an enemy 单位 is completely destroyed the Necron player may move one 单位 of Flayed Ones from Reserve into Ongoing Reserve, even if this means that a 单位 will appear turn One.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3214,9 +3214,9 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e67d-6545-ce88-33f1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f1a3-a834-dddf-b1db" name="Flayed Ones" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="f1a3-a834-dddf-b1db" name="Flayed Ones" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">1</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -3262,9 +3262,9 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
     </selectionEntry>
     <selectionEntry id="d834-7113-0466-149b" name="Trazyn The Infinate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3c3d-8790-bedc-afaf" name="Trazyn The Infinate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="3c3d-8790-bedc-afaf" name="Trazyn The Infinate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -3279,7 +3279,7 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
       </profiles>
       <rules>
         <rule id="285b-022a-71a3-adba" name="Hidden Agenda" hidden="false">
-          <description>Only a single unit in an army may have the Hidden Agenda rule.</description>
+          <description>Only a single 单位 in an army may have the Hidden Agenda rule.</description>
         </rule>
         <rule id="8104-e8bc-b623-a22e" name="Surrogate Hosts" hidden="false">
           <description>If Trazyn is removed as a casualty, roll a D6. On a 2+, choose a model from the Acquisition Phalanx units, if there are any. Remove that model as a casualty and place Trazyn in its place with 1 Wound remaining. If that 人物 was locked in combat, Trazyn the Infinite is now locked in that combat. If no such model remain, or a 1 was rolled, remove Trazyn as a casualty as normal.</description>
@@ -3288,7 +3288,7 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
           <description>Due to the nature and methods in which he travels the galaxy, it is feasible for more than one player to be using Trazyn in their army. Even though Trazyn is a Unique 人物, the fact that he uses effectual clones to undertake most of his work can mean that there may be multiple versions of himself in the same war zone.</description>
         </rule>
         <rule id="6658-ce7e-e992-d86b" name="Acquisition Phalanx" hidden="false">
-          <description>Trazyn may take one unit of Lychguard as his personal retinue for every 1,000 pts in the army, using the profile found in the primary Necron army list section. However they can only ever claim objectives that are part of Trazyn&apos;s Curator of History mission.</description>
+          <description>Trazyn may take one 单位 of Lychguard as his personal retinue for every 1,000 pts in the army, using the profile found in the primary Necron army list section. However they can only ever claim objectives that are part of Trazyn&apos;s Curator of History mission.</description>
         </rule>
         <rule id="9c72-2b0e-e3d7-2504" name="Curator of History" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>Each time Trazyn takes to the field, whether it is through a surrogate or in person, it is in pursuit of a relic of such importance that it must be preserved for the sake of history. The risk of exposing himself in these instances is immense, both by showing his hand to the other Dynasties and by revealing his presence to the lesser races. But the loss of even just a single relic is a devastating prospect which must be averted for the sake of all. Fielding Trazyn the Infinite dramatically alters the victory conditions for the side that includes the model, for the presence of such a recluse individual is a sure indication that there is a truly important artefact indeed. At the beginning of the game, at the same time that Warlord Traits and Psychic powers are determined, an Exhibit must be secretly noted down for each model with this 规则.
@@ -3359,7 +3359,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
           </constraints>
           <rules>
             <rule id="de3d-fbec-e43e-0ad4" name="Royal Guard" hidden="false">
-              <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. 此外 they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
+              <description>Only a single 单位 of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate 单位 during the game. 此外 they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3375,9 +3375,9 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bffb-e8ac-48c2-4d7d" type="min"/>
               </constraints>
               <profiles>
-                <profile id="0fa2-3a63-5a6c-4408" name="Acquisition Phalanx Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="0fa2-3a63-5a6c-4408" name="Acquisition Phalanx Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                    <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                     <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                     <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -3516,7 +3516,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="30d4-7133-2039-e468" type="min"/>
       </constraints>
       <profiles>
-        <profile id="86b0-8f16-78f6-9e2c" name="Nemesor" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="86b0-8f16-78f6-9e2c" name="Nemesor" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5361766523232344415441232323" value="2+">
               <conditions>
@@ -3525,7 +3525,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -3653,7 +3653,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
       <profiles>
         <profile id="3179-943b-3a53-bbcd" name="Dispersion Shields" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Dispersion Shield has a 4+ Invulnerable. If any saves are made against shooting attacks, choose an unengaged enemy unit within 6寸 - that unit suffers a single hit for each save made with a Strength and AP equal to that of the initial shots. If there are not unengaged enemy units within 6寸, then the Wound is still saved but is not redirected. This does not cause templates or 爆炸 markers to be repositioned.
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Dispersion Shield has a 4+ Invulnerable. If any saves are made against shooting attacks, choose an unengaged enemy 单位 within 6寸 - that 单位 suffers a single hit for each save made with a Strength and AP equal to that of the initial shots. If there are not unengaged enemy units within 6寸, then the Wound is still saved but is not redirected. This does not cause templates or 爆炸 markers to be repositioned.
 However, it can never claim the Two Weapons bonus in the Fight subphase.</characteristic>
           </characteristics>
         </profile>
@@ -3711,7 +3711,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d4b-c381-851b-65d4" type="min"/>
       </constraints>
       <profiles>
-        <profile id="d600-45bb-3cac-b1b1" name="Overlord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="d600-45bb-3cac-b1b1" name="Overlord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5361766523232344415441232323" value="2+">
               <conditions>
@@ -3720,7 +3720,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -3930,13 +3930,13 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       <profiles>
         <profile id="c766-22a7-0ae9-895e" name="Canoptek Khepri Drones" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Each drone should be represented by a suitable model, on a 25mm base, which must remain in coherency with the Cryptek it is attached to. While the drones themselves cannot attack, they can be shot and hit in close combat, although their destruction does not count towards combat resolution. At the start of any phase, including their opponents, the player may elect to sacrifice a drone in order to allow the drones Cryptek, and any attached unit, to reroll 1&apos;s for their next Reannimation Protocol test.
-此外, the controlling may sacrifice any number of drones in their 射击阶段 to use them as a single shooting attack with the Transdimensional Beamer profile and the owning Crypteks BS. This shots must be at the same unit as the Cyptek and any attached unit shot at, unless the Crytpek has the 分散火力 rule.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Each drone should be represented by a suitable model, on a 25mm base, which must remain in coherency with the Cryptek it is attached to. While the drones themselves cannot attack, they can be shot and hit in close combat, although their destruction does not count towards combat resolution. At the start of any phase, including their opponents, the player may elect to sacrifice a drone in order to allow the drones Cryptek, and any attached 单位, to reroll 1&apos;s for their next Reannimation Protocol test.
+此外, the controlling may sacrifice any number of drones in their 射击阶段 to use them as a single shooting attack with the Transdimensional Beamer profile and the owning Crypteks BS. This shots must be at the same 单位 as the Cyptek and any attached 单位 shot at, unless the Crytpek has the 分散火力 rule.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8066-903f-0d81-cc0e" name="Canoptek Khepri Drones" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="8066-903f-0d81-cc0e" name="Canoptek Khepri Drones" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323"/>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323"/>
             <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">-</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">-</characteristic>
@@ -3969,9 +3969,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf87-a64a-265c-569d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="339c-cba7-22d3-9462" name="C&apos;tan Shard" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="339c-cba7-22d3-9462" name="C&apos;tan Shard" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">7</characteristic>
@@ -3986,7 +3986,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </profiles>
       <rules>
         <rule id="8222-2b27-6aab-c6dc" name="Necrodermis" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>This model has a 4+ 特殊保护. If it is ever reduced to 0 Wounds, before removing the model as a casualty, each nearby unit (friend or foe) suffers a Strength 4 AP1 hit for each model it has within D6寸 of this model.</description>
+          <description>This model has a 4+ 特殊保护. If it is ever reduced to 0 Wounds, before removing the model as a casualty, each nearby 单位 (friend or foe) suffers a Strength 4 AP1 hit for each model it has within D6寸 of this model.</description>
         </rule>
         <rule id="e2de-4b94-0e43-2293" name="Immune to Natural Law" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>When moving, this model can move over all other models and terrain freely, and automatically passes Dangerous Terrain tests. However, it cannot end its move on top of other models and can only end its move on top of impassable terrain if it is possible to actually place the model on top of it.</description>
@@ -4208,9 +4208,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ab-4e59-036f-33b6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3bd1-acc3-ce62-c5b0" name="Deathmarks" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="3bd1-acc3-ce62-c5b0" name="Deathmarks" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4225,10 +4225,10 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
           </profiles>
           <rules>
             <rule id="1810-fe72-9e84-9ced" name="Hunters from Hyperspace" hidden="false">
-              <description>During the player turn in which this unit arrives from 深度打击 Reserve, all shooting attacks made by the Deathmarks in this unit will wound on To Wound rolls of 2+, regardless of the victim’s Toughness.</description>
+              <description>During the player turn in which this 单位 arrives from 深度打击 Reserve, all shooting attacks made by the Deathmarks in this 单位 will wound on To Wound rolls of 2+, regardless of the victim’s Toughness.</description>
             </rule>
             <rule id="7e3c-2405-abef-d8a0" name="Ethereal Interception" hidden="false">
-              <description>If this unit is in 深度打击 Reserve, immediately after an enemy unit arrives from 深度打击 Reserve this unit may choose to immediately arrive using the rules for 深度打击 (if this unit does not enter play in this manner, make Reserve Rolls for it as normal in subsequent turns). At the end of that enemy 移动阶段, any friendly Deathmarks unit that arrived on the board in this manner during that turn may fire its weapons at any enemy unit that arrived from Reserves that phase; any Deathmarks unit that does so cannot fire its weapons in its following turn.</description>
+              <description>If this 单位 is in 深度打击 Reserve, immediately after an enemy 单位 arrives from 深度打击 Reserve this 单位 may choose to immediately arrive using the rules for 深度打击 (if this 单位 does not enter play in this manner, make Reserve Rolls for it as normal in subsequent turns). At the end of that enemy 移动阶段, any friendly Deathmarks 单位 that arrived on the board in this manner during that turn may fire its weapons at any enemy 单位 that arrived from Reserves that phase; any Deathmarks 单位 that does so cannot fire its weapons in its following turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4287,7 +4287,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </profiles>
       <rules>
         <rule id="bb14-b242-ad0f-7686" name="Invasion Beamer" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>A unit that begins its 移动阶段 embarked upon a Night Scythe can disembark either before or after it has moved (including pivoting on the spot), even though it is Zooming, so long it has not moved more than 36寸 in that 移动阶段. If a unit disembarks from a Night Scythe after it has moved 24寸 or more, models in the unit can only fire Snap Shots until the start of their next turn. Units embarked on a Night Scythe ignore all effects of damage on passengers. If a Night Scythe is destroyed, the units embarked upon it suffer no damage or ill effects – instead they are immediately placed into Teleportation Reserve.</description>
+          <description>A 单位 that begins its 移动阶段 embarked upon a Night Scythe can disembark either before or after it has moved (including pivoting on the spot), even though it is Zooming, so long it has not moved more than 36寸 in that 移动阶段. If a 单位 disembarks from a Night Scythe after it has moved 24寸 or more, models in the 单位 can only fire Snap Shots until the start of their next turn. Units embarked on a Night Scythe ignore all effects of damage on passengers. If a Night Scythe is destroyed, the units embarked upon it suffer no damage or ill effects – instead they are immediately placed into Teleportation Reserve.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4332,7 +4332,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
         </profile>
         <profile id="d8dc-f62c-7aa9-d0ab" name="Ghost Ark" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="307d-047f-ca13-706b" typeName="运输载具">
           <characteristics>
-            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">10 : A Ghost Ark can only carry Dynastic Warriors or Necron 人物 with the 步兵 unit type.</characteristic>
+            <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">10 : A Ghost Ark can only carry Dynastic Warriors or Necron 人物 with the 步兵 单位 type.</characteristic>
             <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">开顶</characteristic>
             <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">开顶</characteristic>
           </characteristics>
@@ -4340,7 +4340,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </profiles>
       <rules>
         <rule id="47a3-3be3-7fda-5c82" name="Repair Barge" hidden="false">
-          <description>At the start of each friendly 移动阶段, this model can repair fallen Necron Warriors. To do so, nominate a friendly unit of Necron Warriors that is either within 6寸 of this model or embarked upon it, and roll a D3. Add a number of Necron Warriors to the unit equal to the result – this cannot take the unit beyond its starting size nor, if it is currently embarked in the Ghost Ark, beyond the 载具’s 运输载具 Capacity (any excess are destroyed). These Necron Warriors must be placed within 6寸 of the Ghost Ark, or if the unit is currently embarked in the Ghost Ark, within it. If a model cannot be placed for any reason, it is destroyed. Necron Warriors repaired in this manner can move and act normally this turn.</description>
+          <description>At the start of each friendly 移动阶段, this model can repair fallen Necron Warriors. To do so, nominate a friendly 单位 of Necron Warriors that is either within 6寸 of this model or embarked upon it, and roll a D3. Add a number of Necron Warriors to the 单位 equal to the result – this cannot take the 单位 beyond its starting size nor, if it is currently embarked in the Ghost Ark, beyond the 载具’s 运输载具 Capacity (any excess are destroyed). These Necron Warriors must be placed within 6寸 of the Ghost Ark, or if the 单位 is currently embarked in the Ghost Ark, within it. If a model cannot be placed for any reason, it is destroyed. Necron Warriors repaired in this manner can move and act normally this turn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4370,9 +4370,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="259a-3264-6055-5ee9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07c1-726e-ec32-2236" name="Immortals" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="07c1-726e-ec32-2236" name="Immortals" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4477,7 +4477,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="806b-5169-3545-3fe2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7b10-ed2f-0c75-9960" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="7b10-ed2f-0c75-9960" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4486,7 +4486,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4498,7 +4498,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
                 <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
               </characteristics>
             </profile>
-            <profile id="ef6e-fbc4-6803-12f4" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="ef6e-fbc4-6803-12f4" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -4512,7 +4512,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -4617,7 +4617,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4fec-97df-dff8-1084" name="Equip whole unit with (Timesaver):" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4fec-97df-dff8-1084" name="Equip whole 单位 with (Timesaver):" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0403-f6d6-ef95-94ac" type="max"/>
           </constraints>
@@ -4654,7 +4654,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7efd-de97-823b-f6e9" name="Equip whole unit with Weapon (Timesaver):" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7efd-de97-823b-f6e9" name="Equip whole 单位 with Weapon (Timesaver):" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c340-697f-0396-e439" type="max"/>
           </constraints>
@@ -4763,9 +4763,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fa-61a2-1d1a-e25d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="47f2-0ce1-9b71-84dc" name="Pariah Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="47f2-0ce1-9b71-84dc" name="Pariah Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -4881,7 +4881,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       <rules>
         <rule id="e0b6-3ec8-268c-2c45" name="Dynastic 军团" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>Models have the 缓慢沉着 规则.
-此外, models with this 规则 may use the Leadership value of any Nodal Command unit, from the same Dynasty, within range along with any associated benefits of that particular Nodal Command Level. Once out of range those benefits are lost immediately.</description>
+此外, models with this 规则 may use the Leadership value of any Nodal Command 单位, from the same Dynasty, within range along with any associated benefits of that particular Nodal Command Level. Once out of range those benefits are lost immediately.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4905,7 +4905,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       </constraints>
       <rules>
         <rule id="1318-0ade-4678-b7e7" name="Royal Guard" hidden="false">
-          <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. 此外 they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
+          <description>Only a single 单位 of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate 单位 during the game. 此外 they count as within Nodal Command Range of their respective 指挥槽位 while they are both on the table.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4921,9 +4921,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c5-8c9a-3ca2-5a9e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c89d-80f1-8adb-1fa6" name="Royal Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="c89d-80f1-8adb-1fa6" name="Royal Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -5044,9 +5044,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d324-d627-fe1a-7b43" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1408-525f-9536-07f6" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="1408-525f-9536-07f6" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">2</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
@@ -5071,8 +5071,8 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
     <selectionEntry id="6ed4-c372-d443-e26d" name="Canoptek Spyders" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="c3ea-1a89-a50d-4450" name="Scarab Hive" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Once per friendly 移动阶段, each Canoptek Spyder can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6寸 of the Canoptek Spyder. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6寸 of the Canoptek Spyder. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time a Canoptek Spyder uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Canoptek Spyder suffers a single Wound with no saves of any kind allowed
- 此外, for each unit of Spyders in the army, a unit of Canoptek Scarabs may be taken which do count towards the maximum number of units in their respective Force Organisation slot.</description>
+          <description>Once per friendly 移动阶段, each Canoptek Spyder can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly 单位 of Canoptek Scarabs that is within 6寸 of the Canoptek Spyder. Add a single Canoptek Scarab base to the 单位 – this can take the 单位 beyond its starting size, but must be placed within 6寸 of the Canoptek Spyder. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time a Canoptek Spyder uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Canoptek Spyder suffers a single Wound with no saves of any kind allowed
+ 此外, for each 单位 of Spyders in the army, a 单位 of Canoptek Scarabs may be taken which do count towards the maximum number of units in their respective Force Organisation slot.</description>
         </rule>
         <rule id="a318-f497-a0b2-d18e" name="Nodal Relay" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>If a Canoptek Spyder is within Command range of a Nodal Command model it will extend that range an additional 6寸 from the Spyder model, acting as a relay point.</description>
@@ -5088,9 +5088,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a80-6737-235b-4c80" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5541-827a-d6b9-84d1" name="Canoptek Spyders" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="5541-827a-d6b9-84d1" name="Canoptek Spyders" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -5148,9 +5148,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdd1-609c-3ac8-37d0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="23b5-6d4f-b556-0db3" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="23b5-6d4f-b556-0db3" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
+                    <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
                     <characteristic name="BS" typeId="425323232344415441232323">2</characteristic>
                     <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
@@ -5184,7 +5184,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
       <profiles>
         <profile id="a6e8-b4a4-618f-d1f6" name="Gloom Prism" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any psychic power targeting or affecting a unit within 12寸 of this model will be nullified on a 4+.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any psychic power targeting or affecting a 单位 within 12寸 of this model will be nullified on a 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5194,9 +5194,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
     </selectionEntry>
     <selectionEntry id="6cc1-77e0-d8ca-f8d5" name="Canoptek Tomb Sentinel" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="90c0-2bb6-13a9-394a" name="Canoptek Tomb Sentinel" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="90c0-2bb6-13a9-394a" name="Canoptek Tomb Sentinel" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -5260,9 +5260,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
     </selectionEntry>
     <selectionEntry id="4c43-da58-c2ef-3d2f" name="Canoptek Tomb Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2c7b-9b5c-a45c-4cf2" name="Canoptek Tomb Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="2c7b-9b5c-a45c-4cf2" name="Canoptek Tomb Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -5372,9 +5372,9 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff9-f365-4d43-f120" type="max"/>
           </constraints>
           <profiles>
-            <profile id="08c6-7c25-3008-2fb2" name="Canoptek Wraiths" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="08c6-7c25-3008-2fb2" name="Canoptek Wraiths" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -5589,7 +5589,7 @@ If there are three or more models all projecting Nightshrouds between them, they
       <profiles>
         <profile id="7473-20cd-4fab-2857" name="Eternity Gate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">For each Eternity Gate, at the start of each friendly turn, you may choose one friendly unit with the Necrons Faction consisting entirely of models with either the 步兵 or 跳跃步兵 unit type that is in Teleportation Reserve, or is on the table and not locked in combat. If the chosen unit is in Teleportation Reserve, it automatically arrives this turn (no dice roll is required) and it is placed as if it were disembarking from the portal at the start of the 移动阶段. If the chosen unit is currently on the battlefield, it is first removed from the table and then placed into Teleportation Reserve, any Reanimation Protocol rolls which need to be made are done so with the benefits of a Resurrection Amplifier. Any models that cannot be placed are removed as casualties, but the unit is otherwise treated exactly as if it were disembarking from a 运输载具 载具.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">For each Eternity Gate, at the start of each friendly turn, you may choose one friendly 单位 with the Necrons Faction consisting entirely of models with either the 步兵 or 跳跃步兵 单位 type that is in Teleportation Reserve, or is on the table and not locked in combat. If the chosen 单位 is in Teleportation Reserve, it automatically arrives this turn (no dice roll is required) and it is placed as if it were disembarking from the portal at the start of the 移动阶段. If the chosen 单位 is currently on the battlefield, it is first removed from the table and then placed into Teleportation Reserve, any Reanimation Protocol rolls which need to be made are done so with the benefits of a Resurrection Amplifier. Any models that cannot be placed are removed as casualties, but the 单位 is otherwise treated exactly as if it were disembarking from a 运输载具 载具.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5657,7 +5657,7 @@ If there are three or more models all projecting Nightshrouds between them, they
     <selectionEntry id="0c97-bc17-3476-f059" name="Sentry Pylon" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3ec4-56e3-3dc6-6bee" name="Mobile Fortificatoin" hidden="false">
-          <description>This unit may be taken as a 工事槽位 unit instead of 重型槽位 choice.</description>
+          <description>This 单位 may be taken as a 工事槽位 单位 instead of 重型槽位 choice.</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -5667,9 +5667,9 @@ If there are three or more models all projecting Nightshrouds between them, they
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db36-3320-56e9-c4e9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="2965-1e3a-bb16-e357" name="Sentry Pylon" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="2965-1e3a-bb16-e357" name="Sentry Pylon" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">炮兵 (不动)</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">炮兵 (不动)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">-</characteristic>
@@ -5799,7 +5799,7 @@ If there are three or more models all projecting Nightshrouds between them, they
             <rule id="726a-1294-6729-d1d7" name="Tesseract Singularity Chamber" hidden="false">
               <description>The Tesseract Singularity Chamber is treated as a weapon and can be taken out of action by a Weapon Destroyed damage result with potentially catastrophic consequences, and while active provides the several abilities as well as being used as a ranged weapon:
 • Containment Fields: The containment field of the Singularity Chamber provides the Tessearct Ark with a 5+ 特殊保护.
-• Gravitational Flux: Any model trying to assault or ram the Tesseract Ark must take a Dangerous Terrain test, and any unit charging the Ark is always forced into making a Disordered Charge by doing so.
+• Gravitational Flux: Any model trying to assault or ram the Tesseract Ark must take a Dangerous Terrain test, and any 单位 charging the Ark is always forced into making a Disordered Charge by doing so.
 • Unleashed Power: The Tesseract Singularity Chamber can unleash its energies as a shooting attack from the 载具 forward arc. Pick one of the following energy modes each time the Ark fires:</description>
             </rule>
           </rules>
@@ -5859,8 +5859,8 @@ If there are three or more models all projecting Nightshrouds between them, they
       </profiles>
       <rules>
         <rule id="2da2-0f4f-043d-658e" name="Terrestrial Assault" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Instead of the usual rules for Deep Striking,when this unit enters play via 深度打击, place an 启示录级爆炸 (10寸) marker on the table and scatter it to determine the final position of the units arrival, as per the 深度打击 规则. Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle posed. A single 载具 or 工事槽位 which obstructs the arrival of the unit in this manner (pick the closest to the original position) immediately suffers a S10 AP- hit. 载具 are hit on their Side armour. All units engaged in a combat which obstructs the marker suffer D6 S6 AP4 hits. If the final position of the marker covers or touches any enemy or friendly unit, then that unit suffers D6 S6 AP4 hits.
-Should the unit be placed on top of any unit which does not pose an obstacle to its arrival, as described above, the Terrestrial Assault 规则 allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the unit when it reaches its final position (it makes no difference whether the unit is Falling Back or not), these models must be moved out of the way by the controlling player by the shortest distance, leaving at least 1寸 between them and the 载具 (and indeed any other unit), whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
+          <description>Instead of the usual rules for Deep Striking,when this 单位 enters play via 深度打击, place an 启示录级爆炸 (10寸) marker on the table and scatter it to determine the final position of the units arrival, as per the 深度打击 规则. Should this marker scatter on top of impassable terrain, a building, ruin, 工事槽位, 载具 or any 单位 engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle posed. A single 载具 or 工事槽位 which obstructs the arrival of the 单位 in this manner (pick the closest to the original position) immediately suffers a S10 AP- hit. 载具 are hit on their Side armour. All units engaged in a combat which obstructs the marker suffer D6 S6 AP4 hits. If the final position of the marker covers or touches any enemy or friendly 单位, then that 单位 suffers D6 S6 AP4 hits.
+Should the 单位 be placed on top of any 单位 which does not pose an obstacle to its arrival, as described above, the Terrestrial Assault 规则 allows it to be placed as though the 单位 was not there. If some models in the 单位 would end up underneath the 单位 when it reaches its final position (it makes no difference whether the 单位 is Falling Back or not), these models must be moved out of the way by the controlling player by the shortest distance, leaving at least 1寸 between them and the 载具 (and indeed any other 单位), whilst maintaining 单位 coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5977,7 +5977,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
               </conditions>
             </modifier>
           </modifiers>
-          <description>Any model trying to assault or ram the Seraptek 重型 Construct must take a Dangerous Terrain test, and any unit charging the Construct is always forced into making a Disordered Charge.</description>
+          <description>Any model trying to assault or ram the Seraptek 重型 Construct must take a Dangerous Terrain test, and any 单位 charging the Construct is always forced into making a Disordered Charge.</description>
         </rule>
         <rule id="c3b4-b758-acae-44ae" name="Transdimensional Explosion" hidden="true">
           <modifiers>
@@ -5987,7 +5987,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
               </conditions>
             </modifier>
           </modifiers>
-          <description>If this unit suffers a Titanic Explosion result on the Catastrophic Damage table, its explosion breaches the transdimensional barrier and all hits are resolved as Destroyer hits.</description>
+          <description>If this 单位 suffers a Titanic Explosion result on the Catastrophic Damage table, its explosion breaches the transdimensional barrier and all hits are resolved as Destroyer hits.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6076,7 +6076,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
       <rules>
         <rule id="eda9-95f7-54e9-a733" name="Vengeance of the Enchained" hidden="false">
           <description>When a Tesseract Vault loses its last Hull Point, it always suffers a Titanic Explosion! – there is no need to roll on the Catastrophic Damage table. Roll to scatter the explosion as normal, however before resolving the damage, place a Transcendant C&apos;tan model at the center of the marker. If there are any models or impassable terrain underneath the C&apos;tan, move it and the marker the shortest distance possible so that it can be placed. Then resolve the explosion damage with a +1 on the To Wound roll for the C&apos;tan, 此外 it gets no saves of any kind.
-The Transcendant C&apos;tan is no longer under the control of the Necron player. At the end of each subsequent Game Turn, roll a D6, if it is equal to or more than the current Turn the C&apos;tan flees the battlefield to plot it vengeance against its former captors, otherwise it will move and attack the closest Necron unit.</description>
+The Transcendant C&apos;tan is no longer under the control of the Necron player. At the end of each subsequent Game Turn, roll a D6, if it is equal to or more than the current Turn the C&apos;tan flees the battlefield to plot it vengeance against its former captors, otherwise it will move and attack the closest Necron 单位.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6092,9 +6092,9 @@ The Transcendant C&apos;tan is no longer under the control of the Necron player.
     </selectionEntry>
     <selectionEntry id="c89b-bd36-ae92-f957" name="Transcendant C&apos;tan" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9785-2620-eb46-7b49" name="Transcendant C&apos;tan" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="9785-2620-eb46-7b49" name="Transcendant C&apos;tan" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">超级巨兽</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">6</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">9</characteristic>
@@ -6215,7 +6215,7 @@ The Transcendant C&apos;tan is no longer under the control of the Necron player.
       <profiles>
         <profile id="cebb-9913-3e9e-51fe" name="Phase Shift Defence Line" publicationId="ca571888--pubN73904" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ cover save. If a unit Goes to Ground, then models from the unit gain +2 to the cover save from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that defence line. Units charging an enemy that is behind a defence line count as charging through difficult terrain.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a defence line has a 4+ cover save. If a 单位 Goes to Ground, then models from the 单位 gain +2 to the cover save from the defence line rather than +1. Models that are in base contact with a defence line are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that defence line. Units charging an enemy that is behind a defence line count as charging through difficult terrain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6582,7 +6582,7 @@ If there are three or more models all projecting Nightshrouds between them, they
 A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock and move normally at the start of its 移动阶段, after which it cannot redock but gains the use of its Eternity Gate.</description>
         </rule>
         <rule id="0eed-7a50-0f67-68f1" name="Scarab Hive" hidden="false">
-          <description>Once per friendly 移动阶段, the Ziggurat can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6寸 of the Ziggurat. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6寸 of the Ziggurat. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time the Ziggurat uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Ziggurat cannot produce anymore Scarabs.</description>
+          <description>Once per friendly 移动阶段, the Ziggurat can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly 单位 of Canoptek Scarabs that is within 6寸 of the Ziggurat. Add a single Canoptek Scarab base to the 单位 – this can take the 单位 beyond its starting size, but must be placed within 6寸 of the Ziggurat. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time the Ziggurat uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Ziggurat cannot produce anymore Scarabs.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -6598,9 +6598,9 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
     </selectionEntry>
     <selectionEntry id="335c-d56b-e3c1-60d4" name="Destroyer Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9416-fafc-9b29-b0cf" name="Destoryer Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="9416-fafc-9b29-b0cf" name="Destoryer Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -6690,9 +6690,9 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64cb-c757-f8b3-3c22" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cca2-7829-c458-ce11" name="High Judicator" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="cca2-7829-c458-ce11" name="High Judicator" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">跳跃步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">5</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -6764,9 +6764,9 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0477-f485-aa36-69e1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b02d-8d06-3ca8-ea68" name="Cloaked Stranger" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="b02d-8d06-3ca8-ea68" name="Cloaked Stranger" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
-            <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
+            <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">6</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
@@ -6861,9 +6861,9 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e99d-2b2c-0042-543a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7bcf-7744-ba3e-63c6" name="Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="7bcf-7744-ba3e-63c6" name="Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -6913,9 +6913,9 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff2-47a7-8e8e-516c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="879f-db28-f8d3-9ebe" name="重型 Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="879f-db28-f8d3-9ebe" name="重型 Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -6958,9 +6958,9 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3e7-0a3e-0e26-e0d0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8fd5-f3e4-9dbc-2941" name="Triarch Praetorians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="8fd5-f3e4-9dbc-2941" name="Triarch Praetorians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
+                <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -7238,20 +7238,20 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="a36a-adb9-6b16-8974" name="Tomb Guardians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>Only a single unit with the Tomb Guardians rule may be used in any army which is built using the Nodal Command Force Organisation Chart and does not contain any Fortifications, should the army contain Fortifications there is no limit.</description>
+      <description>Only a single 单位 with the Tomb Guardians rule may be used in any army which is built using the Nodal Command Force Organisation Chart and does not contain any Fortifications, should the army contain Fortifications there is no limit.</description>
     </rule>
     <rule id="e2e6-948a-8cfd-3994" name="Annihilation Protocol" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>Only a single unit with Annihilation Protocol may be taken in armies using the Nodal Command Force Organisation Chart that contains any Fortifications.</description>
+      <description>Only a single 单位 with Annihilation Protocol may be taken in armies using the Nodal Command Force Organisation Chart that contains any Fortifications.</description>
     </rule>
     <rule id="667c-046f-f5be-4f4e" name="Teleportation Reserves" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>A unit which has been placed into Teleportation Reserve may only enter play through another unit, 工事槽位 or effect which has this 规则. Most commonly this would be through an Eternity Gate on a Monolith or attached to a 工事槽位.</description>
+      <description>A 单位 which has been placed into Teleportation Reserve may only enter play through another 单位, 工事槽位 or effect which has this 规则. Most commonly this would be through an Eternity Gate on a Monolith or attached to a 工事槽位.</description>
     </rule>
     <rule id="d0e0-b3d2-1273-9e33" name="Reanimation Protocols" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>When a model with this 规则 suffers an unsaved Wound, there is a chance that it will self repair and return to play at the end of the current phase. Whenever a unit takes one or more casualties, either lay the models down or replace them with counters/markers to indicate how many casualties were taken. If the unit makes a fall back move, remove any counters from it - any damaged Necrons are left behind and self-destruct. At the start of the players following turn, after Reserves but before Movement, roll a D6 for each Reanimation Protocol counter next to the unit. On a 1-4 the damage is too severe and no self-repair occurs - nothing happens. On a 5+, a Necron reassembles itself and continues to fight - return one model, with a single wound, for each successful Reanimation Protocol roll made to the unit. Each returning model must be placed within unit coherency of a 人物 or another model which did not self-repair from the same unit, and at least 1寸 away from enemy models. If the model&apos;s unit is engaged in Close Combat, the model immediately makes a pile in move. Models that cannot be placed in this way do not return. Reanimation Protocol rolls cannot be attempted if the unit was detroyed - once the last model has been removed as a casualty, remove all of the counters unless it is affected by Technomancer rule . Note that while 人物 do not count as part of the unit for the purposes of Reanimation Protocols, they may always attempt to self-repair whether their accompanying unit was destroyed or not, or even if they were by themselves.</description>
+      <description>When a model with this 规则 suffers an unsaved Wound, there is a chance that it will self repair and return to play at the end of the current phase. Whenever a 单位 takes one or more casualties, either lay the models down or replace them with counters/markers to indicate how many casualties were taken. If the 单位 makes a fall back move, remove any counters from it - any damaged Necrons are left behind and self-destruct. At the start of the players following turn, after Reserves but before Movement, roll a D6 for each Reanimation Protocol counter next to the 单位. On a 1-4 the damage is too severe and no self-repair occurs - nothing happens. On a 5+, a Necron reassembles itself and continues to fight - return one model, with a single wound, for each successful Reanimation Protocol roll made to the 单位. Each returning model must be placed within 单位 coherency of a 人物 or another model which did not self-repair from the same 单位, and at least 1寸 away from enemy models. If the model&apos;s 单位 is engaged in Close Combat, the model immediately makes a pile in move. Models that cannot be placed in this way do not return. Reanimation Protocol rolls cannot be attempted if the 单位 was detroyed - once the last model has been removed as a casualty, remove all of the counters unless it is affected by Technomancer rule . Note that while 人物 do not count as part of the 单位 for the purposes of Reanimation Protocols, they may always attempt to self-repair whether their accompanying 单位 was destroyed or not, or even if they were by themselves.</description>
     </rule>
     <rule id="50eb-0732-d269-4c45" name="Nodal Command" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
       <description>Models with this 规则 will have an accompanying rank, Bronze, Silver or Gold. Each rank will have a unique benefit which can be bestowed onto units containing models with the Dynastic 军团 rule (and from the same Dynasty) along with a range for which these benefits take affect. These benefits will be listed in the units profile alongside its other special rules. 此外 the highest Nodal Command level must be the armies Warlord.
-此外 all units which are within Nodal Command range gain the 坚毅 规则 while they are inside the range, should the Nodal Command be severed, the unit will lose the 坚毅 rule.</description>
+此外 all units which are within Nodal Command range gain the 坚毅 规则 while they are inside the range, should the Nodal Command be severed, the 单位 will lose the 坚毅 rule.</description>
     </rule>
     <rule id="3968-2abf-2a9f-ae4e" name="Living Metal" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
       <description>A model with this 规则 ignores the effects of Crew Shaken (but still loses a Hull Point). At the end of each of your turns, roll a D6 for each of your 重型 or 超重型载具 with this 规则 that has less than its starting number of Hull Points, but has not been destroyed. On a roll of a 6, that model regains a Hull Point lost earlier in the game.</description>
@@ -7260,7 +7260,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
       <description>If a model has this 规则, or is attacking with a 肉搏 weapon that has this 规则, a To Wound roll of a 6 Wounds automatically, regardless of the target’s Toughness. Against 载具 and buildings, an Armour Penetration roll of 6 that does not cause a penetrating hit automatically causes a glancing hit.</description>
     </rule>
     <rule id="63d6-6625-10bb-8d3e" name="Awakening Protocol" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>This rule will be accompanied a Nodal Command level, Bronze, Silver or Gold. Units with this rule can only be included in lists which a 指挥槽位 model with the corresponding Nodal Command level. 此外 the unit entry will include a Necron Ankh of the corresponding colour, black signifying they are available from awakening.</description>
+      <description>This rule will be accompanied a Nodal Command level, Bronze, Silver or Gold. Units with this rule can only be included in lists which a 指挥槽位 model with the corresponding Nodal Command level. 此外 the 单位 entry will include a Necron Ankh of the corresponding colour, black signifying they are available from awakening.</description>
     </rule>
     <rule id="e4fc-6585-aac2-ecbe" name="Gauss" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
       <description>When firing a weapon with this 规则, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness. Against 载具 and buildings, an Armour Penetration roll of a 6 inflicts a Glancing hit. 超重型and 超级巨兽 are immune to this effect.
@@ -7291,7 +7291,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
   <sharedProfiles>
     <profile id="956b-4a94-f5ae-6522" name="Quantum Shielding Matrix" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 equipped with active quantum shielding counts all of its Front and Side Armour Values as 13. A 载具’s quantum shielding is active until it suffers a penetrating hit, at which point it immediately deactivates. While the 载具’s quantum shielding is deactivated, all subsequent hits against that 载具 (including hits made from subsequent shooting attacks in the same phase – either from a different weapon or a different unit – or hits made at a lower Initiative step in close combat) are treated as though the 载具 was not equipped with quantum shielding. At the start of each turn, the 载具 may attempt to reactivate its Quantum Shielding if had been overloaded previously, to do so roll 1D6 and on a 5+ the device reactivates.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 equipped with active quantum shielding counts all of its Front and Side Armour Values as 13. A 载具’s quantum shielding is active until it suffers a penetrating hit, at which point it immediately deactivates. While the 载具’s quantum shielding is deactivated, all subsequent hits against that 载具 (including hits made from subsequent shooting attacks in the same phase – either from a different weapon or a different 单位 – or hits made at a lower Initiative step in close combat) are treated as though the 载具 was not equipped with quantum shielding. At the start of each turn, the 载具 may attempt to reactivate its Quantum Shielding if had been overloaded previously, to do so roll 1D6 and on a 5+ the device reactivates.</characteristic>
       </characteristics>
     </profile>
     <profile id="9a9c-3b30-c231-415b" name="Resurrection Amplifier" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
@@ -7301,7 +7301,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
     </profile>
     <profile id="1266-3298-8a1f-4b5d" name="Quantum Shielding" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 equipped with active quantum shielding counts all of its Front and Side Armour Values as 13. A 载具’s quantum shielding is active until it suffers a penetrating hit, at which point it immediately deactivates. For the remainder of the battle after a 载具’s quantum shielding deactivates, all subsequent hits against that 载具 (including hits made from subsequent shooting attacks in the same phase – either from a different weapon or a different unit – or hits made at a lower Initiative step in close combat) are treated as though the 载具 was not equipped with quantum shielding.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 equipped with active quantum shielding counts all of its Front and Side Armour Values as 13. A 载具’s quantum shielding is active until it suffers a penetrating hit, at which point it immediately deactivates. For the remainder of the battle after a 载具’s quantum shielding deactivates, all subsequent hits against that 载具 (including hits made from subsequent shooting attacks in the same phase – either from a different weapon or a different 单位 – or hits made at a lower Initiative step in close combat) are treated as though the 载具 was not equipped with quantum shielding.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

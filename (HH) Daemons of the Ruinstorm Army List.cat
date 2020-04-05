@@ -228,7 +228,7 @@
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92c6-2146-8ca7-bd35" name="毁灭风暴恶魔领主" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="92c6-2146-8ca7-bd35" name="毁灭风暴恶魔领主" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="4571-257a-8d04-03c5" value="0.0">
           <conditionGroups>
@@ -372,7 +372,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ad5-5b92-5f1f-e661" name="毁灭风暴低阶恶魔" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9ad5-5b92-5f1f-e661" name="毁灭风暴低阶恶魔" hidden="false" collective="false" import="true" type="单位">
       <selectionEntries>
         <selectionEntry id="23df-3d35-fc4d-f51a" name="毁灭风暴低阶恶魔" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -438,7 +438,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5eaf-49f3-f745-fd30" name="毁灭风暴恶魔暴虐兽" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5eaf-49f3-f745-fd30" name="毁灭风暴恶魔暴虐兽" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="5a79-01c8-c1c7-ef77" name="精英槽位" hidden="false" targetId="456c6974657323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -490,7 +490,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b13b-5247-2078-4daf" name="毁灭风暴高阶恶魔" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b13b-5247-2078-4daf" name="毁灭风暴高阶恶魔" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="de3d-2656-aeae-8bf0" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
@@ -522,7 +522,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="721a-409b-1ce8-0c50" name="毁灭风暴恶魔神选" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="721a-409b-1ce8-0c50" name="毁灭风暴恶魔神选" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="b09a-30f0-39d0-6fb3" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
@@ -555,7 +555,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1137-8ddd-d812-1e70" name="毁灭风暴恶魔骑兵" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1137-8ddd-d812-1e70" name="毁灭风暴恶魔骑兵" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="5571-9b8f-6e12-06ee" name="快速槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
@@ -587,7 +587,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c877-3df6-7393-c32b" name="毁灭风暴恶魔野兽" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c877-3df6-7393-c32b" name="毁灭风暴恶魔野兽" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="cf97-4f31-aa52-f7f5" name="基础槽位" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -619,7 +619,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae3c-2429-b663-dcbc" name="毁灭风暴恶魔集群" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ae3c-2429-b663-dcbc" name="毁灭风暴恶魔集群" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="7f7f-257b-f4ee-5af8" name="基础槽位" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -653,7 +653,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f45-4da0-7891-e2cc" name="毁灭风暴恶魔飞行巨兽" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1f45-4da0-7891-e2cc" name="毁灭风暴恶魔飞行巨兽" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="8ccd-e535-2882-af9e" name="快速槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
@@ -685,7 +685,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf7e-0c26-b8b8-758a" name="毁灭风暴恶魔巨兽" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bf7e-0c26-b8b8-758a" name="毁灭风暴恶魔巨兽" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="bba1-7f66-485f-9ec7" name="重型槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
@@ -718,7 +718,7 @@
         <cost name="分" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7a8-a1e3-5f05-fc69" name="毁灭风暴高阶恶魔野兽" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b7a8-a1e3-5f05-fc69" name="毁灭风暴高阶恶魔野兽" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="3e95-5559-6cef-3f4c" name="重型槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
@@ -1578,7 +1578,7 @@
         <cost name="分" typeId="points" value="460.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="308e-c800-4fa9-efde" name="附魔军团" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="308e-c800-4fa9-efde" name="附魔军团" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="6349-c3c3-6f07-5e59" name="支援小队" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
         <infoLink id="cc8c-ad29-14b4-95cc" name="Slaves to Darkness" hidden="false" targetId="b407-fb29-f206-4ad3" type="rule"/>
@@ -1966,7 +1966,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3d7-3331-372c-a480" name="附魔辅助军" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f3d7-3331-372c-a480" name="附魔辅助军" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="da2c-f2b1-e48d-385b" name="支援小队" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
         <infoLink id="36c5-f6e5-d4de-e737" name="Slaves to Darkness" hidden="false" targetId="b407-fb29-f206-4ad3" type="rule"/>

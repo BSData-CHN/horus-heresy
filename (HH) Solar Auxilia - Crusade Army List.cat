@@ -123,7 +123,7 @@ using Shadow War missions and a points level of 1500-2000 to represent smaller
 actions, insurgency, and tactical skirmishes.
 
 步兵, 步行机甲, and Speeders should be the focus of your army and the
-following unit are restricted:
+following 单位 are restricted:
 
 Tanks, Fliers, Drop Pods, Superheavies are not allowed.
 Bikes, Attack Bikes, Jet Bikes, 炮兵, 巨兽, Leviathan
@@ -255,10 +255,10 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
     <forceEntry id="4e06-f510-5de0-195b" name="黑暗盟军" hidden="false">
       <rules>
         <rule id="cc25-0704-2c85-ff7d" name="Disposable" hidden="false">
-          <description>The Disposable 规则 given in 单位 entry for the Inducted Levy Squad in the Imperialis Militia and Cults army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only Inducted Levy Squads</description>
+          <description>The Disposable 规则 given in 单位 entry for the Inducted Levy Squad in the Imperialis Militia and Cults army list may be applied to any Militia 单位 in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only Inducted Levy Squads</description>
         </rule>
         <rule id="03ea-ee83-b8a7-6d8a" name="Warmaster&apos;s Due" hidden="false">
-          <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the Imperialis Militia and Cults army list to reach them. However, if this bonus is claimed, the Militia unit 立即 suffers D3 wounds 每个 unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the 敌方 unit against which the 掩体保护 bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
+          <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the Imperialis Militia and Cults army list to reach them. However, if this bonus is claimed, the Militia 单位 立即 suffers D3 wounds 每个 单位 firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the 敌方 单位 against which the 掩体保护 bonus has been claimed had fired upon the Militia 单位, and have no AP value.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -736,7 +736,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="df196c5a-1e60-d58b-c2cb-1b389ac4f530" name="战争机器分队" publicationId="7f243fc5--pubN70233" page="8" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="df196c5a-1e60-d58b-c2cb-1b389ac4f530" name="战争机器分队" publicationId="7f243fc5--pubN70233" page="8" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="df196c5a-1e60-d58b-c2cb-1b389ac4f530-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
@@ -1127,7 +1127,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
         <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
@@ -1781,7 +1781,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f54-1661-8f89-6002" name="辅助军火炮坦克阵列" publicationId="7f243fc5--pubN74753" page="279" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5f54-1661-8f89-6002" name="辅助军火炮坦克阵列" publicationId="7f243fc5--pubN74753" page="279" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="3756-44c3-740a-b5cc" name="辅助军火炮坦克" hidden="false" collective="false" import="true">
           <constraints>
@@ -2219,7 +2219,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="535.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25ee-ae11-c0cc-6817" name="辅助军步兵小队" publicationId="7f243fc5--pubN74753" page="264" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="25ee-ae11-c0cc-6817" name="辅助军步兵小队" publicationId="7f243fc5--pubN74753" page="264" hidden="false" collective="false" import="true" type="单位">
       <categoryLinks>
         <categoryLink id="9ea7-7105-aa6a-ac90" name="New CategoryLink" hidden="false" targetId="219d-aefa-dfa5-44db" primary="false"/>
       </categoryLinks>
@@ -2267,7 +2267,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="29c4-eaab-94e8-f64e" name="辅助军黎曼鲁斯突击中队" publicationId="7f243fc5--pubN74753" page="278" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="29c4-eaab-94e8-f64e" name="辅助军黎曼鲁斯突击中队" publicationId="7f243fc5--pubN74753" page="278" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="97c0-886a-750e-9af9" name="辅助军黎曼鲁斯" hidden="false" collective="false" import="true">
           <constraints>
@@ -2486,7 +2486,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dec5-7c44-9557-c50f" name="辅助军黎曼鲁斯打击中队" publicationId="7f243fc5--pubN74753" page="274" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dec5-7c44-9557-c50f" name="辅助军黎曼鲁斯打击中队" publicationId="7f243fc5--pubN74753" page="274" hidden="false" collective="false" import="true" type="单位">
       <selectionEntryGroups>
         <selectionEntryGroup id="62e7-a7b1-af04-716b" name="辅助军黎曼鲁斯" hidden="false" collective="false" import="true">
           <constraints>
@@ -3056,7 +3056,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="265.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2124-49d9-00fa-c94b" name="辅助军医疗分队" publicationId="7f243fc5--pubN74753" page="260" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2124-49d9-00fa-c94b" name="辅助军医疗分队" publicationId="7f243fc5--pubN74753" page="260" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="fc46-9414-bdd9-a0e1" name="医疗兵" publicationId="7f243fc5--pubN74753" page="260" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -3123,7 +3123,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fb7-454b-56be-de75" name="辅助军欧格林冥府摆渡者小队" publicationId="7f243fc5--pubN74753" page="262" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0fb7-454b-56be-de75" name="辅助军欧格林冥府摆渡者小队" publicationId="7f243fc5--pubN74753" page="262" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="7aac-be19-1a35-92cc" name="欧格林冥府摆渡者" publicationId="7f243fc5--pubN74753" page="262" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -3184,7 +3184,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0f1-168d-ee43-1300" name="辅助军陆战队闪电强袭攻击机" publicationId="7f243fc5--pubN74753" page="276" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c0f1-168d-ee43-1300" name="辅助军陆战队闪电强袭攻击机" publicationId="7f243fc5--pubN74753" page="276" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="cc40-23a0-4d1c-db09" name="陆战队闪电强袭攻击机" publicationId="7f243fc5--pubN70233" page="42" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -3373,7 +3373,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9d9-7c91-e026-de25" name="辅助军细剑阵列" publicationId="7f243fc5--pubN74753" page="261" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c9d9-7c91-e026-de25" name="辅助军细剑阵列" publicationId="7f243fc5--pubN74753" page="261" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="3342-bb9c-4a54-4efc" name="辅助军" publicationId="7f243fc5--pubN74753" page="261" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
@@ -4023,7 +4023,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="485.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e152-a452-796f-034d" name="辅助军战术指挥小队" publicationId="7f243fc5--pubN74753" page="258" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e152-a452-796f-034d" name="辅助军战术指挥小队" publicationId="7f243fc5--pubN74753" page="258" hidden="false" collective="false" import="true" type="单位">
       <infoLinks>
         <infoLink id="59b4-8302-cbbf-b65e" hidden="false" targetId="470a38b3-ad69-52de-2996-36fa27f50e04" type="rule"/>
         <infoLink id="df2f-301a-6d92-541b" hidden="false" targetId="aa451588-557c-7f81-2b3f-d17583985f38" type="rule"/>
@@ -4514,7 +4514,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b00d-ff04-d487-5d69" name="独眼巨人爆破载具小队" publicationId="7f243fc5--pubN74753" page="283" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b00d-ff04-d487-5d69" name="独眼巨人爆破载具小队" publicationId="7f243fc5--pubN74753" page="283" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="5bdb-5788-df75-a772" name="爆破炸药" publicationId="7f243fc5--pubN74753" page="283" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <modifiers>
@@ -4872,7 +4872,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="326e-b466-256d-58e5" name="家族随从小队" publicationId="7f243fc5--pubN74753" page="267" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="326e-b466-256d-58e5" name="家族随从小队" publicationId="7f243fc5--pubN74753" page="267" hidden="true" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -5836,7 +5836,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ca8-8b43-5619-a278" name="狼蛛哨兵炮台阵列" publicationId="7f243fc5--pubN74753" page="272" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7ca8-8b43-5619-a278" name="狼蛛哨兵炮台阵列" publicationId="7f243fc5--pubN74753" page="272" hidden="false" collective="false" import="true" type="单位">
       <rules>
         <rule id="88bc-9041-960c-a43c" name="射击模式" publicationId="7f243fc5--pubN74753" page="273" hidden="false">
           <modifiers>
@@ -6118,7 +6118,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1781-17c5-6a04-eeff" name="赛莱克斯小队" publicationId="7f243fc5--pubN74753" page="290" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1781-17c5-6a04-eeff" name="赛莱克斯小队" publicationId="7f243fc5--pubN74753" page="290" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -6332,7 +6332,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93ca-6dfc-0b76-e011" name="辅助军喷火器小队" publicationId="7f243fc5--pubN74753" page="268" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="93ca-6dfc-0b76-e011" name="辅助军喷火器小队" publicationId="7f243fc5--pubN74753" page="268" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dab4-800f-38cf-82d3" type="max"/>
       </constraints>
@@ -6602,7 +6602,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db2c-8ebb-4a76-0796" name="辅助军激光步枪小队" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="db2c-8ebb-4a76-0796" name="辅助军激光步枪小队" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b547-c49a-eb66-4370" type="max"/>
       </constraints>
@@ -6999,7 +6999,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="318c-a42f-a36c-aa30" name="暴风老兵小队" publicationId="7f243fc5--pubN74753" page="267" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="318c-a42f-a36c-aa30" name="暴风老兵小队" publicationId="7f243fc5--pubN74753" page="267" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5626-3355-5160-67b3" type="max"/>
       </constraints>
@@ -7609,7 +7609,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3879-9d90-7c4a-5905" name="白蚁掘进机" publicationId="7f243fc5--pubN110665" page="https://www.forgeworld.co.uk/resources/PDF/Downloads//Terrax_Termite%20_Solar_Auxilia.pdf" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3879-9d90-7c4a-5905" name="白蚁掘进机" publicationId="7f243fc5--pubN110665" page="https://www.forgeworld.co.uk/resources/PDF/Downloads//Terrax_Termite%20_Solar_Auxilia.pdf" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="2865-d3c2-de9d-4306" name="白蚁掘进机" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -7637,19 +7637,19 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
           <description>
 Instead of the usual rules for 深度打击, when a Subterranean Assault 载具 enters play via 深度打击, place a 大爆炸(5寸) marker on the table and scatter this to determine the final position of its arrival as 每个 the 深度打击 规则.
 
-Should this marker scatter on top of impassable 地形, a building, ruin, 工事槽位, 载具 or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was displaced in this way by a 载具 or 工事槽位, the closest 载具 or 工事槽位 to the marker 立即 suffers a Str 10 AP- hit
-– 载具 are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in 肉搏, all units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any 敌方 or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
+Should this marker scatter on top of impassable 地形, a building, ruin, 工事槽位, 载具 or any 单位 engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was displaced in this way by a 载具 or 工事槽位, the closest 载具 or 工事槽位 to the marker 立即 suffers a Str 10 AP- hit
+– 载具 are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in 肉搏, all units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any 敌方 or friendly 单位, then that 单位 also suffers D6 Str 6 AP 4 hits.
 
-After all damage is resolved, the Subterranean Assault 载具 may be placed in any orientation so long as the centre of the 大爆炸(5寸) marker is underneath part of the 载具’s hull and it remains 1寸 away from any 工事槽位, 载具 or unit engaged in combat. The area under the 大爆炸(5寸) marker is now difficult 地形 for the rest of the game. Players may, should they wish to, instead represent this area with a piece of crater 地形.
+After all damage is resolved, the Subterranean Assault 载具 may be placed in any orientation so long as the centre of the 大爆炸(5寸) marker is underneath part of the 载具’s hull and it remains 1寸 away from any 工事槽位, 载具 or 单位 engaged in combat. The area under the 大爆炸(5寸) marker is now difficult 地形 for the rest of the game. Players may, should they wish to, instead represent this area with a piece of crater 地形.
 
-Should a Subterranean Assault 载具 be placed on top of any unit which 不能 pose an obstacle to its arrival as described above, the Death from Below 规则 allows it to be placed as though 单位 was not there. If some models in 单位 would end up underneath the Subterranean Assault 载具 when it reaches its final position(it makes no difference whether 单位 is Falling Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1寸 between them and the Subterranean Assault 载具(and indeed any other unit) whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
+Should a Subterranean Assault 载具 be placed on top of any 单位 which 不能 pose an obstacle to its arrival as described above, the Death from Below 规则 allows it to be placed as though 单位 was not there. If some models in 单位 would end up underneath the Subterranean Assault 载具 when it reaches its final position(it makes no difference whether 单位 is Falling Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1寸 between them and the Subterranean Assault 载具(and indeed any other 单位) whilst maintaining 单位 coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
         <rule id="21c3-a032-c598-2f23" name="热熔切割机" hidden="false">
           <description>白蚁忽视困难地形和危险地形,当白蚁撞击防御工事时S+2</description>
         </rule>
         <rule id="d90a-b3b6-9e5d-3d5f" name="地下突击" hidden="false">
           <description>
-Should the Termite Assault Drill, and any unit it 运输载具s, enter play using the 深度打击 规则, they count as being a
+Should the Termite Assault Drill, and any 单位 it 运输载具s, enter play using the 深度打击 规则, they count as being a
 Subterranean Assault 载具 for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling
 player’s first turn, they must choose half of their Subterranean Assault 载具 held in reserve for the purpose of 深度打击
 (rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
