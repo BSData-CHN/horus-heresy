@@ -418,7 +418,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="527e-483e-7b4a-4cc8" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="808f-3d7c-5e48-b696" name="Multi-laser" hidden="false" targetId="c812-a8fe-2b49-75a5" type="profile"/>
+                <infoLink id="808f-3d7c-5e48-b696" name="Multi-laser" hidden="false" targetId="92be-1bfc-f355-f214" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="20.0"/>
@@ -6519,6 +6519,27 @@ Command Benefits:
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49dd-cdc4-b1c3-800d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="aec2-03ab-c667-1ebe" name="Heavy Bolter" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="797f-f28f-121b-2bd7" name="Heavy Bolter (Suspensor)" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
+                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+                <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Assault 3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7675-6dcc-5dc8-67f9" name="Suspensor Web" hidden="false" targetId="3d78-f901-8afc-00ff" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="20.0"/>
           </costs>
@@ -6761,7 +6782,7 @@ Command Benefits:
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a78-ae84-ef7c-c81b" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="3e26-8893-7b1a-8d5a" name="New InfoLink" hidden="false" targetId="6191-5a5d-0000-7f09" type="profile"/>
+            <infoLink id="3e26-8893-7b1a-8d5a" name="Armoured Ceramite" hidden="false" targetId="3138-683d-a9a0-570d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="20.0"/>
@@ -6826,7 +6847,7 @@ Command Benefits:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6be5-dd8e-96da-604f" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="5bc4-80c5-f65a-828d" name="New InfoLink" hidden="false" targetId="6191-5a5d-0000-7f09" type="profile"/>
+            <infoLink id="5bc4-80c5-f65a-828d" name="Armoured Ceramite" hidden="false" targetId="3138-683d-a9a0-570d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -7449,7 +7470,7 @@ Command Benefits:
 每个分队的1个忠诚独立人物可以使用30分携带烈日圣像.如果圣像12寸范围内有叛军灵能者在灵能阶段成功释放任何灵能,烈日圣像的携带者可以尝试使其无效化.
 若想这样做,烈日圣像的携带者必须进行1次LD测试.
 -如果测试通过,灵能被无效化.
--如果测试失败,灵能如常释放,且烈日圣像的携带者受到1点不能被任何保护的伤害. 
+-如果测试失败,灵能如常释放,且烈日圣像的携带者受到1点不能被任何保护的伤害.
 -如果结果为双6,携带者被发现缺乏信仰,被其所寻求的力量所吞噬,立即移除,不允许任何保护.
 此外,任何与烈日圣像的携带者锁入肉搏的恶魔或毁灭风暴恶魔WS降为1.
                 </characteristic>
@@ -8341,17 +8362,15 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     <rule id="6f38-4691-2eda-8e1b" name="灵能鞭挞" publicationId="ca571888--pubN103311" page="301" hidden="false">
       <description>攻击恶魔,灵能者,灵能者兄弟会/巫师兄弟会,灵能者驾驶员模型时,目标在伤害之外还会受到1次灵能反噬.</description>
     </rule>
+    <rule id="7439f6fd-4c50-f88a-eb41-81d9b9c9eed8" name="Hardened Armour" publicationId="ca571888--pubN82424" page="32" hidden="false">
+      <description>Hardened Armour counts as being Void Hardened (Cold Void mission special rules from Betrayal)..  Failed armour saves against template and blast weapons may be re-rolled.  Reduces distance rolled for charges, sweeping advances, and run moves by 1&quot;</description>
+    </rule>
+    <rule id="3d78-f901-8afc-00ff" name="Suspensor Web" publicationId="ca571888--pubN82424" page="133" hidden="false">
+      <description>A heavy weapon with a suspensor web effectively allows the firer to treat the weapon as having the type Assault rather than Heavy (meaning that they can move and fire at full WS, etc) when firing in the Shooting phase at targets at up to half the weapon’s usual maximum range. This has no other effect, such as on Snap Shots when charged, etc.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="c812-a8fe-2b49-75a5" name="多管激光" publicationId="ca571888--pubN84158" page="247" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
-      <characteristics>
-        <characteristic name="射程" typeId="52616e676523232344415441232323">36寸</characteristic>
-        <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">重型 3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="74effb54-87f7-8481-9e5f-86d9e3ed37c2" name="战斗控制奴工" publicationId="ca571888--pubN67227" page="43" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="74effb54-87f7-8481-9e5f-86d9e3ed37c2" name="Battle Servitor Control" publicationId="ca571888--pubN67227" page="43" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得坦克猎手规则.  </characteristic>
       </characteristics>
@@ -8616,15 +8635,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
         <characteristic name="类型" typeId="5479706523232344415441232323">齐射 3/4, 毒伤(4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="1034-50ea-81e7-4af2" name="闪电枪" publicationId="ca571888--pubN66489" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
-      <characteristics>
-        <characteristic name="射程" typeId="52616e676523232344415441232323">18寸</characteristic>
-        <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
-        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 撕碎, 撕裂</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6474-3d3e-de26-3e9f" name="辐射枪" publicationId="ca571888--pubN66489" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="6474-3d3e-de26-3e9f" name="Rad/irad Cleanser" publicationId="ca571888--pubN66489" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">喷射盖板</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
@@ -8981,12 +8992,14 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="0434-8c4b-9614-73dd" name="星际战士摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">+1 Toughness, cannot Go to Ground, and cannot be Pinned, not slowed down by 困难地形, treat all 困难地形 as dangerous, Move 3D6寸 when Falling Back, 涡轮加速 up to 12寸</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">+1 Toughness, cannot Go to Ground, and cannot be Pinned, not slowed down by difficult terrain, treat all difficult terrain as dangerous, Move 3D6&quot; when Falling Back, Turbo-boost up to 12&quot;.  Bikes have the Hammer of Wrath, Jink, Relentless and Very Bulky special rules.
+Each Bike in a unit can fire with one weapon for each rider on the Bike. Thus a Space Marine Attack Bike with a driver and passenger in sidecar can fire two weapons.</characteristic>
       </characteristics>
     </profile>
     <profile id="3c28-4994-00ed-bbe5" name="星际战士喷气摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">ARMOURED STEED Bike and 喷气摩托 riders benefit from an increase to their Toughness characteristic by 1. If the Bike or 喷气摩托 is part of the model’s standard wargear, this bonus is already included on its profile. 此外 Bikes and 喷气摩托 cannot Go to Ground, and cannot be Pinned.  MOVEMENT Bikes and 喷气摩托 can move up to 12寸 in the 移动阶段.  BIKES &amp; TERRAIN Bikes and 喷气摩托 are not slowed down by 困难地形(even when charging). However, Bikes treat all 困难地形 as 危险地形 instead.  喷气摩托, MODELS AND TERRAIN 喷气摩托 can move over all other models and terrain freely. However, if a moving 喷气摩托 begins or ends its move in 困难地形, it must take a 危险地形 test. 喷气摩托 cannot end their move over other models or 不可通过地形, except that they can end their move on top of 不可通过地形 if it is actually possible to place the models on top of it. If they do so, they treat the 不可通过地形 as 危险地形.  撤退移动 Bikes and 喷气摩托 move 3D6寸 when Falling Back, rather than 2D6寸.  SHOOTING Each Bike or 喷气摩托 in a 单位 can fire with one weapon for each rider on the Bike. Thus a 星际战士 Attack Bike with a driver and passenger in sidecar can fire two weapons. 规则 Bikes and 喷气摩托 获得愤怒之锤, 闪避, 毫不留情 and 非常庞大规则.  涡轮加速 Bikes and 喷气摩托 cannot Run, but can make a special 涡轮加速 move instead of firing in their 射击阶段. Turbo-boosting Bikes move up to 12寸, Turbo-boosting 喷气摩托 move up to 24寸. Controlling their Bikes at such speeds takes all the riders’ concentration and skill, however. Bikes and 喷气摩托 therefore cannot shoot, charge or execute any other voluntary action until the end of their turn after Turbo-boosting.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">+1 Toughness, 2+ Save, cannot Go to Ground, and cannot be Pinned, not slowed down by difficult terrain, treat all difficult terrain as dangerous, Move 3D6&quot; when Falling Back, Turbo-boost up to 24&quot;. Jjetbike have the Hammer of Wrath, Jink, Relentless and Very Bulky special rules.
+Jetbikes can move over all other models and terrain freely. However, if a moving Jetbike begins or ends its move in difficult terrain, it must take a Dangerous Terrain test. Jetbikes cannot end their move over other models or impassable terrain, except that they can end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do so, they treat the impassable terrain as dangerous terrain.</characteristic>
       </characteristics>
     </profile>
     <profile id="376f-adc9-b9bf-7fc9" name="占卜扫描仪" publicationId="ca571888--pubN99753" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -9020,12 +9033,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="79c7-90f6-b453-e799" name="额外装甲" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">载具 equipped with extra armour count Crew Stunned results from the 载具损伤结果表 as Crew Shaken results instead.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6191-5a5d-0000-7f09" name="陶瓷装甲" publicationId="ca571888--pubN99753" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
-      <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">免疫热熔武器的额外穿甲骰规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead.</characteristic>
       </characteristics>
     </profile>
     <profile id="cb4a-644f-bd8d-7d97" name="闪光护盾" publicationId="ca571888--pubN99753" page="132" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -9122,12 +9130,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
         <characteristic name="射程" typeId="52616e676523232344415441232323">无限</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 一次性</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="874d-45cf-6007-a1de" name="陶瓷装甲" publicationId="ca571888--pubN67227" page="88" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
-      <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">免疫热熔武器的额外穿甲骰规则.</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 一次性</characteristic>
       </characteristics>
     </profile>
     <profile id="40e6-c95c-7c8d-cf02" name="破片导弹" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -9359,7 +9362,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
     </profile>
     <profile id="92be-1bfc-f355-f214" name="多管激光" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
       <characteristics>
-        <characteristic name="射程" typeId="52616e676523232344415441232323">36</characteristic>
+        <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
         <characteristic name="类型" typeId="5479706523232344415441232323">重型 3</characteristic>
@@ -10008,6 +10011,118 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
         <characteristic name="S" typeId="537472656e67746823232344415441232323">D/9/6</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
         <characteristic name="类型" typeId="5479706523232344415441232323">主武器 1, 启示录级爆炸, 曲射, 地震冲击. 震荡, 击倒</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="423f-013f-cb9f-b6bb" name="Twin-Linked Autocannon" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d27-e5b9-6c14-4302" name="Twin-Linked Avenger Bolt Cannon" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 7, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="37fc-8473-3879-14a4" name="Twin-Linked Boltgun" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Rapid Fire, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3851-298c-cd04-af3f" name="Twin-Linked Flamer" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">Template</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 1, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d9ce-23de-9b51-0707" name="Twin-Linked Heavy Bolter" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b55d-dcfd-d708-8149" name="Twin-Linked Heavy Flamer" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">Template</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 1, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2cd1-0fb3-7484-e486" name="Twin-Linked Lascannon" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d3cd-1872-0568-4f54" name="Twin-Linked Mauler Bolt Cannon" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3, Pinning, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8010-122f-a8d0-0bf7" name="Twin-Linked Multi-laser" publicationId="ca571888--pubN84158" page="247" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 3, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ea3-cf60-6994-d707" name="Twin-Linked Multi-Melta" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 1, Melta, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4e7d-d413-cedc-2891" name="Twin-Linked Plasma Gun" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Rapid Fire, Gets Hot, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbe9-124d-f911-2542" name="Twin-Linked Rotor Cannon" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">30&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">3</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Salvo 3/4, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="415c-c849-75db-5064" name="Twin-Linked Volkite Caliver" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">30&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 2, Deflagrate, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dfaa-aab3-67ce-cd36" name="Twin-Linked Volkite Culverin" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">45&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Heavy 4, Deflagrate, Twin-Linked</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
