@@ -1442,7 +1442,7 @@
             </entryLink>
             <entryLink id="1471-cc6c-b1c6-411f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="d313-b513-281a-c5ad" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="points" value="5"/>
+                <modifier type="set" field="points" value="5.0"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c597-45a0-0d3d-5faf" type="max"/>
@@ -3847,7 +3847,7 @@
     <selectionEntry id="30c9-6a17-3e08-a83d" name="行刑者大剑" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5bc3-df21-1486-ed7c" name="New InfoLink" hidden="false" targetId="514e-dfe7-e9a4-17a7" type="rule"/>
-        <infoLink id="030b-97c3-ea7c-efd8" name="due" hidden="false" targetId="eddf-f5b5-0ec0-e1bb" type="rule"/>
+        <infoLink id="030b-97c3-ea7c-efd8" name="Duelist&apos;s Edge" hidden="false" targetId="1a79-befa-05cf-ab0d" type="rule"/>
         <infoLink id="15a5-ab60-8f4d-5b6b" name="New InfoLink" hidden="false" targetId="e8e8-bbc9-fb47-e91b" type="profile"/>
         <infoLink id="a1e3-62fd-c633-80d8" name="New InfoLink" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule"/>
       </infoLinks>
@@ -4434,7 +4434,6 @@
         <infoLink id="a64c-1d2a-8262-4c89" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
         <infoLink id="ded8-3bdf-83fa-3d74" name="Extra Armour" hidden="false" targetId="79c7-90f6-b453-e799" type="profile"/>
         <infoLink id="b75b-29a0-1060-3549" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile"/>
-        <infoLink id="6ca0-5e67-332f-7c83" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4ec8-82c0-be2a-9601" name="New CategoryLink" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
@@ -4471,6 +4470,14 @@
       <entryLinks>
         <entryLink id="2df4-2788-fe21-ea71" name="Telemon Caestus" hidden="false" collective="false" import="true" targetId="d870-726f-9486-5438" type="selectionEntryGroup"/>
         <entryLink id="77ec-7797-2e2a-3795" name="Telemon Caestus" hidden="false" collective="false" import="true" targetId="d870-726f-9486-5438" type="selectionEntryGroup"/>
+        <entryLink id="39a0-9c28-1c39-e588" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e56e-2184-bb69-6468" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="320.0"/>
@@ -4986,6 +4993,7 @@
         <selectionEntry id="a598-a02a-d502-adf4" name="等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="3512-a7b4-28c1-8131" name="New InfoLink" hidden="false" targetId="f9fd-36be-dc19-401f" type="profile"/>
+            <infoLink id="01e9-071f-c94e-f6f6" name="Gets Hot" hidden="false" targetId="f4fd-d519-4769-5510" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -5025,7 +5033,7 @@
         <selectionEntry id="2dbb-47ce-c902-cc3d" name="决斗之剑" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="3101-c36a-5f13-5eac" name="New InfoLink" hidden="false" targetId="896c-9540-49b4-1d08" type="profile"/>
-            <infoLink id="0b23-81d8-ae16-3a1c" name="New InfoLink" hidden="false" targetId="eddf-f5b5-0ec0-e1bb" type="rule"/>
+            <infoLink id="0b23-81d8-ae16-3a1c" name="Duelist&apos;s Edge" hidden="false" targetId="1a79-befa-05cf-ab0d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -5489,7 +5497,7 @@
         <selectionEntry id="1812-dcf0-818a-5491" name="行刑者大剑" publicationId="a30a-7522-pubN95872" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="c8e0-5a42-4bd2-8ac7" name="New InfoLink" hidden="false" targetId="514e-dfe7-e9a4-17a7" type="rule"/>
-            <infoLink id="9864-bd0c-8d74-b89c" name="due" hidden="false" targetId="eddf-f5b5-0ec0-e1bb" type="rule"/>
+            <infoLink id="9864-bd0c-8d74-b89c" name="Duelist&apos;s Edge" hidden="false" targetId="1a79-befa-05cf-ab0d" type="rule"/>
             <infoLink id="e3b4-c0d1-83b0-98f0" name="New InfoLink" hidden="false" targetId="e8e8-bbc9-fb47-e91b" type="profile"/>
             <infoLink id="b26a-c39f-3316-6995" name="New InfoLink" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule"/>
           </infoLinks>
@@ -5530,7 +5538,7 @@
         </selectionEntry>
         <selectionEntry id="273a-86b2-05d1-228c" name="湮灭之剑" publicationId="a30a-7522-pubN95872" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="00f5-c0c9-d918-2ab2" name="New InfoLink" hidden="false" targetId="eddf-f5b5-0ec0-e1bb" type="rule"/>
+            <infoLink id="00f5-c0c9-d918-2ab2" name="Duelist&apos;s Edge" hidden="false" targetId="1a79-befa-05cf-ab0d" type="rule"/>
             <infoLink id="8144-8da1-5e46-e1e2" name="New InfoLink" hidden="false" targetId="9627-9c59-94d1-d76a" type="rule"/>
             <infoLink id="b851-8414-27f5-b26f" name="New InfoLink" hidden="false" targetId="69d5-d069-6768-2b5e" type="profile"/>
             <infoLink id="9cc0-e9df-536f-9914" name="New InfoLink" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule"/>
@@ -5646,6 +5654,7 @@
           </modifiers>
           <infoLinks>
             <infoLink id="fa47-963e-9978-3be4" name="New InfoLink" hidden="false" targetId="b3af-1eca-6629-4894" type="profile"/>
+            <infoLink id="17c4-e385-56c9-a6c3" name="Unwieldy" hidden="false" targetId="5eea-958c-d623-c3c9" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -5660,6 +5669,105 @@
       <entryLinks>
         <entryLink id="e8fb-c8e2-06cf-8210" name="New EntryLink" hidden="false" collective="false" import="true" targetId="52aa-6b05-24b3-d283" type="selectionEntry"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5527-f4ef-035b-11c2" name="Wargear" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="b4ea-a586-86a9-02eb" name="Nuncio-vox" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ccf-07cb-9064-9762" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="44af-c1bd-9c26-f6d2" name="New InfoLink" hidden="false" targetId="2a0e-e1f0-5ea0-5799" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="91c7-90a8-a1ae-cde0" name="Legion Vexilla" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a592-1d66-c299-b987" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="76b0-0c2e-5e67-1cef" name="New InfoLink" hidden="false" targetId="d187-89fe-0b05-808e" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd74-ccdb-9bc6-7069" name="Artificer Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c587-5d7f-6151-005d" name="Artificer Armour" publicationId="a30a-7522-pubN101730" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Artificer Armour confers a 2+ Armour save.  </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ab39-d41c-7f2d-a92b" name="Combat Shield" publicationId="a30a-7522-pubN101730" page="131" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e0d-f89e-8c8d-2d29" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="96e4-a19a-7925-ebaa" name="Combat Shield" publicationId="a30a-7522-pubN101730" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Combat shields and boarding shields confer a 6+ invulnerable save, increasing to 5+ in close combat.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1c30-47c5-950a-e3df" name="Boarding Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f5f-b5eb-eb91-d212" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="58f6-30eb-0a45-56ea" name="New InfoLink" hidden="false" targetId="d978-1455-09f8-544f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="131a-f920-a4da-1196" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb9a-1adf-8c3d-0560" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c90e-f674-9793-926a" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d3a7-f59c-affa-2304" name="New InfoLink" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
+            <infoLink id="0f09-9044-0614-dbf4" name="New InfoLink" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
+            <infoLink id="074a-533b-41ac-f2ae" name="New InfoLink" hidden="false" targetId="f095-0842-a6b1-5404" type="profile"/>
+            <infoLink id="0cfb-ee3e-b966-8841" name="New InfoLink" hidden="false" targetId="8cb0-ff25-22a2-d480" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b17-8f37-be37-1146" name="Space Marine Bike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d441-c235-b1b9-eb8f" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c45-d376-3ee9-a6f7" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="cf4f-d466-52c5-f6a4" name="New InfoLink" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile"/>
+            <infoLink id="b6a7-352b-bfcc-7847" name="New InfoLink" hidden="false" targetId="0434-8c4b-9614-73dd" type="profile"/>
+            <infoLink id="8825-4bbf-b997-9fe8" name="New InfoLink" hidden="false" targetId="3c7d-a1fa-c68b-caad" type="rule"/>
+            <infoLink id="cc48-0356-5c73-39cd" name="New InfoLink" hidden="false" targetId="d3e5-b43d-a89c-3bd8" type="rule"/>
+            <infoLink id="7571-dc8f-3214-7a41" name="New InfoLink" hidden="false" targetId="6f66-b417-6004-0916" type="rule"/>
+            <infoLink id="0f00-b363-95d5-8e84" name="New InfoLink" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="d870-726f-9486-5438" name="特拉蒙粉碎者" hidden="false" collective="false" import="true" defaultSelectionEntryId="f656-da4f-66d0-4c26">
       <constraints>
@@ -5823,9 +5931,6 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
     </rule>
     <rule id="514e-dfe7-e9a4-17a7" name="刺斩" publicationId="a30a-7522-pubN95872" hidden="false">
       <description>命中骰5+时,变为AP2</description>
-    </rule>
-    <rule id="eddf-f5b5-0ec0-e1bb" name="决斗者之刃" publicationId="a30a-7522-pubN95872" hidden="false">
-      <description>单挑中,使用者I+1</description>
     </rule>
     <rule id="380f-6582-bd5a-da17" name="陷阱" publicationId="a30a-7522-pubN95872" hidden="false">
       <description>具有此特殊规则的武器每1个成功的命中会变成D3次命中.每个命中都要让对手进行1次S测试,测试失败目标单位会受到1个不能被护甲保护的伤害(特殊保护如常进行),对超级巨兽和载具没有影响</description>

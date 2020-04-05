@@ -1726,7 +1726,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <profiles>
             <profile id="a977-8028-470e-afbe" name="探索者占卜网络" publicationId="ca571888--pubN66500" page="219" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">在玩家回合开始时,在进行预备队进场投掷之前,声明使用哪种模式,持续到到下一个玩家回合为止. 
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">在玩家回合开始时,在进行预备队进场投掷之前,声明使用哪种模式,持续到到下一个玩家回合为止.
 破坏模式: 敌方玩家预备队进场投-1.
 中继模式: 己方可以重投预备队进场骰(无论成功还是失败都可以选择重投).这将使运载容量减少到8.</characteristic>
               </characteristics>
@@ -7931,7 +7931,7 @@ This rule, while similar in function to the 空降仓 Assault 规则, does not i
         </selectionEntryGroup>
         <selectionEntryGroup id="2277-a1e7-86d5-5d77" name="可以选择任何:" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="9c7a-f245-d753-60e9" name="陶瓷装甲" hidden="false" collective="false" import="true" targetId="699b-fce3-88be-8e7b" type="selectionEntry">
+            <entryLink id="9c7a-f245-d753-60e9" name="陶瓷装甲" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="20"/>
               </modifiers>
@@ -7968,18 +7968,7 @@ This rule, while similar in function to the 空降仓 Assault 规则, does not i
         <infoLink id="3b37-c847-b26d-8c55" name="额外装甲" hidden="false" targetId="5283-9b50-3dcd-78e4" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="分" typeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="699b-fce3-88be-8e7b" name="陶瓷装甲" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c16-7612-a0f7-832d" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="7b41-4a6c-49ad-f026" name="陶瓷装甲" hidden="false" targetId="874d-45cf-6007-a1de" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="分" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5163-ab15-9959-6efd" name="奥罗克斯装甲运输载具" hidden="false" collective="false" import="true" type="model">

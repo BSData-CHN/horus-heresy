@@ -1154,6 +1154,9 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="75a7-2a05-5895-b83f" name="Atomantic Shielding" hidden="false" targetId="13e0-4939-5232-8d85" type="profile"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="6564-7afd-3cef-078a" name="可以替换锤头式爆弹炮:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ed8-630f-8684-ebe1">
               <constraints>
@@ -1672,7 +1675,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="9d13-300e-ced7-cde5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+            <entryLink id="9d13-300e-ced7-cde5" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
             <entryLink id="aee7-4a32-be96-f717" name="New EntryLink" hidden="false" collective="false" import="true" targetId="27d4-aa63-3388-14cd" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1713,18 +1716,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <infoLink id="03ba13c0-a013-2c6c-e399-0d2cb7dcc631" hidden="false" targetId="910b8ff3-ef64-f4a4-4f55-f85c7d67b95d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="分" typeId="points" value="25.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cbaa-999f-a68c-4a8b" name="陶瓷装甲" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b5c1-fc6d-01df-a690" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="d7ef-2bbb-00e5-34ac" hidden="false" targetId="874d-45cf-6007-a1de" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="分" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="27d4-aa63-3388-14cd" name="辅助驱动" hidden="false" collective="false" import="true" type="upgrade">
@@ -1883,7 +1875,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="7e02-258b-1870-6eae" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+                    <entryLink id="7e02-258b-1870-6eae" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="154f-0f60-61ba-f249" name="灵能秘宝" hidden="false" collective="false" import="true">
@@ -1993,7 +1985,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="9222-4790-367c-96f8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+                    <entryLink id="9222-4790-367c-96f8" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
                     <entryLink id="abcb-bb94-2c6d-48d5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="27d4-aa63-3388-14cd" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -2104,7 +2096,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="3916-b433-ba9f-36d1" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+                    <entryLink id="3916-b433-ba9f-36d1" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
                     <entryLink id="b8e2-948f-5149-2dc3" name="New EntryLink" hidden="false" collective="false" import="true" targetId="27d4-aa63-3388-14cd" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -2208,7 +2200,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="dbb3-14dd-800b-df45" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+            <entryLink id="dbb3-14dd-800b-df45" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2915,7 +2907,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
           </selectionEntries>
           <entryLinks>
             <entryLink id="a1a5-16b2-d445-5429" name="New EntryLink" hidden="false" collective="false" import="true" targetId="27d4-aa63-3388-14cd" type="selectionEntry"/>
-            <entryLink id="15b4-7cd7-fd51-e874" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+            <entryLink id="15b4-7cd7-fd51-e874" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
             <entryLink id="255b-a98f-c919-f984" name="New EntryLink" hidden="false" collective="false" import="true" targetId="63f3-9b71-80b3-11e4" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3013,7 +3005,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="7505-685f-0d1d-268b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+            <entryLink id="7505-685f-0d1d-268b" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
             <entryLink id="978f-90a8-dbe0-5472" name="New EntryLink" hidden="false" collective="false" import="true" targetId="27d4-aa63-3388-14cd" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3575,7 +3567,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="bc97-5f2f-4657-d892" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry">
+            <entryLink id="bc97-5f2f-4657-d892" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="25"/>
               </modifiers>
@@ -3677,7 +3669,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="4450-0c1f-2271-95e3" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry">
+            <entryLink id="4450-0c1f-2271-95e3" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="25"/>
               </modifiers>
@@ -3772,7 +3764,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="23f3-4238-45a0-4b1f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry">
+            <entryLink id="23f3-4238-45a0-4b1f" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="25"/>
               </modifiers>
@@ -3892,7 +3884,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="2205-5c6a-6369-87cc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry">
+            <entryLink id="2205-5c6a-6369-87cc" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="25"/>
               </modifiers>
@@ -3989,7 +3981,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="c782-fdf5-054f-2534" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry">
+            <entryLink id="c782-fdf5-054f-2534" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="25"/>
               </modifiers>
@@ -4492,7 +4484,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         </selectionEntryGroup>
         <selectionEntryGroup id="afba-4361-3144-fdbd" name="可以选择任何:" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b59e-a7db-8245-6ea6" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+            <entryLink id="b59e-a7db-8245-6ea6" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
             <entryLink id="9808-8f99-9cd6-ce57" name="New EntryLink" hidden="false" collective="false" import="true" targetId="63f3-9b71-80b3-11e4" type="selectionEntryGroup"/>
             <entryLink id="d981-af4b-a410-d0b2" name="New EntryLink" hidden="false" collective="false" import="true" targetId="27d4-aa63-3388-14cd" type="selectionEntry"/>
           </entryLinks>
@@ -7667,7 +7659,7 @@ Assault rules unless otherwise noted.
       <selectionEntryGroups>
         <selectionEntryGroup id="4a45-5d22-1578-96f5" name="可以选择任何:" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="c635-aabf-f1f4-a3c4" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry">
+            <entryLink id="c635-aabf-f1f4-a3c4" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="20"/>
               </modifiers>
@@ -8165,7 +8157,7 @@ Assault rules unless otherwise noted.
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8f86-80d4-dcf4-b7ac" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cbaa-999f-a68c-4a8b" type="selectionEntry"/>
+        <entryLink id="8f86-80d4-dcf4-b7ac" name="Armoured Ceramite" hidden="false" collective="false" import="true" targetId="eef6-a613-e479-7274" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1c741143-1035-8dee-2fa8-8fa031f476fa" name="可以选择1个同轴武器:" hidden="false" collective="false" import="true">
@@ -8418,7 +8410,7 @@ Assault rules unless otherwise noted.
     </rule>
     <rule id="09afc391-36b1-67bc-b975-9bf8d56e5465" name="战争铁匠" publicationId="7f243fc5--pubN70233" page="81" hidden="false">
       <description>
-在射击阶段,如果战争铁匠登上或与1个或多个损坏的载具接触,那么他可以放弃射击1件武器并修理该载具,投掷1颗D6骰,结果为5+时可以获得: 
+在射击阶段,如果战争铁匠登上或与1个或多个损坏的载具接触,那么他可以放弃射击1件武器并修理该载具,投掷1颗D6骰,结果为5+时可以获得:
 -恢复一点HP
 -修理一个武器损毁结果
 -修理一个发动机损毁结果
