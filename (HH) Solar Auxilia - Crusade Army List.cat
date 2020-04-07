@@ -736,7 +736,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="df196c5a-1e60-d58b-c2cb-1b389ac4f530" name="战争机器分队" publicationId="7f243fc5--pubN70233" page="8" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="df196c5a-1e60-d58b-c2cb-1b389ac4f530" name="战争机器分队" publicationId="7f243fc5--pubN70233" page="8" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="df196c5a-1e60-d58b-c2cb-1b389ac4f530-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
@@ -1127,7 +1127,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
         <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
@@ -1139,7 +1139,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38db-7bf2-0694-b3f4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="659d-11d2-faad-4259" name="堡星级自动战斗机兵" publicationId="7f243fc5--pubN72799" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="659d-11d2-faad-4259" name="堡星级自动战斗机兵" publicationId="7f243fc5--pubN72799" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -1773,7 +1773,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f54-1661-8f89-6002" name="辅助军火炮坦克阵列" publicationId="7f243fc5--pubN74753" page="279" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5f54-1661-8f89-6002" name="辅助军火炮坦克阵列" publicationId="7f243fc5--pubN74753" page="279" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="3756-44c3-740a-b5cc" name="辅助军火炮坦克" hidden="false" collective="false" import="true">
           <constraints>
@@ -2211,7 +2211,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="535.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25ee-ae11-c0cc-6817" name="辅助军步兵小队" publicationId="7f243fc5--pubN74753" page="264" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="25ee-ae11-c0cc-6817" name="辅助军步兵小队" publicationId="7f243fc5--pubN74753" page="264" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="9ea7-7105-aa6a-ac90" name="New CategoryLink" hidden="false" targetId="219d-aefa-dfa5-44db" primary="false"/>
       </categoryLinks>
@@ -2259,7 +2259,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="29c4-eaab-94e8-f64e" name="辅助军黎曼鲁斯突击中队" publicationId="7f243fc5--pubN74753" page="278" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="29c4-eaab-94e8-f64e" name="辅助军黎曼鲁斯突击中队" publicationId="7f243fc5--pubN74753" page="278" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="97c0-886a-750e-9af9" name="辅助军黎曼鲁斯" hidden="false" collective="false" import="true">
           <constraints>
@@ -2478,7 +2478,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dec5-7c44-9557-c50f" name="辅助军黎曼鲁斯打击中队" publicationId="7f243fc5--pubN74753" page="274" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="dec5-7c44-9557-c50f" name="辅助军黎曼鲁斯打击中队" publicationId="7f243fc5--pubN74753" page="274" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="62e7-a7b1-af04-716b" name="辅助军黎曼鲁斯" hidden="false" collective="false" import="true">
           <constraints>
@@ -3048,9 +3048,9 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="265.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2124-49d9-00fa-c94b" name="辅助军医疗分队" publicationId="7f243fc5--pubN74753" page="260" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2124-49d9-00fa-c94b" name="辅助军医疗分队" publicationId="7f243fc5--pubN74753" page="260" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="fc46-9414-bdd9-a0e1" name="医疗兵" publicationId="7f243fc5--pubN74753" page="260" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="fc46-9414-bdd9-a0e1" name="医疗兵" publicationId="7f243fc5--pubN74753" page="260" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -3115,9 +3115,9 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fb7-454b-56be-de75" name="辅助军欧格林冥府摆渡者小队" publicationId="7f243fc5--pubN74753" page="262" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0fb7-454b-56be-de75" name="辅助军欧格林冥府摆渡者小队" publicationId="7f243fc5--pubN74753" page="262" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="7aac-be19-1a35-92cc" name="欧格林冥府摆渡者" publicationId="7f243fc5--pubN74753" page="262" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="7aac-be19-1a35-92cc" name="欧格林冥府摆渡者" publicationId="7f243fc5--pubN74753" page="262" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3176,7 +3176,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0f1-168d-ee43-1300" name="辅助军陆战队闪电强袭攻击机" publicationId="7f243fc5--pubN74753" page="276" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c0f1-168d-ee43-1300" name="辅助军陆战队闪电强袭攻击机" publicationId="7f243fc5--pubN74753" page="276" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="cc40-23a0-4d1c-db09" name="陆战队闪电强袭攻击机" publicationId="7f243fc5--pubN70233" page="42" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -3365,9 +3365,9 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9d9-7c91-e026-de25" name="辅助军细剑阵列" publicationId="7f243fc5--pubN74753" page="261" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c9d9-7c91-e026-de25" name="辅助军细剑阵列" publicationId="7f243fc5--pubN74753" page="261" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="3342-bb9c-4a54-4efc" name="辅助军" publicationId="7f243fc5--pubN74753" page="261" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="3342-bb9c-4a54-4efc" name="辅助军" publicationId="7f243fc5--pubN74753" page="261" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -3381,7 +3381,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="163f-7eb0-97a3-12c9" name="细剑" publicationId="7f243fc5--pubN74753" page="261" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="163f-7eb0-97a3-12c9" name="细剑" publicationId="7f243fc5--pubN74753" page="261" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">炮兵</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -4015,7 +4015,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="485.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e152-a452-796f-034d" name="辅助军战术指挥小队" publicationId="7f243fc5--pubN74753" page="258" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e152-a452-796f-034d" name="辅助军战术指挥小队" publicationId="7f243fc5--pubN74753" page="258" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="59b4-8302-cbbf-b65e" hidden="false" targetId="470a38b3-ad69-52de-2996-36fa27f50e04" type="rule"/>
         <infoLink id="df2f-301a-6d92-541b" hidden="false" targetId="aa451588-557c-7f81-2b3f-d17583985f38" type="rule"/>
@@ -4034,7 +4034,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92c-69ea-9d22-be2b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5190-60b6-ace4-c3f2" name="将军" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="5190-60b6-ace4-c3f2" name="将军" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4107,7 +4107,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3090-d63c-802d-e905" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ffbf-d2b3-4191-fe62" name="旗手" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="ffbf-d2b3-4191-fe62" name="旗手" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4135,7 +4135,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfde-5f27-76f0-224c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9667-c3f6-4ef1-e26b" name="通讯兵" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9667-c3f6-4ef1-e26b" name="通讯兵" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4175,7 +4175,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="282c-e11a-066e-3a64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cfed-6807-72ca-aaf6" name="老兵" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="cfed-6807-72ca-aaf6" name="老兵" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4229,7 +4229,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b47-49e7-beaf-ec67" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ee36-ad35-ac4f-ce9d" name="老兵" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="ee36-ad35-ac4f-ce9d" name="老兵" publicationId="7f243fc5--pubN74753" page="258" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4283,7 +4283,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
     </selectionEntry>
     <selectionEntry id="8752-e0a3-19bf-9aca" name="辅助军坦克指挥官" publicationId="7f243fc5--pubN74753" page="259" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="82c9-89ee-9e8f-5070" name="辅助军坦克指挥官" publicationId="7f243fc5--pubN74753" page="259" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="82c9-89ee-9e8f-5070" name="辅助军坦克指挥官" publicationId="7f243fc5--pubN74753" page="259" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">载具(视作坦克, 人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -4506,7 +4506,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b00d-ff04-d487-5d69" name="独眼巨人爆破载具小队" publicationId="7f243fc5--pubN74753" page="283" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b00d-ff04-d487-5d69" name="独眼巨人爆破载具小队" publicationId="7f243fc5--pubN74753" page="283" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="5bdb-5788-df75-a772" name="爆破炸药" publicationId="7f243fc5--pubN74753" page="283" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <modifiers>
@@ -4537,7 +4537,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e78b-bf1c-3eae-29d2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="186f-b2ed-e0aa-db39" name="独眼巨人" publicationId="7f243fc5--pubN74753" page="283" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="186f-b2ed-e0aa-db39" name="独眼巨人" publicationId="7f243fc5--pubN74753" page="283" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(Special)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -4635,7 +4635,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbb4-2424-3b85-f0d5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ea42-f079-3ca9-ebb3" name="神甫" publicationId="7f243fc5--pubN74753" page="263" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="ea42-f079-3ca9-ebb3" name="神甫" publicationId="7f243fc5--pubN74753" page="263" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4864,7 +4864,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="326e-b466-256d-58e5" name="家族随从小队" publicationId="7f243fc5--pubN74753" page="267" hidden="true" collective="false" import="true" type="单位">
+    <selectionEntry id="326e-b466-256d-58e5" name="家族随从小队" publicationId="7f243fc5--pubN74753" page="267" hidden="true" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -4881,7 +4881,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0300-050b-636f-262b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="eea9-3e7c-ede9-b465" name="家族随从" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="eea9-3e7c-ede9-b465" name="家族随从" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4895,7 +4895,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3315-3f0e-7d2d-851e" name="首席" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="3315-3f0e-7d2d-851e" name="首席" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5208,7 +5208,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6a8c-f07b-df1a-643f" name="使节指挥官" publicationId="7f243fc5--pubN74753" page="256" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="6a8c-f07b-df1a-643f" name="使节指挥官" publicationId="7f243fc5--pubN74753" page="256" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5268,7 +5268,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a487-770e-4081-7450" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9929-7e43-a747-f65a" name="领主元帅" publicationId="7f243fc5--pubN74753" page="256" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="9929-7e43-a747-f65a" name="领主元帅" publicationId="7f243fc5--pubN74753" page="256" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="5361766523232344415441232323" value="2+">
                       <conditions>
@@ -5646,7 +5646,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0a4c-49a0-d2a8-dfed" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2b1b-47f1-cf02-85de" name="艾里顿·马萨德" publicationId="7f243fc5--pubN74753" page="257" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="2b1b-47f1-cf02-85de" name="艾里顿·马萨德" publicationId="7f243fc5--pubN74753" page="257" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5719,7 +5719,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0b36-7119-b45b-287f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1722-c899-0179-4493" name="艾沃斯·约翰" publicationId="7f243fc5--pubN99978" page="Downloads" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="1722-c899-0179-4493" name="艾沃斯·约翰" publicationId="7f243fc5--pubN99978" page="Downloads" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -5768,7 +5768,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="caf5-dd05-23b0-3073" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9cba-74ed-961f-fd5a" name="医疗兵" publicationId="7f243fc5--pubN99978" page="Downloads" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9cba-74ed-961f-fd5a" name="医疗兵" publicationId="7f243fc5--pubN99978" page="Downloads" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5828,7 +5828,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ca8-8b43-5619-a278" name="狼蛛哨兵炮台阵列" publicationId="7f243fc5--pubN74753" page="272" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7ca8-8b43-5619-a278" name="狼蛛哨兵炮台阵列" publicationId="7f243fc5--pubN74753" page="272" hidden="false" collective="false" import="true" type="Unit">
       <rules>
         <rule id="88bc-9041-960c-a43c" name="射击模式" publicationId="7f243fc5--pubN74753" page="273" hidden="false">
           <modifiers>
@@ -5856,7 +5856,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00de-4d14-c260-a9b3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="503d-16da-bcec-09ac" name="狼蛛哨兵炮台" publicationId="7f243fc5--pubN70233" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="503d-16da-bcec-09ac" name="狼蛛哨兵炮台" publicationId="7f243fc5--pubN70233" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">炮兵(不动)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -6110,7 +6110,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1781-17c5-6a04-eeff" name="赛莱克斯小队" publicationId="7f243fc5--pubN74753" page="290" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1781-17c5-6a04-eeff" name="赛莱克斯小队" publicationId="7f243fc5--pubN74753" page="290" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -6132,7 +6132,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f718-74e2-43c8-1cc0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f90b-5282-b16e-6ce0" name="赛莱克斯" publicationId="7f243fc5--pubN74753" page="290" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="f90b-5282-b16e-6ce0" name="赛莱克斯" publicationId="7f243fc5--pubN74753" page="290" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6324,7 +6324,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93ca-6dfc-0b76-e011" name="辅助军喷火器小队" publicationId="7f243fc5--pubN74753" page="268" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="93ca-6dfc-0b76-e011" name="辅助军喷火器小队" publicationId="7f243fc5--pubN74753" page="268" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dab4-800f-38cf-82d3" type="max"/>
       </constraints>
@@ -6346,7 +6346,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f35-51b9-54ab-a93a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1346-efd7-b6d8-b73a" name="士官" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="1346-efd7-b6d8-b73a" name="士官" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6562,7 +6562,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0426-ff16-1c0b-947a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="49e3-5a44-713f-516b" name="辅助军" publicationId="7f243fc5--pubN74753" page="268" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="49e3-5a44-713f-516b" name="辅助军" publicationId="7f243fc5--pubN74753" page="268" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6594,7 +6594,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="db2c-8ebb-4a76-0796" name="辅助军激光步枪小队" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="db2c-8ebb-4a76-0796" name="辅助军激光步枪小队" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b547-c49a-eb66-4370" type="max"/>
       </constraints>
@@ -6618,7 +6618,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e830-fc39-0135-e596" type="max"/>
           </constraints>
           <profiles>
-            <profile id="60f3-10a3-83e6-87fa" name="士官" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="60f3-10a3-83e6-87fa" name="士官" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -6854,7 +6854,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76f8-a287-f94b-52ee" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="445f-c1a7-0dbb-934b" name="部队长官" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="445f-c1a7-0dbb-934b" name="部队长官" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6886,7 +6886,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a3a-8ebd-3bc9-78f5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="979a-4079-3ff4-a58a" name="辅助军旗手" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="979a-4079-3ff4-a58a" name="辅助军旗手" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6916,7 +6916,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="73c3-f33d-21cc-895e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="532c-f270-4e63-1155" name="通信兵" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="532c-f270-4e63-1155" name="通信兵" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6946,7 +6946,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="17.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d47-97c8-fc6e-d21d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e254-8b2b-4d48-c5a3" name="辅助军" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="e254-8b2b-4d48-c5a3" name="辅助军" publicationId="7f243fc5--pubN74753" page="265" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6991,7 +6991,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="318c-a42f-a36c-aa30" name="暴风老兵小队" publicationId="7f243fc5--pubN74753" page="267" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="318c-a42f-a36c-aa30" name="暴风老兵小队" publicationId="7f243fc5--pubN74753" page="267" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5626-3355-5160-67b3" type="max"/>
       </constraints>
@@ -7011,7 +7011,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="31d9-aa8c-9a60-a67f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5a34-fbda-56a9-3523" name="首席" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="5a34-fbda-56a9-3523" name="首席" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7297,7 +7297,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a07-4693-c5bf-1195" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d556-ccca-8316-cacf" name="老兵" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="d556-ccca-8316-cacf" name="老兵" publicationId="7f243fc5--pubN74753" page="266" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -7601,7 +7601,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3879-9d90-7c4a-5905" name="白蚁掘进机" publicationId="7f243fc5--pubN110665" page="https://www.forgeworld.co.uk/resources/PDF/Downloads//Terrax_Termite%20_Solar_Auxilia.pdf" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3879-9d90-7c4a-5905" name="白蚁掘进机" publicationId="7f243fc5--pubN110665" page="https://www.forgeworld.co.uk/resources/PDF/Downloads//Terrax_Termite%20_Solar_Auxilia.pdf" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="2865-d3c2-de9d-4306" name="白蚁掘进机" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -8785,7 +8785,7 @@ Assault rules unless otherwise noted.
         <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 笨重</characteristic>
       </characteristics>
     </profile>
-    <profile id="5e5ca3a2-8a82-2700-39fa-acda4e7bf5fa" name="自动伺服机器" publicationId="7f243fc5--pubN70233" page="23" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="5e5ca3a2-8a82-2700-39fa-acda4e7bf5fa" name="自动伺服机器" publicationId="7f243fc5--pubN70233" page="23" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>

@@ -47,7 +47,7 @@
     <costType id="points" name="分" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="556e697423232344415441232323" name="单位">
+    <profileType id="556e697423232344415441232323" name="Unit">
       <characteristicTypes>
         <characteristicType id="556e6974205479706523232344415441232323" name="类型"/>
         <characteristicType id="575323232344415441232323" name="WS"/>
@@ -324,7 +324,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="11c8-2e78-8328-31e4" name="远征军复仇者强袭攻击机" publicationId="ca571888--pubN66489" page="47" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="11c8-2e78-8328-31e4" name="远征军复仇者强袭攻击机" publicationId="ca571888--pubN66489" page="47" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="341f-27c1-0e88-9c83" name="复仇者爆弹炮" publicationId="ca571888--pubN66500" page="272" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -530,7 +530,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ba5-1c40-9f77-7d76" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b441-fd74-6d6f-d155" name="Navigator" publicationId="ca571888--pubN67636" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="b441-fd74-6d6f-d155" name="Navigator" publicationId="ca571888--pubN67636" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -2700,7 +2700,7 @@ D6    结果  S AP
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2877-99c1-1629-8de9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f9a4-fb1b-1cfa-33ce" name="Munitorum Armoured Container" publicationId="ca571888--pubN80309" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="f9a4-fb1b-1cfa-33ce" name="Munitorum Armoured Container" publicationId="ca571888--pubN80309" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Terrain</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -3097,7 +3097,7 @@ In the event of 敌方 models embarking inside the Primus Redoubt, the Battle Cr
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e40b-468f-f1d7-d05d" name="帝国城堡要塞" publicationId="ca571888--pubN82424" page="94" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e40b-468f-f1d7-d05d" name="帝国城堡要塞" publicationId="ca571888--pubN82424" page="94" hidden="false" collective="false" import="true" type="Unit">
       <rules>
         <rule id="d307-b16a-5b89-9612" name="Shielded Gate Barriers" publicationId="ca571888--pubN82437" page="75" hidden="false">
           <description>The main entrances of the Castellum Stronghold are covered not by plascrete and adamantium, but crackling barriers of energy that can be raised or lowered at the will of the 工事槽位’s controller.
@@ -4932,7 +4932,7 @@ The Bunkers of the Castellum Stronghold have a 5+ 特殊保护 against 射击攻
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7c187296-f9ed-0293-9bb2-c8071f1a26f5" name="大贤者德拉科维克" publicationId="ca571888--pubN84158" page="300" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="7c187296-f9ed-0293-9bb2-c8071f1a26f5" name="大贤者德拉科维克" publicationId="ca571888--pubN84158" page="300" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -9291,7 +9291,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
         <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 立场</characteristic>
       </characteristics>
     </profile>
-    <profile id="1da7-2e0b-0114-762c" name="炮座" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="1da7-2e0b-0114-762c" name="炮座" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -9489,7 +9489,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
         <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 对空火力, 拦截, 热追踪</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd4fa1b2-43b4-75d6-974c-83c1a4115c07" name="机械观察者" publicationId="ca571888--pubN85920" page="207" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="dd4fa1b2-43b4-75d6-974c-83c1a4115c07" name="机械观察者" publicationId="ca571888--pubN85920" page="207" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>

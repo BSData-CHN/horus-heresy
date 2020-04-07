@@ -2142,7 +2142,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d84c-3b62-4ec1-5396" type="max"/>
       </constraints>
       <profiles>
-        <profile id="22fd-d654-7f8b-d625" name="Asurmen" publicationId="5c4c-bef9-9681-e0fc" page="23" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="22fd-d654-7f8b-d625" name="Asurmen" publicationId="5c4c-bef9-9681-e0fc" page="23" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -2276,7 +2276,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70d-d510-c493-e0ac" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="fe6a-dfd2-f3ed-a352" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="fe6a-dfd2-f3ed-a352" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4059-f4f9-e3c9-98c2" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4566-eb51-1cf8-d22f" type="min"/>
@@ -2297,7 +2297,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63e0-a265-ec6f-a320" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="3dc6-c3a7-d3ac-3930" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="3dc6-c3a7-d3ac-3930" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2393,7 +2393,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4619-7ca3-8eef-3bc9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="26ec-3654-424f-20c7" name="Baharroth" publicationId="5c4c-bef9-9681-e0fc" page="24" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="26ec-3654-424f-20c7" name="Baharroth" publicationId="5c4c-bef9-9681-e0fc" page="24" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -2509,7 +2509,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a01-ae36-5650-b17b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="281b-7ac2-5eaa-99c8" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="281b-7ac2-5eaa-99c8" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab3-1bc4-d368-dc74" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="630b-b9a4-b64e-dbf2" type="min"/>
@@ -2529,7 +2529,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3138-5a58-b44d-fa8f" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="e6bf-c979-35f0-f4cd" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="e6bf-c979-35f0-f4cd" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2667,7 +2667,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b27-5f9e-5145-f416" type="max"/>
       </constraints>
       <profiles>
-        <profile id="dbc0-1713-fd20-7fa7" name="Drastana" publicationId="5c4c-bef9-9681-e0fc" page="25" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="dbc0-1713-fd20-7fa7" name="Drastana" publicationId="5c4c-bef9-9681-e0fc" page="25" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -2804,7 +2804,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2aa-e4fc-a858-2e12" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2f02-2752-7018-59f6" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="2f02-2752-7018-59f6" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0347-fd9a-3bf5-69ee" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ef-f744-d1d7-850e" type="min"/>
@@ -2826,7 +2826,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c17-e7e9-9590-fcb0" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="9eaa-e83c-d390-f1a4" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="9eaa-e83c-d390-f1a4" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2917,7 +2917,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0500-1f98-80b2-d2d3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b40e-5bb0-7e37-c23a" name="Fuegan" publicationId="5c4c-bef9-9681-e0fc" page="26" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="b40e-5bb0-7e37-c23a" name="Fuegan" publicationId="5c4c-bef9-9681-e0fc" page="26" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -3020,7 +3020,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2617-442d-061d-b097" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6b35-149b-f9bc-6dc1" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="6b35-149b-f9bc-6dc1" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831a-f2a7-b994-053a" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ddc-b1d7-7fe3-4dba" type="min"/>
@@ -3040,7 +3040,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1288-e408-ea06-9042" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="169c-6e41-825d-0f0c" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="169c-6e41-825d-0f0c" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3153,7 +3153,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d7a-86c8-814f-5d78" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7ad1-0dc8-5897-b6c8" name="Irillyth" publicationId="5c4c-bef9-9681-e0fc" page="27" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="7ad1-0dc8-5897-b6c8" name="Irillyth" publicationId="5c4c-bef9-9681-e0fc" page="27" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -3286,7 +3286,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c2-ce2f-36c1-4f44" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="eec0-ae3a-678e-f882" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="eec0-ae3a-678e-f882" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242e-cd68-84ba-1451" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f56-547b-d070-c0bb" type="min"/>
@@ -3307,7 +3307,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a7da-3e0f-4d69-5c1c" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="8e80-c6c3-ced5-24e7" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="8e80-c6c3-ced5-24e7" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3417,7 +3417,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="683a-a3c8-1f7f-4119" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6a5b-580b-f3d9-5baf" name="Jain Zar" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="6a5b-580b-f3d9-5baf" name="Jain Zar" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -3544,7 +3544,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45f-5be3-c64a-c0c8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f34c-da99-e78b-255e" name="Howling Banshees" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="f34c-da99-e78b-255e" name="Howling Banshees" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="994b-423d-6969-0cea" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2ce-00db-7bac-fbf1" type="min"/>
@@ -3564,7 +3564,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b0a-a707-1fdd-7311" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="e70b-21be-913a-fe6a" name="Howling Banshee" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="e70b-21be-913a-fe6a" name="Howling Banshee" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3674,7 +3674,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48ca-b0b1-481a-7c24" type="max"/>
       </constraints>
       <profiles>
-        <profile id="67e0-74d4-508d-78b5" name="Maugan Ra" publicationId="5c4c-bef9-9681-e0fc" page="29" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="67e0-74d4-508d-78b5" name="Maugan Ra" publicationId="5c4c-bef9-9681-e0fc" page="29" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -3800,7 +3800,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="065a-af96-8900-6852" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e48a-078b-48cc-12ba" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="e48a-078b-48cc-12ba" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c85-d02a-9138-f672" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a341-825f-e71e-3a01" type="min"/>
@@ -3819,7 +3819,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1415-d414-cfd6-0541" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="f682-d1e7-886b-ef10" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                    <profile id="f682-d1e7-886b-ef10" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                       <characteristics>
                         <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4020,7 +4020,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="69c9-2c25-f764-00e0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c3b9-ce42-a27f-aa40" name="Farseer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="34" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="c3b9-ce42-a27f-aa40" name="Farseer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="34" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">Eldar 喷气摩托 (人物)</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4055,7 +4055,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd46-c1e8-fa68-648a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8272-4324-5ec4-d98e" name="Farseer" publicationId="5c4c-bef9-9681-e0fc" page="34" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="8272-4324-5ec4-d98e" name="Farseer" publicationId="5c4c-bef9-9681-e0fc" page="34" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4121,7 +4121,7 @@ has the 大爆炸.</description>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c7e-213c-bec7-dc28" name="Aspect Exarchs / Autarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9c7e-213c-bec7-dc28" name="Aspect Exarchs / Autarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="a186-edf5-08ab-32ce" value="0.0">
           <conditions>
@@ -4149,7 +4149,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ee3-42b6-ace5-53b6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="13ba-20e8-3f9a-b2ca" name="Warp Spider Exarch" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="13ba-20e8-3f9a-b2ca" name="Warp Spider Exarch" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4163,7 +4163,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="80a6-fb19-a235-ceb7" name="Warp Spider Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="80a6-fb19-a235-ceb7" name="Warp Spider Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -4246,7 +4246,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee0-6b02-e775-7311" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="1c10-db26-5f82-0de0" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="1c10-db26-5f82-0de0" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b4-b2a4-6276-b8cc" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cea-9503-7c44-6f68" type="min"/>
@@ -4267,7 +4267,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6df4-785d-1c63-6cb2" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="8774-fa52-ed67-8031" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="8774-fa52-ed67-8031" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4407,7 +4407,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d70-4473-bca6-a16b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ea70-0eb4-f4b0-8e58" name="Dark Reaper Exarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="ea70-0eb4-f4b0-8e58" name="Dark Reaper Exarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -4428,7 +4428,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="26e6-e786-99e7-ac02" name="Dark Reaper Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="26e6-e786-99e7-ac02" name="Dark Reaper Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -4511,7 +4511,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f90-1dfa-5d99-64e4" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="44ed-f5f4-a37d-919f" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="44ed-f5f4-a37d-919f" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6251-a1cc-54cb-1f07" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8db-d7fb-14bd-e0aa" type="min"/>
@@ -4530,7 +4530,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f166-6ceb-71b1-7115" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="14e2-2879-303d-8b1f" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="14e2-2879-303d-8b1f" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4726,7 +4726,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34b-f1fa-505a-6357" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9c92-efad-51ba-41c1" name="Dire Avenger Exarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="9c92-efad-51ba-41c1" name="Dire Avenger Exarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -4747,7 +4747,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="f933-ec4a-de3f-4198" name="Dire Avenger Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="f933-ec4a-de3f-4198" name="Dire Avenger Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -4806,7 +4806,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbae-92b1-9328-aee3" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="b7b4-8e85-e20c-62a9" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="b7b4-8e85-e20c-62a9" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dacf-cef8-f6f5-bb20" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35fc-077a-c53e-159b" type="min"/>
@@ -4827,7 +4827,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f09-1577-8e5c-5d8e" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="aa60-b4f6-e67a-4406" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="aa60-b4f6-e67a-4406" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5034,7 +5034,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f97-0e89-d30d-d7b9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4912-3d67-fbcf-ab76" name="Fire Dragon Exarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="4912-3d67-fbcf-ab76" name="Fire Dragon Exarch" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5055,7 +5055,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="278e-7298-c5b3-492f" name="Fire Dragon Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="278e-7298-c5b3-492f" name="Fire Dragon Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -5127,7 +5127,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0fe-5076-ea12-6143" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="5b59-b7d7-39bc-0238" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="5b59-b7d7-39bc-0238" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ef-2294-393d-d403" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="781c-c142-4f0d-a5ff" type="min"/>
@@ -5147,7 +5147,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7b4-9a81-c5d0-276f" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="f45f-b53a-e12c-82ca" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="f45f-b53a-e12c-82ca" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5283,7 +5283,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeab-e317-ab21-7e07" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9539-3f02-2945-4467" name="Shadow Spectre Exarch" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="9539-3f02-2945-4467" name="Shadow Spectre Exarch" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5304,7 +5304,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="b5e8-c790-4249-eba5" name="Shadow Spectre Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="b5e8-c790-4249-eba5" name="Shadow Spectre Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -5381,7 +5381,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a24c-6bc0-75ab-4be0" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="9aa8-0b1c-4f0d-8c38" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="9aa8-0b1c-4f0d-8c38" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d67a-b56b-5da1-b7a7" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f43-a7fd-14cb-f7ed" type="min"/>
@@ -5402,7 +5402,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99fe-9e1a-b653-af23" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="0f80-753d-9d10-fe22" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="0f80-753d-9d10-fe22" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5544,7 +5544,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12cd-25aa-1c50-cd19" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0ae4-218c-70e0-510c" name="Howling Banshee Exarch" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="0ae4-218c-70e0-510c" name="Howling Banshee Exarch" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5565,7 +5565,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="83c5-01d9-e439-95f5" name="Howling Banshee Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="83c5-01d9-e439-95f5" name="Howling Banshee Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -5625,7 +5625,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="037c-8b10-d909-367d" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="bf4b-6e4d-a4ae-0c05" name="Howling Banshees" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="bf4b-6e4d-a4ae-0c05" name="Howling Banshees" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f39a-da0e-ecc9-46e8" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41cc-0760-9400-daec" type="min"/>
@@ -5645,7 +5645,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="44c4-7947-96ab-4c60" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="bc07-d11f-a56e-3bd0" name="Howling Banshee" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="bc07-d11f-a56e-3bd0" name="Howling Banshee" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5843,7 +5843,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd4-b150-bd7f-aba2" type="max"/>
               </constraints>
               <profiles>
-                <profile id="85fb-e3f3-dc5e-0a1a" name="Shining Spear Exarch" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="85fb-e3f3-dc5e-0a1a" name="Shining Spear Exarch" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5864,7 +5864,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="8602-3b14-1398-58c8" name="Shining Spear Autarch Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="8602-3b14-1398-58c8" name="Shining Spear Autarch Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -5923,7 +5923,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc55-05c2-ba46-66f4" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="7aff-b0e9-d7d6-9cb9" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="7aff-b0e9-d7d6-9cb9" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a2-a9c9-f93c-13f0" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7c-8479-fe15-1c0f" type="min"/>
@@ -5945,7 +5945,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64a0-c434-da6e-1d4c" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="d58c-8f36-e964-38f7" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="d58c-8f36-e964-38f7" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6075,7 +6075,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98b2-e6ce-fd90-c2e7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="edb9-0a2f-1106-6d73" name="Swooping Hawk Exarch" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="edb9-0a2f-1106-6d73" name="Swooping Hawk Exarch" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -6096,7 +6096,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="6d5f-71b4-ee1e-8b8d" name="Swooping Hawk Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="6d5f-71b4-ee1e-8b8d" name="Swooping Hawk Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -6178,7 +6178,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e697-dd99-b2ed-c5ff" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="23a4-9b25-b696-9c28" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="23a4-9b25-b696-9c28" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6841-5758-2f3b-486f" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f2b-e39c-6531-cfa0" type="min"/>
@@ -6198,7 +6198,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5d9f-8939-0d24-8224" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="21d1-928f-ab54-2d9c" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="21d1-928f-ab54-2d9c" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6352,7 +6352,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13c-6aaf-a7b2-b66c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5d54-cdb7-7b21-9638" name="Striking Scorpion Exarch" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="5d54-cdb7-7b21-9638" name="Striking Scorpion Exarch" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -6373,7 +6373,7 @@ has the 大爆炸.</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="880b-802f-2454-1a0b" name="Striking Scorpions Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="880b-802f-2454-1a0b" name="Striking Scorpions Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -6438,7 +6438,7 @@ has the 大爆炸.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d261-4288-5670-d71c" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="5734-23e6-15d9-9f1c" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" collective="false" import="true" type="单位">
+                    <selectionEntry id="5734-23e6-15d9-9f1c" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" collective="false" import="true" type="Unit">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c081-ef5a-b021-c704" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1361-5f78-15f9-ea4c" type="min"/>
@@ -6460,7 +6460,7 @@ has the 大爆炸.</description>
                             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a5f6-948b-c94e-b376" type="min"/>
                           </constraints>
                           <profiles>
-                            <profile id="fe98-7691-46d5-c631" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                            <profile id="fe98-7691-46d5-c631" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                               <characteristics>
                                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6701,7 +6701,7 @@ has the 大爆炸.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37d8-8078-a754-ed6a" name="Guardian Officer Cadre" publicationId="5c4c-bef9-9681-e0fc" page="35" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="37d8-8078-a754-ed6a" name="Guardian Officer Cadre" publicationId="5c4c-bef9-9681-e0fc" page="35" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="853d-2460-a30a-76f6" value="0.0">
           <conditions>
@@ -6731,7 +6731,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8030-0cb1-b140-0f9c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b068-8801-af3e-a45a" name="Guardian Officer" publicationId="5c4c-bef9-9681-e0fc" page="35" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="b068-8801-af3e-a45a" name="Guardian Officer" publicationId="5c4c-bef9-9681-e0fc" page="35" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6883,7 +6883,7 @@ has the 大爆炸.</description>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d19a-ed8e-ef0d-56ea" type="max"/>
               </constraints>
               <profiles>
-                <profile id="569e-a054-33e4-af68" name="Guardian Officer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="35" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="569e-a054-33e4-af68" name="Guardian Officer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="35" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -7060,7 +7060,7 @@ has the 大爆炸.</description>
         <constraint field="selections" scope="力场" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c217-6f26-63d8-37d8" type="min"/>
       </constraints>
       <profiles>
-        <profile id="79ac-4a0c-3413-137f" name="Wraith Guide" publicationId="5c4c-bef9-9681-e0fc" page="36" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="79ac-4a0c-3413-137f" name="Wraith Guide" publicationId="5c4c-bef9-9681-e0fc" page="36" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -7132,7 +7132,7 @@ The Wraith Guide must be attached to a squad of either Wraithguard or Wraithblad
         <cost name="pts" typeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a81-944f-31f5-bdfb" name="Bonesinger Conclave" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9a81-944f-31f5-bdfb" name="Bonesinger Conclave" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="d965-5295-c1ab-e2e4" name="Bonesingers" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -7140,7 +7140,7 @@ The Wraith Guide must be attached to a squad of either Wraithguard or Wraithblad
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11fb-b677-0fcc-e81e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4ee8-1144-7db6-1abc" name="Bonesinger" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="4ee8-1144-7db6-1abc" name="Bonesinger" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7211,7 +7211,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5eac-5fcf-425a-1c95" name="Howling Banshees" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5eac-5fcf-425a-1c95" name="Howling Banshees" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="7bf4-0747-b40f-dc94" value="2.0">
           <repeats>
@@ -7250,7 +7250,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2488-84bf-5c4a-9824" type="min"/>
           </constraints>
           <profiles>
-            <profile id="51a0-e72c-068b-8219" name="Howling Banshee" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="51a0-e72c-068b-8219" name="Howling Banshee" publicationId="5c4c-bef9-9681-e0fc" page="38" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7541,7 +7541,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc6e-d0f4-fcac-fc96" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="fc6e-d0f4-fcac-fc96" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="d9c1-c64b-ec8b-fd17" value="2.0">
           <repeats>
@@ -7580,7 +7580,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df84-4c45-db0a-5190" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ca4d-5195-6d82-d45e" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="ca4d-5195-6d82-d45e" name="Fire Dragons" publicationId="5c4c-bef9-9681-e0fc" page="39" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7663,7 +7663,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="770f-2773-8494-d156" name="Seer Council" publicationId="5c4c-bef9-9681-e0fc" page="40" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="770f-2773-8494-d156" name="Seer Council" publicationId="5c4c-bef9-9681-e0fc" page="40" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="a16a-7229-536e-86d5" value="1.0">
           <conditions>
@@ -7706,7 +7706,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd8-2785-bcee-afef" type="min"/>
           </constraints>
           <profiles>
-            <profile id="34af-8027-5ac7-8f5b" name="Seer" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="34af-8027-5ac7-8f5b" name="Seer" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -7749,7 +7749,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de88-ff92-dffa-9327" type="max"/>
           </constraints>
           <profiles>
-            <profile id="da40-8519-bfcc-50cb" name="Seer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="da40-8519-bfcc-50cb" name="Seer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7797,7 +7797,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad6-d8b9-2057-95e6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dcfc-0c5d-1030-d2d7" name="Seer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="dcfc-0c5d-1030-d2d7" name="Seer Skyrunner" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7849,7 +7849,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0ec-5ce0-9080-b098" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c0ec-5ce0-9080-b098" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="06cb-c1d2-88df-3784" value="2.0">
           <repeats>
@@ -7884,7 +7884,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="206a-d0a6-75cd-20a5" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8557-86e1-cf2f-373e" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="8557-86e1-cf2f-373e" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7967,7 +7967,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a3a2-588a-077c-f7f3" name="War 步行机甲" publicationId="5c4c-bef9-9681-e0fc" page="42" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="a3a2-588a-077c-f7f3" name="War 步行机甲" publicationId="5c4c-bef9-9681-e0fc" page="42" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="34fa-a190-033d-95d5" value="0.0">
           <conditions>
@@ -8067,7 +8067,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8f9-1301-9bae-d8e3" name="Wraithblades" publicationId="5c4c-bef9-9681-e0fc" page="43" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e8f9-1301-9bae-d8e3" name="Wraithblades" publicationId="5c4c-bef9-9681-e0fc" page="43" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="62ea-5585-03a0-0c23" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="ccd4-980c-09ea-e5e4" name="庞大" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
@@ -8079,7 +8079,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2319-d03c-e019-3b6f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c135-94f2-1e33-ebd2" name="Wraithblades" publicationId="5c4c-bef9-9681-e0fc" page="43" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="c135-94f2-1e33-ebd2" name="Wraithblades" publicationId="5c4c-bef9-9681-e0fc" page="43" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -8158,7 +8158,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc8f-68a3-cf8d-e325" name="Wraithguard" publicationId="5c4c-bef9-9681-e0fc" page="44" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="bc8f-68a3-cf8d-e325" name="Wraithguard" publicationId="5c4c-bef9-9681-e0fc" page="44" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="da9f-21a8-5f42-8dad" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="0623-30a0-22b6-9353" name="庞大" hidden="false" targetId="38d5-b6eb-bda8-2497" type="rule"/>
@@ -8170,7 +8170,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="30bb-d696-bcba-40a4" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c2ea-1204-e7bb-3a98" name="Wraithguard" publicationId="5c4c-bef9-9681-e0fc" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="c2ea-1204-e7bb-3a98" name="Wraithguard" publicationId="5c4c-bef9-9681-e0fc" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -8219,7 +8219,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9f89-53b5-726e-618c" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9f89-53b5-726e-618c" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="92ec-8578-3d2f-3651" value="2.0">
           <repeats>
@@ -8272,7 +8272,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11ea-0cc2-bffd-e206" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4fe2-3db3-dca9-bf29" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="4fe2-3db3-dca9-bf29" name="Dire Avengers" publicationId="5c4c-bef9-9681-e0fc" page="45" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -8343,7 +8343,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5662-0244-bbe8-798f" name="Guardian Defenders" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5662-0244-bbe8-798f" name="Guardian Defenders" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="e203-0ccf-82d3-2225" name="A Doomed Race" hidden="false" targetId="e04f-0392-8802-3ccb" type="rule"/>
         <infoLink id="1d51-c0d8-08ab-9f71" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
@@ -8365,7 +8365,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f85-b082-ee41-ceed" type="min"/>
           </constraints>
           <profiles>
-            <profile id="0077-2725-e090-c85a" name="Guardian Defenders" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="0077-2725-e090-c85a" name="Guardian Defenders" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -8408,7 +8408,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ff8-3c0b-3027-e516" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0470-c1cf-a28d-f6f4" name="重型 Weapon Platform" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="0470-c1cf-a28d-f6f4" name="重型 Weapon Platform" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -8488,7 +8488,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c11-35eb-ef44-2dea" name="Storm Guardians" publicationId="5c4c-bef9-9681-e0fc" page="48" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7c11-35eb-ef44-2dea" name="Storm Guardians" publicationId="5c4c-bef9-9681-e0fc" page="48" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="b112-00a7-9a0e-f244" name="A Doomed Race" hidden="false" targetId="e04f-0392-8802-3ccb" type="rule"/>
         <infoLink id="0d24-9c7d-1c22-0fe4" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
@@ -8510,7 +8510,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8aee-c6b9-e99b-0f6c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="296a-64ef-cc8c-8082" name="Guardian Defenders" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="296a-64ef-cc8c-8082" name="Guardian Defenders" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -8629,7 +8629,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e8a-d29a-4afe-d368" name="Rangers" publicationId="5c4c-bef9-9681-e0fc" page="47" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9e8a-d29a-4afe-d368" name="Rangers" publicationId="5c4c-bef9-9681-e0fc" page="47" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="454a-a591-6f8b-2b3f" name="A Doomed Race" hidden="false" targetId="e04f-0392-8802-3ccb" type="rule"/>
         <infoLink id="4a12-426e-6c1f-0cfc" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
@@ -8645,7 +8645,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc9a-b36a-7561-4f68" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cb7d-ca96-d2d2-16b4" name="Rangers" publicationId="5c4c-bef9-9681-e0fc" page="47" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="cb7d-ca96-d2d2-16b4" name="Rangers" publicationId="5c4c-bef9-9681-e0fc" page="47" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -8695,7 +8695,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d64d-3e6c-5c3e-df27" name="Windriders" publicationId="5c4c-bef9-9681-e0fc" page="49" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d64d-3e6c-5c3e-df27" name="Windriders" publicationId="5c4c-bef9-9681-e0fc" page="49" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="add" field="category" value="e75c-5ca5-7ae8-94ce"/>
       </modifiers>
@@ -8710,7 +8710,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0d5-b0f3-f81d-5689" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8a54-d531-0cee-1782" name="Windriders" publicationId="5c4c-bef9-9681-e0fc" page="49" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="8a54-d531-0cee-1782" name="Windriders" publicationId="5c4c-bef9-9681-e0fc" page="49" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -8826,7 +8826,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="185e-02c2-82c8-9487" name="Nightshade Interceptors" publicationId="5c4c-bef9-9681-e0fc" page="51" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="185e-02c2-82c8-9487" name="Nightshade Interceptors" publicationId="5c4c-bef9-9681-e0fc" page="51" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="99ef-dcd8-7bb8-4a26" name="Nightshade 拦截" publicationId="5c4c-bef9-9681-e0fc" page="51" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -8901,7 +8901,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c48b-8978-3f6e-7ee4" name="Nightwing Interceptors" publicationId="5c4c-bef9-9681-e0fc" page="52" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c48b-8978-3f6e-7ee4" name="Nightwing Interceptors" publicationId="5c4c-bef9-9681-e0fc" page="52" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="9b53-c7b9-04d4-468d" name="Nightwing 拦截" publicationId="5c4c-bef9-9681-e0fc" page="52" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -8982,7 +8982,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d56-ad88-cbde-a994" name="Phoenix Bombers" publicationId="5c4c-bef9-9681-e0fc" page="53" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3d56-ad88-cbde-a994" name="Phoenix Bombers" publicationId="5c4c-bef9-9681-e0fc" page="53" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="fc78-bc3d-3404-9007" name="Phoenix Bomber" publicationId="5c4c-bef9-9681-e0fc" page="53" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -9128,7 +9128,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2de-8ed7-52d3-9879" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b2de-8ed7-52d3-9879" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="462f-2cef-0851-d94f" value="2.0">
           <repeats>
@@ -9168,7 +9168,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50da-9cae-381a-dba2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7f79-0444-0e09-4f73" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="7f79-0444-0e09-4f73" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -9247,7 +9247,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="feed-1e51-c797-8d7e" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="feed-1e51-c797-8d7e" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="a503-6ead-818a-f7a7" value="2.0">
           <repeats>
@@ -9288,7 +9288,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="74c4-aebe-86cc-5b7c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4f80-8dad-511b-35a9" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="4f80-8dad-511b-35a9" name="Shining Spears" publicationId="5c4c-bef9-9681-e0fc" page="55" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -9357,7 +9357,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57ef-1f1f-93c7-7d3e" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="57ef-1f1f-93c7-7d3e" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="555b-53b5-7b8e-1957" value="2.0">
           <repeats>
@@ -9392,7 +9392,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8054-73d8-8d5b-d40f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f120-5179-5166-2f36" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="f120-5179-5166-2f36" name="Swooping Hawks" publicationId="5c4c-bef9-9681-e0fc" page="56" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -9477,7 +9477,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3252-5dc9-1569-8400" name="Vyper Squadron" publicationId="5c4c-bef9-9681-e0fc" page="57" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3252-5dc9-1569-8400" name="Vyper Squadron" publicationId="5c4c-bef9-9681-e0fc" page="57" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="c8ff-0858-23c5-4fec" name="Viper" publicationId="5c4c-bef9-9681-e0fc" page="57" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -9579,7 +9579,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="404b-9831-0e12-3d34" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="404b-9831-0e12-3d34" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="f8e0-62b0-d2f3-cc50" value="2.0">
           <repeats>
@@ -9613,7 +9613,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c4aa-5c65-fc97-b9a1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a074-8705-c2f8-2d0f" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="a074-8705-c2f8-2d0f" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -9691,7 +9691,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fcb3-0965-e0e7-c6aa" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="fcb3-0965-e0e7-c6aa" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="increment" field="2083-bd34-f896-b833" value="2.0">
           <repeats>
@@ -9729,7 +9729,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4392-c650-6623-b7b7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8547-9338-45d7-d2f0" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="8547-9338-45d7-d2f0" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10243,7 +10243,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="255.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5452-6a73-2314-2d64" name="Vaul&apos;s Wrath Support Barrery" publicationId="5c4c-bef9-9681-e0fc" page="65" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5452-6a73-2314-2d64" name="Vaul&apos;s Wrath Support Barrery" publicationId="5c4c-bef9-9681-e0fc" page="65" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="dc1b-ba8b-431c-e378" value="0.0">
           <conditions>
@@ -10278,7 +10278,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e39-7f1f-4c9e-f2f8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b0af-b20a-79d8-2359" name="Guardian Crew" publicationId="5c4c-bef9-9681-e0fc" page="65" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="b0af-b20a-79d8-2359" name="Guardian Crew" publicationId="5c4c-bef9-9681-e0fc" page="65" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10315,7 +10315,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a4-27e1-bb1c-535f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="faa9-54e3-40a4-1d6b" name="Support Weapon" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="faa9-54e3-40a4-1d6b" name="Support Weapon" publicationId="5c4c-bef9-9681-e0fc" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">炮兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -10380,7 +10380,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb94-ded5-d48b-8330" name="Windrider 支援小队" publicationId="5c4c-bef9-9681-e0fc" page="66" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="cb94-ded5-d48b-8330" name="Windrider 支援小队" publicationId="5c4c-bef9-9681-e0fc" page="66" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="ac14-0906-1776-41de" name="A Doomed Race" hidden="false" targetId="e04f-0392-8802-3ccb" type="rule"/>
         <infoLink id="cf23-c823-c8bf-8a20" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
@@ -10392,7 +10392,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ff9-55a3-aae9-61a1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="0b1e-4c96-0e8a-15ed" name="Windriders" publicationId="5c4c-bef9-9681-e0fc" page="66" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="0b1e-4c96-0e8a-15ed" name="Windriders" publicationId="5c4c-bef9-9681-e0fc" page="66" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">艾尔达喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10474,7 +10474,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <constraint field="selections" scope="力场" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="514c-c9b3-8168-3793" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6741-8f8c-26d7-6c07" name="Wraithlord" publicationId="5c4c-bef9-9681-e0fc" page="67" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="6741-8f8c-26d7-6c07" name="Wraithlord" publicationId="5c4c-bef9-9681-e0fc" page="67" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10595,7 +10595,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f304-8011-6c38-2853" type="max"/>
       </constraints>
       <profiles>
-        <profile id="67da-892d-ff7a-e140" name="Avatar of Khaine" publicationId="5c4c-bef9-9681-e0fc" page="68" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="67da-892d-ff7a-e140" name="Avatar of Khaine" publicationId="5c4c-bef9-9681-e0fc" page="68" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="556e6974205479706523232344415441232323" value="跳跃 巨兽">
               <conditions>
@@ -11585,7 +11585,7 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="199e-e1a2-ac32-2773" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ad2b-0b01-7a6e-7ed3" name="Wraithknight" publicationId="5c4c-bef9-9681-e0fc" page="74" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="ad2b-0b01-7a6e-7ed3" name="Wraithknight" publicationId="5c4c-bef9-9681-e0fc" page="74" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃 超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -11762,7 +11762,7 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1343-b96c-4ca4-4ac1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e500-23f2-11a4-e4ce" name="Skatach Wraithknight" publicationId="5c4c-bef9-9681-e0fc" page="73" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="e500-23f2-11a4-e4ce" name="Skatach Wraithknight" publicationId="5c4c-bef9-9681-e0fc" page="73" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃 超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>

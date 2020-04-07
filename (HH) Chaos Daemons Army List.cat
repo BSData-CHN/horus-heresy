@@ -435,7 +435,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="c764-6b3b-f49f-c61e" name="荒芜者 科尔巴克斯" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4e95-b1e4-63b0-7b21" name="荒芜者 科尔巴克斯" publicationId="640c-568f-pubN68833" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="4e95-b1e4-63b0-7b21" name="荒芜者 科尔巴克斯" publicationId="640c-568f-pubN68833" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -840,7 +840,7 @@ Cor’bax Utterblight inflicts D3 愤怒之锤 hits 冲锋时. He ignores all da
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cb8-b090-10d5-8c7b" name="Blood Slaughterers of 恐虐" publicationId="640c-568f-pubN71445" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3cb8-b090-10d5-8c7b" name="Blood Slaughterers of 恐虐" publicationId="640c-568f-pubN71445" page="0" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="ffee-daec-6fc4-f078" name="Blood Slaughterer of 恐虐" page="0" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1121,7 +1121,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="425.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1320-2184-57b9-82d0" name="Beast of 纳垢" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1320-2184-57b9-82d0" name="Beast of 纳垢" page="0" hidden="false" collective="false" import="true" type="Unit">
       <rules>
         <rule id="88c9-b1b9-3751-2b42" name="Attention Seeker" page="0" hidden="false"/>
       </rules>
@@ -1154,7 +1154,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="478b-7a13-7e19-7f98" name="Blight Drones of 纳垢" publicationId="640c-568f-pubN73053" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="478b-7a13-7e19-7f98" name="Blight Drones of 纳垢" publicationId="640c-568f-pubN73053" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntries>
         <selectionEntry id="d0e4-eb4e-71a8-4e07" name="Blight Drones" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1162,7 +1162,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0dec-8427-b527-852d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="838b-34c1-1171-ecdd" name="Blight Drones of 纳垢" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="838b-34c1-1171-ecdd" name="Blight Drones of 纳垢" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
                 <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -1246,7 +1246,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69d3-e9ac-04d6-ad3c" name="Bloodcrushers of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="69d3-e9ac-04d6-ad3c" name="Bloodcrushers of 恐虐" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="0d4d-4e34-f723-aafe" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="876a-40ad-abdc-573a" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1334,7 +1334,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72df-6da9-0772-3be3" name="Bloodletters of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="72df-6da9-0772-3be3" name="Bloodletters of 恐虐" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="3dc6-7539-8d1b-e83c" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="c019-13ec-fe0b-ac63" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1422,7 +1422,7 @@ Super-heavies, 超级巨兽 and buildings 不能 be dragged by the impaler.</des
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f9e-a2e7-783d-ca0e" name="Chaos Furies" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4f9e-a2e7-783d-ca0e" name="Chaos Furies" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="de0b-ef5d-843d-e91e" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="2142-5be1-1df8-f5b9" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1770,7 +1770,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
         <cost name="分" typeId="points" value="525.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6acc-d892-b7ae-35b5" name="Brimstone Horrors" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6acc-d892-b7ae-35b5" name="Brimstone Horrors" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="bbcf-c73d-fb1b-f7cd" name="New InfoLink" hidden="false" targetId="20fc-183d-2ac3-1f8f" type="rule"/>
         <infoLink id="f80c-eec8-860f-afcc" name="New InfoLink" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -1785,7 +1785,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b6-45ea-76c0-f00b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="acda-e9d9-9642-ff55" name="Brimstone Horrors" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="acda-e9d9-9642-ff55" name="Brimstone Horrors" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -1812,7 +1812,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cca7-9a05-cc56-6d74" name="Blue Horrors" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="cca7-9a05-cc56-6d74" name="Blue Horrors" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="d602-bd70-1947-c0bf" name="Blue Horrors" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="灵能者">
           <modifiers>
@@ -1848,7 +1848,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the 模型 imme
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d7-3a8c-8878-c091" type="min"/>
           </constraints>
           <profiles>
-            <profile id="053f-a0d6-3220-406f" name="Blue Horrors" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="053f-a0d6-3220-406f" name="Blue Horrors" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -2148,7 +2148,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player 可以 attempt
     </selectionEntry>
     <selectionEntry id="c0bc-278d-0bc9-7e81" name="Giant Chaos Spawn" publicationId="640c-568f-pubN77007" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7416-9a44-9326-a593" name="Giant Chaos Spawn" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="7416-9a44-9326-a593" name="Giant Chaos Spawn" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2376,7 +2376,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player 可以 attempt
     </selectionEntry>
     <selectionEntry id="60a7-a2c7-0f4e-72fa" name="Samus, 毁灭风暴恶魔王子" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="90bf-d5b2-7c61-7dcd" name="Samus, 毁灭风暴恶魔王子" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="90bf-d5b2-7c61-7dcd" name="Samus, 毁灭风暴恶魔王子" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
@@ -2445,7 +2445,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player 可以 attempt
     </selectionEntry>
     <selectionEntry id="2a4a-8f01-dd70-6125" name="Spined Chaos Beast" publicationId="640c-568f-pubN77007" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a958-5c77-9f2f-1834" name="Spined Chaos Beast" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="a958-5c77-9f2f-1834" name="Spined Chaos Beast" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -2525,7 +2525,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player 可以 attempt
     </selectionEntry>
     <selectionEntry id="da4b-9734-d68d-97b9" name="Aetaos&apos;rau&apos;keres" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="305c-c43b-8495-48fa" name="Aetaos&apos;rau&apos;keres - Demon Lord of 奸奇" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="305c-c43b-8495-48fa" name="Aetaos&apos;rau&apos;keres - Demon Lord of 奸奇" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
@@ -2611,7 +2611,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f4bd-8c9d-1ff4-3d3f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ef1c-07dc-d16c-5b92" name="An&apos;ggrath the Unbound - Demon Lord of 恐虐" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="ef1c-07dc-d16c-5b92" name="An&apos;ggrath the Unbound - Demon Lord of 恐虐" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">10</characteristic>
@@ -2684,7 +2684,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
     </selectionEntry>
     <selectionEntry id="5cad-72aa-5bfc-ca57" name="Uraka &apos;The Warfiend&apos;" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e199-3e71-d620-7f62" name="Uraka &apos;The Warfiend&apos;(FW)" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="e199-3e71-d620-7f62" name="Uraka &apos;The Warfiend&apos;(FW)" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -2763,7 +2763,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
     </selectionEntry>
     <selectionEntry id="623e-fb64-8b68-24e2" name="Mamon, 纳垢恶魔王子" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8d07-2e5f-b9d2-6ce3" name="Mamon, 纳垢恶魔王子" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="8d07-2e5f-b9d2-6ce3" name="Mamon, 纳垢恶魔王子" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -2816,12 +2816,12 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7d5-b3fb-521a-9215" name="Be&apos;lakor, The Dark Master" publicationId="640c-568f-pubN82090" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e7d5-b3fb-521a-9215" name="Be&apos;lakor, The Dark Master" publicationId="640c-568f-pubN82090" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a303-53ea-68e1-1844" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f51a-33e6-31b1-5e2f" name="Be&apos;lakor, The Dark Master" publicationId="640c-568f-pubN82090" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="f51a-33e6-31b1-5e2f" name="Be&apos;lakor, The Dark Master" publicationId="640c-568f-pubN82090" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
@@ -2862,7 +2862,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="350.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ca5-1953-a40e-4920" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1ca5-1953-a40e-4920" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc89-5ab8-9c1c-dca0" type="max"/>
       </constraints>
@@ -2902,9 +2902,9 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2102-6ec8-b30a-e803" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2102-6ec8-b30a-e803" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="8763-4da4-8fd8-bbe2" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="8763-4da4-8fd8-bbe2" name="Bloodthirster of Insensate 暴怒" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">10</characteristic>
@@ -3002,9 +3002,9 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10ea-aaeb-7cbd-f648" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="10ea-aaeb-7cbd-f648" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="2b56-c28a-e65a-defc" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="2b56-c28a-e65a-defc" name="Bloodthirster of Unfettered Fury" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">10</characteristic>
@@ -3642,7 +3642,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="43a8-6e78-73a7-317e" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="43a8-6e78-73a7-317e" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="d4af-a469-7116-2430" name="Burning 战车 of 奸奇" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -3694,7 +3694,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e1c-ebde-afaf-12ab" name="恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1e1c-ebde-afaf-12ab" name="恶魔王子" page="0" hidden="false" collective="false" import="true" type="Unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="3600-6707-4ec0-297e" name="必须选择" hidden="false" collective="false" import="true">
           <constraints>
@@ -3766,7 +3766,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24c0-5e37-4273-2248" name="恐虐恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="24c0-5e37-4273-2248" name="恐虐恶魔王子" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="c522-09a1-2f30-e4d5" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="a3b9-f62d-39d5-b50e" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -3802,7 +3802,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42c8-87b8-1615-0446" name="纳垢恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="42c8-87b8-1615-0446" name="纳垢恶魔王子" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="e2b2-fd83-46b0-5fb0" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="d79b-88d8-3b11-ed6d" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -3880,7 +3880,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2db3-f8ec-3020-4e6c" name="色孽恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2db3-f8ec-3020-4e6c" name="色孽恶魔王子" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="72fa-de11-9333-6e86" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="33c7-62f1-6842-b6e0" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -3957,7 +3957,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="523d-14b8-290f-e132" name="奸奇恶魔王子" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="523d-14b8-290f-e132" name="奸奇恶魔王子" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="bd74-9467-1cca-a98e" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
         <infoLink id="3634-1f2d-bd1c-96e9" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -4034,7 +4034,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2379-c282-6e0e-dd6e" name="Daemonettes of 色孽" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2379-c282-6e0e-dd6e" name="Daemonettes of 色孽" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="f837-629a-b785-e626" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="29da-026d-30ff-e952" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -4046,7 +4046,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af33-5320-839f-a152" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5af6-31f5-0cd1-2d20" name="Daemonettes of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="5af6-31f5-0cd1-2d20" name="Daemonettes of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4070,7 +4070,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1ab-cffa-3a46-59bd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1cd9-d134-335c-72e7" name="Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="1cd9-d134-335c-72e7" name="Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4119,7 +4119,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57b7-84c2-b736-3bed" name="Daemonic Heralds" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="57b7-84c2-b736-3bed" name="Daemonic Heralds" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ade5-3e3d-adbc-8d0e" type="max"/>
       </constraints>
@@ -4146,7 +4146,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4800-8283-e6cb-1cc1" name="Fiends of 色孽" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4800-8283-e6cb-1cc1" name="Fiends of 色孽" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="2237-c9dc-a286-6f95" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
         <infoLink id="b613-ed20-d9f3-289d" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
@@ -4160,7 +4160,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da4f-3515-809b-4818" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6ba0-1400-c6e7-9b61" name="Fiends of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="6ba0-1400-c6e7-9b61" name="Fiends of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Beast</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4187,7 +4187,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c7b-36fe-5d2f-48b8" name="Flamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0c7b-36fe-5d2f-48b8" name="Flamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="58be-1504-2f9b-893c" name="Flames of 奸奇" page="0" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -4210,7 +4210,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d464-a42c-dd39-10a8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9248-ddf1-181c-ac38" name="Flamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9248-ddf1-181c-ac38" name="Flamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">跳跃, 步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -4234,7 +4234,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d9d0-c351-637b-e4e8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ccf1-dbfa-e381-d420" name="Pyrocaster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="ccf1-dbfa-e381-d420" name="Pyrocaster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">跳跃步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -4268,7 +4268,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d480-5db3-6dab-c952" name="Flesh Hounds of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d480-5db3-6dab-c952" name="Flesh Hounds of 恐虐" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="1caf-31cb-1cbe-f251" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="cf73-3c8c-7dd1-964f" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
@@ -4282,7 +4282,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="75be-38e7-37ca-13a4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b82d-8fca-1a81-5e3e" name="Flesh Hounds of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="b82d-8fca-1a81-5e3e" name="Flesh Hounds of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Beast</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4309,9 +4309,9 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="296f-6e6d-ce01-6d84" name="大不净者" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="296f-6e6d-ce01-6d84" name="大不净者" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="f7d5-4c9e-cca9-aded" name="大不净者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="f7d5-4c9e-cca9-aded" name="大不净者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -4389,7 +4389,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="190.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5510-34ef-843c-c43e" name="Hellflayers of 色孽" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5510-34ef-843c-c43e" name="Hellflayers of 色孽" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="dc8f-f788-e3cd-57cf" name="Hellflayer 战车 of 色孽" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -4413,7 +4413,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb72-e2be-660c-1285" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07fa-0c02-fd40-5d50" name="Exalted Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="07fa-0c02-fd40-5d50" name="Exalted Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4450,7 +4450,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
     </selectionEntry>
     <selectionEntry id="31ac-c3be-e8c4-f915" name="Herald of 恐虐" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="86ef-4f5e-e64c-3557" name="Herald of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="86ef-4f5e-e64c-3557" name="Herald of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="4123232344415441232323" value="1">
               <repeats>
@@ -4514,7 +4514,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="45.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0a3f-dc0b-59de-aae5" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="0a3f-dc0b-59de-aae5" name="Blood Throne of 恐虐" page="0" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7fd4-92a0-9af1-95f3" type="max"/>
               </constraints>
@@ -4601,7 +4601,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
     </selectionEntry>
     <selectionEntry id="8433-dbac-40fd-6901" name="Herald of 纳垢" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b08f-6a69-698a-efc9" name="Herald of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="b08f-6a69-698a-efc9" name="Herald of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="5723232344415441232323" value="2">
               <conditions>
@@ -4706,7 +4706,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
     </selectionEntry>
     <selectionEntry id="4b61-e0cc-1462-0565" name="Herald of 色孽" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0d04-f00e-e776-162e" name="Herald of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="0d04-f00e-e776-162e" name="Herald of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="4123232344415441232323" value="1">
               <repeats>
@@ -4762,7 +4762,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="44a8-e7f7-d958-576f" name="至尊色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="44a8-e7f7-d958-576f" name="至尊色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1674-0fff-bcc0-d072" type="max"/>
               </constraints>
@@ -4789,7 +4789,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="80.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7c45-f0d7-9a0d-7a2c" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="7c45-f0d7-9a0d-7a2c" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="Unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26e0-8f86-368e-057d" type="max"/>
               </constraints>
@@ -4875,7 +4875,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
     </selectionEntry>
     <selectionEntry id="0db1-e0e8-a3f8-2de7" name="Herald of 奸奇" page="0" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="ee5c-46b0-ebd5-e8a8" name="Herald of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="ee5c-46b0-ebd5-e8a8" name="Herald of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="556e6974205479706523232344415441232323" value="喷气摩托">
               <conditionGroups>
@@ -4936,7 +4936,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 <cost name="分" typeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c3e5-f2b3-10aa-7605" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
+            <selectionEntry id="c3e5-f2b3-10aa-7605" name="Burning 战车 of 奸奇" page="0" hidden="false" collective="false" import="true" type="Unit">
               <profiles>
                 <profile id="4086-a208-e109-e17d" name="Burning 战车 of 奸奇" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
                   <characteristics>
@@ -5030,12 +5030,12 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5202-702d-90b7-115c" name="Kairos Fateweaver" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5202-702d-90b7-115c" name="Kairos Fateweaver" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39a8-66e0-38b9-77de" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d927-c624-90e5-cca0" name="Kairos Fateweaver" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="d927-c624-90e5-cca0" name="Kairos Fateweaver" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">1</characteristic>
@@ -5097,7 +5097,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e71-d3db-e19d-43a4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="41c2-3852-ee14-b79d" name="Karanak" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="41c2-3852-ee14-b79d" name="Karanak" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Beast(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -5160,12 +5160,12 @@ If there is no space for the pink horrors, or no models, they are then destroyed
         <cost name="分" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2276-01c7-1651-26ad" name="Keeper of Secrets" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2276-01c7-1651-26ad" name="Keeper of Secrets" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7556-ece7-cde9-457c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4538-44e5-b823-bba8" name="Keeper of Secrets" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="4538-44e5-b823-bba8" name="Keeper of Secrets" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="4123232344415441232323" value="2">
               <repeats>
@@ -5417,12 +5417,12 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="888.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58c9-f812-0adc-4105" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="58c9-f812-0adc-4105" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5298-8112-0c90-ab11" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c1f9-c342-a8dd-1024" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="c1f9-c342-a8dd-1024" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Monsterous Creature(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -5491,9 +5491,9 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82dd-7e56-181f-008f" name="Lord of Change" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="82dd-7e56-181f-008f" name="Lord of Change" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="1b96-14ee-fc50-7409" name="Lord of Change" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="1b96-14ee-fc50-7409" name="Lord of Change" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -5564,7 +5564,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="230.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="64e6-0c00-930a-041f" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="64e6-0c00-930a-041f" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="5296-9291-ece8-865a" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="e175-37ae-5143-f60a" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -5578,7 +5578,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2795-08f8-1828-bfc7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a9e0-06bd-5765-0e26" name="Nurglings" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="a9e0-06bd-5765-0e26" name="Nurglings" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5605,7 +5605,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f5b-77ea-5734-1376" name="Pink Horrors of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0f5b-77ea-5734-1376" name="Pink Horrors of 奸奇" page="0" hidden="false" collective="false" import="true" type="Unit">
       <rules>
         <rule id="cf6b-d69c-c171-48a8" name="Split" hidden="false">
           <description>If a 友方 单位 of Pink Horrors suffers any casualties, the slain Horrors will split and create Blue Horrors at the end of that phase(after all other 单位 have performed their actions and made their attacks). Two Blue Horrors are created for each slain Pink Horror - if there is already a 友方 Blue HOrror 单位 范围内 6寸 of the Pink Horrors, add the newly created Blue Horrors to that 单位, otherwise set them up as a new 单位 范围内 6寸 of the 单位 of Pink Horrors. If a rule causes a whole 单位 of Pink Horrors to be removed at once(excluding Daemonic Instability), you can immediately create a 单位 of Blue HOrrors, just before removing the last 模型 from the Pink Horrors 单位. The 单位 of Blue Horrors has two 模型 for each 模型 in the 单位 of Pink Horrors at the point at which it is removed, and must be set up with 所有 模型 范围内 6寸 of the last 模型 from the Pink Horrors 单位.</description>
@@ -5626,7 +5626,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c126-8441-43d1-c020" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9786-1211-ce51-5b29" name="Pink Horrors of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9786-1211-ce51-5b29" name="Pink Horrors of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5650,7 +5650,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ca0d-81fa-c623-80be" type="max"/>
           </constraints>
           <profiles>
-            <profile id="97a5-8790-2919-8d6d" name="Iridescent Horror" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="97a5-8790-2919-8d6d" name="Iridescent Horror" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5708,7 +5708,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fe9-e4ce-3227-109b" name="Plague Drones of 纳垢" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8fe9-e4ce-3227-109b" name="Plague Drones of 纳垢" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="3a1b-3a2e-8ca6-218e" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="fde5-8dde-93b1-0a1d" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule"/>
@@ -5722,7 +5722,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c468-54dd-e64b-5d86" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d3f4-60f6-b239-0749" name="Plague Drone" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="d3f4-60f6-b239-0749" name="Plague Drone" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包 骑兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5764,7 +5764,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bec8-9120-f666-8694" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8fff-b8d7-6d20-267f" name="Plaguebringer" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="8fff-b8d7-6d20-267f" name="Plaguebringer" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包 骑兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5879,7 +5879,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3c5-f5c9-8599-6877" name="Plaguebearers of 纳垢" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e3c5-f5c9-8599-6877" name="Plaguebearers of 纳垢" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="27b7-6663-e453-6b66" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="ca19-972e-c4ff-b1ab" hidden="false" targetId="d219-2314-4834-c054" type="rule"/>
@@ -5892,7 +5892,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b00-567f-ca5b-c430" type="max"/>
           </constraints>
           <profiles>
-            <profile id="562a-9a50-5d58-2253" name="Plaguebearers of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="562a-9a50-5d58-2253" name="Plaguebearers of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5916,7 +5916,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f05-33c2-0c02-9daf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c998-9360-27b1-ecc8" name="Plagueridden" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="c998-9360-27b1-ecc8" name="Plagueridden" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5970,7 +5970,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fea7-80d0-813e-7b3a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fe91-359e-ab25-e1b8" name="Scabeiathrax the Bloated - Demon Lord of 纳垢" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="fe91-359e-ab25-e1b8" name="Scabeiathrax the Bloated - Demon Lord of 纳垢" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
@@ -6072,7 +6072,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="777.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8830-55fb-8dd6-ae37" name="Screamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8830-55fb-8dd6-ae37" name="Screamers of 奸奇" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="849e-edb5-ca75-3c72" name="Lamprey&apos;s Bite" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
@@ -6096,7 +6096,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ccc-0a88-8709-9f11" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b66c-6ab8-031a-546b" name="Screamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="b66c-6ab8-031a-546b" name="Screamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷气摩托</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6123,7 +6123,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bda2-04a2-e853-d176" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="bda2-04a2-e853-d176" name="色孽寻觅者战车" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="ba1a-74bc-695e-807a" name="色孽寻觅者战车" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -6158,7 +6158,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eba0-6b65-77e3-2b1c" name="色孽寻觅者" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="eba0-6b65-77e3-2b1c" name="色孽寻觅者" page="0" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="aed6-f4d2-d8eb-8b74" hidden="false" targetId="521fb0b8-870d-f3e9-6f25-483767d3b77e" type="rule"/>
         <infoLink id="e7f8-f0e1-b93d-c06c" hidden="false" targetId="de18-25a0-504b-74be" type="rule"/>
@@ -6172,7 +6172,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9265-cef7-5f16-af1f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9a1d-f258-072e-6c82" name="色孽寻觅者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9a1d-f258-072e-6c82" name="色孽寻觅者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">骑兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6196,7 +6196,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c91-063d-945a-5939" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c27-48d7-7e1b-2ac9" name="Heartseeker" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9c27-48d7-7e1b-2ac9" name="Heartseeker" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">骑兵(人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6245,7 +6245,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bdb1-333c-deff-9421" name="Skull Cannon of 恐虐" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="bdb1-333c-deff-9421" name="Skull Cannon of 恐虐" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="9cec-fe93-e7c7-5f53" name="Skull Cannon of 恐虐" page="0" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -6285,7 +6285,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a70-91e6-5290-cbde" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5f47-11bc-a1f2-a0bc" name="Skulltaker" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="5f47-11bc-a1f2-a0bc" name="Skulltaker" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="5723232344415441232323" value="1">
               <repeats>
@@ -6379,12 +6379,12 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d184-75d9-c4ee-9444" name="Skarbarand" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d184-75d9-c4ee-9444" name="Skarbarand" page="0" hidden="false" collective="false" import="true" type="Unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec7e-a26e-1696-a27f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6381-5e8b-b7db-9b24" name="Skarbarand" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="6381-5e8b-b7db-9b24" name="Skarbarand" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">10</characteristic>
@@ -6445,7 +6445,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <cost name="分" typeId="points" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f631-8ba8-0d1b-3ed1" name="Soul Grinder of Chaos" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f631-8ba8-0d1b-3ed1" name="Soul Grinder of Chaos" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
         <profile id="eb2c-e32d-a287-26cc" name="Soul Grinder of Chaos" page="0" hidden="false" typeId="57616c6b657223232344415441232323" typeName="步行机甲">
           <characteristics>
@@ -6653,7 +6653,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="504d-d20f-8a51-63f2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d887-ecaf-d79a-08f5" name="The Blue Scribes" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="d887-ecaf-d79a-08f5" name="The Blue Scribes" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷气摩托(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6696,7 +6696,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef28-730c-31ee-6538" type="max"/>
       </constraints>
       <profiles>
-        <profile id="af46-0d0e-1d6a-58de" name="The Changeling" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="af46-0d0e-1d6a-58de" name="The Changeling" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6747,7 +6747,7 @@ Thunderblitz table(see the 超重型载具 section), in the same manner as a
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0737-a550-42b9-bcf5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fb36-1348-84da-961c" name="The Masque of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="fb36-1348-84da-961c" name="The Masque of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -6789,9 +6789,9 @@ The Dance of Dreaming: Until the start of the Masque&apos;s next 射击阶段, t
         <cost name="分" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aadc-dc6f-2f27-e926" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="aadc-dc6f-2f27-e926" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" collective="false" import="true" type="Unit">
       <profiles>
-        <profile id="2b6c-4794-9021-3ae3" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="2b6c-4794-9021-3ae3" name="Wrath of 恐虐 Bloodthirster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">10</characteristic>
@@ -6931,7 +6931,7 @@ The Dance of Dreaming: Until the start of the Masque&apos;s next 射击阶段, t
     </selectionEntry>
     <selectionEntry id="6633-f2bd-c4a1-d619" name="Zarakynel" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b867-62ac-adc2-29ac" name="Zarakynel - 恶魔领主 of 色孽" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="b867-62ac-adc2-29ac" name="Zarakynel - 恶魔领主 of 色孽" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">10</characteristic>
@@ -7007,7 +7007,7 @@ Any 非无畏 单位 in CC with this 单位 must pass a leadership check or be u
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8350-d6bb-3e7e-a54f" name="Exalted Flamer" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="8350-d6bb-3e7e-a54f" name="Exalted Flamer" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">跳跃步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7056,7 +7056,7 @@ Any 非无畏 单位 in CC with this 单位 must pass a leadership check or be u
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36c7-8be8-515b-5b46" type="max"/>
       </constraints>
       <profiles>
-        <profile id="89b2-1b09-b59b-4c75" name="Epidimius" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="89b2-1b09-b59b-4c75" name="Epidimius" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -7131,7 +7131,7 @@ Wounds / Effect
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc27-474a-d20d-6219" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0cac-dfef-56e0-b2c0" name="Exalted Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="0cac-dfef-56e0-b2c0" name="Exalted Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵(人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -7598,7 +7598,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">一次性, the 单位 charges 6+D6寸.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f756a086-e42b-7741-83e2-2ea37e828462" name="Beast of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="f756a086-e42b-7741-83e2-2ea37e828462" name="Beast of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7625,7 +7625,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="66e0730b-0c5b-a96d-df77-c6395c39f504" name="Bloodcrusher of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="66e0730b-0c5b-a96d-df77-c6395c39f504" name="Bloodcrusher of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7639,7 +7639,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="414214a7-5bc0-e376-0869-4a7140a11b67" name="Bloodletters of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="414214a7-5bc0-e376-0869-4a7140a11b67" name="Bloodletters of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7653,7 +7653,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="e38600d3-cc9f-2086-47a1-f954f11bb8cd" name="Bloodthirster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="e38600d3-cc9f-2086-47a1-f954f11bb8cd" name="Bloodthirster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7677,7 +7677,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="4b78d1b7-ae2b-f81c-630a-cb15b3e5f09d" name="混沌恶魔王子" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="4b78d1b7-ae2b-f81c-630a-cb15b3e5f09d" name="混沌恶魔王子" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7691,7 +7691,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="cb0abe53-7181-8c2d-10c4-6b7a6973cbed" name="Daemonettes of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="cb0abe53-7181-8c2d-10c4-6b7a6973cbed" name="Daemonettes of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7710,7 +7710,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="d462047a-af72-5310-6608-e90900955a4c" name="Epidimius" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="d462047a-af72-5310-6608-e90900955a4c" name="Epidimius" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7724,7 +7724,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="93846a65-3434-5af7-c12e-4861597343f6" name="Exalted Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="93846a65-3434-5af7-c12e-4861597343f6" name="Exalted Alluress" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7748,7 +7748,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="类型" typeId="5479706523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="20f50052-d3a9-9113-3b9d-315b378317e2" name="Fateweaver, The Oracle of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="20f50052-d3a9-9113-3b9d-315b378317e2" name="Fateweaver, The Oracle of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7762,7 +7762,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="23203b9b-d587-d462-5801-b8231511455a" name="Fiends of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="23203b9b-d587-d462-5801-b8231511455a" name="Fiends of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7776,7 +7776,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="99c02023-984b-bc84-579b-01f6075ffc45" name="Flamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="99c02023-984b-bc84-579b-01f6075ffc45" name="Flamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7790,7 +7790,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="c7fec7c8-6bd6-2b91-f782-1f0310d57597" name="Flesh Hounds of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="c7fec7c8-6bd6-2b91-f782-1f0310d57597" name="Flesh Hounds of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7804,7 +7804,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="f8734fb0-9ddd-afa8-7e9f-a0a3a13f2fea" name="Furies of Chaos" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="f8734fb0-9ddd-afa8-7e9f-a0a3a13f2fea" name="Furies of Chaos" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7818,7 +7818,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="e2a1f5a1-d77b-fd7f-642b-48d426e7f4ba" name="大不净者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="e2a1f5a1-d77b-fd7f-642b-48d426e7f4ba" name="大不净者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7832,7 +7832,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="344ceff3-6606-5156-1c1b-bec57f5d610b" name="Harvester" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="344ceff3-6606-5156-1c1b-bec57f5d610b" name="Harvester" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7846,7 +7846,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="2f692f01-8637-a8c7-de2c-23060a63958b" name="Hellblade" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="2f692f01-8637-a8c7-de2c-23060a63958b" name="Hellblade" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7860,7 +7860,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="40f525f4-9d88-7b4d-15ed-044bd2e4aaf7" name="Hellflayer 战车 of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="40f525f4-9d88-7b4d-15ed-044bd2e4aaf7" name="Hellflayer 战车 of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7874,7 +7874,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="56cd0e77-4032-9070-7826-91b5101bc620" name="Herald of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="56cd0e77-4032-9070-7826-91b5101bc620" name="Herald of 恐虐" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7888,7 +7888,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="56d2f3a3-f2d8-1ef0-5c79-fde39c7a09b9" name="Herald of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="56d2f3a3-f2d8-1ef0-5c79-fde39c7a09b9" name="Herald of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7902,7 +7902,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="2ab19c32-7eae-0f27-ce45-63733cc78894" name="Herald of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="2ab19c32-7eae-0f27-ce45-63733cc78894" name="Herald of 色孽" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7916,7 +7916,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="955c5161-a34e-aead-f474-424a7a766209" name="Herald of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="955c5161-a34e-aead-f474-424a7a766209" name="Herald of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7940,7 +7940,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="9a6dfce0-272e-21b7-ee5f-8e922de3b3da" name="Karanak, Hound of Vengence" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="9a6dfce0-272e-21b7-ee5f-8e922de3b3da" name="Karanak, Hound of Vengence" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7954,7 +7954,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="f4df6f3c-2bd7-c284-5884-7cda57f47d4c" name="Keeper of Secrets" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="f4df6f3c-2bd7-c284-5884-7cda57f47d4c" name="Keeper of Secrets" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7968,7 +7968,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="af0a2bf8-f618-6203-02b5-41752847fa4f" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="af0a2bf8-f618-6203-02b5-41752847fa4f" name="Ku&apos;gath, The Plaguefather" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -7990,7 +7990,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="类型" typeId="5479706523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="b6bc877d-daff-8c0e-a4aa-a0e559968b45" name="Lord of Change" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="b6bc877d-daff-8c0e-a4aa-a0e559968b45" name="Lord of Change" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8025,7 +8025,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="9c710ae0-b1f5-69b2-99c6-fa88f6567436" name="Nurglings" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="9c710ae0-b1f5-69b2-99c6-fa88f6567436" name="Nurglings" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8039,7 +8039,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="ca4c2101-0e5f-9eb4-544d-812c3204537d" name="Pink Horrors of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="ca4c2101-0e5f-9eb4-544d-812c3204537d" name="Pink Horrors of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8058,7 +8058,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="3d54ee45-5812-7b77-ace1-ecfc38732868" name="Plaguebearers of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="3d54ee45-5812-7b77-ace1-ecfc38732868" name="Plaguebearers of 纳垢" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8080,7 +8080,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="类型" typeId="5479706523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="647ad98c-97ba-d938-ac9e-baf3f84f7f26" name="Pyrocaster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="647ad98c-97ba-d938-ac9e-baf3f84f7f26" name="Pyrocaster" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8099,7 +8099,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="1d20bb40-3a12-838a-c9cb-2b2c50eebf2e" name="Screamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="1d20bb40-3a12-838a-c9cb-2b2c50eebf2e" name="Screamers of 奸奇" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8123,7 +8123,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="类型" typeId="5479706523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="8dea4b8a-0d98-6190-3bef-13ad6669e85a" name="色孽寻觅者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="8dea4b8a-0d98-6190-3bef-13ad6669e85a" name="色孽寻觅者" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8137,7 +8137,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="cd12c982-ebe3-a6e3-7de3-70bfa3a3dc51" name="Skarbarand, The Exiled One" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="cd12c982-ebe3-a6e3-7de3-70bfa3a3dc51" name="Skarbarand, The Exiled One" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8179,7 +8179,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="类型" typeId="5479706523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="836652c6-e65b-a27a-d50f-3fd7858223df" name="The Blue Scribes" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="836652c6-e65b-a27a-d50f-3fd7858223df" name="The Blue Scribes" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8193,7 +8193,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="1c8cca6b-9579-ecf0-81d0-87212598e0e5" name="The Changeling" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="1c8cca6b-9579-ecf0-81d0-87212598e0e5" name="The Changeling" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8207,7 +8207,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="SV" typeId="5361766523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="b72d7741-1d83-1cf7-0c47-fe9c794871d3" name="The Masque" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="b72d7741-1d83-1cf7-0c47-fe9c794871d3" name="The Masque" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323"/>
         <characteristic name="WS" typeId="575323232344415441232323"/>
@@ -8239,7 +8239,7 @@ If you roll The Dark Prince Thirsts, you 可以 重投 1个 dice roll to determi
         <characteristic name="类型" typeId="5479706523232344415441232323"/>
       </characteristics>
     </profile>
-    <profile id="9905-1dbc-2514-45a1" name="恶魔王子" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="9905-1dbc-2514-45a1" name="恶魔王子" page="0" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽(人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>

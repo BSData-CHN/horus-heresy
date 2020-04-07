@@ -245,7 +245,7 @@
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92c6-2146-8ca7-bd35" name="毁灭风暴恶魔领主" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="92c6-2146-8ca7-bd35" name="毁灭风暴恶魔领主" hidden="false" collective="false" import="true" type="Unit">
       <modifiers>
         <modifier type="set" field="4571-257a-8d04-03c5" value="0.0">
           <conditionGroups>
@@ -389,7 +389,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ad5-5b92-5f1f-e661" name="毁灭风暴低阶恶魔" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9ad5-5b92-5f1f-e661" name="毁灭风暴低阶恶魔" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="aec5-dd17-8bf5-d276" name="Compulsory Troops" hidden="false" targetId="0547-e031-0d25-4c6c" primary="false"/>
       </categoryLinks>
@@ -458,7 +458,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5eaf-49f3-f745-fd30" name="毁灭风暴恶魔暴虐兽" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5eaf-49f3-f745-fd30" name="毁灭风暴恶魔暴虐兽" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="5a79-01c8-c1c7-ef77" name="精英槽位" hidden="false" targetId="456c6974657323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -510,7 +510,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b13b-5247-2078-4daf" name="毁灭风暴高阶恶魔" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b13b-5247-2078-4daf" name="毁灭风暴高阶恶魔" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="de3d-2656-aeae-8bf0" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
@@ -542,7 +542,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="721a-409b-1ce8-0c50" name="毁灭风暴恶魔神选" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="721a-409b-1ce8-0c50" name="毁灭风暴恶魔神选" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="b09a-30f0-39d0-6fb3" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
@@ -575,7 +575,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1137-8ddd-d812-1e70" name="毁灭风暴恶魔骑兵" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1137-8ddd-d812-1e70" name="毁灭风暴恶魔骑兵" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="5571-9b8f-6e12-06ee" name="快速槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
@@ -607,7 +607,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c877-3df6-7393-c32b" name="毁灭风暴恶魔野兽" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c877-3df6-7393-c32b" name="毁灭风暴恶魔野兽" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="cf97-4f31-aa52-f7f5" name="基础槽位" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
         <categoryLink id="bab4-818a-3e4d-6758" name="Compulsory Troops" hidden="false" targetId="0547-e031-0d25-4c6c" primary="false"/>
@@ -640,7 +640,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae3c-2429-b663-dcbc" name="毁灭风暴恶魔集群" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ae3c-2429-b663-dcbc" name="毁灭风暴恶魔集群" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="7f7f-257b-f4ee-5af8" name="基础槽位" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
@@ -674,7 +674,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f45-4da0-7891-e2cc" name="毁灭风暴恶魔飞行巨兽" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1f45-4da0-7891-e2cc" name="毁灭风暴恶魔飞行巨兽" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="8ccd-e535-2882-af9e" name="快速槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
@@ -706,7 +706,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf7e-0c26-b8b8-758a" name="毁灭风暴恶魔巨兽" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="bf7e-0c26-b8b8-758a" name="毁灭风暴恶魔巨兽" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="bba1-7f66-485f-9ec7" name="重型槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
@@ -739,7 +739,7 @@
         <cost name="分" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7a8-a1e3-5f05-fc69" name="毁灭风暴高阶恶魔野兽" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b7a8-a1e3-5f05-fc69" name="毁灭风暴高阶恶魔野兽" hidden="false" collective="false" import="true" type="Unit">
       <categoryLinks>
         <categoryLink id="3e95-5559-6cef-3f4c" name="重型槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
@@ -1530,7 +1530,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33f3-58b0-0dc9-4d8e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="eb4a-79e6-b1eb-fc66" name="卡班达" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="eb4a-79e6-b1eb-fc66" name="卡班达" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
@@ -1595,7 +1595,7 @@
         <cost name="分" typeId="points" value="460.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="308e-c800-4fa9-efde" name="附魔军团" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="308e-c800-4fa9-efde" name="附魔军团" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="6349-c3c3-6f07-5e59" name="支援小队" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
         <infoLink id="cc8c-ad29-14b4-95cc" name="Slaves to Darkness" hidden="false" targetId="b407-fb29-f206-4ad3" type="rule"/>
@@ -1983,7 +1983,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3d7-3331-372c-a480" name="附魔辅助军" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f3d7-3331-372c-a480" name="附魔辅助军" publicationId="8700-b3bb-pubN65537" hidden="false" collective="false" import="true" type="Unit">
       <infoLinks>
         <infoLink id="da2c-f2b1-e48d-385b" name="支援小队" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
         <infoLink id="36c5-f6e5-d4de-e737" name="Slaves to Darkness" hidden="false" targetId="b407-fb29-f206-4ad3" type="rule"/>
@@ -2084,7 +2084,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca6b-6f29-c512-6a3e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7098-b32b-e073-843a" name="科尔巴克斯" publicationId="8700-b3bb-pubN77795" page="245" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="7098-b32b-e073-843a" name="科尔巴克斯" publicationId="8700-b3bb-pubN77795" page="245" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -2162,7 +2162,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47bb-db5c-c3f6-5d14" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f25e-e9dc-2abe-cfa0" name="萨姆斯" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="f25e-e9dc-2abe-cfa0" name="萨姆斯" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">9</characteristic>
@@ -2875,7 +2875,7 @@ D6结果
         <characteristic name="类型" typeId="5479706523232344415441232323">突击 1, 灵魂烈焰</characteristic>
       </characteristics>
     </profile>
-    <profile id="767c-effa-9802-5846" name="毁灭风暴恶魔飞行巨兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="767c-effa-9802-5846" name="毁灭风暴恶魔飞行巨兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">飞行巨兽</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2889,7 +2889,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="c0ec-65de-1f80-5a63" name="毁灭风暴恶魔骑兵" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="c0ec-65de-1f80-5a63" name="毁灭风暴恶魔骑兵" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">骑兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2903,7 +2903,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="e553-5fe7-2eba-42f2" name="附魔辅助军" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="e553-5fe7-2eba-42f2" name="附魔辅助军" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -2917,7 +2917,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="6684-7b7a-9c07-6f20" name="附魔军团" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="6684-7b7a-9c07-6f20" name="附魔军团" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2931,7 +2931,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="2adf-4d48-31e0-d5b5" name="毁灭风暴恶魔集群" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="2adf-4d48-31e0-d5b5" name="毁灭风暴恶魔集群" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">集群</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -2945,7 +2945,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="eb78-734c-d1ad-7bdd" name="毁灭风暴恶魔野兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="eb78-734c-d1ad-7bdd" name="毁灭风暴恶魔野兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">Beast</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2959,7 +2959,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1047-3a67-52d1-895c" name="毁灭风暴低阶恶魔" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="1047-3a67-52d1-895c" name="毁灭风暴低阶恶魔" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -2973,7 +2973,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="9cff-45f7-4b25-9fee" name="毁灭风暴恶魔神选" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="9cff-45f7-4b25-9fee" name="毁灭风暴恶魔神选" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -2987,7 +2987,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="5961-9178-7b86-2d03" name="毁灭风暴大魔" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="5961-9178-7b86-2d03" name="毁灭风暴大魔" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -3001,7 +3001,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="65d4-51fc-820f-9a1a" name="毁灭风暴恶魔暴虐兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="65d4-51fc-820f-9a1a" name="毁灭风暴恶魔暴虐兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3015,7 +3015,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b7fd-97df-83f6-b2ab" name="毁灭风暴恶魔领主" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="b7fd-97df-83f6-b2ab" name="毁灭风暴恶魔领主" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -3029,7 +3029,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="74df-5659-4f1c-ed58" name="毁灭风暴恶魔巨兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="74df-5659-4f1c-ed58" name="毁灭风暴恶魔巨兽" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3043,7 +3043,7 @@ D6结果
         <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="1594-7706-9792-d4de" name="毁灭风暴高阶恶魔" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+    <profile id="1594-7706-9792-d4de" name="毁灭风暴高阶恶魔" publicationId="8700-b3bb-pubN65537" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>

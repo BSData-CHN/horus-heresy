@@ -855,7 +855,7 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25cb-e3f5-a3b3-20e9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="938f-856b-b279-4115" name="Necron Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="938f-856b-b279-4115" name="Necron Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="5361766523232344415441232323" value="2+">
               <conditions>
@@ -985,7 +985,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e192-d183-9e30-fb6e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="82b8-9997-eee0-2528" name="Canoptek Acanthrites" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="82b8-9997-eee0-2528" name="Canoptek Acanthrites" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -1053,7 +1053,7 @@
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ef-0002-9d45-c982" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5a83-c905-0d63-e165" name="Dynastic Warriors" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="5a83-c905-0d63-e165" name="Dynastic Warriors" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -1191,7 +1191,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e736-669d-a5d1-f3f3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9fc1-b10e-8db6-1fcf" name="Cryptek" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="9fc1-b10e-8db6-1fcf" name="Cryptek" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3563,7 +3563,7 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e67d-6545-ce88-33f1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f1a3-a834-dddf-b1db" name="Flayed Ones" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="f1a3-a834-dddf-b1db" name="Flayed Ones" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3611,7 +3611,7 @@ And may contain an additional +1 Troop, +1 Elite, +1 重型槽位</description>
     </selectionEntry>
     <selectionEntry id="d834-7113-0466-149b" name="Trazyn The Infinate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3c3d-8790-bedc-afaf" name="Trazyn The Infinate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="3c3d-8790-bedc-afaf" name="Trazyn The Infinate" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -3724,7 +3724,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bffb-e8ac-48c2-4d7d" type="min"/>
               </constraints>
               <profiles>
-                <profile id="0fa2-3a63-5a6c-4408" name="Acquisition Phalanx Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="0fa2-3a63-5a6c-4408" name="Acquisition Phalanx Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3865,7 +3865,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="30d4-7133-2039-e468" type="min"/>
       </constraints>
       <profiles>
-        <profile id="86b0-8f16-78f6-9e2c" name="Nemesor" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="86b0-8f16-78f6-9e2c" name="Nemesor" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="5361766523232344415441232323" value="2+">
               <conditions>
@@ -4060,7 +4060,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d4b-c381-851b-65d4" type="min"/>
       </constraints>
       <profiles>
-        <profile id="d600-45bb-3cac-b1b1" name="Overlord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="d600-45bb-3cac-b1b1" name="Overlord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="5361766523232344415441232323" value="2+">
               <conditions>
@@ -4283,7 +4283,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
 此外, the controlling may sacrifice any number of drones in their 射击阶段 to use them as a single shooting attack with the Transdimensional Beamer profile and the owning Crypteks BS. This shots must be at the same 单位 as the Cyptek and any attached 单位 shot at, unless the Crytpek has the 分散火力 rule.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8066-903f-0d81-cc0e" name="Canoptek Khepri Drones" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="8066-903f-0d81-cc0e" name="Canoptek Khepri Drones" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323"/>
             <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -4318,7 +4318,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf87-a64a-265c-569d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="339c-cba7-22d3-9462" name="C&apos;tan Shard" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="339c-cba7-22d3-9462" name="C&apos;tan Shard" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -4557,7 +4557,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ab-4e59-036f-33b6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3bd1-acc3-ce62-c5b0" name="Deathmarks" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="3bd1-acc3-ce62-c5b0" name="Deathmarks" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4719,7 +4719,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="259a-3264-6055-5ee9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07c1-726e-ec32-2236" name="Immortals" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="07c1-726e-ec32-2236" name="Immortals" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4826,7 +4826,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="806b-5169-3545-3fe2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7b10-ed2f-0c75-9960" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="7b10-ed2f-0c75-9960" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -4847,7 +4847,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
                 <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
               </characteristics>
             </profile>
-            <profile id="ef6e-fbc4-6803-12f4" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="true" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="ef6e-fbc4-6803-12f4" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="true" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -5112,7 +5112,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fa-61a2-1d1a-e25d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="47f2-0ce1-9b71-84dc" name="Pariah Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="47f2-0ce1-9b71-84dc" name="Pariah Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5270,7 +5270,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c5-8c9a-3ca2-5a9e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c89d-80f1-8adb-1fa6" name="Royal Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="c89d-80f1-8adb-1fa6" name="Royal Lychguard" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5393,7 +5393,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d324-d627-fe1a-7b43" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1408-525f-9536-07f6" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="1408-525f-9536-07f6" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -5437,7 +5437,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a80-6737-235b-4c80" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5541-827a-d6b9-84d1" name="Canoptek Spyders" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="5541-827a-d6b9-84d1" name="Canoptek Spyders" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">Monsterous Creature</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5497,7 +5497,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdd1-609c-3ac8-37d0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="23b5-6d4f-b556-0db3" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+                <profile id="23b5-6d4f-b556-0db3" name="Canoptek Scarabs" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <characteristics>
                     <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -5543,7 +5543,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
     </selectionEntry>
     <selectionEntry id="6cc1-77e0-d8ca-f8d5" name="Canoptek Tomb Sentinel" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="90c0-2bb6-13a9-394a" name="Canoptek Tomb Sentinel" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="90c0-2bb6-13a9-394a" name="Canoptek Tomb Sentinel" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5609,7 +5609,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
     </selectionEntry>
     <selectionEntry id="4c43-da58-c2ef-3d2f" name="Canoptek Tomb Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2c7b-9b5c-a45c-4cf2" name="Canoptek Tomb Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="2c7b-9b5c-a45c-4cf2" name="Canoptek Tomb Stalker" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -5721,7 +5721,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making close combat attack
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff9-f365-4d43-f120" type="max"/>
           </constraints>
           <profiles>
-            <profile id="08c6-7c25-3008-2fb2" name="Canoptek Wraiths" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="08c6-7c25-3008-2fb2" name="Canoptek Wraiths" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6016,7 +6016,7 @@ If there are three or more models all projecting Nightshrouds between them, they
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db36-3320-56e9-c4e9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="2965-1e3a-bb16-e357" name="Sentry Pylon" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="2965-1e3a-bb16-e357" name="Sentry Pylon" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">炮兵 (不动)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -6441,7 +6441,7 @@ The Transcendant C&apos;tan is no longer under the control of the Necron player.
     </selectionEntry>
     <selectionEntry id="c89b-bd36-ae92-f957" name="Transcendant C&apos;tan" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9785-2620-eb46-7b49" name="Transcendant C&apos;tan" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="9785-2620-eb46-7b49" name="Transcendant C&apos;tan" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">超级巨兽</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -6947,7 +6947,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
     </selectionEntry>
     <selectionEntry id="335c-d56b-e3c1-60d4" name="Destroyer Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9416-fafc-9b29-b0cf" name="Destoryer Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="9416-fafc-9b29-b0cf" name="Destoryer Lord" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7039,7 +7039,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64cb-c757-f8b3-3c22" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cca2-7829-c458-ce11" name="High Judicator" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="cca2-7829-c458-ce11" name="High Judicator" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7113,7 +7113,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0477-f485-aa36-69e1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b02d-8d06-3ca8-ea68" name="Cloaked Stranger" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="b02d-8d06-3ca8-ea68" name="Cloaked Stranger" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -7210,7 +7210,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e99d-2b2c-0042-543a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7bcf-7744-ba3e-63c6" name="Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="7bcf-7744-ba3e-63c6" name="Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7262,7 +7262,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff2-47a7-8e8e-516c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="879f-db28-f8d3-9ebe" name="重型 Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="879f-db28-f8d3-9ebe" name="重型 Destoryers" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">喷射背包步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7307,7 +7307,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3e7-0a3e-0e26-e0d0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8fd5-f3e4-9dbc-2941" name="Triarch Praetorians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+            <profile id="8fd5-f3e4-9dbc-2941" name="Triarch Praetorians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="单位 Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
