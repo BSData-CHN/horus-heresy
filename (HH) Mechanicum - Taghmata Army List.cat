@@ -111,7 +111,7 @@
     <categoryEntry id="f74d-4679-75a6-1252" name="步兵" hidden="false"/>
     <categoryEntry id="47cf-71bb-d59d-f9de" name="跳跃步兵" hidden="false"/>
     <categoryEntry id="8ec4-17b5-7fea-c682" name="巨兽" hidden="false"/>
-    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="喷气背包 步兵" hidden="false"/>
+    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="喷气背包步兵" hidden="false"/>
     <categoryEntry id="25d0-388c-dd16-af9a" name="飞行巨兽" hidden="false"/>
     <categoryEntry id="7fdd-2a97-d0e9-6524" name="赛博尼提卡处理器" hidden="false">
       <constraints>
