@@ -4483,7 +4483,7 @@
         <cost name="分" typeId="points" value="320.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8594-6f9f-c58d-440d" name="猎户座突击登陆艇" hidden="false" collective="false" import="true" type="Unit">
+    <selectionEntry id="8594-6f9f-c58d-440d" name="猎户座突击登陆艇" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7e6c-26d8-68c5-b552" name="猎户座突击登陆艇" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -4716,7 +4716,7 @@
         <cost name="分" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc85-086f-2a21-9002" name="阿瑞斯炮艇" publicationId="a30a-7522-pubN94931" page="286" hidden="false" collective="false" import="true" type="Unit">
+    <selectionEntry id="dc85-086f-2a21-9002" name="阿瑞斯炮艇" publicationId="a30a-7522-pubN94931" page="286" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="56a6-7db0-83ed-1efa" name="阿瑞斯炮艇" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -6299,7 +6299,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="类型" typeId="5479706523232344415441232323">突击 1, 陷阱, 压制</characteristic>
       </characteristics>
     </profile>
-    <profile id="943e-ce67-f8bb-fed8" name="盾卫队长" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="943e-ce67-f8bb-fed8" name="盾卫队长" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -6334,7 +6334,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 双手, 残忍打击, 决斗者之刃</characteristic>
       </characteristics>
     </profile>
-    <profile id="3f68-d37b-6be9-3cd4" name="湮灭骑士长" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="3f68-d37b-6be9-3cd4" name="湮灭骑士长" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6348,7 +6348,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="c39c-b1bf-bf79-1452" name="陪审员" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="c39c-b1bf-bf79-1452" name="陪审员" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6362,7 +6362,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="58f8-6083-45f3-44e6" name="寂静法官" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="58f8-6083-45f3-44e6" name="寂静法官" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6376,7 +6376,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="cdc5-87f0-cf6d-b250" name="康斯坦丁·瓦尔多" publicationId="a30a-7522-pubN77499" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="cdc5-87f0-cf6d-b250" name="康斯坦丁·瓦尔多" publicationId="a30a-7522-pubN77499" page="" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">7</characteristic>
@@ -6390,7 +6390,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="11c2-8160-f8a0-fa51" name="珍妮塔·科洛勒" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="11c2-8160-f8a0-fa51" name="珍妮塔·科洛勒" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">6</characteristic>
@@ -6404,7 +6404,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="99fd-6a57-9e37-571e" name="禁卫" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="99fd-6a57-9e37-571e" name="禁卫" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6418,7 +6418,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="c75a-ed2c-71e8-996e" name="湮灭骑士" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="c75a-ed2c-71e8-996e" name="湮灭骑士" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6432,7 +6432,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="619b-fd43-fe72-e4dd" name="湮灭骑士大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="619b-fd43-fe72-e4dd" name="湮灭骑士大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6446,7 +6446,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="c131-8798-6ce6-2bcb" name="哨兵卫士" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="c131-8798-6ce6-2bcb" name="哨兵卫士" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6460,7 +6460,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="074e-25bb-c644-f4bc" name="海特阿禁卫" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="074e-25bb-c644-f4bc" name="海特阿禁卫" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6530,7 +6530,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="类型" typeId="5479706523232344415441232323">快速 悬浮 坦克</characteristic>
       </characteristics>
     </profile>
-    <profile id="b2b1-a620-b8da-15a0" name="天鹰终结者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="b2b1-a620-b8da-15a0" name="天鹰终结者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6544,7 +6544,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">2+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0478-968b-221a-4d91" name="揭发者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="0478-968b-221a-4d91" name="揭发者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6558,7 +6558,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="4c13-7e48-ffef-d350" name="揭发者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="4c13-7e48-ffef-d350" name="揭发者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6572,7 +6572,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="84d2-df3c-0971-52b2" name="监视者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="84d2-df3c-0971-52b2" name="监视者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6586,7 +6586,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="516a-af98-8713-2632" name="监视者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="516a-af98-8713-2632" name="监视者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6608,7 +6608,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="类型" typeId="5479706523232344415441232323">重型 4, 双联, 压制</characteristic>
       </characteristics>
     </profile>
-    <profile id="7afd-4f57-4ff4-6545" name="追捕者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="7afd-4f57-4ff4-6545" name="追捕者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6622,7 +6622,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="4c14-8e91-08e2-b6c8" name="追捕者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="4c14-8e91-08e2-b6c8" name="追捕者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6636,7 +6636,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0f2e-5714-931f-e35c" name="机械豺狼" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="0f2e-5714-931f-e35c" name="机械豺狼" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6650,7 +6650,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="b355-edee-f44f-11f3" name="铁爪翼鸟" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="b355-edee-f44f-11f3" name="铁爪翼鸟" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -6669,7 +6669,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">骑手T 值+1(已经包含在数据中),并且可以重掷失败的冲锋骰子.</characteristic>
       </characteristics>
     </profile>
-    <profile id="dcf0-ff9a-7712-e3e1" name="阿伽马图斯" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="dcf0-ff9a-7712-e3e1" name="阿伽马图斯" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷气摩托 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -6693,7 +6693,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="类型" typeId="5479706523232344415441232323">快速, 悬浮</characteristic>
       </characteristics>
     </profile>
-    <profile id="0ee6-f79c-ff88-7773" name="追寻者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="0ee6-f79c-ff88-7773" name="追寻者" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6707,7 +6707,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="d18b-f29b-a2b1-d194" name="追寻者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="d18b-f29b-a2b1-d194" name="追寻者大修女" publicationId="a30a-7522-pubN95872" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6785,7 +6785,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">可以提供3+装甲保护和甲胄羽翼特殊规则</characteristic>
       </characteristics>
     </profile>
-    <profile id="11d9-f1a7-f2de-8ffa" name="维纳塔里" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="11d9-f1a7-f2de-8ffa" name="维纳塔里" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">跳跃步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
