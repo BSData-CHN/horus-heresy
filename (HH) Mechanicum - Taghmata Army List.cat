@@ -1540,7 +1540,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="8aef-4da6-4c2b-543e" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5497-5705-ec24-749d" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="72ad-abe8-94d8-5926" type="selectionEntry">
+    <entryLink id="5497-5705-ec24-749d" name="阿斯特流斯骑士" hidden="false" collective="false" import="true" targetId="56c2-9ab6-52d7-145e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6064-5e57-90fe-9aa9" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
@@ -1688,7 +1688,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1d9f-74bd-40b6-8d34" name="死亡级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="51" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="1d9f-74bd-40b6-8d34" name="死亡级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="51" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="4923232344415441232323" value="3*">
                   <conditions>
@@ -1850,7 +1850,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38db-7bf2-0694-b3f4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="659d-11d2-faad-4259" name="堡星级自动战斗机兵" publicationId="cf03-f607-pubN76270" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="659d-11d2-faad-4259" name="堡星级自动战斗机兵" publicationId="cf03-f607-pubN76270" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="4923232344415441232323" value="4*">
                   <conditions>
@@ -2118,7 +2118,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="867d-a720-a911-50dc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="712d-49a5-7c53-fbc4" name="锯齿蚁级自动战斗机兵" publicationId="cf03-f607-pubN76270" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="712d-49a5-7c53-fbc4" name="锯齿蚁级自动战斗机兵" publicationId="cf03-f607-pubN76270" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="4923232344415441232323" value="5*">
                   <conditions>
@@ -2359,7 +2359,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6541-820d-ace7-de64" name="阿拉塔克斯级自动战斗机兵" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="6541-820d-ace7-de64" name="阿拉塔克斯级自动战斗机兵" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="4923232344415441232323" value="5*">
               <conditions>
@@ -2973,7 +2973,7 @@ Reduces 运输载具 capacity to 8.</description>
             <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6214-d259-f981-fb17" name="海妖自动守卫机兵" publicationId="cf03-f607-pubN80965" page="223" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="6214-d259-f981-fb17" name="海妖自动守卫机兵" publicationId="cf03-f607-pubN80965" page="223" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -3241,7 +3241,7 @@ Reduces 运输载具 capacity to 8.</description>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4aa6-f812-03da-ac4f" name="专家" publicationId="cf03-f607-pubN86172" page="271" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="4aa6-f812-03da-ac4f" name="专家" publicationId="cf03-f607-pubN86172" page="271" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3434,7 +3434,7 @@ Reduces 运输载具 capacity to 8.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="933d-ca0e-934f-a560" name="辅助贤者" publicationId="cf03-f607-pubN76270" page="34" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+                    <profile id="933d-ca0e-934f-a560" name="辅助贤者" publicationId="cf03-f607-pubN76270" page="34" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
                       <characteristics>
                         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4468,7 +4468,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d97-5815-e44b-ef59" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dff2-ef91-c9fb-bcb3" name="枪鹰自动支援机兵" publicationId="cf03-f607-pubN76270" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="dff2-ef91-c9fb-bcb3" name="枪鹰自动支援机兵" publicationId="cf03-f607-pubN76270" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="4923232344415441232323" value="4*">
                   <conditions>
@@ -5368,7 +5368,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b507-b0c9-f365-61fe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="962c-1b0f-11ba-ab3b" name="赛莱克斯" publicationId="cf03-f607-pubN99227" page="290" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="962c-1b0f-11ba-ab3b" name="赛莱克斯" publicationId="cf03-f607-pubN99227" page="290" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -5564,7 +5564,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cc6-3756-885d-1bc4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2c45-82af-770e-2e12" name="科技奴工" publicationId="cf03-f607-pubN76270" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="2c45-82af-770e-2e12" name="科技奴工" publicationId="cf03-f607-pubN76270" page="37" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="4+">
                   <conditions>
@@ -5858,7 +5858,7 @@ D6  结果       S      AP
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2771-37b9-f1c4-793c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0a16-d44e-d1c5-294f" name="阿纳查瑞斯·斯科瑞亚" publicationId="cf03-f607-pubN80487" page="272" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="0a16-d44e-d1c5-294f" name="阿纳查瑞斯·斯科瑞亚" publicationId="cf03-f607-pubN80487" page="272" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5723232344415441232323" value="5*">
               <conditions>
@@ -5986,7 +5986,7 @@ D6  结果       S      AP
     </selectionEntry>
     <selectionEntry id="00f3-1eed-88ff-5c46" name="导航者" publicationId="cf03-f607-pubN102601" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fa77-894f-2c36-3d29" name="导航者" publicationId="cf03-f607-pubN102601" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="fa77-894f-2c36-3d29" name="导航者" publicationId="cf03-f607-pubN102601" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -6084,7 +6084,7 @@ D6  结果       S      AP
     </selectionEntry>
     <selectionEntry id="2f28-034a-ca2c-5b9e" name="乌斯莱克斯小队" publicationId="cf03-f607-pubN76780" page="43" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="47fb-bdfe-8989-9696" name="乌斯莱克斯" publicationId="cf03-f607-pubN76979" page="225" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="47fb-bdfe-8989-9696" name="乌斯莱克斯" publicationId="cf03-f607-pubN76979" page="225" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -6438,7 +6438,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98c2-8f7d-409f-3349" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bfb5-ae03-0ddd-18d3" name="多米塔级自动战斗机兵" publicationId="cf03-f607-pubN80965" page="227" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="bfb5-ae03-0ddd-18d3" name="多米塔级自动战斗机兵" publicationId="cf03-f607-pubN80965" page="227" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="4923232344415441232323" value="4*">
                   <conditions>
@@ -7160,7 +7160,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="156c-1683-0e29-5367" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c20c-9d35-f142-50f5" name="狼蛛哨兵炮台" publicationId="cf03-f607-pubN80892" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="c20c-9d35-f142-50f5" name="狼蛛哨兵炮台" publicationId="cf03-f607-pubN80892" page="44" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">炮兵 (不动)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">-</characteristic>
@@ -7455,7 +7455,7 @@ D6  结果       S      AP
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="28e7-3147-1161-5deb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="51d0-31e2-8fa6-8581" name="统御大贤者" publicationId="cf03-f607-pubN76780" page="75" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="51d0-31e2-8fa6-8581" name="统御大贤者" publicationId="cf03-f607-pubN76780" page="75" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5723232344415441232323" value="4*">
               <conditions>
@@ -7758,7 +7758,7 @@ D6  结果       S      AP
     </selectionEntry>
     <selectionEntry id="93b9-6dc9-3d02-db32" name="死亡-卡莱克斯级自动攻城机兵" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ca31-e06c-7410-8919" name="死亡-卡莱克斯级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="52" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="ca31-e06c-7410-8919" name="死亡-卡莱克斯级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="52" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="4923232344415441232323" value="3*">
               <conditions>
@@ -7938,7 +7938,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32d1-46e4-979e-ca0a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1943-9446-88bf-f4ed" name="死亡-赛尼斯级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="1943-9446-88bf-f4ed" name="死亡-赛尼斯级自动攻城机兵" publicationId="cf03-f607-pubN76270" page="54" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="4923232344415441232323" value="3*">
                   <conditions>
@@ -8092,7 +8092,7 @@ D6  结果       S      AP
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="31cf-e84d-11d3-22fd" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3a6d-c2a2-4a35-88e9" name="赫蒙克鲁斯" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="3a6d-c2a2-4a35-88e9" name="赫蒙克鲁斯" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="4923232344415441232323" value="5*">
               <conditions>
@@ -8222,7 +8222,7 @@ D6  结果       S      AP
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="045d-777e-67ae-c597" type="max"/>
       </constraints>
       <profiles>
-        <profile id="271a-bd31-7c7b-dbff" name="大贤者德拉科维克" publicationId="cf03-f607-pubN99227" page="300" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="271a-bd31-7c7b-dbff" name="大贤者德拉科维克" publicationId="cf03-f607-pubN99227" page="300" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5723232344415441232323" value="4*">
               <conditions>
@@ -8327,7 +8327,7 @@ D6  结果       S      AP
     </selectionEntry>
     <selectionEntry id="7095-280b-9ccc-b7bc" name="大贤者-尹拿·赛特利尔" publicationId="cf03-f607-pubN76780" page="30" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9138-f7a5-41ad-dacb" name="尹拿·赛特利尔" publicationId="cf03-f607-pubN76979" page="216" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="9138-f7a5-41ad-dacb" name="尹拿·赛特利尔" publicationId="cf03-f607-pubN76979" page="216" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -8421,7 +8421,7 @@ D6  结果       S      AP
     </selectionEntry>
     <selectionEntry id="f891-cee8-321e-f159" name="统御贤者" publicationId="cf03-f607-pubN76780" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="594a-289b-a120-b0fe" name="统御贤者" publicationId="cf03-f607-pubN76979" page="218" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="594a-289b-a120-b0fe" name="统御贤者" publicationId="cf03-f607-pubN76979" page="218" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="5423232344415441232323" value="5*">
               <conditions>
@@ -8711,7 +8711,7 @@ D6  结果       S      AP
     </selectionEntry>
     <selectionEntry id="aa74-77f4-7266-36b6" name="首席贤者" publicationId="cf03-f607-pubN76780" page="26-27" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="494b-f6c5-1304-ab14" name="首席贤者" publicationId="cf03-f607-pubN76979" page="214" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="494b-f6c5-1304-ab14" name="首席贤者" publicationId="cf03-f607-pubN76979" page="214" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8769,7 +8769,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5a76-725f-93af-28fe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fa6c-41f2-66df-2115" name="首席大贤者" publicationId="cf03-f607-pubN76979" page="214" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="fa6c-41f2-66df-2115" name="首席大贤者" publicationId="cf03-f607-pubN76979" page="214" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <modifiers>
                 <modifier type="set" field="5423232344415441232323" value="6*">
                   <conditions>
@@ -9250,7 +9250,7 @@ D6  结果       S      AP
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="5376-98b0-610b-fc8f" name="还源贤者" publicationId="cf03-f607-pubN76780" page="82" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="5376-98b0-610b-fc8f" name="还源贤者" publicationId="cf03-f607-pubN76780" page="82" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9281,7 +9281,7 @@ D6  结果       S      AP
             <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e2d5-2e3c-b100-b267" name="还源大贤者" publicationId="cf03-f607-pubN76780" page="82" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="e2d5-2e3c-b100-b267" name="还源大贤者" publicationId="cf03-f607-pubN76780" page="82" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9765,7 +9765,7 @@ Alternatively, instead of firing any weapons in the 射击阶段, the Magos/Arch
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1bd8-a33d-63f8-c779" name="卡勒布·德西马" publicationId="cf03-f607-pubN123006" page="277" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+        <profile id="1bd8-a33d-63f8-c779" name="卡勒布·德西马" publicationId="cf03-f607-pubN123006" page="277" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -9946,7 +9946,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9106-aa7f-2b38-f001" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ead8-11f9-2edd-9b5d" name="毁灭者仆从" publicationId="cf03-f607-pubN76979" page="229" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="ead8-11f9-2edd-9b5d" name="毁灭者仆从" publicationId="cf03-f607-pubN76979" page="229" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10021,7 +10021,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0d8-1333-324c-51c5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2637-d9db-8352-0d8b" name="仆从主" publicationId="cf03-f607-pubN76979" page="229" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="2637-d9db-8352-0d8b" name="仆从主" publicationId="cf03-f607-pubN76979" page="229" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10114,7 +10114,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9229-f60b-abbe-0d98" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7d00-15b4-62fd-3703" name="剑斗士仆从" publicationId="cf03-f607-pubN76979" page="220" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="7d00-15b4-62fd-3703" name="剑斗士仆从" publicationId="cf03-f607-pubN76979" page="220" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10198,7 +10198,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41f1-8c51-5c78-1ac4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d772-2831-9ca7-7de8" name="仆从主" publicationId="cf03-f607-pubN76979" page="220" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="d772-2831-9ca7-7de8" name="仆从主" publicationId="cf03-f607-pubN76979" page="220" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -12087,7 +12087,7 @@ Assault rules unless otherwise noted.</description>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6cf1-b5a6-3045-4c38" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5b08-6ef8-3674-064f" name="赛莱克斯" publicationId="cf03-f607-pubN99227" page="290" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="5b08-6ef8-3674-064f" name="赛莱克斯" publicationId="cf03-f607-pubN99227" page="290" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -13238,7 +13238,7 @@ Assault rules unless otherwise noted.</description>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">1个伺服跟班为其主人增加1点特保(最高增加到3+特保),或者如果其主人没有特保的话则获得6+特保.此外,伺服跟班让主人可以重掷领导力测试和危险地形测试之外的失败属性测试.伺服跟班既可以在模型制作上直接和其主人制作到一起,也可以拥有自己的单独底盘并且和其主人保持连续性,但是其不会被视为游戏意义上的模型,也不会有自己的属性,不会攻击,也不占用运输空间,等等,如果其在游戏中妨碍了战斗进行,移开伺服跟班.</characteristic>
       </characteristics>
     </profile>
-    <profile id="72412ca2-baf9-c015-aa79-27348c37fda2" name="机械观察者" publicationId="cf03-f607-pubN76979" page="207" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+    <profile id="72412ca2-baf9-c015-aa79-27348c37fda2" name="机械观察者" publicationId="cf03-f607-pubN76979" page="207" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">喷射背包步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
@@ -13580,7 +13580,7 @@ Assault rules unless otherwise noted.</description>
         <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 笨重</characteristic>
       </characteristics>
     </profile>
-    <profile id="9458b91c-55d7-ac17-21a3-4235e153b328" name="自动伺服机器" publicationId="cf03-f607-pubN80892" page="23" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+    <profile id="9458b91c-55d7-ac17-21a3-4235e153b328" name="自动伺服机器" publicationId="cf03-f607-pubN80892" page="23" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -13652,7 +13652,7 @@ Assault rules unless otherwise noted.</description>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">探照灯可以在夜战时使用. 如果载具装备了探照灯, 其可以在发射完所有武器后使用探照灯照亮目标,同时也会照亮自己. 效果持续到下一个回合结束,被照亮的单位不会从夜战规则中收益</characteristic>
       </characteristics>
     </profile>
-    <profile id="c1bc-dda3-fb87-e016" name="泰坦禁卫" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+    <profile id="c1bc-dda3-fb87-e016" name="泰坦禁卫" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -13706,7 +13706,7 @@ Assault rules unless otherwise noted.</description>
         <characteristic name="类型" typeId="5479706523232344415441232323">速射, 电磁干扰</characteristic>
       </characteristics>
     </profile>
-    <profile id="f3a4-dac5-1296-0daf" name="泰坦禁卫阿尔法" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+    <profile id="f3a4-dac5-1296-0daf" name="泰坦禁卫阿尔法" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -13827,7 +13827,7 @@ Assault rules unless otherwise noted.</description>
         <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 曲射, 爆炸 (3寸), 血肉杀手, 辐射噬菌体, 忽视掩体, 压制</characteristic>
       </characteristics>
     </profile>
-    <profile id="1afc-05fd-8a16-4567" name="泰坦禁卫总督" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+    <profile id="1afc-05fd-8a16-4567" name="泰坦禁卫总督" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
       <characteristics>
         <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
