@@ -11765,7 +11765,7 @@ Assault rules unless otherwise noted.</description>
         <cost name="分" typeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48cf-f73d-a3c0-e911" name="Macharius" publicationId="cf03-f607-pubN134767" page="229" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="48cf-f73d-a3c0-e911" name="马卡里乌斯" publicationId="cf03-f607-pubN134767" page="229" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="5a78-9752-23ee-6dc2" name="马卡里乌斯" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
@@ -12631,9 +12631,9 @@ Assault rules unless otherwise noted.</description>
         <cost name="分" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe5b-01ec-07b2-48ba" name="Macharius Omega" publicationId="2369-0496-8060-eda3" page="35" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fe5b-01ec-07b2-48ba" name="马卡里乌斯欧米茄" publicationId="2369-0496-8060-eda3" page="35" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2088-be7e-84ab-0097" name="Macharius Omega" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+        <profile id="2088-be7e-84ab-0097" name="马卡里乌斯欧米茄" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
             <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
             <characteristic name="前" typeId="46726f6e7423232344415441232323">14</characteristic>
@@ -12674,8 +12674,11 @@ Assault rules unless otherwise noted.</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="46e8-4758-f822-2b41" name="Meltdown" publicationId="2369-0496-8060-eda3" page="135" hidden="false">
-              <description>Roll 1D6 for each shot fired by the weapon with the meltdown rule. on the roll of a 1, the vehicle suffers D3 glancing hits. If the vehicle is permitted to reroll, only a subsequent result of a 1 will cause this damage.</description>
+            <rule id="46e8-4758-f822-2b41" name="熔毁" publicationId="2369-0496-8060-eda3" page="135" hidden="false">
+              <description>Roll 1D6 for each shot fired by the weapon with the meltdown rule. on the roll of a 1, the vehicle suffers D3 glancing hits. If the vehicle is permitted to reroll, only a subsequent result of a 1 will cause this damage.
+
+
+</description>
             </rule>
           </rules>
           <infoLinks>
@@ -12687,12 +12690,12 @@ Assault rules unless otherwise noted.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cd90-33e8-9153-6fbb" name="May take any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cd90-33e8-9153-6fbb" name="可以选择任何:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1813-2081-24bd-3029" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="96a9-ad18-8c53-ee52" name="Hunter-killer Missile" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="96a9-ad18-8c53-ee52" name="猎杀导弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4d5-cede-9480-b9b4" type="max"/>
               </constraints>
@@ -12702,12 +12705,12 @@ Assault rules unless otherwise noted.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="db54-45bc-097e-91c0" name="Sponson-mounted Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="db54-45bc-097e-91c0" name="侧弦武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="554d-96ea-815e-bce1" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7ae6-c5c4-9e3c-774a" name="2x Heavy Bolters" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7ae6-c5c4-9e3c-774a" name="2x 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21d5-a47d-9869-b35d" type="max"/>
               </constraints>
@@ -12715,7 +12718,7 @@ Assault rules unless otherwise noted.</description>
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1c3c-a85b-910b-8730" name="2x Heavy Flamers" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1c3c-a85b-910b-8730" name="2x 重喷火" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1b3-ebab-ea77-ae3e" type="max"/>
               </constraints>
@@ -12723,7 +12726,7 @@ Assault rules unless otherwise noted.</description>
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ab67-36ed-bc2a-3a74" name="2x Autocannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ab67-36ed-bc2a-3a74" name="2x 自动炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3c0-5339-2f14-ce74" type="max"/>
               </constraints>
