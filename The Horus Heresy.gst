@@ -5953,7 +5953,7 @@ Please let us know what worked well as a part of these rules and also what could
         <cost name="分" typeId="points" value="540.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8221-a45d-16b8-2dcf" name="恶魔或外星人" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8221-a45d-16b8-2dcf" name="外星人或恶魔" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
