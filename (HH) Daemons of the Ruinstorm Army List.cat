@@ -1949,9 +1949,9 @@
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68ed-20b5-1aab-f3e4" name="火神炮" publicationId="8700-b3bb-pubN75780" page="177" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="68ed-20b5-1aab-f3e4" name="转管炮" publicationId="8700-b3bb-pubN75780" page="177" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2ff9-234e-e445-e051" name="火神炮" publicationId="8700-b3bb-pubN75780" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+        <profile id="2ff9-234e-e445-e051" name="转管炮" publicationId="8700-b3bb-pubN75780" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
           <characteristics>
             <characteristic name="射程" typeId="52616e676523232344415441232323">30寸</characteristic>
             <characteristic name="S" typeId="537472656e67746823232344415441232323">3</characteristic>
@@ -2055,7 +2055,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="1a26-d078-edb8-8f9b" name="重机枪" hidden="false" collective="false" import="true" targetId="bb27-c2f2-7d8d-4400" type="selectionEntry"/>
-            <entryLink id="80b9-33c0-85e4-aa5f" name="Rotor Cannon" hidden="false" collective="false" import="true" targetId="68ed-20b5-1aab-f3e4" type="selectionEntry"/>
+            <entryLink id="80b9-33c0-85e4-aa5f" name="转管炮" hidden="false" collective="false" import="true" targetId="68ed-20b5-1aab-f3e4" type="selectionEntry"/>
             <entryLink id="f02f-5915-32f3-f01b" name="Flamer" hidden="false" collective="false" import="true" targetId="7867-8570-aa83-08ea" type="selectionEntry"/>
             <entryLink id="8663-007e-8b54-2f70" name="Plasma gun" hidden="false" collective="false" import="true" targetId="6732-7335-4e43-ab38" type="selectionEntry"/>
             <entryLink id="60b6-df89-51fe-32b3" name="热熔 Gun" hidden="false" collective="false" import="true" targetId="7bc1-bde8-2057-25dd" type="selectionEntry"/>

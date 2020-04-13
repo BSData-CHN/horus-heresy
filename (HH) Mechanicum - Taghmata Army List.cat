@@ -1729,15 +1729,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e533-1ddc-f9a5-c50c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c198-6c5b-f862-32c7" name="Hellex Plasma Mortar (Fired on the move)" publicationId="cf03-f607-pubN76979" page="227" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="c198-6c5b-f862-32c7" name="海莱克斯等离子迫击炮 (移动后射击)" publicationId="cf03-f607-pubN76979" page="227" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">12&quot; - 24&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">12寸 - 24寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Ordnance 1, Barrage, Large Blast, Plasma Wave</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重炮 1, 曲射, 大爆炸, 等离子冲击波</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="08f8-f3c9-5041-1841" name="Hellex Plasma Mortar (Stationary)" publicationId="cf03-f607-pubN76979" page="227" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="08f8-f3c9-5041-1841" name="海莱克斯等离子迫击炮 (静止)" publicationId="cf03-f607-pubN76979" page="227" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">12寸 - 48寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -2141,7 +2141,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="1b52-8c7c-83a4-64a9" name="2火神炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b52-8c7c-83a4-64a9" name="2转管炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78a2-15ad-9505-6d4f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d184-3263-bd4e-5f9b" type="min"/>
@@ -2299,7 +2299,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6ea4-be19-165b-5df5" name="火神炮可以装填:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6ea4-be19-165b-5df5" name="转管炮可以装填:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="3c66-f02d-af81-ecfe" name="生化弹药" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2443,26 +2443,26 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f417-d8e1-4904-7bee" name="Arlatax Power Claw With Inbuilt Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f417-d8e1-4904-7bee" name="阿拉塔克斯动力爪附加内装炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2029-79ee-6806-57fb" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="635a-2106-8c48-c295" type="min"/>
               </constraints>
               <profiles>
-                <profile id="199d-d861-0d5c-f68c" name="Arlatax Power Claw" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="199d-d861-0d5c-f68c" name="阿拉塔克斯动力爪" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">+2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Shred</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 撕碎</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="e1d8-2042-2389-7ec7" name="Inbuilt Cannon" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="e1d8-2042-2389-7ec7" name="内装炮" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">24寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Assault 3</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">突击 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2941,7 +2941,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e7b97c8-732a-74fa-6bf2-de2e1f747483" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0e7b97c8-732a-74fa-6bf2-de2e1f747483" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -3130,7 +3130,7 @@ Reduces 运输载具 capacity to 8.</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="83b9-0cc1-a8d6-f06e" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="83b9-0cc1-a8d6-f06e" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -3563,7 +3563,7 @@ Reduces 运输载具 capacity to 8.</description>
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1185-a6fb-5bae-102c" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1185-a6fb-5bae-102c" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -7302,7 +7302,7 @@ D6  结果       S      AP
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="81df-4b4a-dacc-c08a" name="2双联火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="81df-4b4a-dacc-c08a" name="2双联转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="daa2-bf3b-a859-511b" type="max"/>
               </constraints>
@@ -7664,7 +7664,7 @@ D6  结果       S      AP
                 <cost name="分" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fb44-a5f1-334c-318d" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fb44-a5f1-334c-318d" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f085-b869-fa6d-95de" type="max"/>
               </constraints>
@@ -8005,7 +8005,7 @@ D6  结果       S      AP
               <profiles>
                 <profile id="b94c-5adf-ff38-37fd" name="Cynis Pattern Plasma Injector" publicationId="cf03-f607-pubN80965" page="226" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">18&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">18寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 2, Blast, Plasma Wave, Gets Hot</characteristic>
@@ -8182,26 +8182,26 @@ D6  结果       S      AP
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5ce6-52fe-f0b0-fd72" name="Arlatax Power Claw With Inbuilt Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5ce6-52fe-f0b0-fd72" name="阿拉塔克斯动力爪附加内装炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b174-164b-23b2-d317" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556d-884d-fd3d-3f99" type="min"/>
               </constraints>
               <profiles>
-                <profile id="34dc-4482-9dd8-355a" name="Arlatax Power Claw" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="34dc-4482-9dd8-355a" name="阿拉塔克斯动力爪" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">+2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Melee, Shred</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 撕碎</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="4f4d-822c-cbee-eca5" name="Inbuilt Cannon" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="4f4d-822c-cbee-eca5" name="内装炮" publicationId="cf03-f607-pubN80487" page="274" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">24寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">Assault 3</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">突击 3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8617,7 +8617,7 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c3c-6f40-095c-a9b9" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3e77-139c-318c-aaa3" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3e77-139c-318c-aaa3" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f7f-863b-ad5e-99d0" type="max"/>
               </constraints>
@@ -8964,12 +8964,12 @@ D6  结果       S      AP
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce45-98e3-9c90-0cbc" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0edb-6d28-ddb7-b30f" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0edb-6d28-ddb7-b30f" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="945f-3dec-2e0f-f9ac" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="ca0e-a5d1-6e93-6f95" name="Rotor Cannon" hidden="false" targetId="75683330-6490-c0bf-560c-2e58617425a1" type="profile"/>
+                <infoLink id="ca0e-a5d1-6e93-6f95" name="转管炮" hidden="false" targetId="75683330-6490-c0bf-560c-2e58617425a1" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="10.0"/>
@@ -9894,7 +9894,7 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
                     <cost name="分" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fe16-5051-82fd-0cf9" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="fe16-5051-82fd-0cf9" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0151-7f85-c979-f4ce" type="max"/>
                   </constraints>
@@ -12650,39 +12650,36 @@ Assault rules unless otherwise noted.</description>
         <categoryLink id="c16d-a6d7-aeef-555e" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b8c4-869f-dcfa-bc6a" name="Omega Pattern Plasma Blastgun" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b8c4-869f-dcfa-bc6a" name="欧米茄型等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3a8-ec97-b841-d955" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91f7-3bde-fe7c-5279" type="max"/>
           </constraints>
           <profiles>
-            <profile id="925d-a089-b207-4755" name="Omega Pattern Plasma Blastgun (Maximal)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="925d-a089-b207-4755" name="欧米茄型等离子爆裂枪 (最大功率)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
               <characteristics>
-                <characteristic name="射程" typeId="52616e676523232344415441232323">72&quot;</characteristic>
+                <characteristic name="射程" typeId="52616e676523232344415441232323">72寸</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                <characteristic name="类型" typeId="5479706523232344415441232323">Primary Weapon 1, Massive Blast (7&quot;), Meltdown</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">主武器 1, 巨大爆炸 (7寸), 熔毁</characteristic>
               </characteristics>
             </profile>
-            <profile id="199e-5fa3-75e5-8f7f" name="Omega Pattern Plasma Blastgun (Pulsed Bolts)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="199e-5fa3-75e5-8f7f" name="欧米茄型等离子爆裂枪 (等离子脉冲)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
               <characteristics>
-                <characteristic name="射程" typeId="52616e676523232344415441232323">60&quot;</characteristic>
+                <characteristic name="射程" typeId="52616e676523232344415441232323">60寸</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                <characteristic name="类型" typeId="5479706523232344415441232323">Primary Weapon 3, Large Blast</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">主武器 3, 大爆炸</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
             <rule id="46e8-4758-f822-2b41" name="熔毁" publicationId="2369-0496-8060-eda3" page="135" hidden="false">
-              <description>Roll 1D6 for each shot fired by the weapon with the meltdown rule. on the roll of a 1, the vehicle suffers D3 glancing hits. If the vehicle is permitted to reroll, only a subsequent result of a 1 will cause this damage.
-
-
-</description>
+              <description>每次发射时投掷1D6. 结果为1时, 载具受到D3点擦伤. 如果载具允许重投, 则重投后为1仍会造成此伤害.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="ad0f-0cbd-23b7-65dc" name="Primary Weapon" hidden="false" targetId="e64b-54b8-34df-2f13" type="rule"/>
+            <infoLink id="ad0f-0cbd-23b7-65dc" name="主武器" hidden="false" targetId="e64b-54b8-34df-2f13" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -13567,7 +13564,7 @@ Assault rules unless otherwise noted.</description>
         <characteristic name="类型" typeId="5479706523232344415441232323">肉搏</characteristic>
       </characteristics>
     </profile>
-    <profile id="75683330-6490-c0bf-560c-2e58617425a1" name="火神炮" publicationId="cf03-f607-pubN80892" page="85" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="75683330-6490-c0bf-560c-2e58617425a1" name="转管炮" publicationId="cf03-f607-pubN80892" page="85" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">30寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">3</characteristic>

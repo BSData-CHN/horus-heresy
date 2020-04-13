@@ -536,7 +536,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="1b52-8c7c-83a4-64a9" name="2火神炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b52-8c7c-83a4-64a9" name="2转管炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78a2-15ad-9505-6d4f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d184-3263-bd4e-5f9b" type="min"/>
@@ -696,7 +696,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntryGroup>
         <selectionEntryGroup id="6ea4-be19-165b-5df5" name="小队可以升级:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="3c66-f02d-af81-ecfe" name="火神炮装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3c66-f02d-af81-ecfe" name="转管炮装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="10.0">
                   <repeats>

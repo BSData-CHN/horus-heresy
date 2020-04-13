@@ -1486,7 +1486,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               <profiles>
                 <profile id="a87f-f6ed-2055-4789" name="自动炮" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 2</characteristic>
@@ -1504,7 +1504,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               <profiles>
                 <profile id="1d62-533d-fbdb-8246" name="激光炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1</characteristic>
@@ -1533,7 +1533,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               <profiles>
                 <profile id="8ea2-91e7-683f-c591" name="激光炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1</characteristic>
@@ -1551,7 +1551,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               <profiles>
                 <profile id="b4a0-d11a-59ea-0b19" name="自动炮" publicationId="ca571888--pubN106502" page="176" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 2</characteristic>
@@ -3534,10 +3534,10 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                   <profiles>
                     <profile id="1df7-c0ca-474f-e99d" name="四联多管激光" publicationId="7f243fc5--pubN74753" page="247" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                       <characteristics>
-                        <characteristic name="射程" typeId="52616e676523232344415441232323">36&quot;</characteristic>
+                        <characteristic name="射程" typeId="52616e676523232344415441232323">36寸</characteristic>
                         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                         <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
-                        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 6, Twin-linked</characteristic>
+                        <characteristic name="类型" typeId="5479706523232344415441232323">Heavy 6, 双联</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4305,7 +4305,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                 <entryLink id="a234-b0d6-96c1-f05b" name="手雷 Launcher" hidden="false" collective="false" import="true" targetId="3ab5-42de-eaeb-6d7a" type="selectionEntry"/>
                 <entryLink id="a2f3-7adf-845c-ac4f" name="Meltagun" hidden="false" collective="false" import="true" targetId="687f-bba3-f494-5ace" type="selectionEntry"/>
                 <entryLink id="53da-6642-ad4d-35fe" name="Plasma gun" hidden="false" collective="false" import="true" targetId="5ffd-a071-f6f8-077d" type="selectionEntry"/>
-                <entryLink id="410c-b737-b4c2-d357" name="Rotor Cannon" hidden="false" collective="false" import="true" targetId="3bcf-e9bb-37e5-737c" type="selectionEntry"/>
+                <entryLink id="410c-b737-b4c2-d357" name="转管炮" hidden="false" collective="false" import="true" targetId="3bcf-e9bb-37e5-737c" type="selectionEntry"/>
                 <entryLink id="dda0-16d3-2001-2cfb" name="爆燃枪" hidden="false" collective="false" import="true" targetId="ac42-b184-e3fe-a554" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -4850,7 +4850,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="741a-8c49-ad25-8809" name="火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="741a-8c49-ad25-8809" name="转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="960a-6e07-22bb-ae0c" type="max"/>
               </constraints>
@@ -5142,7 +5142,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2ff-b46b-96c8-1b6b" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="0908-ae9b-bb93-e579" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0908-ae9b-bb93-e579" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -5190,7 +5190,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0b2-7133-2569-c5a3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="43f4-695d-4eaa-84e3" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="43f4-695d-4eaa-84e3" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="028b-374c-7784-2a1a" type="max"/>
               </constraints>
@@ -6024,7 +6024,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ae2c-7067-5c8e-15d8" name="2双联火神炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ae2c-7067-5c8e-15d8" name="2双联转管炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9b52-d310-8ae2-bd9d" type="max"/>
               </constraints>
@@ -6042,7 +6042,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               <profiles>
                 <profile id="6ee7-f565-b1a7-95b5" name="激光炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1</characteristic>
@@ -6060,7 +6060,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
               <profiles>
                 <profile id="9b69-bfb3-cb51-7781" name="多管热熔" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+                    <characteristic name="射程" typeId="52616e676523232344415441232323">24寸</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 热熔</characteristic>
@@ -7272,7 +7272,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f697-717c-99cc-d6a4" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="09a0-2517-bdd4-a711" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="09a0-2517-bdd4-a711" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -7393,9 +7393,9 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d259-696e-8f7d-2b72" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9030-d814-2868-3190" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9030-d814-2868-3190" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="20d4-e4c8-6169-a724" name="Rotor Cannon" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
+                <infoLink id="20d4-e4c8-6169-a724" name="转管炮" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -7615,7 +7615,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
         <cost name="分" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3bcf-e9bb-37e5-737c" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3bcf-e9bb-37e5-737c" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="25ac-aeb2-90b6-f61e" name="" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
       </infoLinks>

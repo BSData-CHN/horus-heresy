@@ -4608,12 +4608,12 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <cost name="分" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1a1d-f649-740c-f12d" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="1a1d-f649-740c-f12d" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="600f-fbc2-339b-2a02" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="c4d9-7ee3-cc6e-67c1" name="Rotor Cannon" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
+                    <infoLink id="c4d9-7ee3-cc6e-67c1" name="转管炮" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="分" typeId="points" value="10.0"/>
@@ -6488,12 +6488,12 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                         <cost name="分" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="f8bd-f2b9-46eb-f325" name="火神炮" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="f8bd-f2b9-46eb-f325" name="转管炮" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19aa-ca1a-a53d-37f1" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="0550-f7ee-37e7-9659" name="Rotor Cannon" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
+                        <infoLink id="0550-f7ee-37e7-9659" name="转管炮" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="分" typeId="points" value="10.0"/>
