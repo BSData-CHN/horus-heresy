@@ -3712,7 +3712,7 @@ Reduces 运输载具 capacity to 8.</description>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae94-81c7-edf1-b10d" name="Secutarii war plate" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ae94-81c7-edf1-b10d" name="泰坦禁卫战斗平台" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ade6-4de9-8b67-e70b" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6849-0171-0759-ce49" type="max"/>
