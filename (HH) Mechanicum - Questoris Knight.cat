@@ -132,6 +132,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac7f-e6e4-68f0-b12e" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="9e58-4f4e-5579-cb58" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

@@ -134,6 +134,12 @@
             <constraint field="selections" scope="力场" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b17-14e3-06d0-b4e5" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="9a9e-2506-87df-9e8b" name="Aliens and Daemons" hidden="false" targetId="cd09-c1c6-237a-798e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca3f-8481-537f-9e51" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3860-8976-dc6a-71f1" type="min"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
