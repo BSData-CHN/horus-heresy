@@ -188,6 +188,16 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="cd09-c1c6-237a-798e" name="外星人或恶魔" hidden="false"/>
+    <categoryEntry id="dbe0-716f-797c-66f7" name="Mournival Rules" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7247-ee03-101e-7845" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd42-e9a9-8fd1-2d3a" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="0617-4e0c-126d-17f3" name="Mournival Centurion Restricted Unit" hidden="false"/>
+    <categoryEntry id="f810-2708-088d-9099" name="Mournival Centurion Restricted 2K 0-1" hidden="false"/>
+    <categoryEntry id="a684-3954-1c52-f1a5" name="Mournival Centurion Unavailble" hidden="false"/>
+    <categoryEntry id="c00c-5a5c-3d86-f5a5" name="Mournival Centurion Unrestricted" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="61f7-09c7-326c-8c49" name="自由组军" hidden="true">
@@ -5955,6 +5965,11 @@ Please let us know what worked well as a part of these rules and also what could
     </selectionEntry>
     <selectionEntry id="8221-a45d-16b8-2dcf" name="外星人或恶魔" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c859-6b16-c533-7e97" name="Mornival Rules Active" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6481,7 +6496,19 @@ Command Benefits:
             <infoLink id="bebb-6a55-729a-17f8" name="占卜扫描仪" hidden="false" targetId="376f-adc9-b9bf-7fc9" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="分" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d533-1276-39ec-2ba4" name="Combi-Bolter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a6-fbb6-8bb4-0d6c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="70fb-8fd5-0acd-8b4b" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+            <infoLink id="9c0b-06fe-b109-4706" name="Combi-bolter" hidden="false" targetId="8546-d0ac-17ab-252a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
