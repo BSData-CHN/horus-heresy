@@ -1617,7 +1617,7 @@ D6    结果  S AP
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6c7c-ed04-aa17-16c0" name="New InfoLink" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
+        <infoLink id="6c7c-ed04-aa17-16c0" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
@@ -5965,7 +5965,7 @@ Please let us know what worked well as a part of these rules and also what could
     </selectionEntry>
     <selectionEntry id="8221-a45d-16b8-2dcf" name="外星人或恶魔" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c859-6b16-c533-7e97" name="Mornival Rules Active" hidden="false" collective="false" import="true" type="upgrade">
@@ -6469,12 +6469,12 @@ Command Benefits:
         </selectionEntry>
         <selectionEntry id="0267-083e-86de-3c0f" name="Breaching Charge" publicationId="ca571888--pubN99753" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e110-b880-2490-0e12" name="Breacher Charge" publicationId="ca571888--pubN82424" page="86" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+            <profile id="e110-b880-2490-0e12" name="Breacher Charge" publicationId="ca571888--pubN82424" page="86" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
               <characteristics>
-                <characteristic name="Range" typeId="52616e676523232344415441232323">Special</characteristic>
-                <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                <characteristic name="射程" typeId="52616e676523232344415441232323">Special</characteristic>
+                <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                <characteristic name="Type" typeId="5479706523232344415441232323">Melee, One Use, Blast, Wrecker</characteristic>
+                <characteristic name="类型" typeId="5479706523232344415441232323">Melee, One Use, Blast, Wrecker</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6496,7 +6496,7 @@ Command Benefits:
             <infoLink id="bebb-6a55-729a-17f8" name="占卜扫描仪" hidden="false" targetId="376f-adc9-b9bf-7fc9" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="分" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d533-1276-39ec-2ba4" name="Combi-Bolter" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -6508,7 +6508,7 @@ Command Benefits:
             <infoLink id="9c0b-06fe-b109-4706" name="Combi-bolter" hidden="false" targetId="8546-d0ac-17ab-252a" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8556,7 +8556,8 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
         <characteristic name="类型" typeId="5479706523232344415441232323">齐射 3/4, 毒伤(4+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="6474-3d3e-de26-3e9f" name="Rad/irad Cleanser" publicationId="ca571888--pubN66489" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="6474-3d3e-de26-3e9f" name="辐射清除者" publicationId="ca571888--pubN66489" page="115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Rad/irad Cleanser</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">喷射盖板</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
