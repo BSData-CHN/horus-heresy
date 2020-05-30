@@ -6499,13 +6499,14 @@ Command Benefits:
             <cost name="分" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d533-1276-39ec-2ba4" name="Combi-Bolter" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d533-1276-39ec-2ba4" name="复合爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Combi-Bolter</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a6-fbb6-8bb4-0d6c" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="70fb-8fd5-0acd-8b4b" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
-            <infoLink id="9c0b-06fe-b109-4706" name="Combi-bolter" hidden="false" targetId="8546-d0ac-17ab-252a" type="profile"/>
+            <infoLink id="9c0b-06fe-b109-4706" name="复合爆弹" hidden="false" targetId="8546-d0ac-17ab-252a" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -7059,8 +7060,10 @@ Command Benefits:
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="7680-1e85-7395-a689" name="灵能秘宝" publicationId="ca571888--pubN103311" page="Malevolence" hidden="false" collective="false" import="true">
+      <comment>Psyarkana</comment>
       <selectionEntries>
         <selectionEntry id="3d1a-59f3-ca2e-8ded" name="虚无放大项圈" publicationId="ca571888--pubN103311" page="301" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Null-Amp Collars</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3d7b-b723-fe91-659d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d421-c7f1-edd7-3377" type="max"/>
@@ -7077,6 +7080,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="81d0-ac34-007e-570b" name="九天长矛" publicationId="ca571888--pubN103311" page="301" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Empyreal Lances</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a30b-2040-0ed4-d784" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="82f4-ae22-3d38-823b" type="max"/>
@@ -7104,6 +7108,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="e78c-d1a1-c20f-dae8" name="死灵科技武装" publicationId="ca571888--pubN103311" page="301" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Armatus Necrotechnica</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19d0-486a-81c9-c2c9" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c14-fc26-4ba9-2c7e" type="max"/>
@@ -7120,6 +7125,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="d761-15dd-7631-ba0d" name="镜像躯体" publicationId="ca571888--pubN103311" page="303" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Corpus Mymir</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8685-10dc-a8bb-ffb4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a864-37d6-f297-89b1" type="max"/>
@@ -7148,6 +7154,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="199f-821c-598a-c660" name="灵能共鸣纹章" publicationId="ca571888--pubN103311" page="303" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Psi-resonant Pentacles</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8353-ff1f-41d1-ebbb" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e0c-bb16-4174-9cae" type="max"/>
@@ -7164,6 +7171,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="f162-9d1e-ca8d-d5f6" name="千变万化之公理" publicationId="ca571888--pubN103311" page="303" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>The Ever-changing Axiom</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2687-bd5d-b1c2-f697" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a42-ba40-3f9a-ec6c" type="max"/>
@@ -7186,6 +7194,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="5476-e8db-b6b0-4a1e" name="转移矢量发生器" publicationId="ca571888--pubN103311" page="304" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Tansvectic Generators</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f2a-cae1-800f-f177" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="12a1-7d06-e703-7dc2" type="max"/>
@@ -7202,6 +7211,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="37fa-ba85-8a35-8977" name="以太能量发射器" publicationId="ca571888--pubN103311" page="304" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Aetherkine Projectors</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c395-8b57-0cfa-675b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ab-22b8-3bb3-7bb1" type="max"/>
@@ -7255,6 +7265,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="66e2-6760-fb6a-edc3" name="临界清醒注射器" publicationId="ca571888--pubN103311" page="305" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Terminal Lucidity Injectors</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df75-0094-c7b0-3dc7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d005-1cc2-4ec1-c489" type="max"/>
@@ -7275,6 +7286,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="963d-b106-c967-8ba6" name="共情链接" publicationId="ca571888--pubN103311" page="305" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Empath Bonds</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9dc-8bac-5e29-bc4a" type="max"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c3f4-04b6-ca1c-f585" type="max"/>
@@ -7291,6 +7303,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="d062-ccde-3885-8157" name="神经献祭" publicationId="ca571888--pubN103311" page="306" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Sacrificial Innervation</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7de7-bec5-1f64-f21a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="000d-303a-e0a9-b5b2" type="max"/>
@@ -7307,6 +7320,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="21a0-14df-d719-e116" name="数字奥能护符" publicationId="ca571888--pubN103311" page="306" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>The Digittalis Arcanis</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eda-f9d5-4dc1-cefd" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b2c7-a2cf-94ce-227c" type="max"/>
@@ -7323,6 +7337,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="84c4-786f-c3c8-a450" name="神圣之刃" publicationId="ca571888--pubN103311" page="306" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Divining Blades</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5cda-25b2-9e6e-f04b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f71e-38b3-811c-076a" type="max"/>
@@ -7348,6 +7363,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="a488-91dd-a866-5fe0" name="乔戈里安恐惧之甲" publicationId="ca571888--pubN103311" page="307" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Chogorian Dreadplate</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4e7-4ed7-0224-51ef" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ab-c874-a834-5807" type="max"/>
@@ -7364,6 +7380,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="49dd-55d6-fa07-8cb5" name="黑魔法之书" publicationId="ca571888--pubN103311" page="307" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>The Liber Magra Veneficarum</comment>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74c1-b6c7-45e1-0c70" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0fa-2229-1501-9310" type="max"/>
@@ -7380,6 +7397,7 @@ Command Benefits:
           </costs>
         </selectionEntry>
         <selectionEntry id="b2fe-de24-0c45-9b4d" name="烈日圣像" publicationId="ca571888--pubN103311" page="307" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Icon of the Blazing Sun</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d89-4f2d-91dd-5450" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fabb-becc-0d5a-548d" type="max"/>
@@ -7450,9 +7468,47 @@ Command Benefits:
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5342-bf92-d6c0-ebb9" name="打带跑" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Hit and Run
+A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
+
+If the test is failed, nothing happens and the models remain locked in the fight.
+
+If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&amp;quot; away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6&amp;quot;.
+
+A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&amp;quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</comment>
       <description>至少包含1个该规则模型的单位被锁入肉搏后可以选择在任何突袭阶段结束时离开肉搏.这样做的单位必须做1次敏锐性测试.如果测试通过,选择1个方向并投3D6,若结果足够整个单位移动到距离任何敌模型1寸以上,这个单位便从肉搏中脱离并且立即移动刚才投出的3D6寸,忽略与它们锁入肉搏的单位,也不会被扫荡打击.不再被锁入肉搏的敌军单位立即重整D6寸.这种移动不会被困难地形拖慢,但是会受危险地形的影响.它不能被利用来和敌军接触.如果双方单位都有这条规则,那么通过拼骰来决定谁先走,然后轮流把模型脱离战斗.如果最后单位不再处于肉搏中,则立即重整.</description>
     </rule>
     <rule id="d219-2314-4834-c054" name="深度打击" publicationId="ca571888--pubN106502" page="162" hidden="false">
+      <comment>Deep Strike
+In order for a unit to be able to Deep Strike, all models in the unit must have the Deep Strike special rule and the unit must start the game in Reserve. When placing the unit in Reserve, you must tell your opponent that it will be arriving by Deep Strike (sometimes called Deep Strike Reserve). Some units must arrive by Deep Strike. They always begin the game in Reserve and always arrive by Deep Strike.
+
+Arriving by Deep Strike
+Roll for the arrival of all Deep Striking units as specified in the rules for Reserves and then deploy them as follows:
+• First, place one model from the unit anywhere on the table, in the position where you would like it to arrive, and roll for scatter to determine the model’s final position. If a vehicle scatters when arriving via Deep Strike, do not change its facing – it must continue to face the same direction as it did before you rolled for scatter.
+• Next, the unit’s remaining models are arranged around the first one. Models must be placed in base contact with the first model and begin to form a circle around it. When the first circle is complete, a further concentric circle must be placed with each model touching the circle inside it. Each circle must include as many models as will fit.
+• Models deploying via Deep Strike treat all difficult terrain as dangerous terrain.
+In the Movement phase during which they arrive, Deep Striking units may not move any further, other than to disembark from a Deep Striking Transport vehicle if they are in one.
+Units Deep Striking into ruins are placed on the ground floor. Deep Striking units count non-ruined buildings (except for their battlements) as impassable terrain.
+In that turn’s Shooting phase, these units can fire (or Run, Turbo-boost or move Flat Out) as normal, and count as having moved in the previous Movement phase. Vehicles, except for Walkers, count as having moved at Combat Speed (even Immobilised vehicles). This can affect the number of weapons they can fire with their full Ballistic Skill.
+In that turn’s Assault phase, however, these units cannot charge. This also applies to units that have disembarked from Transports that arrived by Deep Strike that turn.
+
+Deep Strike and Transports
+Units do not confer the Deep Strike special rule onto a Transport vehicle they are embarked inside. A Transport vehicle with Deep Strike may Deep Strike regardless of whether its passengers have Deep Strike or not.
+
+Deep Strike Mishaps
+Deep Striking onto a crowded battlefield can be dangerous, as one may miss the intended objective or even materialise inside solid rock! If any of the models in a Deep Striking unit cannot be deployed, because at least one model would land partially or fully off the table, in impassable terrain, on top of a friendly model, or on top of or within 1&amp;quot; of an enemy model, something has gone wrong. The controlling player must roll on the Deep Strike Mishap table and apply the results. If the unfortunate unit is also a Transport, the Deep Strike Mishap result applies to both the unit and anything embarked within it.
+
+
+Deep Strike Mishap Table
+D6 - Effect
+1 - Terrible Accident! Teleporting units are lost in the Warp, deep striking jump units are shot down, or some other suitably dramatic event occurs.
+The entire unit is destroyed!
+
+2-3 - Misplaced. The coordinates were inaccurate or the enemy has jammed your instruments.
+Your opponent may deploy the unit anywhere on the table (excluding impassable terrain, but including difficult terrain, which of course counts as dangerous for Deep Striking units), in a valid Deep Strike formation, but without rolling for scatter. Units embarked on a misplaced Transport can disembark during their Movement phase as normal.
+
+4-6 - Delayed. Because of mechanical failure or enemy action, the reinforcements are delayed.
+The unit is placed in Ongoing Reserves.</comment>
       <description>
 单位中所有模型都要有深入打击规则,并且游戏开始时在预备队中,才能进行深入打击,并且要告知对手你的预备队中哪个单位是准备进行深入打击.有些单位必须深入打击,这种单位(及可能运载其中的单位)不计入预备队总上限之中.
 并且这种必须深入打击的单位(比如空投仓)在一些禁止预备队的特殊任务中也能正常进行深入打击,忽视特殊任务的限制.
@@ -7471,135 +7527,261 @@ Command Benefits:
       </description>
     </rule>
     <rule id="988c-d4d0-9418-1165" name="暴怒" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Rage
+In a turn in which a model with this special rule charges into combat, it gains +2 Attacks for charging, rather than +1. A model that has made a disordered charge that turn receives no benefit from Rage.</comment>
       <description>模型发起冲锋时A+2,散乱冲锋时无效</description>
     </rule>
     <rule id="e6e1-afb0-377d-27a8" name="熟练骑手" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Skilled Rider
+A unit that contains at least one model with this special rule automatically passes Dangerous Terrain tests, and receives +1 to its Jink cover saves (other cover saves are unaffected).</comment>
       <description>至少拥有1个该规则模型的单位自动通过危险地形测试.此外这个单位因为闪避规则获得的掩体保护+1</description>
     </rule>
     <rule id="fe2f-3220-3fef-b177" name="攻城拔寨" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Wrecker
+Attacks with this special rule may re-roll failed armour penetration rolls against fortifications and immobile structures and add +1 to any result rolled on the Building Damage chart.  If this attack damages a bulkhead or wall section of terrain and destroys it, remove that section of terrain from play if possible.</comment>
       <description>具有此规则的武器在攻击/射击建筑时,可以重投穿甲,并且建筑损毁表结果+1.如果破坏或摧毁了防御体系/阵线/建筑群的一部分的话,如果可能请将这部分地形移除.</description>
     </rule>
     <rule id="5d88-bcf6-e410-6e01" name="坦克猎手" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Tank Hunters
+A unit that contains at least one model with this special rule re-rolls failed armour penetration rolls against vehicles (both with shooting and in close combat) and can choose to re-roll glancing hits, in an attempt to instead get a penetrating hit – but the second result must be kept.</comment>
       <description>至少包含1个该规则模型的单位可以重投失败的载具装甲穿透(无论射击还是肉搏),并且出现擦伤结果也可以选择重投载具装甲穿透,但是必须接受重投结果.</description>
     </rule>
     <rule id="a225-e39b-3699-c8f8" name="夜视" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Night Vision
+A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</comment>
       <description>在夜战状态中,至少含有1个此规则模型的单位无视夜战规则的效果.</description>
     </rule>
     <rule id="9bdd-5ec7-8dd6-63c0" name="不知疼痛" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Feel No Pain
+When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+“Feel No Pain rolls may not be taken against Destroyer attacks (see page 163), unsaved wounds which have the Instant Death special rule or in instances which state that no saves (of any kind) may be taken.”
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
+If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</comment>
       <description>此模型受到了1个未能保护的伤后,投D6,结果5+,则这次损伤被忽略不计如同成功保护,每次遭受伤害之后要单独投掷这个D6</description>
     </rule>
     <rule id="5862-0794-3d86-5788" name="不知疼痛(4+)" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Feel No Pain (4+)
+When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+“Feel No Pain rolls may not be taken against Destroyer attacks (see page 163), unsaved wounds which have the Instant Death special rule or in instances which state that no saves (of any kind) may be taken.”
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
+If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</comment>
       <description>此模型受到了1个未能保护的伤后,投D6,结果4+,则这次损伤被忽略不计如同成功保护,每次遭受伤害之后要单独投掷这个D6</description>
     </rule>
     <rule id="85da-2f19-3756-44de" name="不知疼痛(6+)" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Feel No Pain (6+)
+When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+“Feel No Pain rolls may not be taken against Destroyer attacks (see page 163), unsaved wounds which have the Instant Death special rule or in instances which state that no saves (of any kind) may be taken.”
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
+If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</comment>
       <description>此模型受到了1个未能保护的伤后,投D6,结果6+,则这次损伤被忽略不计如同成功保护,每次遭受伤害之后要单独投掷这个D6</description>
     </rule>
     <rule id="56df-3f23-0abe-e04b" name="不知疼痛(3+)" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Feel No Pain (3+)
+When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+“Feel No Pain rolls may not be taken against Destroyer attacks (see page 163), unsaved wounds which have the Instant Death special rule or in instances which state that no saves (of any kind) may be taken.”
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
+If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</comment>
       <description>此模型受到了1个未能保护的伤后,投D6,结果3+,则这次损伤被忽略不计如同成功保护,每次遭受伤害之后要单独投掷这个D6</description>
     </rule>
     <rule id="34c7-8b61-a5b8-a301" name="渗透" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Infiltrate
+Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12&amp;quot; from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12&amp;quot; from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18&amp;quot; from any enemy unit, even in plain sight.
+
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport. 
+
+A unit that deploys using these rules cannot charge in their first turn. Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</comment>
       <description>至少包含1个拥有这条特殊规则模型的单位在双方非渗透单位都部署完成后才进行部署.如果双方都有渗透者,玩家们斗骰,胜利者决定谁先进行部署第1个渗透单位,然后轮流部署这些单位.渗透者能被部署在桌面上的任何1个部分,只要在敌军视线外,就可以被部署在任何敌军的12英寸之外.可以渗透在一栋建筑内,只要这栋建筑在任何敌军的12英寸之外.如果对方和这个渗透单位有视线,则只能在桌面上任何距离敌军18英寸之外的地方部署渗透部署的单位在游戏的第1个游戏回合不能发起冲锋.拥有渗透规则并同时为作为预备队的单位会获得侧击规则.如果他们想与自己的专属运输载具一起渗透或侧击,就必须乘坐在那个运输载具里部署或进场.没有该规则的独立人物不能在部署时加入渗透单位,有渗透规则的独立人物也不能在部署时加入没有渗透规则的单位</description>
     </rule>
     <rule id="3aa7-9a8f-1e0d-921d" name="狂怒冲锋" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Furious Charge
+In a turn in which a model with this special rule charges into combat, it adds +1 to its Strength characteristic until the end of the Assault phase. A model that has made a disordered charge that turn receives no benefit from Furious Charge.</comment>
       <description>模型在发动冲锋进入肉搏的那个突击阶段S+1,直到阶段结束.发起散乱冲锋的单位得不到这个加成.</description>
     </rule>
     <rule id="de18-25a0-504b-74be" name="侧击" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Outflank
+During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. This means they are making a wide sweeping move to get behind enemy lines or come at the foe from an unexpected direction.
+When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player’s own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves. If such a unit deploys inside a Dedicated Transport, they may Outflank along with their Transport.</comment>
       <description>部署时,玩家可以选择让包含至少1个拥有侧击规则模型的单位,使用侧击规则留在预备队中,当这个单位从预备队中进场时,投D6,1-2从你的左桌边进场,3-4从右桌边进场,5-6则可以任选左右之一进场,其他规则遵从一般预备队出场规则,这种单位如果有指定运输车,则可以让指定运输车也进行侧击,但是如果这样做就必须乘坐在内进场</description>
     </rule>
     <rule id="5283-9b50-3dcd-78e4" name="额外装甲" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Extra Armour
+Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead.</comment>
       <description>装备了额外盔甲的载具的损伤表震晕改为震荡.</description>
     </rule>
     <rule id="7be5-30af-1a02-0a89" name="坚毅" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Stubborn
+When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</comment>
       <description>士气或压制测试时,至少包含1个坚毅规则模型的单位可以忽略任何负面的LD修正值.如果1个单位同时有无畏和坚毅,则无畏优先生效.</description>
     </rule>
     <rule id="3ad4-1c37-d60b-1a4e" name="独立人物" publicationId="ca571888--pubN106502" page="165" hidden="false">
+      <comment>Independent Character
+Independent characters can join other units.  They cannot, however, join units that contain vehicles or Monstrous Creatures.  They can join other Independent Characters, though, to form a powerful multi-character unit!  Independent Characters pass Look Out, Sir rolls on a 2+. A unit that contains one or more Independent Characters does not need a double 1 to Regroup if reduced to below 25% of its starting numbres, but instead tests as if it had at least 25% remaining.
+
+Full details in BRB. Rule too long to copy verbatim.</comment>
       <description>独立人物可以加入其他单位或其他独立人物,但是包含载具和巨兽模型的单位除外.部署时独立人物即可加入1个单位,与这个单位保持连续性,如果加入的单位在预备队中,则要告知对手加入了哪个单位中独立人物通过移动而在移动阶段结束时处于任意友军单位2 寸内即可宣布加入其中,并且要说明加入的是哪个单位,如果不想或不能加入某个单位的话则必须在移动阶段结束时在这个单位2 寸以外,并且独立人物加入1个单位之后,这个单位视作本回合已经移动完成,不能进行其他移动,独立人物可以在移动阶段中与单位脱离连续性来离开单位,只能在移动阶段时才能加入或脱离单位.独立人物在锁入肉搏,撤退,卧倒状态中都不能离开单位,也不能加入1个正在锁入肉搏或撤退中的单位,如果加入的单位全体阵亡,那么独立人物在下个阶段的开始会自动脱队.一旦加入1个单位,会被视作这个单位的一部分,尽管他依然会有他自己的规则.独立人物2+即可通过小心长官规则.至少包含1个独立人物的单位如果低于起始模型数量25%后进行重整无需双1重整,而是正常重整.独立人物和加入的单位通常会有不同的特殊规则,除非这些规则明确说明,否则各算各的规则(比如坚毅规则会对整个单位生效,1个坚毅的独立人物加入非坚毅单位,会让这个单位临时获得坚毅规则,直到人物离开或者被杀死),一些规则会有持续效果,已经有持续效果的单位中脱离的独立人物身上的持续效果会继续计算,没有这种效果的独立人物加入有持续效果的单位(或者反过来)不会传播这种效果.没有渗透规则的独立人物不得在部署时加入进行渗透的单位</description>
     </rule>
     <rule id="52ff-4074-570b-4ea1" name="恐怖" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Fear
+At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear – all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</comment>
       <description>在每个格斗子阶段的开始,任何攻击之前,与拥有恐怖规则的模型底盘接触的单位必须进行1次领导力测试(接触多个恐怖的模型也只做1次测试).如果通过,没有特别的效果.如果失败,该单位的所有模型WS 减为1,直到该子阶段结束.恐怖可以被他们无所畏惧或无畏抵消.但是造成恐怖的模型本身并不免疫恐怖.</description>
     </rule>
     <rule id="7c6c-4e25-e4d4-9728" name="憎恨" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Hatred
+This rule is often presented as Hatred (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then the unit has Hatred against everyone. This can refer to a Faction, or a specific unit. For example, Hatred (Orks) means any model with the Ork Faction, whilst Hatred (Big Meks) means only Big Meks. A model striking a hated foe in close combat re-rolls all failed To Hit rolls during the first round of each close combat.</comment>
       <description>模型通常只对特定类别的敌人怀有憎恨,憎恨目标会被写在括号里.这可能包括1支军队的所有成员,也可能是一些特定的单位,例如憎恨(巨兽)则对任何巨兽类单位生效.模型在肉搏战斗的第1轮中攻击它憎恨的敌人时可以重投失败的命中.</description>
     </rule>
     <rule id="6ce7-5e83-a2dd-571e" name="受祝福的自动拟像" publicationId="ca571888--pubN69050" page="113" hidden="false">
+      <comment>Blessed Autosimulacra
+If the vehicle has suffered hull point damage, at the end of the controlling players turn roll a D6. On a result of a 6 one lost hull point is restored.</comment>
       <description>如果载具损失了耐久值,在回合结束时投1个D6.结果出6则回复1点失去的耐久值.</description>
     </rule>
     <rule id="33ab-99bc-5c24-3cdf" name="夜战" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Night Fighting
+If a mission has the Night Fighting special rule, either player can declare that they wish to fight the battle at night. If either player does so, roll a D6 before deployment: on a roll of 4+, the Night Fighting special rule is in effect during game turn 1.
+While the Night Fighting mission special rule is in effect, all units have the Stealth special rule.</comment>
       <description>如果游戏任务有夜战规则,则双方玩家可以选择是否以夜战开始游戏,如果至少1个玩家愿意这样做,则在部署之前投D6,4+则第1个游戏回合是夜战状态,场上所有单位获得隐蔽规则</description>
     </rule>
     <rule id="6f66-b417-6004-0916" name="愤怒之锤" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Hammer of Wrath
+If a model with this special rule ends its charge move in base or hull contact with an enemy model, it makes one additional Attack that hits automatically and is resolved at the model’s unmodified Strength with AP-. This Attack does not benefit from any of the model’s special rules (such as Furious Charge, Rending etc.). This Attack is resolved during the Fight sub-phase at the Initiative 10 step, but does not grant the model an additional Pile In move.
+If a model with this special rule charges a building or vehicle, the hit is resolved against the Armour Value of the facing the charging model is touching. If a model with this special rule charges a building or vehicle that is a Transport or a Chariot, the hit is resolved against the building or vehicle, not the occupants or the rider.</comment>
       <description>具有该规则的模型在结束冲锋移动与敌人底盘接触后,造成1次自动命中的攻击,使用本身未经修正的力量和无穿甲值结算.这次攻击以敏锐性10 的攻击顺序结算,但是此攻击不会造成跟进移动,不会因模型的任何规则而加强,如果该模型冲锋的是载具或建筑,愤怒之锤攻击载具或建筑而非在内的模型.攻击载具或建筑时按接触面向的装甲值计算,攻击步行机甲时,除非机甲失去动力,否则按攻击正面装甲计算,失去动力后按攻击一般载具计算</description>
     </rule>
     <rule id="0900-71d5-1937-aa96" name="反击" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Counter-attack
+If a unit contains at least one model with this special rule, and that unit is charged, every model with the Counter-attack special rule in the unit gets +1 Attack until the end of the phase.
+If, when charged, the unit was already locked in combat, the Counter-attack special rule has no effect.</comment>
       <description>如果1个单位内包含至少1个拥有该规则的模型,则如果这个单位被敌军冲锋,此单位内有反击规则的模型A+1,直到该阶段结束.如果单位被冲锋时已经被锁入肉搏战,这条规则便不会生效</description>
     </rule>
     <rule id="6d06-5ea0-9a17-ca97" name="穿越地形" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Move Through Cover
+A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</comment>
       <description>至少包含1个拥有该规则模型的单位在移动穿越困难地形时额外投掷1个D6,在大部分情况下这意味着他们会投掷3D6 然后挑选最高的点数.并在冲锋穿越困难地形时不减速,这样的模型(注意不是单位)自动通过危险地形测试.</description>
     </rule>
     <rule id="69e5-fc02-1f9d-63c2" name="迅捷" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Fleet
+A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</comment>
       <description>1个全部由拥有这条规则的模型组成的单位可以重投1个或多个奔跑和冲锋距离的骰子.</description>
     </rule>
     <rule id="4dd2-fcb0-de6a-5b70" name="宿敌" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Preferred Enemy
+This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</comment>
       <description>这条规则经常体现为宿敌(XX)的形式,括号内通常是1个种族或1个单位类型,如果没有括号则是所有敌人.至少包含1个拥有该规则模型的单位能够在射击和肉搏攻击特定宿敌时重投失败命中的1和失败造伤中的1,如果1个拥有宿敌的单位攻击1个不是完全由被宿敌对象组成的单位,它依然可以获得宿敌的效果.</description>
     </rule>
     <rule id="fbf1-6913-ff9f-5a4f" name="即死" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Instant Death
+If a model suffers an unsaved Wound from an attack with this special rule, it is reduced to 0 Wounds and is removed as a casualty.</comment>
       <description>有这种规则的攻击如果未能保护成功则会消除目标的所有剩余W/HP值</description>
     </rule>
     <rule id="f899-8f9d-fc7e-d855" name="精工" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Master-crafted
+Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Hit per turn with that weapon.</comment>
       <description>每回合可以重投1个失败的命中.</description>
     </rule>
     <rule id="0ba8-83bc-74c1-43c2" name="狂暴" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Rampage
+At the start of any Fight sub-phase, models with the Rampage special rule gain +D3 attacks if the combat they are in contains more enemy models than friendly models – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that phase. A model that has made a disordered charge that turn receives no benefit from Rampage.</comment>
       <description>在任何格斗子阶段开始时,如果参加肉搏的敌方模型数超过友方模型数,则具有该规则的模型A+D3.计算所有被锁入这场肉搏的模型,而不仅是接触的模型.每个狂暴模型的加值单独计算.发起散乱冲锋的模型本回合无法从狂暴中受益.</description>
     </rule>
     <rule id="9d85-46f7-f5e6-a5f7" name="震荡" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Concussive
+A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</comment>
       <description>受到带有该规则武器的未保护伤害的模型,I 减为1,直到下1个突击阶段结束时为止.</description>
     </rule>
     <rule id="89da-0cb5-bee4-8ec2" name="撕碎" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Shred
+If a model has the Shred special rule, or is attacking with a Melee weapon that has the Shred special rule, it re-rolls failed To Wound rolls in close combat.  Similarly, if a model makes a shooting attack with a weapon that has the Shred special rule, it re-rolls its failed To Wound rolls.</comment>
       <description>具有该规则的模型或肉搏武器可以在肉搏中重投失败的造伤,具有该规则的射击武器可以在射击中重投失败的造伤.</description>
     </rule>
     <rule id="cb2c-171e-df0f-2bec" name="金属之傲" publicationId="ca571888--pubN103311" page="113" hidden="false">
+      <comment>Paragon of Metal
+- Not subject to the Programmed Behavior special rule and gains It Will Not Die and Rampage special rules
+- Never counts as scoring regardless of mission type
+- In the case of a failed Cybertheurgy attempt, always apply Malifica result instead of rolling</comment>
       <description>拥有金属之傲规则的单位不受程序化行为特殊规则的影响,并拥有不死之身和狂暴特殊规则.拥有金属之傲规则的永远不算作得分单位,不管任务规则如何.如果对此模型的智控仪式失败,无需对智控仪式失误表投骰,恶毒敌意结果自动生效.</description>
     </rule>
     <rule id="72d9-7041-9d30-d150" name="他不会死" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>It Will Not Die
+At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but has not been removed as a casualty or destroyed. On a roll of 5+, that model regains a Wound, or Hull Point, lost earlier in the game.</comment>
       <description>在每个我方回合结束时,为每个具有该规则W或HP少于起始值但还未被移除的模型投D6.若结果为5+,该模型回复1点在之前失去的W或HP.</description>
     </rule>
     <rule id="666f-e93b-4f0b-ae40" name="神之机械" publicationId="ca571888--pubN69050" page="91" hidden="false">
+      <comment>God-Engine
+All friendly Mechanicum units within 24&amp;quot; are Fearless</comment>
       <description>24寸内友方机械教单位获得无畏规则</description>
     </rule>
     <rule id="e64b-54b8-34df-2f13" name="主武器" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Primary Weapon
+A model shooting a Primary weapon shoots the number of times indicated on its profile – whether or not the bearer has moved. A model carrying a Primary weapon can fire it in the Shooting phase and still charge into close combat in the Assault phase. In addition, when you roll for armour penetration with hits caused by a Primary weapon, roll two dice instead of one and pick the highest result. If the weapon rolls 2D6 for armour penetration (because of the Armourbane special rule, for example), roll three dice instead of two and pick the two highest results.</comment>
       <description>移动不影响射击,射击不影响冲锋.投掷对载具的穿甲骰时,投2D6取大,如果武器附加其他规则,已经投2D6穿甲了,那么就投3D6取2大</description>
     </rule>
     <rule id="ca57-5483-64d5-ad52" name="反应堆熔毁" publicationId="ca571888--pubN69050" page="90" hidden="false">
+      <comment>Reactor Meltdown
+If the Titan suffers a Titanic Explosion result on the Catastrophic Damage table, its reactor goes nuclear!  This is the same as a Titanic Explosion except that all hits are resolved as Destroyer hits.</comment>
       <description>如果在灾难事故表上得到泰坦级爆炸结果,所有伤害都是D伤.</description>
     </rule>
     <rule id="4284-18a1-9844-a0bd" name="粉碎" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Smash
+All of the close combat attacks, except Hammer of Wrath attacks, of a model with this special rule are resolved at AP2 (unless it’s attacking with an AP1 weapon). Additionally, when it makes its close combat attacks, it can choose instead to make a single Smash Attack. If it does so, roll To Hit as normal, but resolve the Attack at double the model’s Strength (to a maximum of 10). Furthermore, a model making a Smash Attack can re-roll its armour penetration rolls, but must abide by the second result.</comment>
       <description>具有该规则的模型所有的肉搏攻击(不包括愤怒之锤规则的攻击)以AP2 结算,除非它本来就是AP1.在肉搏中,它可以选择进行1次粉碎特殊攻击取代所有本阶段正常攻击.照常投命中.这种攻击的S值将被翻倍(最高到10).并且这种粉碎攻击可以重投载具装甲穿透的投骰,但是必须接受重投的结果.</description>
     </rule>
     <rule id="3c7d-a1fa-c68b-caad" name="毫不留情" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Relentless
+Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</comment>
       <description>拥有此规则的模型移动不影响发射武器,如同他们没有移动过一样,发射武器不影响是否能冲锋.</description>
     </rule>
     <rule id="dd83-7fb9-6f58-0c96" name="击倒" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Strikedown
+Any non-vehicle model that suffers one or more unsaved Wounds or passes one or more saving throws against an attack with the Strikedown special rule moves as if it is in difficult terrain until the end of its next turn. It is a good idea to mark affected models with counters or coins so that you remember.</comment>
       <description>如果任何非载具模型遭受了至少1个拥有此规则的伤害,不管保护成功与否,将视为在困难地形移动,持续到它的下个回合结束时</description>
     </rule>
     <rule id="b5c1-4b08-5ddc-1504" name="无敌巨兽" publicationId="ca571888--pubN106502" page="90" hidden="false">
+      <comment>Invincible Behemoth
+A super-heavy vehicle is so large and strongly built that weapons which degrade the armour of smaller vehicles will not effect it.  Because of this, any attack that says that the target model is destroyed, wrecked, Explodes! or is otherwise removed from play inflicts D3 Hull Points of damage on a Super-heavy vehicle instead.
+
+In addition, any attacks or special abilities that permanently lower the Armour Values of a target vehicle do not affect a Super-heavy vehicle.  Note that attacks or abilities that count the Armour Value as being lower, but do not actually change it, work normally.</comment>
       <description>任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或特殊规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.</description>
     </rule>
     <rule id="c673-4842-28f8-4e39" name="机械毁灭者" publicationId="ca571888--pubN68042" page="264" hidden="false">
+      <comment>Machine Destroyer
+When attacking any target with an armour value, rolls of 1 on the Destroyer Damage table may be re-rolled.</comment>
       <description>可以重投D武器损伤表的1</description>
     </rule>
     <rule id="f624-f475-e5ec-0dfa" name="压制" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Pinning
+If a non-vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its shooting attacks for that phase. This is called a Pinning test.
+If the unit fails the test, it is Pinned and must immediately Go to Ground. As the unit has already taken its saves, Going to Ground does not protect it against the fire of the Pinning weapon that caused the test – it’s too late!
+As long as the test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them. If a unit has already Gone to Ground, no further Pinning tests are taken.
+If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</comment>
       <description>1个非载具单位遭受至少1个压制规则的伤害时,必须立即做1个LD测试,称作压制测试,如果失败,则必须立即卧倒,因为已经投完保护所以这种卧倒不会提高掩体保护,1个单位的射击只会触发1次压制测试,不论这个单位中有多少个压制规则的武器,但是1个单位可以多次进行压制测试,除非它已经被压制或卧倒</description>
     </rule>
     <rule id="21c0-62ff-3ed2-17a7" name="热熔" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Melta
+Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less. If the weapon is more than half its maximum range away, it rolls to penetrate as normal.
+If a weapon has both the Melta and Blast special rules, measure the distance to the centre of the blast marker after it has scattered. If this is half the weapon’s range or less, all hits caused by the blast marker roll an addition D6 when rolling to penetrate a vehicle’s armour. If the centre of the blast marker is more than half the weapon’s maximum range away after scatter, roll to penetrate as normal.</comment>
       <description>有此规则的武器在半射程或更近的距离射击载具时可以多投1个穿甲骰,热熔盖板武器的距离测量按偏移后的盖板中心孔计算</description>
     </rule>
     <rule id="2850-13da-8b09-c0ad" name="地震冲击" publicationId="ca571888--pubN68042" page="264" hidden="false">
+      <comment>Siesmic Shock
+Units which suffer wounds or Hull Points lost from this attack may only move at half their usual maximum movement, may not Run, Charge, or go Flat Out, and count as being in dangerous terrain on their next turn.</comment>
       <description>因此武器造伤的目标最多只能移动一半移动力的距离,不能奔跑,冲锋或全速前进,这一回合算作处于危险地形中.</description>
     </rule>
     <rule id="78af-b5dc-76fa-8d9d" name="等离子冲击波" publicationId="ca571888--pubN68042" page="264" hidden="false">
+      <comment>Plasma Wave
+Succesful cover saves against this weapon&amp;apos;s attacks must be re-rolled.</comment>
       <description>必须重投成功的地形保护</description>
     </rule>
     <rule id="f4f1-8772-1a1b-4f50" name="快速" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Fast
+MOVING FAST VEHICLES
+Fast vehicles are swifter than the norm so, to represent this, can move up to 12&amp;quot; when moving Flat Out.
+
+SHOOTING WITH FAST VEHICLES
+Fast vehicles that moved at Combat Speed in the preceding Movement phase can fire all of their weapons, just like other types of vehicles that have remained Stationary. Fast vehicles that moved at Cruising Speed can fire up to two weapons using their full Ballistic Skill – other weapons can only make Snap Shots.</comment>
       <description>
 快速载具移动
 快速载具可以全速移动12寸.
@@ -7610,6 +7792,8 @@ Command Benefits:
       </description>
     </rule>
     <rule id="f6c9-cdb7-c695-5b6b" name="赛博尼提卡处理器" publicationId="ca571888--pubN66489" page="110" hidden="false">
+      <comment>Cybernetica Cortex
+Models the have Programmed Behaviour, Fearless, Cybernetic Resiliance, Fire Protocols, Machine Creature, and Adamantium Will special rules.</comment>
       <description>
 模型获得程序化行为,无畏,赛博尼提卡机械适性,射击协议,机械造物,精金意志规则.
 
@@ -7631,24 +7815,40 @@ Command Benefits:
       </description>
     </rule>
     <rule id="dc70-e199-5525-e78c" name="无畏" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Fearless
+Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear and Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Going to Ground are immediately cancelled.</comment>
       <description>至少包含1个无畏的模型的单位自动通过所有士气/压制/重整/恐惧测试,但是不能卧倒,也不能使用主动选择士气失败的规则.如果已经卧倒的单位获得无畏规则,则卧倒效果立即移除</description>
     </rule>
     <rule id="df87-e991-2d30-dc38" name="精金意志" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Adamantium Will
+A unit that contains at least one model with this special rule receives a +1 bonus to Deny the Witch tests.</comment>
       <description>包含至少1个有该规则的模型的单位在进行破除巫术时结果+1.</description>
     </rule>
     <rule id="2b99-07da-9fa6-48bf" name="射击协议" publicationId="ca571888--pubN66489" page="110" hidden="false">
+      <comment>Fire Protocols
+A model with this special rule may fire up to three of its weapons once each in the Shooting phase - this must be at the same target.</comment>
       <description>具有此规则的模型在射击阶段可以射击自身携带的最多3件武器,但只能射击1个目标单位.</description>
     </rule>
     <rule id="9938-b5bd-56c9-e002" name="机械造物" publicationId="ca571888--pubN66489" page="110" hidden="false">
+      <comment>Machine Creature
+Units made up of models with a Cyberntica Cortex can never count as Scoring units, regardless of the Force Organization Chart being used or the rules for the mission being played.  They do count as Denial units.</comment>
       <description>由拥有赛博尼提卡处理控制器的模型组成的单位永远不能作为得分单位,但仍然视作干扰单位.</description>
     </rule>
     <rule id="3ebf-b52d-5006-2426" name="赛博尼提卡机械适性" publicationId="ca571888--pubN69050" page="110" hidden="false">
+      <comment>Cybernetic Resiliance
+Successful wounds by attacks with Poisoned or Fleshbane must be re-rolled against this model.  In addition to any other effects they cause, attacks with Haywire cause an additional wound on a D6 roll of 6.  Roll for this wound separately, saves may be taken as normal.</comment>
       <description>
 -带有毒性攻击和血肉杀手规则的攻击对抗有此规则的模型,必须重掷成功的出伤
 -带有干扰规则的攻击对抗有此规则的模型在正常的出伤之外,额外单独扔1个D6,出6则出伤.这些伤可做正常的保护.
       </description>
     </rule>
     <rule id="9975-1f8c-f78a-8fab" name="程序化行为" publicationId="ca571888--pubN66489" page="110" hidden="false">
+      <comment>Programmed Behaviour
+Unless within range of a friendly model from the same detachment equipped with a Cortex Controller at the start of the controlling player&amp;apos;s turn, the following restrictions are placed on the unit&amp;apos;s use in that game turn.  These do not apply if the chosen model is already locked in assault.  
+
+- Methodical: May not make Sweeping Advances or Run moves
+- Target Priority: If enemy models are within 12&amp;quot; and line of sight during their shooting phase, the unit must fire all its weapons against the closest enemy unit it is able to harm.  If this is not the case, they are free to select targets as normal.
+- Onslaught: If enemy units are within 12&amp;quot; during their Assault phase, they must attempt to charge the closest enemy unit if able.  May still only charge a unit fired upon.  If consolidating, must consolidate towards the closest enemy if within 12&amp;quot;</comment>
       <description>
 除非拥有此规则的单位位于1个装备处理控制器的友军模型12寸内,这些单位会存在下列限制.如果战争自动兵器小队已经进入肉搏时,则不受这些限制
 -有条不紊: 战争自动兵器不能追击和奔跑
@@ -7657,27 +7857,57 @@ Command Benefits:
       </description>
     </rule>
     <rule id="7dae-4d12-baba-e529" name="致盲" publicationId="ca571888--pubN106502" page="159" hidden="false">
+      <comment>Blind
+Any unit hit by one or more models or weapons with this special rule must take an Initiative test at the end of the current phase. If the test is passed, all is well – a shouted warning has caused the warriors to avert their gaze. If the Initiative test is failed, all models in the unit are reduced to Weapon Skill and Ballistic Skill 1 until the end of their next turn. Should the attacking unit hit themselves, we assume they are prepared and they automatically pass the test. Any model that does not have an Initiative characteristic (for example, non-Walker vehicles, buildings etc.) is unaffected by this special rule.</comment>
       <description>任何被具有该规则的武器或模型命中的单位必须在阶段结束时通过1次I测试,否则他们的WS和BS都会降为1,持续到下个他们的回合结束.如果该规则的单位命中了自己,不会造成致盲效果,如果被命中的模型没有I值,也不会被此规则影响</description>
     </rule>
     <rule id="98ed-3a29-c86b-455d" name="光矛" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Lance
+Weapons with the Lance special rule count vehicle Armour Values that are higher than 12 as 12.</comment>
       <description>攻击载具时将其高于12的装甲值视作12.</description>
     </rule>
     <rule id="f4fd-d519-4769-5510" name="过热" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Gets Hot
+When firing a weapon that Gets Hot, roll To Hit as normal. For each To Hit roll of 1, the firing model immediately suffers a Wound (armour or invulnerable saves can be taken) – this Wound cannot be allocated to any other model in the unit. A character cannot make a Look Out, Sir attempt to avoid a Wound caused by the Gets Hot special rule. A vehicle instead rolls a D6 for each roll of a 1 to hit. On a roll of a 1, 2 or 3 it suffers a glancing hit.
+
+Gets Hot and Weapons that do not roll To Hit
+Weapons that do not roll To Hit (such as Blast weapons) must roll a D6 for each shot immediately before firing. On a 2+, the shot is resolved as normal. For each roll of a 1, the weapon Gets Hot; that shot is not fired and the firing model immediately suffers a single Wound (armour saves or invulnerable saves can be taken) – this Wound cannot be allocated to any other model in the unit. A character cannot make a Look Out, Sir attempt to avoid a Wound caused by the Gets Hot special rule. A vehicle instead suffers a glancing hit on a further roll of a 1, 2 or 3.
+
+Gets Hot and Re-rolls
+If a model has the ability to re-roll its rolls To Hit (including because of BS6+ or the Twin-linked special rule), a Wound is only suffered if the To Hit re-roll is also a 1; it may also re-roll Gets Hot results of 1 for weapons that do not roll To Hit.</comment>
       <description>如果模型射击这种武器时命中结果为1,就受到一点可以被甲保和特保所保护的伤害.载具每次过热则投D6,4+没事,否则受到1次擦伤.不投命中的过热武器如爆炸盖板武器,每发射击前必须投D6,2+则可以射击,1 则受到过热效果并且这发失效(比如发射3 次就要投3 个D6,有1个1,那么最终只有两发发射成功),如果模型有办法重投命中,则重投命中之后结果再判定是否过热,无需投命中的武器也可因此重投是否过热的D6,过热造成的伤害不能用小心长官规则转移</description>
     </rule>
     <rule id="f495-679e-1976-68d1" name="成对武器" publicationId="ca571888--pubN66489" page="106" hidden="false">
+      <comment>Paired Weapons
+Adds +1 to the model&amp;apos;s attacks and count as being Twin-linked.</comment>
       <description>A+1且视作双联.</description>
     </rule>
     <rule id="10a8-8d89-0bec-3e21" name="双联" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Twin-linked
+Twin-linked weapons don’t get more shots than normal ones, but they give you a better chance of hitting with them. If a shooting weapon has the twin-linked special rule, or is described in a model’s wargear entry as twin-linked, it re-rolls all failed To Hit rolls.
+
+Twin-linked Blast Weapons
+If the scatter dice does not roll a hit, you can choose to re-roll the dice with a Twin-linked Blast weapon. If you choose to do so, you must re-roll both the 2D6 and the scatter dice.
+
+Twin-linked Template Weapons
+Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and armour penetration rolls.</comment>
       <description>双联武器依然是单个武器,但是必须重投失败的命中,双联爆炸盖板武器则可以选择重投没有正中的偏移骰连同2D6偏移数值,双联喷射盖板武器则必须重投失败的伤害和穿甲</description>
     </rule>
     <rule id="7ee3-d437-bc44-3630" name="特殊武器" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Specialist Weapon
+A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule.</comment>
       <description>使用这种武器时不会获得双持加成,除非模型使用的两件武器都拥有特殊武器规则</description>
     </rule>
     <rule id="8269-2cd6-9236-16e7" name="撕裂" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Rending
+If a model has the Rending special rule, or is attacking with a Melee weapon that has the Rending special rule, there is a chance that his close combat attacks will strike a critical blow. For each To Wound roll of a 6, the target automatically suffers a Wound, regardless of its Toughness. These Wounds are resolved at AP2.
+Similarly, if a model makes a shooting attack with a weapon that has the Rending special rule, a To Wound roll of 6 Wounds automatically, regardless of Toughness, and is resolved at AP2.
+In either case, against vehicles, each armour penetration roll of 6 allows a further D3 to be rolled, with the result added to the total. These hits are not resolved at AP2, but are instead resolved using the model/weapon’s AP value.</comment>
       <description>拥有此规则的武器在投掷伤害是如果出6,则这个伤害自动造伤,无视对方的T值,并且这个伤害算为AP2,在对抗载具时,如果装甲穿透投出6则额外造成D3装甲穿透,但是没有额外的AP加值效果.</description>
     </rule>
     <rule id="d5cf-bd98-2854-13cf" name="反应堆爆炸" publicationId="ca571888--pubN66489" page="112" hidden="false">
+      <comment>Reactor Blast
+When losing its final wound, roll a D6.  On the result of a 6, the model explodes, inflicting a Str 4 AP - hit on all models within D6&amp;quot;</comment>
       <description>
 爆炸测试:6
 范围:D6寸
@@ -7685,72 +7915,156 @@ Command Benefits:
       </description>
     </rule>
     <rule id="9b30-1da3-eb8d-ce7a" name="侦察" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Scout
+After both sides have deployed (including Infiltrators), but before the first player begins his first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6&amp;quot; of its current position. If it is any other unit type, each model can instead redeploy anywhere entirely within 12&amp;quot; of its current position. During this redeployment, Scouts can move outside the owning player’s deployment zone, but must remain more than 12&amp;quot; away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment.
+If both sides have Scouts, roll-off; the winner decides who redeploys first. Then alternate redeploying Scout units.
+If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though a disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is embarked upon it. Having Scout also confers the Outflank special rule to units of Scouts that are kept as Reserves.
+
+Outflank
+During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. When this unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player’s own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves.
+If a unit with Scouts is deployed inside a Dedicated Transport, they may Outflank along with their Transport.
+
+Iinfiltrate and Scout
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</comment>
       <description>在双方都完成部署后(包括渗透单位),但在第1个玩家开始他的回合前,任何至少包含1个具有侦察规则模型的单位可以选择重新部署.如果该单位是步兵/炮兵/机甲/巨兽,则每个模型可以被重新部署在当前位置6寸内.其他单位类型可以被重新部署到当前位置12寸内.在重新部署后必须保持在任何敌人的12寸外.进行侦察部署的单位不能在第1游戏回合冲锋.侦察部署时不能上下车.如果双方都有侦察单位,则玩家拼骰,胜者决定谁先进行第1个侦察部署,然后双方轮流进行其余的侦察部署.如果侦察单位在指定运输载具内,这个指定运输载具也获得侦察规则,但是注意侦察部署时不能出入运输载具.拥有侦察规则的运输载具可以运载没有侦察规则的单位,同时如常拥有侦察规则.拥有侦察规则的单位同时拥有侧击规则.同时拥有渗透和侦察规则的单位可以先渗透然后侦察.</description>
     </rule>
     <rule id="4575-0a0a-caaf-e4bf" name="血肉杀手" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Fleshbane
+If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always Wound on a 2+ in close combat.  Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always Wound on a 2+.  In either case, this special rule has no effect against vehicles or buildings.</comment>
       <description>拥有此规则的武器永远2+造伤.对载具和建筑无效.</description>
     </rule>
     <rule id="eefe-09e4-17aa-deb2" name="辐射噬菌体" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Rad-phage
+A model which loses one or more wounds to an attack with this rule and survives suffers a -1 penalty to its Toughness value for the rest of the battle.</comment>
       <description>1个模型被具有此规则的武器造成1个或多个仍然存活的情况下,他们在接下来的游戏中T-1</description>
     </rule>
     <rule id="2b06-29a6-641a-b22e" name="远征军" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Crusader
+A unit that contains at least one model with this special rule rolls an extra dice when making Run moves, and uses the highest result rolled. In addition, a unit that contains at least one model with this special rule adds D3 to its Sweeping Advance totals (roll each time).</comment>
       <description>至少包含1个具有该规则的模型的单位在奔跑时多投额外1个D6,取最高的结果.他们的肉搏追击结果加D3(每次追击单独投掷)</description>
     </rule>
     <rule id="be7f-8146-6cb8-9a53" name="对空火力" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Skyfire
+A model with this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers, Flying Monstrous Creatures and Skimmers, but it can only fire Snap Shots against other targets.</comment>
       <description>拥有该规则的模型或者拥有该规则的武器,在射击飞行器/飞行巨兽/悬浮载具时使用正常的BS值.但是对其他类型的目标只能仓促射击.</description>
     </rule>
     <rule id="acf2-681d-4188-94d7" name="忽视掩体" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Ignores Cover
+Cover saves cannot be taken against Wounds, glancing hits or penetrating hits caused by weapons with the Ignores Cover special rule.</comment>
       <description>拥有此规则的武器无视目标的掩体保护</description>
     </rule>
     <rule id="4927-560b-70be-12ee" name="野蛮冲锋" publicationId="ca571888--pubN66489" page="35" hidden="false">
+      <comment>Brutal Charge
+When charging, the unit inflicts D3 Hammer of Wrath attacks.  In the case of a unit of such models, roll once and multiply the result by the models in the unit to determine the number of hits scored.</comment>
       <description>冲锋时造成D3下愤怒之锤攻击(1个单位只投1次)</description>
     </rule>
     <rule id="73db-afdc-2c95-993c" name="Graviton Hammer" publicationId="ca571888--pubN66489" page="35" hidden="false">
       <description>此外 to its weapon attacks, units 突击ing a model or 单位 with a Graviton Hammer always count as making a Disordered Charge when doing so.</description>
     </rule>
     <rule id="9c80-5c1a-3b9d-971e" name="笼罩" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Shrouded
+A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
+
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</comment>
       <description>至少包含1个具有该规则的模型的单位的掩体保护比通常情况获得2 加成,意味着它即使在无掩体的开阔地上也有5+掩体保护.笼罩规则可以和隐蔽规则叠加</description>
     </rule>
     <rule id="3919-29f5-0c68-3ecb" name="狙击" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Sniper
+If a weapon has the Sniper special rule, or is fired by a model with the Sniper special rule, and rolls a 6 To Hit, that shot is a ‘Precision Shot’. Wounds from Precision Shots are allocated against a model (or models) of your choice in the target unit, as long as it is in range and line of sight of the firer, rather than following the normal rules for Wound allocation. A character that has a Precision Shot Wound allocated to it can still make a Look Out, Sir roll. Note that Snap Shots can never be Precision Shots.
+
+If a weapon has the Sniper special rule, or is fired by a model with the Sniper special rule, its shooting attacks always wound on a To Wound roll of 4+, regardless of the victim’s Toughness. In addition, any To Wound roll of a 6 is resolved at AP2.
+
+Against vehicles, shooting attacks from weapons and models with the Sniper special rule count as Strength 4.
+
+Attacks with the Blast or Template rules may never benefit from the effects of the Sniper special rule.</comment>
       <description>狙击武器对非载具模型无视目标的T值,永远4+出伤并且伤害出6算作AP2.对抗载具时狙击武器视为S4.如果模型武器的S可以造成比4+伤更好的效果的话,使用更好的结果.同样的,如果有更好的AP值,使用更好的结果.使用爆炸或者喷火盖板这样规则的武器永远不会从狙击规则里获益.狙击武器在不是仓促射击时获得精准射击规则.</description>
     </rule>
     <rule id="23a4-a37f-e8e8-c756" name="阿斯塔特军团" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Legiones Astartes
+Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.
+
+In addition to these benefits, units  will also have a number of additional special rules and abilities specific to their ‘named’ Legion, all of which will be defined in the Legiones Astartes Army List and other future Forge World publications.
+
+If an army represents a Legion which does not yet have its own unique Legiones Astartes rule, the controlling player may instead add either the Stubborn or Furious Charge special rule to the standard provisions of this rule in the interim.
+    </comment>
       <description>任何具有该规则的单位总是正常进行重整,无视伤亡.除此之外,单位通常拥有对应军团的额外增益和能力.1个星际战士单位只能享受他所在军团的增益和能力,来自不同军团的星际战士,只能以联军方式(服从联军矩阵)存在于相同军队中.</description>
     </rule>
     <rule id="5ecb-551d-0f68-3a79" name="无情推进" publicationId="ca571888--pubN106389" page="3" hidden="false">
+      <comment>Implacable Advance
+Units with this special rule are always counted as scoring units in any mission where Troops are also counted as scoring units.</comment>
       <description>在将基础槽位作为计分单位的任务中,始终将具有此特殊规则的单位计为计分单位.</description>
     </rule>
     <rule id="e300-69f2-111a-ed55" name="狂战士" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Zealot
+A unit containing one or more models with the Zealot special rule automatically passes Pinning, Fear and Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit gains the Zealot special rule when it has Gone to Ground, all the effects of Go to Ground are immediately cancelled.
+
+In addition, units containing one or more models with the Zealot special rule re-roll all failed To Hit rolls during the first round of each close combat – they do not get to re-roll failed To Hit rolls in subsequent rounds.</comment>
       <description>自动通过士气,压制,重整,恐怖测试,并且不能卧倒,也不能因为武器无效选择士气自动失败,如果1个正在卧倒的单位获得本规则,会立即取消卧倒效果,另外, 至少包含1个具有此规则模型的单位可以重投每次肉搏中第一轮(阶段)所有失败的命中</description>
     </rule>
     <rule id="1744-88c6-ac43-76f1" name="射线" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Beam
+To use a witchfire power with the beam sub-type, target a point within the power’s range and trace a line (about 1mm thick) between the chosen point and the centre of the Psyker’s base – this line cannot be drawn over any unit that is locked in combat. All units under the line (friend and foe) are hit, with the exception of Zooming Flyers, Swooping Flying Monstrous Creatures and the Psyker himself. Each unit hit by the attack takes a number of hits equal to the number of models from that unit that are under the line. Only one unit that has a model under the line can attempt to Deny the Witch.</comment>
       <description>To use a 巫火 power with the 射线 sub-type, target a point within the power’s range and trace a line(about 1mm thick) between the chosen point and the centre of the 灵能者’s base – this line cannot be drawn over any 单位 that is locked in combat. All units under the line(friend and foe) are hit, with the exception of Zooming 飞行器, Swooping 飞行 巨兽 and the 灵能者 himself. Each 单位 hit by the attack takes a number of hits equal to the number of models from that 单位 that are under the line. Only one 单位 that has a model under the line can attempt to Deny the Witch.</description>
     </rule>
     <rule id="5eea-958c-d623-c3c9" name="笨重" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Unwieldy
+A model attacking with this weapon Piles In and fights at Initiative step 1, unless it is a Monstrous Creature or a Walker.</comment>
       <description>使用这种武器肉搏的模型只能在I1阶段攻击并跟进移动,除非它是巨兽或机甲才可以免除此规则的影响.</description>
     </rule>
     <rule id="e182-50cd-0867-9a8d" name="装甲杀手" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Armourbane
+If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
+If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</comment>
       <description>
 拥有此规则的模型或者使用该规则肉搏武器的模型,在和载具肉搏时多投1D6穿甲.
 拥有此规则的射击武器在射击载具时多投1D6穿甲.
       </description>
     </rule>
     <rule id="9430-a4d5-6f01-57e2" name="突击手雷" publicationId="ca571888--pubN106502" hidden="false">
+      <comment>Assault Grenades
+Shooting: When a unit equiped with Assualt Greandes makes a shooting attack, one model can choose to throw a Grenade, rather than using another shooting weapon.e
+
+Assualt: Models equipped with assault grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat.</comment>
       <description>
 射击阶段: 全单位中1个模型可以在射击阶段使用手雷作为射击武器.8寸,S-3,AP-,突击1,爆炸
 突击阶段: 装备突击手雷的模型不受到冲锋穿越困难地形的敏锐性惩罚,使用正常I值战斗.
       </description>
     </rule>
     <rule id="38d5-b6eb-bda8-2497" name="庞大" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Bulky
+Bulky models count as two models for the purposes of Transport Capacity.</comment>
       <description>庞大模型占用2个运输载具槽位.</description>
     </rule>
     <rule id="abc9-8566-bb61-4b7c" name="非常庞大" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Very Bulky
+Very Bulky models count as three models for the purposes of Transport Capacity.</comment>
       <description>非常庞大的模型占用3个运输载具槽位.</description>
     </rule>
     <rule id="2834-307f-1830-df9a" name="极度庞大" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Extremely Bulky
+Extremely Bulky models count as five models for the purposes of Transport Capacity.</comment>
       <description>极度庞大模型占用5个运输载具槽位.</description>
     </rule>
     <rule id="8cb0-ff25-22a2-d480" name="跳跃单位" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Jump Unit
+Jump units can use their jump packs once each turn to move more swiftly in either the Movement phase or the Assault phase – they cannot use their jump packs in both phases in the same turn. If not using its jump pack, a model moves as a normal model of its type. Indeed, a Jump unit can always choose to move as a normal model of their type if they wish. Note that the entire unit must always use the same form of movement. Units that are described as ‘moving like’ Jump units follow all of the rules for Jump units, and use the same special rules.
+
+SKYBORNE
+When using its jump pack (whether moving, charging or Falling Back, as we’ll discuss in a moment) a model can move over all other models and all terrain freely. However, if the model begins or ends its move in difficult terrain, it must take a Dangerous Terrain test.
+Jump models cannot end their move on top of other models and can only end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do this, however, they treat the impassable terrain as dangerous terrain.
+
+MOVEMENT PHASE
+If a Jump model uses its jump pack (or equivalent) in the Movement phase, it can move up to 12&amp;quot;.
+
+ASSAULT PHASE
+If a Jump model uses its jump pack to charge into assault, it can re-roll its charge distance.
+Furthermore, to represent the crushing impact of such a charge, a model that uses its jump pack to charge gains the Hammer of Wrath special rule for the remainder of the turn.
+
+FALL BACK MOVES
+Jump units always use their jump packs when Falling Back, and their Fall Back moves are 3D6&amp;quot;, even if they already used their jump pack to move that turn.
+
+SPECIAL RULES
+Jump units have the Bulky and Deep Strike special rules.</comment>
       <description>
 跳跃单位可以在每回合的移动阶段或突击阶段使用跳跃背包进行1次更快的移动 – they cannot use their 跳跃背包 in both phases in the same turn. If not using its 跳跃背包, a model moves as a normal model of its type. Indeed, a 跳跃单位can always choose to move as a normal model of their type if they wish. Note that the entire 单位 must always use the same form of movement. Units that are described as ‘moving like’ 跳跃单位follow all of the rules for 跳跃单位, and use the same规则.
 
@@ -7773,9 +8087,18 @@ Furthermore, to represent the crushing impact of such a charge, a model that use
       </description>
     </rule>
     <rule id="2d57-8425-0ec0-a9cf" name="重力脉冲" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Graviton Pulse
+Instead of rolling To Wound normally with this weapon, any model caught in its blast must instead roll equal to or under their Strength on a D6 or suffer a wound (a roll of a ‘6’ always counts as a failure). After a Graviton Pulse weapon has been fired, leave the Blast marker in place. This area now counts as both difficult terrain and dangerous terrain for the next turn thanks to the gravity flux.</comment>
       <description>在计算该武器造成的伤害时无需投掷伤害骰,而每个在其爆炸盖板下的模型都投掷1个D6骰子,小于或等于其S值的结果算作通过测试,高于S值的结果受到一点伤害(如果结果为‘6’则自动受到伤害).在重力变换发射后,保持爆炸盖板位置不动.由于重力波的影响这一区域将在下个回合算作困难地形和危险地形</description>
     </rule>
     <rule id="6970-1bf3-b33e-5dce" name="电磁干扰" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Haywire
+When a weapon with this special rule hits a vehicle, roll a D6 to determine the effect rather than rolling for armour penetration normally:
+
+D6 - Result
+1 - No effect
+2-5 - Glancing hit
+6 - Penetrating hit</comment>
       <description>
 当具有该规则的武器击中载具时,取代正常投掷穿甲,为每个命中投D6.
 1 无效果
@@ -7784,81 +8107,141 @@ Furthermore, to represent the crushing impact of such a charge, a model that use
       </description>
     </rule>
     <rule id="c2af-0e00-294d-8d82" name="累赘" publicationId="ca571888--pubN106502" page="162" hidden="false">
+      <comment>Cumbersome
+A model using a close combat weapon with this special rule can only ever make a single attack at WS 1 in an Assault phase, regardless of their profile or any bonus or other special rule.</comment>
       <description>具有该规则的武器,使用者只能以WS1攻击1次,无视其模型本身的数值和其他特殊规则的加成.</description>
     </rule>
     <rule id="eabf-f2b0-71f8-0f72" name="神奇之技" publicationId="ca571888--pubN106650" hidden="false">
+      <comment>Preternatural Skill
+Any model with this special rule gains a bonus of +1 to their Initiative in the Assault phase if their Weapon Skill is equal to or greater than the majority Weapon Skill of the unit or units they are fighting.</comment>
       <description>任何拥有此规则的模型在肉搏阶段若WS高于对手则I+1.</description>
     </rule>
     <rule id="0d78-e15c-74f6-5701" name="等离子手雷" publicationId="ca571888--pubN105292" hidden="false">
+      <comment>Plasma Grenades
+Models equipped with plasma grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative step in the ensuing combat.</comment>
       <description>装备等离子手榴弹的模型不会因为在困难地形中向敌人冲锋而受到主动性惩罚.</description>
     </rule>
     <rule id="0ac1-dfc1-295b-50a6" name="机魂之力" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Power of the Machine Spirit
+In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</comment>
       <description>如果拥有机魂的载具既不进行极速移动也不使用烟雾弹,那么它可以用正常的BS值多射击1件武器.这件武器还可以射击和其它武器不同的目标,遵循所有射击的一般规则.</description>
     </rule>
     <rule id="4af6-46f8-9c3e-cb33" name="Heliothermic Detonation" publicationId="ca571888--pubN106705" hidden="false">
       <description>If any target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughness test. If this test is failed, they suffer 即死. If a 载具 suffers a penetrating hit from this weapon, add +1 to the result rolled on the 载具损伤结果表.</description>
     </rule>
     <rule id="3bc1-64f3-ed64-6959" name="快速追踪" publicationId="ca571888--pubN99753" page="127" hidden="false">
+      <comment>Rapid Tracking
+Targets may not take Jink saves against damage from this weapon.</comment>
       <description>目标不能使用闪避.</description>
     </rule>
     <rule id="45cf-653a-4ff6-f22d" name="突击载具" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Assault Vehicle
+Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</comment>
       <description>此载具的乘客从出入口下车之后可以本回合发动冲锋,即使这个载具本回合或上回合刚被摧毁,但是本载具从预备队到来的回合不能这样做</description>
     </rule>
     <rule id="ca3e-e94e-58f6-75d9" name="拦截" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Interceptor
+At the end of the enemy Movement phase, a weapon with the Interceptor special rule can be fired at any one unit that has arrived from Reserve within its range and line of sight. If this rule is used, the weapon cannot be fired in the next turn, but the firing model can shoot a different weapon if it has one.</comment>
       <description>在1个敌方移动阶段结束时,具有该规则的武器可以向其视线和射程内的1个刚从预备队中到达的敌单位射击.如果使用了这条规则,这件武器下回合不能射击,不过持有它的模型可以用别的武器(如果有)射击.</description>
     </rule>
     <rule id="3138-683d-a9a0-570d" name="陶瓷装甲" publicationId="ca571888--pubN106780" page="131" hidden="false">
+      <comment>Armoured Ceramite
+A vehicle with this wargear is not subject to the additional D6 armour penetration caused by weapons with the Melta special rule.</comment>
       <description>免疫热熔武器的额外穿甲骰规则.</description>
     </rule>
     <rule id="d0b7-ed3f-25c8-1e63" name="闪光护盾" hidden="false">
+      <comment>Flare Shield
+A flare shield operates against shooting attacks that strike the vehicle&amp;apos;s front arc.  It reduces the strength of attacks by weapons with the Templae or Blast type by -2, and other shooting attacks by -1.  A flare shield has no effect on attacks from close combat or with the Destroyer rule.    </comment>
       <description>闪光护盾使得所有对拥有者发起攻击的远程武器S-1,远程盖板武器S-2,对D武器和肉搏武器无效.</description>
     </rule>
     <rule id="a080-af1b-fb2e-4860" name="精准打击" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Precision Strikes
+If a model with this special rule rolls a 6 To Hit with a Melee weapon, that hit is a ‘Precision Strike’.
+
+Wounds from Precision Strikes are allocated against an engaged model (or models) of your choice in the unit you are attacking, rather than following the normal rules for Wound allocation. If a Precision Strike Wound is allocated to a character, they can still make their Look Out, Sir roll.</comment>
       <description>拥有本规则或使用本规则武器的模型进行肉搏时如果命中出6视作精准打击,这个命中造成的伤害由你在目标单位内任意分配,这种伤害依然可以通过小心长官规则来转移</description>
     </rule>
     <rule id="4771-b711-0e74-3aee" name="精准射击" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Precision Shots
+If a model with this special rule rolls a 6 To Hit with a shooting weapon, that shot is a ‘Precision Shot’.
+
+Wounds from Precision Shots are allocated against a model (or models) of your choice in the target unit, as long as it is in range and line of sight of the firer, rather than following the normal rules for Wound allocation. A character that has a Precision Shot Wound allocated to it can still make a Look Out, Sir roll.
+
+Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit, can never be Precision Shots.</comment>
       <description>拥有本规则或使用本规则武器的模型进行射击时如果命中出6则视作精准射击,这个命中造成的伤害由你在目标单位内任意分配,但是仍然要满足正常的射程和视线限制,这种伤害依然可以通过小心长官规则来转移.仓促射击或盖板武器不适用此规则</description>
     </rule>
     <rule id="0122-421f-88f2-9c68" name="灵能者" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Psyker
+A model with this special rule is a Psyker. This rule is typically presented with a Mastery Level, shown in brackets – if no Mastery Level is shown then that model has a Mastery Level of 1.</comment>
       <description>有该规则的模型视为灵能者. 如果没表明灵能者等级则算作LV1</description>
     </rule>
     <rule id="cf90-39d9-c923-f6bf" name="拒敌门外" publicationId="ca571888--pubN106502" page="170" hidden="false">
+      <comment>Repel the Enemy
+Models disembarking from Access Points on a building can charge on the turn they do so, even on a turn the building was destroyed.
+
+Models using an escape hatch (see page 106) may not make use of this special rule.</comment>
       <description>从建筑出入口出来的模型可以对敌人发动冲锋,即使这个建筑被摧毁了</description>
     </rule>
     <rule id="9f71-25a6-08e5-f088" name="自动防御系统" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Sentry Defence System
+A building with this special rule can use automated fire against enemy units, even if it is unoccupied. In addition, enemy units can shoot at and charge a building with this special rule, even if it is unoccupied.</comment>
       <description>这种规则的建筑可以自动对敌人开火,无需友军占领,反之敌人也可射击和冲锋这种建筑,即使当时无人占领</description>
     </rule>
     <rule id="4608-a89f-8d54-2fe4" name="缓慢沉着" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Slow and Purposeful
+A unit that contains at least one model with this special rule cannot Run, Turbo-boost, move Flat Out, perform Sweeping Advances or fire Overwatch. However, they can shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</comment>
       <description>至少包含1个具有该规则的模型的单位不能奔跑/涡轮加速/极速移动,也不能扫荡打击和坚守射击.同时获得毫不留情规则.</description>
     </rule>
     <rule id="38ff-a919-70c4-aec4" name="分散火力" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Split Fire
+When a unit that contains at least one model with this special rule shoots, one model in the unit can shoot at a different target to the rest of his unit. Once this shooting attack has been resolved, resolve the shooting attacks made by the rest of the unit. These must be at a different target, which cannot be a unit forced to disembark as a result of the Split Firing unit’s initial shooting attack.</comment>
       <description>本单位至少要包含1个具有该规则的模型,这个单位中1个模型可以射击与其余模型不同的目标.选择单位中的1个模型,立即用它射击,射击结算完后,单位内的其它模型开始射击,但目标必须不同,注意这两个射击在规则上仍然是同时发生的,不得利用此规则击毁运输载具,然后分开射击的模型射击被迫下车的乘客.</description>
     </rule>
     <rule id="0d66-14c9-d2f4-708b" name="隐蔽" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Stealth
+A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</comment>
       <description>至少拥有1个此规则模型的单位,获得的掩体保护+1,意味着它即使在开阔地上也有6+掩体保护.这个规则有时会特殊指定生效的地形类别,比如隐蔽(森林)隐蔽(废墟).笼罩规则可以和隐蔽规则叠加</description>
     </rule>
     <rule id="7911-b951-c819-2f4f" name="对地扫射" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Strafing Run
+When shooting Assault, Heavy, Rapid Fire or Salvo weapons at Artillery, Beasts, Bikes, Cavalry, Infantry, Monstrous Creatures and vehicles without the Flyer or Skimmer type, this vehicle has +1 Ballistic Skill.</comment>
       <description>当使用(突击/速射/齐射/重型)武器射击(炮兵/步兵/摩托/野兽/骑兵/巨兽)以及不具备飞行器和悬浮属性的载具时,BS+1.</description>
     </rule>
     <rule id="2e96-21ae-353e-8742" name="超音速" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Supersonic
+A Supersonic vehicle that moves Flat Out must move at least 18&amp;quot; and can move up to 36&amp;quot;.</comment>
       <description>1架超音速载具如果极速移动,必须至少移动18寸并可移动多达36寸</description>
     </rule>
     <rule id="3e0b-be9f-b7eb-8c5e" name="永恒战士" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Eternal Warrior
+If a model with this special rule suffers an unsaved Wound from an attack that inflicts Instant Death, it only reduces its Wounds by 1, instead of automatically reducing its Wounds to 0.</comment>
       <description>不受即死规则影响,即死攻击不扣除所有剩余生命值,而是视作损失1W</description>
     </rule>
     <rule id="860d-1c1d-04ef-2829" name="实验性" publicationId="ca571888--pubN107025" hidden="false">
+      <comment>Experimental
+The many rules presented for this unit are experimental rules, still under development, and are not the final version. Experimental rules will change over time before a final version is published.</comment>
       <description>其规则属于试验性,随时可能会发生更改</description>
     </rule>
     <rule id="c0a6-5a38-2ea5-e740" name="震荡脉冲" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Shock Pulse
+Any vehicle, including super-heavies, that suffers a penetrating hit may only fire snap shots on the following game turn.</comment>
       <description>任何载具(包括超重型载具)遭受具有该规则武器造成的穿击伤后,只能仓促射击,持续到下回合结束.</description>
     </rule>
     <rule id="1b17-c243-6518-4f8a" name="危险堆芯" publicationId="ca571888--pubN107062" page="75" hidden="false">
+      <comment>Dangerous Reactor Core
+If enemy inflicts a Penetrating hit against the Sicarian Venator, they may re-roll a result of a 1 on the Vehicle Damage table.
+Explodes results add D3&amp;quot; to radius.</comment>
       <description>可以重投载具损伤表的1.爆炸范围增加D3寸.</description>
     </rule>
     <rule id="e15d-1437-cfb2-b8dd" name="敏锐感官" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Acute Senses
+If a unit contains at least one model with this special rule, and that unit arrives on a random table edge (due to Outflank, or other special rules), then you can re-roll to see which table edge they arrive from.</comment>
       <description>当单位内包含至少1个有该规则的模型时,当单位从随机桌边登场(例如侧击),可以重投决定位置的进场骰</description>
     </rule>
     <rule id="c1bc-2d6c-ed91-1a1c" name="载具克星" hidden="false">
+      <comment>Bane of Vehicles
+When making shooting attacks, this model re-rolls failed armour penetration rolls against vehicles and can choose to re-roll glancing hits, in an attempt to instead get a penetrating hit – but the second result must be kept</comment>
       <description>射击时,可以重投失败的穿甲骰,可以选择重投擦伤,但必须接受重投的结果.</description>
     </rule>
     <rule id="4505-0d6e-4f06-c73d" name="Berserk Fighter" hidden="false">
@@ -7868,6 +8251,12 @@ Furthermore, to represent the crushing impact of such a charge, a model that use
       <description>Any target hit in 肉搏 by this model must take an Initiative test at the end of the current phase. If the test is passed, all is well – they have seen through the distraction. If the Initiative test is failed, the target is reduced to WS and BS 1 until the end of their next turn. Any model that does not have an Initiative characteristic(for example, 非步行机甲 载具, 建筑s etc.) is unaffected by this规则.</description>
     </rule>
     <rule id="8e59-1172-280d-75e8" name="灵能者兄弟会/巫师兄弟会" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Brotherhood of Psykers/Sorcerers
+A unit containing at least one model with this special rule is a Psyker unit – if no Mastery Level is shown, then that unit has a Mastery Level of 1. Rules for generating and manifesting psychic powers can be found in the Psychic phase section. The unit follows all the normal rules for Psykers, with the following clarifications:
+
+When manifesting a psychic power, this unit measures range and line of sight from, and uses the characteristics profile (if required) of, any one model in the unit that has the Brotherhood of Psykers/Sorcerers special rule (controlling player’s choice).
+
+If this unit suffers Perils of the Warp, or is hit by an attack that specifically targets Psykers, the hits are Randomly Allocated amongst models with the Brotherhood of Psykers/Sorcerers special rule. If a model with this special rule gains or loses a psychic power, all other models with this special rule in their unit also gain or lose that power.</comment>
       <description>
 至少包含1个有该规则模型的单位视为1个灵能者单位,如果没表明灵能者等级则算作LV1,遵循所有灵能者的常规规则,除了以下调整:
 1.当使用灵能时,可以从本单位中拥有本规则的任意模型计算视线,距离,或使用其属性(如果需要),由单位拥有者选择
@@ -7875,12 +8264,26 @@ Furthermore, to represent the crushing impact of such a charge, a model that use
       </description>
     </rule>
     <rule id="3eda-669d-bd54-e3c0" name="恶魔" publicationId="ca571888--pubN106502" page="162" hidden="false">
+      <comment>Daemon
+Models with the Daemon special rule have a 5+ invulnerable save, and also have the Fear special rule.</comment>
       <description>具有该规则的模型有5+特殊保护和恐怖规则.</description>
     </rule>
     <rule id="d784-9fdb-622e-32a5" name="Deathblow" hidden="false">
       <description>If a target suffers an unsaved Wound from a 肉搏 attack made by this model, the target is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
     <rule id="b1ee-7803-8ddb-cb4e" name="毁灭性武器" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Destroyer Weapon
+If a weapon has a D instead of a Strength value in its profile, it is a Destroyer weapon. To resolve a Destroyer weapon&amp;apos;s attack, roll To Hit as you would for a standard attack. If the attack hits, roll on the table instead of rolling To Wound or for armour penetration. Most Destroyer Weapons have AP1 or AP2, so armour saves are not typically allowed. Cover saves and invulnerable saves can be taken against hits from a Destroyer weapon as normal, unless a Devastating Hit or Deathblow result is rolled. For the purposes of determining if a Destroyer hit has the Instant Death special rule, assume it has Strength 10. Multiple Wounds/Hull Points inflicted by a Destroyer hit do not carry over to other models in the unit (any excess are lost).
+
+D Weapon Attack Table: D6 Roll
+
+1: Lucky Escape - The Model is unharmed
+
+2-5 (Vehicle/Building): Solid Hit - The model suffers a penetrating hit that causes it to lose D3 Hull Points instead of 1. 
+2-5 (Other): Seriously Wounded - The model suffers a hit that wounds automatically and causes it to lose D3 wounds instead of 1.
+
+6 (Vehicle/Building): Devastating Hit - The model suffers a penetrating hit that causes it to lose D6+6 Hull Points instead of 1. No saves of any kind are allowed against this hit.
+6 (Other): Deathblow - The model suffers a hit that wounds automatically and causes it to lose D6+6 wounds instead of 1. No saves of any kind are allowed against this hit.</comment>
       <description>
 替换正常的损伤表或者载具损伤表,在判断是否触发即死规则时算作S10
 D 武器攻击表(D6投掷结果):
@@ -7907,6 +8310,11 @@ D 武器攻击表(D6投掷结果):
       <description>When this model makes a 肉搏 attack, for each To Wound roll of a 6, the target automatically suffers a Wound, regardless of its Toughness. These Wounds are resolved at AP2. Against 载具, each armour penetration roll of 6 allows a further D3 to be added to the total. These hits are resolved using their normal AP value.</description>
     </rule>
     <rule id="f588-4e5a-a032-0aee" name="立场" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Force
+Any Psyker that has one or more weapons with this special rule knows the Force psychic power in addition to any other powers they know.
+
+Force - Warp Charge 1
+Force is a blessing psychic power that targets the Psyker and his unit. All of the targets&amp;apos; weapons that have the Force special rule gain the Instant Death special rule until the start of your next Psychic phase.</comment>
       <description>
 使用立场武器的灵能者可以使用.
 
@@ -7921,6 +8329,10 @@ D 武器攻击表(D6投掷结果):
       <description>Emplaced weapons on a Firestorm Redoubt can only fire using the automated fire rule: models occupying a Firestorm Redoubt cannot use the manual fire rule to fire any of its emplaced weapons.</description>
     </rule>
     <rule id="e663-99e0-6b3e-a7ea" name="超级巨兽" publicationId="ca571888--pubN106502" hidden="false">
+      <comment>Gargantuan Creature
+Gargantuan Creatures and Flying Gargantuan Creatures have the following Special Rules:
+
+Fear, Fearless, Feel No Pain, Hammer of Wrath, Move Through Cover, Relentless, Smash, Strikedown, Vector Strike (Flying Gargantuan Creatures Only)</comment>
       <description>
 超级巨兽和飞行超级巨兽拥有如下规则:
 
@@ -7935,6 +8347,8 @@ for each successful hit.</description>
       <description>Any model within a Defence Emplacement section 重投 failed To-Hit rolsl when resolving 坚守射击 if using a weapon with the 重型 type.</description>
     </rule>
     <rule id="d3e5-b43d-a89c-3bd8" name="闪避" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Jink
+When a unit with any models with the Jink special rule is selected as a target for a shooting attack, you may declare that it will Jink. The decision must be made before any To Hit rolls have been made. If the unit Jinks, all models in the unit with this special rule gain a 4+ cover save until the start of their next Movement phase, but they can only fire Snap Shots until the end of their next turn.</comment>
       <description>具有该规则的模型若被对方选择为射击目标,可以在对方投射击命中之前选择是否进行闪避,如果这样做,这个单位中所有拥有闪避规则的模型获得4+掩体保护,直到下个他们的移动阶段开始,但是他们下个回合只能仓促射击.</description>
     </rule>
     <rule id="b66d-46a8-2300-c2ed" name="Killer Instinct" hidden="false">
@@ -7944,6 +8358,12 @@ for each successful hit.</description>
       <description>A target that suffers one or more hits in 肉搏 from this model is reduced to Initiative 1 until the end of the following 突击阶段</description>
     </rule>
     <rule id="7467-2946-8f8c-fa81" name="机械破坏者" hidden="false">
+      <comment>Machine Saboteur
+When this model hits a vehicle in close combat, roll a D6 to determine the effect rather than rolling for armour penetration normally:
+D6 Result
+1     No effect
+2-4  Glancing hit
+5-6  Penetrating hit</comment>
       <description>
 和载具肉搏时,取代穿甲骰,投掷D6:
 1    无事发生
@@ -7952,39 +8372,57 @@ for each successful hit.</description>
       </description>
     </rule>
     <rule id="ad74-698e-d727-4b16" name="巨大工事" publicationId="ca571888--pubN74520" page="" hidden="false">
+      <comment>Massive Fortification
+Massive Fortifications follow all th erules for buildings as defined in the Warhammer 40,000 rulebook, but have the Mighty Bulwark special rule and can have an Armour Value of up to 15 rather than being limited to 14. The datasheet entry for the fortification will list the actual Armour Values it has.</comment>
       <description>巨大工事遵循总规则对于建筑的规定,但拥有固若金汤规则且装甲值最多可到15.</description>
     </rule>
     <rule id="f1d4-5b05-ff67-81d4" name="精工" hidden="false">
+      <comment>Master-Craftsman
+When selecting this special rule, pick a ranged weapon carried by this model. You can re-roll one failed To Hit roll per turn with that weapon.</comment>
       <description>每回合可以重投1个失败的命中.</description>
     </rule>
     <rule id="3384-a962-78e5-d13c" name="固若金汤" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Mighty Bulwark
+When a building with the Mighty Bulwark special rule suffers a penetrating hit, there is a -1 modifier to the roll on the Building Damage table.</comment>
       <description>拥有此规则的建筑遭受击穿时,损伤表-1</description>
     </rule>
     <rule id="97df-06a3-356e-02a8" name="Missile Battery" publicationId="ca571888--pubN74520" hidden="false">
       <description>The emplaced 漩涡 missile may fire a maximum of seven 漩涡 missiles over the course of the battle.  No more than one missile may be fired per 射击阶段.</description>
     </rule>
     <rule id="46ca-9255-0e77-e9f5" name="导弹锁定" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Missile Lock
+A model with this special rule re-rolls failed To Hit rolls when shooting any weapon that has the One Use Only special rule. If a model with this special rule is shooting a weapon that has both the One Use Only and Blast special rules, that shot will instead scatter D6&amp;quot; rather than 2D6&amp;quot;.</comment>
       <description>具有该规则的模型使用一次性武器时可以重投失败的命中,如果是盖板类一次性武器则只偏移D6而不是2D6</description>
     </rule>
     <rule id="93c5-dcdd-af20-413e" name="巨兽猎手" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Monster Hunter
+A unit that contains at least one model with this special rule re-rolls all failed To Wound rolls against Monstrous Creatures.</comment>
       <description>至少包含1个具有该规则的模型的单位对巨兽和飞行巨兽可以重投失败的造伤.</description>
     </rule>
     <rule id="0c2a-421a-69a1-4444" name="Murderous Blows" hidden="false">
       <description>This model 重投 failed To Wound rolls in 肉搏.</description>
     </rule>
     <rule id="4764-48d9-da41-afaa" name="目标安全" publicationId="ca571888--pubN106502" hidden="false">
+      <comment>Objective Secured
+A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</comment>
       <description>除非目标也有类似规则,则拥有此规则的单位可以强制占领任务点.</description>
     </rule>
     <rule id="3789-00ab-3f47-eb36" name="一次性" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>One Use Only/One Shot Only
+A weapon or ability with this special rule can only be used once during the course of a battle.</comment>
       <description>整场战斗只能使用1次</description>
     </rule>
     <rule id="0a50-8f46-c9e4-be2a" name="Orbital" publicationId="ca571888--pubN106502" hidden="false">
       <description>If an arrow is rolled on the scatter dice when firing a weapon that has this规则, the shot always scatters the full 2D6寸 regardless of the firing model&apos;s BS.  此外 firing an 重炮 weapon that has this规则 does not prevent the firing model from declaring a charge against the target 单位 in the same turn.</description>
     </rule>
     <rule id="a5ff-1cb1-bee4-d809" name="毒伤" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Poisoned
+If a model has the Poisoned special rule, or is attacking with a Melee weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required, when attacking in close combat. In addition, if the Strength of the wielder (or the Poisoned weapon) is higher than the Toughness of the victim, the wielder must re-roll failed rolls To Wound in close combat. Similarly, if a model makes a shooting attack with a weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required. If no number is shown in brackets, the rule is Poisoned (4+). Unless otherwise stated, Poisoned weapons are treated as having a Strength of 1. The Poisoned special rule has no effect against vehicles.</comment>
       <description>如果模型或肉搏武器拥有毒性攻击规则,那么其肉搏攻击的出伤会是1个写明的固定数值,无视对方的T值,除非正常出伤的数值比这还低,并且在肉搏攻击中如果S大于对方的T值,则必须重投失败的肉搏伤害.射击武器如果拥有毒性攻击规则,其出伤也会是1个写明的固定数值,如果没写明就是4+,除非正常出伤的数值比这个还低.毒性射击武器除非特殊说明,算作S1,并且毒性攻击规则对载具无效</description>
     </rule>
     <rule id="1345-b808-628a-f6e1" name="毒伤武器" hidden="false">
+      <comment>Poisoned Weapons
+When attacking in close combat, this model always wounds their target on a 4+, unless a lower result would be required. In addition, if the Strength of this model is higher than the Toughness of their target, this model re-rolls failed rolls To Wound in close combat. This special rule has no effect against vehicles.</comment>
       <description>在肉搏阶段,此武器固定4+造伤,除非正常出伤的数值比这还低.并且如果S大于对方的T值,则必须重投失败的肉搏伤害.对载具无效.</description>
     </rule>
     <rule id="38b6-e53f-8514-a49e" name="Primary Target" publicationId="ca571888--pubN74520" page="" hidden="false">
@@ -7994,6 +8432,8 @@ for each successful hit.</description>
       <description>This model counts as being equipped with 突击 grenades(see Warhammer 40,000: The Rules ). However, 掩体保护s cannot be taken against Wounds caused by promethium charges in the 射击阶段.</description>
     </rule>
     <rule id="2189-13e6-c68c-ab23" name="灵能者驾驶员" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Psychic Pilot
+A vehicle with this special rule is a Psyker. This rule is typically presented with a Mastery Level, shown in brackets - if no Mastery Level is shown then that vehicle has a Mastery Level of 1. The unit follows all the normal rules for generating and manifesting psychic powers, with the following clarification: the vehicle is considered to have a Leadership characteristic of 10, should this be needed in order to resolve any psychic power or Perils of the Warp.</comment>
       <description>具有此特殊规则的载具是灵能者. 此规则通常以精通级别呈现,并在方括号中显示,如果未显示则载具的“精通级别”为1.该单位遵循所有用于生成和使用灵能的常规规则,并作以下说明: 如果需要使用载具来破除灵能或处理灵能反噬,则该载具被视作LD10.</description>
     </rule>
     <rule id="9f0c-d4f2-94ee-c3a8" name="Reaping Volley" hidden="false">
@@ -8012,21 +8452,41 @@ for each successful hit.</description>
       <description>Any 非载具 model that suffers one or more hits from this model in 肉搏 moves as if it is in 困难地形 until the end of its next turn.</description>
     </rule>
     <rule id="63c3-7047-44b3-6aaa" name="音爆" publicationId="ca571888--pubN74520" page="" hidden="false">
+      <comment>Sonic Boom
+After firing a quake shell, draw a straight line between the Aquila macro-cannon and the central hole of the apocalyptic mega-blast template.  Roll a dice for each Flyer, Flying Monstrous Creature, or Flying Gargantuan Creature model crossed by this line.  On a roll of 1, a Flyer will Crash and Burn, while a Clying Monstrous Creature or Flying Gargantuan Creature will take D3 Wounds with no saving throws allowed.</comment>
       <description>After firing a quake shell, draw a straight line between the Aquila macro-cannon and the central hole of the 启示录级大爆炸 喷射盖板.  Roll a dice for each 飞行器, 飞行巨兽, or 飞行超级巨兽 model crossed by this line.  On a roll of 1, a 飞行器 will Crash and Burn, while a Clying 巨兽 or 飞行超级巨兽 will take D3 Wounds with no saving throws allowed.</description>
     </rule>
     <rule id="acb1-64c4-ef54-3a55" name="灵魂烈焰" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Soul Blaze
+If a unit suffers one or more unsaved Wounds from an attack with this special rule, it is set ablaze and continues to burn – mark it with a coin or counter as a reminder.
+
+At the end of each turn, roll a D6 for each unit with a Soul Blaze counter on it. On a 3 or less, the flames die out and the unit is no longer ablaze – remove your reminder counter. On a 4+, the unit takes D3 Strength 4 AP5 hits with the Ignores Cover special rule. These Wounds are Randomly Allocated. A unit cannot have more than one Soul Blaze counter on it at a time.</comment>
       <description>1个单位受到了具有该规则的武器造成的未保护伤害则会被 点燃 ,在每回合结束时为这个单位投D6.若结果为1-3,火焰熄灭.结果为4+,此单位受到D3次S4AP5的命中,随机分配,不能掩体保护.灵魂烈焰效果不叠加</description>
     </rule>
     <rule id="afb7-b281-a9ce-4272" name="Stalwart Defence" publicationId="ca571888--pubN74520" page="" hidden="false">
       <description>Models 获得坚毅规则 whist within a Wall of Martyrs Imperial Defence Line or Defence Emplacement section.</description>
     </rule>
     <rule id="092c-188d-753d-404e" name="践踏" publicationId="ca571888--pubN106502" page="92" hidden="false">
+      <comment>Stomp
+Super-heavy walkers or Gargantuan Creatures engageed in combat may make a special type of attack called a Stomp attack.  The Stomp attack is made in addition to the Super-heavy Walker&amp;apos;s normal attacks. Stomp attacks are resolved during the Fight sub-phase at the Initiative 1 step.  This does not grant the model an additional Pile In move at the Initiative 1 step.
+
+A Stomp attack consists of D3 Stomps.  Buildings, Flyers, Swooping Flying Monstrous Creatures, Gargantuan Creatures, Flying Gargantuan Creatures, Super-heavy Vehicles, Super-heavy Walkers, and Super-heavy Flyers cannot be stomped; do not roll on the Stomp table for them if they fall under the blast marker.  Any other units with models under the blast marker are stomped as normal.</comment>
       <description>
 超重型步行机甲 or 超级巨兽 engageed in combat may make a special type of attack called a Stomp attack.  The Stomp attack is made 此外 to the 超重型步行机甲&apos;s normal attacks. Stomp attacks are resolved during the Fight sub-phase at the Initiative 1 step.  This does not grant the model an additional Pile In move at the Initiative 1 step.
 A Stomp attack consists of D3 Stomps.  建筑s, 飞行器, Swooping 飞行 巨兽, 超级巨兽, 飞行超级巨兽s, 超重型载具, 超重型步行机甲, and 超重型飞行器 cannot be stomped; do not roll on the Stomp table for them if they fall under the 爆炸 marker.  Any other units with models under the 爆炸 marker are stomped as normal.
       </description>
     </rule>
     <rule id="c6d4-50ae-eef2-e963" name="践踏结果表" publicationId="ca571888--pubN106502" hidden="false">
+      <comment>Stomp Table
+Non Vehicle:
+1: No Effect.
+2-5: Each Model from the unit being stomped that is even partially under the blast marker suffers a S6 AP4 hit.
+6: Each model from the unit being stomped that is even partially under the blast marker is removed as a casualty.
+
+Vehicle: 
+1: No Effect
+2-5: One vehicle in the unit being stomped that is even partially under the blast marker (stomping model&amp;apos;s choice) suffers a penetrating hit.
+6: One vehicle in the unit being stomped that is even partially under the blast marker (stomping model&amp;apos;s choice) scatters D6&amp;quot; and then suffers an Explodes! result.</comment>
       <description>
 Non 载具:
 1: No Effect.
@@ -8040,6 +8500,10 @@ Non 载具:
       </description>
     </rule>
     <rule id="f14f-8413-de9b-ed19" name="超重型载具" publicationId="ca571888--pubN106502" hidden="false">
+      <comment>Super-Heavy Vehicle
+Super-heavy vehicles have the following special rules:
+
+Fear, Move Through Cover, Invincible Behemoth.</comment>
       <description>
 超重型载具拥有如下特殊规则:
 
@@ -8049,6 +8513,10 @@ Non 载具:
       </description>
     </rule>
     <rule id="f8b2-c433-0765-f1e7" name="超重型步行机甲" publicationId="ca571888--pubN106502" hidden="false">
+      <comment>Super-Heavy Walker
+All Super-Heavy Walkers have the following special rules:
+
+Fear, Hammer of Wrath, Invincible Behemoth, Move Through Cover, Relentless, Smash, Strikedown.</comment>
       <description>
 超重型步行机甲拥有以下特殊规则:
 
@@ -8068,9 +8536,17 @@ If the规则 of a model specify that they can never be Pinned, they automaticall
       </description>
     </rule>
     <rule id="9079-7061-f12c-a6ba" name="集群" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Swarms
+If, when allocating Wounds to a unit with the Swarms special rule, two or more models could be chosen as the closest enemy, the closest enemy is always the model with the least number of Wounds. If a model with the Swarm special rule suffers an unsaved Wound from a Blast (any size) or Template weapon, each unsaved Wound is multiplied to two unsaved Wounds unless that Wound has the Instant Death special rule. However, a unit entirely composed of models with the Swarm special rule is not slowed by difficult terrain, but must test for Dangerous Terrain as normal.
+    </comment>
       <description>集群单位遭受任何爆炸盖板或喷射盖板攻击时,每个未保护成功的伤害会变成2个除非这种伤害拥有即死规则.永远优先从生命值最少的模型开始分配伤害. 完全具有集群属性的单位不会被困难地形减慢.</description>
     </rule>
     <rule id="8065-2f17-bb00-d535" name="雷霆撞击" publicationId="ca571888--pubN106502" page="91" hidden="false">
+      <comment>Thunderblitz
+Super-heavy vehicles may Tank Shock or Ram.  When they do so, roll once on teh Thunderblitz table immediately before taking the Morale check for the unit being Tank Shocked, or immediately before rolling for armour penetrating when performing a Ram.
+
+Do not roll on the Thunderblitz table when Tank Shocking a Gargantuan Creature or Flying Gargantuan Creature, or when Ramming a Super-heavy vheicle or Super-heavy Walker.  Instead, simply carry out the Tank Shock or Ram as normal.
+    </comment>
       <description>
 超重型载具可以使用坦克震撼和撞击. 使用时, 投掷1次雷霆撞击结果表,在进行坦克震撼前需要为单位做1次士气测试,在进行撞击前投掷1次穿甲骰.
 以下情况不需要投掷雷霆撞击结果表:
@@ -8080,6 +8556,16 @@ If the规则 of a model specify that they can never be Pinned, they automaticall
       </description>
     </rule>
     <rule id="5dfe-0b9b-26b3-edb4" name="雷霆撞击结果表" publicationId="ca571888--pubN106502" page="91" hidden="false">
+      <comment>Thunderblitz Table
+Tank Shock:
+1: No Effect. Then, Carry on with the Tank Shock as normal.
+2-5: The unit being Tank Shocked suffers D6 S6 AP4 hits. Then, Carry on with the Tank Shock as normal.
+6: The unit being Tank Shocked suffers 2D6 S10 AP2 hits. Then, Carry on with the Tank Shock as normal.
+
+Ram: 
+1: No Effect. Then, Carry on with the Ram as normal.
+2-5:  The Super-heavy vehicle adds D6 to the armour penetration roll for the Ram. Then, Carry on with the Ram as normal.
+6: The vehicle being rammed scatters D6&amp;quot; and then suffers an Explodes! result from the Vehicle Damage Table.</comment>
       <description>
 坦克震撼:
 1: No Effect. Then, Carry on with the 坦克震撼 as normal.
@@ -8093,9 +8579,15 @@ If the规则 of a model specify that they can never be Pinned, they automaticall
       </description>
     </rule>
     <rule id="5039-18f0-a9ed-0938" name="爆发喷射" publicationId="ca571888--pubN106502" page="174" hidden="false">
+      <comment>Torrent
+A weapon with this special rule is treated like any other Template weapon, but when firing it in the Shooting phase, place the template so that the narrow end is within 12&amp;quot; of the weaon and the wide end is no closer to the weapon than the narrow end.
+
+Some versions of this special rule may specify a distance as part of the rule (Torrent (18&amp;quot;) for example), in these cases the template must be placed so that the narrow end is within the specified distance rather than the standard 12&amp;quot;</comment>
       <description>这种武器开火时,喷射盖板的窄头可以放置在发射点的12寸内,然后宽头不得比窄头更接近发射点,其他情况和喷射盖板武器一样</description>
     </rule>
     <rule id="b11c-0ef4-af6b-d96f" name="双手武器" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Two-Handed
+A model attacking with this weapon never receives +1 Attack for fighting with two Melee weapons.</comment>
       <description>使用这种规则的武器不会获得双肉搏武器的A加值</description>
     </rule>
     <rule id="288b-7bed-3048-9428" name="Unstoppable" publicationId="ca571888--pubN106502" page="69" hidden="false">
@@ -8105,15 +8597,25 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       </description>
     </rule>
     <rule id="78a5-e7d1-89b3-2fb5" name="飞翔舞者" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Vector Dancer
+A model with this special rule can make an additional pivot on the spot of up to 90 degrees at the end of its move. A model that uses this extra pivot cannot move Flat Out in the following Shooting phase.</comment>
       <description>具有该规则的模型在移动阶段结束时可以额外转向90度,如果这样做就不能在射击阶段进行极速移动.</description>
     </rule>
     <rule id="5341-7110-d8d4-171a" name="飞掠打击" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Vector Strike
+When Swooping or Zooming, this model may savage its prey. At the end of the Movement phase, nominate one enemy unit not locked in combat that the model has moved over that turn. That unit takes 1 hit (if the unit is an enemy Flyer in Zoom mode, or an enemy Swooping Flying Monstrous Creature, it instead takes D3 hits). Unless stated otherwise, Vector Strike hits are resolved at the model’s unmodified Strength and AP2, using Random Allocation. These hits have the Ignores Cover special rule. These hits do not benefit from any of the model’s special rules, such as Furious Charge, Poisoned, Rending etc. Against vehicles, these hits are resolved against the target&amp;apos;s side armour.</comment>
       <description>飞行巨兽或飞行器在移动阶段结束时如果处于飞行状态,则可以选择1个此前它移动中飞过的未锁入肉搏的敌人单位,对这个敌人单位造成1次命中,如果目标是飞行状态的飞行器或飞行巨兽.则造成D3次命中,使用这个模型的未修正的S值和AP2.这种攻击随机分伤,对载具算作击中侧甲,无视掩体保护,不受其他规则加成.进行了飞掠打击的模型在接下来的射击阶段算作已经射击1件武器,不过飞掠打击并不影响射击阶段中选择射击目标.</description>
     </rule>
     <rule id="d04c-20b3-dc49-ea06" name="Very Wide Fire Point" publicationId="ca571888--pubN74520" page="" hidden="false">
       <description>Up to six occupying models can fire out of each of this 建筑&apos;s fire points.</description>
     </rule>
     <rule id="3d3c-398b-775d-72ff" name="漩涡" publicationId="ca571888--pubN106502" page="175" hidden="false">
+      <comment>Vortex
+A weapon with this special rule is a Destroyer weapon and uses a blast marker of some type (e.g. blast, large blast, massive blast, etc). Place the appropriate marker, roll for scatter and apply damage. For determining Wound allocation, always assume the shot is coming from the centre of the marker, in the same manner as a Barrage weapon.
+
+The marker for a Vortex weapon is not removed from play after damage has been resolved. Leave it in play on the tabletop. The marker is impassable terrain as long as it remains in play.
+
+At the beginning of every subsequent player turn, the marker scatters 2D6&amp;quot; (use the little arrow if you roll a Hit!). If a double is rolled, the marker is removed from play instead. Any unit under the marker’s new location is hit. Apply damage as described above.</comment>
       <description>拥有这种规则的武器是拥有毁灭性武器规则的爆炸盖板武器,首先遵循如同普通爆炸盖板武器,分配伤害时如同曲射武器算作伤害来自盖板中心,造成第1次伤害之后不移除盖板,而是保留在战场上算作1个不可通过地形,然后在之后的每个玩家回合,这个盖板会偏移2D6寸,如果偏移距离出现双数,则将盖板移除,任何接触盖板的模型会遭受这个盖板的伤害</description>
     </rule>
     <rule id="146b-5651-feff-cf72" name="Warrior Adept" hidden="false">
@@ -8129,12 +8631,24 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       <description>Any of the 工事槽位&apos;s emplaced weapons can be fired(using either automated or manual fire) by models occupying the main tower, even if the 建筑 housing the emplaced weapons itself is unoccupied.  This rule cannot be used to fire emplaced weapons on any part of the 工事槽位 occupied by an 敌方 单位.</description>
     </rule>
     <rule id="c49d-a848-144a-14d6" name="战斗机兵动力刃" hidden="false">
+      <comment>Battle-automata power blades
+Battle-automata power blades are paired weapons and so add +1 to the model’s attacks and count as being Two-handed.</comment>
       <description>A+1且视作双手</description>
     </rule>
     <rule id="aa779861-a8af-fa95-4150-ba94585d1aff" name="预警扫描仪" publicationId="ca571888--pubN69050" page="111" hidden="false">
+      <comment>Augur-sweep
+Enemy units within 12&amp;quot; reduce their cover saves by -1 when fired at by units in the same detachment as the Cyber-occularis</comment>
       <description>同分队单位射击机械观察者12寸内的敌军单位时目标掩体保护-1.</description>
     </rule>
     <rule id="9edbc777-7d2b-011b-7488-335b14870be5" name="战争铁匠" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Battlesmith
+If a Battlesmith is embarked on or in base contact with one or more damaged vehicles during the shooting phase, they may attempt to repair one of them instead of firing a weapon.  To attempt, roll a D6.  On a result of 5+ the Battlesmith may do one of the following:
+
+- Restore a lost Hull Point
+- Repair a Weapon Destroyed result
+- Repair an Immobilised result
+
+If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The Battlesmith cannot use this ability if he has gone to ground or is falling back.</comment>
       <description>
 在射击阶段,如果战争铁匠登上或与1个或多个损坏的载具接触,那么他可以放弃射击1件武器并修理该载具,投掷1颗D6骰,结果为5+时可以获得:
 -恢复一点HP
@@ -8144,81 +8658,144 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       </description>
     </rule>
     <rule id="53c751ef-105f-b2a8-7a17-7812d605b9f2" name="高速迂回" publicationId="ca571888--pubN85920" page="231" hidden="false">
+      <comment>Flank Speed
+If the Knight chooses to Run instead of firing a weapon in the shooting phase, may move 3D6&amp;quot;</comment>
       <description>如果在射击阶段放弃射击1个武器而选择奔跑,则可以奔跑3D6寸</description>
     </rule>
     <rule id="d169-a0dc-6155-c754" name="家族阶级" publicationId="ca571888--pubN84158" page="301" hidden="false">
+      <comment>Household Rank
+The model is subject to the Household Rank special rule, which may grant it an alteration to its basic profile and additional special rules as shown in the Questoris Knight Crusade Army Special Rules section on page 295.</comment>
       <description>骑士特殊组军规则</description>
     </rule>
     <rule id="409ed051-b4d2-fcc4-916d-1f2e7090366f" name="反应堆过载" publicationId="ca571888--pubN84158" page="303" hidden="false">
+      <comment>Overtaxed Reactor
+When destroyed, the knight adds +1 to the result rolled on the Catastrophic Damage table.</comment>
       <description>爆炸时的灾难性伤害表结果+1</description>
     </rule>
     <rule id="5a6e2a63-286a-a771-587c-6a41724b1e6b" name="预警中继" publicationId="ca571888--pubN85920" page="207" hidden="false">
+      <comment>Warning Relay
+Confers Interceptor to all friendly models within the same detachment 3&amp;quot;</comment>
       <description>同分队3寸内所有友军模型获得拦截规则.</description>
     </rule>
     <rule id="333c-a3b2-4353-f484" name="巨型毁灭协议" publicationId="ca571888--pubN89821" page="279" hidden="false">
+      <comment>Macro-extinction Targeting Protocols
+When making shooting attacks against targets of the Super-heavy or Gargantuan Creature type, the Cerastus Knight-Atrapos counts its weapons as Twin-linked.</comment>
       <description>射击超重型或超级巨兽单位时,所有武器视作双联.</description>
     </rule>
     <rule id="8fb5-0c46-e8b4-0ef6" name="离子闪光盾" publicationId="ca571888--pubN89821" page="279" hidden="false">
+      <comment>Ionic Flare Shield
+When a Cerastus Knight-Atrapos is deployed, and subsequently at the start of each of the opposing side&amp;apos;s Shooting phases, the Cerastus
+Knight-Atrapos&amp;apos; controlling player must declare which facing each Cerastus Knight-Atrapos&amp;apos; ion flare shield is covering. The choices are front, left side, right side or rear. The Knight has a 4+ invulnerable save against all hits against the shield facing and the strength of any 
+Shooting attack against the shield facing is reduced by -1, the effect increasing to -2 if the weapon has the Blast or Template special rules (note however that this strength reduction has no effect on Destroyer or Haywire attacks). Ionic flare shields are repositioned before any attacks are carried out in the Shooting phase and may not be used to make 	saving throws against close combat attacks.</comment>
       <description>获得对抗射击的全向4+特保,对肉搏攻击无效;所有对其发起攻击的武器S-1,盖板武器S-2,对D武器无效.</description>
     </rule>
     <rule id="81fe-8580-34f6-28ae" name="灾难性毁灭" publicationId="ca571888--pubN89821" page="279" hidden="false">
+      <comment>Catastrophic Destruction
+When destroyed, the Cerastus Knight-Atrapos adds +2 to the result rolled on the Catastrophic Damage table.</comment>
       <description>爆炸时灾难性伤害表结果+2</description>
     </rule>
     <rule id="841f-9119-9f9d-5058" name="碎裂" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Sunder
+Attacks with this rule may re-roll failed Armour Penetration rolls.</comment>
       <description>具有此规则的武器可以重投肉搏或者射击失败的穿甲骰</description>
     </rule>
     <rule id="40ea-f002-47cb-4e4e" name="弹片冲击" publicationId="ca571888--pubN106502" page="171" hidden="false">
+      <comment>Shell Shock
+Pinning tests taken because of a weapon with this special rule suffer a -1 Leadership penalty.</comment>
       <description>模型在做有具有该规则的武器导致的压制测试时,LD-1</description>
     </rule>
     <rule id="2c16-3b25-a714-a656" name="支援小队" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Support Squad
+A squad with this special rule may not be chosen as a compulsory choice for the army as part of the Force Organisation chart.</comment>
       <description>具有此特殊规则的小队不能被选作部队的强制槽位.</description>
     </rule>
     <rule id="dbf6-2f12-bb4a-517c" name="不知疼痛(5+)" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Feel No Pain (5+)
+When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+“Feel No Pain rolls may not be taken against Destroyer attacks (see page 163), unsaved wounds which have the Instant Death special rule or in instances which state that no saves (of any kind) may be taken.”
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
+If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</comment>
       <description>此模型受到了1个未能保护的伤后,投D6,结果5+,则这次损伤被忽略不计如同成功保护,每次遭受伤害之后要单独投掷这个D6</description>
     </rule>
     <rule id="24a2-9868-b6e4-4789" name="敏捷(仅限飞行器)" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Agile (Flyers Only)
+A unit with this special rule increases any cover saves granted by the Jink special rule by +1.</comment>
       <description>急闪获得的地形保护+1</description>
     </rule>
     <rule id="2346-6a18-14c6-11a6" name="自动控制火炮" publicationId="ca571888--pubN106502" page="157" hidden="false">
+      <comment>Automated Artillery
+Automated Artillery does not require crew in order to function. It is not removed from play due to a lack of crew and each gun must be destroyed normally before it is removed.
+Automated Artillery cannot move and cannot charge. If assaulted, theydo not Pile In and cannot be locked in combat. Their attackers will hitautomatically, but must roll To Wound normally. If a unit of Automated Artillery loses an assault, nothing happens. Thereare no Sweeping Advances, no Pile Ins and no Consolidation moves. The Automated Artillery remains in place and may fire normally in future turns. If the Automated Artillery wins an assault, the enemy must take a Morale check as normal, although the Artillery cannot Consolidate or make a Sweeping Advance.</comment>
       <description>和普通火炮不同,自动控制火炮不需要成员操作,也不会因为没有乘员而被移除,因此必须按照火炮数值将其击毁才能移除该单位.自动控制火炮不能移动不能冲锋,被冲锋时不会跟进,也不会被锁入肉搏.肉搏攻击他们的单位自动命中但是正常出伤,如果自动控制火炮输掉了肉搏,攻击他们的单位不能扫荡打击,不能跟进,也没有胜利移动,而自动控制火炮仍留在原地,下回合可以继续射击.如果自动火炮获得了肉搏胜利,则敌方按常规进行士气测试,但是自动控制火炮不能扫荡打击也无法胜利移动.</description>
     </rule>
     <rule id="0bd1-9bcc-46e0-5e1e" name="同轴武器" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Co-Axial Weapon
+A weapon with the Co-axial special rule will specify another weapon mounted on the same vehicle. When a target is declared for this weapon, the Co-axial weapon must fire at it first if it is within range. If the Co-axial weapon hits the target, then the other weapon may re-roll its To Hit roll if it misses.</comment>
       <description>同轴武器通常会特定指明与其同轴的另一件武器,同轴武器必须先射击,同轴武器命中目标后,其同轴的另一武器在射击该目标时可以重投失败的命中.</description>
     </rule>
     <rule id="91ee-e6c7-272f-49e0" name="燎原之火" publicationId="ca571888--pubN106502" page="161" hidden="false">
+      <comment>Crawling Fire
+After the Blast marker for a weapon with this special rule is placed, the firer may move the marker up to 2&amp;quot; in any direction so long as this would cover more models than previously.</comment>
       <description>1个爆炸武器具有此规则时,在正常放置武器盖板和结算偏移后,盖板可以向任意方向移动2寸,只要是能覆盖更多的模型.</description>
     </rule>
     <rule id="fafd-5bc8-2192-23ff" name="致命的货物" publicationId="ca571888--pubN106502" page="162" hidden="false">
+      <comment>Deadly Cargo
+If a vehicle with this special rule takes Hull point damage but is not destroyed, roll a D6. On a 6, the vehicle suffers an Explodes! result on the Vehicle Damage chart.</comment>
       <description>如果具有该规则的载具失去1点HP,则必须投掷D6,出6该载具遭受爆炸的结果.</description>
     </rule>
     <rule id="b46a-a3ec-91a5-5001" name="爆燃" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Deflagrate
+After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately resolve a number of additional automatic hits on the same unit using the weapon’s profile equal to the number of unsaved wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits.</comment>
       <description>具有该规则的武器在正常的射击结算后,计算没有过保护的伤害的数量.然后立即额外结算这么多数量的自动命中.这些自动命中按照武器属性正常过保.被攻击单位的模型必须任然在武器射程内这些额外的命中才能生效,并且这些额外的命中不会再产生更多的自动命中.</description>
     </rule>
     <rule id="1a79-befa-05cf-ab0d" name="决斗者之刃" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Duelist&amp;apos;s Edge
+When fighting in a challenge, the user of this weapon gains a +1 bonus to their Initiative value.</comment>
       <description>单挑时I+1.</description>
     </rule>
     <rule id="adce-5b90-49f6-033c" name="连环震击" publicationId="ca571888--pubN106502" page="163" hidden="false">
+      <comment>Exoshock
+If this weapon successfully scores a penetrating hit on a target, roll a D6. On a 4+, a second automatic penetrating hit is inflicted on the same target against which cover saves may not be taken.</comment>
       <description>具有此规则的武器成功造成穿击伤害时,立即投掷1个D6,4+则对同1目标造成第2个自动穿击,不能使用地形保护来保护这第2个穿击结果.</description>
     </rule>
     <rule id="203b-1db2-c7b2-54ab" name="热追踪" publicationId="ca571888--pubN106502" page="164" hidden="false">
+      <comment>Heat Seeker
+Jink saves may not be taken against attacks with this special rule.</comment>
       <description>被有该规则的武器攻击时不能闪避</description>
     </rule>
     <rule id="fd81-7423-92cf-01a3" name="长官小心!" publicationId="ca571888--pubN106502" page="94" hidden="false">
+      <comment>Look out sir!
+When a wound is allocated to one of your non-vehicle characters, and there is another model from the same unit within 6&amp;quot;, they are allowed a Look Out, Sir attempt. Thisrepresents the character falling back into the unit or being pushed aside by an ally. If no model is in range, then you cannot make a Look Our, Sir attempt.
+
+To make a Look Out, Sir attempt, roll a D6.
+On a roll of 3 or less, the Look Out, Sir attempt fails.
+On a roll of 4+, the Look Out, Sir attempt is successful.
+
+Independent Characters pass Look Out, Sir rolls on a 2+.</comment>
       <description>当1个非载具人物被造伤,6寸内的1个友方模型可以使用长官小心.投掷D6,结果4+此模型代替人物承受伤害. 独立人物长官小心固定2+成功.</description>
     </rule>
     <rule id="476c-b962-06e5-d12e" name="忽视掩体" publicationId="ca571888--pubN106502" page="167" hidden="false">
+      <comment>Ignores Cover
+Cover saves cannot be taken against wounds, glancing hits or penetrating hits caused by weapons with the Ignores Cover special rule.</comment>
       <description>拥有此规则的武器无视目标的掩体保护</description>
     </rule>
     <rule id="3fb5-89d9-08fe-0312" name="通用军团" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Unlisted Legion
+If an army represents a Legion which does not yet have its own unique Legiones Astartes rule, the controlling player may instead add either the Stubborn or Furious Charge special rule to the standard provisions of this rule in the interim.</comment>
       <description>如果1个星际战士没有指明属于哪个特定的军团,则军团修士拥有坚毅和愤怒冲锋用来代替一般特殊军团所拥有的增益和技能.</description>
     </rule>
     <rule id="3a2e-7a7b-1de3-78c0" name="不灭之火" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Lingering Death</comment>
       <description>当具备该规则的爆炸类武器被使用时,在进行攻击后将爆炸盖板留在原地同时以某种方式标记出来直到游戏结束.此区域将以后将对所有有T值的模型和开顶载具算作危险地形.</description>
     </rule>
     <rule id="b0c5-b980-95e5-b181" name="残忍打击" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <comment>Murderous Strike
+Attacks with this special rule cause Instant Death on a ToWound roll of 6. Roll any viable saves against this Instant Death-causing wound separately to other wounds the attack inflicts.</comment>
       <description>造伤骰出6时,该伤害视为具有即死规则,将该伤害与其他伤害分开过保.</description>
     </rule>
     <rule id="c546-eaf8-0972-ec24" name="基因原体" publicationId="ca571888--pubN106502" page="169" hidden="false">
+      <comment>Primarch
+Any model with the Primarch special rule is automatically the army’s Warlord and does not roll randomly for Warlord Traits (these will have been included in their own unique abilities). Unless a mission’s rules specifically state otherwise, no army may ever include more than a single Primarch.</comment>
       <description>
 具有基因原体规则的模型自动成为军队的主将不随机产生主将技而是选择他们特有的主将技,除非任务特别指出1个军队不能有超过1个基因原体
 基因原体具有以下的规则:
@@ -8226,6 +8803,11 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       </description>
     </rule>
     <rule id="ccd0-942c-70fa-1354" name="中队指挥坦克" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Squadron Command Tank
+Unless the Squadron Command Tank has been destroyed, all Tanks in the squadron gain the following benefits while they remain in coherency:
+
+Ignore the effects of Crew Shaken results on a roll of a 4+.
+When the entire squadron fires at a single target within 24&amp;quot;, the squadron gains the Tank Hunters and Monster Hunter special rules.</comment>
       <description>
 除非中队指挥坦克被击毁,否则所有中队中的坦克具有以下规则:
 -4+可以无视成员震憾
@@ -8233,18 +8815,33 @@ Any attack that normally inflicts 即死 or says that the target model is remove
       </description>
     </rule>
     <rule id="aaaf-37f2-e6e0-7a2c" name="超重型指挥坦克" publicationId="ca571888--pubN106502" page="172" hidden="false">
+      <comment>Super-heavy Command Tank
+If a vehicle has been upgraded to a Super-heavy Command Tank, all friendly Infantry units within 24&amp;quot; may re-roll failed Morale Checks.</comment>
       <description>超重型指挥坦克24寸范围内的友方步兵单位可以冲头失败的士气测试</description>
     </rule>
     <rule id="7630-7b4c-ed95-ce92" name="喷射盖板武器" publicationId="ca571888--pubN106502" page="173" hidden="false">
+      <comment>Template
+Template weapons have the Ignores Cover, Wall of Death and No Escape special rules. Wounds inflicted by Template weapons are allocated following the normal rules. Template weapons cannot fire Snap Shots.
+
+Wall of Death
+Template weapons can fire Overwatch, even though they cannot fire Snap Shots. Instead, if a Template weapon fires Overwatch, it automatically inflicts D3 hits on the charging unit, resolved at its normal Strength and AP value.
+
+No Escape
+If a Template weapon hits a building’s Fire Point or an Opentopped vehicle and there is a unit embarked inside that building or vehicle, then in addition to any other effects that unit suffers D6 hits, resolved at the Strength and AP of the weapon. These hits are Randomly Allocated</comment>
       <description>喷射盖板武器拥有忽视掩体,死亡之墙,无法逃避规则. 喷射盖板武器的造伤正常分配. 喷射盖板武器不能仓促射击.</description>
     </rule>
     <rule id="cd4a-2106-2ed0-dcdb" name="死亡之墙" publicationId="ca571888--pubN106502" page="174" hidden="false">
+      <comment>Wall of Death
+Wall of Death Template weapons can fire Overwatch, even though they cannot fire Snap Shots. Instead, if a Template weapon fires Overwatch, it automatically inflicts D3 hits on the charging unit, resolved at its normal Strength and AP value.</comment>
       <description>喷射盖板武器尽管不能仓促射击,但可以使用武器自身的S和AP进行固定D3发的坚守射</description>
     </rule>
     <rule id="06a2-c4fd-8d61-c628" name="无法逃避" hidden="false">
+      <comment>No Escape</comment>
       <description>当喷射盖板武器命中建筑的开火口,或开顶载具时,其中的乘客会额外遭受D6次该喷射武器的命中,随机分布</description>
     </rule>
     <rule id="3d29-2076-01a0-7f7d" name="地狱风暴盖板武器" publicationId="ca571888--pubN106502" page="174" hidden="false">
+      <comment>Hellstorm Weapon
+Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weapon profile. Hellstorm weapons use the Hellstorm template (see page 19), but otherwise obey the rules for other Template weapons.</comment>
       <description>是使用地狱风暴盖板的喷射盖板武器</description>
     </rule>
     <rule id="903b-709a-b328-d48d" name="Armoured Steed" publicationId="ca571888--pubN106502" page="64" hidden="false">
@@ -8269,18 +8866,25 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
       <description>Units embarked upon transports 获得无畏规则 while they are embarked.</description>
     </rule>
     <rule id="e7c9-bd66-8d3e-8098" name="疾飞" publicationId="ca571888--pubN106502" page="80" hidden="false">
+      <comment>Zoom
+Flyers can usually only make a special kind of move called Zoom.
+Some can also Hover – see page 81. Zooming allows the Flyer to move at extreme speeds, making it very difficult to shoot down, but limits its manoeuvrability. If a Flyer Zooms, it has a Combat Speed of 18&amp;quot; and a Cruising Speed of up to 36&amp;quot;. However, a Zooming Flyer can never voluntarily move less than 18&amp;quot; in its own Movement phase. If a Zooming Flyer is forced to move less than 18&amp;quot; in its own Movement phase, it is automatically Wrecked.</comment>
       <description>
 如果1个飞行器使用疾飞状态,那么其最低使用战斗速度移动18寸以及巡航速度最多36寸.但是为了保持滞空速度,飞行时不能自愿移动少于18寸.如果因为任何原因它在自己的移动阶段移动不到18寸,就算作载具损毁(见载具损伤表).
 为了体现有限的机动性,疾飞的飞行器只能在每次移动前转动最多90度,之后必须飞直线.如果预备队中的飞行器自桌边进场,它可以朝任意方向飞,但是这次移动不能让它又离开桌面.飞行器如同悬浮载具般越过模型和地形,而且在困难/危险/不可通过地形上开始或结束的移动不需要做危险地形测试.除非特殊说明,被运载的模型不能在疾飞中的飞行器内使用出入口
       </description>
     </rule>
     <rule id="42dd-fe48-ca26-b836" name="超重型运输载具" publicationId="ca571888--pubN106502" page="90" hidden="false">
+      <comment>Super-heavy Transport
+If a Super-heavy vehicle has a Transport Capacity, then it may transport any number of Infantry units (plus any characters that have joined the units), so long as the number of models in the transported units do not exceed the vehicle’s Transport Capacity.</comment>
       <description>
 超重型载可以运载任意数量的步兵单位(加上任意加入单位的人物),只要模型总数不超过运输单位的最大运载能力.
 每个装在在超重型载具上的单位遭受启示录级损毁时将会受到S10 AP2的等同于单位模型数量的命中,出伤随机分配(建议处理方法详见运输载具章节).幸存的乘客放置在载具曾经的位置上,如果放置不下,则当做伤亡移除.然后过1个压制测试.
       </description>
     </rule>
     <rule id="6f38-4691-2eda-8e1b" name="灵能鞭挞" publicationId="ca571888--pubN103311" page="301" hidden="false">
+      <comment>Psy-Lash
+When attacking a unit with the Daemon, Psyker, Brotherhood of Psykers/Sorcerers, Psychic Pilot special rule then one randomlyed selected model in the unit with that special rule suffers Perils of the Warp in addition to any other damage.</comment>
       <description>攻击恶魔,灵能者,灵能者兄弟会/巫师兄弟会,灵能者驾驶员模型时,目标在伤害之外还会受到1次灵能反噬.</description>
     </rule>
     <rule id="7439f6fd-4c50-f88a-eb41-81d9b9c9eed8" name="Hardened Armour" publicationId="ca571888--pubN82424" page="32" hidden="false">
@@ -8694,6 +9298,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
       </characteristics>
     </profile>
     <profile id="477d-c630-7e79-8cf9" name="爆燃手枪" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Volkite Serpenta</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">10寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">5</characteristic>
@@ -8702,6 +9307,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
       </characteristics>
     </profile>
     <profile id="34d1-b4db-3e75-ccce" name="爆燃重炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Volkite Culverin</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">45寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -8710,6 +9316,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
       </characteristics>
     </profile>
     <profile id="626c-d79c-9bb7-3407" name="爆燃步铳" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Volkite Caliver</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">30寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -8718,6 +9325,7 @@ Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to
       </characteristics>
     </profile>
     <profile id="c440-1f53-4d20-5cab" name="爆燃枪" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Volkite Charger</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">15寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">5</characteristic>
@@ -9718,6 +10326,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
       </characteristics>
     </profile>
     <profile id="92b2-bceb-53de-8dbc" name="爆炸手枪" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Blast Pistol</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">6寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">5</characteristic>
@@ -9758,6 +10367,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
       </characteristics>
     </profile>
     <profile id="31d0-8553-1e7c-28e6" name="爆燃巨炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+      <comment>Volktie Demi-Culverin</comment>
       <characteristics>
         <characteristic name="射程" typeId="52616e676523232344415441232323">45寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
