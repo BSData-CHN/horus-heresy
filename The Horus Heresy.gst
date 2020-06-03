@@ -519,7 +519,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         </profile>
         <profile id="d000-e664-a60e-b79a" name="虚空盾(2)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">当模型的虚空盾有效时,任何射击阶段的攻击首先击中其虚空盾而非本体.虚空盾均按照12甲的防御力计算,任何1次擦伤,击穿或者D武器命中会使得1层护盾崩溃.在每轮控制战将的玩家回合结束后,为每层崩溃的护盾投D6,结果5+则立刻回复.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">当模型的虚空盾有效时,任何射击阶段的攻击首先击中其虚空盾而非本体.虚空盾均按照12甲的防御力计算,任何1次擦伤,击穿或者D武器命中会使得1层护盾崩溃.在每轮控制战犬的玩家回合结束后,为每层崩溃的护盾投D6,结果5+则立刻回复.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -685,7 +685,7 @@ May choose to:
         </profile>
         <profile id="9763-d9aa-f96b-6315" name="虚空盾(4)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">当模型的虚空盾有效时,任何射击阶段的攻击首先击中其虚空盾而非本体.虚空盾均按照12甲的防御力计算,任何1次擦伤,击穿或者D武器命中会使得1层护盾崩溃.在每轮控制战将的玩家回合结束后,为每层崩溃的护盾投D6,结果5+则立刻回复.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">当模型的虚空盾有效时,任何射击阶段的攻击首先击中其虚空盾而非本体.虚空盾均按照12甲的防御力计算,任何1次擦伤,击穿或者D武器命中会使得1层护盾崩溃.在每轮控制掠夺者的玩家回合结束后,为每层崩溃的护盾投D6,结果5+则立刻回复.</characteristic>
           </characteristics>
         </profile>
       </profiles>
