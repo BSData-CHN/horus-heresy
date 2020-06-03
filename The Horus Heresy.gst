@@ -1003,7 +1003,7 @@ May choose to:
           <description>
 - 永远不能被锁入肉搏.
 - 免疫干扰攻击,危险地形和除了巫火以外的灵能攻击,巫火正常造成伤害.
-- 步兵和巨兽在肉搏中命中骰出6才能命中掠夺者,超重型步行机甲和超级巨兽则是5+.
+- 步兵和巨兽在肉搏中命中骰出6才能命中战将,超重型步行机甲和超级巨兽则是5+.
 - 背部武器不能对24寸内的敌方模型开火,除非它是飞行器,飞行巨兽或者其他超重型载具或者超级巨兽
 - 践踏攻击使用5寸盖板
           </description>
@@ -5569,9 +5569,9 @@ Please let us know what worked well as a part of these rules and also what could
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecb3-83b9-4ba7-47a9" name="战神复仇者泰坦" publicationId="ca571888--pubN95721" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ecb3-83b9-4ba7-47a9" name="战神天罚泰坦" publicationId="ca571888--pubN95721" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="c6b0-382e-4882-7efa" name="战将主战泰坦" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="步行机甲">
+        <profile id="c6b0-382e-4882-7efa" name="战神天罚泰坦" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="步行机甲">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">2</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -5594,7 +5594,7 @@ Please let us know what worked well as a part of these rules and also what could
       <rules>
         <rule id="ee9b-8eb6-19dc-e1a3" name="高耸的巨兽(战神)" page="" hidden="false">
           <description>- 永远不能被锁入肉搏.
-- 步兵和巨兽在肉搏中命中骰出6才能命中掠夺者,超重型步行机甲和超级巨兽则是5+.
+- 步兵和巨兽在肉搏中命中骰出6才能命中战神,超重型步行机甲和超级巨兽则是5+.
 - 免疫干扰攻击,危险地形和除了巫火以外的灵能攻击,巫火正常造成伤害.
 - 背部武器不能对20寸内的敌方模型开火,除非它是飞行器,飞行巨兽或者其他超重型载具或者超级巨兽</description>
         </rule>
