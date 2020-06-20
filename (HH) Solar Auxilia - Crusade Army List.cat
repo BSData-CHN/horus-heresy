@@ -5310,6 +5310,23 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44da-6b01-a86f-ef83" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="30c7-decc-165d-52c3" type="min"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry id="8f15-8382-2ab9-f23a" name="Exotic Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c859-6b16-c533-7e97" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e4-9ba9-0958-7f78" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="d3b3-b328-e56f-4b81" name="爆炸手枪" hidden="false" collective="false" import="true" targetId="1d08-a9cf-3f48-ab1c" type="selectionEntry"/>
                 <entryLink id="8bf3-43ee-6782-fd99" name="爆燃手枪" hidden="false" collective="false" import="true" targetId="9a72-5fd9-1981-bf71" type="selectionEntry"/>
@@ -5434,6 +5451,22 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b599-c1f6-937f-10d0" name="Exotic Melee Weapons" hidden="true" collective="false" import="true" targetId="befa-6205-342b-50d0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f15-8382-2ab9-f23a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7bc1-b1dd-75fe-ca7e" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f15-8382-2ab9-f23a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="45.0"/>
       </costs>
