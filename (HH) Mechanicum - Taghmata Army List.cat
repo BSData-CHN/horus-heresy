@@ -4512,7 +4512,7 @@ D6  结果       S      AP
         <categoryLink id="c289-ed7e-c4ea-bfe0" name="New CategoryLink" hidden="false" targetId="8d56-b8fc-9b94-9cc9" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d80b-d453-6859-07f5" name="将军炮" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d80b-d453-6859-07f5" name="将军炮" hidden="false" collective="false" import="true" defaultSelectionEntryId="b688-c38b-6e1a-89ba">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="acfe-83df-d113-1226" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6909-3280-6bd6-a188" type="max"/>
@@ -11176,7 +11176,6 @@ HQ:卡勒布·德西马(必须),还源贤者(可选)
             <categoryLink id="dacc-ebb0-2825-c5af" name="New CategoryLink" hidden="false" targetId="896b-3586-a126-d985" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="6bde-f954-83f2-5a12" name="Ordinatus Minoris Macro Engine" hidden="false" collective="false" import="true" targetId="7cdb-8db0-bfd6-ce3c" type="selectionEntry"/>
         <entryLink id="5132-e115-57d8-48f2" name="Stormlord" hidden="false" collective="false" import="true" targetId="7d56-481b-6478-681e" type="selectionEntry"/>
         <entryLink id="7cec-ff9c-8216-ae53" name="Shadowsword" hidden="false" collective="false" import="true" targetId="ed2c-8dcf-d0d2-720e" type="selectionEntry"/>
         <entryLink id="5621-ff8f-f192-db16" name="Stormsword" hidden="false" collective="false" import="true" targetId="e5ad-07be-63c1-71e3" type="selectionEntry"/>
@@ -12359,6 +12358,9 @@ Assault rules unless otherwise noted.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eabf-e7a1-77f2-bb01" type="max"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
