@@ -5526,7 +5526,7 @@ Immediately place an objective marker within 3寸 of any part of the Crashed Imp
         <cost name="分" typeId="points" value="360.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a90-c53e-42ca-b4ca" name="使用测试规则" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5a90-c53e-42ca-b4ca" name="Use Playtest Rules Errata 1.0 (From FAQ 1.1 Feb/2019)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5689-da9b-d725-fba5" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0192-7b62-a073-5de2" type="min"/>
@@ -5535,13 +5535,13 @@ Immediately place an objective marker within 3寸 of any part of the Crashed Imp
         <categoryLink id="f35d-727a-b210-2ef9" name="New CategoryLink" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="07c4-d0fe-fd44-2d95" name="测试规则" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="07c4-d0fe-fd44-2d95" name="Playtest Rules Errata 1.0 (From FAQ 1.1 Feb/2019)" hidden="false" collective="false" import="true" defaultSelectionEntryId="dace-8f0f-e696-8179">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ac-4862-2458-05c0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f9-9ad9-d292-4437" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0343-7621-54c5-6f8a" name="不使用" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0343-7621-54c5-6f8a" name="Playtest Rules Errata 1.0 Off" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf1-5154-bfdd-d538" type="max"/>
               </constraints>
@@ -5549,7 +5549,7 @@ Immediately place an objective marker within 3寸 of any part of the Crashed Imp
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dace-8f0f-e696-8179" name="使用" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dace-8f0f-e696-8179" name="Playtest Rules Errata 1.0 On" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb00-f224-a205-fac5" type="max"/>
               </constraints>
