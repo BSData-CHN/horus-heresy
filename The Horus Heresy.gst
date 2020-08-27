@@ -11344,7 +11344,7 @@ If a model has this special rule, or is attacking with a Melee weapon that has t
     <rule id="eefe-09e4-17aa-deb2" name="辐射噬菌体" publicationId="ca571888--pubN106502" page="170" hidden="false">
       <comment>Rad-phage
 A model which loses one or more wounds to an attack with this rule and survives suffers a -1 penalty to its Toughness value for the rest of the battle.</comment>
-      <description>1个模型被具有此规则的武器造成1个或多个仍然存活的情况下,他们在接下来的游戏中T-1</description>
+      <description>1个模型被具有此规则的武器造成1个或多个伤害但仍然存活的情况下,他们在接下来的游戏中T-1</description>
     </rule>
     <rule id="2b06-29a6-641a-b22e" name="远征军" publicationId="ca571888--pubN106502" page="163" hidden="false">
       <comment>Crusader
