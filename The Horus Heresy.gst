@@ -9611,6 +9611,7 @@ Command Benefits:
           </constraints>
           <infoLinks>
             <infoLink id="fcb1-8f40-5417-ac01" name="New InfoLink" hidden="false" targetId="7b47-c268-cdaf-fa1e" type="profile"/>
+            <infoLink id="4ede-d898-13df-ce5d" name="Feel No Pain" hidden="false" targetId="9bdd-5ec7-8dd6-63c0" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
