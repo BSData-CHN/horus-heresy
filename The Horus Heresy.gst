@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ca571888-56a9-c58e-ddaf-54f4713538bc" name="荷鲁斯之乱" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ca571888-56a9-c58e-ddaf-54f4713538bc" name="荷鲁斯之乱" revision="129" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="ca571888--pubN65537" name="Forgeworld Horus Heresy Series"/>
     <publication id="ca571888--pubN66489" name="HH:MT"/>
@@ -201,6 +201,7 @@
     <categoryEntry id="c00c-5a5c-3d86-f5a5" name="Mournival Centurion Unrestricted" hidden="false"/>
     <categoryEntry id="a660-a665-c4aa-5e82" name="Superheavy Options" hidden="false"/>
     <categoryEntry id="a7c6-e380-f10f-9798" name="Mechanicum" hidden="false"/>
+    <categoryEntry id="6077-281f-c55d-9bf0" name="Allied Detachment" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="61f7-09c7-326c-8c49" name="自由组军" hidden="true">
@@ -5627,7 +5628,7 @@ Please let us know what worked well as a part of these rules and also what could
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9d1b-5e93-5172-5776" name="主武器-右手" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9d1b-5e93-5172-5776" name="主武器-右手" hidden="false" collective="false" import="true" defaultSelectionEntryId="f51a-ef5d-f24c-1973">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="55a2-127b-d9d1-e650" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cffb-0a62-f9ab-fb48" type="max"/>
@@ -5684,7 +5685,7 @@ Please let us know what worked well as a part of these rules and also what could
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1f0d-dc4d-2872-7e74" name="主武器-左手" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1f0d-dc4d-2872-7e74" name="主武器-左手" hidden="false" collective="false" import="true" defaultSelectionEntryId="40d2-31cb-3962-2a8b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f27-67a5-f9b6-7012" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a499-a415-eb9e-e8d2" type="max"/>
@@ -5764,13 +5765,16 @@ Please let us know what worked well as a part of these rules and also what could
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="62a9-3f80-fee9-bfe9" name="复仇者地震炮" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="62a9-3f80-fee9-bfe9" name="Carapace-mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3ec1-bf53-374d-1fa3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9bb3-21e3-fb5d-7044" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="287e-49c4-b20a-f9e8" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3ec1-bf53-374d-1fa3" name="复仇者地震炮" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e1-6d40-ebf1-6086" type="max"/>
+              </constraints>
               <rules>
                 <rule id="5c15-bf8d-bf0d-65f6" name="地震冲击" hidden="false">
                   <description>因此武器造伤的目标最多只能移动一半移动力的距离,不能奔跑,冲锋或全速前进,这一回合算作处于危险地形中.</description>
@@ -5779,6 +5783,19 @@ Please let us know what worked well as a part of these rules and also what could
               <infoLinks>
                 <infoLink id="f964-925b-eedd-f137" name="震荡" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
                 <infoLink id="10ff-7985-4c6b-2ccd" name="击倒" hidden="false" targetId="dd83-7fb9-6f58-0c96" type="rule"/>
+                <infoLink id="e568-c25d-1615-b590" name="Nemesis Quake Cannon" hidden="false" targetId="4807-658a-4855-aa88" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="111f-e8b8-0721-10ab" name="Nemesis Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a711-b0ed-4720-f7eb" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="080e-e9dd-afb6-7430" name="Nemesis Volcano Cannon" hidden="false" targetId="ccf5-9177-d9c7-e896" type="profile"/>
+                <infoLink id="16d9-936a-5f2c-e7c3" name="Machine Destroyer" hidden="false" targetId="c673-4842-28f8-4e39" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -9197,6 +9214,17 @@ Any abilities that allow the vehicle to fire multiple shots will use the same sh
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c91a-6e83-93ce-54ac" name="Allied Detachment" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4698-c08c-57c9-e012" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="956a-277e-4c4a-f56b" name="New CategoryLink" hidden="false" targetId="6077-281f-c55d-9bf0" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="64e8-ec7c-e5d8-6767" name="部队组织结构" hidden="false" collective="false" import="true">
@@ -12439,10 +12467,11 @@ If an army represents a Legion which does not yet have its own unique Legiones A
       <comment>Lingering Death</comment>
       <description>当具备该规则的爆炸类武器被使用时,在进行攻击后将爆炸盖板留在原地同时以某种方式标记出来直到游戏结束.此区域将以后将对所有有T值的模型和开顶载具算作危险地形.</description>
     </rule>
-    <rule id="b0c5-b980-95e5-b181" name="残忍打击" publicationId="ca571888--pubN106502" page="168" hidden="false">
-      <comment>Murderous Strike
-Attacks with this special rule cause Instant Death on a ToWound roll of 6. Roll any viable saves against this Instant Death-causing wound separately to other wounds the attack inflicts.</comment>
-      <description>造伤骰出6时,该伤害视为具有即死规则,将该伤害与其他伤害分开过保.</description>
+    <rule id="3a2e-7a7b-1de3-78c0" name="Lingering Death" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <description>When a Blast weapon with this rule is used, after the attack is resolved leave the Blast marker in play for the rest of the game and mark it with a counter of some kind. This area is now treated as dangerous terrain for all models with a Toughness value and open-topped vehicles.</description>
+    </rule>
+    <rule id="b0c5-b980-95e5-b181" name="Murderous Strike" publicationId="ca571888--pubN106502" page="168" hidden="false">
+      <description>Attacks with this special rule cause Instant Death on a ToWound roll of 6. Roll any viable saves against this Instant Death-causing wound separately to other wounds the attack inflicts.</description>
     </rule>
     <rule id="c546-eaf8-0972-ec24" name="基因原体" publicationId="ca571888--pubN106502" page="169" hidden="false">
       <comment>Primarch
@@ -12504,10 +12533,10 @@ Bikes and 喷气摩托 cannot Run, but can make a special 涡轮加速 move inst
 Turbo-boosting Bikes move up to 12寸 and Turbo-boosting 喷气摩托 move up to 24寸. Bikes or 喷气摩托 cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.
       </description>
     </rule>
-    <rule id="5c8a-63f9-5cdc-b17b" name="Skybourne" publicationId="ca571888--pubN106502" page="66" hidden="false">
+    <rule id="5c8a-63f9-5cdc-b17b" name="Skyborne" publicationId="ca571888--pubN106502" page="66" hidden="false">
       <description>When using its 跳跃背包(whether moving, charging or Falling Back), a model can move over all other models and terrain freely. However, if the model begins or ends its move in 困难地形, it must take a 危险地形 test.</description>
     </rule>
-    <rule id="97c4-1c1c-3727-757f" name="Trust Move" publicationId="ca571888--pubN106502" page="66" hidden="false">
+    <rule id="97c4-1c1c-3727-757f" name="Thrust Move" publicationId="ca571888--pubN106502" page="66" hidden="false">
       <description>A 喷射背包 单位 that is not locked in combat or charging can move up to 2D6寸 in the 突击阶段, even if they have shot or Run in the preceding 射击阶段 or arrived by 深度打击 that turn. When 喷射背包 units move in the 突击阶段 and do not charge, they move just as they would when using their 喷射背包s in the 移动阶段.</description>
     </rule>
     <rule id="2eaf-7ad1-5fbb-2b94" name="Shooting(超级巨兽)" publicationId="ca571888--pubN106502" page="69" hidden="false">
@@ -14086,7 +14115,7 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
         <characteristic name="射程" typeId="52616e676523232344415441232323">6寸</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">5</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">突击 1, 一次性, 爆炸(3寸), 燎原之火, 不灭之火</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Assault 1, One Use, Blast (3&quot;), Crawling Fire, Lingering Death, Poisined (3+)</characteristic>
       </characteristics>
     </profile>
     <profile id="62fb-7314-f3cf-f6ab" name="磷火弹" publicationId="ca571888--pubN106502" page="179" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14359,6 +14388,14 @@ Jetbikes can move over all other models and terrain freely. However, if a moving
         <characteristic name="Capacity" typeId="8285-4205-b6cd-8473">12*</characteristic>
         <characteristic name="Fire Points" typeId="b270-a7f9-22b2-3702">None</characteristic>
         <characteristic name="Access Points" typeId="d17b-0342-b1dc-b8e7">Two access hatches**</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccf5-9177-d9c7-e896" name="Nemesis Volcano Cannon" publicationId="ca571888--pubN95721" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="52616e676523232344415441232323">20-260&quot;</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">D</characteristic>
+        <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">Primary Weapon 1, Massive Blast (7&quot;), Machine Destroyer</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
