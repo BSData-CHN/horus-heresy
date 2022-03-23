@@ -10,17 +10,17 @@
 ## 完成度(以数据文件计)
 - [ ] (HH) Agents of the Emperor or Warmaster.cat
 - [ ] (HH) Army of Dark Compliance List.cat
-- [ ] (HH) Chaos Daemons Army List.cat
+- [ ] (HH) 混沌恶魔
 - [ ] (HH) Craftworld Eldar - Asuryani Army List.cat
-- [ ] (HH) Daemons of the Ruinstorm Army List.cat
-- [ ] (HH) Imperialis Militia and Cults Army List.cat
-- [ ] (HH) Legiones Astartes - Crusade Army List.cat
-- [x] (HH) Mechanicum - Questoris Knight.cat
-- [x] (HH) Mechanicum - Taghmata Army List.cat
+- [ ] (HH) 毁灭风暴恶魔
+- [ ] (HH) 民兵
+- [ ] (HH) 星际战士
+- [x] (HH) 骑士
+- [x] (HH) 机械教
 - [ ] (HH) Mournival Units.cat
 - [ ] (HH) Necron Army List.cat
-- [ ] (HH) Solar 辅助军 - Crusade Army List.cat
-- [ ] (HH) Talons of the Emperor Army List.cat
+- [x] (HH) 太阳辅助军
+- [ ] (HH) 禁军
 - [ ] (HH) Varangian Heresy Legions.cat
 - [ ] The Horus Heresy.gst
 
