@@ -8,21 +8,21 @@
 其他详细信息请移至原项目查看.
 
 ## 完成度(以数据文件计)
-- [ ] (HH) Agents of the Emperor or Warmaster.cat
-- [ ] (HH) Army of Dark Compliance List.cat
-- [ ] (HH) 混沌恶魔
-- [ ] (HH) Craftworld Eldar - Asuryani Army List.cat
+- [X] 基础数据
 - [ ] (HH) 毁灭风暴恶魔
 - [ ] (HH) 民兵
 - [ ] (HH) 星际战士
 - [x] (HH) 骑士
 - [x] (HH) 机械教
-- [ ] (HH) Mournival Units.cat
-- [ ] (HH) Necron Army List.cat
+- [ ] (HH) 死灵
 - [x] (HH) 太阳辅助军
 - [ ] (HH) 禁军
-- [ ] (HH) Varangian Heresy Legions.cat
-- [ ] The Horus Heresy.gst
+- [ ] (HH) 黑暗联军
+- [ ] (HH) 帝皇或战帅特使
+- [ ] (HH) 混沌恶魔
+- [ ] (HH) 方舟灵族
+- [ ] (HH) Mournival Units
+- [ ] (HH) Varangian Heresy Legions
 
 ## 关于 BSData
 
