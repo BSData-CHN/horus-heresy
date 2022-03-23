@@ -3,13 +3,13 @@
   <forceEntries>
     <forceEntry id="5e99-cad3-2c6c-dd09" name="Raltac" page="" hidden="false">
       <rules>
-        <rule id="d1d4-9ab4-54c3-f546" name="Raltac Force Organisation Chart" hidden="false">
-          <description>HQ: 1 compulsory and 2 optional
+        <rule id="d1d4-9ab4-54c3-f546" name="Raltac 立场 Organisation Chart" hidden="false">
+          <description>指挥槽位: 1 compulsory and 2 optional
 Elite: 3 optional
 Troop: 1 compulsory and 2 optional
-Fast: 2 optional
+快速: 2 optional
 Heavy: 2 optional
-Fortification: 1 optional
+工事槽位: 1 optional
 
 No unit including dedicated transports may cost more than 350 points. THIS MUST BE CHECKED MANUALLY
 
@@ -17,8 +17,8 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="fc8c-c345-c41e-2351" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="cf40-3603-2681-6229" name="Lords of War" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
+        <categoryLink id="fc8c-c345-c41e-2351" name="阵营" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
+        <categoryLink id="cf40-3603-2681-6229" name="战争之王槽位" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="false">
           <modifiers>
             <modifier type="set" field="5fcf-bf3c-9f40-3e48" value="0.0">
               <conditionGroups>
@@ -43,11 +43,11 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fcf-bf3c-9f40-3e48" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="da7c-f8ce-7c63-be10" name="Legiones Astartes" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
+        <categoryLink id="da7c-f8ce-7c63-be10" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
         <categoryLink id="f8d2-6df8-d2de-8104" name="Consul" hidden="false" targetId="287a-5939-2a29-9ccf" primary="false"/>
         <categoryLink id="3892-e167-eb28-0a5b" name="Wolf Lord/Claw Leader" hidden="false" targetId="a5b5-33d4-9941-d832" primary="false"/>
         <categoryLink id="504e-2026-713b-1c28" name="Bodyguard" hidden="false" targetId="73b6-4f0e-c013-b242" primary="false"/>
-        <categoryLink id="72eb-e86d-3c69-30fb" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+        <categoryLink id="72eb-e86d-3c69-30fb" name="使用测试规则" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a655-a769-a6c1-ecae" type="max"/>
           </constraints>
@@ -70,7 +70,7 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bac2-f3da-1745-b03c" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="eb47-0e62-64c6-0695" name="Compulsory Elite Infantry (Non-Termy)" hidden="false" targetId="6759-ec18-2d1c-dc88" primary="false">
+        <categoryLink id="eb47-0e62-64c6-0695" name="Compulsory Elite 步兵 (Non-Termy)" hidden="false" targetId="6759-ec18-2d1c-dc88" primary="false">
           <modifiers>
             <modifier type="set" field="dd18-4711-5e27-3a18" value="2.0">
               <conditions>
@@ -102,7 +102,7 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
           </constraints>
         </categoryLink>
         <categoryLink id="b7d3-6e2f-3512-b118" name="Compulsory Scion Warlord" hidden="false" targetId="e7ba-324d-246c-dd6a" primary="false"/>
-        <categoryLink id="03ed-8fb9-4e25-0fa1" name="Allied Detachment" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
+        <categoryLink id="03ed-8fb9-4e25-0fa1" name="联军分队" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
           <modifiers>
             <modifier type="set" field="7654-3484-c87e-a4cb" value="0.0">
               <conditionGroups>
@@ -145,7 +145,7 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
             <constraint field="selections" scope="a91b-7f8f-d085-e564" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f42-e309-9fb4-752a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="2d16-7867-070d-8c4f" name="Warlord Traits" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
+        <categoryLink id="2d16-7867-070d-8c4f" name="主将特性" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9252-6a86-fd51-0e13" type="max"/>
           </constraints>
@@ -190,17 +190,17 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fae-30ab-fe02-1e69" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e8f9-976c-c0ed-0b58" name="Dedicated Transport Restictions" hidden="false" targetId="a07b-3b90-3814-6c97" primary="false">
+        <categoryLink id="e8f9-976c-c0ed-0b58" name="专属运输载具 Restictions" hidden="false" targetId="a07b-3b90-3814-6c97" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3aff-798b-9bcb-0ce3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3395-6705-b507-0e18" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="82aa-f7ba-1d4a-bf3c" name="Independent Character:" hidden="false" targetId="72c8-d46a-7934-1cf6" primary="false">
+        <categoryLink id="82aa-f7ba-1d4a-bf3c" name="独立人物:" hidden="false" targetId="72c8-d46a-7934-1cf6" primary="false">
           <infoLinks>
-            <infoLink id="d5ed-b777-24e7-0a5a" name="Preferred Enemy" hidden="false" targetId="4dd2-fcb0-de6a-5b70" type="rule">
+            <infoLink id="d5ed-b777-24e7-0a5a" name="宿敌" hidden="false" targetId="4dd2-fcb0-de6a-5b70" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Preferred Enemy (Loyalist Space Marines)"/>
+                <modifier type="set" field="name" value="宿敌 (忠诚方 星际战士)"/>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d81-7da9-2ca0-1b20" type="equalTo"/>
@@ -210,7 +210,7 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
             </infoLink>
           </infoLinks>
         </categoryLink>
-        <categoryLink id="1f2f-2abf-b9f8-a158" name="Infantry:" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false">
+        <categoryLink id="1f2f-2abf-b9f8-a158" name="步兵:" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false">
           <modifiers>
             <modifier type="increment" field="85bc-e802-8f06-e6df" value="1.0">
               <repeats>
@@ -280,7 +280,7 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85bc-e802-8f06-e6df" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d3ff-4ae2-026e-feb1" name="Outflank" hidden="false" targetId="de18-25a0-504b-74be" type="rule">
+            <infoLink id="d3ff-4ae2-026e-feb1" name="侧击" hidden="false" targetId="de18-25a0-504b-74be" type="rule">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -289,7 +289,7 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="2184-cd78-fa95-e110" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule">
+            <infoLink id="2184-cd78-fa95-e110" name="恐怖" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -330,6 +330,6 @@ LoW options are still visible, as despite the basic foc can&apos;t have them, Bo
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink id="5a6a-9e7f-9df7-8489" name="Legiones Astartes: Age of Darkness Army List" targetId="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="5a6a-9e7f-9df7-8489" name="阿斯塔特军团: 黑暗年代军表" targetId="839b6f2a-4041-398b-fc2d-dc6a31d5f75e" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
