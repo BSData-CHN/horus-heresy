@@ -2637,7 +2637,7 @@
                               
                     <modifiers/>
                               
-                    <description>Cor’bax’s vast maw opens wide enough to swallow enemies whole. When fighting against 步兵 models, any To Hit rolls of 5 or 6 made in the 突击阶段 by Cor’bax have the 即死 特殊规则. Roll to wound and save with these attacks separately.</description>
+                    <description>Cor’bax’s vast maw opens wide enough to swallow enemies whole. When fighting against 步兵 models, any To Hit rolls of 5 or 6 made in the 突击阶段 by Cor’bax have the 即死 规则. Roll to wound and save with these attacks separately.</description>
                             
                 </rule>
                         
@@ -2653,7 +2653,7 @@
                               
                     <description>Cor’bax Utterblight’s corporeal form is little more than a mass of roiling gelatinous and pestilential flesh, which makes him even harder to harm than many of his 恶魔 kin and allows him to seethe across the battlefield like a destroying tide of plague.
 
-Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores all 危险地形 and difficult terrain. He counts as being armed with assault grenades when charging. In addition, if he is destroyed replace his model with the 巨大爆炸 (7") 喷射盖板. All models under the 喷射盖板 that do not have the 恶魔 of Nurgle 特殊规则 suffer a single 毒伤 (4+) AP 4 hit.</description>
+Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores all 危险地形 and difficult terrain. He counts as being armed with assault grenades when charging. In addition, if he is destroyed replace his model with the 巨大爆炸 (7") 喷射盖板. All models under the 喷射盖板 that do not have the 恶魔 of Nurgle 规则 suffer a single 毒伤 (4+) AP 4 hit.</description>
                             
                 </rule>
                         
@@ -4661,7 +4661,7 @@ Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores al
                               
                     <selectionEntryGroups>
                                     
-                        <selectionEntryGroup id="1606-a35a-a841-d523" name="Weapons" hidden="false" collective="false">
+                        <selectionEntryGroup id="1606-a35a-a841-d523" name="武器" hidden="false" collective="false">
                                           
                             <profiles/>
                                           
@@ -5132,7 +5132,7 @@ Super-heavies, 超级巨兽 and 建筑物 cannot be dragged by the impaler.</des
                                           
                             <modifiers/>
                                           
-                            <description>An enemy model within 6" of a 载具 with this 特殊规则 cannot fire 坚守射击.</description>
+                            <description>An enemy model within 6" of a 载具 with this 规则 cannot fire 坚守射击.</description>
                                         
                         </rule>
                                   
@@ -7540,7 +7540,7 @@ Super-heavies, 超级巨兽 and 建筑物 cannot be dragged by the impaler.</des
                                           
                             <modifiers/>
                                           
-                            <description>An enemy model within 6" of a 载具 with this 特殊规则 cannot fire 坚守射击.</description>
+                            <description>An enemy model within 6" of a 载具 with this 规则 cannot fire 坚守射击.</description>
                                         
                         </rule>
                                   
@@ -7898,7 +7898,7 @@ Super-heavies, 超级巨兽 and 建筑物 cannot be dragged by the impaler.</des
                               
                     <modifiers/>
                               
-                    <description>Once per game, at the start of any shooting or 突击阶段, the model may activate its Daemonforge.
+                    <description>整场游戏一次, at the start of any shooting or 突击阶段, the model may activate its Daemonforge.
 
 Until the end of that phase, the model in question may re-roll all its failed to-wound/armour penetration rolls.
 At the end of the phase in which this is used, roll a D6. On a 1 the model immediately loses a Hull Point with no save allowed.</description>
@@ -8608,7 +8608,7 @@ At the end of the phase in which this is used, roll a D6. On a 1 the model immed
                     <description>Whenever the Decimator suffers a 武器损坏 or Immobilized result, it can be ignored on a D6 roll of 5+
 If the Decimator is wrecked (but not exploded), place it on its back, side or leave a marker on the table to represent its position. 
 
-At the start of the controlling players subsequent turns, before movement, roll a D6. On a 6 the model returns to play (as close to the original location but 1" away from an enemy) as though it has just Deep Struck in with all of its weapons and mobility restored and D3 Hull Points. On a 1, the Decimator is permamently wrecked.
+At the start of the controlling players subsequent turns, before movement, roll a D6. On a 6 the model returns to play (as close to the original location but 1" away from an enemy) as though it has just Deep Struck in with all of its 武器 and mobility restored and D3 Hull Points. On a 1, the Decimator is permamently wrecked.
 
 On a roll of a 2-5, it remains wrecked but the controlling player may attempt to roll for Unholy Vigor on their next turn.</description>
                             
@@ -8936,7 +8936,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                                                       
                                     <modifiers/>
                                                       
-                                    <description>May re-roll all To Hit rolls of 1 with its Flaming attakcs and its Heavy flamers gain 灵魂烈焰</description>
+                                    <description>May re-roll all To Hit rolls of 1 with its Flaming attakcs and its 重喷火器 gain 灵魂烈焰</description>
                                                     
                                 </rule>
                                               
@@ -8986,7 +8986,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="cb3c-63fc-62b7-a4a9" name="Weapons" hidden="false" collective="false">
+                <selectionEntryGroup id="cb3c-63fc-62b7-a4a9" name="武器" hidden="false" collective="false">
                               
                     <profiles/>
                               
@@ -11320,7 +11320,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                             
                 </profile>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="6696-ce5a-022e-d364" name="Daemonic Armour" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="6696-ce5a-022e-d364" name="Daemonic Armour" hidden="false">
                               
                     <profiles/>
                               
@@ -11766,7 +11766,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <profiles>
                                     
-                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="d733-d3df-9654-9f6d" name="Unholy Frenzy" hidden="false">
+                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="d733-d3df-9654-9f6d" name="Unholy Frenzy" hidden="false">
                                           
                             <profiles/>
                                           
@@ -11778,7 +11778,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                           
                             <characteristics>
                                                 
-                                <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">The 恶魔 has the 暴怒 and 狂暴 special rules.</characteristic>
+                                <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">The 恶魔 has the 暴怒 and 狂暴 规则.</characteristic>
                                               
                             </characteristics>
                                         
@@ -13450,7 +13450,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="87ed-26a0-80f3-a982" name="Armour of Scorn" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="87ed-26a0-80f3-a982" name="Armour of Scorn" hidden="false">
                               
                     <profiles/>
                               
@@ -13774,7 +13774,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="ea1c-f9e9-15fc-f248" name="The Crimson Crown" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="ea1c-f9e9-15fc-f248" name="The Crimson Crown" hidden="false">
                               
                     <profiles/>
                               
@@ -13786,7 +13786,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">Add 1 to the Attacks characteristic of all models with the 恶魔 of Khorne 特殊规则 within 8" of the bearer.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">Add 1 to the Attacks characteristic of all models with the 恶魔 of Khorne 规则 within 8" of the bearer.</characteristic>
                                   
                     </characteristics>
                             
@@ -14068,7 +14068,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="febd-cb5c-b34f-a816" name="Grotti the Nurgling" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="febd-cb5c-b34f-a816" name="Grotti the Nurgling" hidden="false">
                               
                     <profiles/>
                               
@@ -14122,7 +14122,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="b41f-b9ff-360f-3764" name="Horn of Nurgle's Rot" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="b41f-b9ff-360f-3764" name="Horn of Nurgle's Rot" hidden="false">
                               
                     <profiles/>
                               
@@ -14176,7 +14176,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="ff38-9fe2-5915-edd5" name="The Doomsday Bell" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="ff38-9fe2-5915-edd5" name="The Doomsday Bell" hidden="false">
                               
                     <profiles/>
                               
@@ -14396,7 +14396,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="0595-2a4a-5332-0382" name="The Forbidden Gem" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="0595-2a4a-5332-0382" name="The Forbidden Gem" hidden="false">
                               
                     <profiles/>
                               
@@ -14450,7 +14450,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="2b68-1023-eaa5-9a05" name="The Mark of Excess" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="2b68-1023-eaa5-9a05" name="The Mark of Excess" hidden="false">
                               
                     <profiles/>
                               
@@ -14832,7 +14832,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="3d39-5ca8-36aa-969c" name="The Endless Grimoire" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="3d39-5ca8-36aa-969c" name="The Endless Grimoire" hidden="false">
                               
                     <profiles/>
                               
@@ -14996,7 +14996,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="d2c5-e3db-e8e7-fa8a" name="The Impossible Robe" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="d2c5-e3db-e8e7-fa8a" name="The Impossible Robe" hidden="false">
                               
                     <profiles/>
                               
@@ -15050,7 +15050,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="9cc6-ea09-ed62-03af" name="Exalted Locus of Creation" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="9cc6-ea09-ed62-03af" name="Exalted Locus of Creation" hidden="false">
                               
                     <profiles/>
                               
@@ -15098,7 +15098,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="4493-ebd7-4e26-313c" name="Greater Locus of Trickery" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="4493-ebd7-4e26-313c" name="Greater Locus of Trickery" hidden="false">
                               
                     <profiles/>
                               
@@ -15146,7 +15146,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="7d98-01d8-0b74-a671" name="Lesser Locus of Metamorphosis" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="7d98-01d8-0b74-a671" name="Lesser Locus of Metamorphosis" hidden="false">
                               
                     <profiles/>
                               
@@ -15158,7 +15158,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">此模型, and all models in its unit, have the 他不会死 特殊规则.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">此模型, and all models in its unit, have the 他不会死 规则.</characteristic>
                                   
                     </characteristics>
                             
@@ -21338,7 +21338,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                             
                 </profile>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="0866-e662-6525-676f" name="Staff of Tomorrow" page="0" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="0866-e662-6525-676f" name="Staff of Tomorrow" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -21594,7 +21594,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                             
                 </profile>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="f128-ed4c-6063-a8dd" name="Brass Collar of Bloody Vengeance" page="0" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="f128-ed4c-6063-a8dd" name="Brass Collar of Bloody Vengeance" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -21738,7 +21738,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <profiles>
                                     
-                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="f40c-a8db-6d53-7a1c" name="Greater Locus of Fury" hidden="false">
+                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="f40c-a8db-6d53-7a1c" name="Greater Locus of Fury" hidden="false">
                                           
                             <profiles/>
                                           
@@ -21750,7 +21750,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                           
                             <characteristics>
                                                 
-                                <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">此模型, and all models in its unit, have the 暴怒 特殊规则.</characteristic>
+                                <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">此模型, and all models in its unit, have the 暴怒 规则.</characteristic>
                                               
                             </characteristics>
                                         
@@ -22272,7 +22272,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="84f3-7ca2-33ca-0e73" name="Daemonic possession" page="0" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="84f3-7ca2-33ca-0e73" name="Daemonic possession" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -24562,7 +24562,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                                                       
                                     <modifiers/>
                                                       
-                                    <description>Close combat attacks made by a model with a Rot Proboscis have the 毒伤 (3+) 特殊规则.</description>
+                                    <description>Close combat attacks made by a model with a Rot Proboscis have the 毒伤 (3+) 规则.</description>
                                                     
                                 </rule>
                                               
@@ -24640,7 +24640,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                                                       
                                     <modifiers/>
                                                       
-                                    <description>Before rolling To Hit, nominate one of this model's attacks to be made with the Venom Sting and roll it separately. This attack has the Instand Death 特殊规则.</description>
+                                    <description>Before rolling To Hit, nominate one of this model's attacks to be made with the Venom Sting and roll it separately. This attack has the Instand Death 规则.</description>
                                                     
                                 </rule>
                                               
@@ -26430,7 +26430,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                             
                 </profile>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="47d7-8929-0ce0-b7cf" name="Cloak of Skulls" page="0" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="47d7-8929-0ce0-b7cf" name="Cloak of Skulls" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -26442,7 +26442,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">This grants Skulltaker a 3+ Armour Save and the 永恒战士 特殊规则.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">This grants Skulltaker a 3+ Armour Save and the 永恒战士 规则.</characteristic>
                                   
                     </characteristics>
                             
@@ -26800,7 +26800,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                               
                     <modifiers/>
                               
-                    <description>Skarbrand, and all units (friend or foe) within 12" of Skarbrand have the 暴怒 and 憎恨 special rules.</description>
+                    <description>Skarbrand, and all units (friend or foe) within 12" of Skarbrand have the 暴怒 and 憎恨 规则.</description>
                             
                 </rule>
                       
@@ -27730,7 +27730,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                             
                 </profile>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="ba06-d39a-fa16-03ac" name="Scrolls of Sorcery" publicationId="640c-568f-pubN104201" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="ba06-d39a-fa16-03ac" name="Scrolls of Sorcery" publicationId="640c-568f-pubN104201" hidden="false">
                               
                     <profiles/>
                               
@@ -27742,7 +27742,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">At the start of each friendly Psychic Phase, choose a Psychic 学派 from the BRB and roll a D6. This turn, the Blue Scribes automatically manifest that power without the need for a psychic test (they cannot swap it for the Primaris Power). This power is treated as having been manifested by the minimum amount of Warp Charge points required to manifest the power, for the purposes of Deny the Witch rolls. Note that the Blue Scribes are not Psykers for the purposes of any special rules that target Psykers.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">At the start of each friendly Psychic Phase, choose a Psychic 学派 from the BRB and roll a D6. This turn, the Blue Scribes automatically manifest that power without the need for a psychic test (they cannot swap it for the Primaris Power). This power is treated as having been manifested by the minimum amount of Warp Charge points required to manifest the power, for the purposes of Deny the Witch rolls. Note that the Blue Scribes are not Psykers for the purposes of any 规则 that target Psykers.</characteristic>
                                   
                     </characteristics>
                             
@@ -28126,7 +28126,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
 
 The Dance of Caging: Until the start of the Masque's next 射击阶段, the target unit suffers a -5 penalty to WS (to a minimum of 1) and can only move, run, charge, and fall back D3".
 
-The Dance of Death: The target unit suffers a number of S1 hits equal to the number of models in the unit. These hits are resolved at AP2, and have the 无视掩体 特殊规则 - allocate any Wound as for a shooting attack.
+The Dance of Death: The target unit suffers a number of S1 hits equal to the number of models in the unit. These hits are resolved at AP2, and have the 无视掩体 规则 - allocate any Wound as for a shooting attack.
 
 The Dance of Dreaming: Until the start of the Masque's next 射击阶段, the target unit suffers a -5 penalty to their BS (to a minimum of 1) and cannot fire 坚守射击.</description>
                             
@@ -29311,14 +29311,14 @@ Any non-无畏 unit in CC with this unit must pass a leadership check or be unab
                               
                     <modifiers/>
                               
-                    <description>Whilst Epidemius is alive, keep a count of all unsaved Wounds caused by the psychic powers, shooting, and 近战攻击 of Daemons of Nurgle (friend or foe) - even those that are negated by means other than saving throws, such as 不知疼痛. At the start of each of your turns, consult the table below to determine the effect of the Tally of Pestilence. All Daemons of Nurgle in units within 6" of Epidemius recieve the bonus characteristic or 特殊规则 shown below. All effects from the Tally of Pestilence are cumulative.
+                    <description>Whilst Epidemius is alive, keep a count of all unsaved Wounds caused by the psychic powers, shooting, and 近战攻击 of Daemons of Nurgle (friend or foe) - even those that are negated by means other than saving throws, such as 不知疼痛. At the start of each of your turns, consult the table below to determine the effect of the Tally of Pestilence. All Daemons of Nurgle in units within 6" of Epidemius recieve the bonus characteristic or 规则 shown below. All effects from the Tally of Pestilence are cumulative.
 
 Wounds / Effect
 0-6  No effect
 7+  +1 Strength
 14+  +1 Toughness
-21+  毒伤 (2+) 特殊规则
-28+  不知疼痛 (4+) 特殊规则</description>
+21+  毒伤 (2+) 规则
+28+  不知疼痛 (4+) 规则</description>
                             
                 </rule>
                       
@@ -29468,7 +29468,7 @@ Wounds / Effect
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="8048-c900-840c-93be" name="Icon of Fire" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="8048-c900-840c-93be" name="Icon of Fire" hidden="false">
                               
                     <profiles/>
                               
@@ -29480,7 +29480,7 @@ Wounds / Effect
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">An icon of fire is an Icon of Chaos. All 近战攻击 made by Daemons of Tzeentch in a unit equipped with an icon of fire have the 灵魂烈焰 特殊规则.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">An icon of fire is an Icon of Chaos. All 近战攻击 made by Daemons of Tzeentch in a unit equipped with an icon of fire have the 灵魂烈焰 规则.</characteristic>
                                   
                     </characteristics>
                             
@@ -29530,7 +29530,7 @@ Wounds / Effect
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="fe53-1e4c-e08a-b037" name="Arcane Icon" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="fe53-1e4c-e08a-b037" name="Arcane Icon" hidden="false">
                               
                     <profiles/>
                               
@@ -29542,7 +29542,7 @@ Wounds / Effect
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">An Arcane Icon is an Icon of Chaos. In addition, all models in a unit equipped with an Arcane Icon have the 精金意志 特殊规则.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">An Arcane Icon is an Icon of Chaos. In addition, all models in a unit equipped with an Arcane Icon have the 精金意志 规则.</characteristic>
                                   
                     </characteristics>
                             
@@ -29738,7 +29738,7 @@ Wounds / Effect
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="42f8-c0d2-3d08-b1f0" name="The Oracular Dais" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="42f8-c0d2-3d08-b1f0" name="The Oracular Dais" hidden="false">
                               
                     <profiles/>
                               
@@ -31218,7 +31218,7 @@ Wounds / Effect
                 
         </selectionEntryGroup>
             
-        <selectionEntryGroup id="5527-f4ef-035b-11c2" name="Wargear" hidden="false" collective="false">
+        <selectionEntryGroup id="5527-f4ef-035b-11c2" name="装备" hidden="false" collective="false">
                   
             <profiles/>
                   
@@ -31330,7 +31330,7 @@ Wounds / Effect
                               
                     <profiles>
                                     
-                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="c587-5d7f-6151-005d" name="精工甲" publicationId="640c-568f-pubN109411" page="131" hidden="false">
+                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="c587-5d7f-6151-005d" name="精工甲" publicationId="640c-568f-pubN109411" page="131" hidden="false">
                                           
                             <profiles/>
                                           
@@ -31382,7 +31382,7 @@ Wounds / Effect
                               
                     <profiles>
                                     
-                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item" id="96e4-a19a-7925-ebaa" name="战斗盾" publicationId="640c-568f-pubN109411" page="131" hidden="false">
+                        <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="96e4-a19a-7925-ebaa" name="战斗盾" publicationId="640c-568f-pubN109411" page="131" hidden="false">
                                           
                             <profiles/>
                                           
@@ -31936,7 +31936,7 @@ Wounds / Effect
                 
         </rule>
             
-        <rule id="c5d58cf9-4a96-1325-27fd-a0a6cee6d73b" name="Greater Magic Weapons" page="0" hidden="false">
+        <rule id="c5d58cf9-4a96-1325-27fd-a0a6cee6d73b" name="Greater Magic 武器" page="0" hidden="false">
                   
             <profiles/>
                   
@@ -32080,7 +32080,7 @@ Wounds / Effect
                 
         </rule>
             
-        <rule id="f14de5d7-6371-3f85-c30a-c82bd5cf264c" name="Magic Weapons" page="0" hidden="false">
+        <rule id="f14de5d7-6371-3f85-c30a-c82bd5cf264c" name="Magic 武器" page="0" hidden="false">
                   
             <profiles/>
                   
@@ -32480,7 +32480,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                   
             <modifiers/>
                   
-            <description>The Warlord's Melee weapons have the 即死 特殊规则.</description>
+            <description>The Warlord's Melee 武器 have the 即死 规则.</description>
                 
         </rule>
             
@@ -32552,7 +32552,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                   
             <characteristics>
                         
-                <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">Once per game, the unit charges 6+D6".</characteristic>
+                <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">整场游戏一次, the unit charges 6+D6".</characteristic>
                       
             </characteristics>
                 
@@ -34228,7 +34228,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="57617267656172204974656d23232344415441232323" typeName="" id="0329475c-0e20-7f43-ca74-0f284df13d1b" name="Two Dreadnought Close Combat Weapons" page="0" hidden="false">
+        <profile typeId="57617267656172204974656d23232344415441232323" typeName="" id="0329475c-0e20-7f43-ca74-0f284df13d1b" name="Two Dreadnought 近战武器s" page="0" hidden="false">
                   
             <profiles/>
                   

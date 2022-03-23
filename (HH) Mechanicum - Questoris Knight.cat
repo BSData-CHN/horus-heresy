@@ -156,7 +156,7 @@
 如果游戏结束时死敌还存活, 则对手获得1VP.</description>
         </rule>
         <rule id="3bf0ccd0-6cb5-4f84-88d6-b6eb6cc464d2" name="绝地反击" publicationId="ca571888--pubN84158" page="296" hidden="false">
-          <description>当死士被自己的死敌在肉搏中击杀, 则在其他效果生效之前, 死士可以立即使用自己或自己所装备的武器对死敌进行一次反击.</description>
+          <description>当死士被自己的死敌在近战中击杀, 则在其他效果生效之前, 死士可以立即使用自己或自己所装备的武器对死敌进行一次反击.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -742,7 +742,7 @@
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4917-9705-c924-9779" name="强化瞄准阵列s" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4917-9705-c924-9779" name="强化瞄准阵列" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="15">
                   <repeats>
@@ -1325,7 +1325,7 @@
         </profile>
         <profile id="82fe-5976-eb52-f87e" name="低功率离子盾" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的5+特殊保护,对肉搏无效.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的5+特殊保护,对近战无效.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1524,7 +1524,7 @@
         </profile>
         <profile id="5ca6-0668-8fa1-0c80" name="离子闪光护盾" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对肉搏攻击无效; 盖板武器S-1,对D武器或电磁干扰武器无效.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对近战攻击无效; 盖板武器S-1,对D武器或电磁干扰武器无效.</characteristic>
           </characteristics>
         </profile>
         <profile id="a9aa-8b16-6a5b-5b8f" name="构造护盾 (2)" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -1541,7 +1541,7 @@
           <description>首次部署时需要保持 6&quot; 的连续性, 此后各自成为独立单位.</description>
         </rule>
         <rule id="469f-ec3f-aa68-4b90" name="保护协议" publicationId="ece2-a265-6237-7efa" hidden="false">
-          <description>当12&quot;内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
+          <description>当12&quot;内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入近战的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
         </rule>
       </rules>
       <infoLinks>

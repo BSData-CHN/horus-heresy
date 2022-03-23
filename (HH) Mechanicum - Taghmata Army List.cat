@@ -31,7 +31,7 @@
             炮兵单位只要包含任何火炮模型就不能冲锋.如果一个炮兵单位被冲锋,只有炮手可以坚守射击.坚守射击完成后,如常移动冲锋模型使其与炮手火炮模型底盘接触.不会有任何伤害会被分配到火炮模型.所有敌方的命中和造伤骰视作针对炮手,即使他们只与火炮模型交战.炮手可以反击但火炮不能.
 
             士气和撤退移动
-            任何士气测试和其他LD测试以及计算肉搏战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从肉搏中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
+            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
 
             炮兵和长官小心
             不能使用长官小心规则将伤害转移到火炮模型上.</description>
@@ -1039,12 +1039,12 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fbcd-1534-502b-8537" name="雷鸟重型战斗机" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fbcd-1534-502b-8537" name="雷霆重型攻击机" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40cc-bc6a-acbb-cb6e" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ad58-eb8f-ae39-0e7b" name="雷鸟重型战斗机" hidden="false" collective="false" import="true" targetId="7734-1ff6-9f66-44cd" type="selectionEntry"/>
+                <entryLink id="ad58-eb8f-ae39-0e7b" name="雷霆重型攻击机" hidden="false" collective="false" import="true" targetId="7734-1ff6-9f66-44cd" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -1061,12 +1061,12 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="dd5c-3998-d857-f69a" name="远征舰队原型闪电攻击机" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dd5c-3998-d857-f69a" name="远征舰队原型闪电强袭攻击机" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55c5-dae4-1799-7e9e" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="41dd-a7e3-9bd3-6e11" name="远征舰队原型闪电攻击机" hidden="false" collective="false" import="true" targetId="5d68-1fb8-1f66-af3a" type="selectionEntry"/>
+                <entryLink id="41dd-a7e3-9bd3-6e11" name="远征舰队原型闪电强袭攻击机" hidden="false" collective="false" import="true" targetId="5d68-1fb8-1f66-af3a" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -1189,7 +1189,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="3447-78a1-19ec-64d4-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c6d8-d4b0-8ca6-1de7" name="Ordinatus Minoris Macro Engine" hidden="false" collective="false" import="true" targetId="7cdb-8db0-bfd6-ce3c" type="selectionEntry">
+    <entryLink id="c6d8-d4b0-8ca6-1de7" name="小型将军炮宏引擎" hidden="false" collective="false" import="true" targetId="7cdb-8db0-bfd6-ce3c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c6d8-d4b0-8ca6-1de7-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
@@ -1200,7 +1200,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="a3e7-960f-d552-c0b5" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a8be-c5b3-71f2-beee" name="Crusade 迅捷 Arvus Lighter 轨道 Shuttle" hidden="false" collective="false" import="true" targetId="7b0f-7bfb-ca1f-e761" type="selectionEntry">
+    <entryLink id="a8be-c5b3-71f2-beee" name="Crusade 迅捷阿尔乌斯轻型轨道穿梭机" hidden="false" collective="false" import="true" targetId="7b0f-7bfb-ca1f-e761" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a8be-c5b3-71f2-beee-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
@@ -1210,7 +1210,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="eb49-9c86-cc4d-9897-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6168-b447-65bb-476a" name="远征舰队原型闪电攻击机" hidden="false" collective="false" import="true" targetId="5d68-1fb8-1f66-af3a" type="selectionEntry">
+    <entryLink id="6168-b447-65bb-476a" name="远征舰队原型闪电强袭攻击机" hidden="false" collective="false" import="true" targetId="5d68-1fb8-1f66-af3a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6168-b447-65bb-476a-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
@@ -1587,7 +1587,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="f6a5-749e-217f-10f1" name="New CategoryLink" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5c3a-0189-ddc2-0eb2" name="Thallax Cohort (Icarian)" hidden="false" collective="false" import="true" targetId="d893-4871-06f4-d2a9" type="selectionEntry">
+    <entryLink id="5c3a-0189-ddc2-0eb2" name="死隶机兵小队 (伊卡里安)" hidden="false" collective="false" import="true" targetId="d893-4871-06f4-d2a9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="17e3-b3a8-5e10-db91" name="New CategoryLink" hidden="false" targetId="afa3-c43a-c8c1-d8b6" primary="false"/>
         <categoryLink id="066d-3b13-644d-c8ba" name="New CategoryLink" hidden="false" targetId="37f2-7398-84ee-6fdf" primary="false"/>
@@ -1698,7 +1698,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="27a4-c8ee-302d-743e" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cabb-e779-4e31-7070" name="Dominus Armoured Siege Bombard" hidden="false" collective="false" import="true" targetId="79cf-b5c0-232b-9315" type="selectionEntry">
+    <entryLink id="cabb-e779-4e31-7070" name="Dominus Armoured Siege巨像轰击炮" hidden="false" collective="false" import="true" targetId="79cf-b5c0-232b-9315" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f95e-4903-fb90-bd0d" name="战争之王槽位" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="7df5-ef15-e7db-1de3" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
@@ -3216,7 +3216,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="49db7652-fb76-bf7d-1d4e-7bd6e33d8c6e" name="爆破雷管" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="49db7652-fb76-bf7d-1d4e-7bd6e33d8c6e" name="爆破炸药" page="" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e571333a-2234-23ad-b872-ac4730518453" hidden="false" targetId="99a47c75-0410-1c54-8124-3adcbd64aa7e" type="profile"/>
         <infoLink id="32fb2543-4434-95c0-0834-cecbec922aa8" hidden="false" targetId="3b2f58a3-f819-22a4-7b62-fcd43773f7fa" type="rule"/>
@@ -3390,7 +3390,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       </constraints>
       <rules>
         <rule id="a41a-3473-ef5f-7a99" name="伺服臂阵列" publicationId="ca571888--pubN66580" page="112" hidden="false">
-          <description>伺服臂阵列的装备者 +1T 且获得夜视特殊规则. 其包含一把喷火器和一把地狱手枪, 可以在射击阶段同时发射这两者, 也可以射击其中之一并另外射击一把其他装备的远程武器.
+          <description>伺服臂阵列的装备者 +1T 且获得夜视规则. 其包含一把喷火器和一把地狱手枪, 可以在射击阶段同时发射这两者, 也可以射击其中之一并另外射击一把其他装备的远程武器.
 伺服臂阵列的装备者 +2 战争铁匠维修骰结果.
 伺服臂阵列的装备者可以在近战中额外攻击两次, 可以使用可行的任何攻击方式.</description>
         </rule>
@@ -4474,7 +4474,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               <rules>
                 <rule id="94cc-7da2-ca6f-8738" name="工造士" publicationId="ca571888--pubN66489" page="34" hidden="false">
                   <description>修士获得 +1 战争铁匠结果, 获得伺服臂装备. 
-单位中的伺服自动机兵获得伺服自动机兵支援特殊规则.</description>
+单位中的伺服自动机兵获得伺服自动机兵支援规则.</description>
                 </rule>
                 <rule id="6395-c56f-b1bd-27ea" name="伺服自动机兵支援" publicationId="ca571888--pubN85920" page="219" hidden="false">
                   <description>单位中每有一个伺服自动机兵, 工造士便 +1战争铁匠投掷结果. 结果出1任然会失败.</description>
@@ -4490,7 +4490,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="5083-8ea9-2789-da49" name="生物士" publicationId="ca571888--pubN66489" page="34" hidden="false">
-                  <description>只要伺服自动机兵存活, 修士便获得不知疼痛 (5+)特殊规则. 
+                  <description>只要伺服自动机兵存活, 修士便获得不知疼痛 (5+)规则.
 只要修士存活, 6&quot;内的友方脱俗者单位 +1不知疼痛测试结果.</description>
                 </rule>
               </rules>
@@ -6001,9 +6001,9 @@ D6  结果                 S                 AP
         <cost name="分" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d68-1fb8-1f66-af3a" name="远征舰队原型闪电攻击机" publicationId="ca571888--pubN66580" page="47" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5d68-1fb8-1f66-af3a" name="远征舰队原型闪电强袭攻击机" publicationId="ca571888--pubN66580" page="47" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5f6b-d6dd-568b-ebad" name="远征舰队原型闪电攻击机" publicationId="ca571888--pubN66580" page="48" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+        <profile id="5f6b-d6dd-568b-ebad" name="远征舰队原型闪电强袭攻击机" publicationId="ca571888--pubN66580" page="48" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="前" typeId="46726f6e7423232344415441232323">11</characteristic>
@@ -6037,12 +6037,12 @@ D6  结果                 S                 AP
       <selectionEntryGroups>
         <selectionEntryGroup id="e744-5ed2-aa42-fdaa" name="可以选择任何:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="ce59-f93f-70ae-31ba" name="Ramjet Diffraction Grid" page="" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ce59-f93f-70ae-31ba" name="喷射引擎衍射网格" page="" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aaa0-ce7e-5ebe-f07a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6264-e4a4-5d99-e9fb" name="Ramjet Diffraction Grid" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+                <profile id="6264-e4a4-5d99-e9fb" name="喷射引擎衍射网格" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
                     <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Reduces Strength value of incoming shooting attacks from side and rear armour by -1 but may never benefit from cover saves due to 夜战.  </characteristic>
                   </characteristics>
@@ -6182,7 +6182,7 @@ D6  结果                 S                 AP
               </profiles>
               <rules>
                 <rule id="3798-9d1f-c145-0393" name="致命货物" page="" hidden="false">
-                  <description>If a 飞行器 carring a weapon with this 特殊规则 takes hull damage
+                  <description>If a 飞行器 carring a weapon with this 规则 takes hull damage
                                         but is not destroyed, roll a D6. On a 6, the 飞行器 suffers and explodes result.</description>
                 </rule>
               </rules>
@@ -6835,7 +6835,7 @@ D6  结果                 S                 AP
       </constraints>
       <rules>
         <rule id="03c8-080c-9006-81bf" name="制造大师" publicationId="ca571888--pubN85920" page="215" hidden="false">
-          <description>分队中的所有载具获得他不会死特殊规则, 如果存在此规则, 则替换为受祝福的自动拟像.</description>
+          <description>分队中的所有载具获得他不会死规则, 如果存在此规则, 则替换为受祝福的自动拟像.</description>
         </rule>
         <rule id="904b-3a30-986f-a74d" name="无上资源" publicationId="ca571888--pubN85920" page="215" hidden="false">
           <description>作为主将时预备队入场骰+1.</description>
@@ -6999,7 +6999,7 @@ D6  结果                 S                 AP
           <description>武器的每个成功的造伤或穿甲会造成D3点伤害或额外1点HP值. 可以对伤害投掷特殊保护, 但其无视不知疼痛, 他不会死, 受祝福的自动拟像规则.</description>
         </rule>
         <rule id="3aea-1caa-ba90-5a65" name="智控教父" publicationId="ca571888--pubN89821" page="273" hidden="false">
-          <description>拥有此特殊规则的人物可以加入一个拥有智控皮层特殊规则巨兽单位. 模型不能以任何原因卧倒, 敌方可以直接射击此人物而忽略队伍中距离最近的巨兽模型.</description>
+          <description>拥有此规则的人物可以加入一个拥有智控皮层规则巨兽单位. 模型不能以任何原因卧倒, 敌方可以直接射击此人物而忽略队伍中距离最近的巨兽模型.</description>
         </rule>
         <rule id="817d-c7c6-9566-9d88" name="野兽之仪" publicationId="ca571888--pubN89821" page="273" hidden="false">
           <description>The Rite of the Beast is an additional Cybertheurgic power (see page 280 HH6) witch only he may use. The power has a modifier to use of -2. If successfully applied, it affects an entire unit of models rather than just a single model. All models in the unit 可以重投失败的 hits in assault and add +1 to their Initiative, move and charge distances for the duration of the power. However, after the power has expended normally, roll a D6 for each surviving model in the unit. On the roll of a 1, the model suffers a wound with no save of any kind possible.</description>
@@ -7139,7 +7139,7 @@ D6  结果                 S                 AP
                         so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic
                         Powers and the 导航者 does not use Warp Charge points or have access to any Psychic
                         Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work
-                        against Psykers, such as 憎恨 (Psykers) or weapons that have additional rules against Psykers.
+                        against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers.
                         In order to use a 导航者 power, the 导航者 must make a Leadership test. If the test is
                         passed, the chosen power is used as described. If the test is failed, the power is not used and
                         the 导航者 and their unit is Pinned (though they do not 卧倒).
@@ -8261,7 +8261,7 @@ D6  结果                 S                 AP
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="05f1-de92-19a0-45c8" name="破坏者加农炮" publicationId="ca571888--pubN66580" page="84" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="05f1-de92-19a0-45c8" name="破坏者战斗炮" publicationId="ca571888--pubN66580" page="84" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="10.0">
                   <repeats>
@@ -8273,7 +8273,7 @@ D6  结果                 S                 AP
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c2a2-8916-c354-b36b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ab02-66f0-4078-4230" name="破坏者加农炮" publicationId="ca571888--pubN66580" page="84" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="ab02-66f0-4078-4230" name="破坏者战斗炮" publicationId="ca571888--pubN66580" page="84" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">24</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -8368,7 +8368,7 @@ D6  结果                 S                 AP
               </constraints>
               <rules>
                 <rule id="7292-e9b4-1779-185d" name="隐蔽部署" page="" hidden="false">
-                  <description>阵列在其开火前获得笼罩特殊规则.</description>
+                  <description>阵列在其开火前获得笼罩规则.</description>
                 </rule>
               </rules>
               <costs>
@@ -8388,7 +8388,7 @@ D6  结果                 S                 AP
               </constraints>
               <rules>
                 <rule id="782e-087f-22b1-b389" name="前沿部署" page="" hidden="false">
-                  <description>阵列获得侦察特殊规则.</description>
+                  <description>阵列获得侦察规则.</description>
                 </rule>
               </rules>
               <costs>
@@ -8598,7 +8598,7 @@ D6  结果                 S                 AP
               </constraints>
               <rules>
                 <rule id="5b62-3bf5-a193-f8fa" name="海波利欧指挥平台" page="" hidden="false">
-                  <description>所有装备海波利欧防空导弹发射器的狼蛛岗哨炮获得分散火力特殊规则, 且自动通过分散火力测试.</description>
+                  <description>所有装备海波利欧防空导弹发射器的狼蛛岗哨炮获得分散火力规则, 且自动通过分散火力测试.</description>
                 </rule>
               </rules>
               <costs>
@@ -9500,7 +9500,7 @@ D6  结果                 S                 AP
           <description>作为主将时, 分队中的所有机甲, 超重型机甲, 巨兽单位 +1 冲锋和追击投掷结果.</description>
         </rule>
         <rule id="e052-16b6-4084-0a91" name="主将: 血肉之死" hidden="false">
-          <description>分队中的所有单位在目标点 3&quot; 内会获得宿敌 (步兵 – 所有类型)特殊规则.</description>
+          <description>分队中的所有单位在目标点 3&quot; 内会获得宿敌 (步兵 – 所有类型)规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9585,7 +9585,7 @@ D6  结果                 S                 AP
         </profile>
         <profile id="ed6d-b277-d08a-c397" name="附身智控仆从" publicationId="ca571888--pubN85920" page="217" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得不知疼痛(5+) 和极度庞大规则. 除非通过智控教父特殊规则其不能加入其他单位. 但其可以和其他单位一起乘坐运输载具.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得不知疼痛(5+) 和极度庞大规则. 除非通过智控教父规则其不能加入其他单位. 但其可以和其他单位一起乘坐运输载具.</characteristic>
           </characteristics>
         </profile>
         <profile id="8898-786c-cc59-0816" name="反斥护盾" publicationId="ca571888--pubN85920" page="217" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -9603,7 +9603,7 @@ D6  结果                 S                 AP
         </rule>
         <rule id="b472-9268-3948-d74f" name="高阶技术秘法修会 (机械司殿)" publicationId="ca571888--pubN85920" page="216" hidden="false"/>
         <rule id="904d-9d1f-c21a-246d" name="制造大师" publicationId="ca571888--pubN85920" page="215" hidden="false">
-          <description>分队中的所有载具获得他不会死特殊规则, 如果存在此规则, 则替换为受祝福的自动拟像.</description>
+          <description>分队中的所有载具获得他不会死规则, 如果存在此规则, 则替换为受祝福的自动拟像.</description>
         </rule>
         <rule id="e13f-d838-eed1-3c1c" name="无上资源" publicationId="ca571888--pubN85920" page="215" hidden="false">
           <description>作为主将时预备队入场骰+1.</description>
@@ -10189,7 +10189,7 @@ D6  结果                 S                 AP
               <profiles>
                 <profile id="accb-30d1-328e-384b" name="巨灵集束" publicationId="ca571888--pubN85920" page="215" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his primary detachment (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his wargear to benefit from +1 BS. - Friendly units from the primary detachment including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 weapons in the same detachment may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his primary detachment (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his 装备 to benefit from +1 BS. - Friendly units from the primary detachment including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 武器 in the same detachment may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10604,7 +10604,7 @@ D6  结果                 S                 AP
       </profiles>
       <rules>
         <rule id="bbac-9e94-552b-65b7" name="毁灭大师" publicationId="ca571888--pubN66580" page="83" hidden="false">
-          <description>所有攻击具有碎裂特殊规则, 对建筑和载具的伤害损伤表结果+1, 可以与AP等其他规则叠加.
+          <description>所有攻击具有碎裂规则, 对建筑和载具的伤害损伤表结果+1, 可以与AP等其他规则叠加.
 在任意射击阶段, 可以将上述效果赋予 6&quot; 内一个载具装备的重型或重炮武器, 其可以是自己乘坐的载具.</description>
         </rule>
       </rules>
@@ -10795,12 +10795,12 @@ D6  结果                 S                 AP
                 <cost name="分" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7e7d-3e63-715f-f094" name="爆破雷管" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7e7d-3e63-715f-f094" name="爆破炸药" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfc6-5784-ad81-2c3b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c7a0-6ee7-9f8c-0aef" name="爆破雷管" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="c7a0-6ee7-9f8c-0aef" name="爆破炸药" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">特殊</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -10857,7 +10857,7 @@ D6  结果                 S                 AP
               <profiles>
                 <profile id="b6fd-18e2-a87b-70f1" name="巨灵集束" publicationId="ca571888--pubN85920" page="215" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his primary detachment (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his wargear to benefit from +1 BS. - Friendly units from the primary detachment including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 weapons in the same detachment may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his primary detachment (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his 装备 to benefit from +1 BS. - Friendly units from the primary detachment including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 武器 in the same detachment may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11066,7 +11066,7 @@ D6  结果                 S                 AP
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="10b6-844e-c383-d556" name="Exotic Melee Weapons" hidden="true" collective="false" import="true" targetId="befa-6205-342b-50d0" type="selectionEntryGroup">
+        <entryLink id="10b6-844e-c383-d556" name="Exotic Melee 武器" hidden="true" collective="false" import="true" targetId="befa-6205-342b-50d0" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -12216,7 +12216,7 @@ D6  结果                 S                 AP
               <rules>
                 <rule id="81c6-7e54-3771-8746" name="巨型毁灭协议" hidden="false">
                   <description>When making shooting attacks against targets of the 超重型 or
-                                        超级巨兽 type, the 瑟拉斯托斯阿特洛波斯型骑士 counts its weapons as
+                                        超级巨兽 type, the 瑟拉斯托斯阿特洛波斯型骑士 counts its 武器 as
                                         双联.</description>
                 </rule>
                 <rule id="2227-f9a3-f7cd-242f" name="灾难性毁灭" hidden="false">
@@ -12227,7 +12227,7 @@ D6  结果                 S                 AP
                   <description>Before firing the weapon, roll a D6. On a result of a 1, the firing
                                         Knight-Atrapos suffers a single Hull Point of damage with no saves of any kind
                                         before the attack is carried out. On a result of a 6, the attack is carried out
-                                        with the 漩涡 特殊规则.</description>
+                                        with the 漩涡 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12301,12 +12301,12 @@ D6  结果                 S                 AP
             <categoryLink id="dacc-ebb0-2825-c5af" name="New CategoryLink" hidden="false" targetId="896b-3586-a126-d985" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5132-e115-57d8-48f2" name="Stormlord" hidden="false" collective="false" import="true" targetId="7d56-481b-6478-681e" type="selectionEntry">
+        <entryLink id="5132-e115-57d8-48f2" name="风暴之主" hidden="false" collective="false" import="true" targetId="7d56-481b-6478-681e" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="f7f3-706f-2720-80ac" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="7cec-ff9c-8216-ae53" name="Shadowsword" hidden="false" collective="false" import="true" targetId="ed2c-8dcf-d0d2-720e" type="selectionEntry">
+        <entryLink id="7cec-ff9c-8216-ae53" name="影剑" hidden="false" collective="false" import="true" targetId="ed2c-8dcf-d0d2-720e" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="749c-b284-bcdb-ebdb" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
           </categoryLinks>
@@ -12523,9 +12523,9 @@ D6  结果                 S                 AP
         <infoLink id="9b8b-cdab-3b62-d588" name="特拉克斯型白蚁突击钻" hidden="false" targetId="70c1-f71a-6ceb-0cab" type="profile"/>
         <infoLink id="5408-e40d-ef45-2acf" name="特拉克斯型白蚁突击钻 (Transport)" hidden="false" targetId="9902-1e3c-b99c-f7cf" type="profile"/>
         <infoLink id="e129-e3e6-1da6-89d7" name="地底突袭" hidden="false" targetId="1679-b036-dc3a-c6a6" type="rule"/>
-        <infoLink id="939e-b3ad-b947-acfb" name="Crawling Advance" hidden="false" targetId="d130-69b4-bcb9-7454" type="rule"/>
-        <infoLink id="9dbf-a324-638d-b8de" name="热熔 Cutters" hidden="false" targetId="1ace-c133-de63-e4f0" type="rule"/>
-        <infoLink id="ca87-4b41-3d20-0163" name="Death From Below" hidden="false" targetId="3cd1-bdfb-4585-182c" type="rule"/>
+        <infoLink id="939e-b3ad-b947-acfb" name="爬行前进" hidden="false" targetId="d130-69b4-bcb9-7454" type="rule"/>
+        <infoLink id="9dbf-a324-638d-b8de" name="热熔切割机" hidden="false" targetId="1ace-c133-de63-e4f0" type="rule"/>
+        <infoLink id="ca87-4b41-3d20-0163" name="地底死神" hidden="false" targetId="3cd1-bdfb-4585-182c" type="rule"/>
         <infoLink id="f37d-0b60-0c30-a230" name="特拉克斯型白蚁突击钻" hidden="false" targetId="cb11-e201-f31b-d74e" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -12606,7 +12606,7 @@ D6  结果                 S                 AP
     <selectionEntry id="d893-4871-06f4-d2a9" name="死隶机兵小队 (伊卡里安)" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="355c-4fbc-d3c6-5e77" name="伊卡里安*" publicationId="ca571888--pubN66580" page="39" hidden="false">
-          <description>如果单位保持静止,  则其所有远程武器获得对空火力特殊规则. 此单位从基础槽位变为重型支援槽位</description>
+          <description>如果单位保持静止,  则其所有远程武器获得对空火力规则. 此单位从基础槽位变为重型支援槽位</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -12747,7 +12747,7 @@ D6  结果                 S                 AP
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1e5f-5e8e-70e9-0a73" name="Phase Plasma-fusil" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1e5f-5e8e-70e9-0a73" name="相位等离子燧发枪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93ba-0b95-0968-ced6" type="max"/>
               </constraints>
@@ -12866,7 +12866,7 @@ D6  结果                 S                 AP
         </profile>
         <profile id="6159-fc6b-8d53-8a85" name="离子闪光护盾" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对肉搏攻击无效; 盖板武器S-1,对D武器或电磁干扰武器无效.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对近战攻击无效; 盖板武器S-1,对D武器或电磁干扰武器无效.</characteristic>
           </characteristics>
         </profile>
         <profile id="a989-0517-fe90-399e" name="构造护盾 (2)" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -12880,7 +12880,7 @@ D6  结果                 S                 AP
           <description>必须与友方骑士相距6&quot;以内.</description>
         </rule>
         <rule id="1599-8196-3356-d1a7" name="保护协议" publicationId="ece2-a265-6237-7efa" hidden="false">
-          <description>当12&quot;内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
+          <description>当12&quot;内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入近战的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -13058,7 +13058,7 @@ D6  结果                 S                 AP
         </profile>
         <profile id="d1b5-3671-8605-9dc2" name="低功率离子盾" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的5+特殊保护,对肉搏无效.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的5+特殊保护,对近战无效.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14486,7 +14486,7 @@ D6  结果                 S                 AP
                   </profiles>
                   <rules>
                     <rule id="3991-8435-9c2e-7d89" name="Taser" hidden="false">
-                      <description>When making an attack with a weapon that has this 特殊规则, a To Hit roll of a 6 causes 2 additional hits on the target.</description>
+                      <description>When making an attack with a weapon that has this 规则, a To Hit roll of a 6 causes 2 additional hits on the target.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -16005,8 +16005,8 @@ D6  结果                 S                 AP
               </constraints>
               <rules>
                 <rule id="caea-4fdb-feac-3fa4" name="伺服臂阵列" publicationId="ca571888--pubN66580" page="112" hidden="false">
-                  <description>A 伺服臂阵列 adds +1 to its user’s Toughness value and provides the 夜视 特殊规则. It also incorporates a 喷火器 and an 地狱手枪, and the user can either opt to fire both of these weapons in the 射击阶段, or one of them and another 远程武器 the model is carrying.
-A model with the 战争铁匠 特殊规则 may add +2 to their 维修骰 result if they are also equipped with a 伺服臂阵列.
+                  <description>A 伺服臂阵列 adds +1 to its user’s Toughness value and provides the 夜视 规则. It also incorporates a 喷火器 and an 地狱手枪, and the user can either opt to fire both of these 武器 in the 射击阶段, or one of them and another 远程武器 the model is carrying.
+A model with the 战争铁匠 规则 may add +2 to their 维修骰 result if they are also equipped with a 伺服臂阵列.
 A model equipped with a 伺服臂阵列 may make two additional attacks per turn 近战中 as well as any they would normally be eligible to make. This is done using the profile shown below:
 *Included in Battlescribe Profiles when taken</description>
                 </rule>
@@ -16112,7 +16112,7 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
               </constraints>
               <rules>
                 <rule id="1f9d-c78e-f563-f674" name="钢铁军团" hidden="false">
-                  <description>分队的强制基础槽位必须是至少两个堡星级战斗自动机兵小队. 分队的快速打击槽位和重型支援槽位必须至少选择一个拥有智控皮层特殊规则的单位.</description>
+                  <description>分队的强制基础槽位必须是至少两个堡星级战斗自动机兵小队. 分队的快速打击槽位和重型支援槽位必须至少选择一个拥有智控皮层规则的单位.</description>
                 </rule>
               </rules>
               <costs>
@@ -16352,7 +16352,7 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="94cd-52c7-4e2b-f8d6" name="Tech Priest Auxilia may be taken as Troops" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="94cd-52c7-4e2b-f8d6" name="Tech Priest 辅助军 may be taken as Troops" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -16553,8 +16553,8 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
               </constraints>
               <rules>
                 <rule id="8c70-5673-28a0-ce16" name="Patterns of 立场" hidden="false">
-                  <description>Patterns of 立场: The 源还修会’s military doctrines are methodical and highly idiosyncratic, focusing on the use of armoured vehicles, punishing ordnance barrages and the use of their purpose-designed Thallax shock troops. While they will make use of adsecularis and other ‘weaker’ troops, they find them of limited value. Conversely, while they value the semi-sentient creations of the 智控军团 for their power and durability, they retain a fundamental wariness of the threat of Malifica in the minds of machines not of their own devising.
-强制基础槽位 choices in any 源还修会 War Covenant detachment must be comprised of units of Mechanicum Thallax Cohorts.
+                  <description>Patterns of 立场: The 源还修会’s military doctrines are methodical and highly idiosyncratic, focusing on the use of armoured vehicles, punishing ordnance barrages and the use of their purpose-designed 死隶机兵 shock troops. While they will make use of adsecularis and other ‘weaker’ troops, they find them of limited value. Conversely, while they value the semi-sentient creations of the 智控军团 for their power and durability, they retain a fundamental wariness of the threat of Malifica in the minds of machines not of their own devising.
+强制基础槽位 choices in any 源还修会 War Covenant detachment must be comprised of units of Mechanicum 死隶机兵小队s.
 An 源还修会 War Covenant force may not contain a greater number of 战斗自动机兵 and 攻城自动机兵 units than half the total number of units in the detachment regardless of that detachment’s type. So, for example, if a Primary Detachment force made from an 源还修会 War Covenant comprises a total of six units, 至多 three of these units could be 战斗自动机兵 and/or 攻城自动机兵 units</description>
                 </rule>
               </rules>
@@ -16636,7 +16636,7 @@ An 源还修会 War Covenant force may not contain a greater number of 战斗自
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="886f-f4b1-74de-6d4d" name="爆破雷管" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="886f-f4b1-74de-6d4d" name="爆破炸药" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -16648,7 +16648,7 @@ An 源还修会 War Covenant force may not contain a greater number of 战斗自
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9042-07e3-e1aa-4e49" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="93d0-33fe-5a72-d8db" name="爆破雷管" hidden="false" targetId="99a47c75-0410-1c54-8124-3adcbd64aa7e" type="profile"/>
+                <infoLink id="93d0-33fe-5a72-d8db" name="爆破炸药" hidden="false" targetId="99a47c75-0410-1c54-8124-3adcbd64aa7e" type="profile"/>
                 <infoLink id="443b-7ea4-4a5e-e713" name="一次性/仅一发" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule"/>
                 <infoLink id="4e8b-447e-3556-e79e" name="攻城拔寨" hidden="false" targetId="fe2f-3220-3fef-b177" type="rule"/>
               </infoLinks>
@@ -16791,14 +16791,14 @@ An 源还修会 War Covenant force may not contain a greater number of 战斗自
                   <description>At the start of your 移动阶段, you can choose 至多 one Doctrina Imperatives will increase the army&apos;s abilities in the 射击阶段, while Conqueror Imperatives will make the army more proficient in the 突击阶段. Unless otherwise stated, each Doctrina Imperative can only be used once during the game.
 
 PROTECTOR IMPERATIVES:
-Hazard Optimisation (Gamma): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 特殊规则 add 1 to their BS characteristic.
-Gundrill Symbiosis (Beta): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 特殊规则 add 2 to their Balistic Skill characterisic, but subtract 1 from their WS Characteristic.
-Binharic Omniscience: Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 特殊规则 add 3 to their BS characteristic, but subtract 2 from their WS characteristic.
+Hazard Optimisation (Gamma): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 规则 add 1 to their BS characteristic.
+Gundrill Symbiosis (Beta): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 规则 add 2 to their Balistic Skill characterisic, but subtract 1 from their WS Characteristic.
+Binharic Omniscience: Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 规则 add 3 to their BS characteristic, but subtract 2 from their WS characteristic.
 
 CONQUEROR IMPERATIVES:
-Mindstate Secutor (Gamma): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 特殊规则 add 1 to their WS characteristic.
-Technomartyr Condords (Beta): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 特殊规则 add 2 to their WS characteristic, but subtract 1 from their BS characteristic.
-Hyperaction Protocols (Alpha): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 特殊规则 add 3 to their WS characteristic, but subtract 2 from their BS characteristic.</description>
+Mindstate Secutor (Gamma): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 规则 add 1 to their WS characteristic.
+Technomartyr Condords (Beta): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 规则 add 2 to their WS characteristic, but subtract 1 from their BS characteristic.
+Hyperaction Protocols (Alpha): Until the start of your next turn, all models in friendly units with the Doctrina Imperatives 规则 add 3 to their WS characteristic, but subtract 2 from their BS characteristic.</description>
                 </rule>
               </rules>
               <costs>
@@ -16818,7 +16818,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
               </constraints>
               <rules>
                 <rule id="d6cf-4c4b-6ff6-485e" name="Rad-Saturation" hidden="false">
-                  <description>While a unit is locked in combat with one of more models with this 特殊规则 all models in that unit subtract 1 from their touchness (to a minimum of 1).</description>
+                  <description>While a unit is locked in combat with one of more models with this 规则 all models in that unit subtract 1 from their touchness (to a minimum of 1).</description>
                 </rule>
               </rules>
               <costs>
@@ -17367,7 +17367,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="372f-ba8a-c398-9a89" name="Special Rules (0+)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="372f-ba8a-c398-9a89" name="规则 (0+)" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="a2ca-4e2a-009a-ea74" name="战争铁匠" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -17504,7 +17504,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
               <profiles>
                 <profile id="0bee-d39a-d6f7-4209" name="Conversion Field" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A Conversion field confers a 4+ 特殊保护. At the end of a phase in which the bearer passes one or more invulnerable saves granded by the conversion field, all units within D6 of the bearer must test as if they had been hit by a weapon with the 致盲 特殊规则. Friendly units 可以重投 this test.</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A Conversion field confers a 4+ 特殊保护. At the end of a phase in which the bearer passes one or more invulnerable saves granded by the conversion field, all units within D6 of the bearer must test as if they had been hit by a weapon with the 致盲 规则. Friendly units 可以重投 this test.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17654,7 +17654,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
                   </constraints>
                   <rules>
                     <rule id="81b4-b320-babd-78c0" name="Headsman" hidden="false">
-                      <description>Once per game, one of the 人物&apos;s melee attacks that has both hit and wounded gains 即死. Declare this after rolling to wound but before any saves are made.</description>
+                      <description>整场游戏一次, one of the 人物&apos;s melee attacks that has both hit and wounded gains 即死. Declare this after rolling to wound but before any saves are made.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -17775,14 +17775,14 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
                       <description>The 人物 and 步兵 unit gain Reaction Fire. If this is already in play (e.g. Zone Mortalis), the Reaction Fire test is automatically passed. Cannot be used by models that cannot use Reaction Fire.</description>
                     </rule>
                     <rule id="2de9-8acb-223c-7887" name="Reaction Fire" hidden="false">
-                      <description>Only 手枪, assault and rapid fire weapons may be used for Reaction Fire attacks. Heavy weapons may only be used for Reaction Fire attacks if the model carrying them has the 毫不留情 特殊规则. Note that other weapons in the squad may still make normal 坚守射击 snap fire attampts as if they are eligible alongside the rest of the unit&apos;s Reaction Fire.
-爆炸 weapons may not be used to make Reaction Fire attacks.
-喷射盖板 weapons may be used in Reaction Fire attacks, if the Reaction Fire roll is successful (see below) rather than placing the 喷射盖板, D3 hits are inflicted upon the charging unit by each 喷射盖板 weapon fired by the unit.
+                      <description>Only 手枪, assault and rapid fire 武器 may be used for Reaction Fire attacks. Heavy 武器 may only be used for Reaction Fire attacks if the model carrying them has the 毫不留情 规则. Note that other 武器 in the squad may still make normal 坚守射击 snap fire attampts as if they are eligible alongside the rest of the unit&apos;s Reaction Fire.
+爆炸 武器 may not be used to make Reaction Fire attacks.
+喷射盖板 武器 may be used in Reaction Fire attacks, if the Reaction Fire roll is successful (see below) rather than placing the 喷射盖板, D3 hits are inflicted upon the charging unit by each 喷射盖板 weapon fired by the unit.
 A unit may only make a single Reaction Fire attack against the first unit they are assaulted by in any given turn.
 A Reaction Fire attack is made after a Charge is declared, but before the charing models have moved. Casualties resulting from Reaction Fire may cause an assault to fail.
 
 A Reaction fire attack is carried out exactly like an 坚守射击 attack except that the unit must first make a roll equal to or under the majority Initiative score on a D6. If successful they may use their full BS. If unsuccessful they may make a normal 坚守射击 attack instead.
-A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</description>
+A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -17811,7 +17811,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                   </constraints>
                   <rules>
                     <rule id="14ac-3905-4eaf-ebe5" name="无法逃避" hidden="false">
-                      <description>-1 to Look Out Sir against the 人物’s attacks with ranged weapons</description>
+                      <description>-1 to Look Out Sir against the 人物’s attacks with ranged 武器</description>
                     </rule>
                   </rules>
                   <costs>
@@ -19202,7 +19202,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
           <profiles>
             <profile id="88fc-f415-cc79-c185" name="Combat Augment Array" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Once per game, declared at the beginning of the controlling plaver&apos;s player turn, the 人物 may count any dice roil as automatically rolling a 6. At the end of that player turn, the model should make a Toughness test for every wound they have remaining. Each failed test results in the 人物 sustaining a wound, with no saves of any kind of 不知疼痛 rolls possible.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">整场游戏一次, declared at the beginning of the controlling plaver&apos;s player turn, the 人物 may count any dice roil as automatically rolling a 6. At the end of that player turn, the model should make a Toughness test for every wound they have remaining. Each failed test results in the 人物 sustaining a wound, with no saves of any kind of 不知疼痛 rolls possible.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19219,7 +19219,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
           <profiles>
             <profile id="0ce9-2a28-173a-d017" name="Cloaking Array" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Once per game, at the beginning of any game rum. the cloaking array may be activated. For that entire game turn, the bearer may not be targeted by shooring or declared as the subject ot a charge. Enemy models with the 灵能者 or 恶魔 rule are not atiected by the cloaking arrav, as thev have other means ot perceiving their foe. Should such a model shoot or assault the bearer, the cloaking array ceases to function immediately. The bearer may not use the array if joined to another unit, or engaged in an assault, and may not move, shoot, charge or declare any other actions while it is in efiect.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">整场游戏一次, at the beginning of any game rum. the cloaking array may be activated. For that entire game turn, the bearer may not be targeted by shooring or declared as the subject ot a charge. Enemy models with the 灵能者 or 恶魔 rule are not atiected by the cloaking arrav, as thev have other means ot perceiving their foe. Should such a model shoot or assault the bearer, the cloaking array ceases to function immediately. The bearer may not use the array if joined to another unit, or engaged in an assault, and may not move, shoot, charge or declare any other actions while it is in efiect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19398,7 +19398,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
           </constraints>
           <rules>
             <rule id="c3b9-0c16-5d72-28c8" name="坚铁" publicationId="ca571888--pubN66580" hidden="false">
-              <description>获得暴怒且其近战攻击 (任何类型)获得撕裂特殊规则. 但不再能替换其闪电枪.</description>
+              <description>获得暴怒且其近战攻击 (任何类型)获得撕裂规则. 但不再能替换其闪电枪.</description>
             </rule>
           </rules>
           <costs>
@@ -19427,7 +19427,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
           </constraints>
           <rules>
             <rule id="7c4a-3442-3f08-d7d1" name="天仪" publicationId="ca571888--pubN66580" page="39" hidden="false">
-              <description>通过深度打击入场, 并获得虚空坚毅特殊规则.</description>
+              <description>通过深度打击入场, 并获得虚空坚毅规则.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -19563,7 +19563,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
               </constraints>
               <rules>
                 <rule id="7927-adb6-6e5f-4238" name="1. 机械大师" hidden="false">
-                  <description>选择主将所在分队的一个巨兽单位或装价值至少为 12 的载具中队. 其获得他不会死特殊规则.</description>
+                  <description>选择主将所在分队的一个巨兽单位或装价值至少为 12 的载具中队. 其获得他不会死规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -19608,7 +19608,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
               </constraints>
               <rules>
                 <rule id="24d1-2823-24b3-4c94" name="4. 血肉之死" hidden="false">
-                  <description>分队中的所有单位在目标点 3&quot; 内会获得宿敌 (步兵 – 所有类型)特殊规则.</description>
+                  <description>分队中的所有单位在目标点 3&quot; 内会获得宿敌 (步兵 – 所有类型)规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -19628,7 +19628,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
               </constraints>
               <rules>
                 <rule id="68ba-fde4-9f28-06a6" name="5. 恐惧仪式" hidden="false">
-                  <description>主将及其加入的单位, 都会造成恐怖且免疫其效果, 此外其获得精金意志特殊规则.</description>
+                  <description>主将及其加入的单位, 都会造成恐怖且免疫其效果, 此外其获得精金意志规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -19663,7 +19663,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="3b2f58a3-f819-22a4-7b62-fcd43773f7fa" name="爆破雷管" publicationId="ca571888--pubN66500" page="233" hidden="false">
+    <rule id="3b2f58a3-f819-22a4-7b62-fcd43773f7fa" name="爆破炸药" publicationId="ca571888--pubN66500" page="233" hidden="false">
       <description>在突击中取代常规武器攻击一次. 在所有底盘接触的敌方模型上放置爆炸盖板. 盖板下不能包含友方模型. 为覆盖的模型投掷WS (自动命中建筑物, 炮台, 静止的载具). 命中的盖板置于原处. 未命中的, 投掷一个偏移并让盖板向其方向翻转.</description>
     </rule>
     <rule id="7f5dd15d-afce-fb1a-409b-07e41f41227e" name="智控" page="" hidden="false">
@@ -19675,7 +19675,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
  • 永恒之仪: 修正 = 无 &gt; 所选模型回复 1W.
  • 愤怒之仪: 修正 = -1 &gt; 所选模型 +2A.
  • 毁灭之仪: 修正 = -1 &gt; 所选模型可以立即使用射击武器对同一目标射击两次. 然而, 直到随后的射击阶段, 其不能再次使用远程武器. 包括坚守射击.
- • 惩戒之仪: 修正 = -3 &gt; 该能力只能用于范围内具有智控皮层特殊规则的敌方模型. 双方玩家各自投掷D6, 己方结果加上释放智控神力模型的LD, 敌方结果加上目标模型的LD, 如果结果大于对方, 则目标受到一点不能被保护的伤害.
+ • 惩戒之仪: 修正 = -3 &gt; 该能力只能用于范围内具有智控皮层规则的敌方模型. 双方玩家各自投掷D6, 己方结果加上释放智控神力模型的LD, 敌方结果加上目标模型的LD, 如果结果大于对方, 则目标受到一点不能被保护的伤害.
 如果能力释放失败, 则腐蚀悖论结果自动生效, 由释放模型承受伤害.
  • 献祭之仪: 修正 = -3 &gt; 强行使机械造物自我毁灭. 如果成功, 模型被摧毁, 移除并替换为一个大爆炸 (5&quot;) 标记. 标记下的模型都会收到一次S为模型T值AP为模型装甲保护的命中.
 如果能力释放失败, 则恶毒敌意结果自动生效.</description>
@@ -19699,13 +19699,13 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
       <description>爆炸时的灾难性伤害表结果+1.</description>
     </rule>
     <rule id="a41e-00bb-2ace-734f" name="智控教父" publicationId="ca571888--pubN66580" page="" hidden="false">
-      <description>拥有此特殊规则的人物可以加入一个拥有智控皮层特殊规则巨兽单位. 模型不能以任何原因卧倒, 敌方可以直接射击此人物而忽略队伍中距离最近的巨兽模型.</description>
+      <description>拥有此规则的人物可以加入一个拥有智控皮层规则巨兽单位. 模型不能以任何原因卧倒, 敌方可以直接射击此人物而忽略队伍中距离最近的巨兽模型.</description>
     </rule>
     <rule id="887c2e1c-8eae-d449-e212-7dddb39cf726" name="弹片冲击" page="" hidden="false">
       <description>模型在做有具有该规则的武器导致的压制测试时,LD-1.</description>
     </rule>
     <rule id="01ed-f688-9443-bbeb" name="虚空坚毅" hidden="false">
-      <description>虚空坚毅装甲 (Cold Void mission special rules from Betrayal).
+      <description>虚空坚毅装甲 (Cold Void mission 规则 from Betrayal).
 对喷射盖板和爆炸武器可以重投失败的装甲保护.  
 冲锋, 追击, 奔跑结果减少 1&quot;.</description>
     </rule>
@@ -19714,16 +19714,16 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     </rule>
     <rule id="7c0b-31e3-daa1-0d3a" name="致盲弹幕" hidden="false">
       <description>只要单位中装备至少五个流电多功能枪, 可以使用如下的一次性能力:
-单位在射击阶段使用致盲弹幕取代正常射击. 选择一个 18&quot; 内可视的友方轻步兵单位. 友方单位获得笼罩特殊规则直到下一个玩家回合. 超重型单位需要两个泰坦禁卫单位同时使用致盲弹幕将其笼罩.</description>
+单位在射击阶段使用致盲弹幕取代正常射击. 选择一个 18&quot; 内可视的友方轻步兵单位. 友方单位获得笼罩规则直到下一个玩家回合. 超重型单位需要两个泰坦禁卫单位同时使用致盲弹幕将其笼罩.</description>
     </rule>
     <rule id="a878-4168-e49f-1d06" name="泰坦近卫" hidden="false">
-      <description>拥有此特殊规则的单位位于泰坦 24&quot; 以内时可以重投失败的士气测试和不知疼痛.</description>
+      <description>拥有此规则的单位位于泰坦 24&quot; 以内时可以重投失败的士气测试和不知疼痛.</description>
     </rule>
     <rule id="f9fd-f0f9-3760-a028" name="曲射" hidden="false">
       <description>此武器射击可以无视视线, 除非目标在封闭空间内.</description>
     </rule>
     <rule id="bd0a-ad49-6435-587e" name="泰坦禁卫风险协议" hidden="false">
-      <description>玩家回合开始时, 玩家可以宣布有此特殊规则的泰坦禁卫执行风险协议. 基础 BS+1 且能以 BS2 仓促射击. 单位不能移动且 -1 WS 和 I. 直到下一个玩家回合开始.</description>
+      <description>玩家回合开始时, 玩家可以宣布有此规则的泰坦禁卫执行风险协议. 基础 BS+1 且能以 BS2 仓促射击. 单位不能移动且 -1 WS 和 I. 直到下一个玩家回合开始.</description>
     </rule>
     <rule id="6e59-4afd-8668-f066" name="流电引擎" publicationId="ca571888--pubN85920" page="224" hidden="false">
       <description>必须重投失败的危险地形测试</description>
@@ -19770,7 +19770,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
         <characteristic name="类型" typeId="5479706523232344415441232323">近战, +1A, 机械毁灭者</characteristic>
       </characteristics>
     </profile>
-    <profile id="99a47c75-0410-1c54-8124-3adcbd64aa7e" name="爆破雷管" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="99a47c75-0410-1c54-8124-3adcbd64aa7e" name="爆破炸药" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
       <characteristics>
         <characteristic name="距离" typeId="52616e676523232344415441232323">特殊</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -19778,9 +19778,9 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
         <characteristic name="类型" typeId="5479706523232344415441232323">近战, 一次性, 爆炸, 攻城拔寨</characteristic>
       </characteristics>
     </profile>
-    <profile id="4687f5b1-f0b1-12bd-8cc7-27f9f25befaf" name="Cognis-signum" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="4687f5b1-f0b1-12bd-8cc7-27f9f25befaf" name="信息统筹模块" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Model equipped with Cognis-sigum gains 夜视 特殊规则.  In addition, in lieu of firing a weapon in the 射击阶段, a single designated unit of the controlling player&apos;s choice withing 6&quot; of the signum-equipped model (excluding 独立人物 and Super-Heavies) gains a bonus of +1 to their BS for that 射击阶段.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Model equipped with Cognis-sigum gains 夜视 规则.  In addition, in lieu of firing a weapon in the 射击阶段, a single designated unit of the controlling player&apos;s choice withing 6&quot; of the signum-equipped model (excluding 独立人物 and Super-Heavies) gains a bonus of +1 to their BS for that 射击阶段.  </characteristic>
       </characteristics>
     </profile>
     <profile id="244f6dcc-d526-1cef-a743-6120614e3898" name="战斗盾" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -19880,7 +19880,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     </profile>
     <profile id="abdf1422-184a-f8f9-9544-621c2e1c646f" name="地面跟踪占卜" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对地扫射特殊规则.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对地扫射规则.  </characteristic>
       </characteristics>
     </profile>
     <profile id="fed8-2dba-f78c-5bcc" name="重型链锯剑" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -19933,17 +19933,17 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     </profile>
     <profile id="b4c9d27d-b3cf-28bd-3367-b1bfddd5c401" name="照明弹" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="33e5-3347-0c00-4244" name="离子护盾" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的4+特殊保护,对肉搏无效.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的4+特殊保护,对近战无效.  </characteristic>
       </characteristics>
     </profile>
     <profile id="54b5-df3e-a811-b7b9" name="离子闪光护盾" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对肉搏攻击无效;所有对其发起攻击的武器S-1,盖板武器S-2,对D武器无效.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对近战攻击无效;所有对其发起攻击的武器S-1,盖板武器S-2,对D武器无效.</characteristic>
       </characteristics>
     </profile>
     <profile id="65bf6242-8fa0-55f7-92ac-71f4a8fba433" name="激光燧发枪" publicationId="ca571888--pubN85920" page="221" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -20017,7 +20017,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     </profile>
     <profile id="1283-e198-796c-b406" name="夜视仪" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得夜视特殊规则, 在 12&quot; 或更短的距离内射击时可以重投载具损伤表和毁灭性武器攻击表 .  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得夜视规则, 在 12&quot; 或更短的距离内射击时可以重投载具损伤表和毁灭性武器攻击表 .  </characteristic>
       </characteristics>
     </profile>
     <profile id="2c169963-d356-aa63-60bd-eee2ee1afcc0" name="等离子爆裂枪" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">

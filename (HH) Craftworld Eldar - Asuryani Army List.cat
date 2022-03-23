@@ -1202,8 +1202,8 @@ controlling players next game turn. Any model that is underneath the 喷射盖�
       </profiles>
       <rules>
         <rule id="b17e-242f-612a-d127" name="Laserweb" hidden="false">
-          <description>Laserweb: When a weapon with this 特殊规则 targets a 疾飞
-飞行器 or 快速 悬浮 it gains the 无视掩体 special rules for
+          <description>Laserweb: When a weapon with this 规则 targets a 疾飞
+飞行器 or 快速 悬浮 it gains the 无视掩体 规则 for
 that attack.</description>
         </rule>
       </rules>
@@ -1400,9 +1400,9 @@ that attack.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e6cc-64ad-de98-5c90" name="Cloudburst Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e6cc-64ad-de98-5c90" name="Cloudburst 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f9bf-eda1-a96e-455a" name="Cloudburst Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="f9bf-eda1-a96e-455a" name="Cloudburst 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -1420,9 +1420,9 @@ that attack.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19fb-4b46-3abb-69b2" name="Aeldari Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="19fb-4b46-3abb-69b2" name="Aeldari 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3f32-9458-3f76-6558" name="Aeldari Missile Launcher (Plasma)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="3f32-9458-3f76-6558" name="Aeldari 导弹发射器 (Plasma)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
@@ -1430,7 +1430,7 @@ that attack.</description>
             <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 爆炸</characteristic>
           </characteristics>
         </profile>
-        <profile id="b882-5939-2fa5-3db9" name="Aeldari Missile Launcher (Starhawk)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="b882-5939-2fa5-3db9" name="Aeldari 导弹发射器 (Starhawk)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -1438,7 +1438,7 @@ that attack.</description>
             <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 对空火力</characteristic>
           </characteristics>
         </profile>
-        <profile id="023e-c7a1-241f-1cd9" name="Aeldari Missile Launcher (Starshot)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="023e-c7a1-241f-1cd9" name="Aeldari 导弹发射器 (Starshot)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -1783,9 +1783,9 @@ that attack.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa80-a713-0e1b-b2eb" name="Phantom Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aa80-a713-0e1b-b2eb" name="Phantom 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="041f-ed63-c6c7-91a0" name="Phantom Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="041f-ed63-c6c7-91a0" name="Phantom 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">9</characteristic>
@@ -2035,7 +2035,7 @@ that attack.</description>
                     <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
                     <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">祝福</characteristic>
                     <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Embolden is a blessing that targets the 灵能者. Whilst the power is in effect, the 灵能者 and his unit have the 无畏 特殊规则</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Embolden is a blessing that targets the 灵能者. Whilst the power is in effect, the 灵能者 and his unit have the 无畏 规则</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="3d2a-de03-c229-e36c" name="2) Horrify" publicationId="5c4c-bef9-9681-e0fc" page="20" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -2093,7 +2093,7 @@ that attack.</description>
                     <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
                     <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">祝福</characteristic>
                     <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Conceal is a blessing that targets the 灵能者. Whilst the power is in effect, the 灵能者 has the 笼罩 特殊规则.</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Conceal is a blessing that targets the 灵能者. Whilst the power is in effect, the 灵能者 has the 笼罩 规则.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="ef6a-215b-eab8-f01b" name="Primaris: Reveal" publicationId="5c4c-bef9-9681-e0fc" page="20" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -2101,7 +2101,7 @@ that attack.</description>
                     <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
                     <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
                     <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Reveal is a 诅咒 that targets a single enemy unit within 18&quot;. Whilst the power is in effect, all models in the target unit lose the 隐蔽 and 笼罩 special rules.</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Reveal is a 诅咒 that targets a single enemy unit within 18&quot;. Whilst the power is in effect, all models in the target unit lose the 隐蔽 and 笼罩 规则.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2190,7 +2190,7 @@ that attack.</description>
                     <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">2</characteristic>
                     <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">祝福</characteristic>
                     <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">12&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Will of Asuryan is a blessing that targets the 灵能者. Whilst the power is in effect, the 灵能者 and all friendly units within 12&quot; of the 灵能者 have the 无畏 and 精金意志 special rules.</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Will of Asuryan is a blessing that targets the 灵能者. Whilst the power is in effect, the 灵能者 and all friendly units within 12&quot; of the 灵能者 have the 无畏 and 精金意志 规则.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2226,7 +2226,7 @@ that attack.</description>
                     <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">1</characteristic>
                     <characteristic name="Power Category" typeId="f04c-a782-d794-ddad">Focused Witchfire</characteristic>
                     <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The Farseer summons an astral doppelganger and unleashes it upon the foe. This vengeful apparition carves a path through the enemy’s ranks, each kill spurring it on as it rips apart flesh in a blaze of psychic energy. 执行者 is a focussed witchfire power with a range of 24&quot;. The target suffers 3 hits, resolved at the 灵能者’s Strength with the 血肉杀手 特殊规则 and AP-. If the target is removed from play as a result, another model in the same unit suffers 2 hits as described above. If the second target is slain, a third and final model in the same unit suffers 1 hit as described above.
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">The Farseer summons an astral doppelganger and unleashes it upon the foe. This vengeful apparition carves a path through the enemy’s ranks, each kill spurring it on as it rips apart flesh in a blaze of psychic energy. 执行者 is a focussed witchfire power with a range of 24&quot;. The target suffers 3 hits, resolved at the 灵能者’s Strength with the 血肉杀手 规则 and AP-. If the target is removed from play as a result, another model in the same unit suffers 2 hits as described above. If the second target is slain, a third and final model in the same unit suffers 1 hit as described above.
 If the 灵能者 chose the first target model, they can choose the second and third target models. If the first target model was chosen randomly, then the second and third target models must also be chosen randomly. If at any point a target survives, or there are no models left in the target’s unit, the power’s effects end. </characteristic>
                   </characteristics>
                 </profile>
@@ -2284,10 +2284,10 @@ If the 灵能者 chose the first target model, they can choose the second and th
     </selectionEntry>
     <selectionEntry id="dd17-1eb8-f572-cdcc" name="Serpent Shield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9d87-5b1a-5501-ecef" name="Serpent Shield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="9d87-5b1a-5501-ecef" name="Serpent Shield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All penetrating hits inflicted against the front or side armour of a 载具 equipped with a Serpent Shield are downgraded to glancing hits on a D6 roll of 2+.
-Once per game, the Serpent Shield can be used as a weapon in the controlling player&apos;s 射击阶段, with the profile listed below. This is treated as a hull-mounted weapon that is pointing forward.
+整场游戏一次, the Serpent Shield can be used as a weapon in the controlling player&apos;s 射击阶段, with the profile listed below. This is treated as a hull-mounted weapon that is pointing forward.
 For the remainder of the battle after the shooting attack has been resolved, all subsequent hits against the 载具 are treated as though the 载具 was not equipped with a Serpent Shield.</characteristic>
           </characteristics>
         </profile>
@@ -2318,7 +2318,7 @@ For the remainder of the battle after the shooting attack has been resolved, all
             <characteristic name="Type" typeId="5479706523232344415441232323">突击 1, 弹幕, 爆炸, 无视掩体, Skyburst</characteristic>
           </characteristics>
         </profile>
-        <profile id="5fb1-f4cb-fa34-3905" name="Grenade Pack" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="5fb1-f4cb-fa34-3905" name="Grenade Pack" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Grenade packs enable Swooping Hawks to drop explosives onto their victims as they soar overhead or dive down to the earth. Any time a
 unit with a grenade pack enters play by 深度打击 and does not suffer a 深度打击 mishap, nominate one model in the unit
@@ -2399,7 +2399,7 @@ has the 大爆炸.</description>
             <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">使用者</characteristic>
             <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">近战. Two-Weapons</characteristic>
+            <characteristic name="Type" typeId="5479706523232344415441232323">近战. Two-武器</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2414,7 +2414,7 @@ has the 大爆炸.</description>
             <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">使用者</characteristic>
             <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">近战, 精工, Two Weapons</characteristic>
+            <characteristic name="Type" typeId="5479706523232344415441232323">近战, 精工, Two 武器</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2540,7 +2540,7 @@ has the 大爆炸.</description>
           <description>Friendly Asuryani units arriving by 深度打击 do not scatter as long as the first model is placed within 12&quot; of the Warlord.</description>
         </rule>
         <rule id="3894-63a0-d6f7-17c0" name="5) Mark of the Incomparable Hunter" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>The Warlord has the 分散火力 特殊规则.</description>
+          <description>The Warlord has the 分散火力 规则.</description>
         </rule>
         <rule id="772a-87c9-a19f-8c0a" name="4) Fate&apos;s Messenger" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
           <description>The Warlord 重投 all saving throw results of 1.</description>
@@ -2549,7 +2549,7 @@ has the 大爆炸.</description>
           <description>The Warlord and any unit attached to them add 3 to the dice roll when determining how far they can Run (this will normally be D6+3&quot;).</description>
         </rule>
         <rule id="bef9-3162-cc80-9b50" name="2) An Eye on Distant Events" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>Choose 至多 D3 units in your army. These units gain the 侦察 特殊规则.</description>
+          <description>Choose 至多 D3 units in your army. These units gain the 侦察 规则.</description>
         </rule>
         <rule id="b925-b196-ed81-4613" name="1) Ambush of Blades" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
           <description>一次性. Declare your Warlord is using this ability at the start of one of your Shooting or Assault phases. For the duration of the phase, the Warlord and all friendly Asuryani units within 12&quot; of the model re-roll 造伤骰 of 1.</description>
@@ -2839,7 +2839,7 @@ has the 大爆炸.</description>
       </profiles>
       <rules>
         <rule id="fb3e-f539-cb33-0ba0" name="Sun&apos;s Brilliance" publicationId="5c4c-bef9-9681-e0fc" page="24" hidden="false">
-          <description>When Baharroth enters play from 深度打击, all enemy units within 6&quot; 必须进行一次 test as if hit by a weapon with the 致盲 特殊规则. Models that are immune to the 致盲 特殊规则 are immune to Sun&apos;s Brilliance.</description>
+          <description>When Baharroth enters play from 深度打击, all enemy units within 6&quot; 必须进行一次 test as if hit by a weapon with the 致盲 规则. Models that are immune to the 致盲 规则 are immune to Sun&apos;s Brilliance.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3190,7 +3190,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3f-3090-323c-a73a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="61d2-590a-1925-0f3b" name="Crown of the Seventh Sky" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="61d2-590a-1925-0f3b" name="Crown of the Seventh Sky" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A heavily ornate helm embued with protective runes designed to keep the reckless wearer safe amidst his headlong charges. 获得 the model a 4+ 特殊保护.</characteristic>
               </characteristics>
@@ -3863,7 +3863,7 @@ has the 大爆炸.</description>
       </profiles>
       <rules>
         <rule id="093f-9178-ba9a-5f31" name="Disarming Strike" publicationId="5c4c-bef9-9681-e0fc" page="103" hidden="false">
-          <description>Before rolling To Hit whilst in a challenge, Jain Zar can choose to nominate one of her opponent&apos;s melee weapons. Her opponent counts as not being equipped with that weapon until the end of the phase. If Jain Zar does this, she makes one less Attack than normal this phase.</description>
+          <description>Before rolling To Hit whilst in a challenge, Jain Zar can choose to nominate one of her opponent&apos;s melee 武器. Her opponent counts as not being equipped with that weapon until the end of the phase. If Jain Zar does this, she makes one less Attack than normal this phase.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3918,7 +3918,7 @@ has the 大爆炸.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6249-3c93-d24d-4156" type="max"/>
           </constraints>
           <profiles>
-            <profile id="61af-54a9-20f6-bb7c" name="Mask of Jain Zar" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="61af-54a9-20f6-bb7c" name="Mask of Jain Zar" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Models cannot fire 坚守射击 against Jain Zar or a unit she has joined, and enemy models within 6&quot; of Jain Zar subtract 5 from their WS and Initiative (to a minimum of 1).</characteristic>
               </characteristics>
@@ -4123,7 +4123,7 @@ has the 大爆炸.</description>
           <description>Maugan Ra can fire the Maugetar twice in each 射击阶段, either at the same target or at two different targets.</description>
         </rule>
         <rule id="b252-f5cc-c883-f1f2" name="憎恨 (Chaos Daemons)" publicationId="ca571888--pubN106502" page="164" hidden="false">
-          <description>This rule is often presented as 憎恨 (X) where X identifies a specific type of foe. If the 特殊规则 does not specify a type of foe, then the unit has 憎恨 against everyone. This can refer to a Faction, or a specific unit. For example, 憎恨 (Orks) means any model with the Ork Faction, whilst 憎恨 (Big Meks) means only Big Meks. A model striking a hated foe 近战中 重投 所有失败的 To Hit rolls during the first round of each close combat.</description>
+          <description>This rule is often presented as 憎恨 (X) where X identifies a specific type of foe. If the 规则 does not specify a type of foe, then the unit has 憎恨 against everyone. This can refer to a Faction, or a specific unit. For example, 憎恨 (Orks) means any model with the Ork Faction, whilst 憎恨 (Big Meks) means only Big Meks. A model striking a hated foe 近战中 重投 所有失败的 To Hit rolls during the first round of each close combat.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4174,7 +4174,7 @@ has the 大爆炸.</description>
           </profiles>
           <rules>
             <rule id="af0d-621d-bf04-6a90" name="Bio-cataclysm" publicationId="5c4c-bef9-9681-e0fc" page="29" hidden="false">
-              <description>If a 非载具 model is slain as a result of this weapon, centre the large blast marker over that model before removing the model as a casualty. Units suffer a number of Strength 5 AP4 hits equal to the number of models from that unit that are under the marker. These hits have the 无视掩体 特殊规则.</description>
+              <description>If a 非载具 model is slain as a result of this weapon, centre the large blast marker over that model before removing the model as a casualty. Units suffer a number of Strength 5 AP4 hits equal to the number of models from that unit that are under the marker. These hits have the 无视掩体 规则.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4385,7 +4385,7 @@ has the 大爆炸.</description>
       </constraints>
       <rules>
         <rule id="b737-b16e-3fa3-b865" name="Runes of the Farseer" publicationId="5c4c-bef9-9681-e0fc" page="34" hidden="false">
-          <description>Once in each Psychic phase, a model with this 特殊规则 可以重投 any number of dice used in a single Deny the Witch test or Psychic test (potentially negating Perils of the Warp in the process).</description>
+          <description>Once in each Psychic phase, a model with this 规则 可以重投 any number of dice used in a single Deny the Witch test or Psychic test (potentially negating Perils of the Warp in the process).</description>
         </rule>
         <rule id="6271-89b1-d8a8-3660" name="灵能者 (Mastery Level 3)" hidden="false">
           <description>A Farseer generates their powers from the Daemonology (Sanctic), Divination, Runes of Fate and Telepathy disciplines.</description>
@@ -4525,7 +4525,7 @@ has the 大爆炸.</description>
       </constraints>
       <rules>
         <rule id="6904-d208-4b39-3b47" name="Called to Lead" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="false">
-          <description>The player must select and promote a single Exarch from their Aspect Exarchs unit. 此模型 gains the Autarch statistics and adds the listed Wargear and Special Rules to their existing Exarch profile. Note that only a Shining Spear Exarch my become an Autarch Skyrunner. The Autarch does not use an additional HQ slot, but counts as still being part of the Aspect Exarchs.</description>
+          <description>The player must select and promote a single Exarch from their Aspect Exarchs unit. 此模型 gains the Autarch statistics and adds the listed 装备 and 规则 to their existing Exarch profile. Note that only a Shining Spear Exarch my become an Autarch Skyrunner. The Autarch does not use an additional HQ slot, but counts as still being part of the Aspect Exarchs.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4616,7 +4616,7 @@ has the 大爆炸.</description>
               </profiles>
               <rules>
                 <rule id="9b0d-4658-ccf4-f3d3" name="Iron Resolve" publicationId="5c4c-bef9-9681-e0fc" page="32" hidden="false">
-                  <description>A unit that contains at least one model with this 特殊规则 automatically passes 压制, 恐怖, Regroup tests and 士气测试.</description>
+                  <description>A unit that contains at least one model with this 规则 automatically passes 压制, 恐怖, Regroup tests and 士气测试.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -5111,7 +5111,7 @@ has the 大爆炸.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15b0-ba6b-c2a5-8e18" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="be5a-e19b-e431-15b3" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
+                    <entryLink id="be5a-e19b-e431-15b3" name="Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732f-9c82-9646-d928" type="max"/>
                       </constraints>
@@ -5757,7 +5757,7 @@ has the 大爆炸.</description>
               </profiles>
               <rules>
                 <rule id="b5c0-6790-8c3e-e66a" name="Shadow of Death" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false">
-                  <description>All enemy units withing 12&quot; of a Shadow Spectre squad that contains a model with this 特殊规则 rolls an extra D6 when making Leadership tests for 士气测试, using the two highest rolls to resolve the test. Models with the 无畏 特殊规则 are immune to this effect.</description>
+                  <description>All enemy units withing 12&quot; of a Shadow Spectre squad that contains a model with this 规则 rolls an extra D6 when making Leadership tests for 士气测试, using the two highest rolls to resolve the test. Models with the 无畏 规则 are immune to this effect.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -7509,7 +7509,7 @@ has the 大爆炸.</description>
           <description>A Wraith Guide generates their powers from the Daemonology (Sanctic), Runes of Battle and Telepathy disciplines.</description>
         </rule>
         <rule id="fbda-8cf6-ecae-1863" name="Wraith Guide" publicationId="5c4c-bef9-9681-e0fc" page="36" hidden="false">
-          <description>Wraithguard, Wraithblades and Wraithlords 可以重投 To Hit rolls of 1 against enemy units that are within 12&quot; of a model with this 特殊规则.
+          <description>Wraithguard, Wraithblades and Wraithlords 可以重投 To Hit rolls of 1 against enemy units that are within 12&quot; of a model with this 规则.
 The Wraith Guide must be attached to a squad of either Wraithguard or Wraithblades.</description>
         </rule>
         <rule id="e232-3d59-aa86-98fa" name="Wraith Guide: An army of Ghosts" hidden="false">
@@ -7788,7 +7788,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup id="87f8-1c9d-9e72-d39e" name="Any Wave Serpent may exchange its 双联Shuriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="83ef-a408-52e3-6018">
+        <selectionEntryGroup id="87f8-1c9d-9e72-d39e" name="Any Wave Serpent 可以替换 its 双联Shuriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="83ef-a408-52e3-6018">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09d6-1094-e8e4-a092" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8bf7-3524-728e-e934" type="min"/>
@@ -7802,7 +7802,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="449a-2318-eff9-0927" name="双联Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="39a0-8ee2-96bb-c93f" type="selectionEntry">
+            <entryLink id="449a-2318-eff9-0927" name="双联Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="39a0-8ee2-96bb-c93f" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd7-5f72-5184-bd4a" type="max"/>
               </constraints>
@@ -7833,7 +7833,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="61e2-5781-657a-090e" name="Any Wave Serpent may exchange its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9cb7-1bcc-2087-0c08">
+        <selectionEntryGroup id="61e2-5781-657a-090e" name="Any Wave Serpent 可以替换 its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9cb7-1bcc-2087-0c08">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5107-502b-00ef-2723" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf8e-ca61-d6fb-7d72" type="min"/>
@@ -7880,9 +7880,9 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39a0-8ee2-96bb-c93f" name="双联Aeldari Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="39a0-8ee2-96bb-c93f" name="双联Aeldari 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="73be-6adc-2b46-eed9" name="双联Aeldari Missile Launcher (Plasma)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="73be-6adc-2b46-eed9" name="双联Aeldari 导弹发射器 (Plasma)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
@@ -7890,7 +7890,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
             <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 爆炸, 双联</characteristic>
           </characteristics>
         </profile>
-        <profile id="72c8-4cee-f916-036d" name="双联Aeldari Missile Launcher (Starhawk)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="72c8-4cee-f916-036d" name="双联Aeldari 导弹发射器 (Starhawk)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -7898,7 +7898,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
             <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 对空火力, 双联</characteristic>
           </characteristics>
         </profile>
-        <profile id="1a07-91c9-5c2b-79da" name="双联Aeldari Missile Launcher (Starshot)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="1a07-91c9-5c2b-79da" name="双联Aeldari 导弹发射器 (Starshot)" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -8116,7 +8116,7 @@ In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly 
               </conditions>
             </modifier>
           </modifiers>
-          <description>A unit composed entirely of models with this 特殊规则 可以重投 one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
+          <description>A unit composed entirely of models with this 规则 可以重投 one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
         </rule>
         <rule id="9cd1-592f-0918-9791" name="Seer Council: Path of the Seer" publicationId="5c4c-bef9-9681-e0fc" page="11" hidden="false">
           <description>Any number of Seers in the Seer Council unit may be split off from this unit and assigned to a unit from the below list and are considered a 灵能者 (Mastery Level 1). Any Seers moved in this way are excluded from the requirement to be equipped with Aeldari Jetbikes if the Seer Council unit is and vice versa, however they do still reduce the number of models in the unit for the Communion of Minds.
@@ -8452,7 +8452,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="4a34-50bc-b4d4-ad1a" name="Weapons - 2 required" hidden="false" collective="false" import="true" defaultSelectionEntryId="9250-fed2-049d-1c22">
+                <selectionEntryGroup id="4a34-50bc-b4d4-ad1a" name="武器 - 2 required" hidden="false" collective="false" import="true" defaultSelectionEntryId="9250-fed2-049d-1c22">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf2f-0823-b881-0c13" type="min"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8178-c00f-eb35-83a1" type="max"/>
@@ -8470,7 +8470,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                         <modifier type="set" field="points" value="5"/>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="dd05-b31d-48b7-c4f5" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
+                    <entryLink id="dd05-b31d-48b7-c4f5" name="Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="points" value="15"/>
                       </modifiers>
@@ -8874,7 +8874,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                     <modifier type="set" field="points" value="5"/>
                   </modifiers>
                 </entryLink>
-                <entryLink id="93cc-e008-5834-ebc7" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
+                <entryLink id="93cc-e008-5834-ebc7" name="Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="15"/>
                   </modifiers>
@@ -8987,7 +8987,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <entryLink id="1dc4-5331-0783-ec3a" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="00a4-f293-8e54-74c7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bcb7-49ac-cab5-d71d" name="For every five Guardians in the unit one may exchange their close combat weapons and shiriken pisto for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bcb7-49ac-cab5-d71d" name="For every five Guardians in the unit one 可以替换 their 近战武器s and shiriken pisto for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="386b-fb65-f51d-54a2" value="1">
               <repeats>
@@ -9009,7 +9009,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c310-a136-33a4-0d2a" name="For every five Guardians in the unit one may exchange their close combat weapons and shiriken pisto for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c310-a136-33a4-0d2a" name="For every five Guardians in the unit one 可以替换 their 近战武器s and shiriken pisto for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="4cca-7f85-6eba-3853" value="1">
               <repeats>
@@ -9175,7 +9175,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9940-52f2-3e9a-e8ec" name="For every three Windriders in the unit one may exchange their Aeldari Jetbike&apos;s twin-linked Shuriken Catapult for a:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9940-52f2-3e9a-e8ec" name="For every three Windriders in the unit one 可以替换 their Aeldari Jetbike&apos;s 双联 Shuriken Catapult for a:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="9152-b237-13af-99f1" value="1.0">
               <repeats>
@@ -9207,7 +9207,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="962c-cfbb-6970-1841" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="31d7-4541-0327-81de" name="Support Unit" hidden="false" collective="false" import="true" targetId="1a27-9009-66ed-246c" type="selectionEntry">
+        <entryLink id="31d7-4541-0327-81de" name="支援单位" hidden="false" collective="false" import="true" targetId="1a27-9009-66ed-246c" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9221,7 +9221,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a27-9009-66ed-246c" name="Support Unit" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1a27-9009-66ed-246c" name="支援单位" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9249,7 +9249,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="95e5-5607-1b7b-e01e" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="e6d2-6173-c770-506f" name="Support Unit" hidden="false" targetId="15d6-c0a2-6e1a-32c5" type="rule"/>
+        <infoLink id="e6d2-6173-c770-506f" name="支援单位" hidden="false" targetId="15d6-c0a2-6e1a-32c5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9463,29 +9463,29 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 <entryLink id="abac-30ec-e955-75d8" name="双联Starcannon" hidden="false" collective="false" import="true" targetId="4073-ed80-943b-65ba" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="8eb8-ed4f-3fc6-da6f" name="All Phoenix Bombers may both of their Phoenix Missile Launchers with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2ff-a6df-bb48-e721">
+            <selectionEntryGroup id="8eb8-ed4f-3fc6-da6f" name="All Phoenix Bombers may both of their Phoenix 导弹发射器s with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2ff-a6df-bb48-e721">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f055-2ef5-83f7-64cd" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d9-7315-e35a-a588" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="d2ff-a6df-bb48-e721" name="Two Phoenix Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d2ff-a6df-bb48-e721" name="Two Phoenix 导弹发射器s" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac73-debf-02d7-42e9" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="da3a-229c-e051-8741" name="Phoenix Missile Launcher" hidden="false" targetId="cf27-508e-f556-51aa" type="profile"/>
+                    <infoLink id="da3a-229c-e051-8741" name="Phoenix 导弹发射器" hidden="false" targetId="cf27-508e-f556-51aa" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="b065-19e2-518f-b646" name="Two Nightfire Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="b065-19e2-518f-b646" name="Two Nightfire 导弹发射器s" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c99-afc4-8d02-c209" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="508c-5299-5781-c90d" name="Nightfire Missile Launcher" hidden="false" targetId="f36c-85e1-5f16-7af1" type="profile"/>
+                    <infoLink id="508c-5299-5781-c90d" name="Nightfire 导弹发射器" hidden="false" targetId="f36c-85e1-5f16-7af1" type="profile"/>
                     <infoLink id="a2b6-06d6-282e-7eca" name="无视掩体" hidden="false" targetId="476c-b962-06e5-d12e" type="rule"/>
                     <infoLink id="9ab0-ca0b-71a0-c74c" name="压制" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
                   </infoLinks>
@@ -9523,9 +9523,9 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f4f4-c414-284f-7116" name="Phoenix Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f4f4-c414-284f-7116" name="Phoenix 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="cf27-508e-f556-51aa" name="Phoenix Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="cf27-508e-f556-51aa" name="Phoenix 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
@@ -9538,9 +9538,9 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7051-4868-344a-1820" name="Nightfire Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7051-4868-344a-1820" name="Nightfire 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f36c-85e1-5f16-7af1" name="Nightfire Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="f36c-85e1-5f16-7af1" name="Nightfire 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
@@ -9929,7 +9929,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <infoLink id="89ac-c69b-19e8-00df" name="快速" hidden="false" targetId="f4f1-8772-1a1b-4f50" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d0f2-c576-7f79-f743" name="Any Viper may exchange its twin-linked Shuriken Catapult for a Shuriken Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8ca9-5024-f9b9-f59d">
+            <selectionEntryGroup id="d0f2-c576-7f79-f743" name="Any Viper 可以替换 its 双联 Shuriken Catapult for a Shuriken Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8ca9-5024-f9b9-f59d">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c27-7617-69e5-0304" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8e0-197b-8bce-154c" type="min"/>
@@ -9950,13 +9950,13 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="88e9-b745-4c36-f6a7" name="Any Viper may exchange its Shiriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe54-fc37-dff7-37a7">
+            <selectionEntryGroup id="88e9-b745-4c36-f6a7" name="Any Viper 可以替换 its Shiriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe54-fc37-dff7-37a7">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c3a-55b1-1de8-47aa" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9d-a4fa-6955-803e" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="a7b1-2267-19ff-d159" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
+                <entryLink id="a7b1-2267-19ff-d159" name="Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f81-093e-0283-7222" type="max"/>
                   </constraints>
@@ -10325,7 +10325,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6ff0-eba9-6b5e-cd7b" name="Any Falcon may exchange its Shuriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e2d-9b50-fe9a-e14c">
+                <selectionEntryGroup id="6ff0-eba9-6b5e-cd7b" name="Any Falcon 可以替换 its Shuriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e2d-9b50-fe9a-e14c">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbee-f83c-f9da-19ff" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f395-0553-b83e-e0de" type="min"/>
@@ -10341,7 +10341,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e59-c70c-8e70-32b0" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="898c-eaa0-06e4-c19a" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
+                    <entryLink id="898c-eaa0-06e4-c19a" name="Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bde-2aa1-9261-c48e" type="max"/>
                       </constraints>
@@ -10367,7 +10367,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="d23f-417a-6961-b4fe" name="Any Falcon may exchange its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0743-e566-7550-689d">
+                <selectionEntryGroup id="d23f-417a-6961-b4fe" name="Any Falcon 可以替换 its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0743-e566-7550-689d">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0b8d-e3d7-bc00-0f7e" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="478c-4e03-3103-8f97" type="min"/>
@@ -10446,7 +10446,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 <infoLink id="eb52-a5d0-7dff-b960" name="Linked Fire" hidden="false" targetId="1dcf-177e-eec5-5d33" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="c312-7524-a317-dac4" name="Any Fire Prism may exchange its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff43-9807-7162-8d9b">
+                <selectionEntryGroup id="c312-7524-a317-dac4" name="Any Fire Prism 可以替换 its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff43-9807-7162-8d9b">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="690f-5cc2-af91-3e6d" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4e5-2466-6bcb-e728" type="min"/>
@@ -10503,7 +10503,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="ecdc-50d2-c381-6550" name="Any Fire Storm may exchange its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6642-1d69-aaea-f97c">
+                <selectionEntryGroup id="ecdc-50d2-c381-6550" name="Any Fire Storm 可以替换 its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6642-1d69-aaea-f97c">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f567-f7ad-4f63-9687" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a6b5-e2e2-9671-1bf8" type="min"/>
@@ -10563,7 +10563,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 <infoLink id="4283-99b4-9ad5-9f79" name="Monofilament Shroud" hidden="false" targetId="a2a9-c117-fb5a-e097" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="24c7-cac4-40f1-fda0" name="Any Night Spinner may exchange its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="acf8-e09e-c3ff-7e98">
+                <selectionEntryGroup id="24c7-cac4-40f1-fda0" name="Any Night Spinner 可以替换 its 双联Shuriken Catapult for a Shuriken Cannon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="acf8-e09e-c3ff-7e98">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc45-878b-b2f2-6718" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f526-ba67-89d2-3bb1" type="min"/>
@@ -10620,7 +10620,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <infoLink id="48c7-fd89-c829-ffb5" name="Sky-Hunter" hidden="false" targetId="5358-5224-6a23-1fb9" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="acea-cb4c-03e2-b71d" name="Any Lynx may exchange its Shuriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c33-bef6-eac7-f119">
+        <selectionEntryGroup id="acea-cb4c-03e2-b71d" name="Any Lynx 可以替换 its Shuriken Cannon for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c33-bef6-eac7-f119">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="717e-a1d1-76f8-9d4f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b02-06e6-d264-99f9" type="min"/>
@@ -10654,7 +10654,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="78b0-0f0b-1939-f5d7" name="Any Lynx may exchange its Lynx Pulsar for a Sonic 光矛:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6570-2602-48a0-7758">
+        <selectionEntryGroup id="78b0-0f0b-1939-f5d7" name="Any Lynx 可以替换 its Lynx Pulsar for a Sonic 光矛:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6570-2602-48a0-7758">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1791-c93b-f410-0713" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e8f-609c-4e73-14b1" type="min"/>
@@ -10765,7 +10765,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b889-aee1-f634-e623" name="All Support Weapons may replace their Shadow Weavers with one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b4a-9e24-e89d-22d5">
+        <selectionEntryGroup id="b889-aee1-f634-e623" name="All Support 武器 may replace their Shadow Weavers with one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b4a-9e24-e89d-22d5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6adb-44de-907d-e2d0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e1f-d396-5c08-a312" type="max"/>
@@ -10960,7 +10960,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="28f1-e4d1-ba2d-d6d7" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
+            <entryLink id="28f1-e4d1-ba2d-d6d7" name="Aeldari 导弹发射器" hidden="false" collective="false" import="true" targetId="19fb-4b46-3abb-69b2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43de-b22b-02f6-07e2" type="max"/>
               </constraints>
@@ -10970,7 +10970,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4044-7e96-2f58-6887" name="May exchange any Shuriken Catapult for a 喷火器" hidden="false" collective="false" import="true" defaultSelectionEntryId="31f0-b90b-1ab2-3241">
+        <selectionEntryGroup id="4044-7e96-2f58-6887" name="可以替换所有 Shuriken Catapult for a 喷火器" hidden="false" collective="false" import="true" defaultSelectionEntryId="31f0-b90b-1ab2-3241">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f4-f569-72e4-c5d3" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2913-5cd1-d0c3-5bc6" type="min"/>
@@ -11054,12 +11054,12 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
       <rules>
         <rule id="e2c4-b01b-8a22-6b5c" name="Molton Body" publicationId="5c4c-bef9-9681-e0fc" page="68" hidden="false">
           <description>The Avatar is unaffected by all Pyromancy psychic powers, all 喷火器
-weapons, and all attacks that have the 热熔 and/or 灵魂烈焰
-special rules. In addition the Strength of all Shooting Attacks made
+武器, and all attacks that have the 热熔 and/or 灵魂烈焰
+规则. In addition the Strength of all Shooting Attacks made
 against the Avatar is reduced by 1.</description>
         </rule>
         <rule id="105c-a30b-f863-010a" name="Khaine Awakened" publicationId="5c4c-bef9-9681-e0fc" page="68" hidden="false">
-          <description>The Avatar, and all friendly Asuryani units within 12&quot; of the Avatar, have the 无畏 特殊规则.</description>
+          <description>The Avatar, and all friendly Asuryani units within 12&quot; of the Avatar, have the 无畏 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -11321,7 +11321,7 @@ against the Avatar is reduced by 1.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38dd-2f3e-6501-12c9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="0c55-8d61-bf0a-7039" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="0c55-8d61-bf0a-7039" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 with Improved Holo-fields has a 4+ 特殊保护 unless it is Immobilised.</characteristic>
               </characteristics>
@@ -11333,7 +11333,7 @@ against the Avatar is reduced by 1.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9d69-3658-2a05-93f0" name="Any Cobra may exchange its Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f1c-f0d9-2f27-4b8a">
+        <selectionEntryGroup id="9d69-3658-2a05-93f0" name="Any Cobra 可以替换 its Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f1c-f0d9-2f27-4b8a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59de-e9f9-3c78-8b5c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0a8-eb75-7ffb-f24d" type="min"/>
@@ -11470,7 +11470,7 @@ controlling players next 突击阶段.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b85b-e6a3-885e-5e6d" name="Phantom Missile Launcher" hidden="false" collective="false" import="true" targetId="aa80-a713-0e1b-b2eb" type="selectionEntry">
+        <entryLink id="b85b-e6a3-885e-5e6d" name="Phantom 导弹发射器" hidden="false" collective="false" import="true" targetId="aa80-a713-0e1b-b2eb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="780f-5d74-831a-b4ea" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="108b-1f67-9111-0b83" type="min"/>
@@ -11524,7 +11524,7 @@ controlling players next 突击阶段.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e9a-5c25-e13c-06cd" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1fc7-c1e3-9dd5-2990" name="Revenant Jump Jets" publicationId="5c4c-bef9-9681-e0fc" page="71" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="1fc7-c1e3-9dd5-2990" name="Revenant Jump Jets" publicationId="5c4c-bef9-9681-e0fc" page="71" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The controlling player may choose to use the Revenant&apos;s jump jets in either the 移动阶段 or 突击阶段. If used in the 移动阶段, the Revenant may move 至多 36&quot; , it ignores terrain during this move but must end its move outside of impassable terrain and at least 1&quot; away from enemy models. If used during the 突击阶段 then the Revenant Titan may roll two additional D6 and total all dice rolled when determining its Charge distance, and makes D6+1 愤怒之锤 attacks if it successfully charges instead of one.</characteristic>
               </characteristics>
@@ -11536,7 +11536,7 @@ controlling players next 突击阶段.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="26c9-86fd-f44c-ced2" name="Must select two weapons from the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="26c9-86fd-f44c-ced2" name="Must select two 武器 from the following:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cdb3-d228-adb5-037f" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7362-3d39-ee77-507c" type="max"/>
@@ -11556,7 +11556,7 @@ controlling players next 突击阶段.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="18c4-f609-1e54-4192" name="Cloudburst Missile Launcher" hidden="false" collective="false" import="true" targetId="e6cc-64ad-de98-5c90" type="selectionEntry">
+        <entryLink id="18c4-f609-1e54-4192" name="Cloudburst 导弹发射器" hidden="false" collective="false" import="true" targetId="e6cc-64ad-de98-5c90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58bf-9146-1e97-727f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420e-ed69-abec-3c12" type="min"/>
@@ -11575,7 +11575,7 @@ controlling players next 突击阶段.</description>
     </selectionEntry>
     <selectionEntry id="0936-1fff-4789-6a18" name="Aeldari Titan Holo-fields" publicationId="5c4c-bef9-9681-e0fc" page="69" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2318-0821-6368-2881" name="Aeldari Titan Holo-fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="2318-0821-6368-2881" name="Aeldari Titan Holo-fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Whenever a model with Aeldari Titan Holo-fields is hit by an attack, before rolling for armour penetration, or on the Destroyer Table, that Attacker must roll a D6. If the target model moved in its controlling player&apos;s last 移动阶段 and the Attacking player rolls a 4+ then the hit stands - roll for armour penetration or on the Destroyer Table as normal. If the target model did not move in its controlling players last 移动阶段 then the hit stands on a 3+. Otherwise the hit is ignored.</characteristic>
           </characteristics>
@@ -11605,7 +11605,7 @@ controlling players next 突击阶段.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b54-5de5-f135-475d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a3e3-d3bc-8067-f870" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="a3e3-d3bc-8067-f870" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 with Improved Holo-fields has a 4+ 特殊保护 unless it is Immobilised.</characteristic>
               </characteristics>
@@ -11617,7 +11617,7 @@ controlling players next 突击阶段.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="293f-e8ef-be5f-dc05" name="Any Scorpion may exchange its Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="53bc-dbf1-486c-6a90">
+        <selectionEntryGroup id="293f-e8ef-be5f-dc05" name="Any Scorpion 可以替换 its Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="53bc-dbf1-486c-6a90">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="613d-edbe-f1d6-b9ba" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d31-45a3-08bf-c30a" type="min"/>
@@ -11681,7 +11681,7 @@ controlling players next 突击阶段.</description>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5673-d9da-9f2e-5d84" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ebc3-c2a8-7452-5ffe" name="Holo-Field 防线" publicationId="ca571888--pubN73904" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="ebc3-c2a8-7452-5ffe" name="Holo-Field 防线" publicationId="ca571888--pubN73904" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a 防线 has a 4+ 掩体保护. If a unit Goes to Ground, then models from the unit gain +2 to the 掩体保护 from the 防线 rather than +1. Models that are in base contact with a 防线 are treated as being in base contact with any enemy models who are directly opposite them and in base contact with the other side of that 防线. Units charging an enemy that is behind a 防线 count as charging through difficult terrain.</characteristic>
           </characteristics>
@@ -11837,7 +11837,7 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ae4-5498-6503-b9ae" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e67d-16c1-dbe3-3baa" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="e67d-16c1-dbe3-3baa" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 with Improved Holo-fields has a 4+ 特殊保护 unless it is Immobilised.</characteristic>
               </characteristics>
@@ -11927,7 +11927,7 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9bb-8373-98d5-507d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b933-f473-e8b7-5ce2" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="b933-f473-e8b7-5ce2" name="Improved Holo-Fields" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A 载具 with Improved Holo-fields has a 4+ 特殊保护 unless it is Immobilised.</characteristic>
               </characteristics>
@@ -11945,12 +11945,12 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ec-2c92-abde-abd1" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="25f0-757c-6e82-8ba5" name="Two 双联Phoenix Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="25f0-757c-6e82-8ba5" name="Two 双联Phoenix 导弹发射器s" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a84f-fa1a-ce84-8537" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="0c18-14e0-4f10-3558" name="双联Phoenix Missile Launcher" hidden="false" collective="false" import="true" targetId="71b8-cebb-dd9a-5d5d" type="selectionEntry">
+                <entryLink id="0c18-14e0-4f10-3558" name="双联Phoenix 导弹发射器" hidden="false" collective="false" import="true" targetId="71b8-cebb-dd9a-5d5d" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa52-86d2-4654-265a" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a08-0ea5-6348-3ed7" type="min"/>
@@ -11983,9 +11983,9 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
         <cost name="pts" typeId="points" value="730.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71b8-cebb-dd9a-5d5d" name="双联Phoenix Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="71b8-cebb-dd9a-5d5d" name="双联Phoenix 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b469-8679-80e2-28bc" name="Phoenix Missile Launcher" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+        <profile id="b469-8679-80e2-28bc" name="Phoenix 导弹发射器" publicationId="5c4c-bef9-9681-e0fc" page="79" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
@@ -12121,7 +12121,7 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
                   </profiles>
                   <rules>
                     <rule id="fb2d-e502-002d-08fa" name="Sword of Vaul" publicationId="5c4c-bef9-9681-e0fc" page="74" hidden="false">
-                      <description>If this model is equipped with a Ghostglaive, the weapons Strength is increased to D.</description>
+                      <description>If this model is equipped with a Ghostglaive, the 武器 Strength is increased to D.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -12216,9 +12216,9 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39d8-bf10-8ad0-07cf" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3a81-cf8e-2e62-e110" name="Webway Shunt Generator" publicationId="5c4c-bef9-9681-e0fc" page="73" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="3a81-cf8e-2e62-e110" name="Webway Shunt Generator" publicationId="5c4c-bef9-9681-e0fc" page="73" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Skathach Wraithknight may choose to engage its webway shunt generators instead of moving in the 移动阶段. If it uses its webway shunt generator, it cannot use the Jump type special rules in either the 移动阶段 ot the 突击阶段 of that turn, but may still fire its weapons normally, Run or declare a Charge as appropriate. When the generators are used the controlling player may redeploy the model to any point within 12&quot; of its original position that is at least 1&quot; away from enemy models and then scatter it D6&quot;, or it may be placed into Ongoing Reserves. If, after scattering, the model is within 1&quot; of enemy models, in contact with models or within Impassable terrain, it is instead placed into Ongoing Reserves.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Skathach Wraithknight may choose to engage its webway shunt generators instead of moving in the 移动阶段. If it uses its webway shunt generator, it cannot use the Jump type 规则 in either the 移动阶段 ot the 突击阶段 of that turn, but may still fire its 武器 normally, Run or declare a Charge as appropriate. When the generators are used the controlling player may redeploy the model to any point within 12&quot; of its original position that is at least 1&quot; away from enemy models and then scatter it D6&quot;, or it may be placed into Ongoing Reserves. If, after scattering, the model is within 1&quot; of enemy models, in contact with models or within Impassable terrain, it is instead placed into Ongoing Reserves.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12372,7 +12372,7 @@ If, during the course of the game, the Pylons are Wrecked or Destroyed this abil
         <rule id="f93b-0d17-9c03-7212" name="A Path yet to be followed" publicationId="5c4c-bef9-9681-e0fc" page="11" hidden="false">
           <description>Asuryani armies built using this trait have the following conditions:
 • No Aspect Exarch units are permitted; this effectively disallows any Aspect Warriors, Exarchs, Autarchs and Phoenix Lords.
-• All Guardian Defender and Storm Guardian units gain the 目标安全 特殊规则.
+• All Guardian Defender and Storm Guardian units gain the 目标安全 规则.
 • This Doctrine cannot be taken in conjunction with the Path of the Warrior Doctrine.</description>
         </rule>
       </rules>
@@ -12414,7 +12414,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         <rule id="43b3-55e5-1dc9-7b47" name="Carried on the Wind" publicationId="5c4c-bef9-9681-e0fc" page="11" hidden="false">
           <description>Asuryani armies built using this trait have the following conditions:
 • Only units with the 跳跃步兵, 喷气背包步兵, 悬浮, 飞行器 and Jetbike types, as well as 步兵 units which begin the game inside transporting Skimmers and 飞行器, may be chosen as part of the force.*
-• The Windrider unit ignores the Support Unit 特殊规则.
+• The Windrider unit ignores the 支援单位 规则.
 
 * This is a nightmare to code as many units could go in Vampire hunters or Vampire Raiders. So i have only blocked out those units that may not be taken in transports at all. So you MUST police yourself making this list.</description>
         </rule>
@@ -12499,22 +12499,22 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
   <sharedRules>
     <rule id="eff7-01b0-c2e5-99fd" name="Distort" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false">
       <description>Distort: When rolling To Wound against 非载具 models with this weapon, on rolls of a 6, it wounds automatically (regardless of the
-targets Toughness) and has the 即死 特殊规则. Against vehicles, if this weapon rolls a 6 for armour penetration, it causes a
+targets Toughness) and has the 即死 规则. Against vehicles, if this weapon rolls a 6 for armour penetration, it causes a
 penetrating hit, regardless of whether the armour penetration roll was higher than the 载具&apos;s armour value or not.</description>
     </rule>
     <rule id="0f9b-b2f3-ea3f-3412" name="Monofilament" publicationId="5c4c-bef9-9681-e0fc" page="13" hidden="false">
-      <description>Monofilament: When rolling To Wound for a weapon that has this 特殊规则, use the target’s Initiative instead of its Toughness
+      <description>Monofilament: When rolling To Wound for a weapon that has this 规则, use the target’s Initiative instead of its Toughness
 (Toughness is still used to determine 即死). In addition, if a 6 is rolled To Wound the Wound is resolved at AP2 unless the
 weapon is AP1.</description>
     </rule>
     <rule id="3ade-c80f-e758-367b" name="Bladestorm" publicationId="5c4c-bef9-9681-e0fc" page="13" hidden="false">
-      <description>Bladestorm: When firing a weapon with this 特殊规则, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness,
+      <description>Bladestorm: When firing a weapon with this 规则, a To Wound roll of a 6 wounds automatically, regardless of the target’s Toughness,
 and is resolved at AP2.</description>
     </rule>
     <rule id="7877-a81a-0c32-ec22" name="Vibro" publicationId="5c4c-bef9-9681-e0fc" page="14" hidden="false">
-      <description>Vibro: For each additional model in the same unit that scores at least 1 hit on the target with a weapon that has this 特殊规则,
+      <description>Vibro: For each additional model in the same unit that scores at least 1 hit on the target with a weapon that has this 规则,
 add 1 to the Strength (to a maximum of 10) and subtract 1 from the AP (to a minimum of 1) of each hit for that round of
-shooting. For example, if three models in a unit all score hits on the same target unit with weapons that have this 特殊规则, all
+shooting. For example, if three models in a unit all score hits on the same target unit with 武器 that have this 规则, all
 hits would be resolved at +2 Strength and -2AP.</description>
     </rule>
     <rule id="8e67-29e3-f905-0e79" name="Soundquake" publicationId="5c4c-bef9-9681-e0fc" page="14" hidden="false">
@@ -12526,25 +12526,25 @@ hits would be resolved at +2 Strength and -2AP.</description>
 Wound suffered or be removed from play.</description>
     </rule>
     <rule id="e04f-0392-8802-3ccb" name="A Doomed Race" publicationId="5c4c-bef9-9681-e0fc" page="10" hidden="false">
-      <description>A model with this 特殊规则 has the 憎恨 特殊规则 against Daemons. Furthermore, when making 恐怖 tests, a unit containing at least one model with this 特殊规则 suffers a -1 penalty to its Leadership if it is engaged in combat with a unit that contains at least one model with the 恶魔 of the Ruinstorm or 恶魔 特殊规则.</description>
+      <description>A model with this 规则 has the 憎恨 规则 against Daemons. Furthermore, when making 恐怖 tests, a unit containing at least one model with this 规则 suffers a -1 penalty to its Leadership if it is engaged in combat with a unit that contains at least one model with the 恶魔 of the Ruinstorm or 恶魔 规则.</description>
     </rule>
     <rule id="73b1-8e5e-6dba-a77f" name="Battle Focus" publicationId="5c4c-bef9-9681-e0fc" page="10" hidden="false">
-      <description>A unit composed entirely of models with the Battle Focus 特殊规则 can either Shoot and then Run, or Run and then Shoot, in the same 射击阶段. The unit must complete both actions before the player moves onto the next unit - otherwise the chance to make the second action is forfeit. A model cannot Run if it fired a Heavy weapon during the same 射击阶段 unless it has the 毫不留情 特殊规则. Similarly, a model that has Run cannot then fire a Heavy weapon in the same 射击阶段 unless it has the 毫不留情 特殊规则. Models that cannot Run gain no benefit from the Battle Focus 特殊规则.</description>
+      <description>A unit composed entirely of models with the Battle Focus 规则 can either Shoot and then Run, or Run and then Shoot, in the same 射击阶段. The unit must complete both actions before the player moves onto the next unit - otherwise the chance to make the second action is forfeit. A model cannot Run if it fired a Heavy weapon during the same 射击阶段 unless it has the 毫不留情 规则. Similarly, a model that has Run cannot then fire a Heavy weapon in the same 射击阶段 unless it has the 毫不留情 规则. Models that cannot Run gain no benefit from the Battle Focus 规则.</description>
     </rule>
     <rule id="066e-a55a-99f5-e62a" name="Defense Tactics" publicationId="5c4c-bef9-9681-e0fc" page="23" hidden="false">
-      <description>When chosen as the target of a charge, a unit that consists entirely of models with this 特殊规则 can either choose to fire 坚守射击 at BS2, or gain the 反击 and 坚毅 special rules until the end of the phase (in which case it cannot fire 坚守射击).</description>
+      <description>When chosen as the target of a charge, a unit that consists entirely of models with this 规则 can either choose to fire 坚守射击 at BS2, or gain the 反击 and 坚毅 规则 until the end of the phase (in which case it cannot fire 坚守射击).</description>
     </rule>
     <rule id="dded-2156-40fc-4216" name="Aspect Shrine :" publicationId="5c4c-bef9-9681-e0fc" page="10" hidden="false">
-      <description>Models with this 特殊规则 belong to the elite quasi religious class of fighters known as Aspect Warriors. These units can only be selected and used in the players army if they have selected the corresponding Exarch and Aspect Shrine during the army selection stage. For each Exarch, Autarch and Phoenix Lord in the army you may select 至多 two units of Aspect Warriors from the respective Aspect Shrines, any Aspect Warrior unit attached to an Autarch or Phoenix Lord does not count towards this limit as they are considered the Autarchs personal retinue.  </description>
+      <description>Models with this 规则 belong to the elite quasi religious class of fighters known as Aspect Warriors. These units can only be selected and used in the players army if they have selected the corresponding Exarch and Aspect Shrine during the army selection stage. For each Exarch, Autarch and Phoenix Lord in the army you may select 至多 two units of Aspect Warriors from the respective Aspect Shrines, any Aspect Warrior unit attached to an Autarch or Phoenix Lord does not count towards this limit as they are considered the Autarchs personal retinue.  </description>
     </rule>
     <rule id="b22c-c6e2-e837-6074" name="Ghostlight" publicationId="5c4c-bef9-9681-e0fc" page="27" hidden="false">
-      <description>The squad may combine the fire of their Prism weapons into a single coherent blast of energy. If this is done, instead of firing individually,
+      <description>The squad may combine the fire of their Prism 武器 into a single coherent blast of energy. If this is done, instead of firing individually,
 the squad fires a single shot with the following rules:
 • Nominate a single model in the squad who is making the shot, draw 视线 from that model and use its BS.
 • For every two additional firing models in the squad, the nominated shooters weapon profile may be modified with one of the following:
-- Increase the weapons range by +6&quot;
-- Increase the weapons Strength by +1 (to a maximum of 10)
-- Decrease the weapons AP by -1 (to a minimum of 1)</description>
+- Increase the 武器 range by +6&quot;
+- Increase the 武器 Strength by +1 (to a maximum of 10)
+- Decrease the 武器 AP by -1 (to a minimum of 1)</description>
     </rule>
     <rule id="a11b-da03-aa75-6cbc" name="Asuryani Psychic Powers Perils of the Warp" publicationId="5c4c-bef9-9681-e0fc" page="19" hidden="false">
       <description>ASURYANI 灵能者 PERILS OF THE WARP TABLE
@@ -12552,8 +12552,8 @@ Whenever an Asuryani Psykers attempt to manifest a power results in a Perils use
 
 D6 Result
 
-1) Devoured: The 灵能者 is claimed, body and soul, by the great power which destroyed the Aeldari empire. The model gains the 恶魔 of Slaanesh* 特殊规则 and no longer acts in its original controlling players turn. It instead acts during the opposing players turn, is counted as an enemy model and is controlled for the remainder of the battle by the opposing player. If the model was part of a unit when the result was rolled, it is now locked in combat with that unit.
-*恶魔 of Slaanesh: A model with this 特殊规则 gains the 恶魔 and Rend special rules, and may run an additional 3&quot;.
+1) Devoured: The 灵能者 is claimed, body and soul, by the great power which destroyed the Aeldari empire. The model gains the 恶魔 of Slaanesh* 规则 and no longer acts in its original controlling players turn. It instead acts during the opposing players turn, is counted as an enemy model and is controlled for the remainder of the battle by the opposing player. If the model was part of a unit when the result was rolled, it is now locked in combat with that unit.
+*恶魔 of Slaanesh: A model with this 规则 gains the 恶魔 and Rend 规则, and may run an additional 3&quot;.
 
 2-3) Soul-wracked: The cruel caresses of the minions of Slaanesh send the pysker into a paroxysm of pain and twist the intent of their art to murderous purposes. 此模型 and any unit it has joined is treated as though it had failed a 压制测试 and Goes to Ground. The opposing player then chooses a new target for the Psychic power the model was attempting to manifest, and may choose for the power to treat units under their control as friendly or enemy for the purposes of targeting the power. The new target must be a permissible target and the opposing player may choose to have the power simply fail if no alternative targets are available or possible.
 
@@ -12562,45 +12562,45 @@ D6 Result
 6) The Eye of She Who Thirsts: The 灵能者 has gained the attention of Slaanesh. For the remainder of the game, whenever this model is called upon to take a Pyschic test, the controlling player must roll on this table if any doubles are rolled. A model already affected by this result must re-roll any results of 6 on this table.</description>
     </rule>
     <rule id="8c51-655b-c7ab-8d5c" name="Crack Shot" publicationId="5c4c-bef9-9681-e0fc" page="26" hidden="false">
-      <description>A model with this 特殊规则 可以重投 one failed To Hit or To Wound roll, or Armour Penetration roll, per turn.</description>
+      <description>A model with this 规则 可以重投 one failed To Hit or To Wound roll, or Armour Penetration roll, per turn.</description>
     </rule>
     <rule id="688d-1919-2b9c-be92" name="War Shout" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false">
-      <description>Enemy units locked in combat with a model that has this 特殊规则 subtract 2 from their Leadership.</description>
+      <description>Enemy units locked in combat with a model that has this 规则 subtract 2 from their Leadership.</description>
     </rule>
     <rule id="2565-1d88-9b27-208d" name="Herald of Victory" publicationId="5c4c-bef9-9681-e0fc" page="24" hidden="false">
-      <description>A unit that contains at least one model with this 特殊规则 does not scatter when it arrives by 深度打击.</description>
+      <description>A unit that contains at least one model with this 规则 does not scatter when it arrives by 深度打击.</description>
     </rule>
     <rule id="55d5-50ec-cd0a-e6f2" name="Inescapable Accuracy" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false">
-      <description>A model with this 特殊规则 重投 failed To Hit rolls when firing at a unit that Zoomed, Swooped, Turbo-boosted or moved Flat Out during its previous turn.</description>
+      <description>A model with this 规则 重投 failed To Hit rolls when firing at a unit that Zoomed, Swooped, Turbo-boosted or moved Flat Out during its previous turn.</description>
     </rule>
     <rule id="c956-c812-1189-f16f" name="Assured Destruction" publicationId="5c4c-bef9-9681-e0fc" page="26" hidden="false">
-      <description>Models with this 特殊规则 have a +1 modifier when rolling on the 载具 Damage table.</description>
+      <description>Models with this 规则 have a +1 modifier when rolling on the 载具 Damage table.</description>
     </rule>
     <rule id="a788-c220-b007-3c0c" name="Acrobatic" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false">
-      <description>A unit that consists entirely of models with this 特殊规则 adds 3&quot; to its maximum move distance when it Runs and when it makes charge moves. Furthermore, models with this 特殊规则 do not suffer the Initiative penalty for charging enemies through difficult terrain.</description>
+      <description>A unit that consists entirely of models with this 规则 adds 3&quot; to its maximum move distance when it Runs and when it makes charge moves. Furthermore, models with this 规则 do not suffer the Initiative penalty for charging enemies through difficult terrain.</description>
     </rule>
     <rule id="f626-45d2-8e53-9e5e" name="Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="false">
-      <description>There can only be a single model with the Autarch 特殊规则 in the army and it must be the Warlord. All Aspect Warriors from the same Shrine as the Autarch become Scoring, if they were already Scoring they gain 目标安全, in addition a single squad may be taken as a command squad under the same HQ slot as the Autarch.</description>
+      <description>There can only be a single model with the Autarch 规则 in the army and it must be the Warlord. All Aspect Warriors from the same Shrine as the Autarch become Scoring, if they were already Scoring they gain 目标安全, in addition a single squad may be taken as a command squad under the same HQ slot as the Autarch.</description>
     </rule>
     <rule id="dda4-d280-402c-284b" name="Shadow of Death" publicationId="5c4c-bef9-9681-e0fc" page="27" hidden="false">
-      <description>All enemy units withing 12&quot; of a Shadow Spectre squad that contains a model with this 特殊规则 rolls an extra D6 when making Leadership tests for 士气测试, using the two highest rolls to resolve the test. Models with the 无畏 特殊规则 are immune to this effect.</description>
+      <description>All enemy units withing 12&quot; of a Shadow Spectre squad that contains a model with this 规则 rolls an extra D6 when making Leadership tests for 士气测试, using the two highest rolls to resolve the test. Models with the 无畏 规则 are immune to this effect.</description>
     </rule>
     <rule id="fe41-83f8-73ae-c59c" name="Aerobatic Grace" publicationId="5c4c-bef9-9681-e0fc" page="25" hidden="false">
-      <description>A model with this 特殊规则 has a 4+ 掩体保护 unless it has remained stationary in its previous 移动阶段.</description>
+      <description>A model with this 规则 has a 4+ 掩体保护 unless it has remained stationary in its previous 移动阶段.</description>
     </rule>
     <rule id="b189-a138-85da-498a" name="Brutal Ambush" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false">
-      <description>Models with this 特殊规则 start the game with the 隐蔽 特殊规则. The first time they charge an enemy unit, they lose 隐蔽 and gain the 暴怒 特殊规则, in addition from that point forward the unit must always move and conslidate towards the closest enemy unit, charging if possible.</description>
+      <description>Models with this 规则 start the game with the 隐蔽 规则. The first time they charge an enemy unit, they lose 隐蔽 and gain the 暴怒 规则, in addition from that point forward the unit must always move and conslidate towards the closest enemy unit, charging if possible.</description>
     </rule>
     <rule id="8a74-ef3d-633c-fffc" name="Intercept" hidden="false">
-      <description>At the end of the 移动阶段, a model with this 特殊规则 can make one Attack against an enemy 飞行器 or 飞行巨兽 that it moved over that turn. That attack hits on a roll of a 4+, and is resolved at Strength 4 AP4 with the 电磁干扰 特殊规则. 飞行器 are hit on their side armour.</description>
+      <description>At the end of the 移动阶段, a model with this 规则 can make one Attack against an enemy 飞行器 or 飞行巨兽 that it moved over that turn. That attack hits on a roll of a 4+, and is resolved at Strength 4 AP4 with the 电磁干扰 规则. 飞行器 are hit on their side armour.</description>
     </rule>
     <rule id="a976-c503-b7ff-a13c" name="Flickerjump" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false">
-      <description>When a unit with this 特殊规则 is chosen as the target of a shooting attack, it can immediately make a Warp jump, moving 2D6&quot; instead of 6+2D6&quot;, so long as it is not 撤退. The firing unit cannot choose a different target, even if the target unit is now out of range or 视线. A unit that makes a Warp jump in this way cannot make a Warp jump in its following 移动阶段.</description>
+      <description>When a unit with this 规则 is chosen as the target of a shooting attack, it can immediately make a Warp jump, moving 2D6&quot; instead of 6+2D6&quot;, so long as it is not 撤退. The firing unit cannot choose a different target, even if the target unit is now out of range or 视线. A unit that makes a Warp jump in this way cannot make a Warp jump in its following 移动阶段.</description>
     </rule>
     <rule id="084e-c33b-59b1-fdba" name="Compulsory" publicationId="ca571888--pubN106502" page="132" hidden="false">
       <description>One box on a 立场 Organisation chart allows you to make one selection from that part of your army list. Dark boxes indicate compulsory selections, which must be included as part of the army, while the lighter boxes indicate optional choices, which are only included as part of the army if the player in question chooses to do so. If constructing an army using the Crusade 立场 Organisation chart, this would mean that an army would be required to take at least one HQ choice and two Troops choices. These compulsory choices are intended to ensure that the core of each army is illustrative of the force represented by the Army List in use, and that all armies are capable of properly participating in the varied missions available to players in the Age of Darkness.</description>
     </rule>
-    <rule id="15d6-c0a2-6e1a-32c5" name="Support Unit" publicationId="ca571888--pubN106502" page="" hidden="false">
+    <rule id="15d6-c0a2-6e1a-32c5" name="支援单位" publicationId="ca571888--pubN106502" page="" hidden="false">
       <description>This unit type may not be chosen as a 强制基础槽位 choice for the army.</description>
     </rule>
     <rule id="1dcf-177e-eec5-5d33" name="Linked Fire" publicationId="5c4c-bef9-9681-e0fc" page="61" hidden="false">
@@ -12614,19 +12614,19 @@ D6 Result
 The controlling player may choose to have the Lynx deployed on the table at the beginning of the game in 悬浮 mode as a 快速 悬浮. If this option is utilised then the Lynx may not revert to being a 疾飞 飞行器 until the start of Turn 2.</description>
     </rule>
     <rule id="f31c-daab-3a72-0f68" name="Expert Hunter" publicationId="5c4c-bef9-9681-e0fc" page="31" hidden="false">
-      <description>A model with this 特殊规则 重投 所有失败的 造伤骰 against 巨兽, and can choose to re-roll armour penetration rolls that do not result in a penetrating hit.</description>
+      <description>A model with this 规则 重投 所有失败的 造伤骰 against 巨兽, and can choose to re-roll armour penetration rolls that do not result in a penetrating hit.</description>
     </rule>
     <rule id="d696-5978-e709-e328" name="Battle Fortune" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false">
-      <description>A model with this 特殊规则 has a 4+ 特殊保护</description>
+      <description>A model with this 规则 has a 4+ 特殊保护</description>
     </rule>
     <rule id="13d7-c159-325d-5622" name="快速 Shot" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false">
-      <description>A model with this 特殊规则 always fires one more shot than is normal for its weapon, i.e if its weapon is Heavy 2, it fires 3 shots.</description>
+      <description>A model with this 规则 always fires one more shot than is normal for its weapon, i.e if its weapon is Heavy 2, it fires 3 shots.</description>
     </rule>
     <rule id="81e5-0111-8395-e884" name="Command Squad" hidden="false">
       <description>Any Aspect Warrior unit attached to an Autarch or Phoenix Lord does not count towards this limit as they are considered the Autarchs personal retinue.</description>
     </rule>
     <rule id="2140-38a0-2f2f-7029" name="Wraith Titan" publicationId="5c4c-bef9-9681-e0fc" page="70" hidden="false">
-      <description>When attacked 近战中 by models that are not 超重型载具, 超重型机甲 or 超级巨兽 that are not Swooping, a Wraith Titan can only be hit on a 6 regardless of WS or other considerations. 超重型载具, 超重型机甲 and 超级巨兽 that attack a model with this 特殊规则 近战中 hit on a 5 or a 6 regardless of their WS.
+      <description>When attacked 近战中 by models that are not 超重型载具, 超重型机甲 or 超级巨兽 that are not Swooping, a Wraith Titan can only be hit on a 6 regardless of WS or other considerations. 超重型载具, 超重型机甲 and 超级巨兽 that attack a model with this 规则 近战中 hit on a 5 or a 6 regardless of their WS.
 In addition when a Wraith Titan chooses to Run it moves 12&quot; instead of rolling a D6, and it may choose to Run on any turn in which it has fired no more than a single weapon with the 主武器 type.</description>
     </rule>
     <rule id="fee2-7fc6-ef66-3a58" name="Scoring" hidden="false">
@@ -12634,128 +12634,128 @@ In addition when a Wraith Titan chooses to Run it moves 12&quot; instead of roll
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="72c4-e271-20c3-44fe" name="Phoenix armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="72c4-e271-20c3-44fe" name="Phoenix armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The legendary Phoenix Lords wear armour so finely wrought it is proof against almost any weapon. Phoenix armour confers a 2+ Armour Save and a 5++ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="53e9-e70b-b1df-3b4c" name="Aspect Armour" publicationId="5c4c-bef9-9681-e0fc" page="153" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="53e9-e70b-b1df-3b4c" name="Aspect Armour" publicationId="5c4c-bef9-9681-e0fc" page="153" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aspect Armour confers a 4+ Armour Save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c38e-bb8a-f495-a2ba" name="Aeldari Jetbike" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="c38e-bb8a-f495-a2ba" name="Aeldari Jetbike" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aeldari jetbikes are swift, graceful mounts that enable their riders to soar across the battlefield raining death upon their foes. A model riding an Aeldari jetbike improves their Armour Save and Toughness by 1 (this is already reflected in most unit profiles) and has a twin-linked shuriken catapult. Their unit type also changes to Aeldari Jetbike; in addition to following all the rules for Jetbikes (see the Horus Heresy rulebook), if an Aeldari Jetbike elects to Turbo-boost boost in the 射击阶段, it can move 至多 36&quot;. If they do not Turboboost, they may move 至多 2D6&quot; in the 突击阶段, even if they have shot in the preceding 射击阶段 or arrived by 深度打击. When Aeldari Jetbikes move in the 突击阶段 and do not charge, they treat difficult terrain in the same way as they do in the 移动阶段.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aeldari jetbikes are swift, graceful mounts that enable their riders to soar across the battlefield raining death upon their foes. A model riding an Aeldari jetbike improves their Armour Save and Toughness by 1 (this is already reflected in most unit profiles) and has a 双联 shuriken catapult. Their unit type also changes to Aeldari Jetbike; in addition to following all the rules for Jetbikes (see the Horus Heresy rulebook), if an Aeldari Jetbike elects to Turbo-boost boost in the 射击阶段, it can move 至多 36&quot;. If they do not Turboboost, they may move 至多 2D6&quot; in the 突击阶段, even if they have shot in the preceding 射击阶段 or arrived by 深度打击. When Aeldari Jetbikes move in the 突击阶段 and do not charge, they treat difficult terrain in the same way as they do in the 移动阶段.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a6bb-a622-6898-c26a" name="Banshee Mask" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="a6bb-a622-6898-c26a" name="Banshee Mask" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">These amplify the Aeldari’s battle cry, inflicting psychic paralysis. A model equipped with a banshee mask causes 恐怖. In addition, models cannot fire 坚守射击 against units that contain at least one model equipped with a banshee mask.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b623-b2e6-4cdd-9bdb" name="Crystal Targeting Matrix" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="b623-b2e6-4cdd-9bdb" name="Crystal Targeting Matrix" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">一次性. Utilising advanced scanner technologies, this targeting matrix allows pinpoint fire even when on the move. A non-机甲 载具 with this upgrade can fire one weapon, at the 载具’s full BS, after moving Flat Out in the 射击阶段.</characteristic>
       </characteristics>
     </profile>
-    <profile id="942e-999a-a026-3dfc" name="Forceshield" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="942e-999a-a026-3dfc" name="Forceshield" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">These powerful shield projectors can deflect almost any blow. A model with a forceshield has a 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="aaaf-966c-4943-f919" name="Ghosthelm" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="aaaf-966c-4943-f919" name="Ghosthelm" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A ghosthelm conceals the presence of the wearer in the Warp. If a model with a ghosthelm suffers a Perils of the Warp, they can immediately, before rolling on the Perils chart, expend 次元充能 (if they have one) 至多 their Mastery Level. For each Warp Charge spent in this way they may add +1 to the Perils dice roll point.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3cd9-8668-d77e-b1d2" name="Ghostwalk Matrix" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="3cd9-8668-d77e-b1d2" name="Ghostwalk Matrix" publicationId="5c4c-bef9-9681-e0fc" page="16" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A ghostwalk matrix utilises the knowledge and wisdom contained within a spirit stone to guide the 载具 on its path. A 载具 with this upgrade has the 穿越地形 特殊规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A ghostwalk matrix utilises the knowledge and wisdom contained within a spirit stone to guide the 载具 on its path. A 载具 with this upgrade has the 穿越地形 规则.</characteristic>
       </characteristics>
     </profile>
-    <profile id="fd4c-0097-aa0e-599f" name="Heavy Aspect Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="fd4c-0097-aa0e-599f" name="Heavy Aspect Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Incorporating thick armoured plates but retaining great flexibility, this armour is amongst the best in the known galaxy. Heavy Aspect armour confers a 3+ Armour Save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="bfd1-a683-1cbc-4c07" name="Heavy Mesh Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="bfd1-a683-1cbc-4c07" name="Heavy Mesh Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A reinforced version of the Guardian Mesh Armour, this suit has been stiffened with psycho-reactive plate along vulnerable areas. Heavy Mesh armour provides a 4+ 装甲保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="23d9-1978-2074-bfa6" name="Heavy Weapon Platform" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="23d9-1978-2074-bfa6" name="Heavy Weapon Platform" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">With the help of cunningly wrought anti-grav platforms, Aeldari Guardians bring heavy fire support to the fight. One Guardian from the same unit as, and within 2&quot;, of a Heavy Weapon Platform may fire the platform instead of their shuriken catapult, counting as having the 毫不留情 特殊规则. If there are no Guardians left in the unit, remove the heavy weapons platform as a casualty.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">With the help of cunningly wrought anti-grav platforms, Aeldari Guardians bring heavy fire support to the fight. One Guardian from the same unit as, and within 2&quot;, of a Heavy Weapon Platform may fire the platform instead of their shuriken catapult, counting as having the 毫不留情 规则. If there are no Guardians left in the unit, remove the heavy 武器 platform as a casualty.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7376-28e0-12ef-7d3c" name="Holo-fields" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="7376-28e0-12ef-7d3c" name="Holo-fields" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Harnessing kinetic energy to shimmer and distort the 载具’s silhouette, holo-fields prevent the foe from accurately targeting the craft as it sweeps across the battlefield. A 载具 with holo-fields has a 5+ 特殊保护 unless it is Immobilised.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1255-fb8c-a925-b5fe" name="Mandiblasters" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="1255-fb8c-a925-b5fe" name="Mandiblasters" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Mandiblasters spit needle shards that channel a deadly laser blast. During the Fight sub-phase, at the start of the Initiative 10 step, roll a D6 for each model equipped with mandiblasters. On a result of 4+, an enemy unit that is engaged with the model (attacking player’s choice) suffers a single Wound (saving throws can be taken as normal). 超级巨兽 suffer a Wound on a result of 6+ instead of 4+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="39c7-482a-d09b-c908" name="Mesh Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="39c7-482a-d09b-c908" name="Mesh Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Mesh armour is comprised of thousands of tiny pieces of thermoplas that harden on impact to form effective, lightweight protection. Mesh armour confers a 5+ Armour Save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1856-28b4-6d78-bfc6" name="Power Field" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="1856-28b4-6d78-bfc6" name="Power Field" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this upgrade has a 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c870-4510-6f99-cf00" name="Reaper Rangefinder" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="c870-4510-6f99-cf00" name="Reaper Rangefinder" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Mounted in the helmet vanes of the Dark Reapers are highly advanced targeters that calculate telemetries in the blink of an eye. Enemies cannot take 闪避 saves against shots fired by a model equipped with a reaper rangefinder.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Mounted in the helmet vanes of the Dark Reapers are highly advanced 瞄准仪 that calculate telemetries in the blink of an eye. Enemies cannot take 闪避 saves against shots fired by a model equipped with a reaper rangefinder.</characteristic>
       </characteristics>
     </profile>
-    <profile id="30fd-e779-e439-bc7f" name="Rune Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="30fd-e779-e439-bc7f" name="Rune Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aeldari psykers fashion themselves elegant armour decorated with wraithbone runes. Said to pulse in time with the wearer’s heartbeat, rune armour offers protection against attacks both spiritual and physical in nature. Rune armour confers a 4+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8ed3-9478-56eb-bd2a" name="Scattershield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="8ed3-9478-56eb-bd2a" name="Scattershield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Used to protect precious Aeldari war-constructs, scattershields are gigantic fan-shaped shield generators that convert the energy of incoming attacks into blinding sprays of multicoloured light. The bearer has a 5+ 特殊保护. Whenever the bearer passes one or more saving throws using its scattershield, all enemy units within 6&quot; must test as if they had just been hit by a weapon with the 致盲 特殊规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Used to protect precious Aeldari war-constructs, scattershields are gigantic fan-shaped shield generators that convert the energy of incoming attacks into blinding sprays of multicoloured light. The bearer has a 5+ 特殊保护. Whenever the bearer passes one or more saving throws using its scattershield, all enemy units within 6&quot; must test as if they had just been hit by a weapon with the 致盲 规则.</characteristic>
       </characteristics>
     </profile>
-    <profile id="147f-7100-d451-c21d" name="Shimmershield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="147f-7100-d451-c21d" name="Shimmershield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">This advanced field generator projects a glittering force field to protect both the user and the warriors who accompany him. The bearer and his unit have a 5+ 特殊保护.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e9fe-ecb5-febd-7ba1" name="Star Engines" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="e9fe-ecb5-febd-7ba1" name="Star Engines" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Whilst all Aeldari vehicles are swift and agile, those that mount star engines are often able to move faster than the eye can follow. Lesser races can only marvel at the phenomenal speed and manoeuvrability of a craft so equipped. A non-机甲 载具 with this upgrade can move 至多 24&quot; when moving Flat Out. A 机甲 with this upgrade instead Runs an additional 3&quot; (this will normally be D6+3&quot;).</characteristic>
       </characteristics>
     </profile>
-    <profile id="e1a5-abe4-f499-59db" name="Swooping Hawk Wings" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="e1a5-abe4-f499-59db" name="Swooping Hawk Wings" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Swooping Hawk wings utilise jet propulsion motors and anti-grav lifters hidden among their metallic feathers that enable their wearers to soar high above the battlefield. A model equipped with Swooping Hawk wings gains the 跳跃单位 type as described in the Horus Heresy rules. When a unit composed entirely of models equipped with Swooping Hawk wings uses its jump packs in the 移动阶段, it can move 至多 18&quot; instead of 12&quot;. Furthermore, the unit can choose to Skyleap instead of moving in the 移动阶段, as long as it did not arrive from Reserves that turn and is not locked in combat or 撤退. A Skyleaping unit is removed from the board and placed into Ongoing Reserve.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9a15-1903-ee38-40d7" name="Vectored Engines" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="9a15-1903-ee38-40d7" name="Vectored Engines" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Vectored engines allow the pilot of an Aeldari 载具 to rapidly alter its facing, placing deadly weapons, or stronger armour, to the fore. Often, this can mean the difference between sustaining critical damage and taking an indirect blow that can soon be shrugged off. Unless it is Immobilised, a 载具 with this upgrade can pivot to face any direction immediately after resolving its shooting attack (in the 射击阶段).</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Vectored engines allow the pilot of an Aeldari 载具 to rapidly alter its facing, placing deadly 武器, or stronger armour, to the fore. Often, this can mean the difference between sustaining critical damage and taking an indirect blow that can soon be shrugged off. Unless it is Immobilised, a 载具 with this upgrade can pivot to face any direction immediately after resolving its shooting attack (in the 射击阶段).</characteristic>
       </characteristics>
     </profile>
-    <profile id="f1ae-dfb6-0bad-99d7" name="Warp Jump Generator" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="f1ae-dfb6-0bad-99d7" name="Warp Jump Generator" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Wearing a bulbous Warp jump generator, an Aeldari can make brief journeys through the Warp. Though this is an extremely dangerous tactic, it grants the wearer a distinct tactical edge.A model equipped with a Warp jump generator gains the 喷气背包单位 type as described in Horus Heresy rules. In the 移动阶段, a unit composed entirely of models equipped with Warp jump generators can choose to either move as 喷气背包步兵 or make a Warp jump. If making a Warp jump, it immediately moves 至多 2D6+6&quot; in any direction (roll once per unit each turn), ignoring all intervening terrain and models. This move ignores 危险地形. If the 2D6 roll is a double 1, one random member of the unit is removed as a casualty.</characteristic>
       </characteristics>
     </profile>
-    <profile id="620d-2167-ff70-c74a" name="Shadow Spectre 喷气背包" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="620d-2167-ff70-c74a" name="Shadow Spectre 喷气背包" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Shadow Spectre 喷气背包gains the 喷气背包单位 type rulebook, granting them the 庞大, 深度打击 and 毫不留情 special rules when moving using the 喷气背包rules.
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with a Shadow Spectre 喷气背包gains the 喷气背包单位 type rulebook, granting them the 庞大, 深度打击 and 毫不留情 规则 when moving using the 喷气背包rules.
 Used exclusively by the Shadow Spectre Aspect Warriors, these highly advanced jet packs incorporate a modified version of the Aeldari Holo-fields. The bearer gains a 5+ 特殊保护 versus all attacks over 12&quot;, increasing to 4+ for any ranged attacks 12&quot; or closer.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b490-64c2-9b74-1057" name="Spirit Stones" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="b490-64c2-9b74-1057" name="Spirit Stones" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Some Aeldari vehicles incorporate large spirit stones with a captive animus that can control the 载具 should it be disabled. A 载具 with this upgrade ignores 乘员震荡 results on a roll of 2+ and 乘员震晕 results on a roll of 4+.</characteristic>
       </characteristics>

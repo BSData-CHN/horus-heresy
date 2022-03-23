@@ -1577,7 +1577,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13eb-ed81-6dbf-c1c9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9c23-2b72-781c-b928" name="Lord of Chaos" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="9c23-2b72-781c-b928" name="Lord of Chaos" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options gains a 4+ Invulnarable save against Shooting and a 3+ Invulnarable save while locked in combat.</characteristic>
                   </characteristics>
@@ -1592,7 +1592,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7265-6ee9-fca1-9691" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c142-628b-ae97-8f43" name="Warp-forged Plate" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="c142-628b-ae97-8f43" name="Warp-forged Plate" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model which has this option gains a 2+ Armour Save. </characteristic>
                   </characteristics>
@@ -1607,9 +1607,9 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="854d-1fdf-4428-61b6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9436-69c3-856d-12ae" name="Rend Time and Space" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="9436-69c3-856d-12ae" name="Rend Time and Space" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options may, at the end of any of their own player turns, place an additional Warp Rift maerk anywhere within 2&quot;of the model&apos;s base. This new Warp Rift marker may not be placed in 危险地形 or difficult terrain, and may not be placed within 6&quot; of another Warp Rift marker or Objective marker. This 特殊规则 may only be used once per game and may not be used while the Arch-恶魔 is locked in combat.</characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options may, at the end of any of their own player turns, place an additional Warp Rift maerk anywhere within 2&quot;of the model&apos;s base. This new Warp Rift marker may not be placed in 危险地形 or difficult terrain, and may not be placed within 6&quot; of another Warp Rift marker or Objective marker. This 规则 may only be used 整场游戏一次 and may not be used while the Arch-恶魔 is locked in combat.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1658,9 +1658,9 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c2-b56f-002d-5fc7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6885-94ce-48c4-fd8b" name="Wound in Reality" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="6885-94ce-48c4-fd8b" name="Wound in Reality" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this option that loses its last Wound explodes as though it had the Catastrophic Damage 特殊规则 (see page 90 of The Horus Heresy: Age of Darkness Rulebook) and had lost its final Hull point.</characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this option that loses its last Wound explodes as though it had the Catastrophic Damage 规则 (see page 90 of The Horus Heresy: Age of Darkness Rulebook) and had lost its final Hull point.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1673,9 +1673,9 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fa-34f5-719f-2ed3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a166-9ad9-15eb-c24c" name="Font of the Warp" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="a166-9ad9-15eb-c24c" name="Font of the Warp" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options gains the 灵能者 特殊规则, Mastery Level 4 and may generate Psychic Powers from any 学派 in The Horus Heresy: Age of Darkness Rulebook except Sanctic or Malefic Daemonology. In addition, the controlling player does not add this model&apos;s Mastery Level to the total of 次元充能 generated for a given Psychic phase, but instead adds this model&apos;s current remaining Wounds.</characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options gains the 灵能者 规则, Mastery Level 4 and may generate Psychic Powers from any 学派 in The Horus Heresy: Age of Darkness Rulebook except Sanctic or Malefic Daemonology. In addition, the controlling player does not add this model&apos;s Mastery Level to the total of 次元充能 generated for a given Psychic phase, but instead adds this model&apos;s current remaining Wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1691,7 +1691,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf2d-4fda-0b74-25b9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1144-8bfc-1e39-067c" name="Reaper of Souls" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="1144-8bfc-1e39-067c" name="Reaper of Souls" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options may choose to sacrifice its normal attacks 近战中 to make a number of attack equal to the number of models in any one unit it is locket in combat with. These attacks are resolved at half (rounding down) its current strength, AP 2.</characteristic>
                   </characteristics>
@@ -1706,7 +1706,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5507-ca82-b232-1ef5" type="max"/>
               </constraints>
               <profiles>
-                <profile id="830f-6d79-b4fb-4df8" name="Breaker of Titans" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="830f-6d79-b4fb-4df8" name="Breaker of Titans" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model with this options may choose to sacrifice its normal attacks 近战中 to make a number of attacks that are equal to half (rounding down) of its currenct Attacks score, but at Str D, AP 1.</characteristic>
                   </characteristics>
@@ -1721,7 +1721,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ec-2899-402f-14dc" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c30c-6408-ad87-d633" name="Beyond Death" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="c30c-6408-ad87-d633" name="Beyond Death" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323"> model with this options that loses its last Wound is not immediately removed from play. Instead, the controlling player rolls a D6. On a 4+, the model is instead placed into Ongoing Reserves with D6 Wounds remaining. On a 3 or less, it is removed from play as a casualty. This effect may only be triggered once per model in any game.</characteristic>
                   </characteristics>
@@ -2062,7 +2062,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
       </constraints>
       <rules>
         <rule id="81c6-1ba8-15bc-7c89" name="Crimson Fury" hidden="false">
-          <description>All models in the Detachment with the 步兵, 跳跃背包 步兵, Beasts or 骑兵 unit type gain the 暴怒 特殊规则. Models with the 巨兽, 飞行巨兽, 超级巨兽 or Gargantuan Flying Creature unit type instead gain the 狂暴 特殊规则.
+          <description>All models in the Detachment with the 步兵, 跳跃背包 步兵, Beasts or 骑兵 unit type gain the 暴怒 规则. Models with the 巨兽, 飞行巨兽, 超级巨兽 or Gargantuan Flying Creature unit type instead gain the 狂暴 规则.
 
 All models in the Detachment must declare a charge if able when they begin the 突击阶段 within 12&quot; of an enemy unit. If there is more than one eligible target, the controlling player chooses the target of any charges made.
 
@@ -2108,9 +2108,9 @@ The Blood must Flow: The Daemons of the Ruinstorm player gains 1 Victory point f
     <selectionEntry id="0946-b1da-a2c7-12f9" name="Lurid Onslaught" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="97e8-d3b4-fa2a-cec1" name="Lurid Onslaught" hidden="false">
-          <description>All models in the Detachment gain 打带跑 特殊规则.
+          <description>All models in the Detachment gain 打带跑 规则.
 
-No unit included as part of this army may benefit from a 掩体保护, except one provided by the 闪避 特殊规则.
+No unit included as part of this army may benefit from a 掩体保护, except one provided by the 闪避 规则.
 
 Any unit in this Detachement 可以选择 the Stupefying Must Emanation, if the unit consists of multiple models then all models in the unit must take this upgrade. (Battlescribe note: Some think that this rule means that all units containing more than 1 model Must take the Emanation. Others believe that it is Optional.)
 
@@ -2164,7 +2164,7 @@ A Twisted Dream: The Daemons of the Ruinstorm player scores 1 Victory point when
       </constraints>
       <rules>
         <rule id="5628-a7d0-54d2-2069" name="Creeping Scourge" hidden="false">
-          <description>All models in the Detachment with the 步兵, 跳跃背包 步兵, Beasts or 骑兵 unit type gain the 不知疼痛 (5+) 特殊规则. Models with the 巨兽, 飞行巨兽, 超级巨兽 or Gargantuan Flying Creature unit type instead gain the 他不会死 特殊规则.
+          <description>All models in the Detachment with the 步兵, 跳跃背包 步兵, Beasts or 骑兵 unit type gain the 不知疼痛 (5+) 规则. Models with the 巨兽, 飞行巨兽, 超级巨兽 or Gargantuan Flying Creature unit type instead gain the 他不会死 规则.
 
 Units included as part of this Detachment roll an additional D6 when making Run moves or 追击 and use the lowest rolled dice to determine the distance moved.
 
@@ -2210,12 +2210,12 @@ Torment without End: At the end of the game, after the final turn has been playe
     <selectionEntry id="73dd-f79e-10cf-dc2f" name="Mirror of 憎恨" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="8f28-be6b-badc-3462" name="Mirror of 憎恨" hidden="false">
-          <description>All models in the Detachment gain the 憎恨 (Daemons, Daemons of the Ruinstorm &amp; Psykers) 特殊规则.
+          <description>All models in the Detachment gain the 憎恨 (Daemons, Daemons of the Ruinstorm &amp; Psykers) 规则.
 
 An army using this Aetheric Dominion for its Primary Detachment may not include an 联军分队.
 
 In addition, an army whose Primary Detachment has this Dominion may choose to replace all other Primary Objectives in any mission with the following Primary Objective (their opponent&apos;s objectives remain unchanged):
-The Infinite Cycle: The Daemons of the Ruinstorm player scores 1 Victory point for each enemy unit with any of the 灵能者, 恶魔 or 恶魔 of the Ruinstorm special rules that is destroyed, removed from play or forced to flee from the battlefield, and loses 1 Victory point for each friendly unit with any of the 灵能者, 恶魔 or 恶魔 of the Ruinstorm special rules that is destroyed, removed from play or forced to flee from the battlefield. If, at the end of the game, the Daemons of the Ruinstorm player has scored exactly zero Victory points then they are considered to have won, regardless of the number of Victory points scored by their opponent.</description>
+The Infinite Cycle: The Daemons of the Ruinstorm player scores 1 Victory point for each enemy unit with any of the 灵能者, 恶魔 or 恶魔 of the Ruinstorm 规则 that is destroyed, removed from play or forced to flee from the battlefield, and loses 1 Victory point for each friendly unit with any of the 灵能者, 恶魔 or 恶魔 of the Ruinstorm 规则 that is destroyed, removed from play or forced to flee from the battlefield. If, at the end of the game, the Daemons of the Ruinstorm player has scored exactly zero Victory points then they are considered to have won, regardless of the number of Victory points scored by their opponent.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2287,16 +2287,16 @@ End of Days: Each enemy unit destroyed, removed from play or forced to flee from
       </profiles>
       <rules>
         <rule id="0a72-1b12-d982-5caf" name="Lord of Murder" publicationId="ca571888--pubN103311" hidden="false">
-          <description>Ka&apos;bandha may only be selected as part of an army using the Crimson Fury Aetheric Dominion, and must be the army&apos;s warlord. Ka&apos;Bandha uses the Skull Keeper 主将特性 from the Crimson Fury Aetheric Dominion Warlord table, and gains the 永恒战士 特殊规则. </description>
+          <description>Ka&apos;bandha may only be selected as part of an army using the Crimson Fury Aetheric Dominion, and must be the army&apos;s warlord. Ka&apos;Bandha uses the Skull Keeper 主将特性 from the Crimson Fury Aetheric Dominion Warlord table, and gains the 永恒战士 规则. </description>
         </rule>
         <rule id="9000-60ae-344a-057d" name="Miasma of 暴怒" publicationId="ca571888--pubN103311" hidden="false">
-          <description>Ka&apos;Bandha and any models within 12&quot;, add +1 to the result of any rolls made to determine how many attacks it is granted by the 狂暴 特殊规则 (granted to it by the Crimson Fury Aetheric Dominion). In addition, Ka&apos;Bandha gains a 4+ 特殊保护 as long as it is currenty locked in combat or involved in a Challenge.</description>
+          <description>Ka&apos;Bandha and any models within 12&quot;, add +1 to the result of any rolls made to determine how many attacks it is granted by the 狂暴 规则 (granted to it by the Crimson Fury Aetheric Dominion). In addition, Ka&apos;Bandha gains a 4+ 特殊保护 as long as it is currenty locked in combat or involved in a Challenge.</description>
         </rule>
         <rule id="6fd7-9a33-ad27-a326" name="Scythe of 憎恨" publicationId="ca571888--pubN103311" hidden="false">
           <description>At the end of any 突击阶段, after the results of combat have been worked out and 追击 and Consolidations have been completed, Ka&apos;Bandha may release its fury as a termendous strike that damage any who are caught in its path. To resolve this attack, the controlling player should place a Hellstorm 喷射盖板 angled in any direction of their choise and with the narrow end in contact with Ka&apos;Bandha&apos;s base. Any units underneath the 喷射盖板 suffer a number of hits equal to the number of wounds Ka&apos;Bandha caused during the preceding 突击阶段, each at Str 6 AP-. </description>
         </rule>
         <rule id="98da-e951-284b-e52b" name="Eternal Rivalry" publicationId="ca571888--pubN103311" hidden="false">
-          <description>If any enemy army includes Sanguinius, Ka&apos;Bandha gains the 宿敌 (Sanguinius) and 憎恨 (Sanguinius) special rules and the following Secondary Objective is placed into effect:
+          <description>If any enemy army includes Sanguinius, Ka&apos;Bandha gains the 宿敌 (Sanguinius) and 憎恨 (Sanguinius) 规则 and the following Secondary Objective is placed into effect:
 
 Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in a Challange against Ka&apos;Bandha, the Daemons of the Ruinstorm player scores 2 Victory Points - this is in addition to any points scored for Slay the Warlord. However, if Ka&apos;Bandha is removed as a casualty while it is fighting in a challenge with Sanguinius, thne the Daemons of the Ruinstorm player loses 1 Victory Point. </description>
         </rule>
@@ -2397,7 +2397,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <entryLink id="48ae-fb52-e7d1-7d67" name="等离子枪" hidden="false" collective="false" import="true" targetId="6732-7335-4e43-ab38" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="26f0-4ab1-f620-23f5" name="Bolt weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ed7-d286-2724-2c47">
+        <selectionEntryGroup id="26f0-4ab1-f620-23f5" name="Bolt 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ed7-d286-2724-2c47">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f8-64db-d855-c81c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa4-e8a4-bc29-a7d7" type="min"/>
@@ -2448,7 +2448,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1597-10e8-37b2-adec" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="2b7e-7858-5d4c-2af7" type="selectionEntry"/>
+        <entryLink id="1597-10e8-37b2-adec" name="近战武器s" hidden="false" collective="false" import="true" targetId="2b7e-7858-5d4c-2af7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2718,7 +2718,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b7e-7858-5d4c-2af7" name="Close Combat Weapons" publicationId="ca571888--pubN106502" page="42" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2b7e-7858-5d4c-2af7" name="近战武器s" publicationId="ca571888--pubN106502" page="42" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b5-36e0-fced-c692" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa29-14b9-3a9d-09fc" type="min"/>
@@ -2765,7 +2765,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b1-5cce-b10b-c03d" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="91e4-449d-dc16-efb4" name="Possessed Auxiliary" hidden="false" targetId="e553-5fe7-2eba-42f2" type="profile"/>
+            <infoLink id="91e4-449d-dc16-efb4" name="Possessed 辅助军" hidden="false" targetId="e553-5fe7-2eba-42f2" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -2779,9 +2779,9 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c87-4015-bdec-5efc" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9b53-664b-95ce-3a79" name="Auxilia Rifles" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9b53-664b-95ce-3a79" name="辅助军 Rifles" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="5a2d-7130-8415-47f0" name="Auxilia Rifle" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="5a2d-7130-8415-47f0" name="辅助军 Rifle" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">3</characteristic>
@@ -2868,19 +2868,19 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
       </profiles>
       <rules>
         <rule id="bd0d-d3a9-dfd1-21fc" name="Gaping Maw" publicationId="8700-b3bb-pubN77868" hidden="false">
-          <description>Cor’bax’s vast maw opens wide enough to swallow enemies whole. When fighting against 步兵 models, any To Hit rolls of 5 or 6 made in the 突击阶段 by Cor’bax have the 即死 特殊规则. Roll to wound and save with these attacks separately.</description>
+          <description>Cor’bax’s vast maw opens wide enough to swallow enemies whole. When fighting against 步兵 models, any To Hit rolls of 5 or 6 made in the 突击阶段 by Cor’bax have the 即死 规则. Roll to wound and save with these attacks separately.</description>
         </rule>
         <rule id="7bfd-9cb4-0f26-d4c4" name="Noisome Tide of Flesh" publicationId="8700-b3bb-pubN77868" hidden="false">
-          <description>Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores all 危险地形 and difficult terrain. He counts as being armed with assault grenades when charging. In addition, if he is destroyed replace his model with the 巨大爆炸 (7&quot;) 喷射盖板. All models under the 喷射盖板 that do not have the Daemons or Daemons of the Ruinstorm 特殊规则 suffer a single 毒伤 (4+) AP 4 hit. If this affects a 载具, treat the strength of any hits inflicted as 2.</description>
+          <description>Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores all 危险地形 and difficult terrain. He counts as being armed with assault grenades when charging. In addition, if he is destroyed replace his model with the 巨大爆炸 (7&quot;) 喷射盖板. All models under the 喷射盖板 that do not have the Daemons or Daemons of the Ruinstorm 规则 suffer a single 毒伤 (4+) AP 4 hit. If this affects a 载具, treat the strength of any hits inflicted as 2.</description>
         </rule>
         <rule id="4702-f348-3dcf-b188" name="Biomancy 灵能者 (Mastery Level 2)" hidden="false">
           <description>May only select from Biomancy 学派</description>
         </rule>
         <rule id="e299-0fae-4539-90a8" name="Lord of Decay" publicationId="ca571888--pubN103311" page="245" hidden="false">
-          <description>Cor&apos;bax Utterblight Unbound may only be selected as part of an army which uses the Creeping Scourge Aetheric Dominion, and must be the army&apos;s Warlord. Cor&apos;bax Utterblight Unbound uses the Pestilent Cloud 主将特性 from the Creeping Scourge Aetheric Dominion 主将特性 table, and gains the 永恒战士 特殊规则.</description>
+          <description>Cor&apos;bax Utterblight Unbound may only be selected as part of an army which uses the Creeping Scourge Aetheric Dominion, and must be the army&apos;s Warlord. Cor&apos;bax Utterblight Unbound uses the Pestilent Cloud 主将特性 from the Creeping Scourge Aetheric Dominion 主将特性 table, and gains the 永恒战士 规则.</description>
         </rule>
         <rule id="588a-11d1-bd2b-fcae" name="主将特性: Pestilent Cloud" publicationId="ca571888--pubN103311" page="218" hidden="false">
-          <description>Pestilent Cloud: All units within 3&quot; of this Warlord at the end of any Fight sub-phase that do not have the 恶魔 of the Ruinstorm 特殊规则 suffer D6 Str 2, AP - hits. These hits and any casualties caused do not count for combat resolution.</description>
+          <description>Pestilent Cloud: All units within 3&quot; of this Warlord at the end of any Fight sub-phase that do not have the 恶魔 of the Ruinstorm 规则 suffer D6 Str 2, AP - hits. These hits and any casualties caused do not count for combat resolution.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2962,7 +2962,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
 
 When being deployed in this manner, Samus Unbound does not need to pass a Reserves roll. Instead, Samus Unbound is automatically deployed.
 
-This 特殊规则 does not prevent Sam us Unbound being deployed earlier in the game using the
+This 规则 does not prevent Sam us Unbound being deployed earlier in the game using the
 standard Parting the Veil rule.</description>
         </rule>
         <rule id="3d4b-5081-ac25-c0b5" name="Whispers of Madness" hidden="false">
@@ -2970,10 +2970,10 @@ standard Parting the Veil rule.</description>
 
 If Sam us Unbound is part of your army, the Warp Charge cost of any blessing type Psychic Power used during the game (by either side) is increased by +1.
 
-Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in order to charge Samus Unbound, have their Leadership value halved unless they have the 坚毅 or 无畏 special rules.</description>
+Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in order to charge Samus Unbound, have their Leadership value halved unless they have the 坚毅 or 无畏 规则.</description>
         </rule>
         <rule id="cd34-2bbf-41fd-c11a" name="Lord of Murder" hidden="false">
-          <description>Samus Unbound may only be selected as part of an army using the Resplendent Terror Aetheric Dominion, and must be the army&apos;s Warlord. Samus Unbound uses the Path of Blood 主将特性 from the Crimson Fury Aetheric Dominion 主将特性 table, and gains the 永恒战士 特殊规则.</description>
+          <description>Samus Unbound may only be selected as part of an army using the Resplendent Terror Aetheric Dominion, and must be the army&apos;s Warlord. Samus Unbound uses the Path of Blood 主将特性 from the Crimson Fury Aetheric Dominion 主将特性 table, and gains the 永恒战士 规则.</description>
         </rule>
         <rule id="b053-dfc2-2a6f-086e" name="主将特性: Path of Blood" hidden="false">
           <description>Whenever this Warlord declares a charge, it may roll a number of dice equal to its Attacks value to determine the distance moved, keeping the two highest results and discarding all other dice.</description>
@@ -3615,7 +3615,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="fc7c-9bf8-ca5c-6864" name="3-4. Flickering Gait" hidden="false">
-                  <description>This Warlord, and any friendly unit with the 恶魔 of the Ruinstorm 特殊规则 within 6&quot;, do not roll dice when choosing to Run in the 射击阶段, but instead always move the maximum amount possible for that unit.</description>
+                  <description>This Warlord, and any friendly unit with the 恶魔 of the Ruinstorm 规则 within 6&quot;, do not roll dice when choosing to Run in the 射击阶段, but instead always move the maximum amount possible for that unit.</description>
                 </rule>
               </rules>
               <costs>
@@ -3628,7 +3628,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="a8d1-f277-4524-6078" name="5-6. Loping Charge" hidden="false">
-                  <description>This Warlord, and any friendly unit with the 恶魔 of the Ruinstorm 特殊规则 within 6&apos;&apos;, add +r to the distance moved when making a Charge in the 突击阶段 - this makes the maximum possible Charge distance for these units 13&quot;.</description>
+                  <description>This Warlord, and any friendly unit with the 恶魔 of the Ruinstorm 规则 within 6&apos;&apos;, add +r to the distance moved when making a Charge in the 突击阶段 - this makes the maximum possible Charge distance for these units 13&quot;.</description>
                 </rule>
               </rules>
               <costs>
@@ -3645,7 +3645,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="4ff5-457a-f7aa-6a2e" name="1-2. Blight 机甲" hidden="false">
-                  <description>This Warlord and all friendly units with the 恶魔 of the Ruinstorm 特殊规则 within 6&quot; are considered to always roll a 6 when called upon to take Difficult Terrain tests and 危险地形 tests.</description>
+                  <description>This Warlord and all friendly units with the 恶魔 of the Ruinstorm 规则 within 6&quot; are considered to always roll a 6 when called upon to take Difficult Terrain tests and 危险地形 tests.</description>
                 </rule>
               </rules>
               <costs>
@@ -3675,7 +3675,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="3926-3faf-3106-9cb2" name="5-6. Pestilent Cloud" hidden="false">
-                  <description>All units within 3&quot; of this Warlord at the end of any Fight sub-phase that do not have the 恶魔 of the Ruinstorm 特殊规则 suffer D6 Str 2, AP - hits. These hits and any casualties caused do not count for combat resolution.</description>
+                  <description>All units within 3&quot; of this Warlord at the end of any Fight sub-phase that do not have the 恶魔 of the Ruinstorm 规则 suffer D6 Str 2, AP - hits. These hits and any casualties caused do not count for combat resolution.</description>
                 </rule>
               </rules>
               <costs>
@@ -3692,7 +3692,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="5669-846c-003c-3106" name="1-2. Skull Keeper" hidden="false">
-                  <description>This Warlord and any friendly unit with the 恶魔 of the Ruinstorm 特殊规则 within 6&quot; of the Warlord may add +D3 to the Wounds value calculated to see if they win combat in the 突击阶段.</description>
+                  <description>This Warlord and any friendly unit with the 恶魔 of the Ruinstorm 规则 within 6&quot; of the Warlord may add +D3 to the Wounds value calculated to see if they win combat in the 突击阶段.</description>
                 </rule>
               </rules>
               <costs>
@@ -3705,7 +3705,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="2901-fb48-f3c4-1f97" name="3-4. Aegis of 暴怒" hidden="false">
-                  <description>Each time this Warlord, or any friendly unit with the 恶魔 of the Ruinstorm 特殊规则 within 12&quot;, is targeted by a Psychic Power, the Warlord may attempt to Deny the Witch as though they were a 灵能者 of a higher Mastery Level than the 灵能者 manifesting the power and a part of the unit being targeted (regardless of actual Mastery Levels). If the Deny the Witch attempt is failed, the Psychic Power is resolved as normal and affects only its original target.</description>
+                  <description>Each time this Warlord, or any friendly unit with the 恶魔 of the Ruinstorm 规则 within 12&quot;, is targeted by a Psychic Power, the Warlord may attempt to Deny the Witch as though they were a 灵能者 of a higher Mastery Level than the 灵能者 manifesting the power and a part of the unit being targeted (regardless of actual Mastery Levels). If the Deny the Witch attempt is failed, the Psychic Power is resolved as normal and affects only its original target.</description>
                 </rule>
               </rules>
               <costs>
@@ -3735,7 +3735,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="6943-d498-a950-4d93" name="1-2. Font of Madness" hidden="false">
-                  <description>In each Psychic phase, this Warlord generates Warp Charge points equal to its Mastery Level +1. If this Warlord does not have the 灵能者 特殊规则 then it generates D3 Warp Charge points per Psychic phase (this does not allow them to manifest Psychic Powers).</description>
+                  <description>In each Psychic phase, this Warlord generates Warp Charge points equal to its Mastery Level +1. If this Warlord does not have the 灵能者 规则 then it generates D3 Warp Charge points per Psychic phase (this does not allow them to manifest Psychic Powers).</description>
                 </rule>
               </rules>
               <costs>
@@ -3748,7 +3748,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="ebee-5086-e9d6-5f9b" name="3-4. Aetheric Lightning Rod" hidden="false">
-                  <description>For each unit with the 灵能者 特殊规则 within 6&quot; of this Warlord during a given 突击阶段, it gains an additional attack 近战中 </description>
+                  <description>For each unit with the 灵能者 规则 within 6&quot; of this Warlord during a given 突击阶段, it gains an additional attack 近战中 </description>
                 </rule>
               </rules>
               <costs>
@@ -3778,7 +3778,7 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
               </constraints>
               <rules>
                 <rule id="a3ba-12cb-8d55-e0f5" name="1-2. The All is One" hidden="false">
-                  <description>When this Warlord is involved in a Challenge against a model with any of the 灵能者, 恶魔 or 恶魔 of the Ruinstorm special rules, the controlling player may choose to use the WS and/or Initiative characteristics of the opposing model for the duration of a given Fight phase. This does not alter the characteristics of the opposing model.</description>
+                  <description>When this Warlord is involved in a Challenge against a model with any of the 灵能者, 恶魔 or 恶魔 of the Ruinstorm 规则, the controlling player may choose to use the WS and/or Initiative characteristics of the opposing model for the duration of a given Fight phase. This does not alter the characteristics of the opposing model.</description>
                 </rule>
               </rules>
               <costs>
@@ -3833,29 +3833,29 @@ Models in combat with Sam us Unbound, as well as those taking 恐怖 tests in or
       <description>For every three models in the unit (rounding up), one model may attack during the 射击阶段 using the following weapon&apos;s profile. The range and 视线 for the attack may be measured from any models in the unit, but if multiple attacks are made in the 射击阶段, then they must each be measured from seperate models. The models chosen to perform these attacks may be changed in each 射击阶段. </description>
     </rule>
     <rule id="0b0d-9d33-c0a8-06cd" name="恶魔 of the Ruinstorm" publicationId="ca571888--pubN103311" hidden="false">
-      <description>Models with this 特殊规则 have a 5+ 特殊保护 and gain the 恐怖 特殊规则. In addition, they are immune to the effects of the 恐怖 特殊规则 themselves and automatically pass 压制, 恐怖 and Regroup tests, and cannot choose to fair a Morale check due to the Our Weapons Are Useless rule. When a Morale check taken by a unit with this 特殊规则 is failed, they do no 撤退 as per the standard rules, but instead suffer Perils of the Warp.
+      <description>Models with this 规则 have a 5+ 特殊保护 and gain the 恐怖 规则. In addition, they are immune to the effects of the 恐怖 规则 themselves and automatically pass 压制, 恐怖 and Regroup tests, and cannot choose to fair a Morale check due to the Our 武器 Are Useless rule. When a Morale check taken by a unit with this 规则 is failed, they do no 撤退 as per the standard rules, but instead suffer Perils of the Warp.
 
-Any effect or rule that targets models with the 恶魔 特殊规则 also targets and affects models with this 特殊规则 as though they had the 恶魔 rule.
+Any effect or rule that targets models with the 恶魔 规则 also targets and affects models with this 规则 as though they had the 恶魔 rule.
 
-All models with this 特殊规则 that suffer Perils of the Warp for any reason use the table in Book 8: Malevolence instead of the one supplied as part of the core rules. Note that some effects only occur during the psychic phase - when rolling on this table in other phases, ignore al references to 次元充能. Wounds inflicted by rolls on the table are allocated by the controlling player. </description>
+All models with this 规则 that suffer Perils of the Warp for any reason use the table in Book 8: Malevolence instead of the one supplied as part of the core rules. Note that some effects only occur during the psychic phase - when rolling on this table in other phases, ignore al references to 次元充能. Wounds inflicted by rolls on the table are allocated by the controlling player. </description>
     </rule>
     <rule id="a2dc-7a16-0067-a4db" name="Tides of Madness" publicationId="ca571888--pubN103311" hidden="false">
-      <description>All models with this 特殊规则 are directly affected by the shifting tides of the Warp, and have their base statistics modified based on the current game turn.</description>
+      <description>All models with this 规则 are directly affected by the shifting tides of the Warp, and have their base statistics modified based on the current game turn.</description>
     </rule>
     <rule id="c828-3e09-a384-735b" name="Parting the Veil" publicationId="ca571888--pubN103311" hidden="false"/>
     <rule id="276f-cbc2-b814-4850" name="Lord of Chaos" publicationId="ca571888--pubN103311" hidden="false">
       <description>A Ruinstorm 恶魔 Lord must always be the army&apos;s Warlord. </description>
     </rule>
     <rule id="9340-ceb9-279b-ddbd" name="Vanguard of Hell" publicationId="ca571888--pubN103311" hidden="false">
-      <description>On the first turn of the game, if a unit is composed entirely of models with this 特殊规则, then no roll is made to see if it enters play. Instead, the controlling player may choose whether it comes into play without rolling.
+      <description>On the first turn of the game, if a unit is composed entirely of models with this 规则, then no roll is made to see if it enters play. Instead, the controlling player may choose whether it comes into play without rolling.
 
 If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it must be rolled for as normal on subsequent turns.</description>
     </rule>
     <rule id="34c2-6943-3216-c5a2" name="Guardian 恶魔" publicationId="ca571888--pubN103311" hidden="false">
-      <description>When a unit that incudes one or more models with this 特殊规则 suffers hits during the 射击阶段, those hits must be allocated to models with this 特殊规则 first, before any model, regardless of posistion or 视线.</description>
+      <description>When a unit that incudes one or more models with this 规则 suffers hits during the 射击阶段, those hits must be allocated to models with this 规则 first, before any model, regardless of posistion or 视线.</description>
     </rule>
     <rule id="6f54-e6fe-b221-54b8" name="Shepherd of Malign Intent" publicationId="ca571888--pubN103311" hidden="false">
-      <description>At the start of the game, before any models are deployed, this model may be given one 特殊规则 from the list presented below. Once chosen, this 特殊规则 may not be changed for the duration of the game:
+      <description>At the start of the game, before any models are deployed, this model may be given one 规则 from the list presented below. Once chosen, this 规则 may not be changed for the duration of the game:
 
 - 宿敌 (步兵);
 - 宿敌 (Bike, Jetbike and 骑兵);
@@ -3865,7 +3865,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
       <description>This unit may never control objectives and Independant Characters may not joing it. In addition, no player may ever score Victory Points for the destruction or removal of this unit from play. </description>
     </rule>
     <rule id="7e4c-02df-f834-6a66" name="Unstoppable" publicationId="ca571888--pubN103311" hidden="false">
-      <description>Any attack that normally inflicts 即死, or says the the target model is removed from play, instead inflicts D3 wounds on a model with this 特殊规则. In addition, attacks made with the 狙击 or 毒伤 special rules only cause a wound on a roll of 6 (unless the attacker&apos;s Strength would cause a wound on a lower result)</description>
+      <description>Any attack that normally inflicts 即死, or says the the target model is removed from play, instead inflicts D3 wounds on a model with this 规则. In addition, attacks made with the 狙击 or 毒伤 规则 only cause a wound on a roll of 6 (unless the attacker&apos;s Strength would cause a wound on a lower result)</description>
     </rule>
     <rule id="f935-faf4-1502-0f52" name="Rift Barb" publicationId="ca571888--pubN103311" page="235" hidden="false">
       <description>A single model in the unit may attack during the 射击阶段 using the following profile. The range and 视线 for the attack may be measured from any model in the unit. </description>
@@ -3917,7 +3917,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="e553-5fe7-2eba-42f2" name="Possessed Auxiliary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="e553-5fe7-2eba-42f2" name="Possessed 辅助军" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -4117,77 +4117,77 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Type" typeId="5479706523232344415441232323">突击 1, 装甲杀手</characteristic>
       </characteristics>
     </profile>
-    <profile id="fca2-f660-2768-c79f" name="Molten Blood" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="fca2-f660-2768-c79f" name="Molten Blood" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Whenever a model with this 特殊规则 suffers an unsaved wound, any enemy units locked in combat with it suffer a single a single Str (user), AP- hit.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Whenever a model with this 规则 suffers an unsaved wound, any enemy units locked in combat with it suffer a single a single Str (user), AP- hit.</characteristic>
       </characteristics>
     </profile>
-    <profile id="72b2-44f6-a487-9711" name="Lord of Sorcery" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="72b2-44f6-a487-9711" name="Lord of Sorcery" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">This units gains the 灵能者 特殊规则 and a single level of 灵能精通. Additional levels of Mastery may be purchased at a cost of 25 points per additional level. Only 恶魔 Lords, Chosen en Greater Daemons may purchase this Emanation and only 恶魔 Lords may purchase more than two levels of Mastery. Psychic Powers may be selected from any of the disciplines presented in the Horus Heresy: Age of Darkness rulebook, except Malefic or Sanctic Daemonology. </characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">This units gains the 灵能者 规则 and a single level of 灵能精通. Additional levels of Mastery may be purchased at a cost of 25 points per additional level. Only 恶魔 Lords, Chosen en Greater Daemons may purchase this Emanation and only 恶魔 Lords may purchase more than two levels of Mastery. Psychic Powers may be selected from any of the disciplines presented in the Horus Heresy: Age of Darkness rulebook, except Malefic or Sanctic Daemonology. </characteristic>
       </characteristics>
     </profile>
-    <profile id="45a3-99f6-c011-ef06" name="Daemonic Wings" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="45a3-99f6-c011-ef06" name="Daemonic Wings" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit&apos;s type is changed from 步兵 to 跳跃步兵 or from 巨兽 to Jump 巨兽.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3ca6-5e4c-f702-b983" name="Crushing Claws" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="3ca6-5e4c-f702-b983" name="Crushing Claws" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The units gains the 撕裂 special rules on all 近战攻击 it makes.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The units gains the 撕裂 规则 on all 近战攻击 it makes.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6956-e790-321e-9bf7" name="Flensing Talons" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="6956-e790-321e-9bf7" name="Flensing Talons" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The units gains the 撕碎 special rules on all 近战攻击 it makes.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The units gains the 撕碎 规则 on all 近战攻击 it makes.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2277-6f14-8087-995a" name="Sundering Fangs" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="2277-6f14-8087-995a" name="Sundering Fangs" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any model in the unit may chose to make a single attack during the fight phase, at Initiative step 1, instead of their standard number of attacks. The single is made a twice the normal Strength of that model (to a maximum of 10) and gains the 碎裂 特殊规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any model in the unit may chose to make a single attack during the fight phase, at Initiative step 1, instead of their standard number of attacks. The single is made a twice the normal Strength of that model (to a maximum of 10) and gains the 碎裂 规则.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c007-edaa-5e1d-8f24" name="Brass Collar" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="c007-edaa-5e1d-8f24" name="Brass Collar" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 精金意志 特殊规则 and an Armour Save of 3+.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 精金意志 规则 and an Armour Save of 3+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6b1c-472a-a93a-b6f4" name="Ephemeral Terror" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="6b1c-472a-a93a-b6f4" name="Ephemeral Terror" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Models with this Emaration do not suffer the penalty to their Initiative for charging enemy units through terrain but instead fight at their normal Initiative in the enuing combat.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8103-9102-4449-4d89" name="Miasma of Rot" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="8103-9102-4449-4d89" name="Miasma of Rot" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any enemy unit locked in combat with a unit with this Emanation reduces its Toughnes by -1, or, if it has an Armour Value instead of a Toughness characteristic, reduce the Armour Value of all facings by -1 while it remains locked in combat or otherwise base-to-base contact. This effect is not cumulative, and is applied only once regardless of the nmber of units with this Emanation in contact with a given unit. In addition, any reduction to a unit&apos;s Toughness characteristic imposed by this Emanation does not affect the victim&apos;s 即死 threshold.</characteristic>
       </characteristics>
     </profile>
-    <profile id="33bf-b97d-5599-b1da" name="Stupefying Musk" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="33bf-b97d-5599-b1da" name="Stupefying Musk" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Any unit charged by, or locked in combat with, a unit with this Emanation must make a Morale check at the beginning of any Fight sub-phase. If the check is failed then that unit must reduce its Initiative by 1 for the duration of that sub-phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5e20-f66e-9d6d-fd06" name="Warp Scions" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="5e20-f66e-9d6d-fd06" name="Warp Scions" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the Brotherhood of Psykers 特殊规则 and a Mastery Level of 1. It may chose to use any of the following powers: Smite, Flame Breath, Assail or Psychic Shriek. This must be chosen at the start of the game before deployment and may not be changed.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the Brotherhood of Psykers 规则 and a Mastery Level of 1. It may chose to use any of the following powers: Smite, Flame Breath, Assail or Psychic Shriek. This must be chosen at the start of the game before deployment and may not be changed.</characteristic>
       </characteristics>
     </profile>
-    <profile id="142a-69c1-0878-c13d" name="Horned Crown" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="142a-69c1-0878-c13d" name="Horned Crown" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">获得 the unit the 愤怒之锤 特殊规则. If the unit already has this 特殊规则 then the number of hits inflicted is increased from 1 to D3 (roll once per unit to determine the number of hits inflicted per model)</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">获得 the unit the 愤怒之锤 规则. If the unit already has this 规则 then the number of hits inflicted is increased from 1 to D3 (roll once per unit to determine the number of hits inflicted per model)</characteristic>
       </characteristics>
     </profile>
-    <profile id="7343-afbd-e201-8337" name="Warp-scaled Hide" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="7343-afbd-e201-8337" name="Warp-scaled Hide" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit with this Emanation increases its Armour Save to 3+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6aba-8ca3-1515-5f28" name="Quicksilver Speed" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="6aba-8ca3-1515-5f28" name="Quicksilver Speed" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 迅捷 and 穿越地形 special rules.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The unit gains the 迅捷 and 穿越地形 规则.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a181-08b7-a898-48ff" name="Shroud of Darkness" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="a181-08b7-a898-48ff" name="Shroud of Darkness" publicationId="ca571888--pubN103311" page="235" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Models charging a unit with this Emanation do not gain bonus attacks from charging.</characteristic>
       </characteristics>

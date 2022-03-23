@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="9f87-b468-2001-5e3b" name="Mournival Units Legion Astartes (Fanmade)" revision="48" battleScribeVersion="2.03" authorName="Aus30K / Mournival Events" authorContact="" authorUrl="https://www.facebook.com/groups/190699548351507/" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="156" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="1fb0-1499-5637-4715" name="Additional Ammunition, Weapons, Psychic Disciplines" hidden="false"/>
+    <categoryEntry id="1fb0-1499-5637-4715" name="Additional Ammunition, 武器, Psychic Disciplines" hidden="false"/>
     <categoryEntry id="c821-d9f2-5684-64fa" name="# Restiction" hidden="false">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33e5-3aed-8c8c-2c8c" type="max"/>
@@ -1855,7 +1855,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
       </profiles>
       <rules>
         <rule id="5889-c4d4-d798-b530" name="Possession" hidden="false">
-          <description>If the Rogue 灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes Possessed with the profile given above. The model gains the 恶魔 and 撕裂 special rules but loses the 灵能者 特殊规则.
+          <description>If the Rogue 灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes Possessed with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
 If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
         </rule>
       </rules>
@@ -1907,7 +1907,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4a83-23c6-4c31-d5a5" name="May swap Close Combat weapon for Tainted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f2d6-71eb-c150-7568">
+        <selectionEntryGroup id="4a83-23c6-4c31-d5a5" name="May swap 近战武器 for Tainted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f2d6-71eb-c150-7568">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9167-59ac-2c89-9f05" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3db-0b1a-aa39-728b" type="min"/>
@@ -1950,7 +1950,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bad-2ae1-7943-309d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2704-12af-414d-ad9e" name="Enhanced 偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="2704-12af-414d-ad9e" name="Enhanced 偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">4+ 特殊保护</characteristic>
                   </characteristics>
@@ -1965,7 +1965,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaaa-05f4-6f1e-9af1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="bc8f-edb4-c2a0-4e12" name="偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="bc8f-edb4-c2a0-4e12" name="偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">5+ 特殊保护</characteristic>
                   </characteristics>
@@ -2232,7 +2232,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <entryLink id="e8db-1a4a-d00d-1bee" name="Alpha Legion: Banestrike" hidden="false" collective="false" import="true" targetId="ba94-773c-bf08-b5a7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d7dc-f454-0005-b112" name="Frost Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d7dc-f454-0005-b112" name="Frost 武器" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="decrement" field="dc48-6936-ae73-75e0" value="1.0">
               <repeats>
@@ -2329,7 +2329,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
       <rules>
         <rule id="c58a-92f8-08bf-02a4" name="The Alpha Legion (Sleeper Cell)" publicationId="ca571888--pubN67459" page="" hidden="false">
           <description>If the Army is Alpha Legion then this unit may use Mutable Tactics and Martial Hubris as per the normal rules for the Alpha Legion.
-• Mutable Tactics: An Alpha Legion army must pick one of the following special rules at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 特殊规则 for the duration of this game:
+• Mutable Tactics: An Alpha Legion army must pick one of the following 规则 at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 规则 for the duration of this game:
 - 侦察
 - 渗透
 - 坦克猎手
@@ -2420,7 +2420,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
       <selectionEntryGroups>
         <selectionEntryGroup id="ce74-2faa-b7d5-3f0e" name="Cell Alpha may select the following" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="2351-90c9-8fd6-f5ae" name="May Exchange 爆弹手枪 for 等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2351-90c9-8fd6-f5ae" name="可以替换 爆弹手枪 for 等离子手枪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa92-4151-761f-f7d1" type="max"/>
               </constraints>
@@ -2432,7 +2432,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c892-870a-9990-4b82" name="May Exchange 战斗刀 for 动力拳" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c892-870a-9990-4b82" name="可以替换 战斗刀 for 动力拳" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da1-5746-a611-dec5" type="max"/>
               </constraints>
@@ -2645,11 +2645,11 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
           <description>The Centurion may 分散火力 from any unit he joins. If he chooses to forego shooting, he instead grants 撕碎 and 碎裂 to the unit’s attacks. This bonus does not apply to 爆炸 and 喷射盖板 attacks.</description>
         </rule>
         <rule id="35f1-eb5e-4eb7-deee" name="Legion Gunnery Centurion" hidden="false">
-          <description>May only join Veteran Tactical, Tactical, Tactical Support and Heavy Support Squads and Rapier Batteries</description>
+          <description>May only join Veteran Tactical, Tactical, Tactical Support and Heavy Support Squads and 细剑 Batteries</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="23c4-d783-01fb-1e49" name="Support Officer" hidden="false" targetId="dc4d-c7ca-3b5e-18f6" type="rule"/>
+        <infoLink id="23c4-d783-01fb-1e49" name="支援军官" hidden="false" targetId="dc4d-c7ca-3b5e-18f6" type="rule"/>
         <infoLink id="8ed0-b091-e3f9-58a0" name="打带跑" hidden="false" targetId="5342-bf92-d6c0-ebb9" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -2688,7 +2688,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         <categoryLink id="05cd-eb8d-0880-76c4" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="586c-2b17-ffdc-41fd" name="May Exchange his 精工Bolt Gun for a 精工:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5b6-1360-ef4f-8bb3">
+        <selectionEntryGroup id="586c-2b17-ffdc-41fd" name="可以替换 his 精工Bolt Gun for a 精工:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5b6-1360-ef4f-8bb3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f0e-5e46-5032-3f77" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefb-65b3-f92e-0dcc" type="min"/>
@@ -2800,7 +2800,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7dc6-1e1d-cb43-580c" name="精工Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7dc6-1e1d-cb43-580c" name="精工导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcae-8eab-16a5-d46f" type="max"/>
               </constraints>
@@ -3087,7 +3087,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <entryLink id="ab12-53ea-9e59-1a23" name="Meteor Hammer" hidden="false" collective="false" import="true" targetId="19aadb8a-b814-c2c0-0198-223c038c1950" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0a3e-c80a-618c-7c0c" name="May exchange 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1878-ead4-5155-50eb">
+        <selectionEntryGroup id="0a3e-c80a-618c-7c0c" name="可以替换 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1878-ead4-5155-50eb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a7-e5d3-9e46-5ed6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b1-6a2d-5a9c-4d0e" type="min"/>
@@ -3151,9 +3151,9 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8503-f675-11df-50ba" name="Missile Launcher Munitions (Any unit equiped with Missile Launcher (or variant of) 可以选择 upgrade, at 5pts per model)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8503-f675-11df-50ba" name="导弹发射器 Munitions (Any unit equiped with 导弹发射器 (or variant of) 可以选择 upgrade, at 5pts per model)" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a3e1-4339-9361-f1a6" name="Missile Launcher: Sabot" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="a3e1-4339-9361-f1a6" name="导弹发射器: Sabot" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323"/>
@@ -3299,13 +3299,13 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="363d-2beb-ff36-828a" name="Possessed Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="363d-2beb-ff36-828a" name="Possessed 士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2436-8726-ae72-a935" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10aa-ccf0-fc4f-cfa5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="57ac-6c2f-1cfc-13ab" name="Possessed Sergeant" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="57ac-6c2f-1cfc-13ab" name="Possessed 士官" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="2+">
                   <conditions>
@@ -3431,7 +3431,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="87d0-8bb6-b04f-9526" name="Possessed Sergeant may select the following" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="87d0-8bb6-b04f-9526" name="Possessed 士官 may select the following" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="3162-da54-aed7-8537" name="精工甲" hidden="false" collective="false" import="true" targetId="93f9-8aba-be48-907a" type="selectionEntry">
               <constraints>
@@ -3566,7 +3566,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e1b9-6d3d-d55f-5470" name="Possessed Sergeant may replace his 链锯剑 with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a329-f384-3adf-9217">
+        <selectionEntryGroup id="e1b9-6d3d-d55f-5470" name="Possessed 士官 may replace his 链锯剑 with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a329-f384-3adf-9217">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a94-a06c-a918-5ebf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="175f-ad1e-c956-9f3e" type="min"/>
@@ -3851,7 +3851,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
           </constraints>
           <rules>
             <rule id="44b7-d0c5-e1b1-3a05" name="The Alpha Legion" publicationId="ca571888--pubN67459" page="124" hidden="false">
-              <description>• Mutable Tactics: An Alpha Legion army must pick one of the following special rules at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 特殊规则 for the duration of this game:
+              <description>• Mutable Tactics: An Alpha Legion army must pick one of the following 规则 at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 规则 for the duration of this game:
 - 侦察
 - 渗透
 - 坦克猎手
@@ -4000,7 +4000,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
           <description>The model can never join or be joined by other models.</description>
         </rule>
         <rule id="245a-39b5-553e-c401" name="Lightning Reflexes" hidden="false">
-          <description>A model with this 特殊规则 has a 4+ 特殊保护. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
+          <description>A model with this 规则 has a 4+ 特殊保护. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
         </rule>
         <rule id="d9ae-a830-0251-1565" name="无法逃避" hidden="false">
           <description>Enemy models suffer -2 to Look Out Sir tests against wounds inflicted by this model.</description>
@@ -4127,7 +4127,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b1-4cb0-c13b-c9a8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5900-01af-4fe8-8ca8" name="Djinn Skein" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="5900-01af-4fe8-8ca8" name="Djinn Skein" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Each Cyber Occularis functions as a Nuncio Vox. Additionally, at the beginning of each 射击阶段, nominate 1 friendly unit within 6” of a single Cyber Occularis to gain +1BS for the duration of the phase</characteristic>
               </characteristics>
@@ -4218,10 +4218,10 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
 a penalty of -1T for the duration of the game
 a penalty of -1WS and BS for the game
 cannot Run or perform 追击
-One 特殊规则 the unit possesses from this list (敏锐感官, 精金意志, 反击, 远征军, 不知疼痛, 恐怖, 无畏, 迅捷, 狂怒冲锋, 愤怒之锤, 憎恨, Hit &amp; Run, 他不会死, 巨兽猎手, 穿越地形, 夜视, 精准射击 or Strikes, 宿敌, 暴怒, 狂暴, 毫不留情, 撕裂, 笼罩, 分散火力, 隐蔽, 坚毅, or 坦克猎手) ceases to have any effect.</description>
+One 规则 the unit possesses from this list (敏锐感官, 精金意志, 反击, 远征军, 不知疼痛, 恐怖, 无畏, 迅捷, 狂怒冲锋, 愤怒之锤, 憎恨, Hit &amp; Run, 他不会死, 巨兽猎手, 穿越地形, 夜视, 精准射击 or Strikes, 宿敌, 暴怒, 狂暴, 毫不留情, 撕裂, 笼罩, 分散火力, 隐蔽, 坚毅, or 坦克猎手) ceases to have any effect.</description>
         </rule>
         <rule id="82f3-75c7-946f-a91b" name="Lightning Reflexes" hidden="false">
-          <description>A model with this 特殊规则 has a 4+ 特殊保护. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
+          <description>A model with this 规则 has a 4+ 特殊保护. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4399,7 +4399,7 @@ One 特殊规则 the unit possesses from this list (敏锐感官, 精金意志, 
         <rule id="3a75-6fad-5c72-692e" name="Ex Oblivio" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false">
           <description>Psychic models or units of any kind within 6&quot; of models with tis rul at the start of their Psychic phase do not generate additional warp charge dice.
 
-If any 灵能者 model is in base contact with a model that has this 特殊规则 at the start of any Psychic phase they must immediately make a Leadership text before Warp Charge is rolled for. If this test is failed they must immediately suffer Perils of the Warp at -1and may not use any psychic powers durung this phase should they survive this.</description>
+If any 灵能者 model is in base contact with a model that has this 规则 at the start of any Psychic phase they must immediately make a Leadership text before Warp Charge is rolled for. If this test is failed they must immediately suffer Perils of the Warp at -1and may not use any psychic powers durung this phase should they survive this.</description>
         </rule>
         <rule id="9f75-7fbd-b36c-a3d4" name="Psykic Anathema" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false">
           <description>Models witht his rule ar eimmune to all psychic powers and cannot be affected by them. They also ignore any Telepathy 学派 Blessings on enemy units which would negatively affect the models which this rule. This does not extend to Transport Vehicles.
@@ -4439,7 +4439,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="e3a5-01c4-89ec-fe63" name="Enhanced Voidsheen Cloak" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-              <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 weapons</description>
+              <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
             </rule>
           </rules>
           <costs>
@@ -4584,7 +4584,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
               </profiles>
               <rules>
                 <rule id="1c57-8c98-14e1-64e2" name="Electro-Arc" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-                  <description>Total all hits caused by weapons with this 特殊规则 durring an 突击阶段, before making any 造伤骰, then roll a single D6 for each of these hits. Any rolls of 3+ cause an additional hit at AP- with the 毒伤 (4+)特殊规则.</description>
+                  <description>Total all hits caused by 武器 with this 规则 durring an 突击阶段, before making any 造伤骰, then roll a single D6 for each of these hits. Any rolls of 3+ cause an additional hit at AP- with the 毒伤 (4+)规则.</description>
                 </rule>
                 <rule id="092f-9e67-4a93-7e9f" name="Sweeping Strikes" publicationId="e085-bc29-3c2d-2c49" hidden="false">
                   <description>The bearer may choose to use the number of enemy models within 3&quot; that are locked in combat with them instead of their Attacks score to determine the number of attacks they may make in any 突击阶段.</description>
@@ -4638,12 +4638,12 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bf4b-b964-cfe6-54ad" name="Needle 手枪" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bf4b-b964-cfe6-54ad" name="毒针手枪" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a2-d74d-0eda-2a07" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f9d1-3105-f218-afd3" name="Needle 手枪" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="f9d1-3105-f218-afd3" name="毒针手枪" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">12</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
@@ -4733,7 +4733,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="2070-e1c4-33f5-208e" name="Company Cadre Structure" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-              <description>For each HQ unit with this 特殊规则, at least three other units with this rule can be included in the same detachment. If no HQ model is included, then these units may not be selected. Additionally, choose one of the following rules to apply to all models with this rule in the detachment: 渗透, 远征军, 隐蔽, Overawe (+1 to combat resolution)</description>
+              <description>For each HQ unit with this 规则, at least three other units with this rule can be included in the same detachment. If no HQ model is included, then these units may not be selected. Additionally, choose one of the following rules to apply to all models with this rule in the detachment: 渗透, 远征军, 隐蔽, Overawe (+1 to combat resolution)</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -4807,17 +4807,17 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="798c-df41-574b-ea16" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bcb9-c1c3-e860-eae5" name="Atomantic Deflector" publicationId="ca571888--pubN89821" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="bcb9-c1c3-e860-eae5" name="Atomantic Deflector" publicationId="ca571888--pubN89821" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">获得 a 5+ 特殊保护 against shooting attacks and explosions which originate from the front arc.  In addition, when suffering a 载具 Explodes results, add 1&quot; to the radius of the blast.  </characteristic>
               </characteristics>
             </profile>
-            <profile id="4bf0-c835-2122-11d4" name="Atomantic Overcharge" publicationId="ca571888--pubN89821" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="4bf0-c835-2122-11d4" name="Atomantic Overcharge" publicationId="ca571888--pubN89821" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the beginning of the controlling players turn, they may declare that the Contemptor-Cortus is overcharging its Atomantic reactor.  They may then apply one of the following bonuses until the end of the player turn:  - 暴怒 特殊规则 - 1&quot; Move and Charge distances - 2&quot; Run distance - 1 Initiative  At the end of its player turn, rolla  D6.  On a roll of a 1, lose a hull point.  If this is enough to wreck the dreadnought, it suffers an immediate 载具 Explodes and the blast is increased by D3&quot; instead of the usual 1&quot;.  </characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">At the beginning of the controlling players turn, they may declare that the Contemptor-Cortus is overcharging its Atomantic reactor.  They may then apply one of the following bonuses until the end of the player turn:  - 暴怒 规则 - 1&quot; Move and Charge distances - 2&quot; Run distance - 1 Initiative  At the end of its player turn, rolla  D6.  On a roll of a 1, lose a hull point.  If this is enough to wreck the dreadnought, it suffers an immediate 载具 Explodes and the blast is increased by D3&quot; instead of the usual 1&quot;.  </characteristic>
               </characteristics>
             </profile>
-            <profile id="eb97-c678-8388-8f49" name="Unstable Internment" publicationId="ca571888--pubN89821" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="eb97-c678-8388-8f49" name="Unstable Internment" publicationId="ca571888--pubN89821" page="239" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Must always make 追击 when able, but may never be counted as a scoring unit.  </characteristic>
               </characteristics>
@@ -4926,7 +4926,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="bca4-8a94-cf1d-4007" name="Exchange 无畏近战武器 with inbuilt twin-linked bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e23-90c4-a3bf-030a">
+            <selectionEntryGroup id="bca4-8a94-cf1d-4007" name="Exchange 无畏近战武器 with inbuilt 双联 bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e23-90c4-a3bf-030a">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4e2c-819b-2e82-a7fe" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0df1-d5c7-cc56-4569" type="min"/>
@@ -4969,7 +4969,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8fd-43df-fc29-45ca" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="3409-f531-6ad4-87a3" name="双联Missile Launcher" hidden="false" collective="false" import="true" targetId="3b01-3691-b570-475d" type="selectionEntry">
+                <entryLink id="3409-f531-6ad4-87a3" name="双联导弹发射器" hidden="false" collective="false" import="true" targetId="3b01-3691-b570-475d" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="6ba8-e169-8861-44c6" value="2.0"/>
                   </modifiers>
@@ -5108,16 +5108,16 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
               <description>Legion Techmarines bring both their expertise and equipment which can greatly enhance the capabilities of a Legionary squad. A Techmarine assigned to a Squad unlocks:
 ♦Suspensor webs: +5 points per model equipped with a weapon with the Heavy type.
 ♦Biocorrosive Ammunition: +2 points per model equipped with a 转管炮.
-♦Sabot Rounds: +2 points per model equipped with an 自动炮 and that weapons gains 碎裂.</description>
+♦Sabot Rounds: +2 points per model equipped with an 自动炮 and that 武器 gains 碎裂.</description>
             </rule>
             <rule id="3347-6c01-2010-59bf" name="Supernumerary" hidden="false">
               <description>0-1 Legion Techmarines may be taken for each full 500 points in the detachment. These models use a single Elites 立场 Organisation slot. Each Legion Techmarine must be deployed as either:
 ♦ A separate unit which may be joined by 伺服自动机兵 and 可以装备 a Rhino as a 专属运输载具, or
-♦ Assigned to one of your squads during deployment and may not voluntarily leave it during the game. Only squads entirely comprising models with the 步兵 type and the 阿斯塔特军团 特殊规则 are eligible to be joined, and squads equipped with Terminator armour may not be joined.
+♦ Assigned to one of your squads during deployment and may not voluntarily leave it during the game. Only squads entirely comprising models with the 步兵 type and the 阿斯塔特军团 规则 are eligible to be joined, and squads equipped with Terminator armour may not be joined.
 
 ♦ If equipped with a 跳跃背包 then they may only join eligible squads with the 跳跃步兵 type. If equipped with a Legion 星际战士摩托 then they may only join eligible squads with the Bike type instead.
 
-♦ Techmarines on Bullock Jetcycles can only join Astartes squads equipped with Bullock Jetcycles. Armorium can be used with all types of the weapons named, e.g. Biocorrosive ammunition can be used with heavy and snub 转管炮.</description>
+♦ Techmarines on Bullock Jetcycles can only join Astartes squads equipped with Bullock Jetcycles. Armorium can be used with all types of the 武器 named, e.g. Biocorrosive ammunition can be used with heavy and snub 转管炮.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5185,7 +5185,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5686-be4b-c692-714c" name="May exchange their 动力斧 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c1b9-9938-3b91-e549">
+            <selectionEntryGroup id="5686-be4b-c692-714c" name="可以替换 their 动力斧 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c1b9-9938-3b91-e549">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a5b-2100-03ce-4d06" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11b-0b7f-7199-4b25" type="min"/>
@@ -5273,7 +5273,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="aa6c-92b2-1b86-a55f" name="May exchange 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="112e-5041-3e10-7691">
+            <selectionEntryGroup id="aa6c-92b2-1b86-a55f" name="可以替换 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="112e-5041-3e10-7691">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2051-90ae-6241-1a30" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7484-6b41-ea96-1d05" type="min"/>
@@ -5343,7 +5343,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="074b-ec8d-2999-9bcd" name="May Techmarine 可以装备 any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="074b-ec8d-2999-9bcd" name="May Techmarine 可以装备任何:" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="0c56-dcef-630f-7070" name="占卜扫描仪" hidden="false" collective="false" import="true" targetId="7e20-c85a-2e04-dd0b" type="selectionEntry">
                   <costs>
@@ -5369,7 +5369,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             </selectionEntryGroup>
             <selectionEntryGroup id="549b-8ce2-e573-c31b" name="Armorium Options" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="f6c9-33d5-bd94-2b54" name="Biocorrosive Ammunition (Rotor Cannons Only)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f6c9-33d5-bd94-2b54" name="Biocorrosive Ammunition (转管炮 Only)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="f67a-2db9-5f9f-9048" name="生化弹药" hidden="false" targetId="ab48-8dc9-50b7-0fa9" type="profile"/>
                   </infoLinks>
@@ -5377,7 +5377,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                     <cost name="pts" typeId="points" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1b9f-d278-f5db-5d87" name="Sabot Rounds (Autocannons Only)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="1b9f-d278-f5db-5d87" name="Sabot Rounds (自动炮 Only)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="5e50-1efe-faad-b0d1" name="自动炮: Sabot" hidden="false" targetId="d706-b010-f97a-ff5e" type="profile"/>
                   </infoLinks>
@@ -5385,7 +5385,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                     <cost name="pts" typeId="points" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="ae59-024c-24f1-1356" name="Suspensor Webs (Heavy Weapons Only)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="ae59-024c-24f1-1356" name="Suspensor Webs (Heavy 武器 Only)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="fd82-b734-e454-f244" name="反重力支架" hidden="false" targetId="3d78-f901-8afc-00ff" type="rule"/>
                   </infoLinks>
@@ -5439,13 +5439,13 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                     </rule>
                   </rules>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="01ab-678c-0f43-37df" name="伺服自动机兵 may exchange bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="99e1-c2bd-2afd-9a33">
+                    <selectionEntryGroup id="01ab-678c-0f43-37df" name="伺服自动机兵 可以替换 bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="99e1-c2bd-2afd-9a33">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6a6-230c-807e-b2b0" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ba-7f64-dca9-4bec" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="37a5-673c-5b81-c40f" name="Missile Launcher" publicationId="ca571888--pubN73904" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="37a5-673c-5b81-c40f" name="导弹发射器" publicationId="ca571888--pubN73904" hidden="false" collective="false" import="true" type="upgrade">
                           <modifiers>
                             <modifier type="set" field="points" value="10.0">
                               <conditions>
@@ -5522,7 +5522,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="83d8-3c33-17ca-360c" name="伺服自动机兵 may exchange 链锯剑 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2be6-14e4-2d91-4071">
+                    <selectionEntryGroup id="83d8-3c33-17ca-360c" name="伺服自动机兵 可以替换 链锯剑 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2be6-14e4-2d91-4071">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2507-e8c4-981a-a164" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3721-a0ae-6f67-d43a" type="max"/>
@@ -5684,7 +5684,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           <description>A unit of Ulfhednar never counts as a Scoring unit, regardless of the provisions of the mission being played. Furthermore, the Pack cannot be embarked in any transport 载具.</description>
         </rule>
         <rule id="489d-e103-8f5e-6d01" name="Warriors Mettle" hidden="false">
-          <description>Models with this 特殊规则 may not voluntarily 卧倒, but 可以重投失败的 压制 tests and may make Charge moves after running or after firing their bolters, suffering -1 to their Charge distances if they do so. If an 独立人物 which does not have the Warrior’s Mettle 特殊规则 joins a unit of Grey Slayers, they may not benefit from this rule until that 独立人物 leaves the unit. Legion Apothecaries which join a unit with this 特殊规则 are considered to be wholly a part of the unit they have joined and may benefit from this 特殊规则.</description>
+          <description>Models with this 规则 may not voluntarily 卧倒, but 可以重投失败的 压制 tests and may make Charge moves after running or after firing their bolters, suffering -1 to their Charge distances if they do so. If an 独立人物 which does not have the Warrior’s Mettle 规则 joins a unit of Grey Slayers, they may not benefit from this rule until that 独立人物 leaves the unit. Legion Apothecaries which join a unit with this 规则 are considered to be wholly a part of the unit they have joined and may benefit from this 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5742,7 +5742,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="2f41-fe7a-f9a1-1106" name="Claws" hidden="false">
-              <description>A model equipped with claws count as having 2 close combat weapons with the 撕裂 特殊规则.</description>
+              <description>A model equipped with claws count as having 2 近战武器s with the 撕裂 规则.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5914,13 +5914,13 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1250-804f-3e4e-e7fa" name="Assault Sergeant, Legion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1250-804f-3e4e-e7fa" name="Assault 士官, Legion" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="01ae-2f6b-1236-7645" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76bd-57f5-3297-3630" type="max"/>
           </constraints>
           <profiles>
-            <profile id="39f5-ddd6-73ec-78bb" name="Legion Assault Sergeant" publicationId="ca571888--pubN80998" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="39f5-ddd6-73ec-78bb" name="Legion Assault 士官" publicationId="ca571888--pubN80998" page="31" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="2+">
                   <conditions>
@@ -5980,9 +5980,9 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b044-11c3-ec84-a889" name="Squad Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b044-11c3-ec84-a889" name="Squad 武器" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="6845-e1b4-49e0-a61b" name="All models may exchange 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9583-162b-13df-41cf">
+            <selectionEntryGroup id="6845-e1b4-49e0-a61b" name="All models 可以替换 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9583-162b-13df-41cf">
               <modifiers>
                 <modifier type="set" field="fed0-8803-0eb5-6240" value="0.0">
                   <conditions>
@@ -6088,7 +6088,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="30cd-ceae-5571-e257" name="All models may exchange 重型链锯剑 for" hidden="false" collective="false" import="true" defaultSelectionEntryId="bde3-7db5-bc7a-40c3">
+            <selectionEntryGroup id="30cd-ceae-5571-e257" name="All models 可以替换 重型链锯剑 for" hidden="false" collective="false" import="true" defaultSelectionEntryId="bde3-7db5-bc7a-40c3">
               <modifiers>
                 <modifier type="set" field="5a6a-d940-f730-7643" value="0.0">
                   <conditions>
@@ -6221,7 +6221,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3c72-d2bb-3467-3f10" name="Sergeant&apos;s Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3c72-d2bb-3467-3f10" name="士官&apos;s 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ac6-04a0-4d2a-60a5" type="max"/>
           </constraints>
@@ -6449,7 +6449,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="be53-40d4-9651-d218" name="Sergeant 可以选择" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="be53-40d4-9651-d218" name="士官 可以选择" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="b700-b599-f7b0-c1ec" name="精工甲" hidden="false" collective="false" import="true" targetId="93f9-8aba-be48-907a" type="selectionEntry">
               <constraints>
@@ -6586,8 +6586,8 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           <description>A detachment must have more Assault (or Night Raptor or Dark Fury) Squads than Assault Support Squads.</description>
         </rule>
         <rule id="0c91-dd05-6add-502d" name="Recon Specialist" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-          <description>Every Recon Marine, including the Sergeant, must choose one of the following specialisations, gaining the wargear and rules listed below. Note that not all members must take the same specialisation:
-Saboteur: 热熔炸弹 and 链锯剑 狙击: 狙击步枪, +1BS and the Marksman 特殊规则
+          <description>Every Recon Marine, including the 士官, must choose one of the following specialisations, gaining the 装备 and rules listed below. Note that not all members must take the same specialisation:
+Saboteur: 热熔炸弹 and 链锯剑 狙击: 狙击步枪, +1BS and the Marksman 规则
 Tracker: Bolt Gun, Kraken Bolts, 战斗刀 and 敏锐感官
 Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
         </rule>
@@ -6685,19 +6685,19 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
           <entryLinks>
             <entryLink id="777a-ca4b-1d8a-1e25" name="破片和穿甲手雷" hidden="false" collective="false" import="true" targetId="0a53-b471-df87-7b83" type="selectionEntry"/>
             <entryLink id="1aed-7368-b78c-115b" name="Bolt Pistols" hidden="false" collective="false" import="true" targetId="fe8d-1baa-d58d-00bc" type="selectionEntry"/>
-            <entryLink id="9078-a360-d44c-21e5" name="Shroud Bombs" hidden="false" collective="false" import="true" targetId="1e5f-6fe6-3dbf-3f39" type="selectionEntry"/>
+            <entryLink id="9078-a360-d44c-21e5" name="寿衣炸弹" hidden="false" collective="false" import="true" targetId="1e5f-6fe6-3dbf-3f39" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5ddc-4dd1-2d59-177b" name="Veteran Recon Marine Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5ddc-4dd1-2d59-177b" name="Veteran Recon Marine 士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27eb-cfb6-9f35-db77" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cee3-5214-38d4-ac32" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1f3d-69f8-7f8b-4107" name="Veteran Recon Marine Sergeant" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="1f3d-69f8-7f8b-4107" name="Veteran Recon Marine 士官" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="4+">
                   <conditions>
@@ -6777,7 +6777,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e26e-52a6-8af6-7a07" name="Sergeant&apos;s Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e26e-52a6-8af6-7a07" name="士官&apos;s 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b5b-b409-4b3b-162e" type="max"/>
           </constraints>
@@ -6961,7 +6961,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="92d2-8efc-2a6a-eb69" name="Veteran Recon Marines Sergeant (Hunter)" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="92d2-8efc-2a6a-eb69" name="Veteran Recon Marines 士官 (Hunter)" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="5361766523232344415441232323" value="4+">
                       <conditions>
@@ -7068,7 +7068,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="0f59-dade-0e6d-d84a" name="Veteran Recon Marines Sergeant (狙击)" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+                <profile id="0f59-dade-0e6d-d84a" name="Veteran Recon Marines 士官 (狙击)" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
                   <modifiers>
                     <modifier type="set" field="5361766523232344415441232323" value="4+">
                       <conditions>
@@ -7170,7 +7170,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ad6d-dbe6-07ee-8337" name="All models may exchange their 动力甲 for Recon Armour:" hidden="false" collective="false" import="true" defaultSelectionEntryId="cbdd-4ce1-964f-2182">
+        <selectionEntryGroup id="ad6d-dbe6-07ee-8337" name="All models 可以替换 their 动力甲 for Recon Armour:" hidden="false" collective="false" import="true" defaultSelectionEntryId="cbdd-4ce1-964f-2182">
           <entryLinks>
             <entryLink id="cbdd-4ce1-964f-2182" name="动力甲" hidden="false" collective="false" import="true" targetId="0a96-04b6-7340-91a4" type="selectionEntry">
               <modifiers>
@@ -7228,7 +7228,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cfc6-33d5-9b24-a334" name="Sergeant 可以选择:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cfc6-33d5-9b24-a334" name="士官 可以选择:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="5859-2eeb-f1d2-f954" name="Legion-specific upgrade:" hidden="false" collective="false" import="true" targetId="8b059b74-0029-efeb-ecc0-98a21dded43a" type="selectionEntryGroup"/>
             <entryLink id="08dd-b54b-f758-a354" name="辐射手雷 (Destroyer Company)" hidden="false" collective="false" import="true" targetId="6b20-1187-bc72-1a45" type="selectionEntry"/>
@@ -7304,7 +7304,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="2b09-cdda-436d-b9f0" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="e5d2-e10d-1552-c5c6" type="selectionEntry">
+            <entryLink id="2b09-cdda-436d-b9f0" name="导弹发射器" hidden="false" collective="false" import="true" targetId="e5d2-e10d-1552-c5c6" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b21-4b07-1a94-bed2" type="max"/>
               </constraints>
@@ -7552,13 +7552,13 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="293a-0dd2-8837-9f2a" name="Breacher Sergeant, Legion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="293a-0dd2-8837-9f2a" name="Breacher 士官, Legion" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f103-8805-97fd-39d5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a193-9405-b7b9-b4d1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="795d-a90b-552f-998b" name="Breacher Sergeant" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="795d-a90b-552f-998b" name="Breacher 士官" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="2+">
                   <conditions>
@@ -7621,9 +7621,9 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9390-bf39-7ec7-ebca" name="Squad Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9390-bf39-7ec7-ebca" name="Squad 武器" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="0c28-161f-346a-2e3d" name="All models may exchange 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="74c7-6a20-720a-f200">
+            <selectionEntryGroup id="0c28-161f-346a-2e3d" name="All models 可以替换 爆弹手枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="74c7-6a20-720a-f200">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f399-07c8-206c-1fae" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5050-f861-aa91-8adf" type="max"/>
@@ -7652,7 +7652,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="1530-2344-dc6f-ec85" name="All models may exchange 喷火器 for" hidden="false" collective="false" import="true" defaultSelectionEntryId="76eb-5ad7-4cb3-a73f">
+            <selectionEntryGroup id="1530-2344-dc6f-ec85" name="All models 可以替换 喷火器 for" hidden="false" collective="false" import="true" defaultSelectionEntryId="76eb-5ad7-4cb3-a73f">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021f-860a-247b-5d91" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d2-468c-1638-c1e0" type="min"/>
@@ -7743,7 +7743,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4c3d-6dad-b735-1e0b" name="Sergeant&apos;s Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4c3d-6dad-b735-1e0b" name="士官&apos;s 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6462-558f-310b-ae91" type="max"/>
           </constraints>
@@ -7884,7 +7884,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d15f-43f7-ffba-ee11" name="Sergeant 可以选择" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d15f-43f7-ffba-ee11" name="士官 可以选择" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="ea78-f457-c9fd-6ee5" name="精工甲" hidden="false" collective="false" import="true" targetId="93f9-8aba-be48-907a" type="selectionEntry">
               <constraints>
@@ -8071,13 +8071,13 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f828-1e5b-274d-bfe9" name="Triarii Breacher Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f828-1e5b-274d-bfe9" name="Triarii Breacher 士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="026c-84e2-5199-b678" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6632-f0ac-4e12-72fe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="08a3-59be-9fdf-b2ff" name="Triarii Breacher Sergeant" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="08a3-59be-9fdf-b2ff" name="Triarii Breacher 士官" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="2+">
                   <conditions>
@@ -8121,7 +8121,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2cc2-533d-156b-3d81" name="Sergeant&apos;s Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2cc2-533d-156b-3d81" name="士官&apos;s 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da14-dfda-8457-bd9d" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d628-c5c4-5e5b-20cc" type="min"/>
@@ -8216,7 +8216,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="adc1-a774-2410-62d4" name="Sergeant 可以选择" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="adc1-a774-2410-62d4" name="士官 可以选择" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="d12f-3b38-15cc-f0d0" name="精工甲" hidden="false" collective="false" import="true" targetId="93f9-8aba-be48-907a" type="selectionEntry">
               <constraints>
@@ -8467,13 +8467,13 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8408-73f3-fee7-fe10" name="Sky Stalker Sergeant on Bullock Jetcycle" page="0" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8408-73f3-fee7-fe10" name="Sky Stalker 士官 on Bullock Jetcycle" page="0" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a70-a6fa-3a9f-57ec" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9687-7be5-ea97-7af3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5209-b09f-a1f9-daef" name="Sky Stalker Sergeant on Bullock Jetcycle" publicationId="ca571888--pubN80998" page="51" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="5209-b09f-a1f9-daef" name="Sky Stalker 士官 on Bullock Jetcycle" publicationId="ca571888--pubN80998" page="51" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jetbike</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -8737,14 +8737,14 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 <modifier type="set" field="name" value="热熔枪*"/>
               </modifiers>
             </entryLink>
-            <entryLink id="458b-2030-314a-adaa" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="e5d2-e10d-1552-c5c6" type="selectionEntry">
+            <entryLink id="458b-2030-314a-adaa" name="导弹发射器" hidden="false" collective="false" import="true" targetId="e5d2-e10d-1552-c5c6" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="points" value="10.0">
                   <repeats>
                     <repeat field="selections" scope="0183-7594-8997-5b90" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="set" field="name" value="Missile Launcher (Frag and Krak)**"/>
+                <modifier type="set" field="name" value="导弹发射器 (Frag and Krak)**"/>
               </modifiers>
             </entryLink>
             <entryLink id="a4c7-938e-f72e-cec3" name="收割者自动炮" hidden="false" collective="false" import="true" targetId="3cb9-7ef8-c6cd-aab4" type="selectionEntry">
@@ -8773,7 +8773,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e2d0-8736-7f02-9d64" name="Any model may exchange their 链锯剑 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d69-00a6-c7f7-3179">
+        <selectionEntryGroup id="e2d0-8736-7f02-9d64" name="Any model 可以替换 their 链锯剑 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d69-00a6-c7f7-3179">
           <modifiers>
             <modifier type="increment" field="0df8-43e6-ebab-5f24" value="1.0">
               <repeats>
@@ -8791,7 +8791,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0df8-43e6-ebab-5f24" type="min"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="88d8-869f-6f02-1687" name="One in three models 可以装备 Power Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="88d8-869f-6f02-1687" name="One in three models 可以装备 Power 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="increment" field="c85b-720e-5f97-8862" value="1.0">
                   <repeats>
@@ -8851,7 +8851,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6cdf-b78d-ce25-4cbe" name="Sergeant may exchange 爆弹手枪 and/or 链锯剑 for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6cdf-b78d-ce25-4cbe" name="士官 可以替换 爆弹手枪 and/or 链锯剑 for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="fe6a-3b32-06c3-94a9" value="1.0">
               <conditions>
@@ -9072,13 +9072,13 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7981-000a-67c0-65d4" name="Sky Stalker Sergeant" page="0" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7981-000a-67c0-65d4" name="Sky Stalker 士官" page="0" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0290-1971-ab82-bd29" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ae-b165-4f0b-6c08" type="max"/>
           </constraints>
           <profiles>
-            <profile id="139f-1f66-1e4d-9f2d" name="Sky Stalker Sergeant on Corvex Jetbike" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="139f-1f66-1e4d-9f2d" name="Sky Stalker 士官 on Corvex Jetbike" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Jetbike</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -9253,7 +9253,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="15a9-394b-1dd5-6db2" name="Sergeant may exchange 爆弹手枪 and/or 链锯剑 for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="15a9-394b-1dd5-6db2" name="士官 可以替换 爆弹手枪 and/or 链锯剑 for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="29a3-b73f-1d77-757b" value="1.0">
               <conditions>
@@ -9480,7 +9480,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d2fb-107d-5d9a-bfa7" name="Any model may exchange any 重爆弹 (not including dual HB) for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1851-aff8-e2ae-aada">
+            <selectionEntryGroup id="d2fb-107d-5d9a-bfa7" name="Any model 可以替换所有 重爆弹 (not including dual HB) for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1851-aff8-e2ae-aada">
               <modifiers>
                 <modifier type="set" field="af4b-78b9-6ed3-92a0" value="2.0">
                   <conditions>
@@ -9690,7 +9690,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <categoryLink id="9883-5c4f-aa75-927f" name="悬浮" hidden="false" targetId="bd44-51c4-55ec-9a43" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="585a-5e42-dad7-0e3d" name="Any model may exchange any 重爆弹 (not including dual HB) for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1002-463e-c6b2-9b66">
+            <selectionEntryGroup id="585a-5e42-dad7-0e3d" name="Any model 可以替换所有 重爆弹 (not including dual HB) for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="1002-463e-c6b2-9b66">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09df-3cac-51d4-8b4a" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e99b-5900-d2ac-b9fb" type="min"/>
@@ -9815,7 +9815,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <categoryLink id="bdd4-66e4-8987-1769" name="悬浮" hidden="false" targetId="bd44-51c4-55ec-9a43" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b8c0-29cf-506b-f311" name="Any model may exchange any 重爆弹 (not including dual HB) for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ba0-1e4b-bc8b-7c4e">
+            <selectionEntryGroup id="b8c0-29cf-506b-f311" name="Any model 可以替换所有 重爆弹 (not including dual HB) for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ba0-1e4b-bc8b-7c4e">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b699-f4fc-4e5a-19a4" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b39-2ae4-83b9-7381" type="min"/>
@@ -9881,12 +9881,12 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 <entryLink id="646d-49da-185d-8c9c" name="Shrapnel Bolts" hidden="false" collective="false" import="true" targetId="f785888f-6dfa-08f4-054f-29b1a0e4f20c" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="573c-526d-6e77-706a" name="Any Javelin Attack Speeder 可以装备 one of the following Sponson Mounted weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="573c-526d-6e77-706a" name="Any Javelin Attack Speeder 可以装备 one of the following Sponson Mounted 武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d1e-ca5b-d444-5a10" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="4625-a1fd-4b3e-23ab" name="Dual Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="4625-a1fd-4b3e-23ab" name="Dual 激光炮" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e02a-2341-aaae-bf4b" type="max"/>
                   </constraints>
@@ -9901,7 +9901,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="97a2-5132-4e27-703f" name="Dual Reaper Autocannons" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="97a2-5132-4e27-703f" name="Dual Reaper 自动炮" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1824-6ec6-0685-b872" type="max"/>
                   </constraints>
@@ -9932,7 +9932,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="c2ae-5238-d28d-fb1c" name="双联Cyclone missile launcher" publicationId="ca571888--pubN80998" page="134" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c2ae-5238-d28d-fb1c" name="双联Cyclone 导弹发射器" publicationId="ca571888--pubN80998" page="134" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf4f-0e51-5c13-f2c8" type="max"/>
                   </constraints>
@@ -10072,13 +10072,13 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6400-e125-dfc2-4262" name="Infernus Destroyer Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6400-e125-dfc2-4262" name="Infernus Destroyer 士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e32-c72c-7fe5-0341" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f5a-559f-8243-b948" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a942-32ce-a4bb-5678" name="Infernus Destroyer Sergeant" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="a942-32ce-a4bb-5678" name="Infernus Destroyer 士官" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="2+">
                   <conditions>
@@ -10116,7 +10116,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
           <infoLinks>
             <infoLink id="86f3-14e9-9677-abd9" name="坚毅装甲" hidden="false" targetId="7439f6fd-4c50-f88a-eb41-81d9b9c9eed8" type="rule">
               <modifiers>
-                <modifier type="set" field="description" value="坚毅装甲视作虚空坚毅 (Cold Void mission special rules from Betrayal)..
+                <modifier type="set" field="description" value="坚毅装甲视作虚空坚毅 (Cold Void mission 规则 from Betrayal)..
         对喷射盖板和爆炸武器可以重投失败的装甲保护.
         冲锋, 追击, 奔跑结果减少 1&quot;.
         此外装备坚毅装甲的攻坚连队模型可以重投装甲保护的1, 装备精工甲的模型无法从此规则中受益."/>
@@ -10177,7 +10177,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="16b9-1cb9-c4b7-5431" name="Sergeant&apos;s Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="16b9-1cb9-c4b7-5431" name="士官&apos;s 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd04-0fc0-c88a-9140" type="max"/>
           </constraints>
@@ -10281,7 +10281,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8844-6917-0f88-7c7e" name="Sergeant 可以选择" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8844-6917-0f88-7c7e" name="士官 可以选择" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="f952-4e63-1403-5cd7" name="辐射手雷 (Destroyer Company)" hidden="false" collective="false" import="true" targetId="6b20-1187-bc72-1a45" type="selectionEntry"/>
             <entryLink id="c68a-d644-93de-4bb9" name="Legion-specific upgrade:" hidden="false" collective="false" import="true" targetId="8b059b74-0029-efeb-ecc0-98a21dded43a" type="selectionEntryGroup"/>
@@ -10323,7 +10323,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="571e-45ff-ab08-1db1" name="Any model may exchange any 手持喷火器 for a:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="571e-45ff-ab08-1db1" name="Any model 可以替换所有 手持喷火器 for a:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="6ecb-a66b-def4-b143" value="2.0">
               <repeats>
@@ -10539,13 +10539,13 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3e92-26a4-7436-d180" name="Heavy Destroyer Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3e92-26a4-7436-d180" name="Heavy Destroyer 士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51e5-b1e6-067c-a53c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f586-775d-4b60-ad7d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="74ea-6db7-6721-5393" name="Heavy Destroyer Sergeant" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="74ea-6db7-6721-5393" name="Heavy Destroyer 士官" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -10569,9 +10569,9 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a8fc-562f-5898-448b" name="Sergeant&apos;s Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a8fc-562f-5898-448b" name="士官&apos;s 武器" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="aa1e-5d72-322c-38c2" name="May exchange 爆燃枪s for:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="aa1e-5d72-322c-38c2" name="可以替换 爆燃枪s for:" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decb-fa11-db55-ce3f" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba80-756f-4a27-40d7" type="max"/>
@@ -10702,7 +10702,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e684-bbf8-69f6-1e99" name="Sergeant 可以选择" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e684-bbf8-69f6-1e99" name="士官 可以选择" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="5dd0-d309-6ae0-b403" name="Fallout Discharger" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -10757,7 +10757,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1804-9387-5225-968b" name="Any model may exchange any 爆燃枪 for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1804-9387-5225-968b" name="Any model 可以替换所有 爆燃枪 for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="0348-a5d4-a80a-ead3" value="2.0">
               <repeats>
@@ -10918,7 +10918,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317e-8f97-9820-a39b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cecf-f289-6081-dfd3" name="Missile Launcher with Rad Missiles" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cecf-f289-6081-dfd3" name="导弹发射器 with Rad Missiles" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f36-a1e1-adea-bacc" type="max"/>
               </constraints>
@@ -11644,7 +11644,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="533d-a19c-aa38-731b" name="Special Rules, Skills, Specialisation Advances" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="533d-a19c-aa38-731b" name="规则, Skills, Specialisation Advances" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa6-4ce1-30ff-c8a5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3023-e7c1-bb05-7fed" type="max"/>
@@ -11787,7 +11787,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                       </constraints>
                       <rules>
                         <rule id="20ef-710e-c0aa-b3b2" name="Headsman" hidden="false">
-                          <description>Once per game, one of the 人物&apos;s melee attacks that has both hit and wounded gains 即死. Declare this after rolling to wound but before any saves are made.</description>
+                          <description>整场游戏一次, one of the 人物&apos;s melee attacks that has both hit and wounded gains 即死. Declare this after rolling to wound but before any saves are made.</description>
                         </rule>
                       </rules>
                       <infoLinks>
@@ -11908,14 +11908,14 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                           <description>The 人物 and 步兵 unit gain Reaction Fire. If this is already in play (e.g. Zone Mortalis), the Reaction Fire test is automatically passed. Cannot be used by models that cannot use Reaction Fire.</description>
                         </rule>
                         <rule id="d60a-0024-23a9-031d" name="Reaction Fire" hidden="false">
-                          <description>Only 手枪, assault and rapid fire weapons may be used for Reaction Fire attacks. Heavy weapons may only be used for Reaction Fire attacks if the model carrying them has the 毫不留情 特殊规则. Note that other weapons in the squad may still make normal 坚守射击 snap fire attampts as if they are eligible alongside the rest of the unit&apos;s Reaction Fire.
-爆炸 weapons may not be used to make Reaction Fire attacks.
-喷射盖板 weapons may be used in Reaction Fire attacks, if the Reaction Fire roll is successful (see below) rather than placing the 喷射盖板, D3 hits are inflicted upon the charging unit by each 喷射盖板 weapon fired by the unit.
+                          <description>Only 手枪, assault and rapid fire 武器 may be used for Reaction Fire attacks. Heavy 武器 may only be used for Reaction Fire attacks if the model carrying them has the 毫不留情 规则. Note that other 武器 in the squad may still make normal 坚守射击 snap fire attampts as if they are eligible alongside the rest of the unit&apos;s Reaction Fire.
+爆炸 武器 may not be used to make Reaction Fire attacks.
+喷射盖板 武器 may be used in Reaction Fire attacks, if the Reaction Fire roll is successful (see below) rather than placing the 喷射盖板, D3 hits are inflicted upon the charging unit by each 喷射盖板 weapon fired by the unit.
 A unit may only make a single Reaction Fire attack against the first unit they are assaulted by in any given turn.
 A Reaction Fire attack is made after a Charge is declared, but before the charing models have moved. Casualties resulting from Reaction Fire may cause an assault to fail.
 
 A Reaction fire attack is carried out exactly like an 坚守射击 attack except that the unit must first make a roll equal to or under the majority Initiative score on a D6. If successful they may use their full BS. If unsuccessful they may make a normal 坚守射击 attack instead.
-A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</description>
+A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
                         </rule>
                       </rules>
                       <costs>
@@ -11944,7 +11944,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                       </constraints>
                       <rules>
                         <rule id="3d4d-c89b-8ef5-88aa" name="无法逃避" hidden="false">
-                          <description>-1 to Look Out Sir against the 人物’s attacks with ranged weapons</description>
+                          <description>-1 to Look Out Sir against the 人物’s attacks with ranged 武器</description>
                         </rule>
                       </rules>
                       <costs>
@@ -12035,7 +12035,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup id="af20-f7f7-aae5-a538" name="Special Rules (0+)" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="af20-f7f7-aae5-a538" name="规则 (0+)" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="281f-5224-336f-1fda" name="独立人物" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -12054,7 +12054,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                   </constraints>
                   <rules>
                     <rule id="af00-0fc1-0969-9b8d" name="Split Attacks" hidden="false">
-                      <description>Attacks can be split between Melee weapons, declared before rolling to hit. This also allows the 人物 to replace the option for a basic weapon with an additional 近战武器.</description>
+                      <description>Attacks can be split between Melee 武器, declared before rolling to hit. This also allows the 人物 to replace the option for a basic weapon with an additional 近战武器.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -12103,7 +12103,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="1354-60df-eaba-e752" name="Specialisation &amp; Legion Special Rules" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1354-60df-eaba-e752" name="Specialisation &amp; Legion 规则" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="da50-bd06-8a9d-84c9" name="巨兽猎手" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -12368,7 +12368,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                   </constraints>
                   <rules>
                     <rule id="2e3c-a145-58d4-529f" name="Keshig" hidden="false">
-                      <description>可以加入 units of Ebon Keshig as if he had The Kharash 特殊规则.</description>
+                      <description>可以加入 units of Ebon Keshig as if he had The Kharash 规则.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -13106,7 +13106,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                     <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="cb78-f713-c3f2-9eaa" name="隐蔽 + Shroud Bombs" hidden="true" collective="false" import="true" type="upgrade">
+                <selectionEntry id="cb78-f713-c3f2-9eaa" name="隐蔽 + 寿衣炸弹" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -13460,7 +13460,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                   </constraints>
                   <rules>
                     <rule id="1948-8c8d-d783-ce78" name="Blood Scent" page="" hidden="false">
-                      <description>After deployment, you may specify a single enemy unit or 独立人物 that the 人物 has the &apos;Blood Scent&apos; of.  The 人物 now counts as having the 宿敌 特殊规则 against its chosen target.</description>
+                      <description>After deployment, you may specify a single enemy unit or 独立人物 that the 人物 has the &apos;Blood Scent&apos; of.  The 人物 now counts as having the 宿敌 规则 against its chosen target.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -13588,7 +13588,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                     <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="79ba-8772-1e33-2817" name="Prototype Weapons" hidden="true" collective="false" import="true" type="upgrade">
+                <selectionEntry id="79ba-8772-1e33-2817" name="Prototype 武器" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -13600,7 +13600,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f92-411d-7904-d6bd" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="ead8-b6b7-7b0a-3d9a" name="Prototype Weapons" hidden="false" targetId="2c7d-d443-dde2-cb32" type="rule"/>
+                    <infoLink id="ead8-b6b7-7b0a-3d9a" name="Prototype 武器" hidden="false" targetId="2c7d-d443-dde2-cb32" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
@@ -13677,7 +13677,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                   </modifiers>
                   <rules>
                     <rule id="ec88-47a2-ee43-0a8f" name="Half Mag Rip" hidden="false">
-                      <description>May make 3 shots with 手枪 weapons instead of the normal amount.</description>
+                      <description>May make 3 shots with 手枪 武器 instead of the normal amount.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -13700,7 +13700,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dace-8f0f-e696-8179" type="equalTo"/>
                           </conditions>
                         </modifier>
-                        <modifier type="append" field="description" value=" A Moritat cannot benefit from Special rules such as 宿敌 or Fatal Strike while performing a Chainfire or Mag Rip attack on the roll to hit, however, the roll to wound may benefit."/>
+                        <modifier type="append" field="description" value=" A Moritat cannot benefit from 规则 such as 宿敌 or Fatal Strike while performing a Chainfire or Mag Rip attack on the roll to hit, however, the roll to wound may benefit."/>
                       </modifiers>
                     </infoLink>
                     <infoLink id="9fb8-35c5-942b-f100" name="Chain Fire" hidden="false" targetId="ba3f96a8-c144-ec70-9f5e-7e428598c16c" type="rule">
@@ -13710,7 +13710,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dace-8f0f-e696-8179" type="equalTo"/>
                           </conditions>
                         </modifier>
-                        <modifier type="append" field="description" value=" A Moritat cannot benefit from Special rules such as 宿敌 or Fatal Strike while performing a Chainfire or Mag Rip attack on the roll to hit, however, the roll to wound may benefit."/>
+                        <modifier type="append" field="description" value=" A Moritat cannot benefit from 规则 such as 宿敌 or Fatal Strike while performing a Chainfire or Mag Rip attack on the roll to hit, however, the roll to wound may benefit."/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -14067,7 +14067,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="873b-ff72-9f0f-bab1" name="Unlock Phosphex Medusa (Mourn)" hidden="true" collective="false" import="true" targetId="cdfa-cd0f-26aa-a872" type="selectionEntry">
+                <entryLink id="873b-ff72-9f0f-bab1" name="Unlock Phosphex美杜莎 (Mourn)" hidden="true" collective="false" import="true" targetId="cdfa-cd0f-26aa-a872" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -14426,7 +14426,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="598d-1f92-a88f-7013" name="Weapons, Ammo, Wargear" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="598d-1f92-a88f-7013" name="武器, Ammo, 装备" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c83-ddc8-ee27-c3b0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="011e-504c-743f-ead6" type="max"/>
@@ -15613,7 +15613,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="54cb-0a87-253f-d225" name="Needle 手枪" hidden="true" collective="false" import="true" type="upgrade">
+                <selectionEntry id="54cb-0a87-253f-d225" name="毒针手枪" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -15626,7 +15626,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f9-b062-a3e3-cee4" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="376f-bb17-1623-b2a1" name="Needle 手枪" hidden="false" targetId="7bc689cc-398d-f1f4-2359-ddbdf3af8968" type="profile"/>
+                    <infoLink id="376f-bb17-1623-b2a1" name="毒针手枪" hidden="false" targetId="7bc689cc-398d-f1f4-2359-ddbdf3af8968" type="profile"/>
                     <infoLink id="9847-8825-a695-5195" name="毒伤" hidden="false" targetId="a5ff-1cb1-bee4-d809" type="rule"/>
                     <infoLink id="bc75-3b99-f5b0-1aea" name="撕裂" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
                   </infoLinks>
@@ -15802,7 +15802,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                   <rules>
                     <rule id="d028-79f8-5e1c-61b6" name="Grapple" publicationId="ca571888--pubN91142" page="75" hidden="false">
                       <modifiers>
-                        <modifier type="set" field="description" value="A model equipped with a weapon with this 特殊规则 adds +1 to their Initiative for the purpose of making 追击.">
+                        <modifier type="set" field="description" value="A model equipped with a weapon with this 规则 adds +1 to their Initiative for the purpose of making 追击.">
                           <conditions>
                             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dace-8f0f-e696-8179" type="equalTo"/>
                           </conditions>
@@ -15890,7 +15890,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                   </constraints>
                   <rules>
                     <rule id="d19a-58bf-bdc4-e9b7" name="Equinox Power blade Case" hidden="false">
-                      <description>An Equinox power blade case is a pair of Melee weapons, each with a different profile as listed below. In any given 突击阶段, the wielder must choose one of the following two profiles before making any Attacks in that phase will use the chosen profile and gain the additional attack for using two combat weapons.</description>
+                      <description>An Equinox power blade case is a pair of Melee 武器, each with a different profile as listed below. In any given 突击阶段, the wielder must choose one of the following two profiles before making any Attacks in that phase will use the chosen profile and gain the additional attack for using two combat 武器.</description>
                     </rule>
                   </rules>
                   <entryLinks>
@@ -16557,7 +16557,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
             </selectionEntryGroup>
             <selectionEntryGroup id="cbff-0bff-a3f9-427c" name="Ammo" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="445e-d91b-7b12-688f" name="Iron Warriors: Shrapnel Bolts - Custom Char (All Bolt Weapons)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="445e-d91b-7b12-688f" name="Iron Warriors: Shrapnel Bolts - Custom Char (All Bolt 武器)" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -16570,7 +16570,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                   </constraints>
                   <rules>
                     <rule id="6d64-09ae-e3b7-3481" name="Shrapnel Bolts" publicationId="ca571888--pubN91142" page="81" hidden="false">
-                      <description>All Bolt Weapons carried by this custom 人物 gain 压制 and reduce AP value to 5.</description>
+                      <description>All Bolt 武器 carried by this custom 人物 gain 压制 and reduce AP value to 5.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -17069,7 +17069,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="5f85-79f9-2cf3-7fa9" name="Wargear" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="5f85-79f9-2cf3-7fa9" name="装备" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="197c-a30c-b107-d542" name="数字激光" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -17481,7 +17481,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <cost name="pts" typeId="points" value="30.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9d16-fbda-f70b-2686" name="Cognis-signum" hidden="true" collective="false" import="true" type="upgrade">
+                <selectionEntry id="9d16-fbda-f70b-2686" name="信息统筹模块" hidden="true" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="9ba4-c9c7-5968-e1ad" value="1.0">
                       <conditions>
@@ -17499,7 +17499,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b291-4032-2f27-ac55" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="6192-91f4-875e-068b" name="Cognis-signum" hidden="false" targetId="4687f5b1-f0b1-12bd-8cc7-27f9f25befaf" type="profile"/>
+                    <infoLink id="6192-91f4-875e-068b" name="信息统筹模块" hidden="false" targetId="4687f5b1-f0b1-12bd-8cc7-27f9f25befaf" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -17678,7 +17678,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="f976-18d2-5fd0-04c2" name="Artificer Weapons" hidden="false" collective="false" import="true" targetId="927bb13b-06a2-ab05-743f-74b859c1eee2" type="selectionEntry">
+                <entryLink id="f976-18d2-5fd0-04c2" name="Artificer 武器" hidden="false" collective="false" import="true" targetId="927bb13b-06a2-ab05-743f-74b859c1eee2" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
@@ -17759,7 +17759,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="b400-9e6c-6ffb-d8e4" name="Armistos / Gunnery Centurion Weapons (Select 1)" hidden="true" collective="false" import="true">
+            <selectionEntryGroup id="b400-9e6c-6ffb-d8e4" name="Armistos / Gunnery Centurion 武器 (Select 1)" hidden="true" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="d267-f0c9-8837-8448" value="1.0">
                   <conditionGroups>
@@ -17857,7 +17857,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="505c-654e-c080-ac12" name="Missile Launcher" hidden="true" collective="false" import="true" targetId="e5d2-e10d-1552-c5c6" type="selectionEntry">
+                <entryLink id="505c-654e-c080-ac12" name="导弹发射器" hidden="true" collective="false" import="true" targetId="e5d2-e10d-1552-c5c6" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -17971,9 +17971,9 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="e152-d0d7-5183-b3fa" name="Gorgon Pattern Terminator Armour" publicationId="ca571888--pubN91142" page="50" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="e152-d0d7-5183-b3fa" name="Gorgon Pattern Terminator Armour" publicationId="ca571888--pubN91142" page="50" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Same as normal Terminator Armour, but with additional 特殊规则:  At the end of any phase in which a model has passed at least one armour or 特殊保护 roll a single D6.  On a 4 all models within 6&quot; of the unit must test as if they had been hit by a weapon with 致盲.  Friendly units may re-roll this test.  </characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Same as normal Terminator Armour, but with additional 规则:  At the end of any phase in which a model has passed at least one armour or 特殊保护 roll a single D6.  On a 4 all models within 6&quot; of the unit must test as if they had been hit by a weapon with 致盲.  Friendly units may re-roll this test.  </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18093,7 +18093,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="067f-4b57-959e-fc53" name="Mantle of Ultramar" publicationId="ca571888--pubN68042" page="231" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="067f-4b57-959e-fc53" name="Mantle of Ultramar" publicationId="ca571888--pubN68042" page="231" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides a +2 装甲保护 and a 5 不知疼痛 save and immunity to 致盲 for the wearer only. </characteristic>
                   </characteristics>
@@ -18112,9 +18112,9 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                 </modifier>
               </modifiers>
               <profiles>
-                <profile id="b573-0f14-9e17-4ba8" name="Mantle of Ash" publicationId="ca571888--pubN91142" page="66" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="b573-0f14-9e17-4ba8" name="Mantle of Ash" publicationId="ca571888--pubN91142" page="66" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The finely wrought artificer plate worn by the Pyroclasts is fashioned with flecks of obsidax crystal from the volcanoes of Nocturne, and draped with the hides of the Damen-Salamanders who dwell in their fiery depths. As a result, Pyroclasts have an 特殊保护 of 5+ against all weapons defined as flamers, plasma weapons, melta weapons and volkites.</characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The finely wrought artificer plate worn by the Pyroclasts is fashioned with flecks of obsidax crystal from the volcanoes of Nocturne, and draped with the hides of the Damen-Salamanders who dwell in their fiery depths. As a result, Pyroclasts have an 特殊保护 of 5+ against all 武器 defined as flamers, plasma 武器, melta 武器 and volkites.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18302,7 +18302,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                   </constraints>
                   <rules>
                     <rule id="a57f-3153-fbc8-eaab" name="Howl of the Death Wolf" hidden="false">
-                      <description>Once per game 玩家回合开始时. For the duration of that player turn only, all Run and Charge distances made for models in the army with the 阿斯塔特军团 (Space Wolves) 特殊规则 may be re-rolled.</description>
+                      <description>整场游戏一次 玩家回合开始时. For the duration of that player turn only, all Run and Charge distances made for models in the army with the 阿斯塔特军团 (Space Wolves) 规则 may be re-rolled.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -18315,7 +18315,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                   </constraints>
                   <rules>
                     <rule id="212c-9e01-78a1-73b8" name="Hunger of the Void" hidden="false">
-                      <description>The Warlord gains the 暴怒 特殊规则</description>
+                      <description>The Warlord gains the 暴怒 规则</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -18542,7 +18542,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                   </constraints>
                   <rules>
                     <rule id="2dc0-18a0-3300-9e98" name="World Burner" hidden="false">
-                      <description>Two units in the primary detachment gain 撕碎 for their 爆炸 and 喷射盖板 weapons</description>
+                      <description>Two units in the primary detachment gain 撕碎 for their 爆炸 and 喷射盖板 武器</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -20369,9 +20369,9 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
               <rules>
                 <rule id="883d-974f-af43-f77f" name="Custom Delegatus" hidden="false">
                   <description>Custom Delegatus
-Master of the Legion (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-Master crafting (Location: Wargear, Cost 10pts, Not Mandatory)
-数字激光 (Location: Wargear, Cost 15pts, Not Mandatory)
+Master of the Legion (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+Master crafting (Location: 装备, Cost 10pts, Not Mandatory)
+数字激光 (Location: 装备, Cost 15pts, Not Mandatory)
 镜像躯体^ (Location: 灵能秘宝, Cost 30pts, Not Mandatory)
 The Everchanging Axiom^ (Location: 灵能秘宝, Cost 60pts, Not Mandatory)</description>
                 </rule>
@@ -20398,10 +20398,10 @@ The Everchanging Axiom^ (Location: 灵能秘宝, Cost 60pts, Not Mandatory)</des
                   <rules>
                     <rule id="1bea-9fc7-5331-1420" name="Custom Champion" hidden="false">
                       <description>Custom Delegatus
-Must issue/accept Challenges (Location: Specialisation &amp; Legion Special Rules, Cost 0pts, Mandatory)
-Master crafting (Location: Wargear, Cost 5pts, Mandatory)
-精准打击 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-数字激光 (Location: Wargear, Cost 10pts, Not Mandatory)
+Must issue/accept Challenges (Location: Specialisation &amp; Legion 规则, Cost 0pts, Mandatory)
+Master crafting (Location: 装备, Cost 5pts, Mandatory)
+精准打击 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+数字激光 (Location: 装备, Cost 10pts, Not Mandatory)
 Empyreal 光矛^ (Location: Melee, Cost 25pts, Not Mandatory)</description>
                     </rule>
                   </rules>
@@ -20429,8 +20429,8 @@ Empyreal 光矛^ (Location: Melee, Cost 25pts, Not Mandatory)</description>
                   <rules>
                     <rule id="bf87-b371-33a1-8020" name="Custom Chaplain" hidden="false">
                       <description>Custom Chaplain
-恐怖 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-狂战士 (Location: Specialisation &amp; Legion Special Rules, Cost 20pts,, Not Mandatory)
+恐怖 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+狂战士 (Location: Specialisation &amp; Legion 规则, Cost 20pts,, Not Mandatory)
 Crozius Arcanum (Location: Melee, Cost 15pts, Not Mandatory)</description>
                     </rule>
                   </rules>
@@ -20452,11 +20452,11 @@ Crozius Arcanum (Location: Melee, Cost 15pts, Not Mandatory)</description>
                   <rules>
                     <rule id="7667-0221-5d03-4b5c" name="Custom Siege Breaker" hidden="false">
                       <description>Custom Siege Breaker
-Art of Destuction (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Mandatory)
-Unlock Phosphex Mortars (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-Unlock Phosphex Medusa (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-Nuncio Vox (Location: Wargear, Cost 10pts, Not Mandatory)
-Phosphex Bombs (Max 3) (Location: Wargear, Cost 10pts each, Not Mandatory)</description>
+Art of Destuction (Location: Specialisation &amp; Legion 规则, Cost 10pts, Mandatory)
+Unlock Phosphex Mortars (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+Unlock Phosphex美杜莎 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+Nuncio Vox (Location: 装备, Cost 10pts, Not Mandatory)
+Phosphex Bombs (Max 3) (Location: 装备, Cost 10pts each, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -20477,14 +20477,14 @@ Phosphex Bombs (Max 3) (Location: Wargear, Cost 10pts each, Not Mandatory)</desc
                     <rule id="7142-3724-56a4-1a8d" name="Custom Vigilator" hidden="false">
                       <description>Custom Vigilator
 Unlocks Recon Company Rite of War
-侦察 + 敏锐感官 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-隐蔽 + Shroud Bombs (Location: Specialisation &amp; Legion Special Rules &amp; Grenades, Cost 5pts, Not Mandatory)
-狙击 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-Sabotage (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
+侦察 + 敏锐感官 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+隐蔽 + 寿衣炸弹 (Location: Specialisation &amp; Legion 规则 &amp; Grenades, Cost 5pts, Not Mandatory)
+狙击 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+Sabotage (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
 Special Ammunition (Location: Ammo, Cost 5pts, Not Mandatory)
-反重力支架 (Location: Wargear, Cost 5pts, Not Mandatory)
-渗透 + 穿越地形 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-Marked For Death (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
+反重力支架 (Location: 装备, Cost 5pts, Not Mandatory)
+渗透 + 穿越地形 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+Marked For Death (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
 Psyk-out Grenades  (Location: Grenades, Cost 5pts, Not Mandatory)
 跳跃背包 (Location: Unit Type, Cost 10pts, Not Mandatory)
 Shot Gun + Ammo (Location: Basic, Cost 5pts, Not Mandatory)
@@ -20514,10 +20514,10 @@ Shot Gun + Ammo (Location: Basic, Cost 5pts, Not Mandatory)
                     <rule id="d76d-6c58-fbfe-87ab" name="Custom Saboteur" hidden="false">
                       <description>Custom Saboteur
 Must start in Reserves
-孤独杀手 (Location: Specialisation &amp; Legion Special Rules, Cost 0pts, Mandatory)
-侧击 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-潜行斗篷 (Location: Wargear, Cost 5pts, Not Mandatory)
-Sabotage (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
+孤独杀手 (Location: Specialisation &amp; Legion 规则, Cost 0pts, Mandatory)
+侧击 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+潜行斗篷 (Location: 装备, Cost 5pts, Not Mandatory)
+Sabotage (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
 Grenade: Psyk-out Grenades (Location: Grenades, Cost 5pts, Not Mandatory)
 转移矢量发生器^ (Location: 灵能秘宝, Cost 25pts, Not Mandatory)
 </description>
@@ -20546,9 +20546,9 @@ Grenade: Psyk-out Grenades (Location: Grenades, Cost 5pts, Not Mandatory)
                       <description>Custom Hunter Claw Leader
 Unlocks Pale Hunters Rite of War
 Terminator Armour is Tartaros only
-渗透 (model + attached unit)  (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Mandatory)
-笼罩 (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-Blood Scent (Marked for Death) (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)</description>
+渗透 (model + attached unit)  (Location: Specialisation &amp; Legion 规则, Cost 10pts, Mandatory)
+笼罩 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+Blood Scent (Marked for Death) (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -20574,10 +20574,10 @@ Blood Scent (Marked for Death) (Location: Specialisation &amp; Legion Special Ru
                     <rule id="2baf-29f1-14b7-c3a3" name="Custom Berserker Claw Leader" hidden="false">
                       <description>Custom Berserker Claw Leader
 Unlocks Bloodied Claws Rite of War
-Must have +1 Grey Slayer squad  (Location: Specialisation &amp; Legion Special Rules, Cost 0pts, Mandatory)
-Veteran Tactic: Warrior’s Mettle  (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-Warrior’s Mettle  (Location: Specialisation &amp; Legion Special Rules, Cost 15pts, Not Mandatory)
-Howl of the Death Wolf  (Location: Specialisation &amp; Legion Special Rules, Cost 30pts, Not Mandatory)</description>
+Must have +1 Grey Slayer squad  (Location: Specialisation &amp; Legion 规则, Cost 0pts, Mandatory)
+Veteran Tactic: Warrior’s Mettle  (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+Warrior’s Mettle  (Location: Specialisation &amp; Legion 规则, Cost 15pts, Not Mandatory)
+Howl of the Death Wolf  (Location: Specialisation &amp; Legion 规则, Cost 30pts, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -20602,13 +20602,13 @@ Howl of the Death Wolf  (Location: Specialisation &amp; Legion Special Rules, Co
                   <rules>
                     <rule id="f3cc-1ab1-044c-b58b" name="Custom Iron Father" hidden="false">
                       <description>Custom 
-战争铁匠 (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Mandatory)
+战争铁匠 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Mandatory)
 Master crafting
 伺服臂 (No 跳跃背包)
 数字激光
 
- (Location: Specialisation &amp; Legion Special Rules, Cost pts, Mandatory)
- (Location: Wargear, Cost pts, Not Mandatory)
+ (Location: Specialisation &amp; Legion 规则, Cost pts, Mandatory)
+ (Location: 装备, Cost pts, Not Mandatory)
  (Location: Melee, Cost pts each, Not Mandatory)
  (Location: Basic, Cost pts each, Not Mandatory)</description>
                     </rule>
@@ -20634,10 +20634,10 @@ Master crafting
                   <rules>
                     <rule id="ba46-3c49-340c-43ca" name="Custom Warsmith" hidden="false">
                       <description>Custom Warsmith
--1VP if removed from play (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-Shatter Defences (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-伺服臂 (Location: Wargear, Cost 10pts, Not Mandatory)
-战争铁匠 (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)</description>
+-1VP if removed from play (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+Shatter Defences (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+伺服臂 (Location: 装备, Cost 10pts, Not Mandatory)
+战争铁匠 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -20658,12 +20658,12 @@ Shatter Defences (Location: Specialisation &amp; Legion Special Rules, Cost 5pts
                   <rules>
                     <rule id="0159-b8c4-1eee-6683" name="Custom Gunnery Centurion" hidden="false">
                       <description>Custom Gunnery Centurion
-Must select 1 of the following weapons 自动炮 / Missile Launcher / 多管热熔 / 爆燃重炮 / 等离子炮 / 激光炮 (Location: Armistos / Gunnery Centurion Weapons, Cost 10 / 10 / 15 / 15 / 20 / 25pts, Mandatory)
-精工Weapon (Gunnery Centurion) (Location: Wargear, Cost 5pts, Not Mandatory)
-Coordinating Fire (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-占卜扫描仪 (Location: Wargear, Cost 10pts, Not Mandatory)
-Nuncio Vox (Location: Wargear, Cost 10pts, Not Mandatory)
-反重力支架 (Location: Wargear, Cost 5pts, Not Mandatory)</description>
+Must select 1 of the following 武器 自动炮 / 导弹发射器 / 多管热熔 / 爆燃重炮 / 等离子炮 / 激光炮 (Location: Armistos / Gunnery Centurion 武器, Cost 10 / 10 / 15 / 15 / 20 / 25pts, Mandatory)
+精工武器 (Gunnery Centurion) (Location: 装备, Cost 5pts, Not Mandatory)
+Coordinating Fire (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+占卜扫描仪 (Location: 装备, Cost 10pts, Not Mandatory)
+Nuncio Vox (Location: 装备, Cost 10pts, Not Mandatory)
+反重力支架 (Location: 装备, Cost 5pts, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -20682,8 +20682,8 @@ Nuncio Vox (Location: Wargear, Cost 10pts, Not Mandatory)
                       <description>Custom Primus Nullificator
 Armour: Cataphractii Terminator Armour (Location: Armour, Cost 15pts, Mandatory)
 Melee: Aether-shock Maul  (Location: Melee, Cost 15pts, Not Mandatory)
-Hexagrammic Wards  (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-Credo Annihilato  (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
+Hexagrammic Wards  (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+Credo Annihilato  (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
 灵能精通 1 (Sanctic Daemonology) (Location: Psychic Upgrades, Cost 10pts, Not Mandatory)</description>
                     </rule>
                   </rules>
@@ -20708,17 +20708,17 @@ Credo Annihilato  (Location: Specialisation &amp; Legion Special Rules, Cost 5pt
                   <rules>
                     <rule id="f293-82f5-5cf0-31bd" name="Custom Moritat" hidden="false">
                       <description>Custom Moritat
-孤独杀手 (except Destroyers) (Location: Specialisation &amp; Legion Special Rules, Cost 0pts, Mandatory)
+孤独杀手 (except Destroyers) (Location: Specialisation &amp; Legion 规则, Cost 0pts, Mandatory)
 Basic weapon: 爆弹手枪 (free), 爆燃手枪, 等离子手枪 (Location: Basic, Cost 0/5/10pts, Mandatory) (手持喷火器 and 地狱手枪 options open for Legions allowed to trade)
-Counter Attack (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-侦察 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
+Counter Attack (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+侦察 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
 辐射手雷 (Location: Grenades, Cost 5pts, Not Mandatory)
 Grenades: Psyk-out Grenades (Location: Grenades, Cost 5pts, Not Mandatory)
 Phosphex bomb (one) (Location: Grenades, Cost 10pts, Not Mandatory)
 跳跃背包 (Location: Mobility / Unit Type, Cost 10pts, Not Mandatory)
 转移矢量发生器^ (Location: 灵能秘宝, Cost +15pts additional to 跳跃背包, Not Mandatory) (跳跃背包 prereq)
-Half Mag Rip (3 shots/手枪) (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-Chainfire (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory) (Half Mag Rip prereq)</description>
+Half Mag Rip (3 shots/手枪) (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+Chainfire (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory) (Half Mag Rip prereq)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -20735,11 +20735,11 @@ Chainfire (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not M
                   <rules>
                     <rule id="0009-0e8b-1513-93a7" name="Custom Mortificator" hidden="false">
                       <description>Custom Mortificator
-伺服臂 (Location: Wargear, Cost 10pts, Mandatory)
+伺服臂 (Location: 装备, Cost 10pts, Mandatory)
 放电法杖 (Location: Melee, Cost 5pts, Not Mandatory)
-Keeper of the Dead (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-Ancient Devotion (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-Terminator Armour (Location: Wargear, Cost 15pts, Not Mandatory)
+Keeper of the Dead (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+Ancient Devotion (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+Terminator Armour (Location: 装备, Cost 15pts, Not Mandatory)
 集束手雷 for Termy Armour (Location: Grenades, Cost 5pts, Not Mandatory)
 铁光环 for Termy Armour (Location: Shields and Frields, Cost 10pts, Not Mandatory)</description>
                     </rule>
@@ -20762,18 +20762,18 @@ Terminator Armour (Location: Wargear, Cost 15pts, Not Mandatory)
 Unlocks Brethren of Iron and Fury of the Ancients Rites of War
 May form a unit with Servo Automata
 战争铁匠
-伺服臂 (no 跳跃背包) (Location: Wargear, Cost pts, Not Mandatory)
+伺服臂 (no 跳跃背包) (Location: 装备, Cost pts, Not Mandatory)
 Master crafting
-皮层控制器 (Location: Wargear, Cost pts, Not Mandatory)
-Nuncio Vox (Location: Wargear, Cost pts, Not Mandatory)
-占卜扫描仪 (Location: Wargear, Cost pts, Not Mandatory)
+皮层控制器 (Location: 装备, Cost pts, Not Mandatory)
+Nuncio Vox (Location: 装备, Cost pts, Not Mandatory)
+占卜扫描仪 (Location: 装备, Cost pts, Not Mandatory)
 重力枪 (Location: Basic Weapon, Cost pts, Not Mandatory)
-反重力支架 (Location: Wargear, Cost pts, Not Mandatory)
+反重力支架 (Location: 装备, Cost pts, Not Mandatory)
 辐射手雷 (Location: Grenades, Cost 5pts, Not Mandatory)
-Cyber Familiar (Location: Wargear, Cost pts, Not Mandatory)
+Cyber Familiar (Location: 装备, Cost pts, Not Mandatory)
 
- (Location: Specialisation &amp; Legion Special Rules, Cost pts, Mandatory)
- (Location: Wargear, Cost pts, Not Mandatory)
+ (Location: Specialisation &amp; Legion 规则, Cost pts, Mandatory)
+ (Location: 装备, Cost pts, Not Mandatory)
  (Location: Melee, Cost pts each, Not Mandatory)
  (Location: Basic, Cost pts each, Not Mandatory)</description>
                     </rule>
@@ -20803,9 +20803,9 @@ Cyber Familiar (Location: Wargear, Cost pts, Not Mandatory)
                   <rules>
                     <rule id="4ee9-c6a8-3658-4971" name="Custom Primus Medicae" hidden="false">
                       <description>Custom Primus Medicae
-Sacred Trust (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Mandatory)
-麻醉药 (Location: Wargear, Cost 30pts, Not Mandatory)
-Needle 手枪 (Location: 手枪, Cost 5pts each, Not Mandatory)</description>
+Sacred Trust (Location: Specialisation &amp; Legion 规则, Cost 10pts, Mandatory)
+麻醉药 (Location: 装备, Cost 30pts, Not Mandatory)
+毒针手枪 (Location: 手枪, Cost 5pts each, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <entryLinks>
@@ -20872,10 +20872,10 @@ Digittalis Arcanis^ (Location: 灵能秘宝, Cost 30pts, Not Mandatory)</descrip
                   <rules>
                     <rule id="ea92-488a-c43f-0302" name="Custom Speaker of the Dead" hidden="false">
                       <description>Custom Speaker of the Dead
-Healing Balms (Location: Wargear, Cost 25pts, Mandatory)
-Garm Blood Vial (Location: Wargear, Cost 5pts, Not Mandatory)
-宿敌 (步兵) (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
-无畏  (Location: Specialisation &amp; Legion Special Rules, Cost 15pts, Not Mandatory)
+Healing Balms (Location: 装备, Cost 25pts, Mandatory)
+Garm Blood Vial (Location: 装备, Cost 5pts, Not Mandatory)
+宿敌 (步兵) (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
+无畏  (Location: Specialisation &amp; Legion 规则, Cost 15pts, Not Mandatory)
 </description>
                     </rule>
                   </rules>
@@ -20897,10 +20897,10 @@ Garm Blood Vial (Location: Wargear, Cost 5pts, Not Mandatory)
                   <rules>
                     <rule id="f279-e6d9-ca35-0ece" name="Custom Reaver Lord" hidden="false">
                       <description>Custom Reaver Lord
-Master of the Legion (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
-Master crafting (Location: Wargear, Cost 10pts, Not Mandatory)
-Cyber familiar (Location: Wargear, Cost 10pts, Not Mandatory)
-数字激光 (Location: Wargear, Cost 15pts, Not Mandatory)
+Master of the Legion (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
+Master crafting (Location: 装备, Cost 10pts, Not Mandatory)
+Cyber familiar (Location: 装备, Cost 10pts, Not Mandatory)
+数字激光 (Location: 装备, Cost 15pts, Not Mandatory)
 </description>
                     </rule>
                   </rules>
@@ -20926,9 +20926,9 @@ Cyber familiar (Location: Wargear, Cost 10pts, Not Mandatory)
                   <rules>
                     <rule id="603a-7a64-e06a-3607" name="Custom Master of Signal" hidden="false">
                       <description>Custom Master of Signal
-Cognis Signum   (Location: Wargear, Cost 10pts, Mandatory)
-Nuncio Vox   (Location: Wargear, Cost 5pts, Not Mandatory)
-Bombardment  (Location: Specialisation &amp; Legion Special Rules, Cost 35pts, Mandatory)
+Cognis Signum   (Location: 装备, Cost 10pts, Mandatory)
+Nuncio Vox   (Location: 装备, Cost 5pts, Not Mandatory)
+Bombardment  (Location: Specialisation &amp; Legion 规则, Cost 35pts, Mandatory)
 跳跃背包 (Location: Mobility / Unit Type, Cost 10pts, Not Mandatory)
 </description>
                     </rule>
@@ -20950,10 +20950,10 @@ Bombardment  (Location: Specialisation &amp; Legion Special Rules, Cost 35pts, M
                   <rules>
                     <rule id="8ed4-085e-05b9-ef7a" name="Custom Armistos" hidden="false">
                       <description>Custom Armistos
-精工重爆弹 OR 爆燃重炮 (Location: Armistos / Gunnery Centurion Weapons, Cost 5/10pts each, Mandatory)
-Prototype Weapons (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)
-占卜扫描仪 (Location: Wargear, Cost 5pts, Not Mandatory)
-坚毅 (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Not Mandatory)</description>
+精工重爆弹 OR 爆燃重炮 (Location: Armistos / Gunnery Centurion 武器, Cost 5/10pts each, Mandatory)
+Prototype 武器 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)
+占卜扫描仪 (Location: 装备, Cost 5pts, Not Mandatory)
+坚毅 (Location: Specialisation &amp; Legion 规则, Cost 5pts, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <costs>
@@ -20967,8 +20967,8 @@ Prototype Weapons (Location: Specialisation &amp; Legion Special Rules, Cost 5pt
                   <rules>
                     <rule id="ff99-7ce1-47ed-cc9f" name="Custom Warmonger" hidden="false">
                       <description>Custom Warmonger
-Model + unit gain 深度打击 (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Mandatory)
-数字激光 (Location: Wargear, Cost 10pts, Not Mandatory)
+Model + unit gain 深度打击 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Mandatory)
+数字激光 (Location: 装备, Cost 10pts, Not Mandatory)
 铁光环 (Location: Shields and Fields, Cost 25/10pts depending on if in Termy Armour, Not Mandatory)
 </description>
                     </rule>
@@ -20995,11 +20995,11 @@ Model + unit gain 深度打击 (Location: Specialisation &amp; Legion Special Ru
                     <rule id="e1b5-bf6f-8322-3015" name="Custom Diabolist" hidden="false">
                       <description>Custom Diabolist
 Unlocks Dark Brethren Rite of War
-Dark Channeling (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Mandatory)
-恶魔 (5++, 恐怖) (Location: Specialisation &amp; Legion Special Rules, Cost 15pts, Not Mandatory)
-宿敌 (忠诚方) (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)
+Dark Channeling (Location: Specialisation &amp; Legion 规则, Cost 10pts, Mandatory)
+恶魔 (5++, 恐怖) (Location: Specialisation &amp; Legion 规则, Cost 15pts, Not Mandatory)
+宿敌 (忠诚方) (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)
 转移矢量发生器#^ (Location: 灵能秘宝, Cost 25pts, Not Mandatory)
-Sacrificial Enervation^ (Location: Specialisation &amp; Legion Special Rules, Cost 20pts, Not Mandatory)
+Sacrificial Enervation^ (Location: Specialisation &amp; Legion 规则, Cost 20pts, Not Mandatory)
 Digittalis Arcanis^ (Location: 灵能秘宝, Cost 30pts, Not Mandatory)</description>
                     </rule>
                   </rules>
@@ -21028,10 +21028,10 @@ Digittalis Arcanis^ (Location: 灵能秘宝, Cost 30pts, Not Mandatory)</descrip
                   <rules>
                     <rule id="36a2-1aa1-3772-dddc" name="Custom Herald" hidden="false">
                       <description>Custom 
-Fallen Honour (Location: Specialisation &amp; Legion Special Rules, Cost 5pts, Mandatory)
+Fallen Honour (Location: Specialisation &amp; Legion 规则, Cost 5pts, Mandatory)
 Legion Banner (Location: Basic, Cost 10pts, Not Mandatory)
-Banner Type (Location: Wargear, Cost 10pts, Not Mandatory)
-无畏 (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory) (BS-NOTE: Set to hidden if you take Legion Banner as this gives you 无畏 anyway)</description>
+Banner Type (Location: 装备, Cost 10pts, Not Mandatory)
+无畏 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory) (BS-NOTE: Set to hidden if you take Legion Banner as this gives you 无畏 anyway)</description>
                     </rule>
                   </rules>
                   <costs>
@@ -21045,10 +21045,10 @@ Banner Type (Location: Wargear, Cost 10pts, Not Mandatory)
                   <rules>
                     <rule id="3cc0-89f6-c3b0-d1c6" name="Custom Praevian" hidden="false">
                       <description>Custom Praevian
-皮层控制器  (Location: Wargear, Cost 10pts, Mandatory)
+皮层控制器  (Location: 装备, Cost 10pts, Mandatory)
 Legion Inductees (Location: Castallax or Vorax, Cost 5pts, Not Mandatory)
-Cortex Designator (Location: Wargear, Cost 10pts, Not Mandatory)
-智控大师 (Location: Specialisation &amp; Legion Special Rules, Cost 10pts, Not Mandatory)</description>
+Cortex Designator (Location: 装备, Cost 10pts, Not Mandatory)
+智控大师 (Location: Specialisation &amp; Legion 规则, Cost 10pts, Not Mandatory)</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -21456,7 +21456,7 @@ Cortex Designator (Location: Wargear, Cost 10pts, Not Mandatory)
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e576-ea66-2e8b-1370" name="Shroud Bombs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e576-ea66-2e8b-1370" name="寿衣炸弹" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -22300,7 +22300,7 @@ Void Shield Harness</description>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5320-63a8-98d2-2833" name="Centurion 可以选择一个 weapons:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="5320-63a8-98d2-2833" name="Centurion 可以选择一个 武器:" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -22422,7 +22422,7 @@ Void Shield Harness</description>
                 <entryLink id="ae5d-d491-d39d-c3f3" name="偏转立场" hidden="false" collective="false" import="true" targetId="40e37f6e-a984-4232-4dc4-807ed9028f62" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="0daf-03f2-1743-8b65" name="Power/精工甲 Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="0daf-03f2-1743-8b65" name="Power/精工甲 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="eaae-9a13-c2b0-8cb2" value="1.0">
                   <conditions>
@@ -22561,7 +22561,7 @@ Void Shield Harness</description>
                       </costs>
                     </entryLink>
                     <entryLink id="4802-d00c-03cb-ded5" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9756-a335-ec78-d580" type="selectionEntry"/>
-                    <entryLink id="a0f8-43b0-f8fa-76c8" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
+                    <entryLink id="a0f8-43b0-f8fa-76c8" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
                     <entryLink id="95b2-e1da-10a9-58cd" name="爆燃手枪" hidden="false" collective="false" import="true" targetId="ae27-c659-fffd-1561" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="5.0"/>
@@ -22612,7 +22612,7 @@ Void Shield Harness</description>
                         <cost name="pts" typeId="points" value="5.0"/>
                       </costs>
                     </entryLink>
-                    <entryLink id="6de9-1505-12e8-19b1" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
+                    <entryLink id="6de9-1505-12e8-19b1" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
                     <entryLink id="d474-e0b7-0a4b-2090" name="雷锤" hidden="false" collective="false" import="true" targetId="925c-50d4-0101-e0e7" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="25.0"/>
@@ -22692,7 +22692,7 @@ Void Shield Harness</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup id="134f-0ca7-4f1b-d2f1" name="Terminator Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="134f-0ca7-4f1b-d2f1" name="Terminator 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="5337-d745-f0c1-7af4" value="1.0">
                   <conditions>
@@ -23065,7 +23065,7 @@ Void Shield Harness</description>
                   </constraints>
                   <rules>
                     <rule id="0fd4-b71e-37c2-a345" name="Rite of Command" publicationId="ca571888--pubN89821" page="233" hidden="false">
-                      <description>赋予 the Master of the Legion 特殊规则, and 可以选择 a Legion Command Squad.  Must be the army&apos;s Warlord, unless their Legion&apos;s 基因原体 is also present.  A Delegatus may be taken in armies below the 1000pt threshold for Master of the Legion.</description>
+                      <description>赋予 the Master of the Legion 规则, and 可以选择 a Legion Command Squad.  Must be the army&apos;s Warlord, unless their Legion&apos;s 基因原体 is also present.  A Delegatus may be taken in armies below the 1000pt threshold for Master of the Legion.</description>
                     </rule>
                   </rules>
                   <categoryLinks>
@@ -23081,7 +23081,7 @@ Void Shield Harness</description>
                       </constraints>
                       <rules>
                         <rule id="b37d-ada3-6419-bf96" name="Master Crafted" publicationId="ca571888--pubN89821" page="233" hidden="false">
-                          <description>One of the Legion Delegatus’ weapons may be 精工for Free</description>
+                          <description>One of the Legion Delegatus’ 武器 may be 精工for Free</description>
                         </rule>
                       </rules>
                       <costs>
@@ -23251,7 +23251,7 @@ Void Shield Harness</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="07cb-6ca6-8d49-8c9a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f623-e4b5-2b3e-8ba5" name="Banner of the Aquila" publicationId="ca571888--pubN89821" page="234" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="f623-e4b5-2b3e-8ba5" name="Banner of the Aquila" publicationId="ca571888--pubN89821" page="234" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -23263,7 +23263,7 @@ Void Shield Harness</description>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The 忠诚方 Herald and any 忠诚方 unit with the 阿斯塔特军团 rule within 15&quot; add 1 to their WS to a max of 5.  </characteristic>
                   </characteristics>
                 </profile>
-                <profile id="5359-483c-f11d-2b52" name="Banner of the Eye" publicationId="ca571888--pubN89821" page="234" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="5359-483c-f11d-2b52" name="Banner of the Eye" publicationId="ca571888--pubN89821" page="234" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -23272,7 +23272,7 @@ Void Shield Harness</description>
                     </modifier>
                   </modifiers>
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The 反叛方 Herald and any 反叛方 unit with the 阿斯塔特军团 特殊规则 within 15&quot; add 1 to their Charge and Run distances and may re-roll To Hit rolls of 1 in assault on any turn in which they have successfully charged.  </characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The 反叛方 Herald and any 反叛方 unit with the 阿斯塔特军团 规则 within 15&quot; add 1 to their Charge and Run distances and may re-roll To Hit rolls of 1 in assault on any turn in which they have successfully charged.  </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -23282,7 +23282,7 @@ Void Shield Harness</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="45c8-e13c-e137-b693" name="Support Officer" hidden="false" targetId="dc4d-c7ca-3b5e-18f6" type="rule"/>
+                <infoLink id="45c8-e13c-e137-b693" name="支援军官" hidden="false" targetId="dc4d-c7ca-3b5e-18f6" type="rule"/>
                 <infoLink id="7b94-25e2-3076-0eee" name="无情推进" hidden="false" targetId="5ecb-551d-0f68-3a79" type="rule"/>
                 <infoLink id="f0cb-7876-f4c1-1a6f" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule">
                   <modifiers>
@@ -23303,7 +23303,7 @@ Void Shield Harness</description>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="52b0-d5c6-4600-2339" name="Centurion 可以选择一个 weapons:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="52b0-d5c6-4600-2339" name="Centurion 可以选择一个 武器:" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -23425,7 +23425,7 @@ Void Shield Harness</description>
                 <entryLink id="e204-0872-0723-b3f0" name="偏转立场" hidden="false" collective="false" import="true" targetId="40e37f6e-a984-4232-4dc4-807ed9028f62" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="ce8d-fe7b-3a06-828b" name="Power/精工甲 Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="ce8d-fe7b-3a06-828b" name="Power/精工甲 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="e725-7b17-efd1-f026" value="1.0">
                   <conditions>
@@ -23534,7 +23534,7 @@ Void Shield Harness</description>
                       </costs>
                     </entryLink>
                     <entryLink id="9431-260a-a26a-722a" name="Solarite Power Gauntlet" hidden="false" collective="false" import="true" targetId="9756-a335-ec78-d580" type="selectionEntry"/>
-                    <entryLink id="7503-087a-d2d5-98cf" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
+                    <entryLink id="7503-087a-d2d5-98cf" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
                     <entryLink id="dd4b-a35d-2e9d-8786" name="爆燃手枪" hidden="false" collective="false" import="true" targetId="ae27-c659-fffd-1561" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="5.0"/>
@@ -23585,7 +23585,7 @@ Void Shield Harness</description>
                         <cost name="pts" typeId="points" value="5.0"/>
                       </costs>
                     </entryLink>
-                    <entryLink id="d99d-ba71-e083-6235" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
+                    <entryLink id="d99d-ba71-e083-6235" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
                     <entryLink id="1519-2b7f-eda0-4d32" name="雷锤" hidden="false" collective="false" import="true" targetId="925c-50d4-0101-e0e7" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="25.0"/>
@@ -23634,7 +23634,7 @@ Void Shield Harness</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7959-a35a-f86b-4187" name="Terminator Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="7959-a35a-f86b-4187" name="Terminator 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -23996,10 +23996,10 @@ Void Shield Harness</description>
               </profiles>
               <rules>
                 <rule id="46be-154d-7c99-85e6" name="Bombardment" publicationId="ca571888--pubN84656" page="3" hidden="false">
-                  <description>Once per game, in lieu of firing a weapon in the 射击阶段, a Master of Signal can opt to call in a bombardment attack
+                  <description>整场游戏一次, in lieu of firing a weapon in the 射击阶段, a Master of Signal can opt to call in a bombardment attack
 against the enemy. This attack need not select the same target as any unit to which the Master of Signal is attached and may be made even if he
 has moved this turn or is embarked upon a 载具 (in which case he must use a Fire Point), but may not be made in the same turn as using his
-cognis-signum.</description>
+信息统筹模块.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -24010,7 +24010,7 @@ cognis-signum.</description>
                 <categoryLink id="8e7e-d08e-321f-cbd9" name="New CategoryLink" hidden="false" targetId="287a-5939-2a29-9ccf" primary="false"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink id="5ee6-8104-c27d-0e4b" name="Support Officer" hidden="false" collective="false" import="true" targetId="fc8c-3f13-02b6-034e" type="selectionEntry"/>
+                <entryLink id="5ee6-8104-c27d-0e4b" name="支援军官" hidden="false" collective="false" import="true" targetId="fc8c-3f13-02b6-034e" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="45.0"/>
@@ -24036,7 +24036,7 @@ cognis-signum.</description>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="122f-24e5-d964-751f" name="Centurion 可以选择一个 weapons:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="122f-24e5-d964-751f" name="Centurion 可以选择一个 武器:" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -24092,7 +24092,7 @@ cognis-signum.</description>
                 <entryLink id="25b6-e837-1837-0630" name="偏转立场" hidden="false" collective="false" import="true" targetId="40e37f6e-a984-4232-4dc4-807ed9028f62" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="b883-9b82-8b4b-b1dc" name="Power/精工甲 Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="b883-9b82-8b4b-b1dc" name="Power/精工甲 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -24174,7 +24174,7 @@ cognis-signum.</description>
                       </costs>
                     </entryLink>
                     <entryLink id="36e4-4bce-67ca-66ff" name="Power Glaive" hidden="false" collective="false" import="true" targetId="2767-2afe-31ac-5cca" type="selectionEntry"/>
-                    <entryLink id="9dcd-a9fb-4cdc-1790" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
+                    <entryLink id="9dcd-a9fb-4cdc-1790" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
                     <entryLink id="7559-6558-0a60-a7b3" name="爆燃手枪" hidden="false" collective="false" import="true" targetId="ae27-c659-fffd-1561" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="5.0"/>
@@ -24219,7 +24219,7 @@ cognis-signum.</description>
                         <cost name="pts" typeId="points" value="5.0"/>
                       </costs>
                     </entryLink>
-                    <entryLink id="79c3-dcc5-ee9f-044d" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
+                    <entryLink id="79c3-dcc5-ee9f-044d" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry"/>
                     <entryLink id="87fa-ba06-6bba-96e7" name="Terranic Greatsword" hidden="false" collective="false" import="true" targetId="4cf4-a0ff-a71f-3666" type="selectionEntry"/>
                     <entryLink id="a59a-929e-f884-2575" name="动力武器" hidden="false" collective="false" import="true" targetId="6851-e073-5e4f-167f" type="selectionEntry">
                       <costs>
@@ -24242,7 +24242,7 @@ cognis-signum.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup id="8bf6-9a36-88d5-c2d1" name="Terminator Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8bf6-9a36-88d5-c2d1" name="Terminator 武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -24255,7 +24255,7 @@ cognis-signum.</description>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52cf-3f66-9c88-bd90" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e1f0-1f1b-6c16-5af9" name="Exchange 爆燃枪 for:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="e1f0-1f1b-6c16-5af9" name="替换爆燃枪:" hidden="false" collective="false" import="true">
                   <modifiers>
                     <modifier type="set" field="803e-8de3-676d-b989" value="0.0">
                       <conditions>
@@ -24578,7 +24578,7 @@ cognis-signum.</description>
                   <description>Allows the controlling player to add a 1 or -1 modifer to reserve rolls while in play.  Additionally, enemy models suffer a 1 to 深度打击 Mishap table rolls.</description>
                 </rule>
                 <rule id="ec51-b8f6-7413-6751" name="Focused Bombardment" page="" hidden="false">
-                  <description>Once per game, may call down a bombardment in the 射击阶段.  May not move in the turn it shoots this weapon.</description>
+                  <description>整场游戏一次, may call down a bombardment in the 射击阶段.  May not move in the turn it shoots this weapon.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -24592,7 +24592,7 @@ cognis-signum.</description>
                         <cost name="pts" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="8853-1d52-5530-0568" name="Pintle-mounted 重爆弹" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="8853-1d52-5530-0568" name="同轴重爆弹" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c24-7a7c-f7bc-2c11" type="max"/>
                       </constraints>
@@ -25022,7 +25022,7 @@ cognis-signum.</description>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="1633-68b6-d552-3d6d" name="Chosen may exchange 复合爆弹枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cc7-4aea-2f51-3a05">
+                <selectionEntryGroup id="1633-68b6-d552-3d6d" name="Chosen 可以替换 复合爆弹枪 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cc7-4aea-2f51-3a05">
                   <modifiers>
                     <modifier type="decrement" field="952b-e159-139e-d6e0" value="1.0">
                       <repeats>
@@ -25064,7 +25064,7 @@ cognis-signum.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="785a-48c6-9d32-9f88" name="One Model may exchange their Combi Bolter for:" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="785a-48c6-9d32-9f88" name="One Model 可以替换 their Combi Bolter for:" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="7216-b0d6-77f2-58f7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74c8-56e1-1d9b-2b39" type="max"/>
                       </constraints>
@@ -25209,7 +25209,7 @@ cognis-signum.</description>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="ef3b-391a-00ed-197d" name="Chosen may exchange 动力武器 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4fba-c140-c85f-7258">
+                <selectionEntryGroup id="ef3b-391a-00ed-197d" name="Chosen 可以替换 动力武器 for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4fba-c140-c85f-7258">
                   <modifiers>
                     <modifier type="decrement" field="67d6-849e-0b1c-af8a" value="1.0">
                       <repeats>
@@ -25474,7 +25474,7 @@ cognis-signum.</description>
                       </constraints>
                       <entryLinks>
                         <entryLink id="ee2f-9c51-724c-9734" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                        <entryLink id="51c0-fec5-4b83-d20f" name="Hand 喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry">
+                        <entryLink id="51c0-fec5-4b83-d20f" name="手持喷火器" hidden="false" collective="false" import="true" targetId="fbcb-b489-9fc8-3d4a" type="selectionEntry">
                           <costs>
                             <cost name="pts" typeId="points" value="5.0"/>
                           </costs>
@@ -25844,7 +25844,7 @@ cognis-signum.</description>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="f644-c070-6f91-d924" name="Entire squad 可以选择:" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="f644-c070-6f91-d924" name="整个小队可以选择:" hidden="false" collective="false" import="true">
                   <entryLinks>
                     <entryLink id="c10e-ab96-248b-94c4" name="Sonic Shriekers" hidden="false" collective="false" import="true" targetId="d8f4-1501-66fd-0477" type="selectionEntry">
                       <modifiers>
@@ -26095,9 +26095,9 @@ cognis-signum.</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bce-f9f1-19ca-c236" type="min"/>
       </constraints>
       <profiles>
-        <profile id="86aa-1007-998b-5b44" name="Banestrike Bolter Shells" publicationId="ca571888--pubN67459" page="9" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="86aa-1007-998b-5b44" name="Banestrike Bolter Shells" publicationId="ca571888--pubN67459" page="9" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Reduces range of 爆弹枪 and Combi-bolters to 18&quot; and provides the Banestrike rule.  Weapons with Banestrike change their AP value to 3 on &quot;to-wound&quot; rolls of a 6. </characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Reduces range of 爆弹枪 and Combi-bolters to 18&quot; and provides the Banestrike rule.  武器 with Banestrike change their AP value to 3 on &quot;to-wound&quot; rolls of a 6. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26167,10 +26167,10 @@ cognis-signum.</description>
     <rule id="0eaf-31da-5081-636f" name="Munitions" hidden="false">
       <description>Any units in the same detachment may be equipped at X per model, with:
 自动炮: Sabot: 36” S8 AP2 Heavy 1 碎裂 = 5pts per model
-Missile Launcher: Sabot: 36” S8 AP2 Heavy 1 碎裂 = 5pts per model
+导弹发射器: Sabot: 36” S8 AP2 Heavy 1 碎裂 = 5pts per model
 重爆弹: Splinter: 36” S2 AP4 Heavy 3 撕裂 = 2pts per model
 
-Munitions can be used with all versions of these weapons (e.g. reaper and twin-linked autocannon) for models with a T value or Walkers (excluding Superheavies)</description>
+Munitions can be used with all versions of these 武器 (e.g. reaper and 双联 autocannon) for models with a T value or Walkers (excluding Superheavies)</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

@@ -1197,7 +1197,7 @@
       </modifiers>
       <rules>
         <rule id="009e-3165-fcaf-6ae8" name="Shield Barricade" publicationId="ca571888--pubN106705" hidden="false">
-          <description>Friendly 步兵 units being targeted by ranged attacks which pass through the area occupied by a unit composed entirely of models with this 特殊规则 gain a 4+ 掩体保护.</description>
+          <description>Friendly 步兵 units being targeted by ranged attacks which pass through the area occupied by a unit composed entirely of models with this 规则 gain a 4+ 掩体保护.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1766,7 +1766,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8e20-b55f-d272-d847" name="可以装备 any of the Following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8e20-b55f-d272-d847" name="可以装备任何:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="ee42-5914-fd38-2da5" name="Arae-Shrikes" hidden="false" collective="false" import="true" targetId="be4a-0e91-0f1f-4c1d" type="selectionEntry">
               <constraints>
@@ -2338,7 +2338,7 @@
             <infoLink id="4aca-d5e5-8866-0c0b" name="New InfoLink" hidden="false" targetId="c39c-b1bf-bf79-1452" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0df1-a8b3-39f0-2bb4" name="May Exchange CCW for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c45e-5226-10a5-720f">
+            <selectionEntryGroup id="0df1-a8b3-39f0-2bb4" name="可以替换 CCW for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="c45e-5226-10a5-720f">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f6b-44e6-9a81-cb75" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8657-f7cd-f589-0416" type="min"/>
@@ -2377,7 +2377,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7a17-d0d9-4b80-329c" name="May Exchange Assault Needler for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="5b3e-b760-f0f5-9db0">
+            <selectionEntryGroup id="7a17-d0d9-4b80-329c" name="可以替换 Assault Needler for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="5b3e-b760-f0f5-9db0">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e3-13f5-7503-20c5" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bd8-5ab0-404b-76e9" type="min"/>
@@ -2497,7 +2497,7 @@
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>If Constantin Valdor is your Warlord he may re-roll attempts to seize the initiative in missions where this is a factor. Additionally, if Constantin Valdor is your Warlord he gains the Teleportation Transponders item of wargear and may also grant one unit with the Legio Custodes 特殊规则 Teleportation Transponders at no additional cost.</description>
+              <description>If Constantin Valdor is your Warlord he may re-roll attempts to seize the initiative in missions where this is a factor. Additionally, if Constantin Valdor is your Warlord he gains the Teleportation Transponders item of 装备 and may also grant one unit with the Legio Custodes 规则 Teleportation Transponders at no additional cost.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -2597,7 +2597,7 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>If Jenetia Krole is your Warlord, you may opt to reroll the dice to Sieze the Initiative in missions where this is relevent, and you may also dive D3 of your 步兵 units the Scouts 特殊规则.</description>
+          <description>If Jenetia Krole is your Warlord, you may opt to reroll the dice to Sieze the Initiative in missions where this is relevent, and you may also dive D3 of your 步兵 units the Scouts 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3111,13 +3111,13 @@
         <categoryLink id="851c-0005-469e-aa43" name="载具 (单位):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dc75-d782-32ec-f1d8" name="Two Dreadnought Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dc75-d782-32ec-f1d8" name="Two Dreadnought 近战武器s" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0307-ecbe-c7ec-24b8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-b195-bb51-8838" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="104b-9f75-5fb7-c715" name="Dreadnought Close Combat weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="104b-9f75-5fb7-c715" name="Dreadnought 近战武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc8-0831-2d50-90f6" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc62-a51e-0cce-128c" type="min"/>
@@ -3330,7 +3330,7 @@
         <categoryLink id="3c11-d1cc-afb6-996e" name="载具 (单位):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d103-ec57-4509-2617" name="Two 双联Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d103-ec57-4509-2617" name="Two 双联导弹发射器s" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c744-79c8-3da2-2e1e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc9-4473-614d-a045" type="min"/>
@@ -3854,7 +3854,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3996-8917-9bf8-d5a2" name="May exchange it&apos;s 双联Arachnus Blaze Cannon with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4896-60b8-f27d-d852">
+            <selectionEntryGroup id="3996-8917-9bf8-d5a2" name="可以替换 it&apos;s 双联Arachnus Blaze Cannon with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4896-60b8-f27d-d852">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0486-bcd4-1176-907d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e66-09ad-2f6e-49a2" type="min"/>
@@ -4074,7 +4074,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a513-8a1d-0a57-ce6c" name="Seeker Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd3a-da95-d9ab-493c">
+        <selectionEntryGroup id="a513-8a1d-0a57-ce6c" name="Seeker 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd3a-da95-d9ab-493c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926e-2ccd-1347-867d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d54-2241-cfcc-6c7a" type="min"/>
@@ -4477,7 +4477,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="6bd3-bb9d-068d-7c1f" name="May Exchange 爆弹手枪 For:" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c40-2db5-a9b0-4301">
+            <selectionEntryGroup id="6bd3-bb9d-068d-7c1f" name="可以替换 爆弹手枪 For:" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c40-2db5-a9b0-4301">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d15-9a26-a5e4-7e13" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a11-02b5-ecad-5ccf" type="min"/>
@@ -4532,7 +4532,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d7c4-0c06-2307-0347" name="Oblivion Knight Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c79-902c-8d43-b536">
+        <selectionEntryGroup id="d7c4-0c06-2307-0347" name="Oblivion Knight 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c79-902c-8d43-b536">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9a3-8f35-939b-eba2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01a4-5352-d01f-e2fb" type="min"/>
@@ -4825,7 +4825,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bc46-bdb5-b632-669e" name="Prosecutor Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f05f-ee9e-4dd1-725a">
+        <selectionEntryGroup id="bc46-bdb5-b632-669e" name="Prosecutor 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="f05f-ee9e-4dd1-725a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d79-daa2-1afb-5e30" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d846-7eb6-317b-0ab8" type="min"/>
@@ -5177,9 +5177,9 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0dd1-7b8c-1e91-3fc7" name="Multi-Layer 偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="0dd1-7b8c-1e91-3fc7" name="Multi-Layer 偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
-            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A multi-layer 偏转立场 confers a 4+ 特殊保护, increasing to 3+ against weapons with the 爆炸 特殊规则 or that use a 喷射盖板 of any kind.</characteristic>
+            <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A multi-layer 偏转立场 confers a 4+ 特殊保护, increasing to 3+ against 武器 with the 爆炸 规则 or that use a 喷射盖板 of any kind.</characteristic>
           </characteristics>
         </profile>
         <profile id="cdb5-2a5b-0741-7958" name="Telemon Dreadnought" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
@@ -5233,7 +5233,7 @@ decided.</description>
           </profiles>
           <rules>
             <rule id="b4fc-473d-abe7-889e" name="Volley Fire" hidden="false">
-              <description>If the bearer does not move in the 移动阶段, it may double the number of shots fired by this weapon. Note that the 毫不留情 特殊规则 does not allow models to move and claim the benefit of this 特殊规则.</description>
+              <description>If the bearer does not move in the 移动阶段, it may double the number of shots fired by this weapon. Note that the 毫不留情 规则 does not allow models to move and claim the benefit of this 规则.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5309,9 +5309,9 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56c8-60ce-363a-9e25" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1102-3cb0-9e67-dfbc" name="Arae-shrike (Interception Interference)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="1102-3cb0-9e67-dfbc" name="Arae-shrike (Interception Interference)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When this model enters the battlefield, and any enemy units declare the use of the 拦截 特殊规则 to fire upon it, the intercepting player must roll a D6 for each unit that is attempting 拦截 fire after all such attacks have been declared. If any dice results in a 3 or less then that unit may not make an 拦截 attack that turn, but may fire as normal in its next 射击阶段.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When this model enters the battlefield, and any enemy units declare the use of the 拦截 规则 to fire upon it, the intercepting player must roll a D6 for each unit that is attempting 拦截 fire after all such attacks have been declared. If any dice results in a 3 or less then that unit may not make an 拦截 attack that turn, but may fire as normal in its next 射击阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5329,9 +5329,9 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffaa-b004-e2b2-6ccb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ba5e-302a-a313-bc11" name="Eclipse Shield" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="ba5e-302a-a313-bc11" name="Eclipse Shield" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An eclipse field operates against shooting attacks that strike the Orion’s Front arc. It reduces the Strength of attacks by weapons with the 喷射盖板 or 爆炸 type by -2 and the Strength of other shooting attacks by -1. If a shooting attack targeting the Orion’s Front arc inflicts a glancing hit or penetrating hit from any weapon attack then the Orion immediately gains the 笼罩 特殊规则 against all subsequent shooting attacks targeting it in the Front arc during the same phase. An eclipse shield has no effect on 近战攻击 or attacks inflicted by the Destroyer 特殊规则.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An eclipse field operates against shooting attacks that strike the Orion’s Front arc. It reduces the Strength of attacks by 武器 with the 喷射盖板 or 爆炸 type by -2 and the Strength of other shooting attacks by -1. If a shooting attack targeting the Orion’s Front arc inflicts a glancing hit or penetrating hit from any weapon attack then the Orion immediately gains the 笼罩 规则 against all subsequent shooting attacks targeting it in the Front arc during the same phase. An eclipse shield has no effect on 近战攻击 or attacks inflicted by the Destroyer 规则.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5561,9 +5561,9 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f8-6360-8da6-c714" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a95a-fc26-8dd8-7eb9" name="Arae-shrike (Interception Interference)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="a95a-fc26-8dd8-7eb9" name="Arae-shrike (Interception Interference)" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When this model enters the battlefield, and any enemy units declare the use of the 拦截 特殊规则 to fire upon it, the intercepting player must roll a D6 for each unit that is attempting 拦截 fire after all such attacks have been declared. If any dice results in a 3 or less then that unit may not make an 拦截 attack that turn, but may fire as normal in its next 射击阶段.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When this model enters the battlefield, and any enemy units declare the use of the 拦截 规则 to fire upon it, the intercepting player must roll a D6 for each unit that is attempting 拦截 fire after all such attacks have been declared. If any dice results in a 3 or less then that unit may not make an 拦截 attack that turn, but may fire as normal in its next 射击阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5581,9 +5581,9 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5be5-b7fc-8e60-9303" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d89c-4d63-9770-3c6c" name="Eclipse Shield" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="d89c-4d63-9770-3c6c" name="Eclipse Shield" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An eclipse field operates against shooting attacks that strike the Orion’s Front arc. It reduces the Strength of attacks by weapons with the 喷射盖板 or 爆炸 type by -2 and the Strength of other shooting attacks by -1. If a shooting attack targeting the Orion’s Front arc inflicts a glancing hit or penetrating hit from any weapon attack then the Orion immediately gains the 笼罩 特殊规则 against all subsequent shooting attacks targeting it in the Front arc during the same phase. An eclipse shield has no effect on 近战攻击 or attacks inflicted by the Destroyer 特殊规则.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An eclipse field operates against shooting attacks that strike the Orion’s Front arc. It reduces the Strength of attacks by 武器 with the 喷射盖板 or 爆炸 type by -2 and the Strength of other shooting attacks by -1. If a shooting attack targeting the Orion’s Front arc inflicts a glancing hit or penetrating hit from any weapon attack then the Orion immediately gains the 笼罩 规则 against all subsequent shooting attacks targeting it in the Front arc during the same phase. An eclipse shield has no effect on 近战攻击 or attacks inflicted by the Destroyer 规则.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5629,13 +5629,13 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e79a-6ed4-583d-f294" name="Two Infernus Firebomb Cluster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e79a-6ed4-583d-f294" name="Two Infernus Fire集束炸弹" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcaa-9d4b-71a0-898c" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0266-c0a0-0879-7a5f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d266-057a-a6f2-12da" name="Infernus Firebomb Cluster" publicationId="ca571888--pubN103311" page="287" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+            <profile id="d266-057a-a6f2-12da" name="Infernus Fire集束炸弹" publicationId="ca571888--pubN103311" page="287" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
@@ -5943,7 +5943,7 @@ decided.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="899d-b93f-a5d4-6310" name="The Talon Master 可以装备 any of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="899d-b93f-a5d4-6310" name="The Talon Master 可以装备任何:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="03ef-12c7-855e-a1fc" name="Arae-Shrikes" hidden="false" collective="false" import="true" targetId="be4a-0e91-0f1f-4c1d" type="selectionEntry">
               <constraints>
@@ -6067,7 +6067,7 @@ decided.</description>
       </profiles>
       <rules>
         <rule id="8b3d-5702-8b36-c04f" name="Tainted" page="" hidden="false">
-          <description>Any successful wound dealt by a weapon with this 特殊规则 removes the effects of any psychic blessing which is active on the target unit. In addition, any To Wound roll of a 6 with this weapon is resolved at AP2.</description>
+          <description>Any successful wound dealt by a weapon with this 规则 removes the effects of any psychic blessing which is active on the target unit. In addition, any To Wound roll of a 6 with this weapon is resolved at AP2.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6079,7 +6079,7 @@ decided.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="986b-441b-bff6-b09f" name="Wargear" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="986b-441b-bff6-b09f" name="装备" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="a521-ee67-6936-d9b2" name="Praesidium Shield" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6275,12 +6275,12 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6d79-f204-10b7-08cf" name="Legio Custodes Battlefeild Support Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="6d79-f204-10b7-08cf" name="Legio Custodes Battlefeild Support 武器" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="d9f3-ece0-5749-021e" name="Illastus Accelerator Cannon" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="e7cd-657e-49a9-a02d" name="快速追踪" hidden="false" targetId="3996-018b-a7d9-a7b8" type="rule"/>
-            <infoLink id="d17f-0502-f5ac-aa0e" name="Heliothermic Detonation" hidden="false" targetId="dd32-1791-4789-051f" type="rule"/>
+            <infoLink id="d17f-0502-f5ac-aa0e" name="Heliothermic 自爆" hidden="false" targetId="dd32-1791-4789-051f" type="rule"/>
             <infoLink id="a352-3b65-5812-946a" name="Illastus Accelerator Cannon" hidden="false" targetId="77bf-13f3-9413-a331" type="profile"/>
             <infoLink id="8d50-2789-d1d8-52ec" name="撕裂" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
           </infoLinks>
@@ -6411,7 +6411,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1542-edf8-6c46-f146" name="Legio Custodes Ranged Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1542-edf8-6c46-f146" name="Legio Custodes Ranged 武器" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="ac1f-421a-2070-02d2" name="Adrathic Destructor" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
@@ -6427,7 +6427,7 @@ decided.</description>
         <selectionEntry id="f1b0-99e2-cc9c-8e09" name="Adrastus Bolt Caliver" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="c9b5-afc1-43dd-ab25" name="Combination Weapon" hidden="false">
-              <description>A model with an Adrastus Bolt Caliver can fire it either as a volley of bolter fire or a disintegration 射线 in the 射击阶段 - you must declare which is used before any dice are rolled. If a unit is equipped with this weapon then the controlling player must decide and declare which mode is being used by each model, and the unit does not have to entirely fire on the same mode. Note that unlike conventional combi-weapons, the disintegration 射线 can be fired multiple times during the game.</description>
+              <description>A model with an Adrastus Bolt Caliver can fire it either as a volley of bolter fire or a disintegration 射线 in the 射击阶段 - you must declare which is used before any dice are rolled. If a unit is equipped with this weapon then the controlling player must decide and declare which mode is being used by each model, and the unit does not have to entirely fire on the same mode. Note that unlike conventional combi-武器, the disintegration 射线 can be fired multiple times during the game.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6466,7 +6466,7 @@ decided.</description>
         <selectionEntry id="e854-b201-250d-5b1b" name="Lastrum Bolt Cannon" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="d884-ac3e-7bbb-5a98" name="New InfoLink" hidden="false" targetId="6e09-5e34-f395-cd3d" type="profile"/>
-            <infoLink id="2a88-f396-c9fa-a7b7" name="Heliothermic Detonation" hidden="false" targetId="dd32-1791-4789-051f" type="rule"/>
+            <infoLink id="2a88-f396-c9fa-a7b7" name="Heliothermic 自爆" hidden="false" targetId="dd32-1791-4789-051f" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -6483,7 +6483,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0de7-4aa7-e7da-fe45" name="Legio Custodes Assault Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0de7-4aa7-e7da-fe45" name="Legio Custodes Assault 武器" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="dc9c-fe1d-8c26-fb07" name="Guardian Spear" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
@@ -6665,7 +6665,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3476-549f-c1a1-67b3" name="Sisters of Silence Wargear" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3476-549f-c1a1-67b3" name="Sisters of Silence 装备" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="a088-a0e9-0612-f74f" name="Psyk-out Grenades" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
@@ -6761,7 +6761,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="18d8-c9e2-b2ae-ad92" name="Sisters of Silence Ranged weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="18d8-c9e2-b2ae-ad92" name="Sisters of Silence Ranged 武器" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="a1bd-37d2-4ee5-6e4b" name="Stake-Crossbow" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
@@ -6772,7 +6772,7 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0319-8f8d-ab88-efa5" name="Needle 手枪" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0319-8f8d-ab88-efa5" name="毒针手枪" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="abdc-5517-84a6-e642" name="New InfoLink" hidden="false" targetId="2d80-e016-4c0b-9a22" type="profile"/>
             <infoLink id="8e26-44c9-7582-5b85" name="New InfoLink" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
@@ -6874,7 +6874,7 @@ decided.</description>
         <entryLink id="e8fb-c8e2-06cf-8210" name="Legio Custodes Coronus Grav-Carrier" hidden="false" collective="false" import="true" targetId="52aa-6b05-24b3-d283" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5527-f4ef-035b-11c2" name="Wargear" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5527-f4ef-035b-11c2" name="装备" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="b4ea-a586-86a9-02eb" name="真理频道" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6903,7 +6903,7 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c587-5d7f-6151-005d" name="精工甲" publicationId="690c-3e82-3080-6bc0" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="c587-5d7f-6151-005d" name="精工甲" publicationId="690c-3e82-3080-6bc0" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">精工甲赋予 2+ 装甲保护.  </characteristic>
               </characteristics>
@@ -6918,7 +6918,7 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e0d-f89e-8c8d-2d29" type="max"/>
           </constraints>
           <profiles>
-            <profile id="96e4-a19a-7925-ebaa" name="战斗盾" publicationId="690c-3e82-3080-6bc0" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="96e4-a19a-7925-ebaa" name="战斗盾" publicationId="690c-3e82-3080-6bc0" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">获得 6+ 特殊保护, 近战中变为 5+.</characteristic>
               </characteristics>
@@ -7051,7 +7051,7 @@ decided.</description>
         <selectionEntry id="2d89-d9dd-f2a7-ebc4" name="Illastus Accelerator Culverin" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="44a3-7c01-9d03-cddf" name="Illastus Accelerator Culverin" hidden="false" targetId="bd4f-4ba1-a337-9b50" type="profile"/>
-            <infoLink id="4269-f7ca-1fff-2f93" name="Heliothermic Detonation" hidden="false" targetId="dd32-1791-4789-051f" type="rule"/>
+            <infoLink id="4269-f7ca-1fff-2f93" name="Heliothermic 自爆" hidden="false" targetId="dd32-1791-4789-051f" type="rule"/>
             <infoLink id="349e-d14d-23a9-df56" name="撕裂" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
           </infoLinks>
           <costs>
@@ -7066,10 +7066,10 @@ decided.</description>
       <description>Unless the 载具 has become Immobilised, attackers suffer a -2 To Hit it in assault.</description>
     </rule>
     <rule id="41a9-bbe8-d024-4813" name="Inviolable Psyche" publicationId="ca571888--pubN92115" hidden="false">
-      <description>A unit with this 特殊规则 is immune to 恐怖 and 压制测试, and 可以重投 failed Deny the Witch attempts. This unit does not suffer penalties to its LEadership when taking 士气测试.</description>
+      <description>A unit with this 规则 is immune to 恐怖 and 压制测试, and 可以重投 failed Deny the Witch attempts. This unit does not suffer penalties to its LEadership when taking 士气测试.</description>
     </rule>
     <rule id="c49a-b905-f536-8810" name="The Sodality" publicationId="ca571888--pubN92115" hidden="false">
-      <description>A unit composed entirely of models with this 特殊规则 has a coherency of 3&quot; instead of the usual 2&quot; and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
+      <description>A unit composed entirely of models with this 规则 has a coherency of 3&quot; instead of the usual 2&quot; and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
     </rule>
     <rule id="a37c-753a-33b4-8101" name="Lightning Blows" publicationId="ca571888--pubN92115" hidden="false">
       <description>Every roll of a 6 To Hit with this weapon generates another attack with the same weapon at the same Initiative step. These extra attacks do not themselves also generate additional attacks.</description>
@@ -7080,7 +7080,7 @@ decided.</description>
     <rule id="9627-9c59-94d1-d76a" name="残忍打击" publicationId="ca571888--pubN92115" hidden="false">
       <description>Attacks with this weapon cause 即死 on a To Wound roll of 5 or 6. Roll any viable saves against thses 即死-causing wounds seperately to any other wounds the attack inflicts.</description>
     </rule>
-    <rule id="dd32-1791-4789-051f" name="Heliothermic Detonation" publicationId="ca571888--pubN92115" hidden="false">
+    <rule id="dd32-1791-4789-051f" name="Heliothermic 自爆" publicationId="ca571888--pubN92115" hidden="false">
       <description>If any Target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughnes test. if this test is failed, they suffer 即死. in the case of a 载具 suffering a penetrating hit from this weapon, add +1 to the result that is rolled on the 载具 Damage table.</description>
     </rule>
     <rule id="3996-018b-a7d9-a7b8" name="快速追踪" publicationId="ca571888--pubN92115" hidden="false">
@@ -7103,26 +7103,26 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
     <rule id="c793-7756-3669-827c" name="Ex Oblivio" publicationId="ca571888--pubN92115" page="247" hidden="false">
       <description>Psychi models or units of any kind within 6&quot; of models with tis rul at the start of their Psychic phase do not generate additional warp charge dice.
 
-If any Psyhic model is in base contact with a model that has this 特殊规则 at the start of any Psychic phase they must immediately make a Leadership text before Warp Charge is rulled for. If this test is failed they must immediately suffer Perils of the Warp at -1and may not use any psychic powers durung this phase should they survive this.</description>
+If any Psyhic model is in base contact with a model that has this 规则 at the start of any Psychic phase they must immediately make a Leadership text before Warp Charge is rulled for. If this test is failed they must immediately suffer Perils of the Warp at -1and may not use any psychic powers durung this phase should they survive this.</description>
     </rule>
     <rule id="97d7-d358-141a-8579" name="Fanatic Disipline" publicationId="ca571888--pubN92115" hidden="false">
-      <description>Models with this 特殊规则 are 无畏. In addition, they have 憎恨 (Psykers) 特殊规则.</description>
+      <description>Models with this 规则 are 无畏. In addition, they have 憎恨 (Psykers) 规则.</description>
     </rule>
     <rule id="05b9-9f16-29f9-9dad" name="Company Cadre Structure" publicationId="ca571888--pubN92115" hidden="false">
-      <description>In order to field any units with the Company-Cadre 特殊规则 using the Talons of the Emperor army list, at least one HQ unit with this 特殊规则 must be part of this detachment for every 3 non-HQ units with the Company Cadre 特殊规则 in the same detachment.</description>
+      <description>In order to field any units with the Company-Cadre 规则 using the Talons of the Emperor army list, at least one HQ unit with this 规则 must be part of this detachment for every 3 non-HQ units with the Company Cadre 规则 in the same detachment.</description>
     </rule>
     <rule id="6774-89d9-ba61-1071" name="Cadre Tactics" publicationId="ca571888--pubN92115" hidden="false">
-      <description>One of the following additional benefits may be given to all units in the detachment with the Company-Cadre 特殊规则.
+      <description>One of the following additional benefits may be given to all units in the detachment with the Company-Cadre 规则.
 渗透
 远征军
 隐蔽
 Overawe(+1 to the total score to determine the result of an assault)</description>
     </rule>
     <rule id="97a9-13e2-6a86-dae2" name="灵能冲击" publicationId="ca571888--pubN92115" hidden="false">
-      <description>If a unit containing at least one 灵能者 is hit by a weapon with the 灵能冲击 特殊规则, one randomly determined 灵能者 model in that unit suffers Perils of the Warp in addition to any other damage.</description>
+      <description>If a unit containing at least one 灵能者 is hit by a weapon with the 灵能冲击 规则, one randomly determined 灵能者 model in that unit suffers Perils of the Warp in addition to any other damage.</description>
     </rule>
     <rule id="626e-2455-feaf-032b" name="Electro-Arc" publicationId="ca571888--pubN92115" hidden="false">
-      <description>Total all hits caused by weapons with this 特殊规则 durring an 突击阶段, before making any 造伤骰, then roll a single D6 for each of these hits. Any rolls of 3+ cause an additional hit at AP- with the 毒伤 (4+)特殊规则.</description>
+      <description>Total all hits caused by 武器 with this 规则 durring an 突击阶段, before making any 造伤骰, then roll a single D6 for each of these hits. Any rolls of 3+ cause an additional hit at AP- with the 毒伤 (4+)规则.</description>
     </rule>
     <rule id="ae06-63ec-f5ae-f8db" name="Sweeping Strikes" publicationId="ca571888--pubN92115" hidden="false">
       <description>The bearer may choose to use the number of enemy models within 3&quot; that are locked in combat with them instead of their Attacks score to determine the number of attacks they may make in any 突击阶段.</description>
@@ -7134,19 +7134,19 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
       <description>If this weapon inflicts a sucessful hit, it becomes D3 hits on the target unit. For each hit inflicted, the opposing player must make a Strength test. For each Strength test failed, the unit suffers a single wound with no armour saves allowed (Invulnerable saves may be taken as normal). This weapon has no effect on 超级巨兽 or Vehicles.</description>
     </rule>
     <rule id="71ff-3b5a-6f75-55fc" name="Enhanced Voidsheen Cloak" publicationId="ca571888--pubN92115" hidden="false">
-      <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 weapons</description>
+      <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
     </rule>
     <rule id="3eed-1fde-941e-af2d" name="Compression Tanks" publicationId="ca571888--pubN92115" page="255" hidden="false">
-      <description>Once per game, a model equipped with this wargear can use it, and their controlling player must declare its use before any rolls To Wound are made for this attack. When it is used, the 喷火器&apos;s Strenght is increated to 6. Once used in this manner the 喷火器 cannot be used again at all for the rest of the game.</description>
+      <description>整场游戏一次, a model equipped with this 装备 can use it, and their controlling player must declare its use before any rolls To Wound are made for this attack. When it is used, the 喷火器&apos;s Strenght is increated to 6. Once used in this manner the 喷火器 cannot be used again at all for the rest of the game.</description>
     </rule>
     <rule id="7e19-5042-d0cb-0d82" name="Instruments of Torment" publicationId="ca571888--pubN92115" hidden="false">
-      <description>When in close compat with any 人物 without any other models being present in the combat, all attacks made by a unit with this 特殊规则 carry the 即死 特殊规则.</description>
+      <description>When in close compat with any 人物 without any other models being present in the combat, all attacks made by a unit with this 规则 carry the 即死 规则.</description>
     </rule>
     <rule id="4648-cbf1-884b-d7b4" name="Witchfinders" publicationId="ca571888--pubN92115" hidden="false">
       <description>You may only take an Excruciatus Cadre as your Detachment&apos;s 强制指挥槽位 choice if the Detachment costs 500pts or less in total.</description>
     </rule>
     <rule id="8fd8-2be9-519b-1b68" name="憎恨 (Psykers, Daemons)" publicationId="ca571888--pubN92115" hidden="false">
-      <description>This rule is often presented as 憎恨 (X) where X identifies a specific type of foe. If the 特殊规则 does not specify a type of foe, then the unit has 憎恨 against everyone. This can refer to a Faction, or a specific unit. For example, 憎恨 (Orks) means any model with the Ork Faction, whilst 憎恨 (Big Meks) means only Big Meks. A model striking a hated foe 近战中 重投 所有失败的 To Hit rolls during the first round of each close combat.</description>
+      <description>This rule is often presented as 憎恨 (X) where X identifies a specific type of foe. If the 规则 does not specify a type of foe, then the unit has 憎恨 against everyone. This can refer to a Faction, or a specific unit. For example, 憎恨 (Orks) means any model with the Ork Faction, whilst 憎恨 (Big Meks) means only Big Meks. A model striking a hated foe 近战中 重投 所有失败的 To Hit rolls during the first round of each close combat.</description>
     </rule>
     <rule id="7a26-98f9-345e-e2c0" name="Molecular Severance" publicationId="ca571888--pubN92115" hidden="false">
       <description>Any To Wound roll of a 4+ with this weapon inflicts Instand Death, or in the case of vehicles causes a penetrating hit regardless of the target&apos;s armour value. In addition, any sucessful 特殊保护 taken againts this weapon must be re-rolled.</description>
@@ -7155,34 +7155,34 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
       <description>A model equipped with Spectra-Vestments imposes a -1 BS penalty on targets making shooting attacks againt them.</description>
     </rule>
     <rule id="3cfc-cfdc-a578-923e" name="Voidsheen Cloak" publicationId="ca571888--pubN92115" hidden="false">
-      <description>6++, increasing to a 4++ against 喷射盖板 and 爆炸 weapons</description>
+      <description>6++, increasing to a 4++ against 喷射盖板 and 爆炸 武器</description>
     </rule>
     <rule id="8507-1dbf-2690-2157" name="Impaling" publicationId="ca571888--pubN92115" hidden="false">
       <description>In the 突击阶段 on a turn in which this model has charged, To Hit rolls of 6 with this weapon are resolved as Destroyer Hits.</description>
     </rule>
     <rule id="9e6d-607b-824f-30ea" name="Death Mark" publicationId="ca571888--pubN92115" hidden="false">
-      <description>After both sides have deployed but before the game begins, if a Detachment contains any Vigilator Cadres, their controlling player must declare a single enemy 步兵 unit or Independant 人物 as carrying the Death Mark this game. All Vigilator units in the Detachment gain the 宿敌 特殊规则 when attacking this unit or 人物.</description>
+      <description>After both sides have deployed but before the game begins, if a Detachment contains any Vigilator Cadres, their controlling player must declare a single enemy 步兵 unit or Independant 人物 as carrying the Death Mark this game. All Vigilator units in the Detachment gain the 宿敌 规则 when attacking this unit or 人物.</description>
     </rule>
     <rule id="3ca6-ef89-ab4d-85c8" name="Battle Auspex" publicationId="ca571888--pubN92115" hidden="false">
-      <description>The Kharon Pattern Acquisitor has the 夜视 特殊规则. In addition, it reduces the cover saves of enemy targets it fires on by -1.</description>
+      <description>The Kharon Pattern Acquisitor has the 夜视 规则. In addition, it reduces the cover saves of enemy targets it fires on by -1.</description>
     </rule>
     <rule id="a369-8250-a683-e4d5" name="Spectra-Distort Field" publicationId="ca571888--pubN92115" hidden="false">
-      <description>A Model with a Spectra-Distort field has the 隐蔽 特殊规则. Furthermore, shooting attacks against it from more then 12&quot; away have a -1 BS penalty (Minimum 1)</description>
+      <description>A Model with a Spectra-Distort field has the 隐蔽 规则. Furthermore, shooting attacks against it from more then 12&quot; away have a -1 BS penalty (Minimum 1)</description>
     </rule>
     <rule id="18d0-fdf0-c554-cb34" name="Capture-Grid" publicationId="ca571888--pubN92115" hidden="false">
       <description>When the Kharon Pattern Acquisitor makes a Tank Shock against an 步兵 unit, it inflicts D6 Str 5 愤怒之锤 attacks while doing so - these are made before any Death or Glory attempts</description>
     </rule>
     <rule id="a2af-e9d4-78d6-07c7" name="Sweeping Fire" publicationId="ca571888--pubN92115" hidden="false">
-      <description>Members of the unit may fire once with each of their weapons in the 射击阶段</description>
+      <description>Members of the unit may fire once with each of their 武器 in the 射击阶段</description>
     </rule>
     <rule id="320e-ff0d-18d2-10f7" name="Auramite Pinions" hidden="false">
-      <description>A Model with this 特殊规则 has an 特殊保护 of 4+ when locked 近战中.</description>
+      <description>A Model with this 规则 has an 特殊保护 of 4+ when locked 近战中.</description>
     </rule>
     <rule id="bad5-67d0-2390-90f5" name="Fan-Burst" hidden="false">
       <description>On the roll of a 6 To Hit, the bearer may make an extra shooting attack with this weapon (至多 a miximum of six rolls To Hit)</description>
     </rule>
     <rule id="8fa4-a1c0-c588-34e6" name="Energy Nullifier" hidden="false">
-      <description>The AP value of any attack made agaisnt a model bearing wargear with the Energy Nullifier rule is reduced by 1 (for example, the attacks of a 动力剑 striking a model equipped with a Tarsus buckler are resolved at AP 4 instead of AP 3).</description>
+      <description>The AP value of any attack made agaisnt a model bearing 装备 with the Energy Nullifier rule is reduced by 1 (for example, the attacks of a 动力剑 striking a model equipped with a Tarsus buckler are resolved at AP 4 instead of AP 3).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7218,42 +7218,42 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">近战, Lightning Blows, 特殊武器</characteristic>
       </characteristics>
     </profile>
-    <profile id="f07e-858e-d637-e858" name="Custodian Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="f07e-858e-d637-e858" name="Custodian Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian armour provides a 2+ 装甲保护 and confers the 穿越地形 特殊规则.  </characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian armour provides a 2+ 装甲保护 and confers the 穿越地形 规则.  </characteristic>
       </characteristics>
     </profile>
-    <profile id="8801-24fc-bb8c-ef86" name="Praesidium Shield" publicationId="ca571888--pubN92115" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="8801-24fc-bb8c-ef86" name="Praesidium Shield" publicationId="ca571888--pubN92115" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Praesidium Shield increases the 特殊保护 of the bearer by 1 (e.g., a 5+ becomes a 4+), to a maximum of 3+. It also imposes a -1 penalty on To Hit rolls of opponents who direct their attacks against the model in the 突击阶段, to a maximum of 6+. A model equipped with a Praesidium shield however cannot use a weapon with the 双手 特殊规则, claim the benefit of an additional close combat weapon in assault or use the increased close combat profile when charging for a Guardian spear-type weapon.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Praesidium Shield increases the 特殊保护 of the bearer by 1 (e.g., a 5+ becomes a 4+), to a maximum of 3+. It also imposes a -1 penalty on To Hit rolls of opponents who direct their attacks against the model in the 突击阶段, to a maximum of 6+. A model equipped with a Praesidium shield however cannot use a weapon with the 双手 规则, claim the benefit of an additional 近战武器 in assault or use the increased close combat profile when charging for a Guardian spear-type weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0a62-df1f-aed7-fc07" name="Aquillon Pattern Terminator Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="0a62-df1f-aed7-fc07" name="Aquillon Pattern Terminator Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aquilon Pattern Terminator Armour provides a 2+ armor save, a 4+ 特殊保护, and the 愤怒之锤 特殊规则. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo weapons, counting as stationary even if they moved in the previous movement phase. They may also charge after firing Rapid Fire, Heavy, or Salvo weapons. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire 坚守射击 and make 追击.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aquilon Pattern Terminator Armour provides a 2+ armor save, a 4+ 特殊保护, and the 愤怒之锤 规则. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo 武器, counting as stationary even if they moved in the previous movement phase. They may also charge after firing Rapid Fire, Heavy, or Salvo 武器. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire 坚守射击 and make 追击.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ccdd-40a2-abb2-09a3" name="Teleportation Transponder" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="ccdd-40a2-abb2-09a3" name="Teleportation Transponder" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit comprising models that are all equipped with teleportation transponders gains the 深度打击 rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a660-c6dd-f169-e9f3" name="Refractor Feild" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="a660-c6dd-f169-e9f3" name="Refractor Feild" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">5++</characteristic>
       </characteristics>
     </profile>
-    <profile id="74a8-38a9-870a-f02d" name="Magesterium Vexilla" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="74a8-38a9-870a-f02d" name="Magesterium Vexilla" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit with the Magisterium Vexilla 可以重投失败的 Leadership tests and gains the 恐怖 特殊规则. In addition, you may add +1 to the Wounds score calculated to see if any friendly unit with any models within 12&quot; of any magisterium Vaxilla wins a combat in the 突击阶段 - this bonus only applies once.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit with the Magisterium Vexilla 可以重投失败的 Leadership tests and gains the 恐怖 规则. In addition, you may add +1 to the Wounds score calculated to see if any friendly unit with any models within 12&quot; of any magisterium Vaxilla wins a combat in the 突击阶段 - this bonus only applies once.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b429-19fb-4cf4-1e2e" name="Arae-Shrikes (深度打击 Interference)" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="b429-19fb-4cf4-1e2e" name="Arae-Shrikes (深度打击 Interference)" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When an enemy unit attempts to land via 深度打击 within 12&quot; of a model equipped with an Arae-shrike, roll a D6 before they determine the result of their 深度打击 landing. On a 4+, the unit suffers a 深度打击 Mishap instead of landing – note that even models usually immune to 深度打击 Mishaps such as those that have Inertial Guidance systems or who do not usually scatter while Deep Striking are still subject to this effect.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f0c1-9ee8-4740-54f9" name="Arae-Shrikes (Targeting Interference)" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="f0c1-9ee8-4740-54f9" name="Arae-Shrikes (Targeting Interference)" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When a unit containing one or more models with an Arae-shrike is targeted by a weapon with the 弹幕 type, the attacking player must roll an additional D6 for the weapon’s Scatter distance and pick the highest two results. A Hit on the Scatter dice remains a Hit however.</characteristic>
       </characteristics>
@@ -7335,7 +7335,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">突击 2, Heilothermic Detonation</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">突击 2, Heilothermic 自爆</characteristic>
       </characteristics>
     </profile>
     <profile id="6e09-5e34-f395-cd3d" name="Lastrum Bolt Cannon" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -7343,7 +7343,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">重型 3, Heliothermic Detonation</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">重型 3, Heliothermic 自爆</characteristic>
       </characteristics>
     </profile>
     <profile id="77bf-13f3-9413-a331" name="Illastus Accelerator Cannon" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -7351,7 +7351,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Range" typeId="52616e676523232344415441232323">60&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">重型 3, 撕裂, 快速追踪, Heliothermic Detonation</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">重型 3, 撕裂, 快速追踪, Heliothermic 自爆</characteristic>
       </characteristics>
     </profile>
     <profile id="20a0-9b92-39e5-592b" name="Infernus Incinerator" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -7466,7 +7466,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">近战, 双手, Piercing Cut, 决斗者之刃</characteristic>
       </characteristics>
     </profile>
-    <profile id="2d80-e016-4c0b-9a22" name="Needle 手枪" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+    <profile id="2d80-e016-4c0b-9a22" name="毒针手枪" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">12</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
@@ -7512,7 +7512,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">近战, 撕裂, Deullist&apos;s Edge</characteristic>
       </characteristics>
     </profile>
-    <profile id="d7f5-8d27-73ca-2c52" name="Vratine Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="d7f5-8d27-73ca-2c52" name="Vratine Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">3+</characteristic>
       </characteristics>
@@ -7855,7 +7855,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Save" typeId="5361766523232344415441232323">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="634b-5e08-5355-c8d1" name="Gyrfalcon Jetbike" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="634b-5e08-5355-c8d1" name="Gyrfalcon Jetbike" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Failed Charge distances may be re-rolled when using the jetbike.</characteristic>
       </characteristics>
@@ -7934,7 +7934,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">机甲</characteristic>
       </characteristics>
     </profile>
-    <profile id="767b-d879-1e5f-bc94" name="Dreadnought Praesidium Shield" publicationId="ca571888--pubN103311" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="767b-d879-1e5f-bc94" name="Dreadnought Praesidium Shield" publicationId="ca571888--pubN103311" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When subject to attacks originating in its Front Arc, or in assault, the model&apos;s 特殊保护 is increased to 4+. In addition, attacks made in assault against it, other than by Gargantuan units and 超重型机甲, suffer a -1 penalty to hit (to a maximum of 6+) - note that this penalty has no effect on attacks which hit automatically.</characteristic>
       </characteristics>
@@ -7968,12 +7968,12 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">7</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-        <characteristic name="Type" typeId="5479706523232344415441232323">重型 5, 撕裂, Heliothermic Detonation</characteristic>
+        <characteristic name="Type" typeId="5479706523232344415441232323">重型 5, 撕裂, Heliothermic 自爆</characteristic>
       </characteristics>
     </profile>
-    <profile id="783e-c8f7-4312-98c7" name="Custodian Jump Harness" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+    <profile id="783e-c8f7-4312-98c7" name="Custodian Jump Harness" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian jump harness provides a 3+ 装甲保护 and the Auramite Pinions 特殊规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian jump harness provides a 3+ 装甲保护 and the Auramite Pinions 规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="11d9-f1a7-f2de-8ffa" name="Custodian Venatari" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">

@@ -19,7 +19,7 @@
 - [x] (HH) Mechanicum - Taghmata Army List.cat
 - [ ] (HH) Mournival Units.cat
 - [ ] (HH) Necron Army List.cat
-- [ ] (HH) Solar Auxilia - Crusade Army List.cat
+- [ ] (HH) Solar 辅助军 - Crusade Army List.cat
 - [ ] (HH) Talons of the Emperor Army List.cat
 - [ ] (HH) Varangian Heresy Legions.cat
 - [ ] The Horus Heresy.gst

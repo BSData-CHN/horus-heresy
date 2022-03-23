@@ -35,17 +35,17 @@
                 <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
               </characteristics>
             </profile>
-            <profile id="e4fe-46af-4ee5-447a" name="Badge of Office" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="e4fe-46af-4ee5-447a" name="Badge of Office" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The bearer gains a 5+ 特殊保护.</characteristic>
               </characteristics>
             </profile>
-            <profile id="4f0f-3696-7579-3a6f" name="Magnacles" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="4f0f-3696-7579-3a6f" name="Magnacles" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If an enemy characters last wound is removed by a weapon with the Shock rule during combat in which this 人物 is part of, they are considered to be captured rather than killed.</characteristic>
               </characteristics>
             </profile>
-            <profile id="cc5e-88eb-e7dc-6914" name="Shock Grenades" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="cc5e-88eb-e7dc-6914" name="Shock Grenades" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">These are special grenades that count neither as assault or 防御手雷, but have their own unique effect. During a turn in which a unit equipped with shock grenades launches an assault, or is themselves assaulted, the enemy unit可以升级 suffer a -1 penalty to their Initiative until the end of the 突击阶段.</characteristic>
               </characteristics>
@@ -53,10 +53,10 @@
           </profiles>
           <rules>
             <rule id="1909-9318-9b99-9419" name="Shock Specialist" publicationId="931a-ad98-6258-e12a" hidden="false">
-              <description>A model with this 特殊规则 activates the Shock rule one lower than normal, for example on a To Hit roll of a 5 or a 6 with a Shock Maul and a 4+ with a Shock Glove.</description>
+              <description>A model with this 规则 activates the Shock rule one lower than normal, for example on a To Hit roll of a 5 or a 6 with a Shock Maul and a 4+ with a Shock Glove.</description>
             </rule>
             <rule id="bcf3-ff39-f6d3-10bf" name="Officer Under Fire" publicationId="931a-ad98-6258-e12a" hidden="false">
-              <description>Any time an enemy unit fires at a model with this 特殊规则, the model gains 宿敌 versus that unit.</description>
+              <description>Any time an enemy unit fires at a model with this 规则, the model gains 宿敌 versus that unit.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -152,7 +152,7 @@
           </constraints>
           <rules>
             <rule id="2379-6ffb-ebcb-5098" name="Warrant" publicationId="931a-ad98-6258-e12a" hidden="false">
-              <description>At the beginning of the game, at the same time that 主将特性 and Psychic powers are determined, a Warrant must be secretly noted down for each model with this 特殊规则. The note is revealed at the end of the game when Victory points are being tallied. Each Warrant represents an objective which that Suffering Marshal must achieve, chosen from the list below. Each of the secret objectives has an associated Victory point score- if the objective is achieved, the Suffering Marshals side earns the indicated number of bonus Victory points in addition to any claimed as part of the mission. If the secret objective is not achieved, the model&apos;s side may not claim a victory in the battle, regardless of any other factors.</description>
+              <description>At the beginning of the game, at the same time that 主将特性 and Psychic powers are determined, a Warrant must be secretly noted down for each model with this 规则. The note is revealed at the end of the game when Victory points are being tallied. Each Warrant represents an objective which that Suffering Marshal must achieve, chosen from the list below. Each of the secret objectives has an associated Victory point score- if the objective is achieved, the Suffering Marshals side earns the indicated number of bonus Victory points in addition to any claimed as part of the mission. If the secret objective is not achieved, the model&apos;s side may not claim a victory in the battle, regardless of any other factors.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -296,7 +296,7 @@
               </constraints>
               <rules>
                 <rule id="00ac-51bf-667d-cf04" name="Suppression Shield" publicationId="931a-ad98-6258-e12a" hidden="false">
-                  <description>The model counts as being equipped with a 跳帮盾 that also confers the 愤怒之锤 特殊规则 with Shock.</description>
+                  <description>The model counts as being equipped with a 跳帮盾 that also confers the 愤怒之锤 规则 with Shock.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -317,9 +317,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ee-7534-55d6-490f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f540-4c6c-f544-a5e3" name="Book of Law" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="f540-4c6c-f544-a5e3" name="Book of Law" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model equipped with the Book of the Law may read from it at the start of each of their turns provided they are not currently locked in combat or 撤退. One friendly unit with the Arbites faction within 12” may be granted one of the following special rules until the start of their next turn: 远征军, 憎恨, 暴怒 or 坚毅. A unit may only be affected by one Book of the Law each turn.</characteristic>
+                    <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A model equipped with the Book of the Law may read from it at the start of each of their turns provided they are not currently locked in combat or 撤退. One friendly unit with the Arbites faction within 12” may be granted one of the following 规则 until the start of their next turn: 远征军, 憎恨, 暴怒 or 坚毅. A unit may only be affected by one Book of the Law each turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -332,7 +332,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f1b-8d53-6a0c-24e9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a5f8-0aab-caf5-e56e" name="Ballistic Cloth Surcoat" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="a5f8-0aab-caf5-e56e" name="Ballistic Cloth Surcoat" publicationId="931a-ad98-6258-e12a" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">The bearer improves their Armour Save by +1 and may re-roll saves against attacks with the Acid or 毒伤 rules.</characteristic>
                   </characteristics>
@@ -342,7 +342,7 @@
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ed58-f8c2-fb73-9f54" name="Arbites Bike with twin-linked Bolters (Unit Type: Bike)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ed58-f8c2-fb73-9f54" name="Arbites Bike with 双联 Bolters (Unit Type: Bike)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac2-fcfe-39a4-22a1" type="max"/>
               </constraints>
@@ -474,8 +474,8 @@
       </profiles>
       <rules>
         <rule id="7ace-9548-bce2-4b7e" name="Lifebane" hidden="false">
-          <description>A Myrmidon Biologis has the 宿敌 (步兵) 特殊规则.
-Note however this has no effect against models with any of the following special rules, as such entities are otherworldly abominations, forged from secret science or largely nonbiological:
+          <description>A Myrmidon Biologis has the 宿敌 (步兵) 规则.
+Note however this has no effect against models with any of the following 规则, as such entities are otherworldly abominations, forged from secret science or largely nonbiological:
 恶魔, 恶魔 of the Ruinstorm, Legio Custodes, 基因原体, 智控皮层, Psi-control Matrix</description>
         </rule>
       </rules>
@@ -553,14 +553,14 @@ Note however this has no effect against models with any of the following special
       <selectionEntryGroups>
         <selectionEntryGroup id="3d47-7569-d5f8-8bb8" name="可以选择任何:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="65ae-19f8-52ba-533e" name="Digital Weapons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="65ae-19f8-52ba-533e" name="Digital 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e92-dfaa-e412-9a0e" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="06d4-ebf4-8f6c-f154" name="数字激光" hidden="false" targetId="1a12-3c84-f5a6-1c48" type="profile">
                   <modifiers>
-                    <modifier type="set" field="name" value="Digital Weapons"/>
+                    <modifier type="set" field="name" value="Digital 武器"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -588,7 +588,7 @@ Note however this has no effect against models with any of the following special
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bae0-f7c7-5b1b-f8a0" name="May exchange their power weapon for oneof the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bae0-f7c7-5b1b-f8a0" name="可以替换 their power weapon for oneof the following:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e4d-bc3a-3103-ddb2" type="max"/>
           </constraints>
@@ -781,9 +781,9 @@ Note however this has no effect against models with any of the following special
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9844-7043-7970-5fa4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14bb-ce23-acd0-924f" name="Polymorphine" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="14bb-ce23-acd0-924f" name="Polymorphine" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When a Callidus Assassin is deployed using her 渗透 特殊规则, she can be setup anywhere on the table that is more than 1&quot; away from an enemy model. If she starts the game in Reserve, she can choose to move onto the table from the enemy board edge when she arrives. In either case, during the first Game Turn in which the Callidus Assassin arrives, enemy units can only Snap Fire when targeting her.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">When a Callidus Assassin is deployed using her 渗透 规则, she can be setup anywhere on the table that is more than 1&quot; away from an enemy model. If she starts the game in Reserve, she can choose to move onto the table from the enemy board edge when she arrives. In either case, during the first Game Turn in which the Callidus Assassin arrives, enemy units can only Snap Fire when targeting her.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -822,7 +822,7 @@ Note however this has no effect against models with any of the following special
       </profiles>
       <rules>
         <rule id="eabc-33fb-7e68-4180" name="Life Drain" hidden="false">
-          <description>Armour Saves cannot be taken against Wounds inflicted by Culexus Assassin&apos;s 近战攻击, in addition any rolls of a 6 To Wound have the 即死 特殊规则. All wounds inflicted against a 灵能者 are automatically 即死.</description>
+          <description>Armour Saves cannot be taken against Wounds inflicted by Culexus Assassin&apos;s 近战攻击, in addition any rolls of a 6 To Wound have the 即死 规则. All wounds inflicted against a 灵能者 are automatically 即死.</description>
         </rule>
         <rule id="77b9-6e86-aaca-a060" name="Psychic Abomination" hidden="false">
           <description>Psykers, friend or foe, within 12&quot; of the Culexus Assassin have -3 Leadership, do not generate any Warp Charge and only harness Warp Charge points on a roll of a 6. A Culexus Assassin can never be targeted or affected by psychic powers. Any blessing or 诅咒 psychic powers affecting a unit immediately cease to be in effect if the unit moves within 12&quot; of the Culexus Assassin or vice versa.</description>
@@ -906,7 +906,7 @@ Note however this has no effect against models with any of the following special
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46d3-319f-877d-d385" type="max"/>
           </constraints>
           <profiles>
-            <profile id="eead-ecd2-eb02-c45b" name="Etherium" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="eead-ecd2-eb02-c45b" name="Etherium" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All Shooting and Close Combat attacks against the Culexus Assassin are resolved at WS/BS 1.</characteristic>
               </characteristics>
@@ -963,7 +963,7 @@ Note however this has no effect against models with any of the following special
           <description>If an Eversor Assassin is ever reduced to zero Wounds, each nearby unit (friend or foe) suffers a Str5 AP- hit for each model it has within D6&quot; of the Eversor Assassin.</description>
         </rule>
         <rule id="69d3-22b2-3e4d-0bcb" name="快速 Shot" hidden="false">
-          <description>The Eversor may fire his 执行者 手枪 至多 4 times, all of these shots must be at the same target but can be any mixture of 爆弹手枪 and Needle 手枪 shots.</description>
+          <description>The Eversor may fire his 执行者 手枪 至多 4 times, all of these shots must be at the same target but can be any mixture of 爆弹手枪 and 毒针手枪 shots.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1066,7 +1066,7 @@ Note however this has no effect against models with any of the following special
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4415-5a7f-a03d-2f73" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a4a6-487f-dc5b-9d8b" name="Frenzon" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="a4a6-487f-dc5b-9d8b" name="Frenzon" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An Eversor Assassin rolls 3D6 when determining his charge range, adding the results together. In addition, an Eversor receives 3 bonus Attacks in a turn in which he charges instead of just 1.</characteristic>
               </characteristics>
@@ -1082,7 +1082,7 @@ Note however this has no effect against models with any of the following special
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7dc-4e24-dcb4-b9c5" type="min"/>
           </constraints>
           <profiles>
-            <profile id="41ca-dd80-e191-5083" name="Sentinel Array" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="41ca-dd80-e191-5083" name="Sentinel Array" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">An Eversor Assassin fires 坚守射击 at full BS.</characteristic>
               </characteristics>
@@ -1113,10 +1113,10 @@ Note however this has no effect against models with any of the following special
     <selectionEntry id="4b57-f427-9057-30a1" name="Sister of Cydonia (AoW)" publicationId="931a-ad98-6258-e12a" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="c72b-3d59-77f4-7982" name="Augmented Locomotion" hidden="false">
-          <description>A unit with this 特殊规则 adds 3” to its maximum move distance when it moves in the 移动阶段, when it Runs and when it makes charge moves. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
+          <description>A unit with this 规则 adds 3” to its maximum move distance when it moves in the 移动阶段, when it Runs and when it makes charge moves. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
         </rule>
         <rule id="0610-4a59-9f5c-f60d" name="Bionic Nuncio Linkage" hidden="false">
-          <description>A unit composed entirely of models with this 特殊规则 has a unit coherency of 3&quot; instead of the usual 2&quot;, and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
+          <description>A unit composed entirely of models with this 规则 has a unit coherency of 3&quot; instead of the usual 2&quot;, and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1254,7 +1254,7 @@ Note however this has no effect against models with any of the following special
         </rule>
         <rule id="20f5-618f-d7fa-10c4" name="I Can&apos;t Say" hidden="false">
           <description>Lodge Masters frequently operate with hidden agendas and subversive schemes designed to further their influence.
-At the beginning of the game, at the same time that 主将特性 are determined, a mission must be secretly selected for each model with this 特殊规则. Each mission represents an objective that the Lodge Master must achieve with an associated Victory Point score. The mission is revealed at the end of the game. If the objective is achieved, the Lodge Master&apos;s side earns the indicated number of bonus Victory Points in addition to any claimed as part of the mission. If the secret objective is not achieved, the model&apos;s side may not claim a victory in the battle, regardless of any other factors.
+At the beginning of the game, at the same time that 主将特性 are determined, a mission must be secretly selected for each model with this 规则. Each mission represents an objective that the Lodge Master must achieve with an associated Victory Point score. The mission is revealed at the end of the game. If the objective is achieved, the Lodge Master&apos;s side earns the indicated number of bonus Victory Points in addition to any claimed as part of the mission. If the secret objective is not achieved, the model&apos;s side may not claim a victory in the battle, regardless of any other factors.
 Observer: The Lodge Master must end the game in the enemy deployment zone for 1 Victory Point.
 Mentor: Select a friendly 独立人物 other than the Lodge Master, that model must survive the game for 1 Victory Point.
 Hand of the Warmaster: The Lodge Master gains 无情推进. If the model holds any Objective outside the friendly deployment zone gain D2 Victory Points.
@@ -1493,7 +1493,7 @@ Skulltaker: The Lodge Master must personally kill the enemy Warlord e.g. through
               <rules>
                 <rule id="b348-7058-7049-4d73" name="Of the Legion" hidden="false">
                   <description>The Lodge Master must be painted so as to be clearly identifiable as a member of a particular Legion. He has that version of the 阿斯塔特军团 rule and can select equipment and options as an 独立人物 of that Legion.
-Upfortunately it is near imposible to add all legion equipment, upgrades and options. Please just add the right amount of points to buy the wargear that you want and manually add the extras in the notes if printing out a list.
+Upfortunately it is near imposible to add all legion equipment, upgrades and options. Please just add the right amount of points to buy the 装备 that you want and manually add the extras in the notes if printing out a list.
 -
 -
 -
@@ -2048,15 +2048,15 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c070-fa39-f94c-08fc" name="Reinforced Void Armour" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c070-fa39-f94c-08fc" name="虚空坚毅装甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce00-dcc0-3004-7364" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="165f-dcd6-b1dc-0204" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b365-b15e-b233-2c96" name="Reinforced Void Armour" publicationId="ca571888--pubN84158" page="251" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="b365-b15e-b233-2c96" name="虚空坚毅装甲" publicationId="ca571888--pubN84158" page="251" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides a 4+ save and counts as being 虚空坚毅 in games of Zone Mortalis.  Additionally, wearer must re-roll failed saves against 喷射盖板 and 爆炸 type weapons.  </characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides a 4+ save and counts as being 虚空坚毅 in games of Zone Mortalis.  Additionally, wearer must re-roll failed saves against 喷射盖板 and 爆炸 type 武器.  </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2197,9 +2197,9 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2d-8139-0649-b448" type="min"/>
           </constraints>
           <profiles>
-            <profile id="acf1-eda5-0439-9b62" name="Spy Mask" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="acf1-eda5-0439-9b62" name="Spy Mask" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All successful To Hit rolls, excluding 仓促射击, have the Ignore Cover 特殊规则.</characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All successful To Hit rolls, excluding 仓促射击, have the Ignore Cover 规则.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2270,7 +2270,7 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
 a penalty of -1T for the duration of the game
 a penalty of -1WS and BS for the game
 cannot Run or perform 追击
-one 特殊规则 the unit possesses ceases to have any effect</description>
+one 规则 the unit possesses ceases to have any effect</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2574,7 +2574,7 @@ one 特殊规则 the unit possesses ceases to have any effect</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8312-8ad9-a608-c0f3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cf91-531e-81ff-61bb" name="Djinn Skein" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+            <profile id="cf91-531e-81ff-61bb" name="Djinn Skein" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Each Cyber Occularis functions as a Nuncio Vox. Additionally, at the beginning of each 射击阶段, nominate 1 friendly unit within 6” of a single Cyber Occularis to gain +1BS for the duration of the phase</characteristic>
               </characteristics>
@@ -2664,7 +2664,7 @@ one 特殊规则 the unit possesses ceases to have any effect</description>
           </constraints>
           <rules>
             <rule id="7f2b-c8c5-6434-ba5b" name="The Alpha Legion" publicationId="ca571888--pubN67459" page="124" hidden="false">
-              <description>• Mutable Tactics: An Alpha Legion army must pick one of the following special rules at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 特殊规则 for the duration of this game:
+              <description>• Mutable Tactics: An Alpha Legion army must pick one of the following 规则 at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 规则 for the duration of this game:
 - 侦察
 - 渗透
 - 坦克猎手
@@ -2814,7 +2814,7 @@ one 特殊规则 the unit possesses ceases to have any effect</description>
       </profiles>
       <rules>
         <rule id="9012-5629-0e4f-de43" name="Possession" hidden="false">
-          <description>If the Rogue 灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes Possessed with the profile given above. The model gains the 恶魔 and 撕裂 special rules but loses the 灵能者 特殊规则.
+          <description>If the Rogue 灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes Possessed with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
 If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
         </rule>
       </rules>
@@ -2867,7 +2867,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a552-4297-4fa5-a521" name="May swap Close Combat weapon for Tainted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1464-bbd3-b61a-1f09">
+        <selectionEntryGroup id="a552-4297-4fa5-a521" name="May swap 近战武器 for Tainted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1464-bbd3-b61a-1f09">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b0-987e-31e5-fe6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4244-b58a-3259-d7d6" type="min"/>
@@ -2910,7 +2910,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="608c-8db3-2cbd-6661" type="max"/>
               </constraints>
               <profiles>
-                <profile id="dccf-7e26-9c9a-c46d" name="Enhanced 偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="dccf-7e26-9c9a-c46d" name="Enhanced 偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">4+ 特殊保护</characteristic>
                   </characteristics>
@@ -2925,7 +2925,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea4-28b9-4c61-f6cd" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ba0f-e407-67fb-36c8" name="偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+                <profile id="ba0f-e407-67fb-36c8" name="偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">5+ 特殊保护</characteristic>
                   </characteristics>
@@ -2963,7 +2963,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         <rule id="f119-c82e-a0a0-2608" name="Ex Oblivio" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false">
           <description>Psychic models or units of any kind within 6&quot; of models with tis rul at the start of their Psychic phase do not generate additional warp charge dice.
 
-If any 灵能者 model is in base contact with a model that has this 特殊规则 at the start of any Psychic phase they must immediately make a Leadership text before Warp Charge is rolled for. If this test is failed they must immediately suffer Perils of the Warp at -1and may not use any psychic powers durung this phase should they survive this.</description>
+If any 灵能者 model is in base contact with a model that has this 规则 at the start of any Psychic phase they must immediately make a Leadership text before Warp Charge is rolled for. If this test is failed they must immediately suffer Perils of the Warp at -1and may not use any psychic powers durung this phase should they survive this.</description>
         </rule>
         <rule id="01da-a618-d150-3a27" name="Psykic Anathema" publicationId="e085-bc29-3c2d-2c49" page="" hidden="false">
           <description>Models witht his rule ar eimmune to all psychic powers and cannot be affected by them. They also ignore any Telepathy 学派 Blessings on enemy units which would negatively affect the models which this rule. This does not extend to Transport Vehicles.
@@ -3004,7 +3004,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="09e1-697b-17ef-fbcb" name="Enhanced Voidsheen Cloak" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-              <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 weapons</description>
+              <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
             </rule>
           </rules>
           <costs>
@@ -3150,7 +3150,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
               </profiles>
               <rules>
                 <rule id="1ccd-a19b-0f1a-fe25" name="Electro-Arc" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-                  <description>Total all hits caused by weapons with this 特殊规则 durring an 突击阶段, before making any 造伤骰, then roll a single D6 for each of these hits. Any rolls of 3+ cause an additional hit at AP- with the 毒伤 (4+)特殊规则.</description>
+                  <description>Total all hits caused by 武器 with this 规则 durring an 突击阶段, before making any 造伤骰, then roll a single D6 for each of these hits. Any rolls of 3+ cause an additional hit at AP- with the 毒伤 (4+)规则.</description>
                 </rule>
                 <rule id="f89c-3ffd-7719-193b" name="Sweeping Strikes" publicationId="e085-bc29-3c2d-2c49" hidden="false">
                   <description>The bearer may choose to use the number of enemy models within 3&quot; that are locked in combat with them instead of their Attacks score to determine the number of attacks they may make in any 突击阶段.</description>
@@ -3204,12 +3204,12 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6cf7-ae3c-5fc0-62ac" name="Needle 手枪" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6cf7-ae3c-5fc0-62ac" name="毒针手枪" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba4-0ca8-ad8d-3297" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f734-31d3-5b9e-aee9" name="Needle 手枪" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="f734-31d3-5b9e-aee9" name="毒针手枪" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">12</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">2</characteristic>
@@ -3299,7 +3299,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="e64f-a960-b19f-0b8c" name="Company Cadre Structure" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-              <description>For each HQ unit with this 特殊规则, at least three other units with this rule can be included in the same detachment. If no HQ model is included, then these units may not be selected. Additionally, choose one of the following rules to apply to all models with this rule in the detachment: 渗透, 远征军, 隐蔽, Overawe (+1 to combat resolution)</description>
+              <description>For each HQ unit with this 规则, at least three other units with this rule can be included in the same detachment. If no HQ model is included, then these units may not be selected. Additionally, choose one of the following rules to apply to all models with this rule in the detachment: 渗透, 远征军, 隐蔽, Overawe (+1 to combat resolution)</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -3380,7 +3380,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="724c-3031-8ca2-96ce" name="Shock (Arbitrator Weapons)" hidden="false" targetId="b660-5f89-a9ec-f2f8" type="rule"/>
+        <infoLink id="724c-3031-8ca2-96ce" name="Shock (Arbitrator 武器)" hidden="false" targetId="b660-5f89-a9ec-f2f8" type="rule"/>
         <infoLink id="b317-2dd9-481d-65ed" name="震荡" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
       </infoLinks>
       <costs>
@@ -3399,7 +3399,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fde9-1c66-9d2f-3405" name="Shock (Arbitrator Weapons)" hidden="false" targetId="b660-5f89-a9ec-f2f8" type="rule"/>
+        <infoLink id="fde9-1c66-9d2f-3405" name="Shock (Arbitrator 武器)" hidden="false" targetId="b660-5f89-a9ec-f2f8" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3417,7 +3417,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="55b7-5ea2-ddef-fc8b" name="Shock (Arbitrator Weapons)" hidden="false" targetId="b660-5f89-a9ec-f2f8" type="rule"/>
+        <infoLink id="55b7-5ea2-ddef-fc8b" name="Shock (Arbitrator 武器)" hidden="false" targetId="b660-5f89-a9ec-f2f8" type="rule"/>
         <infoLink id="76da-d389-0a20-1cd5" name="震荡" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule"/>
         <infoLink id="2fe8-c7d0-b7c5-a4bc" name="双手" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule"/>
         <infoLink id="0692-97ac-24be-8410" name="笨重" hidden="false" targetId="5eea-958c-d623-c3c9" type="rule"/>
@@ -3442,7 +3442,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             <characteristic name="Save" typeId="5361766523232344415441232323">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ebd0-6ce3-691f-2019" name="Ætherlabe Staff" publicationId="ca571888--pubN67636" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
+        <profile id="ebd0-6ce3-691f-2019" name="Ætherlabe Staff" publicationId="ca571888--pubN67636" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Should an enemy unit 深度打击 into play within 12&quot; of the 导航者, the 导航者 and their unit may make a Snap Shot shooting attack at the arriving unit at the end of that phase, subject to the normal rules for doing so. If the enemy unit enters play by way of a Conjuration psychic power, these 仓促射击 are carried out at the firers’ normal BS rather than at BS 1.</characteristic>
           </characteristics>
@@ -3451,7 +3451,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
       <rules>
         <rule id="2c18-c129-edc5-7302" name="导航者 Powers" publicationId="ca571888--pubN67636" hidden="false">
           <description>导航者 Powers
-Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or weapons that have additional rules against Psykers. In order to use a 导航者 power, the 导航者 must make a Leadership test. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
+Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers. In order to use a 导航者 power, the 导航者 must make a Leadership test. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
 • The Lidless Stare
 Use in the controlling player’s 射击阶段, counting as a shooting attack. Place a 喷射盖板 as if the 导航者 was shooting a 喷射盖板 weapon. Every 步兵 type model, friend or foe, under the 喷射盖板 must pass an Initiative test. Models that fail the test suffer an automatic 即死 wound with no Armour saves possible.
 • Warp Prescience
@@ -3596,7 +3596,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
       </profiles>
       <rules>
         <rule id="4fd4-8d24-3cf2-9cac" name="宿敌 (Traitors)" hidden="false">
-          <description>A unit that contains at least one model with this 特殊规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
+          <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
         <rule id="3aff-8491-713d-80e0" name="Legions Astartes" hidden="false">
           <description>Apply the rules from the legion of his origin as required.</description>
@@ -4202,16 +4202,16 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
       <description>The bearer may choose to use the number of enemy models within 3” that are locked in combat with them instead of their Attacks score to determine the number of attacks they may make in any 突击阶段.</description>
     </rule>
     <rule id="4a37-d3f8-286b-25d9" name="Take Down" publicationId="931a-ad98-6258-e12a" hidden="false">
-      <description>When charging models with this 特殊规则 rolls separately for their charge distance and may split away from their original unit if one or more rolls fail the charge distance. Any models which split away from the original unit in this way must rejoin the unit at the earliest chance after that point.</description>
+      <description>When charging models with this 规则 rolls separately for their charge distance and may split away from their original unit if one or more rolls fail the charge distance. Any models which split away from the original unit in this way must rejoin the unit at the earliest chance after that point.</description>
     </rule>
     <rule id="a264-c636-cb98-bec5" name="Subdue The Target" publicationId="931a-ad98-6258-e12a" hidden="false">
-      <description>此模型 gain 1D3 愤怒之锤 attacks, all with the Shock 特殊规则. Note that these attacks counts as having rolled a 6 to hit i.e. they become AP3. In addition, normal attacks gain the 致盲 特殊规则, however these attacks can never inflict a Wound.</description>
+      <description>此模型 gain 1D3 愤怒之锤 attacks, all with the Shock 规则. Note that these attacks counts as having rolled a 6 to hit i.e. they become AP3. In addition, normal attacks gain the 致盲 规则, however these attacks can never inflict a Wound.</description>
     </rule>
-    <rule id="b660-5f89-a9ec-f2f8" name="Shock (Arbitrator Weapons)" publicationId="931a-ad98-6258-e12a" page="" hidden="false">
+    <rule id="b660-5f89-a9ec-f2f8" name="Shock (Arbitrator 武器)" publicationId="931a-ad98-6258-e12a" page="" hidden="false">
       <description>To Hit rolls of 6 with this weapon become AP3</description>
     </rule>
     <rule id="fe1a-f255-6485-1a93" name="Lightning Reflexes" hidden="false">
-      <description>A model with this 特殊规则 has a 4+ 特殊保护. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
+      <description>A model with this 规则 has a 4+ 特殊保护. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
     </rule>
     <rule id="9abe-fdb4-fa91-3da4" name="Independent Operative" hidden="false">
       <description>The model can never join or be joined by other models.</description>

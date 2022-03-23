@@ -182,7 +182,7 @@
         <characteristicType id="beac-711d-f76d-e254" name="出入口和射击口"/>
         <characteristicType id="0ecb-8865-b3eb-97c9" name="武器"/>
         <characteristicType id="a782-1362-048c-ff45" name="选项"/>
-        <characteristicType id="51b9-8d40-8186-fd23" name="特殊规则"/>
+        <characteristicType id="51b9-8d40-8186-fd23" name="规则"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -380,7 +380,7 @@ To determine which trait your Warlord has, you need to choose which 主将特性
           <description>Many Unique 独立人物 are listed as having a specific 主将特性 in their Army List entry. If such a unit is your Warlord, do not roll on a 主将特性 table – instead, that unit automatically has the listed 主将特性. Note that the unit will only gain that 主将特性 if it is your Warlord. If another model is selected as your Warlord, then the unique unit will not have any 主将特性, even if there is a trait listed in its entry.</description>
         </rule>
         <rule id="5b00-bf3b-b24d-c76e" name="Death of the Warlord" publicationId="ca571888--pubN106502" page="138" hidden="false">
-          <description>If your Warlord is removed as a casualty during your game, any abilities or special rules granted by their 主将特性 are immediately lost. If the 主将特性 in question conferred a 特殊规则 that allows an unusual method of deployment from Reserves (such as conferring the 侧击 ability on certain units), that 特殊规则 is immediately lost and the affected units must instead deploy from Reserves in the normal fashion.</description>
+          <description>If your Warlord is removed as a casualty during your game, any abilities or 规则 granted by their 主将特性 are immediately lost. If the 主将特性 in question conferred a 规则 that allows an unusual method of deployment from Reserves (such as conferring the 侧击 ability on certain units), that 规则 is immediately lost and the affected units must instead deploy from Reserves in the normal fashion.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -412,7 +412,7 @@ To determine which trait your Warlord has, you need to choose which 主将特性
             炮兵单位只要包含任何火炮模型就不能冲锋.如果一个炮兵单位被冲锋,只有炮手可以坚守射击.坚守射击完成后,如常移动冲锋模型使其与炮手火炮模型底盘接触.不会有任何伤害会被分配到火炮模型.所有敌方的命中和造伤骰视作针对炮手,即使他们只与火炮模型交战.炮手可以反击但火炮不能.
 
             士气和撤退移动
-            任何士气测试和其他LD测试以及计算肉搏战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从肉搏中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
+            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
 
             炮兵和长官小心
             不能使用长官小心规则将伤害转移到火炮模型上.</description>
@@ -455,8 +455,8 @@ To determine which trait your Warlord has, you need to choose which 主将特性
     </categoryEntry>
     <categoryEntry id="6193-f23d-d93c-2e99" name="运输载具:" hidden="false">
       <rules>
-        <rule id="13eb-5962-0020-b6ee" name="Unshakeable Nerve" publicationId="ca571888--pubN106502" page="77" hidden="false">
-          <description>Units embarked upon transports have the 无畏 特殊规则 while they are embarked.</description>
+        <rule id="13eb-5962-0020-b6ee" name="坚定不移" publicationId="ca571888--pubN106502" page="77" hidden="false">
+          <description>载具运载的单位拥有无畏规则.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -714,7 +714,7 @@ To determine which trait your Warlord has, you need to choose which 主将特性
       </profiles>
       <rules>
         <rule id="ff86-ae5b-51fe-97ae" name="导航者 Powers" publicationId="ca571888--pubN67636" hidden="false">
-          <description>Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or weapons that have additional rules against Psykers.
+          <description>Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers.
 
 In order to use a 导航者 power, the 导航者 must make a Leadership test. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
 
@@ -849,7 +849,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a9e0-ce37-fc54-b54d" name="地狱枪" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a9e0-ce37-fc54-b54d" name="地狱火炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="45c1-f14c-a1fd-6276" type="max"/>
               </constraints>
@@ -906,7 +906,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4de9-3d8c-bfdd-55ad" name="地狱枪" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4de9-3d8c-bfdd-55ad" name="地狱火炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1fb1-8bb9-fda1-b8d5" type="max"/>
               </constraints>
@@ -1024,7 +1024,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9717-4ec4-94ff-6ce5" name="地狱枪" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9717-4ec4-94ff-6ce5" name="地狱火炮" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b7b-d9b8-60a6-437c" type="max"/>
               </constraints>
@@ -1801,7 +1801,7 @@ D6    结果  S AP
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d0a8-d0b2-65f3-3658" name="Emplaced Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9102-7f7e-3d4a-d72e">
+        <selectionEntryGroup id="d0a8-d0b2-65f3-3658" name="Emplaced 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="9102-7f7e-3d4a-d72e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d40-ca27-97b9-6acc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de1d-1fb1-4bd6-17f4" type="max"/>
@@ -1813,7 +1813,7 @@ D6    结果  S AP
               </constraints>
               <rules>
                 <rule id="9903-97f7-2fb9-8919" name="Containment Failure" publicationId="ca571888--pubN74520" page="" hidden="false">
-                  <description>If the main strongpoint suffers a Total Collapse or Detonation! result, roll one dice for each remaining vortex missile.  On a roll of 1-2, the missile explodes.  Place the vortex&apos;s blast marker on the center of the main strongpoint, then scatter 2D6&quot;</description>
+                  <description>If the main strongpoint suffers a Total Collapse or 自爆! result, roll one dice for each remaining vortex missile.  On a roll of 1-2, the missile explodes.  Place the vortex&apos;s blast marker on the center of the main strongpoint, then scatter 2D6&quot;</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -1888,7 +1888,7 @@ D6    结果  S AP
         </profile>
         <profile id="2123-b3b6-de4b-0db5" name="主将特性: The Dust of a Thousand Worlds" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord, and all friendly units within 12&quot;, have the 穿越地形 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord, and all friendly units within 12&quot;, have the 穿越地形 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1903,7 +1903,7 @@ D6    结果  S AP
       <profiles>
         <profile id="5814-8698-8309-5c7a" name="主将特性: Master of Defence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 反击 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 反击 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="8b51-c91b-bd55-2d71" name="主将特性: Immovable Object" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -1913,12 +1913,12 @@ D6    结果  S AP
         </profile>
         <profile id="9828-d73e-e464-4daa" name="主将特性: Tenacity" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 不知疼痛 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 不知疼痛 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="ffa3-f6d9-cd71-beb0" name="主将特性: Master of Manoeuvre" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 侧击 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 侧击 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="5621-6e23-64e7-642d" name="主将特性: 传奇战士" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -1928,7 +1928,7 @@ D6    结果  S AP
         </profile>
         <profile id="ecf1-07e8-857f-2c3a" name="主将特性: Master of Offence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 狂怒冲锋 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">主将获得 狂怒冲锋 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1948,17 +1948,17 @@ D6    结果  S AP
       <profiles>
         <profile id="fb07-ddb8-23f5-7eda" name="主将特性: Conqueror of Cities" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your units have the 穿越地形 特殊规则 if moving through 废墟, and the 隐蔽 (废墟) 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your units have the 穿越地形 规则 if moving through 废墟, and the 隐蔽 (废墟) 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="90ee-2233-de3f-e122" name="主将特性: Night Attacker" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">If you choose to use the 夜战 rules in your game, there is no need to roll - it is Night on the first turn, and all models in your army have the 夜视 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">If you choose to use the 夜战 rules in your game, there is no need to roll - it is Night on the first turn, and all models in your army have the 夜视 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="c745-d7b2-68f7-9d92" name="主将特性: Master of Ambush" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord and three 非载具 units of your choice have the 渗透 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord and three 非载具 units of your choice have the 渗透 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="312e-33bf-d4e0-36ba" name="主将特性: Strategic Genius" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -2010,7 +2010,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the 灵能者 has +3 to his Strength and Toughness and he gains the 粉碎 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the 灵能者 has +3 to his Strength and Toughness and he gains the 粉碎 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="aabd-a6cf-defb-ac34" name="3. Life Leech" publicationId="ca571888--pubN106502" page="184" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="灵能 (攻击)">
@@ -2029,7 +2029,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the 灵能者 has +3 to his Initiative and Attacks and he gains the 迅捷 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the 灵能者 has +3 to his Initiative and Attacks and he gains the 迅捷 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="1048-ccd5-2e5d-4111" name="5. Endurance" publicationId="ca571888--pubN106502" page="184" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2037,7 +2037,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit gain the 永恒战士, 不知疼痛 (4+) and 毫不留情 special rules.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models in the target unit gain the 永恒战士, 不知疼痛 (4+) and 毫不留情 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="e140-e6e5-cc6d-ebb3" name="6. Haemorrhage" publicationId="ca571888--pubN106502" page="184" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2078,7 +2078,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">3</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">6</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units (your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the 灵能者 is immediately removed as a casualty (if the 灵能者 was part of a unit with the 灵能者兄弟会/巫师兄弟会 特殊规则, remove the entire unit as casualties). If, when using this power, the 灵能者 fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units (your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the 灵能者 is immediately removed as a casualty (if the 灵能者 was part of a unit with the 灵能者兄弟会/巫师兄弟会 规则, remove the entire unit as casualties). If, when using this power, the 灵能者 fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="9bc0-7e8d-d0cf-d07c" name="3. Infernal Gaze" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="灵能 (攻击)">
@@ -2097,7 +2097,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models with the 恶魔 特殊规则 (friend or foe) within 12&quot; of the 灵能者 have a +1 bonus to their 特殊保护 (normally increasing it to 4+). This is cumulative withany other modifiers to a 恶魔’s 特殊保护. In addition, whilst the power is in effect, friendly units with the 恶魔 特殊规则 will not scatter when arriving from 深度打击 Reserve so long as the first model is placed within 12&quot; of the 灵能者.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all models with the 恶魔 规则 (friend or foe) within 12&quot; of the 灵能者 have a +1 bonus to their 特殊保护 (normally increasing it to 4+). This is cumulative withany other modifiers to a 恶魔’s 特殊保护. In addition, whilst the power is in effect, friendly units with the 恶魔 规则 will not scatter when arriving from 深度打击 Reserve so long as the first model is placed within 12&quot; of the 灵能者.</characteristic>
           </characteristics>
         </profile>
         <profile id="f8f2-4b8b-644b-6f06" name="(Primaris) Summoning" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2177,7 +2177,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect the 灵能者 and all models in his unit receive a +1 bonus to their 特殊保护 (models that do not have an 特殊保护 gain a 6+ 特殊保护 whilst this power is in effect instead). In addition, all units with the 恶魔 特殊规则 (friend or foe) treat allterrain, including open ground, within 12&quot; of the 灵能者 as 危险地形.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect the 灵能者 and all models in his unit receive a +1 bonus to their 特殊保护 (models that do not have an 特殊保护 gain a 6+ 特殊保护 whilst this power is in effect instead). In addition, all units with the 恶魔 规则 (friend or foe) treat allterrain, including open ground, within 12&quot; of the 灵能者 as 危险地形.</characteristic>
           </characteristics>
         </profile>
         <profile id="04a8-89e7-3f89-6c7f" name="4. Purge Soul" publicationId="ca571888--pubN106502" page="189" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2227,7 +2227,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit&apos;s weapons ahve the 无视掩体 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit&apos;s 武器 ahve the 无视掩体 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="1b8f-06fb-82f8-9f6c" name="4. Precognition" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2243,7 +2243,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all attacks that hit the target unit have the 撕裂 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all attacks that hit the target unit have the 撕裂 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="5954-4cb9-4bdd-6d18" name="6. Scrier&apos;s Gaze" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2251,7 +2251,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">2</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, you 可以重投 the dice when rolling for Reserves, 侧击, and when any of your units identifies a Mysterious Objective.  In addition, if the mission has the Tactical Objectives 特殊规则, you can immediately choose to discard one of your active Tactical Objectives and generate a new one.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, you 可以重投 the dice when rolling for Reserves, 侧击, and when any of your units identifies a Mysterious Objective.  In addition, if the mission has the Tactical Objectives 规则, you can immediately choose to discard one of your active Tactical Objectives and generate a new one.</characteristic>
           </characteristics>
         </profile>
         <profile id="c4cb-2e4d-fda7-bb26" name="1. Foreboding" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2259,7 +2259,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit have the 反击 特殊规则 and fire 坚守射击 using their full BS, rather than BS 1.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者 and his unit have the 反击 规则 and fire 坚守射击 using their full BS, rather than BS 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="dcf4-8194-115c-45cc" name="2. Forewarning" publicationId="ca571888--pubN106502" page="185" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2306,7 +2306,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the 灵能者 gains a 4+ 特殊保护 and his 近战攻击 have the 灵魂烈焰 特殊规则. Whilst the power is in effect, the 灵能者 重投 failed 造伤骰 inflicted by any further Pyromancy powers he manifests.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the 灵能者 gains a 4+ 特殊保护 and his 近战攻击 have the 灵魂烈焰 规则. Whilst the power is in effect, the 灵能者 重投 failed 造伤骰 inflicted by any further Pyromancy powers he manifests.</characteristic>
           </characteristics>
         </profile>
         <profile id="7a2b-9d87-6916-3e2b" name="2. Fire Shield" publicationId="ca571888--pubN106502" page="186" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2344,7 +2344,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">Focussed Witchfire</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">The target model suffers a Strength 6 AP3 hit with the 灵魂烈焰 特殊规则. If the model is slainby this hit in the Psychic phase, centre the small blast marker over the target before removing him as a casualty. All other models under the marker suffer a Strength 5 AP4 hit with the 无视掩体 and 灵魂烈焰 special rules.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">The target model suffers a Strength 6 AP3 hit with the 灵魂烈焰 规则. If the model is slainby this hit in the Psychic phase, centre the small blast marker over the target before removing him as a casualty. All other models under the marker suffer a Strength 5 AP4 hit with the 无视掩体 and 灵魂烈焰 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="c05f-a898-82eb-00a4" name="6. Molten 射线" publicationId="ca571888--pubN106502" page="186" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="灵能 (攻击)">
@@ -2424,7 +2424,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all of the target’s ranged weapons have the 过热 特殊规则. In addition, if the target is a 载具 (or 载具 squadron), each 载具 in the unit suffers a single Strength 1 hit with the 电磁干扰 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, all of the target’s ranged 武器 have the 过热 规则. In addition, if the target is a 载具 (or 载具 squadron), each 载具 in the unit suffers a single Strength 1 hit with the 电磁干扰 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="5702-6c49-983f-aeaf" name="4. Levitation" publicationId="ca571888--pubN106502" page="187" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2432,7 +2432,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Unless the target is 疾飞, Swooping or is locked 近战中, the 灵能者 and his unit immediately make a move of 至多 12&quot;. This move cannot end up on top of another unit or impassable terrain, but ignores intervening units, terrain etc. Any model that starts or ends this move in difficult terrainmust take a 危险地形 test. The 灵能者 and his unit cannot charge in the sameturn that they use this power, and all models count as having moved in the 移动阶段 for the purposes of shooting weapons in the 射击阶段.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Unless the target is 疾飞, Swooping or is locked 近战中, the 灵能者 and his unit immediately make a move of 至多 12&quot;. This move cannot end up on top of another unit or impassable terrain, but ignores intervening units, terrain etc. Any model that starts or ends this move in difficult terrainmust take a 危险地形 test. The 灵能者 and his unit cannot charge in the sameturn that they use this power, and all models count as having moved in the 移动阶段 for the purposes of shooting 武器 in the 射击阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2469,7 +2469,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target has a -1 penalty to their Leadership and treats all enemy units ashaving the 恐怖 特殊规则. Furthermore, the target 必须进行一次 Morale check at the end of the Psychic phase.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target has a -1 penalty to their Leadership and treats all enemy units ashaving the 恐怖 规则. Furthermore, the target 必须进行一次 Morale check at the end of the Psychic phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="53fe-023d-ca90-46fd" name="(Primaris) Psychic Shriek" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2485,7 +2485,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">If the target is 撤退, it immediately Regroups. In addition, whilst the power is in effect, the target gains the 无畏 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">If the target is 撤退, it immediately Regroups. In addition, whilst the power is in effect, the target gains the 无畏 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="66f8-2849-5db1-34bb" name="4. Shrouding" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2493,7 +2493,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">祝福</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">Self</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者,and all friendly models within 6&quot; of the 灵能者, have the 笼罩 特殊规则.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst this power is in effect, the 灵能者,and all friendly models within 6&quot; of the 灵能者, have the 笼罩 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="a306-03eb-e597-52b1" name="5. Mind Howl" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2535,7 +2535,7 @@ D6    结果  S AP
         <infoLink id="1309-c3d9-310a-61e8" hidden="false" targetId="cf90-39d9-c923-f6bf" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fbaf-59c3-719c-495f" name="Emplaced Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="45a5-cc8a-1b48-0114">
+        <selectionEntryGroup id="fbaf-59c3-719c-495f" name="Emplaced 武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="45a5-cc8a-1b48-0114">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b1b1-b3d9-e146-83d7" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0835-e963-a243-dc99" type="max"/>
@@ -2608,7 +2608,7 @@ D6    结果  S AP
         <infoLink id="5166-7b3c-5ead-a4cf" hidden="false" targetId="9f71-25a6-08e5-f088" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b5fd-935c-f68f-0c1a" name="Emplaced Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b5fd-935c-f68f-0c1a" name="Emplaced 武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e9e1-b866-f069-f07b" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c848-ee1c-56f5-3df0" type="max"/>
@@ -2731,7 +2731,7 @@ D6    结果  S AP
             <characteristic name="出入口和射击口" typeId="beac-711d-f76d-e254">无</characteristic>
             <characteristic name="武器" typeId="0ecb-8865-b3eb-97c9">无</characteristic>
             <characteristic name="选项" typeId="a782-1362-048c-ff45">无</characteristic>
-            <characteristic name="特殊规则" typeId="51b9-8d40-8186-fd23">Dense Thicket</characteristic>
+            <characteristic name="规则" typeId="51b9-8d40-8186-fd23">Dense Thicket</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2797,7 +2797,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="b27c-0dbd-e299-41b3" name="The Eagle&apos;s Gaze" publicationId="ca571888--pubN106502" page="118" hidden="false">
-          <description>If a unit with the 忠诚方方 Allegiance has any of its models within a 天鹰神殿, it 重投 failed 士气测试. Any unit with the 反叛方 Allegiance that is in a 天鹰神殿 has the 憎恨 (忠诚方方) 特殊规则.</description>
+          <description>If a unit with the 忠诚方方 Allegiance has any of its models within a 天鹰神殿, it 重投 failed 士气测试. Any unit with the 反叛方 Allegiance that is in a 天鹰神殿 has the 憎恨 (忠诚方方) 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2817,7 +2817,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="139f-39f2-d453-9968" name="The Omnissiah&apos;s Benediction" publicationId="ca571888--pubN106502" page="119" hidden="false">
-          <description>Models in a 工厂 that are firing weapons with the 过热 特殊规则 re-roll failed saving throws for Wounds inflicted upon themselves as a result of the 过热 特殊规则.</description>
+          <description>Models in a 工厂 that are firing 武器 with the 过热 规则 re-roll failed saving throws for Wounds inflicted upon themselves as a result of the 过热 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2838,10 +2838,10 @@ D6    结果  S AP
             <rule id="06a0-3947-0f73-4a55" name="Mysterious Containers" publicationId="ca571888--pubN80309" hidden="false">
               <description>The first time a unit moves or deploys in base contact with a Munitorum Armoured Container, roll a D6 and consult the following table to discover its contents. If you are using the Munitorum Armoured Containers to represent Objective Markers, this table replaces the Mysterious Objectives in BRB. 
 
-1 - Xenos Creature: The container was transporting a rare and deadly xenos creature that immediately lashes out in anger as it escapes. All units within 6&quot; of the armoured container take D6 S 4 AP 6 hits with the 无视掩体 特殊规则. Wounds are randomly allocated.
+1 - Xenos Creature: The container was transporting a rare and deadly xenos creature that immediately lashes out in anger as it escapes. All units within 6&quot; of the armoured container take D6 S 4 AP 6 hits with the 无视掩体 规则. Wounds are randomly allocated.
 2 - Nothing of Note: The container contains vital supplies of red berets en route to an Astra Militarum regiment, but has no additional effect on the game.
 3 - Uplifting Primers: The container was transporting boxes of the Imperial Infantryman&apos;s Uplifting Primer. All units from the Armies of the Imperium add +1 Ld whilst they are within 6&quot; of this armoured container.
-4 - Archeotech Ammunition: The container was shipping crates of rare and powerful ammunition. Add +1 S of all Assault and Rapid Fire weapons fired by models that are within 6&quot; of this armoured container.
+4 - Archeotech Ammunition: The container was shipping crates of rare and powerful ammunition. Add +1 S of all Assault and Rapid Fire 武器 fired by models that are within 6&quot; of this armoured container.
 5 - Shield Generator: A shield generator hums to life once the container is opened. All models have a 4+ 特殊保护 whilst they are within 6&quot; of this armoured container.
 6 - 轨道 Comms Array: Inside the container is simply a nav-map and a flashing red button. The player who identified this container can immedicately call down an 轨道打击 anywhere on the battlefield, after which the armoured container has no additional effect on the game.</description>
             </rule>
@@ -2849,7 +2849,7 @@ D6    结果  S AP
               <description>Munitorum Armoured Containers are Battlefield Debris (Armoured Container). Munitorum Supply Crates are Battlefield Debris (Ammunition Dump). Munitorum Promethium Barrels are Battlefield Debris (Fuel Drums). All parts of a Munitorum Armoured Container Cache must be placed wholly within 12&quot; of each other.</description>
             </rule>
             <rule id="b1db-963f-816d-bc16" name="轨道 Comms" publicationId="ca571888--pubN80309" hidden="false">
-              <description>If an arrow is rolled on the scatter dice when firing a weapon that has this 特殊规则, the shot always scatters 4D6&quot; regardless of the firing model&apos;s BS.</description>
+              <description>If an arrow is rolled on the scatter dice when firing a weapon that has this 规则, the shot always scatters 4D6&quot; regardless of the firing model&apos;s BS.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2919,7 +2919,7 @@ D6    结果  S AP
               <profiles>
                 <profile id="c564-d5a8-6e04-b606" name="Fuel Drum" publicationId="ca571888--pubN80309" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a fuel drum has a 5+ 掩体保护. However, each time a unit successfully makes this 掩体保护 on the roll of a 6, immediately roll another D6. If the result of this roll is a 1, the unit that made the 掩体保护 immediately suffers an additional D3 S4 AP5 hits with the 无视掩体 特殊规则. These additional hits use Random Allocation, and vehicles are hit on the armour facing nearest to the Fuel Drum.  Any 喷火器 weapon (as defined in BRB) fired by a 非载具 model within 2&quot; of a fuel drum in the 射击阶段 can change its weapon type from Assault to Heavy, or from 手枪 to Heavy. If it does so, the weapon gains the 爆发喷射 特殊规则 until the end of that phase.</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">A model in cover behind a fuel drum has a 5+ 掩体保护. However, each time a unit successfully makes this 掩体保护 on the roll of a 6, immediately roll another D6. If the result of this roll is a 1, the unit that made the 掩体保护 immediately suffers an additional D3 S4 AP5 hits with the 无视掩体 规则. These additional hits use Random Allocation, and vehicles are hit on the armour facing nearest to the Fuel Drum.  Any 喷火器 weapon (as defined in BRB) fired by a 非载具 model within 2&quot; of a fuel drum in the 射击阶段 can change its weapon type from Assault to Heavy, or from 手枪 to Heavy. If it does so, the weapon gains the 爆发喷射 规则 until the end of that phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2960,7 +2960,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="1f44-916a-9413-cee3" name="Plasma Overheat" hidden="false">
-          <description>If this building suffers a glancing hit as a result of the 等离子泯灭炮塔&apos;s 过热 特殊规则 then, in addition to any other effects, any unit embarked in the building suffers D3 Wounds. These Wounds are Randomly Allocated.</description>
+          <description>If this building suffers a glancing hit as a result of the 等离子泯灭炮塔&apos;s 过热 规则 then, in addition to any other effects, any unit embarked in the building suffers D3 Wounds. These Wounds are Randomly Allocated.</description>
         </rule>
       </rules>
       <entryLinks>
@@ -3003,7 +3003,7 @@ While counted as a single building, multiple units may be embarked within the Pr
 Redoubt. Multiple units may enter or exit the building each turn, so long as each uses a different Access Point.</description>
         </rule>
         <rule id="f321-4a11-3252-3915" name="Reactor Breach" hidden="false">
-          <description>Should the Primus Redoubt suffer a Detonation! result on the Building Damage table, in addition to the effects described and after they have been resolved, roll on the Catastrophic Damage table, centring the 启示录级巨大爆炸 marker in the centre of the turbo laser turret.</description>
+          <description>Should the Primus Redoubt suffer a 自爆! result on the Building Damage table, in addition to the effects described and after they have been resolved, roll on the Catastrophic Damage table, centring the 启示录级巨大爆炸 marker in the centre of the turbo laser turret.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3027,7 +3027,7 @@ Redoubt. Multiple units may enter or exit the building each turn, so long as eac
           </profiles>
           <rules>
             <rule id="7368-118f-28b6-7b82" name="Battle Crew" hidden="false">
-              <description>This weapon is controlled by a crew of dedicated gunners, located far below the turret and protected by metres-thick heavy armour. The owning side always fires the 涡轮激光破坏炮 and it may not be fired by embarked models. The crew count as having a BS of 3, increased to 4 when firing at 超重型载具 or 超级巨兽. The weapon may fire independently and need not target the same enemy as the redoubt’s other weapons.
+              <description>This weapon is controlled by a crew of dedicated gunners, located far below the turret and protected by metres-thick heavy armour. The owning side always fires the 涡轮激光破坏炮 and it may not be fired by embarked models. The crew count as having a BS of 3, increased to 4 when firing at 超重型载具 or 超级巨兽. The weapon may fire independently and need not target the same enemy as the redoubt’s other 武器.
 
 In the event of enemy models embarking inside the Primus Redoubt, the Battle Crew are slain and the weapon may not be fired again for the remainder of the battle.</description>
             </rule>
@@ -3130,7 +3130,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
                 <cost name="分" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="678d-b2b6-5fef-481a" name="Quad-gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="678d-b2b6-5fef-481a" name="四联-gun" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="70a9-9041-73c0-5b82" type="max"/>
               </constraints>
@@ -3247,7 +3247,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
       </profiles>
       <rules>
         <rule id="8c64-b74c-64a9-1c95" name="Benevolent Light" publicationId="ca571888--pubN106502" page="121" hidden="false">
-          <description>Models in a 帝国圣所 have the 精金意志 and 夜视 special rules.</description>
+          <description>Models in a 帝国圣所 have the 精金意志 and 夜视 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3321,7 +3321,7 @@ The Bunkers of the Castellum Stronghold have a 5+ 特殊保护 against shooting 
                     <cost name="分" typeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="7139-41b3-a1fa-500c" name="多管热熔 and 探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="7139-41b3-a1fa-500c" name="多管热熔和探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4fa-41f8-5452-a610" type="max"/>
                   </constraints>
@@ -3459,7 +3459,7 @@ The Bunkers of the Castellum Stronghold have a 5+ 特殊保护 against shooting 
                     <cost name="分" typeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f638-350c-db24-7955" name="多管热熔 and 探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f638-350c-db24-7955" name="多管热熔和探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e48b-4354-4e23-4c39" type="max"/>
                   </constraints>
@@ -5573,7 +5573,7 @@ D6    结果  S AP
             <characteristic name="出入口和射击口" typeId="beac-711d-f76d-e254">无</characteristic>
             <characteristic name="武器" typeId="0ecb-8865-b3eb-97c9">无</characteristic>
             <characteristic name="选项" typeId="a782-1362-048c-ff45">无</characteristic>
-            <characteristic name="特殊规则" typeId="51b9-8d40-8186-fd23">Desperate Shelter</characteristic>
+            <characteristic name="规则" typeId="51b9-8d40-8186-fd23">Desperate Shelter</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5595,7 +5595,7 @@ D6    结果  S AP
             <characteristic name="出入口和射击口" typeId="beac-711d-f76d-e254">无</characteristic>
             <characteristic name="武器" typeId="0ecb-8865-b3eb-97c9">无</characteristic>
             <characteristic name="选项" typeId="a782-1362-048c-ff45">无</characteristic>
-            <characteristic name="特殊规则" typeId="51b9-8d40-8186-fd23">Mysterious Wreckage</characteristic>
+            <characteristic name="规则" typeId="51b9-8d40-8186-fd23">Mysterious Wreckage</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5605,7 +5605,7 @@ D6    结果  S AP
 
 D6 Result
 1 Unstable Fuel Core: 
-The unit that entered or deployed in base contact with the 被摧毁的帝国登陆平台 immediately suffers D6 Strength 5 AP- hits with the 无视掩体 特殊规则. Wounds are Randomly Allocated.
+The unit that entered or deployed in base contact with the 被摧毁的帝国登陆平台 immediately suffers D6 Strength 5 AP- hits with the 无视掩体 规则. Wounds are Randomly Allocated.
 
 2-4 Nothing of Note: 
 The 被摧毁的帝国登陆平台 has no additional effects this game.
@@ -5627,7 +5627,7 @@ Immediately place an objective marker within 3&quot; of any part of the 被摧�
             <characteristic name="出入口和射击口" typeId="beac-711d-f76d-e254">无</characteristic>
             <characteristic name="武器" typeId="0ecb-8865-b3eb-97c9">无</characteristic>
             <characteristic name="选项" typeId="a782-1362-048c-ff45">无</characteristic>
-            <characteristic name="特殊规则" typeId="51b9-8d40-8186-fd23">Foxholes</characteristic>
+            <characteristic name="规则" typeId="51b9-8d40-8186-fd23">Foxholes</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6330,7 +6330,7 @@ Please let us know what worked well as a part of these rules and also what could
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2950-a8fe-2324-2d04" name="Explorer Adaptation" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="2950-a8fe-2324-2d04" name="探索者改装" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -6436,12 +6436,12 @@ Please let us know what worked well as a part of these rules and also what could
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="aa98-3e05-bd91-610f" name="可以选择 至多 two: (毒刃/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="aa98-3e05-bd91-610f" name="可以选择 至多 two: (毒刃/影剑 Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="070b-633f-838c-5070" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="08d5-ebb0-5d2a-701e" name="Pairs of side sponsons, each with one 激光炮 and one twin-linked 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="08d5-ebb0-5d2a-701e" name="Pairs of side sponsons, each with one 激光炮 and one 双联 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="28c3-b1ee-649a-5131" type="max"/>
               </constraints>
@@ -6453,7 +6453,7 @@ Please let us know what worked well as a part of these rules and also what could
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c095-eda9-2b2e-f241" name="Targeters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c095-eda9-2b2e-f241" name="瞄准仪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b10b-6971-aa8b-2f38" type="max"/>
               </constraints>
@@ -6465,7 +6465,7 @@ Please let us know what worked well as a part of these rules and also what could
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="56c2-75dd-1b94-9092" name="可以选择一个 pintle-mounted weapons: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
+        <entryLink id="56c2-75dd-1b94-9092" name="可以选择一个同轴武器: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
         <entryLink id="1c4d-0e1f-faf8-96be" name="探照灯 and 烟雾发射器" hidden="false" collective="false" import="true" targetId="1ecc-b3b6-1fe1-8bd5" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -6498,7 +6498,7 @@ Please let us know what worked well as a part of these rules and also what could
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bbed-ab81-b0ad-aad1" name="Explorer Adaptation" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="bbed-ab81-b0ad-aad1" name="探索者改装" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -6564,12 +6564,12 @@ Please let us know what worked well as a part of these rules and also what could
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4351-648e-3b6e-c6f1" name="可以选择 至多 two: (毒刃/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4351-648e-3b6e-c6f1" name="可以选择 至多 two: (毒刃/影剑 Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2673-38a2-7c19-a82b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c21e-c7e2-c273-3b1b" name="Pairs of side sponsons, each with one 激光炮 and one twin-linked 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c21e-c7e2-c273-3b1b" name="Pairs of side sponsons, each with one 激光炮 and one 双联 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8974-d1ed-6488-70d3" type="max"/>
               </constraints>
@@ -6581,7 +6581,7 @@ Please let us know what worked well as a part of these rules and also what could
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7075-63d8-db77-0b79" name="Targeters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7075-63d8-db77-0b79" name="瞄准仪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22a8-0d14-3b07-5e04" type="max"/>
               </constraints>
@@ -6620,7 +6620,7 @@ Please let us know what worked well as a part of these rules and also what could
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a98d-5837-7bea-19bf" name="Explorer Adaptation" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="a98d-5837-7bea-19bf" name="探索者改装" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -6672,12 +6672,12 @@ Please let us know what worked well as a part of these rules and also what could
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e5c9-ff6b-221f-30fd" name="可以选择 至多 two: (毒刃/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e5c9-ff6b-221f-30fd" name="可以选择 至多 two: (毒刃/影剑 Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6be2-1f3d-a65f-efb7" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="de17-374e-b083-ee9c" name="Pairs of side sponsons, each with one 激光炮 and one twin-linked 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de17-374e-b083-ee9c" name="Pairs of side sponsons, each with one 激光炮 and one 双联 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a38-aaf1-0eb7-93eb" type="max"/>
               </constraints>
@@ -6689,7 +6689,7 @@ Please let us know what worked well as a part of these rules and also what could
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c27b-2a61-c747-205d" name="Targeters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c27b-2a61-c747-205d" name="瞄准仪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc7-f974-7d88-2238" type="max"/>
               </constraints>
@@ -6771,7 +6771,7 @@ Please let us know what worked well as a part of these rules and also what could
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="0a6f-d634-b70b-9700" name="May be given one pintle-mounted" page="" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="0a6f-d634-b70b-9700" name="May be given one 同轴" page="" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e1c-cf7a-ffc6-a992" type="max"/>
               </constraints>
@@ -6821,9 +6821,9 @@ Please let us know what worked well as a part of these rules and also what could
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c921-67d3-80ee-fd54" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="9c8f-5408-1f3e-3a5e" name="Two Sponson-mounted Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="9c8f-5408-1f3e-3a5e" name="Two 侧挂Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted Heavy Stubbers"/>
+                    <modifier type="set" field="name" value="Two 侧挂Heavy Stubbers"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="919f-59a3-ea73-8235" type="max"/>
@@ -6835,9 +6835,9 @@ Please let us know what worked well as a part of these rules and also what could
                     <cost name="分" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d4c7-525a-a209-fbd7" name="Two Sponson-mounted 重爆弹" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d4c7-525a-a209-fbd7" name="Two 侧挂重爆弹" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted 重爆弹"/>
+                    <modifier type="set" field="name" value="Two 侧挂重爆弹"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="64e5-8d74-c765-d98d" type="max"/>
@@ -6853,7 +6853,7 @@ Please let us know what worked well as a part of these rules and also what could
               <entryLinks>
                 <entryLink id="c2d8-e06c-ce83-7894" name="重喷火器" hidden="false" collective="false" import="true" targetId="ead9-305c-a7e7-323e" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted Heavy Flamers"/>
+                    <modifier type="set" field="name" value="Two 侧挂重喷火器"/>
                   </modifiers>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -6958,7 +6958,7 @@ Please let us know what worked well as a part of these rules and also what could
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="414d-1507-62c9-3ead" name="May be given one pintle-mounted" page="" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="414d-1507-62c9-3ead" name="May be given one 同轴" page="" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef3-a451-9e3f-0e10" type="max"/>
               </constraints>
@@ -7005,7 +7005,7 @@ Please let us know what worked well as a part of these rules and also what could
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="d6c0-8e8b-be16-b7e0" name="Sponson-mounted Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d6c0-8e8b-be16-b7e0" name="侧挂武器" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb2b-f03b-0579-f23a" type="max"/>
               </constraints>
@@ -7021,7 +7021,7 @@ Please let us know what worked well as a part of these rules and also what could
                     <cost name="分" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="7085-2f2e-1ef9-57c8" name="2x Heavy Flamers" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="7085-2f2e-1ef9-57c8" name="2x 重喷火器" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1782-ca96-c51f-579c" type="max"/>
                   </constraints>
@@ -7147,14 +7147,14 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d9dd-d953-dc6b-b648" name="May be given one pintle-mounted" page="" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d9dd-d953-dc6b-b648" name="May be given one 同轴" page="" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3720-abd2-ab91-1f8f" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="867a-4dcd-2e95-75ea" name="风暴爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Pintle-mounted 风暴爆弹枪"/>
+                    <modifier type="set" field="name" value="同轴风暴爆弹枪"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="58d2-ab8c-7bc3-1ebd" type="max"/>
@@ -7177,7 +7177,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <entryLinks>
                 <entryLink id="1bee-c5c4-e107-4602" name="重机枪" hidden="false" collective="false" import="true" targetId="e3c2-6536-f0ff-d02c" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Pintle-mounted 重机枪"/>
+                    <modifier type="set" field="name" value="同轴重机枪"/>
                   </modifiers>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
@@ -7191,9 +7191,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="150c-2a46-5da9-644c" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="2b0d-74d6-7cd6-a42e" name="Two Sponson-mounted Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2b0d-74d6-7cd6-a42e" name="Two 侧挂Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted Heavy Stubbers"/>
+                    <modifier type="set" field="name" value="Two 侧挂Heavy Stubbers"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5bf4-3a62-44b2-63ac" type="max"/>
@@ -7205,9 +7205,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                     <cost name="分" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="33f7-976c-63eb-50ca" name="Two Sponson-mounted 重爆弹" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="33f7-976c-63eb-50ca" name="Two 侧挂重爆弹" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted 重爆弹"/>
+                    <modifier type="set" field="name" value="Two 侧挂重爆弹"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="366f-c8f6-a4ae-451f" type="max"/>
@@ -7223,7 +7223,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <entryLinks>
                 <entryLink id="ac0f-49a4-7f5c-28cb" name="重喷火器" hidden="false" collective="false" import="true" targetId="ead9-305c-a7e7-323e" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted Heavy Flamers"/>
+                    <modifier type="set" field="name" value="Two 侧挂重喷火器"/>
                     <modifier type="set" field="points" value="10"/>
                   </modifiers>
                 </entryLink>
@@ -7322,14 +7322,14 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b015-238c-e0de-a0f6" name="May be given one pintle-mounted" page="" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="b015-238c-e0de-a0f6" name="May be given one 同轴" page="" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d58b-0d12-be44-0b81" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="fa0b-f5ad-a8f6-6669" name="风暴爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Pintle-mounted 风暴爆弹枪"/>
+                    <modifier type="set" field="name" value="同轴风暴爆弹枪"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="556e-4d7b-1c62-f054" type="max"/>
@@ -7352,7 +7352,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <entryLinks>
                 <entryLink id="0535-3f57-df6e-58a3" name="重机枪" hidden="false" collective="false" import="true" targetId="e3c2-6536-f0ff-d02c" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Pintle-mounted 重机枪"/>
+                    <modifier type="set" field="name" value="同轴重机枪"/>
                   </modifiers>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
@@ -7378,9 +7378,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebb-b405-778e-001d" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="6693-7731-9572-8476" name="Two Sponson-mounted Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6693-7731-9572-8476" name="Two 侧挂Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted Heavy Stubbers"/>
+                    <modifier type="set" field="name" value="Two 侧挂Heavy Stubbers"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4274-6b78-05c5-e015" type="max"/>
@@ -7392,9 +7392,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                     <cost name="分" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="12fb-3fdc-5321-e153" name="Two Sponson-mounted 重爆弹" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="12fb-3fdc-5321-e153" name="Two 侧挂重爆弹" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted 重爆弹"/>
+                    <modifier type="set" field="name" value="Two 侧挂重爆弹"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c0b9-6851-849a-1084" type="max"/>
@@ -7410,7 +7410,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <entryLinks>
                 <entryLink id="085b-c2dc-cb9f-437e" name="重喷火器" hidden="false" collective="false" import="true" targetId="ead9-305c-a7e7-323e" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two Sponson-mounted Heavy Flamers"/>
+                    <modifier type="set" field="name" value="Two 侧挂重喷火器"/>
                     <modifier type="set" field="points" value="10.0"/>
                   </modifiers>
                 </entryLink>
@@ -7437,9 +7437,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed2c-8dcf-d0d2-720e" name="Shadowsword" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ed2c-8dcf-d0d2-720e" name="影剑" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="579e-ecea-a30c-2d38" name="Shadowsword" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+        <profile id="579e-ecea-a30c-2d38" name="影剑" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
             <modifier type="increment" field="425323232344415441232323" value="1">
               <repeats>
@@ -7463,7 +7463,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7e8d-bb9f-b6d3-0704" name="Explorer Adaptation" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="7e8d-bb9f-b6d3-0704" name="探索者改装" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -7539,12 +7539,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6507-482b-b553-2db4" name="可以选择 至多 two: (毒刃/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6507-482b-b553-2db4" name="可以选择 至多 two: (毒刃/影剑 Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef56-e144-5219-9a14" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8914-e1b9-c76e-3d52" name="Pairs of side sponsons, each with one 激光炮 and one twin-linked 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8914-e1b9-c76e-3d52" name="Pairs of side sponsons, each with one 激光炮 and one 双联 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df4d-5e69-4cd4-5f63" type="max"/>
               </constraints>
@@ -7556,7 +7556,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="920e-357e-5b73-2879" name="Targeters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="920e-357e-5b73-2879" name="瞄准仪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a22-e493-6564-a589" type="max"/>
               </constraints>
@@ -7568,16 +7568,16 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6459-3e6c-1b24-26c8" name="可以选择一个 pintle-mounted weapons: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
+        <entryLink id="6459-3e6c-1b24-26c8" name="可以选择一个同轴武器: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
         <entryLink id="ee93-7c39-1f4f-0979" name="探照灯 and 烟雾发射器" hidden="false" collective="false" import="true" targetId="1ecc-b3b6-1fe1-8bd5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="455.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d56-481b-6478-681e" name="Stormlord" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d56-481b-6478-681e" name="风暴之主" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b3af-72bd-76c9-2988" name="Stormlord" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+        <profile id="b3af-72bd-76c9-2988" name="风暴之主" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <modifiers>
             <modifier type="increment" field="425323232344415441232323" value="1">
               <repeats>
@@ -7599,12 +7599,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             <characteristic name="类型" typeId="5479706523232344415441232323">超重型载具, Transport</characteristic>
           </characteristics>
         </profile>
-        <profile id="66d0-e0a0-64d8-05cc" name="All Power to Weapons" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+        <profile id="66d0-e0a0-64d8-05cc" name="All Power to 武器" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">All Power to Weapons!: If the Stormlord does not move, it may fire its Vulcan mega-bolter twice in the following 射击阶段 (at the same target or at different ones).</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">All Power to 武器!: If the 风暴之主 does not move, it may fire its Vulcan mega-bolter twice in the following 射击阶段 (at the same target or at different ones).</characteristic>
           </characteristics>
         </profile>
-        <profile id="d626-e808-3906-342b" name="Stormlord (运载)" hidden="false" typeId="307d-047f-ca13-706b" typeName="运输载具">
+        <profile id="d626-e808-3906-342b" name="风暴之主 (运载)" hidden="false" typeId="307d-047f-ca13-706b" typeName="运输载具">
           <characteristics>
             <characteristic name="运载量" typeId="8285-4205-b6cd-8473">40 Models</characteristic>
             <characteristic name="射击口" typeId="b270-a7f9-22b2-3702">20 Models can fire from Troop Bay</characteristic>
@@ -7613,7 +7613,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="48fa-7d1c-b595-3f7f" name="Explorer Adaptation" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="48fa-7d1c-b595-3f7f" name="探索者改装" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -7712,12 +7712,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a23a-8d43-cbc8-1dd4" name="可以选择 至多 two: (毒刃/Shadowsword Sponsons)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a23a-8d43-cbc8-1dd4" name="可以选择 至多 two: (毒刃/影剑 Sponsons)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d041-43ec-af1b-ed38" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="fa83-5607-fea5-a3f9" name="Pairs of side sponsons, each with one 激光炮 and one twin-linked 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fa83-5607-fea5-a3f9" name="Pairs of side sponsons, each with one 激光炮 and one 双联 重爆弹" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3a5-060d-2952-41fb" type="max"/>
               </constraints>
@@ -7729,7 +7729,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7538-61d3-7a6f-ea9f" name="Targeters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7538-61d3-7a6f-ea9f" name="瞄准仪" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00d5-484e-b887-e121" type="max"/>
               </constraints>
@@ -7742,7 +7742,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1df8-5e28-c37c-be9b" name="探照灯 and 烟雾发射器" hidden="false" collective="false" import="true" targetId="1ecc-b3b6-1fe1-8bd5" type="selectionEntry"/>
-        <entryLink id="cd9f-305f-739b-620e" name="可以选择一个 pintle-mounted weapons: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
+        <entryLink id="cd9f-305f-739b-620e" name="可以选择一个同轴武器: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="490.0"/>
@@ -7774,7 +7774,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2f46-a219-1ba1-b185" name="Explorer Adaptation" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="2f46-a219-1ba1-b185" name="探索者改装" hidden="true" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -7855,9 +7855,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7456-0481-cd88-3002" name="可以选择 至多 two: (毒刃/Shadowsword Sponsons)" hidden="false" collective="false" import="true" targetId="8ffb-2a32-888b-41ef" type="selectionEntryGroup"/>
+        <entryLink id="7456-0481-cd88-3002" name="可以选择 至多 two: (毒刃/影剑 Sponsons)" hidden="false" collective="false" import="true" targetId="8ffb-2a32-888b-41ef" type="selectionEntryGroup"/>
         <entryLink id="4cee-8f4b-42eb-9097" name="探照灯 and 烟雾发射器" hidden="false" collective="false" import="true" targetId="1ecc-b3b6-1fe1-8bd5" type="selectionEntry"/>
-        <entryLink id="5dcf-bcdf-e942-b62b" name="可以选择一个 pintle-mounted weapons: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
+        <entryLink id="5dcf-bcdf-e942-b62b" name="可以选择一个同轴武器: (毒刃 and Variants)" hidden="false" collective="false" import="true" targetId="0d7e-7d81-8723-58e9" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="485.0"/>
@@ -8169,12 +8169,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </selectionEntryGroup>
             <selectionEntryGroup id="b4cd-f62e-ce08-2b67" name="可以选择" hidden="false" collective="false" import="true">
               <selectionEntryGroups>
-                <selectionEntryGroup id="14c3-d38a-e774-df74" name="Pintle-Mounted Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="14c3-d38a-e774-df74" name="同轴Weapon" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aac7-d7c8-1f43-bd5f" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="b63e-1772-da9d-1f69" name="Pintle-Mounted 重机枪" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="b63e-1772-da9d-1f69" name="同轴重机枪" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="7639-eaa4-bb63-5266" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
                       </infoLinks>
@@ -8182,7 +8182,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                         <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="ad02-103f-69ca-a330" name="Pintle-Mounted Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="ad02-103f-69ca-a330" name="同轴Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="b5d9-6293-b64c-3903" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
                       </infoLinks>
@@ -8236,9 +8236,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="79cf-b5c0-232b-9315" name="Dominus Armoured Siege Bombard" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="79cf-b5c0-232b-9315" name="Dominus Armoured Siege巨像轰击炮" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="299b-dbf1-2826-392e" name="Dominus Armoured Siege Bombard" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="299b-dbf1-2826-392e" name="Dominus Armoured Siege巨像轰击炮" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2966-d197-a574-0e19" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b46-fc67-0a38-cbf1" type="max"/>
@@ -8263,13 +8263,13 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="ce5a-6b06-d656-4afd" name="Triple-barrelled Bombard" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ce5a-6b06-d656-4afd" name="Triple-barrelled巨像轰击炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c154-f7d2-2e7e-f8e9" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1603-2054-ddfa-14e1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3289-e890-c6a4-be51" name="Dominus Triple Bombard (Mobile)" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="3289-e890-c6a4-be51" name="Dominus Triple巨像轰击炮 (Mobile)" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">12&quot;-36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -8277,7 +8277,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                     <characteristic name="类型" typeId="5479706523232344415441232323">重炮 弹幕 1, 5&quot; 爆炸, 主武器</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="74df-309c-be17-15b8" name="Dominus Triple Bombard (Static)" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="74df-309c-be17-15b8" name="Dominus Triple巨像轰击炮 (Static)" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">12&quot;-60&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -8395,12 +8395,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="9990-38fb-90f5-bc32" name="Pintle-Mounted Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="9990-38fb-90f5-bc32" name="同轴Weapon" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d72-ed03-2b15-22b6" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="661b-7b37-f5e7-87ac" name="Pintle-Mounted 重机枪" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="661b-7b37-f5e7-87ac" name="同轴重机枪" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="1f37-499e-6299-b39f" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
                       </infoLinks>
@@ -8408,7 +8408,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                         <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="d238-b100-ff91-098d" name="Pintle-Mounted Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="d238-b100-ff91-098d" name="同轴Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="a891-8da2-a4b8-dc51" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
                       </infoLinks>
@@ -8628,12 +8628,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </selectionEntryGroup>
             <selectionEntryGroup id="93cc-ec4a-4ae0-9569" name="可以选择" hidden="false" collective="false" import="true">
               <selectionEntryGroups>
-                <selectionEntryGroup id="0a73-8301-d5e5-dcf2" name="Pintle-Mounted Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="0a73-8301-d5e5-dcf2" name="同轴Weapon" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be6d-b2d7-5258-5482" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="8e22-4b59-8490-2775" name="Pintle-Mounted 重机枪" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="8e22-4b59-8490-2775" name="同轴重机枪" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="d4c0-94d2-a2ef-905a" name="重机枪" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile"/>
                       </infoLinks>
@@ -8641,7 +8641,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                         <cost name="分" typeId="points" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="42c4-a33e-4a8c-961a" name="Pintle-Mounted Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="42c4-a33e-4a8c-961a" name="同轴Stormbolter" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="76b2-e78d-cc92-28d6" name="风暴爆弹" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile"/>
                       </infoLinks>
@@ -8721,9 +8721,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry id="2776-eeb1-524f-551e" name="Dual Earthshaker Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2776-eeb1-524f-551e" name="双管地震炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="7d41-054f-2aab-814e" name="Dual Earthshaker Cannon" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="7d41-054f-2aab-814e" name="双管地震炮" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">24&quot; - 240&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
@@ -8738,7 +8738,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="4c3b-863d-8568-759c" name="可以选择 a pintle-mounted weapon:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="4c3b-863d-8568-759c" name="可以选择一个同轴武器:" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1616-411b-04c5-e48e" type="max"/>
               </constraints>
@@ -8911,12 +8911,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a63-8a1c-6d8e-c331" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a9ef-1525-b068-2aba" name="Four Heavy Bomb Clusters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a9ef-1525-b068-2aba" name="Four Heavy 集束炸弹s" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ad7-02f2-bbc9-af80" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3fb8-27e6-00a0-3366" name="Four Heavy Bomb Clusters" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="3fb8-27e6-00a0-3366" name="Four Heavy 集束炸弹s" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">炸弹</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -8996,7 +8996,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <profiles>
                 <profile id="14cc-d161-7843-7ae0" name="照明弹" publicationId="ca571888--pubN80998" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.  </characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.  </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9118,13 +9118,13 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a9d6-1514-2ed5-265a" name="3 Heavy Bomb Clusters" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a9d6-1514-2ed5-265a" name="3 Heavy 集束炸弹s" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fda1-f0e7-5bfa-ffe1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee20-624b-8594-862d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c00-9eba-0756-b933" name="Three Heavy Bomb Clusters" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="3c00-9eba-0756-b933" name="Three Heavy 集束炸弹s" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
               <characteristics>
                 <characteristic name="距离" typeId="52616e676523232344415441232323">炸弹</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -9181,7 +9181,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <profiles>
                 <profile id="24a8-3277-357e-68c3" name="照明弹" publicationId="ca571888--pubN80998" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.  </characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.  </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9251,9 +9251,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="425.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7734-1ff6-9f66-44cd" name="雷鸟重型战斗机" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7734-1ff6-9f66-44cd" name="雷霆重型攻击机" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6741-3b6c-e142-5d71" name="雷鸟重型战斗机" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+        <profile id="6741-3b6c-e142-5d71" name="雷霆重型攻击机" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
           <characteristics>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
             <characteristic name="前" typeId="46726f6e7423232344415441232323">11</characteristic>
@@ -9316,7 +9316,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <profiles>
                 <profile id="99b2-dc77-6cbf-af8b" name="地面跟踪占卜" publicationId="ca571888--pubN80998" page="43" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides 对地扫射 特殊规则.  </characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides 对地扫射 规则.  </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9925,7 +9925,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
       </constraints>
       <rules>
         <rule id="de3a-cf03-7873-a4a8" name="Autokrator Control" publicationId="ca571888--pubN66580" page="21" hidden="false">
-          <description>Representing the skilled Tech-Priest weapon-savants and gun-servitor control systems of the Autokrator, these 超重型载具 可以升级 BS 4 and have the 受祝福的自动拟像 特殊规则 for +20 points.</description>
+          <description>Representing the skilled Tech-Priest weapon-savants and gun-servitor control systems of the Autokrator, these 超重型载具 可以升级 BS 4 and have the 受祝福的自动拟像 规则 for +20 points.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9974,7 +9974,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
       </profiles>
       <rules>
         <rule id="cb46-9ba0-5909-e284" name="宿敌 (反叛方 星际战士)" hidden="false">
-          <description>A unit that contains at least one model with this 特殊规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
+          <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
         <rule id="4b80-59db-9369-a6ca" name="The Emperor Protects" hidden="false">
           <description>The first time Garro loses his last wound, make a Leadership test. 如果测试通过, he remains in play with a single wound remaining.</description>
@@ -10097,7 +10097,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
       </profiles>
       <rules>
         <rule id="90b4-3d5a-1cf7-b8ab" name="宿敌 (Traitors)" hidden="false">
-          <description>A unit that contains at least one model with this 特殊规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
+          <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -10596,7 +10596,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
       </profiles>
       <rules>
         <rule id="2908-f026-0047-3174" name="宿敌 (Traitors)" hidden="false">
-          <description>A unit that contains at least one model with this 特殊规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
+          <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
         <rule id="bc59-735e-d83d-a4a8" name="Psionic Fury" publicationId="ca571888--pubN89821" page="210" hidden="false">
           <description>Any unused Warp Charge points may be used during the 突击阶段 to incrase the strength of Rubio&apos;s attacks on a one-to-one basis.  May not carry over or exceed S10.</description>
@@ -10761,7 +10761,7 @@ In addition, any 战争之王槽位 must fulfil one of the following criteria:
 
 The Element of Surprise: Prior to any rolls for for first turn or units are deployed.  The player using the Raider Detachment chooses one fo the following options, informing their opponent before beginning play.  
 - 夜战 rules are automatically in effect for the first turn, and the second turn on a 4+
-- Grant D3+2 of the Raider player&apos;s units the 渗透 and 侧击 special rules
+- Grant D3+2 of the Raider player&apos;s units the 渗透 and 侧击 规则
 - The Raider player may re-roll any dice rolled to determine which player takes the first turn, and Siezes the Initiative on a 4+ instead of the usually required score.</description>
                     </rule>
                   </rules>
@@ -10843,7 +10843,7 @@ Fortress-bound: Each fortification deployed on the table must be occupied by at 
                       <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Only 1 HQ in the Incursion 立场 may be a Praetor, across all 3 available Incursion 立场 Detachments.  No Rites of War may be used.
 
 Command Benefits:
-- 目标安全: All Troops units from this detatchment have the 目标安全 特殊规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
+- 目标安全: All Troops units from this detatchment have the 目标安全 规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
 - Close Coordination: 步兵 units from this detachment gain the 拦截 rule when within 6&quot; of any 载具 from the same sub-detachment, but only when firing at enemy 步兵 models.</description>
                     </rule>
                   </rules>
@@ -10865,10 +10865,10 @@ Command Benefits:
                   </constraints>
                   <rules>
                     <rule id="4b23-8920-a6e2-4649" name="Entrenched 立场 Primary Detachment" publicationId="ca571888--pubN84158" page="193" hidden="false">
-                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Compulsory Heavy Support  must be a unit with the 步兵 type.  Optional Fortification Detachment may not include any fortifications with the 固若金汤 特殊规则.
+                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Compulsory Heavy Support  must be a unit with the 步兵 type.  Optional Fortification Detachment may not include any fortifications with the 固若金汤 规则.
 
 Command Benefits:
-- 目标安全: All Troops units from this detatchment have the 目标安全 特殊规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
+- 目标安全: All Troops units from this detatchment have the 目标安全 规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
 - Entrenched: On the first game turn only, all units with the 步兵 type in this detachment gain +1 to any cover saves granted by 废墟, defence lines, craters, battlements, and barricades, to a maximum of 2+.</description>
                     </rule>
                   </rules>
@@ -10893,7 +10893,7 @@ Command Benefits:
                       <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Only 1 HQ in the Incursion 立场 may be a Praetor, across all 3 available Incursion 立场 Detachments.  No Rites of War may be used.
 
 Command Benefits:
-- 目标安全: All Troops units from this detatchment have the 目标安全 特殊规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
+- 目标安全: All Troops units from this detatchment have the 目标安全 规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
 - Close Coordination: 步兵 units from this detachment gain the 拦截 rule when within 6&quot; of any 载具 from the same sub-detachment, but only when firing at enemy 步兵 models.</description>
                     </rule>
                   </rules>
@@ -11217,9 +11217,9 @@ Command Benefits:
             <cost name="分" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0267-083e-86de-3c0f" name="爆破雷管" publicationId="ca571888--pubN80998" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0267-083e-86de-3c0f" name="爆破炸药" publicationId="ca571888--pubN80998" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e110-b880-2490-0e12" name="爆破雷管" publicationId="ca571888--pubN80998" page="86" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+            <profile id="e110-b880-2490-0e12" name="爆破炸药" publicationId="ca571888--pubN80998" page="86" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
               <characteristics>
                 <characteristic name="距离" typeId="52616e676523232344415441232323">特殊</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -11229,7 +11229,7 @@ Command Benefits:
             </profile>
           </profiles>
           <rules>
-            <rule id="1613-e573-baea-c0cf" name="爆破雷管" publicationId="ca571888--pubN66500" page="233" hidden="false">
+            <rule id="1613-e573-baea-c0cf" name="爆破炸药" publicationId="ca571888--pubN66500" page="233" hidden="false">
               <description>取代常规武器攻击一次. 在所有底盘接触的敌方模型上放置爆炸盖板. 盖板下不能包含友方模型. 为覆盖的模型投掷WS (自动命中建筑物, 炮台, 静止的载具). 命中的盖板置于原处. 未命中的, 投掷一个偏移并让盖板向其方向翻转.</description>
             </rule>
           </rules>
@@ -12509,7 +12509,7 @@ Command Benefits:
           </profiles>
           <rules>
             <rule id="e9e8-b6d3-fac2-8a52" name="Riposte" hidden="false">
-              <description>Attacks directed at the wielder of these weapons suffer -1 to hit.</description>
+              <description>Attacks directed at the wielder of these 武器 suffer -1 to hit.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -12694,7 +12694,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="c966-58bd-5a8d-71ac" name="3. The Dust of a Thousand Worlds" hidden="false">
-                  <description>Your Warlord, and all friendly units within 12&quot;, have the 穿越地形 特殊规则.</description>
+                  <description>Your Warlord, and all friendly units within 12&quot;, have the 穿越地形 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12753,7 +12753,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="3ab5-89d0-cfda-851c" name="1. Conqueror of Cities" hidden="false">
-                  <description>Your units have the 穿越地形 特殊规则 if moving through 废墟, and the 隐蔽 (废墟) 特殊规则.</description>
+                  <description>Your units have the 穿越地形 规则 if moving through 废墟, and the 隐蔽 (废墟) 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12769,7 +12769,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="ab88-067d-f8ac-f2f8" name="2. Night Attacker" hidden="false">
-                  <description>If you choose to use the 夜战 rules in your game, there is no need to roll – it is night on the first turn, and all models in your army have the 夜视 特殊规则.</description>
+                  <description>If you choose to use the 夜战 rules in your game, there is no need to roll – it is night on the first turn, and all models in your army have the 夜视 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12786,7 +12786,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="5158-be42-1a20-501d" name="3. Master of Ambush" hidden="false">
-                  <description>Your Warlord and three 非载具 units of your choice have the 渗透 特殊规则.</description>
+                  <description>Your Warlord and three 非载具 units of your choice have the 渗透 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12848,7 +12848,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="ade5-83c4-5c27-9675" name="1. Master of Defence" hidden="false">
-                  <description>主将获得 反击 特殊规则.</description>
+                  <description>主将获得 反击 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12864,7 +12864,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="5591-e1ea-2878-033c" name="2. Master of Offence" hidden="false">
-                  <description>主将获得 狂怒冲锋 特殊规则.</description>
+                  <description>主将获得 狂怒冲锋 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12880,7 +12880,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="43bd-6443-5f36-1885" name="3. Master of Manoeuvre" hidden="false">
-                  <description>主将获得 侧击 特殊规则.</description>
+                  <description>主将获得 侧击 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12909,7 +12909,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="1da6-7414-411a-a18e" name="5. Tenacity" hidden="false">
-                  <description>主将获得 不知疼痛 特殊规则.</description>
+                  <description>主将获得 不知疼痛 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12989,7 +12989,7 @@ Command Benefits:
       <description>此模型受到了一个未能保护的伤后,投D6,结果3+,则这次损伤被忽略不计如同成功保护,每次遭受伤害之后要单独投掷这个D6</description>
     </rule>
     <rule id="34c7-8b61-a5b8-a301" name="渗透" publicationId="ca571888--pubN106502" page="167" hidden="false">
-      <description>至少包含一个拥有这条特殊规则模型的单位在双方非渗透单位都部署完成后才进行部署.如果双方都有渗透者,玩家们斗骰,胜利者决定谁先进行部署第一个渗透单位,然后轮流部署这些单位.渗透者能被部署在桌面上的任何一个部分,只要在敌军视线外,就可以被部署在任何敌军的12英&quot;之外.可以渗透在一栋建筑内,只要这栋建筑在任何敌军的12英&quot;之外.如果对方和这个渗透单位有视线,则只能在桌面上任何距离敌军18英&quot;之外的地方部署渗透部署的单位在游戏的第一个游戏回合不能发起冲锋.拥有渗透规则并同时为作为预备队的单位会获得侧击规则.如果他们想与自己的专属运输载具一起渗透或侧击,就必须乘坐在那个运输载具里部署或进场.没有该规则的独立人物不能在部署时加入渗透单位,有渗透规则的独立人物也不能在部署时加入没有渗透规则的单位</description>
+      <description>至少包含一个拥有这条规则模型的单位在双方非渗透单位都部署完成后才进行部署.如果双方都有渗透者,玩家们斗骰,胜利者决定谁先进行部署第一个渗透单位,然后轮流部署这些单位.渗透者能被部署在桌面上的任何一个部分,只要在敌军视线外,就可以被部署在任何敌军的12英&quot;之外.可以渗透在一栋建筑内,只要这栋建筑在任何敌军的12英&quot;之外.如果对方和这个渗透单位有视线,则只能在桌面上任何距离敌军18英&quot;之外的地方部署渗透部署的单位在游戏的第一个游戏回合不能发起冲锋.拥有渗透规则并同时为作为预备队的单位会获得侧击规则.如果他们想与自己的专属运输载具一起渗透或侧击,就必须乘坐在那个运输载具里部署或进场.没有该规则的独立人物不能在部署时加入渗透单位,有渗透规则的独立人物也不能在部署时加入没有渗透规则的单位</description>
     </rule>
     <rule id="3aa7-9a8f-1e0d-921d" name="狂怒冲锋" publicationId="ca571888--pubN106502" page="164" hidden="false">
       <description>模型在发动冲锋进入近战的那个突击阶段S+1,直到阶段结束.发起散乱冲锋的单位得不到这个加成.</description>
@@ -13004,7 +13004,7 @@ Command Benefits:
       <description>士气或压制测试时,至少包含一个坚毅规则模型的单位可以忽略任何负面的LD修正值.如果一个单位同时有无畏和坚毅,则无畏优先生效.</description>
     </rule>
     <rule id="3ad4-1c37-d60b-1a4e" name="独立人物" publicationId="ca571888--pubN106502" page="165" hidden="false">
-      <description>独立人物可以加入其他单位或其他独立人物,但是包含载具和巨兽模型的单位除外.部署时独立人物即可加入一个单位,与这个单位保持连续性,如果加入的单位在预备队中,则要告知对手加入了哪个单位中独立人物通过移动而在移动阶段结束时处于任意友军单位2 &quot;内即可宣布加入其中,并且要说明加入的是哪个单位,如果不想或不能加入某个单位的话则必须在移动阶段结束时在这个单位2 &quot;以外,并且独立人物加入一个单位之后,这个单位视作本回合已经移动完成,不能进行其他移动,独立人物可以在移动阶段中与单位脱离连续性来离开单位,只能在移动阶段时才能加入或脱离单位.独立人物在锁入近战,撤退,卧倒状态中都不能离开单位,也不能加入一个正在锁入近战或撤退中的单位,如果加入的单位全体阵亡,那么独立人物在下个阶段的开始会自动脱队.一旦加入一个单位,会被视作这个单位的一部分,尽管他依然会有他自己的规则.独立人物2+即可通过小心长官规则.至少包含一个独立人物的单位如果低于起始模型数量25%后进行重整无需双1重整,而是正常重整.独立人物和加入的单位通常会有不同的特殊规则,除非这些规则明确说明,否则各算各的规则(比如坚毅规则会对整个单位生效,一个坚毅的独立人物加入非坚毅单位,会让这个单位临时获得坚毅规则,直到人物离开或者被杀死),一些规则会有持续效果,已经有持续效果的单位中脱离的独立人物身上的持续效果会继续计算,没有这种效果的独立人物加入有持续效果的单位(或者反过来)不会传播这种效果.没有渗透规则的独立人物不得在部署时加入进行渗透的单位</description>
+      <description>独立人物可以加入其他单位或其他独立人物,但是包含载具和巨兽模型的单位除外.部署时独立人物即可加入一个单位,与这个单位保持连续性,如果加入的单位在预备队中,则要告知对手加入了哪个单位中独立人物通过移动而在移动阶段结束时处于任意友军单位2 &quot;内即可宣布加入其中,并且要说明加入的是哪个单位,如果不想或不能加入某个单位的话则必须在移动阶段结束时在这个单位2 &quot;以外,并且独立人物加入一个单位之后,这个单位视作本回合已经移动完成,不能进行其他移动,独立人物可以在移动阶段中与单位脱离连续性来离开单位,只能在移动阶段时才能加入或脱离单位.独立人物在锁入近战,撤退,卧倒状态中都不能离开单位,也不能加入一个正在锁入近战或撤退中的单位,如果加入的单位全体阵亡,那么独立人物在下个阶段的开始会自动脱队.一旦加入一个单位,会被视作这个单位的一部分,尽管他依然会有他自己的规则.独立人物2+即可通过小心长官规则.至少包含一个独立人物的单位如果低于起始模型数量25%后进行重整无需双1重整,而是正常重整.独立人物和加入的单位通常会有不同的规则,除非这些规则明确说明,否则各算各的规则(比如坚毅规则会对整个单位生效,一个坚毅的独立人物加入非坚毅单位,会让这个单位临时获得坚毅规则,直到人物离开或者被杀死),一些规则会有持续效果,已经有持续效果的单位中脱离的独立人物身上的持续效果会继续计算,没有这种效果的独立人物加入有持续效果的单位(或者反过来)不会传播这种效果.没有渗透规则的独立人物不得在部署时加入进行渗透的单位</description>
     </rule>
     <rule id="52ff-4074-570b-4ea1" name="恐怖" publicationId="ca571888--pubN106502" page="163" hidden="false">
       <description>在每个格斗子阶段的开始,任何攻击之前,与拥有恐怖规则的模型底盘接触的单位必须进行一次领导力测试(接触多个恐怖的模型也只做一次测试).如果通过,没有特别的效果.如果失败,该单位的所有模型WS 减为1,直到该子阶段结束.恐怖可以被他们无所畏惧或无畏抵消.但是造成恐怖的模型本身并不免疫恐怖.</description>
@@ -13050,7 +13050,7 @@ Command Benefits:
     </rule>
     <rule id="cb2c-171e-df0f-2bec" name="金属典范" publicationId="ca571888--pubN103311" page="113" hidden="false">
       <description>
-        - 不受程序化行为特殊规则的影响,并拥有不死之身和狂暴特殊规则
+        - 不受程序化行为规则的影响,并拥有不死之身和狂暴规则
         - 永远不算作得分单位
         - 如果对此模型的智控仪式失败, 则恶毒敌意结果自动生效
       </description>
@@ -13077,7 +13077,7 @@ Command Benefits:
       <description>如果任何非载具模型遭受了至少一个拥有此规则的伤害,不管保护成功与否,将视为在困难地形移动,持续到它的下个回合结束时.</description>
     </rule>
     <rule id="b5c1-4b08-5ddc-1504" name="无敌巨兽" publicationId="ca571888--pubN106502" page="90" hidden="false">
-      <description>任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或特殊规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.</description>
+      <description>任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.</description>
     </rule>
     <rule id="c673-4842-28f8-4e39" name="机械毁灭者" publicationId="ca571888--pubN68042" page="264" hidden="false">
       <description>可以重投D武器损伤表的1.</description>
@@ -13208,7 +13208,7 @@ Command Benefits:
 一个星际战士单位只能享受他所在军团的增益和能力,来自不同军团的星际战士,只能以联军方式(服从联军矩阵)存在于相同军队中.</description>
     </rule>
     <rule id="5ecb-551d-0f68-3a79" name="无情推进" publicationId="ca571888--pubN106389" page="3" hidden="false">
-      <description>在将基础槽位作为计分单位的任务中,始终将具有此特殊规则的单位计为计分单位.</description>
+      <description>在将基础槽位作为计分单位的任务中,始终将具有此规则的单位计为计分单位.</description>
     </rule>
     <rule id="e300-69f2-111a-ed55" name="狂战士" publicationId="ca571888--pubN106502" page="175" hidden="false">
       <description>自动通过士气,压制,重整,恐怖测试,并且不能卧倒,也不能因为武器无效选择士气自动失败,如果一个正在卧倒的单位获得本规则,会立即取消卧倒效果,另外, 至少包含一个具有此规则模型的单位可以重投每次近战中第一轮(阶段)所有失败的命中.</description>
@@ -13255,7 +13255,7 @@ Command Benefits:
         撤退移动
         跳跃单位永远使用跳跃背包撤退, 可以撤退移动 3D6&quot;, 即使已经在移动中使用了跳跃背包.
 
-        特殊规则
+        规则
         跳跃单位获得庞大和深度打击规则.
       </description>
     </rule>
@@ -13270,7 +13270,7 @@ Command Benefits:
 6 造成击穿</description>
     </rule>
     <rule id="c2af-0e00-294d-8d82" name="累赘" publicationId="ca571888--pubN106502" page="162" hidden="false">
-      <description>具有该规则的武器,使用者只能以WS1攻击一次,无视其模型本身的数值和其他特殊规则的加成.</description>
+      <description>具有该规则的武器,使用者只能以WS1攻击一次,无视其模型本身的数值和其他规则的加成.</description>
     </rule>
     <rule id="eabf-f2b0-71f8-0f72" name="神奇之技" publicationId="ca571888--pubN103311" page="259" hidden="false">
       <description>任何拥有此规则的模型在近战阶段若WS高于对手则I+1.</description>
@@ -13281,7 +13281,7 @@ Command Benefits:
     <rule id="0ac1-dfc1-295b-50a6" name="机魂之力" publicationId="ca571888--pubN106502" page="169" hidden="false">
       <description>如果拥有机魂的载具既不进行极速移动也不使用烟雾弹,那么它可以用正常的BS值多射击1件武器.这件武器还可以射击和其它武器不同的目标,遵循所有射击的一般规则.</description>
     </rule>
-    <rule id="4af6-46f8-9c3e-cb33" name="Heliothermic Detonation" publicationId="ca571888--pubN106705" hidden="false">
+    <rule id="4af6-46f8-9c3e-cb33" name="Heliothermic 自爆" publicationId="ca571888--pubN106705" hidden="false">
       <description>If any target suffers one or more unsaved wounds from this weapon and is not slain, they must take an immediate Toughness test. If this test is failed, they suffer 即死. If a 载具 suffers a penetrating hit from this weapon, add +1 to the result rolled on the 载具 Damage table.</description>
     </rule>
     <rule id="3bc1-64f3-ed64-6959" name="快速追踪" publicationId="ca571888--pubN80998" page="127" hidden="false">
@@ -13377,7 +13377,7 @@ Command Benefits:
         6(其他): 致死 - 损失D6+6点W,无视任何保护.</description>
     </rule>
     <rule id="0048-f0df-7559-f9c3" name="Eagle-Eye" hidden="false">
-      <description>The range of any ranged weapons fired by this model is increased by half. For example, this model could fire a boltgun (Range 24&quot;) 至多 36&quot; instead. This increased range also affects Rapid Fire and 热熔 distances, but has no effect on 喷射盖板 weapons.</description>
+      <description>The range of any ranged 武器 fired by this model is increased by half. For example, this model could fire a boltgun (Range 24&quot;) 至多 36&quot; instead. This increased range also affects Rapid Fire and 热熔 distances, but has no effect on 喷射盖板 武器.</description>
     </rule>
     <rule id="2053-118c-c2b7-c8ac" name="执行者" hidden="false">
       <description>此模型可以对2W以上的造伤重投所有失败的造伤骰 .</description>
@@ -13395,10 +13395,10 @@ Command Benefits:
         祝福类灵能,目标为灵能者自身及其加入的单位. 所有立场武器获得即死直到下个灵能阶段开始.</description>
     </rule>
     <rule id="57a3-2add-b379-0bb5" name="Fuel Siphon" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Any 喷火器 weapon fired by a 非载具 model within 2&quot; of a Promethium Relay Pipe in the 射击阶段 can change its weapon type from Assault to Heavy, or from 手枪 to Heavy. If it does so, the weapon gains the 爆发喷射 特殊规则 until the end of that phase.</description>
+      <description>Any 喷火器 weapon fired by a 非载具 model within 2&quot; of a Promethium Relay Pipe in the 射击阶段 can change its weapon type from Assault to Heavy, or from 手枪 to Heavy. If it does so, the weapon gains the 爆发喷射 规则 until the end of that phase.</description>
     </rule>
     <rule id="8c62-54ee-2b8d-bdce" name="Fully Automated" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Emplaced weapons on a 火焰风暴哨站 can only fire using the automated fire rule: models occupying a 火焰风暴哨站 cannot use the manual fire rule to fire any of its emplaced weapons.</description>
+      <description>Emplaced 武器 on a 火焰风暴哨站 can only fire using the automated fire rule: models occupying a 火焰风暴哨站 cannot use the manual fire rule to fire any of its emplaced 武器.</description>
     </rule>
     <rule id="e663-99e0-6b3e-a7ea" name="超级巨兽" publicationId="ca571888--pubN106502" hidden="false">
       <description>超级巨兽和飞行超级巨兽拥有如下规则:
@@ -13463,13 +13463,13 @@ Command Benefits:
       <description>在近战阶段,此武器固定4+造伤,除非正常出伤的数值比这还低.并且如果S大于对方的T值,则必须重投失败的近战伤害.对载具无效.</description>
     </rule>
     <rule id="38b6-e53f-8514-a49e" name="Primary Target" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Emplaced weapons on a 火焰风暴哨站 that have the 对空火力 特殊规则 must fire at the nearest enemy 飞行器 of 飞行巨兽 unit within range and 视线. If no enemy unit of either of these types is within range or 视线, that emplaced weapon must instead fire at the nearest enemy unit within range and 视线.</description>
+      <description>Emplaced 武器 on a 火焰风暴哨站 that have the 对空火力 规则 must fire at the nearest enemy 飞行器 of 飞行巨兽 unit within range and 视线. If no enemy unit of either of these types is within range or 视线, that emplaced weapon must instead fire at the nearest enemy unit within range and 视线.</description>
     </rule>
     <rule id="92e1-df2b-07ca-179c" name="Prometheum Charges" hidden="false">
       <description>此模型 counts as being equipped with assault grenades (see Warhammer 40,000: The Rules ). However, cover saves cannot be taken against Wounds caused by promethium charges in the 射击阶段.</description>
     </rule>
     <rule id="2189-13e6-c68c-ab23" name="灵能者驾驶员" publicationId="ca571888--pubN106502" page="169" hidden="false">
-      <description>具有此特殊规则的载具是灵能者. 此规则通常以精通级别呈现,并在方括号中显示,如果未显示则载具的“精通等级”为1.该单位遵循所有用于生成和使用灵能的常规规则,并作以下说明: 如果需要使用载具来破除灵能或处理灵能反噬,则该载具被视作LD10.</description>
+      <description>具有此规则的载具是灵能者. 此规则通常以精通级别呈现,并在方括号中显示,如果未显示则载具的“精通等级”为1.该单位遵循所有用于生成和使用灵能的常规规则,并作以下说明: 如果需要使用载具来破除灵能或处理灵能反噬,则该载具被视作LD10.</description>
     </rule>
     <rule id="9f0c-d4f2-94ee-c3a8" name="Reaping Volley" hidden="false">
       <description>When attacking with a 远程武器 that fires more than one shot, this model may target different enemy models with each shot. Announce the intended target of every shot before making any To Hit rolls.</description>
@@ -13478,7 +13478,7 @@ Command Benefits:
       <description>废墟属于困难地形. 模型在废墟中获得 4+ 掩体保护, 无论其是否有 25% 被遮挡.</description>
     </rule>
     <rule id="d174-6df8-fbc5-64d1" name="Sacred Ground" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>All models from the armies of the Imerium (e.g. 帝国卫队, 战斗修女, all 星际战士人物 etc.) have the 坚毅 特殊规则 whist within 2&quot; of Imperial Rubble</description>
+      <description>All models from the armies of the Imerium (e.g. 帝国卫队, 战斗修女, all 星际战士人物 etc.) have the 坚毅 规则 whist within 2&quot; of Imperial Rubble</description>
     </rule>
     <rule id="dfe1-2bfb-7c50-092f" name="Sharpshooter" hidden="false">
       <description>Cover saves cannot be taken against Wounds, glancing or penetrating hits caused by shooting attacks made this model.</description>
@@ -13493,7 +13493,7 @@ Command Benefits:
       <description>一个单位受到了具有该规则的武器造成的未保护伤害则会被 点燃 ,在每回合结束时为这个单位投D6.若结果为1-3,火焰熄灭.结果为4+,此单位受到D3次S4AP5的命中,随机分配,不能掩体保护.灵魂烈焰效果不叠加.</description>
     </rule>
     <rule id="afb7-b281-a9ce-4272" name="Stalwart Defence" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Models have the 坚毅 特殊规则 whist within a Wall of Martyrs Imperial 防线 or 防御炮台 section.</description>
+      <description>Models have the 坚毅 规则 whist within a Wall of Martyrs Imperial 防线 or 防御炮台 section.</description>
     </rule>
     <rule id="092c-188d-753d-404e" name="践踏" publicationId="ca571888--pubN106502" page="92" hidden="false">
       <description>
@@ -13519,7 +13519,7 @@ Command Benefits:
       </description>
     </rule>
     <rule id="f14f-8413-de9b-ed19" name="超重型载具" publicationId="ca571888--pubN106502" hidden="false">
-      <description>超重型载具拥有如下特殊规则:
+      <description>超重型载具拥有如下规则:
 
 恐怖:
 在每个格斗子阶段的开始,任何攻击之前,与拥有恐怖规则的模型底盘接触的单位必须进行一次领导力测试(接触多个恐怖的模型也只做一次测试).如果通过,没有特别的效果.如果失败,该单位的所有模型WS 减为1,直到该子阶段结束.恐怖可以被他们无所畏惧或无畏抵消.但是造成恐怖的模型本身并不免疫恐怖.
@@ -13528,10 +13528,10 @@ Command Benefits:
 至少包含一个拥有该规则模型的单位在移动穿越困难地形时额外投掷一个D6,在大部分情况下这意味着他们会投掷 3D6 然后挑选最高的点数.并在冲锋穿越困难地形时不减速,这样的模型(注意不是单位)自动通过危险地形测试.
 
 无敌巨兽: 
-任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或特殊规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.</description>
+任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.</description>
     </rule>
     <rule id="f8b2-c433-0765-f1e7" name="超重型机甲" publicationId="ca571888--pubN106502" hidden="false">
-      <description>超重型步行机甲拥有以下特殊规则:
+      <description>超重型步行机甲拥有以下规则:
 
 恐怖: 
 在每个格斗子阶段的开始,任何攻击之前,与拥有恐怖规则的模型底盘接触的单位必须进行一次领导力测试(接触多个恐怖的模型也只做一次测试).如果通过,没有特别的效果.如果失败,该单位的所有模型WS 减为1,直到该子阶段结束.恐怖可以被他们无所畏惧或无畏抵消.但是造成恐怖的模型本身并不免疫恐怖.
@@ -13540,7 +13540,7 @@ Command Benefits:
 具有该规则的模型在结束冲锋移动与敌人底盘接触后,造成一次自动命中的攻击,使用本身未经修正的力量和无穿甲值结算.这次攻击以敏锐性10 的攻击顺序结算,但是此攻击不会造成跟进移动,不会因模型的任何规则而加强,如果该模型冲锋的是载具或建筑,愤怒之锤攻击载具或建筑而非在内的模型.攻击载具或建筑时按接触面向的装甲值计算,攻击步行机甲时,除非机甲失去动力,否则按攻击正面装甲计算,失去动力后按攻击一般载具计算
 
 无敌巨兽:
-任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或特殊规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.
+任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.
 穿越地形: 至少包含一个拥有该规则模型的单位在移动穿越困难地形时额外投掷一个D6,在大部分情况下这意味着他们会投掷3D6 然后挑选最高的点数.并在冲锋穿越困难地形时不减速,这样的模型(注意不是单位)自动通过危险地形测试.
 
 毫不留情: 
@@ -13552,7 +13552,7 @@ Command Benefits:
     <rule id="d4ca-a14b-89b0-9f96" name="Supressing Fire" publicationId="ca571888--pubN106502" hidden="false">
       <description>f a 非载具 model suffers one or more hits from a shooting attack made by this model, the target 必须进行一次 Leadership test once this model has finished its attacks for that phase. This is called a 压制测试.
 If the target fails the test, it must immediately 卧倒 (see Warhammer 40,000: The Rules ). As the target has already taken its saves, Going to Ground does not protect it against the fire of the weapon that caused the test – it’s too late! As long as the test is passed, a target can be called upon to take multiple 压制 tests in a single turn, but only once for each model shooting at them. If a model has already Gone to Ground, no further 压制 tests are taken.
-If the special rules of a model specify that they can never be Pinned, they automatically pass this test. Such models can still 卧倒 voluntarily if they wish.</description>
+If the 规则 of a model specify that they can never be Pinned, they automatically pass this test. Such models can still 卧倒 voluntarily if they wish.</description>
     </rule>
     <rule id="9079-7061-f12c-a6ba" name="集群" publicationId="ca571888--pubN106502" page="173" hidden="false">
       <description>集群单位遭受任何爆炸盖板或喷射盖板攻击时,每个未保护成功的伤害会变成2个除非这种伤害拥有即死规则.永远优先从生命值最少的模型开始分配伤害. 完全具有集群属性的单位不会被困难地形减慢.</description>
@@ -13586,7 +13586,7 @@ If the special rules of a model specify that they can never be Pinned, they auto
     <rule id="288b-7bed-3048-9428" name="Unstoppable" publicationId="ca571888--pubN106502" page="69" hidden="false">
       <description>Any attack that normally inflicts 即死 or says that the target model is removed from play inflicts D3 Wounds on a 超级巨兽 of 飞行超级巨兽 instead.
 
-In addition, attacks with the 狙击 特殊规则 only cause a Wound on a roll of a 6.  Attacks with the 毒伤 特殊规则 only cause a Wound on a roll of a 6 (unless the attack&apos;s Strength would cause a Wound on a lower result)</description>
+In addition, attacks with the 狙击 规则 only cause a Wound on a roll of a 6.  Attacks with the 毒伤 规则 only cause a Wound on a roll of a 6 (unless the attack&apos;s Strength would cause a Wound on a lower result)</description>
     </rule>
     <rule id="78a5-e7d1-89b3-2fb5" name="飞翔舞者" publicationId="ca571888--pubN106502" page="175" hidden="false">
       <description>具有该规则的模型在移动阶段结束时可以额外转向90度,如果这样做就不能在射击阶段进行极速移动.</description>
@@ -13607,10 +13607,10 @@ In addition, attacks with the 狙击 特殊规则 only cause a Wound on a roll o
       <description>至多 four occupying models can fire out of each of this building&apos;s fire points.</description>
     </rule>
     <rule id="8914-9219-49de-f92b" name="Wing Leader" publicationId="ca571888--pubN108209" hidden="false">
-      <description>Wing Leaders are free upgrades for 飞行器.  One model in each 飞行器 wing can be upgraded to a Wing Leader at no additional points cost.  At the start of any game, immediately after determining your 主将特性, roll on the Wing Leader table for each Wing Leader to determine their 特殊规则.</description>
+      <description>Wing Leaders are free upgrades for 飞行器.  One model in each 飞行器 wing can be upgraded to a Wing Leader at no additional points cost.  At the start of any game, immediately after determining your 主将特性, roll on the Wing Leader table for each Wing Leader to determine their 规则.</description>
     </rule>
     <rule id="376e-9c4d-f804-6d61" name="Remote Fire" publicationId="ca571888--pubN74520" page="" hidden="false">
-      <description>Any of the fortification&apos;s emplaced weapons can be fired (using either automated or manual fire) by models occupying the main tower, even if the building housing the emplaced weapons itself is unoccupied.  This rule cannot be used to fire emplaced weapons on any part of the fortification occupied by an enemy unit.</description>
+      <description>Any of the fortification&apos;s emplaced 武器 can be fired (using either automated or manual fire) by models occupying the main tower, even if the building housing the emplaced 武器 itself is unoccupied.  This rule cannot be used to fire emplaced 武器 on any part of the fortification occupied by an enemy unit.</description>
     </rule>
     <rule id="c49d-a848-144a-14d6" name="战斗自动机兵动力刃" hidden="false">
       <description>A+1且视作双手</description>
@@ -13623,7 +13623,7 @@ In addition, attacks with the 狙击 特殊规则 only cause a Wound on a roll o
         -恢复一点HP
         -修理一个武器损毁结果
         -修理一个发动机损毁结果
-        如果一个武器损毁的结果被修理,则该载具在下回合可以射击这件武器.如果战争铁匠处于卧倒或者逃跑状态则不能使用这个特殊规则.具有这个特殊规则的单位同时装备了处理控制器时,可以放弃修理车辆而选择恢复1点自动机兵失去的W.</description>
+        如果一个武器损毁的结果被修理,则该载具在下回合可以射击这件武器.如果战争铁匠处于卧倒或者逃跑状态则不能使用这个规则.具有这个规则的单位同时装备了处理控制器时,可以放弃修理车辆而选择恢复1点自动机兵失去的W.</description>
     </rule>
     <rule id="53c751ef-105f-b2a8-7a17-7812d605b9f2" name="高速迂回" publicationId="ca571888--pubN85920" page="231" hidden="false">
       <description>如果在射击阶段放弃射击一个武器而选择奔跑,则可以奔跑3D6&quot;.</description>
@@ -13742,10 +13742,10 @@ Turbo-boosting Bikes move 至多 12&quot; and Turbo-boosting Jetbikes move 至�
       <description>喷气背包单位在非冲锋及未被锁入近战时可以在突击阶段至多移动 2D6&quot;, 即使其在射击阶段进行了射击或奔跑或在当前回合深度打击进场. 当喷气背包单位在突击阶段移动且不是冲锋时, 其可以如同在移动阶段一样使用喷气背包移动.</description>
     </rule>
     <rule id="2eaf-7ad1-5fbb-2b94" name="Shooting (超级巨兽)" publicationId="ca571888--pubN106502" page="69" hidden="false">
-      <description>When a 超级巨兽 or 飞行超级巨兽 makes a shooting attack, it may fire each of its weapons at a different target if desired. In addition, firing Ordnance weapons has no effect on a 超级巨兽’s or 飞行超级巨兽’s ability to fire other weapons. 超级巨兽 and 飞行超级巨兽 cannot fire 坚守射击.</description>
+      <description>When a 超级巨兽 or 飞行超级巨兽 makes a shooting attack, it may fire each of its 武器 at a different target if desired. In addition, firing Ordnance 武器 has no effect on a 超级巨兽’s or 飞行超级巨兽’s ability to fire other 武器. 超级巨兽 and 飞行超级巨兽 cannot fire 坚守射击.</description>
     </rule>
     <rule id="7d16-10ce-5d05-6166" name="Unshakable Nerve" publicationId="ca571888--pubN106502" page="77" hidden="false">
-      <description>Units embarked upon transports have the 无畏 特殊规则 while they are embarked.</description>
+      <description>Units embarked upon transports have the 无畏 规则 while they are embarked.</description>
     </rule>
     <rule id="e7c9-bd66-8d3e-8098" name="疾飞" publicationId="ca571888--pubN106502" page="80" hidden="false">
       <description>如果一个飞行器使用疾飞状态,那么其最低使用战斗速度移动18&quot;以及巡航速度最多36&quot;.但是为了保持滞空速度,飞行时不能自愿移动少于18&quot;.如果因为任何原因它在自己的移动阶段移动不到18&quot;,就算作载具损毁(见载具损伤表).
@@ -13760,21 +13760,21 @@ Turbo-boosting Bikes move 至多 12&quot; and Turbo-boosting Jetbikes move 至�
       <description>攻击恶魔,灵能者,灵能者兄弟会/巫师兄弟会,灵能者驾驶员模型时,目标在伤害之外还会受到一次灵能反噬.</description>
     </rule>
     <rule id="7439f6fd-4c50-f88a-eb41-81d9b9c9eed8" name="坚毅装甲" publicationId="ca571888--pubN80998" page="32" hidden="false">
-      <description>坚毅装甲视作虚空坚毅 (Cold Void mission special rules from Betrayal)..
+      <description>坚毅装甲视作虚空坚毅 (Cold Void mission 规则 from Betrayal)..
         对喷射盖板和爆炸武器可以重投失败的装甲保护.
         冲锋, 追击, 奔跑结果减少 1&quot;.</description>
     </rule>
     <rule id="3d78-f901-8afc-00ff" name="反重力支架" publicationId="ca571888--pubN80998" page="133" hidden="false">
       <description>在射击阶段射击半射程内的目标时可以将重型武器视作突击武器,  不会影响其他射击(如冲锋时的仓促射击等).</description>
     </rule>
-    <rule id="11bec7a8-6060-53c9-572c-0df68bf9fa78" name="Explorer Adaptation" publicationId="ca571888--pubN84158" page="252" hidden="false">
-      <description>Vehicles with this 特殊规则 have a 6+ 特殊保护 against weapons with the 爆炸 or 喷射盖板 type, count as 虚空坚毅, and must re-roll failed 危险地形 tests.</description>
+    <rule id="11bec7a8-6060-53c9-572c-0df68bf9fa78" name="探索者改装" publicationId="ca571888--pubN84158" page="252" hidden="false">
+      <description>带有此特殊规则的载具对爆炸或喷射盖板类型的武器有6+特殊保护,视作虚空坚毅,并且必须重投失败的危险地形测试.</description>
     </rule>
-    <rule id="d130-69b4-bcb9-7454" name="Crawling Advance" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
-      <description>A Termite Assault Drill may never move faster than Combat Speed or move Flat Out.</description>
+    <rule id="d130-69b4-bcb9-7454" name="爬行前进" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
+      <description>白蚁突击钻的移动永远不能超过战斗速度或快速移动.</description>
     </rule>
-    <rule id="3cd1-bdfb-4585-182c" name="Death From Below" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
-      <description>Instead of the usual rules for Deep Striking, when a Subterranean 突击载具 enters play via 深度打击, place a 大爆炸 (5&quot;) marker on the table and scatter this to determine the final position of its arrival as per the 深度打击 特殊规则. The initial placement of this marker, before rolling for scatter, may not be on top of impassable terrain or within 1&quot; of any unit.
+    <rule id="3cd1-bdfb-4585-182c" name="地底死神" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
+      <description>取代正常的深度打击, 在地下突击载具深度打击时, 使用大爆炸(5&quot;)标记并投掷偏移以确定深度打击的进场位置. The initial placement of this marker, before rolling for scatter, may not be on top of impassable terrain or within 1&quot; of any unit.
 
 Should this marker scatter on top of impassable terrain, a building, ruin, fortification, 载具 or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was displaced in this way by a 载具 or fortification, the closest 载具 or fortification to the marker immediately suffers a Str 10 AP- hit – vehicles are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged 近战中, all units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any
 enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
@@ -13782,11 +13782,11 @@ enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
 After all damage is resolved, the Subterranean 突击载具 may be placed in any orientation so long as the centre of the 大爆炸 (5&quot;) marker is underneath part of the 载具’s hull and it remains 1&quot; away from any fortification, 载具 or unit engaged in combat. The area under the 大爆炸 (5&quot;) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead
 represent this area with a piece of crater terrain.
 
-Should a Subterranean 突击载具 be placed on top of any unit which does not pose an obstacle to its arrival as described above, the Death from Below 特殊规则 allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the Subterranean 突击载具 when it reaches its final position (it makes no difference whether the unit is 撤退 or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1&quot; between them and the Subterranean 突击载具 (and indeed any other unit) whilst maintaining unit coherency and staying on the
+Should a Subterranean 突击载具 be placed on top of any unit which does not pose an obstacle to its arrival as described above, the 地底死神 规则 allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the Subterranean 突击载具 when it reaches its final position (it makes no difference whether the unit is 撤退 or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1&quot; between them and the Subterranean 突击载具 (and indeed any other unit) whilst maintaining unit coherency and staying on the
 tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
     </rule>
-    <rule id="1ace-c133-de63-e4f0" name="热熔 Cutters" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
-      <description>A Termite Assault Drill ignores difficult terrain and 危险地形. In addition, it adds 2 to its Strength when making ramming attacks against fortifications.</description>
+    <rule id="1ace-c133-de63-e4f0" name="热熔切割机" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
+      <description>白蚁突击钻无视困难和危险地形. 此外, 其撞击工事时 +2S.</description>
     </rule>
     <rule id="1679-b036-dc3a-c6a6" name="地底突袭" publicationId="690c-3e82-3080-6bc0" page="198" hidden="false">
       <description>
@@ -13802,7 +13802,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
       </description>
     </rule>
     <rule id="0d00-d0cd-12d1-d3b0" name="Oath of Moment" publicationId="ca571888--pubN89821" page="209" hidden="false">
-      <description>Fielding a Knight-Errant dramatically alters the victory conditions for the side that includes the model, for the presence of such a fated individual is a sure indication that the mission is of dire import indeed. At the beginning of the game, at the same time that 主将特性 and psychic powers are determined, an Oath of Moment must be secretly noted down for each model with this 特殊规则. The note is revealed at the end of the game when Victory points are being tallied. Each Oath of Moment represents an objective which that Knight-Errant must achieve, chosen from the list below.
+      <description>Fielding a Knight-Errant dramatically alters the victory conditions for the side that includes the model, for the presence of such a fated individual is a sure indication that the mission is of dire import indeed. At the beginning of the game, at the same time that 主将特性 and psychic powers are determined, an Oath of Moment must be secretly noted down for each model with this 规则. The note is revealed at the end of the game when Victory points are being tallied. Each Oath of Moment represents an objective which that Knight-Errant must achieve, chosen from the list below.
 
 Each of the secret objectives has an associated Victory points score – if the objective is achieved, the Knight Errant&apos;s side earns the indicated number of bonus Victory points in addition to any claimed as part of the mission. If the secret objective is not achieved, the Knight Errant’s side may not claim a victory in the battle, regardless of any other factors.
 
@@ -13833,8 +13833,8 @@ King Slayer (3 Victory points): If the opposing army includes a 基因原体, th
 Beasts can move 至多 12&quot; in the 移动阶段. Beasts are not slowed by difficult terrain (even when charging) and automatically pass 危险地形 tests.
 FALL BACK MOVES
 Beasts make 撤退 moves just like 步兵, except that they move 3D6&quot;.
-SPECIAL RULES
-Beasts have the 迅捷 特殊规则.</description>
+规则
+Beasts have the 迅捷 规则.</description>
     </rule>
     <rule id="d956-6030-d01f-5f3a" name="骑兵" hidden="false">
       <description>
@@ -13844,7 +13844,7 @@ Beasts have the 迅捷 特殊规则.</description>
         撤退移动
         骑兵可以想步兵一样撤退, 且可以移动 3D6&quot;.
 
-        特殊规则
+        规则
         骑兵拥有迅捷和愤怒之锤规则.
       </description>
     </rule>
@@ -13865,12 +13865,12 @@ Death First!: The two forces are unwilling to fight besides one another, even in
 common enemy. These Factions cannot be part of the same army.</description>
     </rule>
     <rule id="438f-70e3-53e6-46fe" name="Agent of the Warmaster" hidden="false">
-      <description>These Agents are loyal to Horus and his forces, they have aligned themselves to the Warmasters cause and count as Sworn Brothers to all 反叛方 forces, Distrusted Allies, to unaligned Imperials and Death First! to Loyalists.
+      <description>These Agents are loyal to Horus and his forces, they have aligned themselves to the Warmasters cause and count as Sworn Brothers to all 反叛方阵营, Distrusted Allies, to unaligned Imperials and Death First! to Loyalists.
 Death First!: The two forces are unwilling to fight besides one another, even in the face of a
 common enemy. These Factions cannot be part of the same army.</description>
     </rule>
     <rule id="36af-029e-d87e-3d53" name="Psy-shock" publicationId="ca571888--pubN103311" page="302" hidden="false">
-      <description>If a unit containing at least one 恶魔 or 灵能者 (i.e., a model with the 灵能者, 灵能者兄弟会/巫师兄弟会, 灵能者驾驶员, 恶魔 or 恶魔 of the Ruinstorm 特殊规则) is hit by a weapon with this 灵能冲击 特殊规则, one randomly determinded 灵能者 or 恶魔 model in the unit suffered Perils of the Warp in addition to any other damage.</description>
+      <description>If a unit containing at least one 恶魔 or 灵能者 (i.e., a model with the 灵能者, 灵能者兄弟会/巫师兄弟会, 灵能者驾驶员, 恶魔 or 恶魔 of the Ruinstorm 规则) is hit by a weapon with this 灵能冲击 规则, one randomly determinded 灵能者 or 恶魔 model in the unit suffered Perils of the Warp in addition to any other damage.</description>
     </rule>
     <rule id="182f-e29d-30ae-5062" name="Agent of the Imperium" hidden="false">
       <description>These Agents are widespread within the Imperium and are employed by both sides during the Heresy. Both Traitors, Loyalists and other factions of Imperial forces are able to recruit these units and count them as Sworn Brothers.</description>
@@ -13885,12 +13885,12 @@ common enemy. These Factions cannot be part of the same army.</description>
   <sharedProfiles>
     <profile id="74effb54-87f7-8481-9e5f-86d9e3ed37c2" name="战斗机仆控制" publicationId="ca571888--pubN67227" page="43" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 坦克猎手 特殊规则.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 坦克猎手 规则.  </characteristic>
       </characteristics>
     </profile>
     <profile id="4fedc0e6-5d69-1ecd-9624-441e0ea99565" name="红外瞄准器" publicationId="ca571888--pubN66500" page="272" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">赋予夜视特殊规则</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">赋予夜视规则</characteristic>
       </characteristics>
     </profile>
     <profile id="0e9bdcf2-a925-e661-dbb5-755ee50c4967" name="战术炸弹" publicationId="ca571888--pubN66500" page="272" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -13950,7 +13950,7 @@ common enemy. These Factions cannot be part of the same army.</description>
         <characteristic name="类型" typeId="5479706523232344415441232323">主武器 2, 大爆炸</characteristic>
       </characteristics>
     </profile>
-    <profile id="0fa5-ce01-1a0d-82a1" name="地狱枪" publicationId="ca571888--pubN68042" page="264" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+    <profile id="0fa5-ce01-1a0d-82a1" name="地狱火炮" publicationId="ca571888--pubN68042" page="264" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
       <characteristics>
         <characteristic name="距离" typeId="52616e676523232344415441232323">地狱风暴盖板</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
@@ -14109,7 +14109,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     <profile id="3428-cbe9-fba3-955b" name="震荡冲击器" publicationId="ca571888--pubN66489" page="107" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">
-          - 所有近战攻击获得震荡特殊规则 (包括愤怒之锤).
+          - 所有近战攻击获得震荡规则 (包括愤怒之锤).
           - 此装备不是武器, 不会赋予额外攻击.
         </characteristic>
       </characteristics>
@@ -14134,7 +14134,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="a8c1-185a-cdd9-b5ce" name="夜视仪" publicationId="ca571888--pubN66489" page="111" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得夜视特殊规则. 但需要使用 I1 进行致盲测试.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得夜视规则. 但需要使用 I1 进行致盲测试.  </characteristic>
       </characteristics>
     </profile>
     <profile id="c85c-3be5-d699-b6f3" name="强化瞄准阵列" publicationId="ca571888--pubN66489" page="111" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -14531,7 +14531,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="7b47-c268-cdaf-fa1e" name="麻醉药" publicationId="ca571888--pubN80998" page="132" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">使用后, 所有阿斯塔特军团模型, 包括任何阿斯塔特军团独立人物, 及其加入的单位, 获得不知疼痛特殊规则.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">使用后, 所有阿斯塔特军团模型, 包括任何阿斯塔特军团独立人物, 及其加入的单位, 获得不知疼痛规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="0434-8c4b-9614-73dd" name="星际战士摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -14779,7 +14779,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="2a6f-53c2-d2ea-092f" name="诱杀陷阱" publicationId="ca571888--pubN106502" page="106" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">首个占领建筑的单位 (无论敌我) 立即受到 2D6 次 S4 AP5 的命中, 且具有无视掩体特殊规则.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">首个占领建筑的单位 (无论敌我) 立即受到 2D6 次 S4 AP5 的命中, 且具有无视掩体规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="8194-4688-65b3-f996" name="链锯拳甲" publicationId="ca571888--pubN106502" page="180" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14805,7 +14805,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="4986-b80f-dc78-d02f" name="逃生舱" publicationId="ca571888--pubN106502" page="106" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">建筑拥有者可以在其 12&quot; 内的任何敌方(不能是不可通过地形或是其他建筑)放置逃生舱标记, 此处作为建筑的一个额外出入口,  此处不具有拒敌门外特殊规则.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">建筑拥有者可以在其 12&quot; 内的任何敌方(不能是不可通过地形或是其他建筑)放置逃生舱标记, 此处作为建筑的一个额外出入口,  此处不具有拒敌门外规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="bb9f-390b-3b92-197c" name="分离锯" publicationId="ca571888--pubN106502" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14856,7 +14856,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="705c-91aa-6591-507b" name="炮塔 (细节)" publicationId="ca571888--pubN106502" page="101" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 4+ 掩体保护. 非载具模型与其底盘接触时可以使用炮塔上的武器. 发射炮塔武器时具有毫不留情特殊规则. 可以在近战中使用炮塔射击, 此时或自动命中.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 4+ 掩体保护. 非载具模型与其底盘接触时可以使用炮塔上的武器. 发射炮塔武器时具有毫不留情规则. 可以在近战中使用炮塔射击, 此时或自动命中.</characteristic>
       </characteristics>
     </profile>
     <profile id="cb26-27b4-9393-a768" name="伊卡洛斯激光炮" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -14869,7 +14869,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="7571-d9f2-17b0-c3e0" name="帝国圣像" publicationId="ca571888--pubN74520" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">位于 2&quot; 内的帝国模型获得无畏特殊规则. 提供 3+ 掩体保护.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">位于 2&quot; 内的帝国模型获得无畏规则. 提供 3+ 掩体保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="585f-2120-0288-93b5" name="地狱炮" publicationId="ca571888--pubN106502" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -15078,12 +15078,12 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" name="离子护盾" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的4+特殊保护,对肉搏无效.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的4+特殊保护,对近战无效.</characteristic>
       </characteristics>
     </profile>
     <profile id="76f43c9f-9d2b-e019-63db-3ac3082ee07c" name="离子闪光护盾" publicationId="ca571888--pubN84158" page="303" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对肉搏攻击无效;所有对其发起攻击的武器S-1,盖板武器S-2,对D武器无效.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对近战攻击无效;所有对其发起攻击的武器S-1,盖板武器S-2,对D武器无效.</characteristic>
       </characteristics>
     </profile>
     <profile id="7d03914a-f940-12e5-590b-822083dff647" name="辐射枪" publicationId="ca571888--pubN106502" page="177" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
@@ -15133,7 +15133,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     </profile>
     <profile id="faa4ea24-e51b-8663-3e7c-1a791b55aed7" name="夜视仪" publicationId="ca571888--pubN91142" page="109" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得夜视特殊规则, 在 12&quot; 或更短的距离内射击时可以重投载具损伤表和毁灭性武器攻击表 .  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得夜视规则, 在 12&quot; 或更短的距离内射击时可以重投载具损伤表和毁灭性武器攻击表 .  </characteristic>
       </characteristics>
     </profile>
     <profile id="306adc93-713f-8c18-71d3-6956c376e9e2" name="相位等离子燧发枪" publicationId="ca571888--pubN106502" page="178" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
