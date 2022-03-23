@@ -5546,7 +5546,7 @@ If a 武器损坏 result is repaired, that weapon may be fired in the following 
                   <profiles>
                     <profile id="7a2f-05fe-baf9-8194" name="真理频道" publicationId="ca571888--pubN80998" page="91" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
                       <characteristics>
-                        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">在装备者的6英寸内通过深度打击到达的单位不会失败.曲射武器可以从装备者处发射.但射程仍从射击模型计算.在载具内不能使用..   </characteristic>
+                        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">在装备者的6英&quot;内通过深度打击到达的单位不会失败.曲射武器可以从装备者处发射.但射程仍从射击模型计算.在载具内不能使用..   </characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -13074,7 +13074,7 @@ Any units with this Provenance may upgrade their Auxilia rifles to Hot-shot rifl
     </profile>
     <profile id="3751-727c-d4e3-9cef" name="照明弹" publicationId="ca571888--pubN80998" page="90" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 寸内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12寸内敌人射击的模型获得夜视规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="bb95-3b87-dcfb-3473" name="Laslock" publicationId="ca571888--pubN68042" page="179" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -13095,7 +13095,7 @@ Any units with this Provenance may upgrade their Auxilia rifles to Hot-shot rifl
     </profile>
     <profile id="2297-433d-3651-0281" name="真理频道" publicationId="ca571888--pubN80998" page="91" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">在装备者的6英寸内通过深度打击到达的单位不会失败.曲射武器可以从装备者处发射.但射程仍从射击模型计算.在载具内不能使用..   </characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">在装备者的6英&quot;内通过深度打击到达的单位不会失败.曲射武器可以从装备者处发射.但射程仍从射击模型计算.在载具内不能使用..   </characteristic>
       </characteristics>
     </profile>
     <profile id="248f-7dc3-34af-a6df" name="Platoon Standard" publicationId="ca571888--pubN68042" page="183" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="Wargear Item">

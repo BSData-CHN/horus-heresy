@@ -192,7 +192,7 @@
     <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="导师" publicationId="ca571888--pubN84158" page="296" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="c95171e5-7f98-b827-ef57-0b6e15cc6719" name="战地神谕" publicationId="ca571888--pubN84158" page="296" hidden="false">
-          <description>如果战场上至少有一个导师, 则分队中的骑士预备队进场骰结果+1, 在导师 6 寸内的所有骑士单位(包括骑士导师本身)均获得拦截规则, 并且直到下一个玩家的回合可以使用任何合适的武器进行坚守射击.
+          <description>如果战场上至少有一个导师, 则分队中的骑士预备队进场骰结果+1, 在导师 6 &quot;内的所有骑士单位(包括骑士导师本身)均获得拦截规则, 并且直到下一个玩家的回合可以使用任何合适的武器进行坚守射击.
 超级重型机甲的地狱火盖板武器坚守射击 D3 增加到 D6 次.</description>
         </rule>
       </rules>
@@ -357,7 +357,7 @@
           <description>家族轻骑兵拥有侦察和打带跑规则,但其前装甲-1.</description>
         </rule>
         <rule id="7f16693a-fecf-ddfd-e798-c69ece461716" name="轻骑兵之傲" publicationId="ca571888--pubN84158" page="297" hidden="false">
-          <description>家族轻骑兵只能对24寸以外的单位进行仓促射击.</description>
+          <description>家族轻骑兵只能对24&quot;以外的单位进行仓促射击.</description>
         </rule>
         <rule id="439b-6d0c-4981-2dd2" name="打带跑" hidden="false"/>
       </rules>
@@ -1331,7 +1331,7 @@
       </profiles>
       <rules>
         <rule id="71a4-0f4a-6206-ac92" name="奔袭" hidden="false">
-          <description>在射击阶段奔跑时不用投距离而是固定12寸.另外,如果选择射击阶段奔跑,它可以选择以仓促射击的方式在奔跑结束后射击一个武器.</description>
+          <description>在射击阶段奔跑时不用投距离而是固定12&quot;.另外,如果选择射击阶段奔跑,它可以选择以仓促射击的方式在奔跑结束后射击一个武器.</description>
         </rule>
         <rule id="4ccb-02dd-6bfb-64d0" name="家族从者" hidden="false">
           <description>家族从者不会从友方骑士的主将特性中受益.</description>
@@ -1535,13 +1535,13 @@
       </profiles>
       <rules>
         <rule id="d609-7c6d-8785-fbe8" name="家族护卫" hidden="false">
-          <description>必须与友方骑士相距6寸以内.</description>
+          <description>必须与友方骑士相距6&quot;以内.</description>
         </rule>
         <rule id="f8fa-431b-e7ef-72f4" name="摩伊赖中队" hidden="false">
           <description>首次部署时需要保持 6&quot; 的连续性, 此后各自成为独立单位.</description>
         </rule>
         <rule id="469f-ec3f-aa68-4b90" name="保护协议" publicationId="ece2-a265-6237-7efa" hidden="false">
-          <description>当12寸内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
+          <description>当12&quot;内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
         </rule>
       </rules>
       <infoLinks>

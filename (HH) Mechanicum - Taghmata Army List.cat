@@ -22,7 +22,7 @@
             使炮兵单位移动需要每个火炮至少有一个炮手.如果一个炮兵单位不能做到每个火炮至少有一个炮手,则它不能移动.
 
             使用炮兵射击
-            射击阶段如果有一个炮手在火炮的2寸范围内则他可以操控火炮开火.操作火炮的模型不能射击他自己的武器, 其他炮手(和任何单位中的独立人物)可以自由射击,整个单位只能瞄准一个目标.火炮射击时,火炮模型和炮手必须都对目标有视线(除非发射的是曲射武器).射程从火炮模型开始测量.
+            射击阶段如果有一个炮手在火炮的2&quot;范围内则他可以操控火炮开火.操作火炮的模型不能射击他自己的武器, 其他炮手(和任何单位中的独立人物)可以自由射击,整个单位只能瞄准一个目标.火炮射击时,火炮模型和炮手必须都对目标有视线(除非发射的是曲射武器).射程从火炮模型开始测量.
 
             炮兵被射击
             如果一个炮兵单位被射击,在至少有一个火炮模型时始终使用火炮的T.造成的伤害将会首先分配到最近的模型上.如果一个炮兵单位选择卧倒,这不会提供火炮模型的掩体保护 – 只有炮手会受益.
@@ -12877,10 +12877,10 @@ D6  结果                 S                 AP
       </profiles>
       <rules>
         <rule id="22ca-7610-20e0-b291" name="家族护卫" hidden="false">
-          <description>必须与友方骑士相距6寸以内.</description>
+          <description>必须与友方骑士相距6&quot;以内.</description>
         </rule>
         <rule id="1599-8196-3356-d1a7" name="保护协议" publicationId="ece2-a265-6237-7efa" hidden="false">
-          <description>当12寸内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
+          <description>当12&quot;内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -13064,7 +13064,7 @@ D6  结果                 S                 AP
       </profiles>
       <rules>
         <rule id="a113-2188-192e-772d" name="奔袭" hidden="false">
-          <description>在射击阶段奔跑时不用投距离而是固定12寸.另外,如果选择射击阶段奔跑,它可以选择以仓促射击的方式在奔跑结束后射击一个武器.</description>
+          <description>在射击阶段奔跑时不用投距离而是固定12&quot;.另外,如果选择射击阶段奔跑,它可以选择以仓促射击的方式在奔跑结束后射击一个武器.</description>
         </rule>
       </rules>
       <selectionEntryGroups>
@@ -18481,7 +18481,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
             <selectionEntry id="b4d5-6ff6-51c8-7773" name="深度打击部署" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="ec2f-3d88-f15c-6ea7" name="地形毁灭" hidden="false">
-                  <description>在通过地底突袭入场前，在入场的方位上放置一个启示录级盖板，然后正常偏移。注意，这个位置在偏移前不能在不可通过地形或者任何单位 1 寸内。
+                  <description>在通过地底突袭入场前，在入场的方位上放置一个启示录级盖板，然后正常偏移。注意，这个位置在偏移前不能在不可通过地形或者任何单位 1 &quot;内。
 如果偏移到不可通过地形，建筑，废墟，工事，载具或者任何锁入近战的单位上，减少最少数量的偏移来避免障碍物。
 如果标记点存在载具或工事, 则距离最近的载具或工事立即受到 D6 次 S10AP2 的命中, 载具击中侧面.
 如果标记点存在近战中的单位, 则交战中的所有单位各自受到 D6 次 S10AP2 的命中.
@@ -18517,7 +18517,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
                   <description>
                     一场游戏一次,在控制玩家移动阶段结束时, 将军炮可以使用钻头制造地震冲击波.
                     此时将惧怕不能在剩余的剩余时间内无法移动, 视作无法移动的载具, 乘坐的单位不能在发起地震冲击波的回合进行上下车.
-                    在之后的每个控制玩家回合的射击阶段开始时, 可以在将军炮的前向弧选择一个 6&quot; 内的一个点, 其周围(当前回合数乘6寸)距离内的所有单位, 无论敌友, 均受到 D6 S7 AP4 的命中, 载具以最低装价值承受伤害.
+                    在之后的每个控制玩家回合的射击阶段开始时, 可以在将军炮的前向弧选择一个 6&quot; 内的一个点, 其周围(当前回合数乘6&quot;)距离内的所有单位, 无论敌友, 均受到 D6 S7 AP4 的命中, 载具以最低装价值承受伤害.
                     如果有载具被击穿, 除其它效果外, 其立即受到一次乘员震荡.
                     如果有单位被成功造伤, 其必须进行所受伤害次数的危险地形测试(有测试玩家分配伤害)
                   </description>
@@ -19681,13 +19681,13 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
 如果能力释放失败, 则恶毒敌意结果自动生效.</description>
     </rule>
     <rule id="988c7311-fd57-a973-0678-7545d8d58f48" name="巨灵视线" publicationId="ca571888--pubN85920" page="222" hidden="false">
-      <description>在射击时目标的地形保护-2.此外,渗透单位禁止部署于单位24寸内.</description>
+      <description>在射击时目标的地形保护-2.此外,渗透单位禁止部署于单位24&quot;内.</description>
     </rule>
     <rule id="718145e4-0a8e-1007-046b-7d2157a5ea3d" name="开火校准" page="" hidden="false">
       <description>此武器不能在移动后发射, 无视其他规则.</description>
     </rule>
     <rule id="e30b-904e-f742-d92b" name="高速迂回" publicationId="ca571888--pubN85920" page="231" hidden="false">
-      <description>如果选择放弃射击一把武器奔跑,可以跑3D6寸.</description>
+      <description>如果选择放弃射击一把武器奔跑,可以跑3D6&quot;.</description>
     </rule>
     <rule id="8e53a9a8-1408-23bf-5be8-4601caec5d10" name="齐射攻击" publicationId="ca571888--pubN85920" page="220" hidden="false">
       <description>可以在射击阶段向同一个目标射击两把远程武器</description>
@@ -19729,7 +19729,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
       <description>必须重投失败的危险地形测试</description>
     </rule>
     <rule id="dc06-a6df-61f8-d030" name="危险弹药" hidden="false">
-      <description>当卡拉克诺斯突击坦克的载具损伤表投掷到爆炸效果时,其爆炸范围是D6+2寸,威力为S5 AP4.</description>
+      <description>当卡拉克诺斯突击坦克的载具损伤表投掷到爆炸效果时,其爆炸范围是D6+2&quot;,威力为S5 AP4.</description>
     </rule>
     <rule id="9cc7-f83e-f251-4e5c" name="泰坦碎片装甲" hidden="false">
       <description>获得他不会死.</description>
@@ -19933,7 +19933,7 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     </profile>
     <profile id="b4c9d27d-b3cf-28bd-3367-b1bfddd5c401" name="照明弹" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 寸内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12寸内敌人射击的模型获得夜视规则.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">拥有照明弹的载具可以每回合投掷1发照明弹,它们像炸弹一样发射,在照明弹落点上放置1个标记,持续到本回合结束.在本射击阶段对照明弹落点12 &quot;内的敌人射击时获得夜视规则.如果开火单位拥有分散火力特殊规则,只有对照明弹标记12&quot;内敌人射击的模型获得夜视规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="33e5-3347-0c00-4244" name="离子护盾" publicationId="ca571888--pubN84158" page="301" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -20270,8 +20270,8 @@ A Unit may not use Counter Attack 特殊规则 if it used Reaction Fire.</descri
     <profile id="c96b-c345-a620-5b2b" name="巨灵集束" publicationId="ca571888--pubN85920" page="215" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">
-          射击阶段开始时可以指明主将或其所附属的任何智控观察者6寸内同主队的一个单位(包括他们自己)BS+1.
-          主军表内深入打击到主将6寸内的单位不偏移.
+          射击阶段开始时可以指明主将或其所附属的任何智控观察者6&quot;内同主队的一个单位(包括他们自己)BS+1.
+          主军表内深入打击到主将6&quot;内的单位不偏移.
           同队的弹幕武器可以从他或其所附属的智控观察者作为射击起点.喷火等其他武器依然从开火处射击.
         </characteristic>
       </characteristics>
