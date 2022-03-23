@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32d1ddc6-3187-cf6f-3bf8-9891e527a002" name="骑士远征军" revision="53" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <publications>
-    <publication id="32d1ddc6--pubN65537" name="Age of Darkness Crusade Army List"/>
-    <publication id="32d1ddc6--pubN66650" name="HH4: Conquest"/>
-    <publication id="32d1ddc6--pubN69303" name="HH:MT"/>
-    <publication id="32d1ddc6--pubN72251" name="HH-Questoris-Knight-Dominus Download"/>
-    <publication id="32d1ddc6--pubN73210" name="HH-Questoris-Knight-Armiger-Talon Download"/>
-    <publication id="32d1ddc6--pubN74776" name="LA:AODAL"/>
-    <publication id="3545-f6f0-40fe-a51e" name="HH Mechanicum Knight Moirax Talon Download"/>
-  </publications>
+<catalogue id="32d1ddc6-3187-cf6f-3bf8-9891e527a002" name="骑士远征军分队" revision="1" battleScribeVersion="2.03" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" library="false" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="游戏选项" hidden="false"/>
+    <categoryEntry id="d27d-9e9b-d8c7-afe6" name="无阵营" hidden="false"/>
     <categoryEntry id="485123232344415441232323" name="指挥槽位" hidden="false"/>
     <categoryEntry id="456c6974657323232344415441232323" name="精英槽位" hidden="false"/>
     <categoryEntry id="54726f6f707323232344415441232323" name="基础槽位" hidden="false"/>
-    <categoryEntry id="466173742041747461636b23232344415441232323" name="快速槽位" hidden="false"/>
-    <categoryEntry id="486561767920537570706f727423232344415441232323" name="重型槽位" hidden="false"/>
+    <categoryEntry id="466173742041747461636b23232344415441232323" name="快速打击槽位" hidden="false"/>
+    <categoryEntry id="486561767920537570706f727423232344415441232323" name="重型支援槽位" hidden="false"/>
     <categoryEntry id="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" name="战争之王槽位" hidden="false"/>
     <categoryEntry id="466f7274696669636174696f6e23232344415441232323" name="工事槽位" hidden="false"/>
     <categoryEntry id="258478de-d031-8a7e-dcb0-7d56bee86952" name="军团" hidden="false"/>
@@ -31,22 +22,22 @@
     <categoryEntry id="e59c-462e-9d9c-66dd" name="坦克" hidden="false"/>
     <categoryEntry id="9480-d3f6-fff1-7b35" name="悬浮" hidden="false"/>
     <categoryEntry id="df44-81ea-e2ee-9849" name="飞行器" hidden="false"/>
-    <categoryEntry id="18c5-559b-55e0-382e" name="不动" hidden="false"/>
+    <categoryEntry id="18c5-559b-55e0-382e" name="固定实体" hidden="false"/>
     <categoryEntry id="2d6f-e613-ab10-e55a" name="深度打击" hidden="false"/>
     <categoryEntry id="51a3-45ca-ea32-7519" name="空降仓" hidden="false"/>
-    <categoryEntry id="e448-6dab-e008-3247" name="Sentry Gun" hidden="false"/>
+    <categoryEntry id="e448-6dab-e008-3247" name="岗哨炮" hidden="false"/>
     <categoryEntry id="e4e0-c5d1-3430-f101" name="运输载具" hidden="false"/>
-    <categoryEntry id="c407-80ff-568e-3394" name="专用运输载具" hidden="false"/>
-    <categoryEntry id="264d-166e-36c0-77b7" name="步行机甲" hidden="false"/>
+    <categoryEntry id="c407-80ff-568e-3394" name="专属运输载具" hidden="false"/>
+    <categoryEntry id="264d-166e-36c0-77b7" name="机甲" hidden="false"/>
     <categoryEntry id="53bd-99e7-aba0-e79f" name="载具" hidden="false"/>
     <categoryEntry id="37dc-7aa6-8150-41b0" name="终结者" hidden="false"/>
     <categoryEntry id="f74d-4679-75a6-1252" name="步兵" hidden="false"/>
     <categoryEntry id="47cf-71bb-d59d-f9de" name="跳跃步兵" hidden="false"/>
     <categoryEntry id="8ec4-17b5-7fea-c682" name="巨兽" hidden="false"/>
-    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="喷气背包步兵" hidden="false"/>
+    <categoryEntry id="afa3-c43a-c8c1-d8b6" name="跳跃背包步兵" hidden="false"/>
     <categoryEntry id="25d0-388c-dd16-af9a" name="飞行巨兽" hidden="false"/>
-    <categoryEntry id="7fdd-2a97-d0e9-6524" name="赛博尼提卡处理器" hidden="false"/>
-    <categoryEntry id="37f2-7398-84ee-6fdf" name="赛莱克斯甲" hidden="false"/>
+    <categoryEntry id="7fdd-2a97-d0e9-6524" name="智控皮层" hidden="false"/>
+    <categoryEntry id="37f2-7398-84ee-6fdf" name="死隶机甲" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b3ea-e268-8cb2-0152" name="骑士远征军分队" hidden="false">
@@ -61,7 +52,7 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f8-7455-9c01-216c" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b3ea-e268-8cb2-0152-466173742041747461636b23232344415441232323" name="快速槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
+        <categoryLink id="b3ea-e268-8cb2-0152-466173742041747461636b23232344415441232323" name="快速打击槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd2a-9aca-76da-fd9b" type="max"/>
           </constraints>
@@ -77,7 +68,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe79-e2b2-05a8-0bcd" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="b3ea-e268-8cb2-0152-486561767920537570706f727423232344415441232323" name="重型槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
+        <categoryLink id="b3ea-e268-8cb2-0152-486561767920537570706f727423232344415441232323" name="重型支援槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2531-6b7f-4f4e-975a" type="max"/>
           </constraints>
@@ -88,9 +79,19 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="300b-b95f-88ba-6bcc" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="69c9-dc95-1e10-6875" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+        <categoryLink id="69c9-dc95-1e10-6875" name="使用测试规则" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b9ef-f553-91bf-05d6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3b74-a066-7876-2842" name="强制指挥槽位" hidden="false" targetId="becd-7a6d-e80f-878e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8c-2e1c-f0d3-dba1" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3989-4886-f332-1f7f" name="主将特性" hidden="false" targetId="baa4-80e4-c41d-6875" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba3a-7226-8d6d-50bc" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -109,7 +110,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed5-e207-2530-5ee6" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="17af-4208-7e46-b4e5" name="快速槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
+        <categoryLink id="17af-4208-7e46-b4e5" name="快速打击槽位" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0431-5946-27dd-49e0" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1457-c924-f4cc-f404" type="max"/>
@@ -121,19 +122,19 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7931-3864-7e77-ec04" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e8e8-61ee-0d87-53a7" name="重型槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
+        <categoryLink id="e8e8-61ee-0d87-53a7" name="重型支援槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e849-249e-8145-fc85" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530f-438e-4e79-fcef" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="770a-3261-c605-4150" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+        <categoryLink id="770a-3261-c605-4150" name="使用测试规则" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ac7f-e6e4-68f0-b12e" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9e58-4f4e-5579-cb58" name="Allegiance" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
-        <categoryLink id="818e-b32f-e6f2-d131" name="Allied Detachment" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
+        <categoryLink id="9e58-4f4e-5579-cb58" name="阵营" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="false"/>
+        <categoryLink id="818e-b32f-e6f2-d131" name="联军分队" hidden="false" targetId="6077-281f-c55d-9bf0" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9639-3fcc-00d3-2686" type="min"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb89-6f1c-60fc-f94a" type="max"/>
@@ -143,16 +144,19 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="48ee846f-5f68-d83d-4f9a-e1a797dc1cd1" name="死士" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48ee846f-5f68-d83d-4f9a-e1a797dc1cd1" name="死士" publicationId="ca571888--pubN84158" page="296" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="1a6b815b-3423-47b1-06e4-98cb5e9119ee" name="死敌" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
-          <description>在部署并在游戏开始之前,玩家选择对手1个特定单位作为死士的死敌,所选的单位必须是敌方主将,LOW单位(除飞机外),超重型机甲,地面载具,超级巨兽.当死士摧毁这个单位后,所属玩家额外获得D3VP.如果死敌被其他单位消灭或是移除战斗,则不能获得额外VP.如果游戏结束时死敌还存活,则对手获得1VP.</description>
+        <rule id="1a6b815b-3423-47b1-06e4-98cb5e9119ee" name="死敌" publicationId="ca571888--pubN84158" page="296" hidden="false">
+          <description>在部署后游戏开始前, 选择一个敌方单位作为死士的死敌, 所选的单位必须是主将/LOW (除飞机外)/超重型机甲/地面载具/超级巨兽. 
+如果死士摧毁这个单位, 所属玩家额外获得 D3VP. 
+如果死敌被其他单位消灭或移除, 则不能获得额外VP.
+如果游戏结束时死敌还存活, 则对手获得1VP.</description>
         </rule>
-        <rule id="3bf0ccd0-6cb5-4f84-88d6-b6eb6cc464d2" name="绝地反击" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
-          <description>当死士被自己的死敌在肉搏中击杀,则在其他效果发生之前,死士可以立即使用自己或自己所装备的武器对死敌进行一次反击.</description>
+        <rule id="3bf0ccd0-6cb5-4f84-88d6-b6eb6cc464d2" name="绝地反击" publicationId="ca571888--pubN84158" page="296" hidden="false">
+          <description>当死士被自己的死敌在肉搏中击杀, 则在其他效果生效之前, 死士可以立即使用自己或自己所装备的武器对死敌进行一次反击.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -165,64 +169,65 @@
         <cost name="分" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a" name="家族领主" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a" name="家族领主" publicationId="ca571888--pubN84158" page="295" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="bfe1e278-e31a-bfcd-ee10-5c38fedf7314" name="骑士老兵" publicationId="32d1ddc6--pubN66650" page="295" hidden="false">
-          <description>WS,BS +1</description>
+        <rule id="bfe1e278-e31a-bfcd-ee10-5c38fedf7314" name="骑士老兵" publicationId="ca571888--pubN84158" page="295" hidden="false">
+          <description>WS/BS +1.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="c9c2bc37-7048-4ed5-80c0-fb13d224f96a-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true"/>
+        <categoryLink id="55c4-b31c-c68f-9cd9" name="强制指挥槽位" hidden="false" targetId="becd-7a6d-e80f-878e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0d826049-6db2-6635-065c-6b6c34faf886" name="Knight Armour" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="0d826049-6db2-6635-065c-6b6c34faf886" name="骑士机甲" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="导师" publicationId="32d1ddc6--pubN66650" page="296" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5137fc47-e383-8e21-a01a-cdf4cbb73094" name="导师" publicationId="ca571888--pubN84158" page="296" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="c95171e5-7f98-b827-ef57-0b6e15cc6719" name="战地神谕" publicationId="32d1ddc6--pubN66650" page="296" hidden="false">
-          <description>如果战场上有至少1名导师,则军表中的骑士预备队进场骰结果+1,在导师6寸内的所有骑士单位(包括骑士导师本身)均获得拦截特殊规则,并且直到下一个玩家的回合可以使用任何合适的武器进行坚守射击.
-这条规则对超级重型机甲有1条特例,在使用地狱火盖板武器时,坚守射击为D6次命中而不是D3次</description>
+        <rule id="c95171e5-7f98-b827-ef57-0b6e15cc6719" name="战地神谕" publicationId="ca571888--pubN84158" page="296" hidden="false">
+          <description>如果战场上至少有一个导师, 则分队中的骑士预备队进场骰结果+1, 在导师 6 寸内的所有骑士单位(包括骑士导师本身)均获得拦截规则, 并且直到下一个玩家的回合可以使用任何合适的武器进行坚守射击.
+超级重型机甲的地狱火盖板武器坚守射击 D3 增加到 D6 次.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="5137fc47-e383-8e21-a01a-cdf4cbb73094-456c6974657323232344415441232323" hidden="false" targetId="456c6974657323232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4ab3a26f-0903-b2fd-0147-9134a6dfbe49" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="4ab3a26f-0903-b2fd-0147-9134a6dfbe49" name="骑士机甲" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0374f5e8-736f-e990-acd5-75cb44d303a1" name="家族劲弩" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0374f5e8-736f-e990-acd5-75cb44d303a1" name="家族劲弩" publicationId="ca571888--pubN84158" page="298" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="b6d3b822-a604-fbc5-8dbf-4dcdb913ad6b" name="武器校准" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
-          <description>拥有坦克猎手规则.如果在移动阶段中没有移动,可以选择其某件武器在射击阶段拥有对空火力规则</description>
+        <rule id="b6d3b822-a604-fbc5-8dbf-4dcdb913ad6b" name="武器校准" publicationId="ca571888--pubN84158" page="298" hidden="false">
+          <description>拥有坦克猎手规则.如果在移动阶段中没有移动,可以选择其某件武器在射击阶段拥有对空火力规则.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="4453-6d55-fb09-b1e2" name="New InfoLink" hidden="false" targetId="5d88-bcf6-e410-6e01" type="rule"/>
+        <infoLink id="4453-6d55-fb09-b1e2" name="坦克猎手" hidden="false" targetId="5d88-bcf6-e410-6e01" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0374f5e8-736f-e990-acd5-75cb44d303a1-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3da0370c-c75e-cac8-444f-8825d1e13c4e" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="3da0370c-c75e-cac8-444f-8825d1e13c4e" name="骑士机甲" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-17e9-3707-22f2" name="家族新血" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2f44-17e9-3707-22f2" name="家族新血" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="maxInForce" value="1.0">
+        <modifier type="increment" field="maxInForce" value="1">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5053f8a2-cc7f-f635-1044-b149aed1513e" repeats="1" roundUp="false"/>
           </repeats>
@@ -257,7 +262,7 @@
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9b3942b-357b-159d-698d-73661a1f3bff" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="maxInForce" value="1.0">
+        <modifier type="increment" field="maxInForce" value="1">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f44-17e9-3707-22f2" repeats="1" roundUp="false"/>
           </repeats>
@@ -272,15 +277,15 @@
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="20c36841-86b5-f4c2-406e-c82ca71c107a" name="新血" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
-          <description>WS, BS, 特保 -11</description>
+        <rule id="20c36841-86b5-f4c2-406e-c82ca71c107a" name="新血" publicationId="ca571888--pubN84158" page="297" hidden="false">
+          <description>WS/BS/特殊保护 -1.</description>
         </rule>
-        <rule id="88442dbc-2d8c-971d-5cb2-887d12378fd4" name="青年之血" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
-          <description>数量不能超过军表中其他家族阶级的总数量</description>
+        <rule id="88442dbc-2d8c-971d-5cb2-887d12378fd4" name="青年之血" publicationId="ca571888--pubN84158" page="297" hidden="false">
+          <description>数量不能超过军表中其他家族阶级的总数量.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="57b9a887-a8c9-33dd-4c0f-da8f1a329a48" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
+        <infoLink id="57b9a887-a8c9-33dd-4c0f-da8f1a329a48" name="目标安全" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2f44-17e9-3707-22f2-54726f6f707323232344415441232323" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
@@ -293,32 +298,32 @@
         <cost name="分" typeId="points" value="-35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="97fcca37-2121-18e9-f084-4f254332c535" name="家族杀手" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="97fcca37-2121-18e9-f084-4f254332c535" name="家族杀手" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="1ad8fa30-bf2e-1ade-84b2-f035101f3d86" name="杀手突击" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
-          <description>必须重掷失败的冲锋,并且必须重掷失败的扫荡打击</description>
+        <rule id="1ad8fa30-bf2e-1ade-84b2-f035101f3d86" name="杀手突击" publicationId="ca571888--pubN84158" page="297" hidden="false">
+          <description>必须重掷失败的冲锋,并且必须重掷失败的追击.</description>
         </rule>
-        <rule id="1f5ef606-c6a9-62c5-1c36-9f1ad69ac692" name="有价值的敌人" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
-          <description>在冲锋阶段,如果有合适攻击对象并且是骑士,机甲,巨兽,基因原体,超重型单位,超级巨兽单位,则必须冲锋.如果有多个这样的目标,则可以选择冲锋哪个单位.</description>
+        <rule id="1f5ef606-c6a9-62c5-1c36-9f1ad69ac692" name="有价值的敌人" publicationId="ca571888--pubN84158" page="297" hidden="false">
+          <description>在突击阶段, 如果存在一个可能的冲锋目标并且是骑士/机甲/巨兽/基因原体/超重型单位/超级巨兽单位, 则必须冲锋. 如果有多个这样的目标, 由控制者选择冲锋哪个单位.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="97fcca37-2121-18e9-f084-4f254332c535-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="fb020419-12a2-a1fe-70c9-e021de9617ba" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="fb020419-12a2-a1fe-70c9-e021de9617ba" name="骑士机甲" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9b3942b-357b-159d-698d-73661a1f3bff" name="家族猛士" publicationId="32d1ddc6--pubN66650" page="298" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a9b3942b-357b-159d-698d-73661a1f3bff" name="家族猛士" publicationId="ca571888--pubN84158" page="298" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="f6ca3bc6-aa39-58f0-dd9e-2ba8d2c83fbf" name="破墙者" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
-          <description>建筑破坏骰结果+1(可与AP加成累计).</description>
+        <rule id="f6ca3bc6-aa39-58f0-dd9e-2ba8d2c83fbf" name="破墙者" publicationId="ca571888--pubN84158" page="298" hidden="false">
+          <description>建筑破坏损伤表结果+1(可与AP加成累计).</description>
         </rule>
-        <rule id="8414d60b-abd8-9d8d-bd03-388283b46acc" name="血肉碾轧" publicationId="32d1ddc6--pubN66650" page="298" hidden="false">
-          <description>可重投践踏结果.对手雷和炸弹有5+特保.但不能扫荡打击.</description>
+        <rule id="8414d60b-abd8-9d8d-bd03-388283b46acc" name="血肉碾轧" publicationId="ca571888--pubN84158" page="298" hidden="false">
+          <description>可重投践踏结果表.对手雷和炸弹有5+特殊保护.但不能追击.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -331,7 +336,7 @@
         <cost name="分" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5053f8a2-cc7f-f635-1044-b149aed1513e" name="家族骑士" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5053f8a2-cc7f-f635-1044-b149aed1513e" name="家族骑士" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="f46d7af6-d9cf-a52c-39b3-d6569197ff0f" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
@@ -346,52 +351,44 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff61-cf0e-681b-82bb" name="家族轻骑兵" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ff61-cf0e-681b-82bb" name="家族轻骑兵" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <rules>
-        <rule id="955c6a6d-62db-3190-a6fb-ad53119398ca" name="勇猛冲锋" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
-          <description>家族轻骑兵拥有侦察和打带跑规则,但其前装甲-1</description>
+        <rule id="955c6a6d-62db-3190-a6fb-ad53119398ca" name="勇猛冲锋" publicationId="ca571888--pubN84158" page="297" hidden="false">
+          <description>家族轻骑兵拥有侦察和打带跑规则,但其前装甲-1.</description>
         </rule>
-        <rule id="7f16693a-fecf-ddfd-e798-c69ece461716" name="轻骑兵之傲" publicationId="32d1ddc6--pubN66650" page="297" hidden="false">
+        <rule id="7f16693a-fecf-ddfd-e798-c69ece461716" name="轻骑兵之傲" publicationId="ca571888--pubN84158" page="297" hidden="false">
           <description>家族轻骑兵只能对24寸以外的单位进行仓促射击.</description>
         </rule>
-        <rule id="439b-6d0c-4981-2dd2" name="打带跑" hidden="false">
-          <description>A 单位 that contains at least one model with this 规则 that is locked in combat can choose to leave close combat at the end of any 突击 phase. If the 单位 wishes to do so, it must take an Initiative test.
-
-If the test is failed, nothing happens and the models remain locked in the fight.
-
-If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire 单位 to move over 1寸 away from all of the enemy units they are locked in combat with, the 单位 breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6寸.
-
-A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1寸 away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.
-    </description>
-        </rule>
+        <rule id="439b-6d0c-4981-2dd2" name="打带跑" hidden="false"/>
       </rules>
       <infoLinks>
-        <infoLink id="a160-e3b7-a44b-c49f" name="New InfoLink" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
+        <infoLink id="a160-e3b7-a44b-c49f" name="侦察" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ff61-cf0e-681b-82bb-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0ac5a9c1-154c-391d-e63c-ea95e7710d0c" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
+        <entryLink id="0ac5a9c1-154c-391d-e63c-ea95e7710d0c" name="骑士机甲" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33d55e37-58db-535e-ffb4-0c9136c15e25" name="总管" publicationId="32d1ddc6--pubN66650" page="295" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="33d55e37-58db-535e-ffb4-0c9136c15e25" name="总管" publicationId="ca571888--pubN84158" page="295" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <rules>
-        <rule id="22371748-eb17-a4bd-f77d-29db844784f2" name="骑士大师" publicationId="32d1ddc6--pubN66650" page="295" hidden="false">
-          <description>WS,BS,特保 +1</description>
+        <rule id="22371748-eb17-a4bd-f77d-29db844784f2" name="骑士大师" publicationId="ca571888--pubN84158" page="295" hidden="false">
+          <description>WS/BS/特殊保护 +1</description>
         </rule>
-        <rule id="7efce086-cd0a-a073-5cae-d76620d25977" name="完美指挥官" publicationId="32d1ddc6--pubN66650" page="295" hidden="false">
-          <description>如果总管为军队的主将,则可以重掷主将技能表</description>
+        <rule id="7efce086-cd0a-a073-5cae-d76620d25977" name="完美指挥官" publicationId="ca571888--pubN84158" page="295" hidden="false">
+          <description>如果总管为军队的主将, 则可以选择重投主将特性表.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="33d55e37-58db-535e-ffb4-0c9136c15e25-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true"/>
+        <categoryLink id="72e0-76e7-3456-b46b" name="强制指挥槽位" hidden="false" targetId="becd-7a6d-e80f-878e" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d68922c4-1f12-ba8f-c17f-65225738046d" hidden="false" collective="false" import="true" targetId="3fc4-9d7f-969b-35bb" type="selectionEntryGroup"/>
@@ -400,34 +397,50 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbcc-f750-c3cb-2dcf" name="家族从者" publicationId="32d1ddc6--pubN66650" page="297" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dbcc-f750-c3cb-2dcf" name="家族从者" publicationId="ca571888--pubN84158" page="297" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="9f59-5499-23fb-9144" name="Objective Secured" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
+        <infoLink id="9f59-5499-23fb-9144" name="目标安全" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dc12-2675-4bfb-2b03" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6592-ed1e-78ca-c6eb" name="Questoris Knight Armiger Talon" hidden="false" collective="false" import="true" targetId="1072-d634-f6c6-b41e" type="selectionEntry"/>
+        <entryLink id="6592-ed1e-78ca-c6eb" name="探寻者侍从骑士中队" hidden="false" collective="false" import="true" targetId="1072-d634-f6c6-b41e" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d67-3c94-ab8b-58da" name="家族护卫" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7d67-3c94-ab8b-58da" name="家族护卫" publicationId="ece2-a265-6237-7efa" page="" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bbfe-f633-a486-1d67" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="c8bc-7aca-f383-ca94" name="Mechanicum Knight Moirax Talon" hidden="false" collective="false" import="true" targetId="e00d-ca82-e2ce-b437" type="selectionEntry"/>
+        <entryLink id="c8bc-7aca-f383-ca94" name="机械教摩伊赖骑士中队" hidden="false" collective="false" import="true" targetId="e00d-ca82-e2ce-b437" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7438-09d3-664c-fad5" name="主将特性" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fec-521f-83b0-4efe" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243e-e541-89f8-7fee" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3239-036c-c750-bb35" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f7d1-d153-61a1-e33b" name="New CategoryLink" hidden="false" targetId="baa4-80e4-c41d-6875" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c7bc-ea23-0639-24f4" name="主将特性" hidden="false" collective="false" import="true" targetId="1a1c-c9f1-d6e8-9dc0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="分" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="849c-0f60-509d-16d1" name="Archmagos Draykavac" hidden="false" collective="false" import="true" targetId="27575b75-5e1e-26ab-1074-fa91b73e2216" type="selectionEntry">
+    <entryLink id="849c-0f60-509d-16d1" name="德雷卡瓦克大贤者" hidden="false" collective="false" import="true" targetId="27575b75-5e1e-26ab-1074-fa91b73e2216" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -437,9 +450,10 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
       </modifiers>
       <categoryLinks>
         <categoryLink id="849c-0f60-509d-16d1-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true"/>
+        <categoryLink id="a25f-09bc-594c-e815" name="强制指挥槽位" hidden="false" targetId="becd-7a6d-e80f-878e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3135-573f-145d-9803" name="Castellax Class Battle-Automata Maniple" hidden="false" collective="false" import="true" targetId="48db-84ca-2bad-520f" type="selectionEntry">
+    <entryLink id="3135-573f-145d-9803" name="堡星级战斗自动机兵小队" hidden="false" collective="false" import="true" targetId="48db-84ca-2bad-520f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -451,7 +465,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <categoryLink id="3135-573f-145d-9803-54726f6f707323232344415441232323" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e7c5-6f1f-f20c-385e" name="Vorax Class Battle-automata Maniple" hidden="false" collective="false" import="true" targetId="deb3-68a3-5d36-eb3d" type="selectionEntry">
+    <entryLink id="e7c5-6f1f-f20c-385e" name="锯齿蚁级战斗自动机兵小队" hidden="false" collective="false" import="true" targetId="deb3-68a3-5d36-eb3d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -468,12 +482,12 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <categoryLink id="02c6-f507-ac2e-504c-5297-7e0f-fa0b-3537" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9112-60df-c178-6f7b" name="New EntryLink" hidden="false" collective="false" import="true" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry">
+    <entryLink id="9112-60df-c178-6f7b" name="泰坦军团掠夺者主战泰坦" hidden="false" collective="false" import="true" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9112-60df-c178-6f7b-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4e49-8766-3548-9870" name="New EntryLink" hidden="false" collective="false" import="true" targetId="fb92-d215-2011-f911" type="selectionEntry">
+    <entryLink id="4e49-8766-3548-9870" name="恶将型主战灵能泰坦" hidden="false" collective="false" import="true" targetId="fb92-d215-2011-f911" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -485,54 +499,96 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <categoryLink id="4e49-8766-3548-9870-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4179-a726-fc3c-addf" name="New EntryLink" hidden="false" collective="false" import="true" targetId="b894-adfc-6d3d-fde4" type="selectionEntry">
+    <entryLink id="4179-a726-fc3c-addf" name="泰坦军团战犬侦察泰坦" hidden="false" collective="false" import="true" targetId="b894-adfc-6d3d-fde4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4179-a726-fc3c-addf-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="53b7-53cc-3df0-a8a1" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ab80-0fef-3e93-8e64" type="selectionEntry">
+    <entryLink id="53b7-53cc-3df0-a8a1" name="泰坦军团战将主战泰坦" hidden="false" collective="false" import="true" targetId="ab80-0fef-3e93-8e64" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="53b7-53cc-3df0-a8a1-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3f06-44f6-7e22-ed9a" name="Aegis Defense Line" hidden="false" collective="false" import="true" targetId="a505-05af-bd44-56b6" type="selectionEntry">
+    <entryLink id="3f06-44f6-7e22-ed9a" name="支援防线" hidden="false" collective="false" import="true" targetId="a505-05af-bd44-56b6" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3f06-44f6-7e22-ed9a-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fa5a-7dbb-c0ea-2f53" name="New EntryLink" hidden="false" collective="false" import="true" targetId="e10f-7b90-ecd3-80a5" type="selectionEntry">
+    <entryLink id="fa5a-7dbb-c0ea-2f53" name="大教堂行政区" hidden="false" collective="false" import="true" targetId="e10f-7b90-ecd3-80a5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="fa5a-7dbb-c0ea-2f53-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8b9e-027f-f676-d4e0" name="Legio Titanicus Warbringer Nemesis 泰坦" hidden="false" collective="false" import="true" targetId="ecb3-83b9-4ba7-47a9" type="selectionEntry">
+    <entryLink id="8b9e-027f-f676-d4e0" name="泰坦军团战神天罚泰坦" hidden="false" collective="false" import="true" targetId="ecb3-83b9-4ba7-47a9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="641f-b7f4-977d-9020" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="4ad3-cc77-6e21-b20b" name="New CategoryLink" hidden="false" targetId="264d-166e-36c0-77b7" primary="false"/>
         <categoryLink id="b096-555b-931a-1164" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="97e7-4870-846f-91fb" name="Allied Detachment" hidden="false" collective="false" import="true" targetId="c91a-6e83-93ce-54ac" type="selectionEntry">
+    <entryLink id="97e7-4870-846f-91fb" name="联军分队" hidden="false" collective="false" import="true" targetId="c91a-6e83-93ce-54ac" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b1-94e9-819f-fc99" type="min"/>
       </constraints>
     </entryLink>
+    <entryLink id="8e7c-1851-8041-e857" name="Tylos Rubio" hidden="false" collective="false" import="true" targetId="7baf-1c2e-6b5d-b865" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="513f-ab95-ad10-b2ec" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="01ac-fa30-3771-cd61" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
+        <categoryLink id="eba6-99d6-42ac-a505" name="步兵" hidden="false" targetId="f74d-4679-75a6-1252" primary="false"/>
+        <categoryLink id="b2ce-8c33-ecc5-f88d" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1547-5656-afe7-b3a2" name="Knight-Errant" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="513f-ab95-ad10-b2ec" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="c9ba-a0ac-4a8e-1b37" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
+        <categoryLink id="b2c0-d007-21b6-4379" name="步兵" hidden="false" targetId="f74d-4679-75a6-1252" primary="false"/>
+        <categoryLink id="7231-77a8-4f25-6f9c" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e0c9-f09a-f40f-93ea" name="Nathaniel Garro" hidden="false" collective="false" import="true" targetId="f86d-ae13-1d89-f1a1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="513f-ab95-ad10-b2ec" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="dbf7-3a65-97e9-8c62" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
+        <categoryLink id="cc22-0396-3020-9e3f" name="步兵" hidden="false" targetId="f74d-4679-75a6-1252" primary="false"/>
+        <categoryLink id="9b08-3e1a-4b4b-4bbb" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="deb3-68a3-5d36-eb3d" name="锯齿蚁级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="deb3-68a3-5d36-eb3d" name="锯齿蚁级战斗自动机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="a080-e2a8-dc43-1112" name="New InfoLink" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
         <infoLink id="57a5-1a50-7092-3d9c" name="New InfoLink" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule"/>
-        <infoLink id="b4e3-29d6-986a-2b25" name="New InfoLink" hidden="false" targetId="a8c1-185a-cdd9-b5ce" type="profile"/>
+        <infoLink id="b4e3-29d6-986a-2b25" name="夜视仪" hidden="false" targetId="a8c1-185a-cdd9-b5ce" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="efb2-67e0-c8a5-9d43" name="锯齿蚁级自动战斗机兵" page="0" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="efb2-67e0-c8a5-9d43" name="锯齿蚁级战斗自动机兵" page="0" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f557-1a16-8c37-f307" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="867d-a720-a911-50dc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="712d-49a5-7c53-fbc4" name="锯齿蚁" publicationId="32d1ddc6--pubN69303" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="712d-49a5-7c53-fbc4" name="锯齿蚁" publicationId="ca571888--pubN66580" page="46" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -543,18 +599,18 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">2(3)</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">7</characteristic>
-                <characteristic name="SV" typeId="5361766523232344415441232323">4+</characteristic>
+                <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="1b52-8c7c-83a4-64a9" name="2转管炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b52-8c7c-83a4-64a9" name="双臂转管炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78a2-15ad-9505-6d4f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d184-3263-bd4e-5f9b" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7536-fa3d-9d94-c7b4" name="New InfoLink" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile">
+                <infoLink id="7536-fa3d-9d94-c7b4" name="转管炮" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -563,7 +619,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                     </modifier>
                   </modifiers>
                 </infoLink>
-                <infoLink id="8e65-c0f0-3db7-dc80" name="New InfoLink" hidden="false" targetId="d1ac-3bb0-0a9d-e48f" type="profile">
+                <infoLink id="8e65-c0f0-3db7-dc80" name="转管炮 (生化弹药)" hidden="false" targetId="d1ac-3bb0-0a9d-e48f" type="profile">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -583,7 +639,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7b9-1b6f-217a-af03" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c572-0126-de37-ff07" hidden="false" targetId="d667-17ba-5f95-065a" type="profile"/>
+                <infoLink id="c572-0126-de37-ff07" name="动力刃" hidden="false" targetId="d667-17ba-5f95-065a" type="profile"/>
                 <infoLink id="f6e0-7b9f-be98-044e" name="New InfoLink" hidden="false" targetId="c49d-a848-144a-14d6" type="rule"/>
                 <infoLink id="25f1-2f80-2725-4748" name="New InfoLink" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
                 <infoLink id="fac9-83ac-1984-ac99" name="New InfoLink" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
@@ -620,7 +676,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                   <infoLinks>
                     <infoLink id="148d-d607-4d94-e0cc" name="New InfoLink" hidden="false" targetId="89da-0cb5-bee4-8ec2" type="rule"/>
                     <infoLink id="6faa-ccc0-0bbf-45b0" name="New InfoLink" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
-                    <infoLink id="1c2b-501d-9d7d-d281" name="Lightning Gun" hidden="false" targetId="2850d06c-1eef-bae4-1314-6a3d9635193b" type="profile"/>
+                    <infoLink id="1c2b-501d-9d7d-d281" name="闪电枪" hidden="false" targetId="2850d06c-1eef-bae4-1314-6a3d9635193b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="分" typeId="points" value="0.0"/>
@@ -647,7 +703,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="721b-07af-5d09-abc5" name="小队可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="721b-07af-5d09-abc5" name="小队可以选择任何升级:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="62e7-2ed4-0f7a-d02b" name="探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -661,7 +717,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d2c-2486-c746-fc56" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7e2d-9dee-cd0c-e9f0" name="New InfoLink" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile"/>
+                <infoLink id="7e2d-9dee-cd0c-e9f0" name="探照灯" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
@@ -686,7 +742,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4917-9705-c924-9779" name="强化瞄准阵列" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4917-9705-c924-9779" name="强化瞄准阵列s" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="15">
                   <repeats>
@@ -706,9 +762,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6ea4-be19-165b-5df5" name="小队可以升级:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6ea4-be19-165b-5df5" name="可以为整个小队的转管炮装备:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="3c66-f02d-af81-ecfe" name="转管炮装填生化弹药" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3c66-f02d-af81-ecfe" name="生化弹药" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="10.0">
                   <repeats>
@@ -727,7 +783,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c7ae-23c6-9acc-b89f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dff8-d7b6-960a-aa5b" type="selectionEntryGroup">
+        <entryLink id="c7ae-23c6-9acc-b89f" name="一个单独模型的小队可以升级:" hidden="false" collective="false" import="true" targetId="dff8-d7b6-960a-aa5b" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -736,25 +792,32 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="d0b8-a41e-6b2b-baa7" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0c9d-9eaa-d513-caa3" type="selectionEntry"/>
+        <entryLink id="d0b8-a41e-6b2b-baa7" name="智控皮层" hidden="false" collective="false" import="true" targetId="0c9d-9eaa-d513-caa3" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级自动战斗机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="48db-84ca-2bad-520f" name="堡星级战斗自动机兵小队" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="points" value="25.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c859-6b16-c533-7e97" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
-        <infoLink id="7678-ae60-16f2-e948" name="" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
-        <infoLink id="a7f0-6bc1-ed4a-34dc" name="New InfoLink" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
+        <infoLink id="7678-ae60-16f2-e948" name="暴怒" hidden="false" targetId="988c-d4d0-9418-1165" type="rule"/>
+        <infoLink id="a7f0-6bc1-ed4a-34dc" name="反应堆爆炸" hidden="false" targetId="d5cf-bd98-2854-13cf" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="09ad-ef83-4a62-46fe" name="堡星级自动战斗机兵" page="" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="09ad-ef83-4a62-46fe" name="堡星级战斗自动机兵" page="" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2514-b4ae-39f4-093e" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38db-7bf2-0694-b3f4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="659d-11d2-faad-4259" name="堡星" publicationId="32d1ddc6--pubN69303" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="unit">
+            <profile id="659d-11d2-faad-4259" name="堡星" publicationId="ca571888--pubN66580" page="41" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
               <characteristics>
                 <characteristic name="类型" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -765,10 +828,13 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                 <characteristic name="LD" typeId="4c4423232344415441232323">7</characteristic>
-                <characteristic name="SV" typeId="5361766523232344415441232323">3+</characteristic>
+                <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="a0cd-d1cd-0e3f-1a6c" name="原子能护盾" hidden="false" targetId="13e0-4939-5232-8d85" type="profile"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="6564-7afd-3cef-078a" name="可以替换锤头式爆弹炮:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ed8-630f-8684-ebe1">
               <constraints>
@@ -816,7 +882,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="c204-c9c9-9110-ca90" name="可以替换爆弹枪:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f45-90b4-1220-dd2b">
+            <selectionEntryGroup id="c204-c9c9-9110-ca90" name="可以替换一把爆弹枪:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f45-90b4-1220-dd2b">
               <modifiers>
                 <modifier type="set" field="5d2a-e961-7953-6b83" value="1">
                   <conditions>
@@ -861,7 +927,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="321e-e0ed-e440-d5e5" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="e927-193b-8cf1-70fd" name="双持动力刃" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="e927-193b-8cf1-70fd" name="双动力刃" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5d0-644c-e051-03f1" type="max"/>
                   </constraints>
@@ -909,11 +975,11 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5a40-8fd5-37b7-8ec4" name="小队可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5a40-8fd5-37b7-8ec4" name="小队可以选择任何升级:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="6801-cbdd-fb6a-761c" name="探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="1">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="48db-84ca-2bad-520f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ad-ef83-4a62-46fe" repeats="1" roundUp="false"/>
                   </repeats>
@@ -941,7 +1007,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b035-1076-7002-6b84" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="437c-2473-1851-ff87" hidden="false" targetId="a8c1-185a-cdd9-b5ce" type="profile"/>
+                <infoLink id="437c-2473-1851-ff87" name="夜视仪" hidden="false" targetId="a8c1-185a-cdd9-b5ce" type="profile"/>
                 <infoLink id="423c-81ba-1a84-84f3" name="New InfoLink" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
               </infoLinks>
               <costs>
@@ -969,7 +1035,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             </selectionEntry>
             <selectionEntry id="eafb-4aa0-594d-5dbc" name="强化瞄准阵列" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="15">
+                <modifier type="increment" field="points" value="15.0">
                   <repeats>
                     <repeat field="selections" scope="48db-84ca-2bad-520f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09ad-ef83-4a62-46fe" repeats="1" roundUp="false"/>
                   </repeats>
@@ -989,7 +1055,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9e93-5e2f-d21c-63bf" name="A single Maniple may be upgraded with:" hidden="false" collective="false" import="true" targetId="dff8-d7b6-960a-aa5b" type="selectionEntryGroup">
+        <entryLink id="9e93-5e2f-d21c-63bf" name="一个单独模型的小队可以升级:" hidden="false" collective="false" import="true" targetId="dff8-d7b6-960a-aa5b" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1016,9 +1082,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6951-01f7-7675-d69b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="44a9-d907-13fa-4fc4" name="反叛" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="44a9-d907-13fa-4fc4" name="反叛方" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="18ef-3206-400c-0b5a" value="1.0">
+                <modifier type="set" field="18ef-3206-400c-0b5a" value="1">
                   <conditions>
                     <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27575b75-5e1e-26ab-1074-fa91b73e2216" type="equalTo"/>
                   </conditions>
@@ -1031,7 +1097,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="513f-ab95-ad10-b2ec" name="忠诚" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="513f-ab95-ad10-b2ec" name="忠诚方" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
@@ -1043,9 +1109,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3902-a5e5-c69e-7a01" name="统御骑士" publicationId="32d1ddc6--pubN72251" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3902-a5e5-c69e-7a01" name="探寻者统御骑士" publicationId="ca571888--pubN94574" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="ecb2-e57a-adb8-0ab8" name="统御骑士" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="0694-6ddb-9e1d-40bd" typeName="超重型步行机甲">
+        <profile id="ecb2-e57a-adb8-0ab8" name="探寻者统御骑士" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="0694-6ddb-9e1d-40bd" typeName="超重型机甲">
           <characteristics>
             <characteristic name="WS" typeId="abd6-ed07-8491-eb85">4</characteristic>
             <characteristic name="BS" typeId="aabf-e6cf-1929-65fd">4</characteristic>
@@ -1056,12 +1122,12 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <characteristic name="I" typeId="d7de-23c6-aa99-cb87">3</characteristic>
             <characteristic name="A" typeId="ec4e-6e09-1493-1867">3</characteristic>
             <characteristic name="HP" typeId="36e0-e195-2d91-3e2a">7</characteristic>
-            <characteristic name="类型" typeId="c887-e846-fa1f-9389">超重型步行机甲</characteristic>
+            <characteristic name="类型" typeId="c887-e846-fa1f-9389">超重型机甲</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="337d-4388-852d-759f" name="Ion Shield" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
+        <infoLink id="337d-4388-852d-759f" name="离子护盾" hidden="false" targetId="342d5e83-9f9b-42c0-cecb-e6c9c197ab9d" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="164f-e083-7cc9-0038" name="双联热熔枪" hidden="false" collective="false" import="true" type="upgrade">
@@ -1070,7 +1136,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7054-cd48-fae5-9e66" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="84f0-bb09-4d41-c863" name="双联 Meltagun" hidden="false" targetId="3084-edd3-6247-da94" type="profile"/>
+            <infoLink id="84f0-bb09-4d41-c863" name="双联热熔枪" hidden="false" targetId="3084-edd3-6247-da94" type="profile"/>
+            <infoLink id="d9bc-2b8b-3586-52f6" name="热熔" hidden="false" targetId="21c0-62ff-3ed2-17a7" type="rule"/>
+            <infoLink id="78af-89ab-c975-43b9" name="双联" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -1080,23 +1148,23 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
       <selectionEntryGroups>
         <selectionEntryGroup id="40d2-b432-3a8e-f14b" name="可以升级:" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="a3e5-e508-71d5-268b" name="Occular Augmetics" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
+            <entryLink id="a3e5-e508-71d5-268b" name="夜视仪" hidden="false" collective="false" import="true" targetId="348b-40f4-c774-1f9a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4754-e94e-cb94-7ed8" name="可以选个3个顶部武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ce9-ebbc-bc9e-4059">
+        <selectionEntryGroup id="4754-e94e-cb94-7ed8" name="可以选择三个顶部武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ce9-ebbc-bc9e-4059">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0869-9c49-3855-d2d9" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3084-6034-6dd7-4295" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4ce9-ebbc-bc9e-4059" name="双联双联破城炮" publicationId="32d1ddc6--pubN72251" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4ce9-ebbc-bc9e-4059" name="双联破城炮" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6d0-8256-eb24-dc7e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="49eb-459a-037c-6f71" name="双联双联破城炮" publicationId="32d1ddc6--pubN72251" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="49eb-459a-037c-6f71" name="双联破城炮" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 双联</characteristic>
@@ -1107,14 +1175,14 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de42-1578-e085-e2af" name="2碎盾导弹" publicationId="32d1ddc6--pubN72251" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de42-1578-e085-e2af" name="两发碎盾导弹" publicationId="ca571888--pubN94574" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee86-0ceb-0df8-b3d6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8a99-ba52-8233-478b" name="碎盾导弹" publicationId="32d1ddc6--pubN72251" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="8a99-ba52-8233-478b" name="两发碎盾导弹" publicationId="ca571888--pubN94574" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 碎盾, 一次性</characteristic>
@@ -1123,7 +1191,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
               </profiles>
               <rules>
                 <rule id="1914-6183-4806-e211" name="碎盾" hidden="false">
-                  <description>该武器造成的损伤不能过保护</description>
+                  <description>无视特殊保护.</description>
                 </rule>
               </rules>
               <costs>
@@ -1132,7 +1200,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b586-4020-ddad-4473" name="可以选择2个武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3a5-cfa9-4075-19c9">
+        <selectionEntryGroup id="b586-4020-ddad-4473" name="可以选择两把武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3a5-cfa9-4075-19c9">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c5c-068e-e051-df61" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd11-c71e-cbe4-c027" type="min"/>
@@ -1143,9 +1211,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="294a-a7e8-0879-4d87" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7d01-170d-5ad8-1b5d" name="爆炎炮" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="7d01-170d-5ad8-1b5d" name="爆炎炮" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">地狱风暴盖板</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">地狱风暴盖板</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重炮 1</characteristic>
@@ -1161,15 +1229,18 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dbe-a6b6-85a0-d624" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9595-6887-dfe5-2411" name="等离子灭杀炮" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="9595-6887-dfe5-2411" name="等离子灭杀炮" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">48寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 大爆炸 5寸, 过热</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 大爆炸 5&quot;, 过热</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="68c1-2265-1bdf-64f1" name="过热" hidden="false" targetId="f4fd-d519-4769-5510" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="55.0"/>
               </costs>
@@ -1179,9 +1250,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ea-2317-0da3-745d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7f72-40cb-8212-8ca0" name="雷霆鱼叉" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="7f72-40cb-8212-8ca0" name="雷霆鱼叉" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">12寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">12&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重炮 1, 装甲杀手, 血肉杀手, 即死, 碎裂, 鱼叉</characteristic>
@@ -1190,9 +1261,15 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
               </profiles>
               <rules>
                 <rule id="f7b6-8df9-dbcb-5260" name="鱼叉" hidden="false">
-                  <description>一旦发射, 无论是否命中,在下一个射击阶段都不能再次使用. 此外,此武器任何成功的造伤都会使目标造成D6点伤害而非1点,(伤害只针对1个模型)</description>
+                  <description>一旦发射, 无论是否命中,在下一个射击阶段都不能再次使用. 此外,此武器任何成功的造伤都会使目标造成D6点伤害而非1点,(伤害只针对一个模型)</description>
                 </rule>
               </rules>
+              <infoLinks>
+                <infoLink id="5b7c-a406-5d78-2e48" name="装甲杀手" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule"/>
+                <infoLink id="5eb7-47ff-3993-1a05" name="血肉杀手" hidden="false" targetId="4575-0a0a-caaf-e4bf" type="rule"/>
+                <infoLink id="7c23-1525-5905-51e6" name="即死" hidden="false" targetId="fbf1-6913-ff9f-5a4f" type="rule"/>
+                <infoLink id="1fc5-3068-10e2-7af0" name="碎裂" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
@@ -1202,12 +1279,12 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff8a-5756-26a1-09ec" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8b6e-01c6-02d5-7425" name="火山矛" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="8b6e-01c6-02d5-7425" name="火山矛" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">80寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">80&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 3寸</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 3&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1219,20 +1296,20 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e2bc-e4ca-f7b9-bec8" name="Household Rank" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
-        <entryLink id="7c89-7095-26d0-a6a3" name="Blessed Autosimulacra" hidden="false" collective="false" import="true" targetId="b09a-5d32-464b-4b2d" type="selectionEntry"/>
+        <entryLink id="e2bc-e4ca-f7b9-bec8" name="家族阶级" hidden="false" collective="false" import="true" targetId="2f28-c5f0-6110-c614" type="selectionEntry"/>
+        <entryLink id="7c89-7095-26d0-a6a3" name="受祝福的自动拟像" hidden="false" collective="false" import="true" targetId="b09a-5d32-464b-4b2d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="分" typeId="points" value="360.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1072-d634-f6c6-b41e" name="侍从骑士中队" publicationId="32d1ddc6--pubN73210" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1072-d634-f6c6-b41e" name="探寻者侍从骑士中队" publicationId="cf03-f607-pubN70802" page="" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfcf-dc21-205d-ba14" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23f7-3615-4d95-bd73" type="min"/>
       </constraints>
       <profiles>
-        <profile id="283a-5c7c-cf45-1d93" name="侍从骑士" publicationId="32d1ddc6--pubN73210" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="步行机甲">
+        <profile id="283a-5c7c-cf45-1d93" name="探寻者侍从骑士" publicationId="cf03-f607-pubN70802" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -1243,31 +1320,31 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">载具 (步行机甲)</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">载具 (机甲)</characteristic>
           </characteristics>
         </profile>
         <profile id="82fe-5976-eb52-f87e" name="低功率离子盾" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的5+特保,对肉搏无效.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">部署及每个敌方射击阶段开始时,可以设置离子盾朝向.在所朝方向拥有对抗射击的5+特殊保护,对肉搏无效.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="71a4-0f4a-6206-ac92" name="奔袭" hidden="false">
-          <description>在射击阶段奔跑时不用投距离而是固定12寸.另外,如果选择射击阶段奔跑,它可以选择以仓促射击的方式在奔跑结束后射击1个武器</description>
+          <description>在射击阶段奔跑时不用投距离而是固定12寸.另外,如果选择射击阶段奔跑,它可以选择以仓促射击的方式在奔跑结束后射击一个武器.</description>
         </rule>
         <rule id="4ccb-02dd-6bfb-64d0" name="家族从者" hidden="false">
-          <description>家族从者不会从主将特性中受益.</description>
+          <description>家族从者不会从友方骑士的主将特性中受益.</description>
         </rule>
         <rule id="db50-34df-2188-0523" name="侍从中队" hidden="false">
-          <description>部署时必须保持6寸的连续性,此后各自视作独立单位</description>
+          <description>首次部署时需要保持 6&quot; 的连续性, 此后各自成为独立单位.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d093-3802-81a6-8852" name="Implacable Advance" hidden="false" targetId="5ecb-551d-0f68-3a79" type="rule"/>
+        <infoLink id="d093-3802-81a6-8852" name="无情推进" hidden="false" targetId="5ecb-551d-0f68-3a79" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fcad-4f0f-99fc-0eea" name="可以选择1个武器:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fcad-4f0f-99fc-0eea" name="可以选择一把武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be8b-e52b-e3d7-b121" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="451b-cd15-bd45-1bfa" type="min"/>
@@ -1280,7 +1357,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
               <profiles>
                 <profile id="b9b6-e629-bd38-a8bc" name="重机枪" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">36寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">4</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 3</characteristic>
@@ -1295,36 +1372,39 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
               <profiles>
                 <profile id="031b-80c8-50ef-1146" name="热熔枪" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">12寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">12&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">突击 1, 热熔</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">Assult 1, 热熔</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="f550-dea6-9313-b038" name="热熔" hidden="false" targetId="21c0-62ff-3ed2-17a7" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="95d6-6eb0-2d77-36b7" name="必须选择2个武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="918d-2398-9da1-5cf6">
+        <selectionEntryGroup id="95d6-6eb0-2d77-36b7" name="必须选择两把武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="918d-2398-9da1-5cf6">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0017-ed45-eb5d-3139" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e86-96fc-61b0-dce4" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="918d-2398-9da1-5cf6" name="肉搏武器" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="918d-2398-9da1-5cf6" name="无畏近战武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca9-9daa-d247-33c8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="83b6-e34b-605e-7080" name="肉搏武器" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="83b6-e34b-605e-7080" name="无畏近战武器" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">肉搏</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">近战</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1332,53 +1412,60 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0320-28f4-46f7-ca89" name="侍从自动炮" publicationId="32d1ddc6--pubN73210" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0320-28f4-46f7-ca89" name="侍从自动炮" publicationId="cf03-f607-pubN70802" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a381-df56-7aed-04d4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8303-fed8-7388-ff02" name="侍从自动炮 (穿甲弹)" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="8303-fed8-7388-ff02" name="侍从自动炮 (穿甲弹)" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">64寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">64&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 碎裂</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="59d2-d3ed-7f5c-740d" name="侍从自动炮 (燃烧弹)" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="59d2-d3ed-7f5c-740d" name="侍从自动炮 (燃烧弹)" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">64寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">64&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">7</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 忽视掩体</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 无视掩体</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="59d2-722a-05ef-26dc" name="无视掩体" hidden="false" targetId="476c-b962-06e5-d12e" type="rule"/>
+                <infoLink id="c23e-dfc2-eeb8-6613" name="碎裂" hidden="false" targetId="841f-9119-9f9d-5058" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2ab8-f653-fb91-e6ae" name="侍从热熔矛" publicationId="32d1ddc6--pubN73210" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2ab8-f653-fb91-e6ae" name="侍从热熔矛" publicationId="cf03-f607-pubN70802" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca8-4645-2a47-9988" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0d5a-6abd-ea6e-9fd9" name="侍从热熔矛" publicationId="32d1ddc6--pubN72251" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="0d5a-6abd-ea6e-9fd9" name="侍从热熔矛" publicationId="ca571888--pubN94574" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">36寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 热熔</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="6985-d55c-d553-6f97" name="热熔" hidden="false" targetId="21c0-62ff-3ed2-17a7" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="67ff-11a1-7990-c20e" name="重机枪可以装填生化弹药:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="67ff-11a1-7990-c20e" name="可以为重机枪换装生化弹药" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1394,13 +1481,16 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
               <profiles>
                 <profile id="cfb6-0425-9090-20c2" name="生化弹药" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">30寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">30&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">6</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 3, 毒伤 (4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="ca08-2946-4eb9-335a" name="毒伤" hidden="false" targetId="a5ff-1cb1-bee4-d809" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
@@ -1412,13 +1502,13 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <cost name="分" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e00d-ca82-e2ce-b437" name="莫伊拉克斯骑士中队" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e00d-ca82-e2ce-b437" name="机械教摩伊赖骑士中队" publicationId="ece2-a265-6237-7efa" page="" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc92-4e43-49fa-da11" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb4-41a4-13af-4316" type="min"/>
       </constraints>
       <profiles>
-        <profile id="6b05-c745-406a-c3cd" name="莫伊拉克斯骑士" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="步行机甲">
+        <profile id="6b05-c745-406a-c3cd" name="机械教摩伊赖骑士" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
           <characteristics>
             <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
             <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
@@ -1429,18 +1519,17 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">4</characteristic>
-            <characteristic name="类型" typeId="5479706523232344415441232323">载具 (步行机甲)</characteristic>
+            <characteristic name="类型" typeId="5479706523232344415441232323">载具 (机甲)</characteristic>
           </characteristics>
         </profile>
-        <profile id="5ca6-0668-8fa1-0c80" name="低功率离子闪光盾" publicationId="3545-f6f0-40fe-a51e" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+        <profile id="5ca6-0668-8fa1-0c80" name="离子闪光护盾" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向5+特保,对肉搏攻击无效;所有对其发起攻击的盖板武器S-1(对D武器以及电磁干扰攻击无效)
-</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得对抗射击的全向4+特殊保护,对肉搏攻击无效; 盖板武器S-1,对D武器或电磁干扰武器无效.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a9aa-8b16-6a5b-5b8f" name="构造护盾 (2)" publicationId="3545-f6f0-40fe-a51e" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+        <profile id="a9aa-8b16-6a5b-5b8f" name="构造护盾 (2)" publicationId="ece2-a265-6237-7efa" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">当模型的构造护盾有效时,任何射击阶段的攻击首先击中其构造护盾而非本体.构造护盾均按照11甲的防御力计算,任何一次擦伤,击穿或者D武器命中会使得一层护盾崩溃.构造护盾不能使用特保,且不能回复.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">当模型的构造护盾有效时,任何射击阶段的攻击首先击中其构造护盾而非本体.构造护盾均按照11甲的防御力计算,任何一次擦伤,击穿或者D武器命中会使得一层护盾崩溃.构造护盾不能使用特殊保护,且不能回复.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1448,54 +1537,54 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <rule id="d609-7c6d-8785-fbe8" name="家族护卫" hidden="false">
           <description>必须与友方骑士相距6寸以内.</description>
         </rule>
-        <rule id="f8fa-431b-e7ef-72f4" name="莫伊拉克斯中队" hidden="false">
-          <description>部署时必须保持6寸的连续性,此后各自视作独立单位</description>
+        <rule id="f8fa-431b-e7ef-72f4" name="摩伊赖中队" hidden="false">
+          <description>首次部署时需要保持 6&quot; 的连续性, 此后各自成为独立单位.</description>
         </rule>
-        <rule id="469f-ec3f-aa68-4b90" name="保护协议" publicationId="3545-f6f0-40fe-a51e" hidden="false">
-          <description>当12寸内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,1个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
+        <rule id="469f-ec3f-aa68-4b90" name="保护协议" publicationId="ece2-a265-6237-7efa" hidden="false">
+          <description>当12寸内友方自动机兵,战斗建筑,将军引擎,或骑士被作为冲锋目标时,一个没有被锁入肉搏的莫伊拉克斯骑士可以使用其远程武器对冲锋者射击1发,如同在射击阶段一样,在宣布冲锋后,进行冲锋移动前射击.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a54e-2966-2b96-79d1" name="Rad Furnace" hidden="false" targetId="e8a4-795e-882b-6109" type="profile"/>
-        <infoLink id="d3df-b625-b046-a210" name="Occular Augmetics" hidden="false" targetId="faa4ea24-e51b-8663-3e7c-1a791b55aed7" type="profile"/>
+        <infoLink id="a54e-2966-2b96-79d1" name="辐射炉" hidden="false" targetId="e8a4-795e-882b-6109" type="profile"/>
+        <infoLink id="d3df-b625-b046-a210" name="夜视仪" hidden="false" targetId="faa4ea24-e51b-8663-3e7c-1a791b55aed7" type="profile"/>
         <infoLink id="ff18-ee1b-02b4-8d09" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d152-3a4b-26fc-648f" name="必须选择2个武器:" hidden="false" collective="false" import="true" defaultSelectionEntryId="157b-faf2-9d0f-2529">
+        <selectionEntryGroup id="d152-3a4b-26fc-648f" name="必须选择两把武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="157b-faf2-9d0f-2529">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587f-25ba-efb4-487f" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a974-fbf7-a684-2695" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e0e8-f876-d161-f6b0" name="吉格斯攻城爪下挂辐射枪" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e0e8-f876-d161-f6b0" name="吉格斯攻城爪内装辐射枪" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4437-9a03-b06f-8398" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e291-f37a-a996-4528" name="吉格斯攻城爪" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="e291-f37a-a996-4528" name="吉格斯攻城爪" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">-</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">X2</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">肉搏, 攻城拔寨</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">近战, 攻城拔寨</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="1f1a-9e8c-69e3-6911" name="Rad/Irad-cleanser" hidden="false" targetId="3c77a0e2-2b38-0fff-5d7d-8f63f811bbdf" type="profile"/>
+                <infoLink id="1f1a-9e8c-69e3-6911" name="辐射枪" hidden="false" targetId="3c77a0e2-2b38-0fff-5d7d-8f63f811bbdf" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="157b-faf2-9d0f-2529" name="轻装爆燃炮" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="157b-faf2-9d0f-2529" name="轻装爆燃炮" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778f-2963-6d96-c0fb" type="max"/>
               </constraints>
               <profiles>
-                <profile id="af87-e01b-d06a-c7c3" name="轻装爆燃炮" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="af87-e01b-d06a-c7c3" name="Volkite Veuglaire" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">36寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 5, 爆燃</characteristic>
@@ -1509,17 +1598,17 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="925d-07af-b9ff-5731" name="闪电蓄能炮" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="925d-07af-b9ff-5731" name="闪电蓄能炮" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d352-9984-cc66-3ab3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5041-b875-0de3-b795" name="闪电蓄能炮" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="5041-b875-0de3-b795" name="Lightning Lock" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">36寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">36&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">3</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 撕裂, 撕碎, 爆炸 (3寸)</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 撕裂, 撕碎, 爆炸 (3&quot;)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1531,17 +1620,17 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1b51-dd6d-eb30-694a" name="重力脉冲炮" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1b51-dd6d-eb30-694a" name="重力脉冲炮" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f35-0a42-fd0c-ee4f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="5fbd-3852-5b01-65be" name="重力脉冲炮" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="5fbd-3852-5b01-65be" name="Graviton pulsar" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">24寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">24&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">-</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 爆炸 (3寸), 震荡, 重力脉冲, 电磁干扰</characteristic>
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 2, 爆炸 (3&quot;), 震荡, 重力脉冲, 电磁干扰</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1554,35 +1643,35 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="da69-e790-e3b9-e465" name="侍从转换光线炮" publicationId="3545-f6f0-40fe-a51e" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="da69-e790-e3b9-e465" name="侍从转换射线炮" publicationId="ece2-a265-6237-7efa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5267-d192-bce5-76fe" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ea60-e5da-c246-54bc" name="侍从转换光线炮 (3)" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="ea60-e5da-c246-54bc" name="侍从转换射线炮 (3)" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">42寸 – 72寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">42&quot; – 72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">10</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">1</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 (3寸)
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 (3&quot;)
 </characteristic>
                   </characteristics>
                 </profile>
-                <profile id="09e8-cd3a-36c0-5206" name="侍从转换光线炮 (2)" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="09e8-cd3a-36c0-5206" name="侍从转换射线炮 (2)" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">18寸 – 42寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">18&quot; – 42&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 (3寸)
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 (3&quot;)
 )</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="670b-5351-74bc-e838" name="侍从转换光线炮 (1)" publicationId="3545-f6f0-40fe-a51e" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="670b-5351-74bc-e838" name="侍从转换射线炮 (1)" publicationId="ece2-a265-6237-7efa" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
-                    <characteristic name="射程" typeId="52616e676523232344415441232323">Up to 18寸</characteristic>
+                    <characteristic name="距离" typeId="52616e676523232344415441232323">至多 18&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                     <characteristic name="AP" typeId="415023232344415441232323">-</characteristic>
-                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 (3寸)
+                    <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸 (3&quot;)
 </characteristic>
                   </characteristics>
                 </profile>
@@ -1600,37 +1689,24 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="3fc4-9d7f-969b-35bb" name="骑士装甲" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3fc4-9d7f-969b-35bb" name="骑士机甲" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7891-efe8-70eb-d282" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9250-2094-a907-dc6b" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="e8e1-c9e9-394d-5fbf" name="Cerastus Knight-Acheron" hidden="false" collective="false" import="true" targetId="b4ddbe68-7095-397e-dec4-162170dbdbcd" type="selectionEntry"/>
-        <entryLink id="e499-4dc2-bbfd-53dd" name="Cerastus Knight-Atrapos" hidden="false" collective="false" import="true" targetId="baad-77d0-04c2-e05f" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff61-cf0e-681b-82bb" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5053f8a2-cc7f-f635-1044-b149aed1513e" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink id="2aff-c26b-26b6-fd14" name="Cerastus Knight-Castigator" hidden="false" collective="false" import="true" targetId="b1cf8528-c9d0-2c2a-3f19-522e5532f273" type="selectionEntry"/>
+        <entryLink id="e8e1-c9e9-394d-5fbf" name="瑟拉斯托斯冥河型骑士" hidden="false" collective="false" import="true" targetId="b4ddbe68-7095-397e-dec4-162170dbdbcd" type="selectionEntry"/>
+        <entryLink id="e499-4dc2-bbfd-53dd" name="瑟拉斯托斯阿特洛波斯型骑士" hidden="false" collective="false" import="true" targetId="baad-77d0-04c2-e05f" type="selectionEntry"/>
+        <entryLink id="2aff-c26b-26b6-fd14" name="瑟拉斯托斯惩戒者型骑士" hidden="false" collective="false" import="true" targetId="b1cf8528-c9d0-2c2a-3f19-522e5532f273" type="selectionEntry"/>
         <entryLink id="e1ee-e1ad-873f-a9cb" name="Lancer" hidden="false" collective="false" import="true" targetId="ca45ca55-eae1-1a81-8afc-1330611055a6" type="selectionEntry"/>
-        <entryLink id="eae7-2fc9-40d1-3977" name="Questoris Knight 远征军" hidden="false" collective="false" import="true" targetId="09ee-4370-1462-2cb5" type="selectionEntry"/>
+        <entryLink id="eae7-2fc9-40d1-3977" name="探寻者远征骑士" hidden="false" collective="false" import="true" targetId="09ee-4370-1462-2cb5" type="selectionEntry"/>
         <entryLink id="0ea8-43d3-a3c2-0554" name="Errant" hidden="false" collective="false" import="true" targetId="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" type="selectionEntry"/>
-        <entryLink id="a918-71fe-b21c-cbf8" name="Questoris Knight Gallant" hidden="false" collective="false" import="true" targetId="74b8-f485-4b58-0071" type="selectionEntry"/>
+        <entryLink id="a918-71fe-b21c-cbf8" name="探寻者勇武骑士" hidden="false" collective="false" import="true" targetId="74b8-f485-4b58-0071" type="selectionEntry"/>
         <entryLink id="f50a-385a-d690-f0dd" name="Magaera" hidden="false" collective="false" import="true" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry"/>
-        <entryLink id="f4cf-f09c-20a4-b376" name="Questoris Knight Paladin" hidden="false" collective="false" import="true" targetId="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" type="selectionEntry"/>
-        <entryLink id="9a04-fad2-e544-64e5" name="Questoris Knight Styrix" hidden="false" collective="false" import="true" targetId="a5b350ff-895e-4557-70a6-d24a936919c2" type="selectionEntry"/>
-        <entryLink id="1b11-f6ea-15eb-3c0f" name="Questoris Knight Warden" hidden="false" collective="false" import="true" targetId="f4f1-dad6-0596-ca5a" type="selectionEntry"/>
-        <entryLink id="d945-aaa8-2751-4c23" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="4ded-9de3-f964-33a7" type="selectionEntry">
+        <entryLink id="f4cf-f09c-20a4-b376" name="探寻者圣骑士" hidden="false" collective="false" import="true" targetId="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" type="selectionEntry"/>
+        <entryLink id="9a04-fad2-e544-64e5" name="探寻者斯提利克斯骑士" hidden="false" collective="false" import="true" targetId="a5b350ff-895e-4557-70a6-d24a936919c2" type="selectionEntry"/>
+        <entryLink id="1b11-f6ea-15eb-3c0f" name="探寻者守望骑士" hidden="false" collective="false" import="true" targetId="f4f1-dad6-0596-ca5a" type="selectionEntry"/>
+        <entryLink id="d945-aaa8-2751-4c23" name="阿卡斯托斯波尔费里翁型骑士" hidden="false" collective="false" import="true" targetId="4ded-9de3-f964-33a7" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1644,8 +1720,21 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="38ae-7cc3-463a-a8de" name="Questoris Knight Dominus" hidden="false" collective="false" import="true" targetId="3902-a5e5-c69e-7a01" type="selectionEntry"/>
-        <entryLink id="d9b0-3c8d-9faf-9e16" name="阿斯特流斯骑士" hidden="false" collective="false" import="true" targetId="56c2-9ab6-52d7-145e" type="selectionEntry"/>
+        <entryLink id="38ae-7cc3-463a-a8de" name="探寻者统御骑士" hidden="false" collective="false" import="true" targetId="3902-a5e5-c69e-7a01" type="selectionEntry"/>
+        <entryLink id="4e1e-f097-8024-9c0e" name="阿卡斯托斯阿斯忒里俄斯型骑士" hidden="false" collective="false" import="true" targetId="72ad-abe8-94d8-5926" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f44-17e9-3707-22f2" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff61-cf0e-681b-82bb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="365d-5bf0-6a3b-6253" name="阵营" hidden="false" collective="false" import="true">
@@ -1654,7 +1743,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f0-d927-76df-091f" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2f4f-fd79-5fb1-b6d0" name="Traitor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2f4f-fd79-5fb1-b6d0" name="反叛方" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf76-4f0a-5544-8892" type="max"/>
           </constraints>
@@ -1662,7 +1751,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cde0-afa1-b2ff-7a07" name="Loyalist" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cde0-afa1-b2ff-7a07" name="忠诚方" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c5a-fff2-05d9-60b4" type="max"/>
           </constraints>
@@ -1674,7 +1763,7 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
     </selectionEntryGroup>
     <selectionEntryGroup id="5527-f4ef-035b-11c2" name="装备" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="b4ea-a586-86a9-02eb" name="Nuncio-vox" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b4ea-a586-86a9-02eb" name="真理频道" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ccf-07cb-9064-9762" type="max"/>
           </constraints>
@@ -1701,9 +1790,9 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="535d-a0a7-ce4e-6ab5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c587-5d7f-6151-005d" name="精工甲" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+            <profile id="c587-5d7f-6151-005d" name="精工甲" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">精工甲 提供 2+ 装甲保护.  </characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">精工甲赋予 2+ 装甲保护.  </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1711,14 +1800,14 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
             <cost name="分" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ab39-d41c-7f2d-a92b" name="战斗盾" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ab39-d41c-7f2d-a92b" name="战斗盾" publicationId="ca571888--pubN80998" page="131" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e0d-f89e-8c8d-2d29" type="max"/>
           </constraints>
           <profiles>
-            <profile id="96e4-a19a-7925-ebaa" name="战斗盾" publicationId="32d1ddc6--pubN74776" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+            <profile id="96e4-a19a-7925-ebaa" name="战斗盾" publicationId="ca571888--pubN80998" page="131" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得6+特保,肉搏时变为5+</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 6+ 特殊保护, 近战中变为 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1771,11 +1860,114 @@ A Hit &amp;amp; Run move is not slowed by difficult terrain, but takes Dangerous
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="1a1c-c9f1-d6e8-9dc0" name="主将特性" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3b35-c129-b123-5bce" name="探寻者骑士主将特性 (Crusade Imperialis p103)" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8c5b-2c1e-6501-3b0e" name="1. 地狱骑士" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ca-e68c-eb64-a937" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a4dc-f85e-a05f-2745" name="1. 地狱骑士" hidden="false">
+                  <description>在第一回合, 主将和分队中其他 12&quot; 内的所有骑士获得 +1&quot; 移动以及 +1 所有造伤和穿甲骰结果.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="分" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e48-e8bb-43dd-e045" name="2. 声名显赫" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094a-0c85-c596-3d02" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5c3a-d253-ab6b-a9b3" name="2. 声名显赫" hidden="false">
+                  <description>对主将的恐怖测试 -2LD, 位于主将 12&quot; 内的友方单位可以重投失败的士气测试.
+
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="分" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c74b-ae7f-8f51-521b" name="3. 火星宠儿" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ee-a2a6-97ea-1587" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6097-158b-9751-0e28" name="3. 火星宠儿" hidden="false">
+                  <description>主将的一把武器获得精工规则.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="5f34-937e-fbe4-2fd9" name="精工" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="分" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4598-f225-c155-9a93" name="4. 深渊之主" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0f-3fec-38f0-ec27" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4eb7-d468-1897-773d" name="4. 深渊之主" hidden="false">
+                  <description>主将获得巨兽猎手和精金意志规则.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="bd99-6b0a-851a-e5af" name="巨兽猎手" hidden="false" targetId="93c5-dcdd-af20-413e" type="rule"/>
+                <infoLink id="8d18-0975-149c-14e4" name="精金意志" hidden="false" targetId="df87-e991-2d30-dc38" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="分" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6e7b-0ff3-b0d1-cbe1" name="5. 强大指挥官" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e983-5d7e-dd1f-31a1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2ba3-33a6-629b-7347" name="5. 强大指挥官" hidden="false">
+                  <description>玩家先攻骰 +1,  主将在场时, 敌方预备队进场骰 -1.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="分" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="63c3-4f8c-9a69-5df8" name="6. 百折不挠" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55cd-9474-2537-8799" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e8a8-04b4-d01a-7db2" name="6. 百折不挠" hidden="false">
+                  <description>主将获得他不会死规则.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="478c-4dd5-82fd-72b1" name="他不会死" hidden="false" targetId="72d9-7041-9d30-d150" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="分" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="15d8-7fd1-8550-9873" name="指挥特性 (HH- Rulebook p137)" hidden="false" collective="false" import="true" targetId="8a6e-70fa-dd40-d586" type="selectionEntryGroup"/>
+        <entryLink id="8960-07d4-a1f7-a4c5" name="战略特性 (HH- Rulebook p137)" hidden="false" collective="false" import="true" targetId="fb37-64c2-4afd-57da" type="selectionEntryGroup"/>
+        <entryLink id="597b-c976-cf4d-1911" name="个人特性 (HH- Rulebook p137)" hidden="false" collective="false" import="true" targetId="b95a-7d48-eb20-9ba5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="e8a4-795e-882b-6109" name="辐射炉" publicationId="3545-f6f0-40fe-a51e" page="223" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+    <profile id="e8a4-795e-882b-6109" name="辐射炉" publicationId="ece2-a265-6237-7efa" page="223" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">所有与此锁入肉搏的模型T-1.装备辐射炉和辐射手雷的模型不受影响. 所有毒伤或辐射噬菌体武器对拥有着需要造伤骰出6才能成功造伤.</characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">与其锁入近战的模型-1T, 免疫辐射手雷, 所有毒伤或辐射噬菌体武器需要6才能造伤.  </characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
