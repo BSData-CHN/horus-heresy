@@ -14,13 +14,13 @@
 - [ ] (HH) 星际战士
 - [x] (HH) 骑士
 - [x] (HH) 机械教
-- [ ] (HH) 死灵
 - [x] (HH) 太阳辅助军
 - [ ] (HH) 禁军
 - [x] (HH) 黑暗联军
 - [ ] (HH) 帝皇或战帅特勤
 - [ ] (HH) 混沌恶魔
 - [ ] (HH) 方舟灵族
+- [ ] (HH) 死灵
 - [ ] (HH) Mournival Units
 - [ ] (HH) Varangian Heresy Legions
 
