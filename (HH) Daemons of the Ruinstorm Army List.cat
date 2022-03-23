@@ -529,7 +529,7 @@
     <entryLink id="2ec0-500d-4029-9f83" name="Ruinstorm 恶魔 集群" hidden="false" collective="false" import="true" targetId="ae3c-2429-b663-dcbc" type="selectionEntry"/>
     <entryLink id="a67e-9984-e65c-a43a" name="Ruinstorm Arch-恶魔" hidden="false" collective="false" import="true" targetId="ea70-5e79-b1a0-3256" type="selectionEntry"/>
     <entryLink id="2f27-5108-1a63-a58f" name="Ruinstorm 恶魔 Behemoth" hidden="false" collective="false" import="true" targetId="bf7e-0c26-b8b8-758a" type="selectionEntry"/>
-    <entryLink id="0dc1-e444-dfc2-52c6" name="Greater Ruinstorm 恶魔 Beast" hidden="false" collective="false" import="true" targetId="b7a8-a1e3-5f05-fc69" type="selectionEntry"/>
+    <entryLink id="0dc1-e444-dfc2-52c6" name="Greater Ruinstorm 恶魔 野兽" hidden="false" collective="false" import="true" targetId="b7a8-a1e3-5f05-fc69" type="selectionEntry"/>
     <entryLink id="b1f5-228b-2edc-93d5" name="Crimson Fury" hidden="false" collective="false" import="true" targetId="1c0c-a8bb-13c6-daea" type="selectionEntry"/>
     <entryLink id="c40c-cbf9-905c-29e9" name="Creeping Scourge" hidden="false" collective="false" import="true" targetId="5a0b-2e45-8c90-360e" type="selectionEntry"/>
     <entryLink id="f00e-f8ec-a67c-eb40" name="Lurid Onslaught" hidden="false" collective="false" import="true" targetId="0946-b1da-a2c7-12f9" type="selectionEntry"/>
@@ -540,8 +540,8 @@
         <categoryLink id="15ab-693a-dd31-d370" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6e88-de55-8f1a-c58f" name="Possessed Legionaries" hidden="false" collective="false" import="true" targetId="308e-c800-4fa9-efde" type="selectionEntry"/>
-    <entryLink id="ca1d-7026-8e22-46c8" name="Possessed Auxiliaries" hidden="false" collective="false" import="true" targetId="f3d7-3331-372c-a480" type="selectionEntry"/>
+    <entryLink id="6e88-de55-8f1a-c58f" name="附魔 Legionaries" hidden="false" collective="false" import="true" targetId="308e-c800-4fa9-efde" type="selectionEntry"/>
+    <entryLink id="ca1d-7026-8e22-46c8" name="附魔 Auxiliaries" hidden="false" collective="false" import="true" targetId="f3d7-3331-372c-a480" type="selectionEntry"/>
     <entryLink id="f913-e33e-5360-df0f" name="Cor&apos;bax Utterblight Unbound, 恶魔 Lord Of The Ruinstorm" hidden="false" collective="false" import="true" targetId="5ddb-4a5d-5b2d-c540" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d499-276f-f4fe-5100" name="指挥槽位" hidden="false" targetId="485123232344415441232323" primary="true"/>
@@ -1114,7 +1114,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c93d-e50f-1669-8f3c" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ee4d-5a12-8b99-0baa" name="Ruinstorm 恶魔 Beast" hidden="false" targetId="eb78-734c-d1ad-7bdd" type="profile"/>
+            <infoLink id="ee4d-5a12-8b99-0baa" name="Ruinstorm 恶魔 野兽" hidden="false" targetId="eb78-734c-d1ad-7bdd" type="profile"/>
             <infoLink id="fdc5-cf01-e10e-138f" name="恶魔 of the Ruinstorm" hidden="false" targetId="0b0d-9d33-c0a8-06cd" type="rule"/>
             <infoLink id="05e0-619e-d483-f6d8" name="Parting the Veil" hidden="false" targetId="c828-3e09-a384-735b" type="rule"/>
             <infoLink id="5b68-2d93-1e75-1bbd" name="Tide of Madness" hidden="false" targetId="a2dc-7a16-0067-a4db" type="rule"/>
@@ -1309,7 +1309,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
         <categoryLink id="3e95-5559-6cef-3f4c" name="重型支援槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0ea3-dfe8-8919-5bf7" name="Greater Ruinstorm 恶魔 Beast" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0ea3-dfe8-8919-5bf7" name="Greater Ruinstorm 恶魔 野兽" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94f7-aa65-7faa-c675" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc1-e8be-56e7-5abe" type="min"/>
@@ -1318,7 +1318,7 @@ Warp Conflagration: Each enemy unit destroyed, removed from play or forced to fl
             <infoLink id="9713-4b6a-0316-2a3c" name="恶魔 of the Ruinstorm" hidden="false" targetId="0b0d-9d33-c0a8-06cd" type="rule"/>
             <infoLink id="1567-a34d-94b3-0e09" name="Tide of Madness" hidden="false" targetId="a2dc-7a16-0067-a4db" type="rule"/>
             <infoLink id="bf95-9981-9987-bd93" name="Parting the Veil" hidden="false" targetId="c828-3e09-a384-735b" type="rule"/>
-            <infoLink id="c3e2-b584-1677-74f7" name="Ruinstorm Greater 恶魔 Beast" hidden="false" targetId="aa91-80fc-4bc0-dac9" type="profile"/>
+            <infoLink id="c3e2-b584-1677-74f7" name="Ruinstorm Greater 恶魔 野兽" hidden="false" targetId="aa91-80fc-4bc0-dac9" type="profile"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="0d64-7058-4063-127e" name="重型支援槽位" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true"/>
@@ -2336,7 +2336,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         <cost name="pts" typeId="points" value="460.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="308e-c800-4fa9-efde" name="Possessed Legionaries" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="308e-c800-4fa9-efde" name="附魔 Legionaries" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6349-c3c3-6f07-5e59" name="支援小队" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
         <infoLink id="cc8c-ad29-14b4-95cc" name="Slaves to Darkness" hidden="false" targetId="b407-fb29-f206-4ad3" type="rule"/>
@@ -2345,7 +2345,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         <categoryLink id="e68e-7fa4-829e-48bc" name="基础槽位" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c4a1-6f68-d186-1fb8" name="Possessed Legionaries" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c4a1-6f68-d186-1fb8" name="附魔 Legionaries" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="7dcb-21fd-89eb-c921" value="15.0">
               <conditionGroups>
@@ -2364,7 +2364,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dcb-21fd-89eb-c921" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ad3f-690e-bed4-4a8e" name="Possessed Legionary" hidden="false" targetId="6684-7b7a-9c07-6f20" type="profile"/>
+            <infoLink id="ad3f-690e-bed4-4a8e" name="附魔 Legionary" hidden="false" targetId="6684-7b7a-9c07-6f20" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -2403,7 +2403,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa4-e8a4-bc29-a7d7" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5ed7-d286-2724-2c47" name="Boltguns" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5ed7-d286-2724-2c47" name="爆弹枪" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="121e-4ff1-f2c0-8696" name="爆弹枪" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
@@ -2448,7 +2448,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1597-10e8-37b2-adec" name="近战武器s" hidden="false" collective="false" import="true" targetId="2b7e-7858-5d4c-2af7" type="selectionEntry"/>
+        <entryLink id="1597-10e8-37b2-adec" name="近战武器" hidden="false" collective="false" import="true" targetId="2b7e-7858-5d4c-2af7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2718,7 +2718,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b7e-7858-5d4c-2af7" name="近战武器s" publicationId="ca571888--pubN106502" page="42" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2b7e-7858-5d4c-2af7" name="近战武器" publicationId="ca571888--pubN106502" page="42" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b5-36e0-fced-c692" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa29-14b9-3a9d-09fc" type="min"/>
@@ -2737,7 +2737,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3d7-3331-372c-a480" name="Possessed Auxiliaries" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f3d7-3331-372c-a480" name="附魔 Auxiliaries" publicationId="ca571888--pubN103311" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="da2c-f2b1-e48d-385b" name="支援小队" hidden="false" targetId="2c16-3b25-a714-a656" type="rule"/>
         <infoLink id="36c5-f6e5-d4de-e737" name="Slaves to Darkness" hidden="false" targetId="b407-fb29-f206-4ad3" type="rule"/>
@@ -2746,7 +2746,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
         <categoryLink id="817f-7291-757f-0ff1" name="基础槽位" hidden="false" targetId="54726f6f707323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6778-7a1d-24a3-3ac4" name="Possessed Auxiliaries" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6778-7a1d-24a3-3ac4" name="附魔 Auxiliaries" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="4cae-1769-89ba-b5e5" value="15.0">
               <conditionGroups>
@@ -2765,7 +2765,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b1-5cce-b10b-c03d" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="91e4-449d-dc16-efb4" name="Possessed 辅助军" hidden="false" targetId="e553-5fe7-2eba-42f2" type="profile"/>
+            <infoLink id="91e4-449d-dc16-efb4" name="附魔 辅助军" hidden="false" targetId="e553-5fe7-2eba-42f2" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
@@ -2779,9 +2779,9 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c87-4015-bdec-5efc" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9b53-664b-95ce-3a79" name="辅助军 Rifles" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9b53-664b-95ce-3a79" name="辅助军步枪" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="5a2d-7130-8415-47f0" name="辅助军 Rifle" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="5a2d-7130-8415-47f0" name="辅助军步枪" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">3</characteristic>
@@ -2794,7 +2794,7 @@ Eternal Rivalry: If Sanguinius is removed as a casualty while it is fighting in 
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c79b-7a8f-b4d3-c2b5" name="Laspistols" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c79b-7a8f-b4d3-c2b5" name="激光手枪" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="b70b-6cad-9a2d-2faa" name="激光手枪" page="" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
               </infoLinks>
@@ -3917,7 +3917,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="e553-5fe7-2eba-42f2" name="Possessed 辅助军" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="e553-5fe7-2eba-42f2" name="附魔 辅助军" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
@@ -3931,7 +3931,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Save" typeId="5361766523232344415441232323">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="6684-7b7a-9c07-6f20" name="Possessed Legionary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="6684-7b7a-9c07-6f20" name="附魔 Legionary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -3959,9 +3959,9 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="eb78-734c-d1ad-7bdd" name="Ruinstorm 恶魔 Beast" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="eb78-734c-d1ad-7bdd" name="Ruinstorm 恶魔 野兽" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
-        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Beast</characteristic>
+        <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
         <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
         <characteristic name="S" typeId="5323232344415441232323">5</characteristic>
@@ -4071,7 +4071,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Save" typeId="5361766523232344415441232323">4+</characteristic>
       </characteristics>
     </profile>
-    <profile id="aa91-80fc-4bc0-dac9" name="Ruinstorm Greater 恶魔 Beast" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="aa91-80fc-4bc0-dac9" name="Ruinstorm Greater 恶魔 野兽" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">巨兽</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4192,7 +4192,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Models charging a unit with this Emanation do not gain bonus attacks from charging.</characteristic>
       </characteristics>
     </profile>
-    <profile id="10a2-f07d-47b6-f72a" name="Possessed Legionary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="10a2-f07d-47b6-f72a" name="附魔 Legionary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -4206,7 +4206,7 @@ If the unit reamins in Ongoing Reserves, or re-enters Ongoing Reserves, then it 
         <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="be04-2882-829c-cba4" name="Possessed Auxilary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="be04-2882-829c-cba4" name="附魔 Auxilary" publicationId="ca571888--pubN103311" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>

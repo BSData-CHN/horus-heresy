@@ -31,7 +31,7 @@
             炮兵单位只要包含任何火炮模型就不能冲锋.如果一个炮兵单位被冲锋,只有炮手可以坚守射击.坚守射击完成后,如常移动冲锋模型使其与炮手火炮模型底盘接触.不会有任何伤害会被分配到火炮模型.所有敌方的命中和造伤骰视作针对炮手,即使他们只与火炮模型交战.炮手可以反击但火炮不能.
 
             士气和撤退移动
-            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
+            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以追击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
 
             炮兵和长官小心
             不能使用长官小心规则将伤害转移到火炮模型上.</description>
@@ -133,7 +133,7 @@ actions, insurgency, and tactical skirmishes.
 following unit are restricted:
 
 Tanks, Fliers, Drop Pods, Superheavies are not allowed.
-Bikes, Attack Bikes, Jet Bikes, 炮兵, 巨兽, 利维坦
+摩托, Attack 摩托, Jet 摩托, 炮兵, 巨兽, 利维坦
 Siege Dreadnoughts are 0-1 choices.
 
 Note this precludes some Rites of War and Army Lists from Centurion mode.</description>
@@ -2096,7 +2096,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="aebc-f740-4144-8d26" name="New CategoryLink" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="af65-823f-8389-17c5" name="Rogue 灵能者 (AoW)" hidden="true" collective="false" import="true" targetId="6608-2a61-24a6-0cdc" type="selectionEntry">
+    <entryLink id="af65-823f-8389-17c5" name="流浪灵能者 (AoW)" hidden="true" collective="false" import="true" targetId="6608-2a61-24a6-0cdc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -7002,7 +7002,7 @@ D6  结果                 S                 AP
           <description>拥有此规则的人物可以加入一个拥有智控皮层规则巨兽单位. 模型不能以任何原因卧倒, 敌方可以直接射击此人物而忽略队伍中距离最近的巨兽模型.</description>
         </rule>
         <rule id="817d-c7c6-9566-9d88" name="野兽之仪" publicationId="ca571888--pubN89821" page="273" hidden="false">
-          <description>The Rite of the Beast is an additional Cybertheurgic power (see page 280 HH6) witch only he may use. The power has a modifier to use of -2. If successfully applied, it affects an entire unit of models rather than just a single model. All models in the unit 可以重投失败的 hits in assault and add +1 to their Initiative, move and charge distances for the duration of the power. However, after the power has expended normally, roll a D6 for each surviving model in the unit. On the roll of a 1, the model suffers a wound with no save of any kind possible.</description>
+          <description>The Rite of the 野兽 is an additional Cybertheurgic power (see page 280 HH6) witch only he may use. The power has a modifier to use of -2. If successfully applied, it affects an entire unit of models rather than just a single model. All models in the unit 可以重投失败的 hits in assault and add +1 to their Initiative, move and charge distances for the duration of the power. However, after the power has expended normally, roll a D6 for each surviving model in the unit. On the roll of a 1, the model suffers a wound with no save of any kind possible.</description>
         </rule>
         <rule id="4085-899b-3140-6628" name="赫蒙克鲁斯" publicationId="ca571888--pubN89821" page="273" hidden="false">
           <description>可以选择一个单独模型的阿拉塔克斯级战斗自动机兵小队.</description>
@@ -8031,13 +8031,13 @@ D6  结果                 S                 AP
               <entryLinks>
                 <entryLink id="a3e8-aa70-0b1a-1cba" name="重爆弹" hidden="false" collective="false" import="true" targetId="512b-a9be-50a4-c909" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Hull-mounted 重爆弹"/>
+                    <modifier type="set" field="name" value="车体重爆弹"/>
                     <modifier type="set" field="points" value="10"/>
                   </modifiers>
                 </entryLink>
                 <entryLink id="0856-9956-2fed-2539" name="重喷火器" hidden="false" collective="false" import="true" targetId="fc12-daad-3988-3994" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Hull-mounted 重喷火器"/>
+                    <modifier type="set" field="name" value="车体重喷火器"/>
                     <modifier type="set" field="points" value="10"/>
                   </modifiers>
                 </entryLink>
@@ -16352,7 +16352,7 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="94cd-52c7-4e2b-f8d6" name="Tech Priest 辅助军 may be taken as Troops" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="94cd-52c7-4e2b-f8d6" name="Tech Priest 辅助军may be taken as Troops" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -18464,7 +18464,7 @@ A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
             <entryLink id="b44a-24df-3238-870e" name="爆燃重炮" hidden="false" collective="false" import="true" targetId="edadef72-c786-ab75-6888-15d0cc090857" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="maxSelections" value="2.0"/>
-                <modifier type="set" field="name" value="Turret-mounted Volkite Culverins"/>
+                <modifier type="set" field="name" value="炮塔Volkite Culverins"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce1c-cf2c-a6ec-911e" type="min"/>

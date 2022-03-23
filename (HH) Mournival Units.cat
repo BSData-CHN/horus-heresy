@@ -65,14 +65,14 @@ The following units are unavailable:
 A minimum of 1 unrestricted unit is required for each 500pts, or part thereof in the force (including both primary and allied detachments). A maximum of 1 restricted unit is available for each full 500pts of the force. For example, in a game of 2000pts 至多 4 restricted choices in total may be selected. Apothecaries are counted as part of the unit they join, and the Warlord does not count against the number of restricted units, but does count towards unrestricted choices. Units with a mix of 步兵 and other models count as the unit type of the non-步兵 models.
 
 Examples: ♦
-Example 1: In a 2000 point army, a Praetor on a Bike could be taken (not counting as either restricted or unrestricted), along with an Outrider Squad including an Apothecary (counting as one restricted choice) plus a Contemptor Dreadnought Talon, A Legion Dreadnought Talon and a unit of Jet Bikes (for a total of 4 restricted units).
+Example 1: In a 2000 point army, a Praetor on a Bike could be taken (not counting as either restricted or unrestricted), along with an Outrider Squad including an Apothecary (counting as one restricted choice) plus a Contemptor Dreadnought Talon, A Legion Dreadnought Talon and a unit of Jet 摩托 (for a total of 4 restricted units).
 
 Example 2: In a 2000 point army, A Centurion on foot, with two Tactical Squads and a Tactical 支援小队 meets the requirement for 4 unrestricted
 units.
 
 Example 3: In a 2000 point army, Kharn the Bloody (a Praetor level Special 人物) uses up both the Unique 人物 and Praetor slots and also counts as one restricted unit choice (unless he is the Warlord).
 
-Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count as any type of choice), leading a unit of Brutes. That force could contain a further three restricted unit choices in total e.g two units of 恶魔 Beasts and one Greater 恶魔 Beast (巨兽).</description>
+Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count as any type of choice), leading a unit of Brutes. That force could contain a further three restricted unit choices in total e.g two units of 恶魔 Beasts and one Greater 恶魔 野兽 (巨兽).</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -866,7 +866,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
             <categoryLink id="582b-67f6-9f4e-11b7" name="Mournival 规则" hidden="false" targetId="dbe0-716f-797c-66f7" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="b780-fecf-a9d1-27b2" name="Additional Psychic Disciplines" hidden="false" collective="false" import="true" targetId="be86-7cb9-6f78-eb14" type="selectionEntry">
+        <entryLink id="b780-fecf-a9d1-27b2" name="额外灵能学派" hidden="false" collective="false" import="true" targetId="be86-7cb9-6f78-eb14" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f40-25d6-5055-63b0" type="min"/>
           </constraints>
@@ -1007,7 +1007,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
         <categoryLink id="4d13-2108-520e-9b5c" name="Unit" hidden="false" targetId="bc43-d4b5-5ce4-5208" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1408-6131-1677-6d8d" name="Possessed Astartes Squad, Legion" hidden="false" collective="false" import="true" targetId="491a-9bf1-e9bd-b2f8" type="selectionEntry">
+    <entryLink id="1408-6131-1677-6d8d" name="附魔 Astartes Squad, Legion" hidden="false" collective="false" import="true" targetId="491a-9bf1-e9bd-b2f8" type="selectionEntry">
       <modifiers>
         <modifier type="add" field="category" value="bc43-d4b5-5ce4-5208">
           <conditions>
@@ -1701,7 +1701,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
         <categoryLink id="7a77-abfb-4d22-bb4a" name="New CategoryLink" hidden="false" targetId="a91b-7f8f-d085-e564" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fcaf-8749-1ade-505a" name="Rogue 灵能者 (AoW)" hidden="true" collective="false" import="true" targetId="6608-2a61-24a6-0cdc" type="selectionEntry">
+    <entryLink id="fcaf-8749-1ade-505a" name="流浪灵能者 (AoW)" hidden="true" collective="false" import="true" targetId="6608-2a61-24a6-0cdc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -1808,7 +1808,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="6f91-2969-795c-509b" name="Rogue 灵能者" publicationId="e085-bc29-3c2d-2c49" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6f91-2969-795c-509b" name="流浪灵能者" publicationId="e085-bc29-3c2d-2c49" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1817,7 +1817,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="9bd5-2b6b-5056-5494" name="Rogue 灵能者" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="9bd5-2b6b-5056-5494" name="流浪灵能者" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1838,7 +1838,7 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
             <characteristic name="Save" typeId="5361766523232344415441232323">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="230f-1bfc-afbc-5b89" name="Possessed" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="230f-1bfc-afbc-5b89" name="附魔" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -1854,9 +1854,9 @@ Example 4: In a 2000 point army, a 恶魔 Lord is the Warlord (doesn’t count a
         </profile>
       </profiles>
       <rules>
-        <rule id="5889-c4d4-d798-b530" name="Possession" hidden="false">
-          <description>If the Rogue 灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes Possessed with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
-If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
+        <rule id="5889-c4d4-d798-b530" name="种源" hidden="false">
+          <description>If the 流浪灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes 附魔 with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
+If a 流浪灵能者 who is the army’s Warlord becomes 附魔, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1881,7 +1881,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f252-9774-70ef-59b8" name="May upgrade from Rogue 灵能者 to Rogue Alpha" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f252-9774-70ef-59b8" name="May upgrade from 流浪灵能者 to Rogue Alpha" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdcd-08f4-4b55-6dd3" type="max"/>
           </constraints>
@@ -1907,18 +1907,18 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4a83-23c6-4c31-d5a5" name="May swap 近战武器 for Tainted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f2d6-71eb-c150-7568">
+        <selectionEntryGroup id="4a83-23c6-4c31-d5a5" name="May swap 近战武器 for 腐化武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="f2d6-71eb-c150-7568">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9167-59ac-2c89-9f05" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3db-0b1a-aa39-728b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ac99-0f48-4e97-9694" name="Tainted Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ac99-0f48-4e97-9694" name="腐化武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f49b-3df7-41f1-daa5" type="max"/>
               </constraints>
               <profiles>
-                <profile id="183a-99f0-42ba-6e1d" name="Tainted Weapon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="183a-99f0-42ba-6e1d" name="腐化武器" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">近战</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">使用者</characteristic>
@@ -2104,7 +2104,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="57c9-2b68-5fce-d849" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cd9f-416f-f625-24b4" name="Rhino Armoured Carrier, Legion" hidden="false" collective="false" import="true" targetId="3215e60a-5c78-9efe-e6d4-ba87f3e74a21" type="selectionEntry"/>
+            <entryLink id="cd9f-416f-f625-24b4" name="犀牛装甲运兵车, Legion" hidden="false" collective="false" import="true" targetId="3215e60a-5c78-9efe-e6d4-ba87f3e74a21" type="selectionEntry"/>
             <entryLink id="cbdb-62e7-021d-fb5b" name="空降仓, Legion" hidden="false" collective="false" import="true" targetId="8a93771a-74ca-98ed-4560-4125176e5193" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -3206,7 +3206,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         <cost name="pts" typeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="491a-9bf1-e9bd-b2f8" name="Possessed Astartes Squad, Legion" publicationId="e085-bc29-3c2d-2c49" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="491a-9bf1-e9bd-b2f8" name="附魔 Astartes Squad, Legion" publicationId="e085-bc29-3c2d-2c49" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3252,13 +3252,13 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         <categoryLink id="027f-1673-8011-5ebf" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="52f2-8d32-5d9e-e91f" name="Possessed Marine" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="52f2-8d32-5d9e-e91f" name="附魔 Marine" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ea-38c5-1409-ea30" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5586-5e8f-10e9-2cfb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3db5-074f-223c-5e92" name="Possessed Marine" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="3db5-074f-223c-5e92" name="附魔 Marine" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="increment" field="5423232344415441232323" value="1">
                   <conditions>
@@ -3299,13 +3299,13 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="363d-2beb-ff36-828a" name="Possessed 士官" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="363d-2beb-ff36-828a" name="附魔 士官" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2436-8726-ae72-a935" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10aa-ccf0-fc4f-cfa5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="57ac-6c2f-1cfc-13ab" name="Possessed 士官" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="57ac-6c2f-1cfc-13ab" name="附魔 士官" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <modifiers>
                 <modifier type="set" field="5361766523232344415441232323" value="2+">
                   <conditions>
@@ -3361,7 +3361,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b470-1baf-1716-401b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4f77-36a5-e925-887c" name="Rhino Armoured Carrier, Legion" hidden="false" collective="false" import="true" targetId="3215e60a-5c78-9efe-e6d4-ba87f3e74a21" type="selectionEntry"/>
+            <entryLink id="4f77-36a5-e925-887c" name="犀牛装甲运兵车, Legion" hidden="false" collective="false" import="true" targetId="3215e60a-5c78-9efe-e6d4-ba87f3e74a21" type="selectionEntry"/>
             <entryLink id="dcda-1692-f99d-6b75" name="空降仓, Legion" hidden="false" collective="false" import="true" targetId="8a93771a-74ca-98ed-4560-4125176e5193" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -3431,7 +3431,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="87d0-8bb6-b04f-9526" name="Possessed 士官 may select the following" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="87d0-8bb6-b04f-9526" name="附魔 士官 may select the following" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="3162-da54-aed7-8537" name="精工甲" hidden="false" collective="false" import="true" targetId="93f9-8aba-be48-907a" type="selectionEntry">
               <constraints>
@@ -3566,7 +3566,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e1b9-6d3d-d55f-5470" name="Possessed 士官 may replace his 链锯剑 with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a329-f384-3adf-9217">
+        <selectionEntryGroup id="e1b9-6d3d-d55f-5470" name="附魔 士官 may replace his 链锯剑 with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a329-f384-3adf-9217">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a94-a06c-a918-5ebf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="175f-ad1e-c956-9f3e" type="min"/>
@@ -3670,7 +3670,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="a8be-fd0e-394a-642d" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry"/>
+            <entryLink id="a8be-fd0e-394a-642d" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="e15f-957d-bca2-8402" name="Legion-specific upgrade:" hidden="false" collective="false" import="true">
@@ -3819,7 +3819,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
       </modifiers>
       <rules>
         <rule id="e2f1-65a1-21f2-69b6" name="Deadshot" hidden="false">
-          <description>All successful hits, excluding 仓促射击, gain the Precision Shot rule.</description>
+          <description>All successful hits, excluding 仓促射击, gain the 精准射击 rule.</description>
         </rule>
         <rule id="5c5d-257a-5b36-509c" name="Execute the Mandate" hidden="false">
           <description>Gain +1VP at the end of the game if the enemy’s Warlord was removed as a casualty as a result of a Wound inflicted by a model with this rule.</description>
@@ -5112,7 +5112,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             </rule>
             <rule id="3347-6c01-2010-59bf" name="Supernumerary" hidden="false">
               <description>0-1 Legion Techmarines may be taken for each full 500 points in the detachment. These models use a single Elites 立场 Organisation slot. Each Legion Techmarine must be deployed as either:
-♦ A separate unit which may be joined by 伺服自动机兵 and 可以装备 a Rhino as a 专属运输载具, or
+♦ A separate unit which may be joined by 伺服自动机兵 and 可以装备 a 犀牛 as a 专属运输载具, or
 ♦ Assigned to one of your squads during deployment and may not voluntarily leave it during the game. Only squads entirely comprising models with the 步兵 type and the 阿斯塔特军团 规则 are eligible to be joined, and squads equipped with Terminator armour may not be joined.
 
 ♦ If equipped with a 跳跃背包 then they may only join eligible squads with the 跳跃步兵 type. If equipped with a Legion 星际战士摩托 then they may only join eligible squads with the Bike type instead.
@@ -5197,7 +5197,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                   </constraints>
                 </entryLink>
                 <entryLink id="5cdd-3859-e6af-2300" name="雷锤" hidden="false" collective="false" import="true" targetId="925c-50d4-0101-e0e7" type="selectionEntry"/>
-                <entryLink id="1ca3-8fa9-d66d-f61d" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                <entryLink id="1ca3-8fa9-d66d-f61d" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="0.0"/>
                   </modifiers>
@@ -5742,7 +5742,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="2f41-fe7a-f9a1-1106" name="Claws" hidden="false">
-              <description>A model equipped with claws count as having 2 近战武器s with the 撕裂 规则.</description>
+              <description>A model equipped with claws count as having 2 近战武器 with the 撕裂 规则.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6345,7 +6345,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="ede8-8e00-cf5f-7ea1" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                <entryLink id="ede8-8e00-cf5f-7ea1" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="5.0"/>
                   </modifiers>
@@ -6730,7 +6730,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
       <selectionEntryGroups>
         <selectionEntryGroup id="d9cb-4510-3fef-1ded" name="All models 可以选择:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="c5c1-bd3d-19dd-f8e5" name="狙击 Rifles - Anti-Materiel Rounds" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c5c1-bd3d-19dd-f8e5" name="狙击步枪 - Anti-Materiel Rounds" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="5.0">
                   <repeats>
@@ -6754,8 +6754,8 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 </profile>
               </profiles>
               <rules>
-                <rule id="5653-0fdb-48d2-74fb" name="狙击 Rifles - Anti-Materiel Rounds" hidden="false">
-                  <description>狙击 Rifles 可以装备 anti-materiel rounds for +5 points per model, increasing to Str 7. Due to the large amount of dust and debris kicked up, units containing models using these rounds suffer -1 to cover saves in the next turn.</description>
+                <rule id="5653-0fdb-48d2-74fb" name="狙击步枪 - Anti-Materiel Rounds" hidden="false">
+                  <description>狙击步枪 可以装备 anti-materiel rounds for +5 points per model, increasing to Str 7. Due to the large amount of dust and debris kicked up, units containing models using these rounds suffer -1 to cover saves in the next turn.</description>
                 </rule>
               </rules>
               <costs>
@@ -6858,7 +6858,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="f5c7-2c8a-8038-3527" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry"/>
+                <entryLink id="f5c7-2c8a-8038-3527" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry"/>
                 <entryLink id="a8c6-8f23-f9e8-5502" name="链锯剑/战斗刀" hidden="false" collective="false" import="true" targetId="4b1e-680b-1d39-e4f1" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
@@ -7837,7 +7837,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="ae6b-9b42-7cbb-c942" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                <entryLink id="ae6b-9b42-7cbb-c942" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
@@ -7911,12 +7911,12 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
         <selectionEntryGroup id="313e-8843-0fe2-5f44" name="The squad can be equipped with one model with" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="359f-17d8-5ec4-62cc" name="真理频道" hidden="false" collective="false" import="true" targetId="b4ea-a586-86a9-02eb" type="selectionEntry"/>
-            <entryLink id="defb-cc6e-f5e2-747c" name="Vexilla, Legion" hidden="false" collective="false" import="true" targetId="91c7-90a8-a1ae-cde0" type="selectionEntry"/>
+            <entryLink id="defb-cc6e-f5e2-747c" name="军旗, Legion" hidden="false" collective="false" import="true" targetId="91c7-90a8-a1ae-cde0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="77c1-c5fe-bec6-a562" name="专属运输载具" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="86e9-6bc6-2f3d-003d" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry"/>
+            <entryLink id="86e9-6bc6-2f3d-003d" name="原型兰德掠袭者" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="49e0-befa-ea0a-0e0d" name="Legion-specific upgrade:" hidden="false" collective="false" import="true">
@@ -8250,12 +8250,12 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
         <selectionEntryGroup id="7a39-edff-b84a-7ff5" name="The squad can be equipped with one model with" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="6661-1f31-1a0e-ff25" name="真理频道" hidden="false" collective="false" import="true" targetId="b4ea-a586-86a9-02eb" type="selectionEntry"/>
-            <entryLink id="ac01-2fd7-8454-3297" name="Vexilla, Legion" hidden="false" collective="false" import="true" targetId="91c7-90a8-a1ae-cde0" type="selectionEntry"/>
+            <entryLink id="ac01-2fd7-8454-3297" name="军旗, Legion" hidden="false" collective="false" import="true" targetId="91c7-90a8-a1ae-cde0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="120e-0893-9033-2001" name="专属运输载具" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="c276-5c38-5bf4-de29" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry"/>
+            <entryLink id="c276-5c38-5bf4-de29" name="原型兰德掠袭者" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry"/>
             <entryLink id="06ea-44df-441e-634e" name="Land Raider Phobos (DT)" hidden="false" collective="false" import="true" targetId="a8eda173-f749-cfb6-fd0e-3d6fb35cad3b" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -8744,7 +8744,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                     <repeat field="selections" scope="0183-7594-8997-5b90" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="set" field="name" value="导弹发射器 (Frag and Krak)**"/>
+                <modifier type="set" field="name" value="导弹发射器 (破片和穿甲)**"/>
               </modifiers>
             </entryLink>
             <entryLink id="a4c7-938e-f72e-cec3" name="收割者自动炮" hidden="false" collective="false" import="true" targetId="3cb9-7ef8-c6cd-aab4" type="selectionEntry">
@@ -9004,7 +9004,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="886f-17e0-260d-61e0" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+            <entryLink id="886f-17e0-260d-61e0" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="maxSelections" value="2.0"/>
               </modifiers>
@@ -9398,7 +9398,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="b26e-cd11-806e-7898" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+            <entryLink id="b26e-cd11-806e-7898" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="maxSelections" value="2.0"/>
               </modifiers>
@@ -10289,7 +10289,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="da77-e247-c256-1196" name="专属运输载具" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="894b-193f-f519-29c4" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry">
+            <entryLink id="894b-193f-f519-29c4" name="原型兰德掠袭者" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -10298,7 +10298,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="641e-8c22-4586-200c" name="Rhino Armoured Carrier, Legion" hidden="false" collective="false" import="true" targetId="3215e60a-5c78-9efe-e6d4-ba87f3e74a21" type="selectionEntry">
+            <entryLink id="641e-8c22-4586-200c" name="犀牛装甲运兵车, Legion" hidden="false" collective="false" import="true" targetId="3215e60a-5c78-9efe-e6d4-ba87f3e74a21" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -10737,7 +10737,7 @@ Hunter: Shot Gun, Chainblade, +1A and 敏锐感官</description>
         </selectionEntryGroup>
         <selectionEntryGroup id="74b8-5e2f-2e6c-4735" name="专属运输载具" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="9206-1618-cb81-b401" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry">
+            <entryLink id="9206-1618-cb81-b401" name="原型兰德掠袭者" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -12054,7 +12054,7 @@ A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
                   </constraints>
                   <rules>
                     <rule id="af00-0fc1-0969-9b8d" name="Split Attacks" hidden="false">
-                      <description>Attacks can be split between Melee 武器, declared before rolling to hit. This also allows the 人物 to replace the option for a basic weapon with an additional 近战武器.</description>
+                      <description>Attacks can be split between Melee 武器, declared before rolling to hit. This also allows the 人物 to replace the option for a basic weapon with an 额外近战武器.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -16402,7 +16402,7 @@ Owing to the massive expenditure of ammunition involved, once a squad has made a
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="654f-adce-1aa2-dae5" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                <entryLink id="654f-adce-1aa2-dae5" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
@@ -22088,7 +22088,7 @@ The Legion Banner’s area of effect is increased to 12”
 The Herald’s Banner’s area of effect is increased to 15”
 If the Centurion/Delegatus wears Power/Artificer armour they may select a Command squad, Suzerain or Templar Brethren Squad as a command squad.
 The Centurion/Delegatus 可以选择 Terminator Armour as normal. If he does then the The Herald and Master of Signal may also take Terminator Armour, and you 可以选择 a Terminator Command Squad, Phoenix, Gorgon, Deathshroud, Justaerin or Firedrake Squad as a command squad.
-*** Dedicated Transports are a bit of a pain to code due to each unit entry having its own, so it may not work correctly, outside of using the option given in the Company Command ***</description>
+*** 专属运输载具 are a bit of a pain to code due to each unit entry having its own, so it may not work correctly, outside of using the option given in the Company Command ***</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -22492,7 +22492,7 @@ Void Shield Harness</description>
                   </selectionEntries>
                   <entryLinks>
                     <entryLink id="2426-2ab6-1b41-2a62" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                    <entryLink id="2a63-3b03-e65e-761a" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="2a63-3b03-e65e-761a" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
@@ -22589,7 +22589,7 @@ Void Shield Harness</description>
                   </constraints>
                   <entryLinks>
                     <entryLink id="49c8-aecc-d7a6-d054" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                    <entryLink id="7e1a-8181-169e-73ec" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="7e1a-8181-169e-73ec" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
@@ -22824,7 +22824,7 @@ Void Shield Harness</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4650-67cb-c972-aa08" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="5017-6375-ae69-dd8e" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="5017-6375-ae69-dd8e" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
@@ -23495,7 +23495,7 @@ Void Shield Harness</description>
                   </selectionEntries>
                   <entryLinks>
                     <entryLink id="7298-8ba7-c7e4-a442" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                    <entryLink id="e3f2-4abe-98bd-3963" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="e3f2-4abe-98bd-3963" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
@@ -23562,7 +23562,7 @@ Void Shield Harness</description>
                   </constraints>
                   <entryLinks>
                     <entryLink id="6aed-12fd-6b9b-f6c6" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                    <entryLink id="e421-a7f8-2e01-31ef" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="e421-a7f8-2e01-31ef" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
@@ -23665,7 +23665,7 @@ Void Shield Harness</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f25-0677-2e37-e49d" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="3e14-850c-0d0f-0e8c" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="3e14-850c-0d0f-0e8c" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
@@ -24146,7 +24146,7 @@ has moved this turn or is embarked upon a 载具 (in which case he must use a Fi
                   </selectionEntries>
                   <entryLinks>
                     <entryLink id="9755-2b22-7923-336c" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                    <entryLink id="bc38-f97c-77b8-9102" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="bc38-f97c-77b8-9102" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
@@ -24196,7 +24196,7 @@ has moved this turn or is embarked upon a 载具 (in which case he must use a Fi
                   </constraints>
                   <entryLinks>
                     <entryLink id="085f-470b-6955-c138" name="地狱手枪" hidden="false" collective="false" import="true" targetId="e851-30d5-6ac4-a213" type="selectionEntry"/>
-                    <entryLink id="19b8-ec77-73ae-3b1f" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="19b8-ec77-73ae-3b1f" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
@@ -24324,7 +24324,7 @@ has moved this turn or is embarked upon a 载具 (in which case he must use a Fi
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb45-30ca-0ee9-8e41" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="9512-8f4c-3392-31f4" name="Tainted Weapon" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
+                    <entryLink id="9512-8f4c-3392-31f4" name="腐化武器" hidden="false" collective="false" import="true" targetId="2acd15a3-57b3-6c4e-1199-0fa706a5b3d8" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="points" value="0.0"/>
                       </modifiers>
@@ -24528,7 +24528,7 @@ has moved this turn or is embarked upon a 载具 (in which case he must use a Fi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da7e-d24a-eb0d-e14d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0792-a394-5998-20e2" name="Damocles Command Rhino" publicationId="ca571888--pubN68042" page="237" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="0792-a394-5998-20e2" name="Damocles Command 犀牛" publicationId="ca571888--pubN68042" page="237" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -24551,7 +24551,7 @@ has moved this turn or is embarked upon a 载具 (in which case he must use a Fi
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62bd-1fd4-7439-6661" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4c2c-902d-155d-a635" name="Damocles Command Rhino" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+                <profile id="4c2c-902d-155d-a635" name="Damocles Command 犀牛" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
                   <characteristics>
                     <characteristic name="BS" typeId="425323232344415441232323">4</characteristic>
                     <characteristic name="Front" typeId="46726f6e7423232344415441232323">11</characteristic>
@@ -24682,7 +24682,7 @@ has moved this turn or is embarked upon a 载具 (in which case he must use a Fi
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="cae2-eacd-dd9a-9388" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry">
+            <entryLink id="cae2-eacd-dd9a-9388" name="原型兰德掠袭者" hidden="false" collective="false" import="true" targetId="8cc05fec-8274-bea3-5d54-d249b36a3209" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>

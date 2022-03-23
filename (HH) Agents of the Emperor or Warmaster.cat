@@ -87,7 +87,7 @@
           <profiles>
             <profile id="913d-9725-9a46-a916" name="Grapplehawk" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Beast</characteristic>
+                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
@@ -118,7 +118,7 @@
           <profiles>
             <profile id="3c32-290f-a11b-7d64" name="Cyber-mastiff" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">Beast</characteristic>
+                <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">野兽</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
                 <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
@@ -310,7 +310,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2104-cf44-cbc1-061d" name="A Suffering Marshal 可以选择任何 options:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2104-cf44-cbc1-061d" name="A Suffering Marshal 可以选择任何:" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="60ac-1f49-6684-b436" name="Book of Law" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1431,12 +1431,12 @@ Skulltaker: The Lodge Master must personally kill the enemy Warlord e.g. through
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b1c-dce0-4ba2-a71d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d565-78b0-1d23-316c" name="Tainted Weapon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d565-78b0-1d23-316c" name="腐化武器" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fcf-5654-1aac-8661" type="max"/>
               </constraints>
               <profiles>
-                <profile id="fa91-87fc-6692-ae7f" name="Tainted Weapon" publicationId="ca571888--pubN113187" page="73" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="fa91-87fc-6692-ae7f" name="腐化武器" publicationId="ca571888--pubN113187" page="73" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">使用者</characteristic>
@@ -1626,7 +1626,7 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
           <description>Once per turn the Operative may attempt to intercept and corrupt a command. At the start of any phase, nominate an enemy unit to roll a D6 and add its Leadership. The Operative does the same. If the Operative’s total exceeds that of the unit, it may only fire 仓促射击 during that turn. The Operative adds +1 if the enemy unit has a Nuncio Vox or Cyber Occularis, or +2 if the enemy unit has a Cognis Signum or Djinn Skein.</description>
         </rule>
         <rule id="229c-b1b1-bc67-36b1" name="Emergency Extraction" hidden="false">
-          <description>During deployment, the controlling player must place an Extraction marker in their own deployment zone. This marker represents an Arvus Lighter, compromised grav lift or other method of egress. The Operative may embark into the marker and the following turn make a Reserve test for extraction (automatically passed on turn 4+). Once the Operative has embarked, the Extraction marker can be attacked, having AV11 and 2 Hull Points. The controlling player gains +1 VP if the Operative is successfully extracted.</description>
+          <description>During deployment, the controlling player must place an Extraction marker in their own deployment zone. This marker represents an 阿维斯轻型轨道穿梭机, compromised grav lift or other method of egress. The Operative may embark into the marker and the following turn make a Reserve test for extraction (automatically passed on turn 4+). Once the Operative has embarked, the Extraction marker can be attacked, having AV11 and 2 Hull Points. The controlling player gains +1 VP if the Operative is successfully extracted.</description>
         </rule>
         <rule id="487a-57f2-0543-f6d4" name="Hidden Operator" hidden="false">
           <description>The Operator is not deployed at the start of the game. Instead, the controlling player must secretly note which enemy unit the Operative is hiding within. At the start of any turn, the controlling player can reveal the Operator, placing a model within unit coherency of the unit he was hidden in. The Operator can then take a turn as normal  If, before being revealed, the unit the Operator is hidden within is killed or the game ends, the controlling player loses 1 Victory Point.</description>
@@ -1980,7 +1980,7 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
         <rule id="c2ef-73cf-1782-e96b" name="Orders of the Sigillite" hidden="false">
           <description>Before the game begins but after deployment, the controlling player must select one of the two following missions for the Chosen to perform.
 - Escort: Select a single friendly 人物 who is not the Warlord, the Chosen must remain in the Characters unit for as long as the 人物 is alive. While part of the same unit, the Chosen may automatically pass Heroic Intervention and Look Out Sir tests relating to the escorted 人物. If the escorted 人物 survives the game they are worth a single Victory Point, however if they are removed from play the opposing player gains two Victory Points.
-- Recover: The opposing player must nominate a single, 人物 (other than the Warlord) in their army to be the bearer of the Artefact. Should the 人物 be killed the Artefact is immediately dropped and a marker placed to designate its location. If the Chosen is within 1&quot; of the Artefact marker they may immediately pick it up. Once in possession of the Artefact the Chosen may attempt to leave the table by any table edge, even in a transport 载具. If, at the end of the game, the Chosen is in possession of the Artefact, either on or willing off the table, the controlling player gains 1 Victory Point.</description>
+- Recover: The opposing player must nominate a single, 人物 (other than the Warlord) in their army to be the bearer of the Artefact. Should the 人物 be killed the Artefact is immediately dropped and a marker placed to designate its location. If the Chosen is within 1&quot; of the Artefact marker they may immediately pick it up. Once in 种源 of the Artefact the Chosen may attempt to leave the table by any table edge, even in a transport 载具. If, at the end of the game, the Chosen is in 种源 of the Artefact, either on or willing off the table, the controlling player gains 1 Victory Point.</description>
         </rule>
         <rule id="24e2-4af8-c713-42e8" name="Resolute" hidden="false">
           <description>Roll a D6 each time the Chosen loses their final Wound while:
@@ -2635,7 +2635,7 @@ one 规则 the unit possesses ceases to have any effect</description>
       </profiles>
       <rules>
         <rule id="5666-2b1c-4a41-6cba" name="Deadshot" hidden="false">
-          <description>All successful hits, excluding 仓促射击, gain the Precision Shot rule.</description>
+          <description>All successful hits, excluding 仓促射击, gain the 精准射击 rule.</description>
         </rule>
         <rule id="043d-0908-9d86-56eb" name="孤独杀手" hidden="false">
           <description>An Exodus Assassin can never join or be joined by other models. May not be selected as a 强制指挥槽位 or be the Warlord of an army.</description>
@@ -2774,9 +2774,9 @@ one 规则 the unit possesses ceases to have any effect</description>
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6608-2a61-24a6-0cdc" name="Rogue 灵能者 (AoW)" publicationId="e085-bc29-3c2d-2c49" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6608-2a61-24a6-0cdc" name="流浪灵能者 (AoW)" publicationId="e085-bc29-3c2d-2c49" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="43e5-557e-f4b6-2b64" name="Rogue 灵能者" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="43e5-557e-f4b6-2b64" name="流浪灵能者" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2797,7 +2797,7 @@ one 规则 the unit possesses ceases to have any effect</description>
             <characteristic name="Save" typeId="5361766523232344415441232323">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="bf33-2aad-6d9c-b7dc" name="Possessed" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="bf33-2aad-6d9c-b7dc" name="附魔" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -2813,9 +2813,9 @@ one 规则 the unit possesses ceases to have any effect</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="9012-5629-0e4f-de43" name="Possession" hidden="false">
-          <description>If the Rogue 灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes Possessed with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
-If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
+        <rule id="9012-5629-0e4f-de43" name="种源" hidden="false">
+          <description>If the 流浪灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes 附魔 with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
+If a 流浪灵能者 who is the army’s Warlord becomes 附魔, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2841,7 +2841,7 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9a36-e7ac-cd20-5838" name="May upgrade from Rogue 灵能者 to Rogue Alpha" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9a36-e7ac-cd20-5838" name="May upgrade from 流浪灵能者 to Rogue Alpha" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b0f-3cc6-adba-15b7" type="max"/>
           </constraints>
@@ -2867,18 +2867,18 @@ If a Rogue 灵能者 who is the army’s Warlord becomes possessed, they are sti
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a552-4297-4fa5-a521" name="May swap 近战武器 for Tainted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1464-bbd3-b61a-1f09">
+        <selectionEntryGroup id="a552-4297-4fa5-a521" name="May swap 近战武器 for 腐化武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="1464-bbd3-b61a-1f09">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b0-987e-31e5-fe6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4244-b58a-3259-d7d6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d192-78a6-e146-a2b8" name="Tainted Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d192-78a6-e146-a2b8" name="腐化武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef2-6af9-4d4c-ecfe" type="max"/>
               </constraints>
               <profiles>
-                <profile id="186e-db34-6d37-9705" name="Tainted Weapon" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                <profile id="186e-db34-6d37-9705" name="腐化武器" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="52616e676523232344415441232323">近战</characteristic>
                     <characteristic name="Strength" typeId="537472656e67746823232344415441232323">使用者</characteristic>
@@ -3531,7 +3531,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
       </profiles>
       <rules>
         <rule id="ed4c-b911-de1d-c8ee" name="Heroic Witness" hidden="false">
-          <description>The Remembrancer gains a token for each an enemy 人物 that is killed within 6&quot; of the model. If the enemy 人物 was killed by a friendly 人物 (through a Challenge, Precision Shot/Strike etc.) the Remembrancer gains two tokens instead. Throughout the game a token can be discarded to allow the reroll of a single die by any 人物 in the same unit as the Remembrancer. This includes, but is not limited to: Leadership tests, To Hit/Wound rolls, Armour Saves, Run distances etc. A reroll can never be rerolled. If the Remembrancer is killed, all tokens are removed.</description>
+          <description>The Remembrancer gains a token for each an enemy 人物 that is killed within 6&quot; of the model. If the enemy 人物 was killed by a friendly 人物 (through a Challenge, 精准射击/Strike etc.) the Remembrancer gains two tokens instead. Throughout the game a token can be discarded to allow the reroll of a single die by any 人物 in the same unit as the Remembrancer. This includes, but is not limited to: Leadership tests, To Hit/Wound rolls, Armour Saves, Run distances etc. A reroll can never be rerolled. If the Remembrancer is killed, all tokens are removed.</description>
         </rule>
         <rule id="1155-10d7-7199-748a" name="Recorded Legacy" hidden="false">
           <description>At the end of the game, any unused tokens on the Remembrancer are converted to Campaign Points or Victory Points. Confirm with the events organiser as to the exact nature of this ability. As a guide; 1 Campaign Point for every 5 tokens or 1 Victory Point for every 3 tokens.</description>

@@ -11,7 +11,7 @@ Troop: 1 compulsory and 2 optional
 Heavy: 2 optional
 工事槽位: 1 optional
 
-No unit including dedicated transports may cost more than 350 points. THIS MUST BE CHECKED MANUALLY
+No unit including 专属运输载具 may cost more than 350 points. THIS MUST BE CHECKED MANUALLY
 
 LoW options are still visible, as despite the basic foc can&apos;t have them, Bonus cards in the events can give access to a LoW choice.</description>
         </rule>

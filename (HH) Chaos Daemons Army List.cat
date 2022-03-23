@@ -563,7 +563,7 @@
                 
         </entryLink>
             
-        <entryLink id="e94b-8e43-c385-1352" name="Spined Chaos Beast" hidden="false" targetId="2a4a-8f01-dd70-6125" type="selectionEntry">
+        <entryLink id="e94b-8e43-c385-1352" name="Spined Chaos 野兽" hidden="false" targetId="2a4a-8f01-dd70-6125" type="selectionEntry">
                   
             <profiles/>
                   
@@ -675,7 +675,7 @@
                 
         </entryLink>
             
-        <entryLink id="ecc1-6747-6ed9-0e54" name="Beast of Nurgle" hidden="false" targetId="1320-2184-57b9-82d0" type="selectionEntry">
+        <entryLink id="ecc1-6747-6ed9-0e54" name="野兽 of Nurgle" hidden="false" targetId="1320-2184-57b9-82d0" type="selectionEntry">
                   
             <profiles/>
                   
@@ -3431,7 +3431,7 @@ Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores al
                 
         </selectionEntry>
             
-        <selectionEntry id="07ddce08-173c-9cf4-47d2-bc017205d59c" name="Daemonic 灵能者 Level" page="0" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="07ddce08-173c-9cf4-47d2-bc017205d59c" name="Daemonic 灵能精通等级" page="0" hidden="false" collective="false" type="upgrade">
                   
             <profiles/>
                   
@@ -4926,7 +4926,7 @@ Super-heavies, 超级巨兽 and 建筑物 cannot be dragged by the impaler.</des
                   
             <selectionEntries>
                         
-                <selectionEntry id="aa6a-6588-5094-bad3" name="Heavy Stubbers" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="aa6a-6588-5094-bad3" name="重机枪" hidden="false" collective="false" type="upgrade">
                               
                     <profiles>
                                     
@@ -5164,11 +5164,11 @@ Super-heavies, 超级巨兽 and 建筑物 cannot be dragged by the impaler.</des
                             
                 </selectionEntry>
                         
-                <selectionEntry id="1672-37e0-3508-f4c7" name="Rapid-Fire Battle Cannon" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="1672-37e0-3508-f4c7" name="Rapid-Fire 战斗炮" hidden="false" collective="false" type="upgrade">
                               
                     <profiles>
                                     
-                        <profile typeId="576561706f6e23232344415441232323" typeName="" id="d1c8-1adb-8a9e-2566" name="Rapid-Fire Battle Cannon" hidden="false">
+                        <profile typeId="576561706f6e23232344415441232323" typeName="" id="d1c8-1adb-8a9e-2566" name="Rapid-Fire 战斗炮" hidden="false">
                                           
                             <profiles/>
                                           
@@ -5460,7 +5460,7 @@ Super-heavies, 超级巨兽 and 建筑物 cannot be dragged by the impaler.</des
                 
         </selectionEntry>
             
-        <selectionEntry id="1320-2184-57b9-82d0" name="Beast of Nurgle" page="0" hidden="false" collective="false" type="unit">
+        <selectionEntry id="1320-2184-57b9-82d0" name="野兽 of Nurgle" page="0" hidden="false" collective="false" type="unit">
                   
             <profiles/>
                   
@@ -9578,7 +9578,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                   
             <rules>
                         
-                <rule id="56f4-8753-e515-3262" name="Random Attacks" page="0" hidden="false">
+                <rule id="56f4-8753-e515-3262" name="随机攻击" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -10626,11 +10626,11 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                 
         </selectionEntry>
             
-        <selectionEntry id="2a4a-8f01-dd70-6125" name="Spined Chaos Beast" publicationId="640c-568f-pubN77007" page="0" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2a4a-8f01-dd70-6125" name="Spined Chaos 野兽" publicationId="640c-568f-pubN77007" page="0" hidden="false" collective="false" type="upgrade">
                   
             <profiles>
                         
-                <profile typeId="556e697423232344415441232323" typeName="Unit" id="a958-5c77-9f2f-1834" name="Spined Chaos Beast" page="0" hidden="false">
+                <profile typeId="556e697423232344415441232323" typeName="Unit" id="a958-5c77-9f2f-1834" name="Spined Chaos 野兽" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -17672,7 +17672,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                           
                             <characteristics>
                                                 
-                                <characteristic typeId="556e6974205479706523232344415441232323" name="Unit Type">Beast</characteristic>
+                                <characteristic typeId="556e6974205479706523232344415441232323" name="Unit Type">野兽</characteristic>
                                                 
                                 <characteristic typeId="575323232344415441232323" name="WS">4</characteristic>
                                                 
@@ -18126,7 +18126,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                           
                             <characteristics>
                                                 
-                                <characteristic typeId="556e6974205479706523232344415441232323" name="Unit Type">Beast</characteristic>
+                                <characteristic typeId="556e6974205479706523232344415441232323" name="Unit Type">野兽</characteristic>
                                                 
                                 <characteristic typeId="575323232344415441232323" name="WS">5</characteristic>
                                                 
@@ -18342,7 +18342,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="2566-19dc-b848-79cb" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="2566-19dc-b848-79cb" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -18374,7 +18374,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="a344-46b3-a6b8-05a4" name="灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="a344-46b3-a6b8-05a4" name="灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -18406,7 +18406,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="5340-434d-b018-3ad4" name="灵能者 Level 3" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="5340-434d-b018-3ad4" name="灵能精通等级 3" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -19618,7 +19618,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="5d99-53dd-1da8-5e43" name="Daemonic 灵能者 Level" hidden="false" collective="false">
+                <selectionEntryGroup id="5d99-53dd-1da8-5e43" name="Daemonic 灵能精通等级" hidden="false" collective="false">
                               
                     <profiles/>
                               
@@ -19638,7 +19638,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="dc2b-eebd-ab48-4d0e" name="灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="dc2b-eebd-ab48-4d0e" name="灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -19684,7 +19684,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="223f-70a8-9b42-7061" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="223f-70a8-9b42-7061" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -20374,7 +20374,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="1434-7b4f-12cd-132d" name="Daemonic 灵能者 Level" hidden="false" collective="false">
+                <selectionEntryGroup id="1434-7b4f-12cd-132d" name="Daemonic 灵能精通等级" hidden="false" collective="false">
                               
                     <profiles/>
                               
@@ -20394,7 +20394,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="eb3f-f894-399b-588d" name="灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="eb3f-f894-399b-588d" name="灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -20440,7 +20440,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="9256-44cc-6d35-c8a6" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="9256-44cc-6d35-c8a6" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -21050,7 +21050,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                             
                 </selectionEntryGroup>
                         
-                <selectionEntryGroup id="9643-86c4-6102-a7ce" name="Daemonic 灵能者 Level" hidden="false" collective="false" defaultSelectionEntryId="8022-f38e-75fe-aed1">
+                <selectionEntryGroup id="9643-86c4-6102-a7ce" name="Daemonic 灵能精通等级" hidden="false" collective="false" defaultSelectionEntryId="8022-f38e-75fe-aed1">
                               
                     <profiles/>
                               
@@ -21072,7 +21072,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="8022-f38e-75fe-aed1" name="灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="8022-f38e-75fe-aed1" name="灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -21104,7 +21104,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="1b3f-9f15-5739-f2c0" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="1b3f-9f15-5739-f2c0" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -21136,7 +21136,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="0cec-d442-7693-492d" name="灵能者 Level 3" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="0cec-d442-7693-492d" name="灵能精通等级 3" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -21570,7 +21570,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <characteristics>
                                     
-                        <characteristic typeId="556e6974205479706523232344415441232323" name="Unit Type">Beast (人物)</characteristic>
+                        <characteristic typeId="556e6974205479706523232344415441232323" name="Unit Type">野兽 (人物)</characteristic>
                                     
                         <characteristic typeId="575323232344415441232323" name="WS">7</characteristic>
                                     
@@ -21998,7 +21998,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="7238-087d-155b-4db3" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="7238-087d-155b-4db3" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -22030,7 +22030,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="b619-7327-0251-02e8" name="灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="b619-7327-0251-02e8" name="灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -22062,7 +22062,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="a8fd-f563-c7ef-1d5e" name="灵能者 Level 3" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="a8fd-f563-c7ef-1d5e" name="灵能精通等级 3" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -22272,7 +22272,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <profiles>
                         
-                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="84f3-7ca2-33ca-0e73" name="Daemonic possession" page="0" hidden="false">
+                <profile typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item" id="84f3-7ca2-33ca-0e73" name="Daemonic 种源" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -23000,7 +23000,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                   
             <selectionEntries>
                         
-                <selectionEntry id="3ac0-86a7-4430-77c3" name="Daemonic 灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="3ac0-86a7-4430-77c3" name="Daemonic 灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                               
                     <profiles/>
                               
@@ -23260,7 +23260,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="65a1-11dd-90c2-aaa8" name="灵能者 Level 3" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="65a1-11dd-90c2-aaa8" name="灵能精通等级 3" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -23292,7 +23292,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                                         
                         </selectionEntry>
                                     
-                        <selectionEntry id="d1ce-418a-f1fc-b5e4" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="d1ce-418a-f1fc-b5e4" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles/>
                                           
@@ -27970,7 +27970,7 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                   
             <selectionEntries>
                         
-                <selectionEntry id="f33e-be09-234f-0cf0" name="Daemonic 灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="f33e-be09-234f-0cf0" name="Daemonic 灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                               
                     <profiles/>
                               
@@ -29792,7 +29792,7 @@ Wounds / Effect
       
     <sharedSelectionEntryGroups>
             
-        <selectionEntryGroup id="beefcd38-5e93-0f5e-0b6e-9843ecc07bd1" name="Daemonic 灵能者 Level" hidden="false" collective="false">
+        <selectionEntryGroup id="beefcd38-5e93-0f5e-0b6e-9843ecc07bd1" name="Daemonic 灵能精通等级" hidden="false" collective="false">
                   
             <profiles/>
                   
@@ -29826,7 +29826,7 @@ Wounds / Effect
                   
             <selectionEntries>
                         
-                <selectionEntry id="ac0af1b3-1f96-af3b-e56f-fccb075e59ff" name="灵能者 Level 1" page="0" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="ac0af1b3-1f96-af3b-e56f-fccb075e59ff" name="灵能精通等级 1" page="0" hidden="false" collective="false" type="upgrade">
                               
                     <profiles/>
                               
@@ -29858,7 +29858,7 @@ Wounds / Effect
                             
                 </selectionEntry>
                         
-                <selectionEntry id="77cde8cf-c2cd-8214-4823-0c873282aa02" name="灵能者 Level 2" page="0" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="77cde8cf-c2cd-8214-4823-0c873282aa02" name="灵能精通等级 2" page="0" hidden="false" collective="false" type="upgrade">
                               
                     <profiles/>
                               
@@ -29890,7 +29890,7 @@ Wounds / Effect
                             
                 </selectionEntry>
                         
-                <selectionEntry id="0e0967c7-52d9-e771-95ba-9479ebfac759" name="灵能者 Level 3" page="0" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="0e0967c7-52d9-e771-95ba-9479ebfac759" name="灵能精通等级 3" page="0" hidden="false" collective="false" type="upgrade">
                               
                     <profiles/>
                               
@@ -32558,7 +32558,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="556e697423232344415441232323" typeName="" id="f756a086-e42b-7741-83e2-2ea37e828462" name="Beast of Nurgle" page="0" hidden="false">
+        <profile typeId="556e697423232344415441232323" typeName="" id="f756a086-e42b-7741-83e2-2ea37e828462" name="野兽 of Nurgle" page="0" hidden="false">
                   
             <profiles/>
                   
@@ -34228,7 +34228,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="57617267656172204974656d23232344415441232323" typeName="" id="0329475c-0e20-7f43-ca74-0f284df13d1b" name="Two Dreadnought 近战武器s" page="0" hidden="false">
+        <profile typeId="57617267656172204974656d23232344415441232323" typeName="" id="0329475c-0e20-7f43-ca74-0f284df13d1b" name="Two Dreadnought 近战武器" page="0" hidden="false">
                   
             <profiles/>
                   

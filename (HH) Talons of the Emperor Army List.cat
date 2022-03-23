@@ -1223,12 +1223,12 @@
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d639-7237-ccfd-efd6" name="One may replace his Shield with a Magisterium Vexilla:" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d639-7237-ccfd-efd6" name="One may replace his Shield with a Magisterium 军旗:" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2029-3975-c906-fbee" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ec99-9f7b-f4c7-efac" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+            <infoLink id="ec99-9f7b-f4c7-efac" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -1236,7 +1236,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2be2-aa65-9e16-fba1" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2be2-aa65-9e16-fba1" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="3fdd-fc76-46bf-1f02" name="热熔炸弹" hidden="false" collective="false" import="true" targetId="648a-e853-bb44-9cee" type="selectionEntry">
               <modifiers>
@@ -1326,13 +1326,13 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="0def-5a8b-cfa2-5b14" name="Refractor Feild" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
+        <entryLink id="0def-5a8b-cfa2-5b14" name="偏转立场" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20ac-99b2-4f3e-1b5d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6627-def4-1520-923b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="691c-2447-4669-7b00" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="691c-2447-4669-7b00" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006e-09e1-9bd5-1f21" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a59b-1edb-0eb9-8921" type="max"/>
@@ -1394,7 +1394,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="47bb-c967-e031-4dae" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="47bb-c967-e031-4dae" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="0a04-5d21-6a26-4877" name="New EntryLink" hidden="false" collective="false" import="true" targetId="648a-e853-bb44-9cee" type="selectionEntry">
               <modifiers>
@@ -1454,64 +1454,64 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8aa-5705-2824-a2b0" type="min"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b5c5-0698-4334-c671" name="One may replace with Magisterium Vexilla and a 精工动力武器 or Sentinal Warblade" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="b5c5-0698-4334-c671" name="One may replace with Magisterium 军旗 and a 精工动力武器 or Sentinal Warblade" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="c6da-100a-a655-0e7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7480-e656-802c-0cb2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="836a-2b2f-e1c9-08d4" name="Magisterium Vexilla &amp; 精工动力斧" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="836a-2b2f-e1c9-08d4" name="Magisterium 军旗 &amp; 精工动力斧" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f5-5d42-0fb1-cfdf" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="4714-4480-c5b4-090e" name="New InfoLink" hidden="false" targetId="b3af-1eca-6629-4894" type="profile"/>
                     <infoLink id="f0f3-33cf-6e3d-0dbd" name="精工" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="810a-db36-149a-8945" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="810a-db36-149a-8945" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="8c15-73f2-8f87-541b" name="Magisterium Vexilla &amp; 精工动力矛" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="8c15-73f2-8f87-541b" name="Magisterium 军旗 &amp; 精工动力矛" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd8-5092-5cd6-a7af" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="66bd-07c1-7562-912c" name="New InfoLink" hidden="false" targetId="fdd4-9bf3-da9d-5479" type="profile"/>
                     <infoLink id="3abd-d3b7-76e2-56f3" name="精工" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="4d11-aaf3-e0de-ceff" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="4d11-aaf3-e0de-ceff" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="c4fa-c7e1-b902-5bf3" name="Magisterium Vexilla &amp; 精工动力锤" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c4fa-c7e1-b902-5bf3" name="Magisterium 军旗 &amp; 精工动力锤" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1491-3fe8-4ba0-3164" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="bbce-55f3-5dc4-764e" name="New InfoLink" hidden="false" targetId="6bbe-f2c1-78e2-da59" type="profile"/>
                     <infoLink id="c753-fc9e-a0f3-0cf5" name="New InfoLink" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="4f10-8f62-8b93-f1b8" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="4f10-8f62-8b93-f1b8" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="d7f2-ec4d-86e7-dcf5" name="Magisterium Vexilla &amp; 精工动力剑" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d7f2-ec4d-86e7-dcf5" name="Magisterium 军旗 &amp; 精工动力剑" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0a9-7fd4-31e9-c782" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="fb80-6d7e-f227-1b06" name="New InfoLink" hidden="false" targetId="038e-23ec-4886-8b00" type="profile"/>
                     <infoLink id="cb44-29e6-3ee1-48ef" name="New InfoLink" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="df10-a7e0-b15f-a0ec" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="df10-a7e0-b15f-a0ec" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="7d05-b300-8622-0420" name="Magisterium Vexilla &amp; 精工Sentinel Warblade" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="7d05-b300-8622-0420" name="Magisterium 军旗 &amp; 精工Sentinel Warblade" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ca3-36bd-b31c-1bb0" type="max"/>
                   </constraints>
@@ -1521,7 +1521,7 @@
                     <infoLink id="8bbc-b3f6-ed58-fdfa" name="Hail of Fire" hidden="false" targetId="3800-d4fb-7935-f2a9" type="rule"/>
                     <infoLink id="8f90-2521-7140-ab0f" name="特殊武器" hidden="false" targetId="7ee3-d437-bc44-3630" type="rule"/>
                     <infoLink id="814e-51ce-e0c9-3043" name="撕裂" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
-                    <infoLink id="865d-ea85-2e89-4bcf" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="865d-ea85-2e89-4bcf" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
@@ -1561,7 +1561,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="b220-30f0-83ad-1f23" name="Refractor Feild" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
+        <entryLink id="b220-30f0-83ad-1f23" name="偏转立场" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e1-21ae-b39c-8d4a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b22e-f20f-ffae-cd99" type="max"/>
@@ -1573,7 +1573,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6527-f2a3-111c-7176" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9e0a-13df-52dc-1f79" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="9e0a-13df-52dc-1f79" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d50e-3870-1f61-e3c3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aea0-fcf3-3d4e-f622" type="max"/>
@@ -1947,7 +1947,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a4b-2b5d-f187-ae27" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="71d9-af3f-67af-35f6" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="71d9-af3f-67af-35f6" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f4-da3d-8842-545a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7541-15b2-b5db-11ad" type="min"/>
@@ -2558,7 +2558,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c74d-c66d-0a4e-3437" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="285b-ceac-8ab3-8962" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="285b-ceac-8ab3-8962" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d5-731f-c7fb-ed58" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9b-cee8-8723-2078" type="max"/>
@@ -2687,7 +2687,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1988-6c68-32eb-08ef" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1988-6c68-32eb-08ef" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="27da-6c37-ea40-c395" name="Arae-Shrikes" hidden="false" collective="false" import="true" targetId="be4a-0e91-0f1f-4c1d" type="selectionEntry">
               <modifiers>
@@ -2839,7 +2839,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3031-ee5d-34ec-ee7d" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3031-ee5d-34ec-ee7d" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="15d9-e051-b423-6d2c" name="热熔炸弹" hidden="false" collective="false" import="true" targetId="648a-e853-bb44-9cee" type="selectionEntry">
               <modifiers>
@@ -2899,64 +2899,64 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6153-d44a-c6fe-5e09" type="min"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3242-bd29-bbc8-fc9e" name="One may replace with Magisterium Vexilla and a 精工动力武器 or Sentinal Warblade" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="3242-bd29-bbc8-fc9e" name="One may replace with Magisterium 军旗 and a 精工动力武器 or Sentinal Warblade" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="d290-734d-18b9-e387" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e133-8255-3afd-1c32" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="5eed-622d-1f76-4861" name="Magisterium Vexilla &amp; 精工动力斧" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5eed-622d-1f76-4861" name="Magisterium 军旗 &amp; 精工动力斧" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac8c-e446-1020-6da2" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="2a2d-c01d-87b9-fe8f" name="New InfoLink" hidden="false" targetId="b3af-1eca-6629-4894" type="profile"/>
                     <infoLink id="ff1a-0432-9a2c-311a" name="精工" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="b63e-a83b-82c2-40ca" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="b63e-a83b-82c2-40ca" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="6d7d-e180-4c62-abf0" name="Magisterium Vexilla &amp; 精工动力矛" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6d7d-e180-4c62-abf0" name="Magisterium 军旗 &amp; 精工动力矛" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b799-2b26-3468-0bce" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="9f11-67d3-ea9b-efd3" name="New InfoLink" hidden="false" targetId="fdd4-9bf3-da9d-5479" type="profile"/>
                     <infoLink id="e89b-ae41-1494-1c2a" name="精工" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="9e75-ca4b-b21c-9848" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="9e75-ca4b-b21c-9848" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2e46-c6c1-4121-1538" name="Magisterium Vexilla &amp; 精工动力锤" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2e46-c6c1-4121-1538" name="Magisterium 军旗 &amp; 精工动力锤" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa2-ad77-053f-a946" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="d310-415a-3e85-9175" name="New InfoLink" hidden="false" targetId="6bbe-f2c1-78e2-da59" type="profile"/>
                     <infoLink id="9a98-adba-a758-4dbe" name="New InfoLink" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="28e7-d4ec-68bb-cc8c" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="28e7-d4ec-68bb-cc8c" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="15ff-1af7-206f-91f9" name="Magisterium Vexilla &amp; 精工动力剑" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="15ff-1af7-206f-91f9" name="Magisterium 军旗 &amp; 精工动力剑" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e7-bd9d-4430-88b9" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="9d3c-35b8-72c3-fb0a" name="New InfoLink" hidden="false" targetId="038e-23ec-4886-8b00" type="profile"/>
                     <infoLink id="9b74-e546-54b3-aa51" name="New InfoLink" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule"/>
-                    <infoLink id="bbe1-d53b-e620-09db" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="bbe1-d53b-e620-09db" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f39a-4d2f-1eb9-c592" name="Magisterium Vexilla &amp; 精工Sentinel Warblade" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f39a-4d2f-1eb9-c592" name="Magisterium 军旗 &amp; 精工Sentinel Warblade" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="087f-210c-4f83-4d76" type="max"/>
                   </constraints>
@@ -2966,7 +2966,7 @@
                     <infoLink id="75ca-5510-85f6-5873" name="Hail of Fire" hidden="false" targetId="3800-d4fb-7935-f2a9" type="rule"/>
                     <infoLink id="cc2c-925d-64f4-bbe4" name="特殊武器" hidden="false" targetId="7ee3-d437-bc44-3630" type="rule"/>
                     <infoLink id="1218-5b2b-c83f-7004" name="撕裂" hidden="false" targetId="8269-2cd6-9236-16e7" type="rule"/>
-                    <infoLink id="2526-95ac-0166-86aa" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+                    <infoLink id="2526-95ac-0166-86aa" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
@@ -3016,7 +3016,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6add-90c6-413a-38b6" name="Any Model 可以选择 a Praesidium Shield (Except Model With Vexilla)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6add-90c6-413a-38b6" name="Any Model 可以选择 a Praesidium Shield (Except Model With 军旗)" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="d5df-fa02-4446-a835" name="Praesidium Shield" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -3068,13 +3068,13 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="bc20-4e5c-3c03-17d9" name="Refractor Feild" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
+        <entryLink id="bc20-4e5c-3c03-17d9" name="偏转立场" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9103-b3a4-8af5-ba74" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbb9-8c83-0ae6-5b80" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="15c8-41ac-e9a7-86d6" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="15c8-41ac-e9a7-86d6" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e56b-2b02-b435-4249" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be03-578d-f16b-92b0" type="max"/>
@@ -3111,7 +3111,7 @@
         <categoryLink id="851c-0005-469e-aa43" name="载具 (单位):" hidden="false" targetId="3a7d-72fe-146e-fe7d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dc75-d782-32ec-f1d8" name="Two Dreadnought 近战武器s" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dc75-d782-32ec-f1d8" name="Two Dreadnought 近战武器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0307-ecbe-c7ec-24b8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9925-b195-bb51-8838" type="max"/>
@@ -3721,7 +3721,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1cbf-f7ed-4c58-e95c" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1cbf-f7ed-4c58-e95c" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="7061-7f23-e405-157a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="648a-e853-bb44-9cee" type="selectionEntry">
               <modifiers>
@@ -3785,7 +3785,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b29-97d8-7a5e-b060" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fe16-9a73-3811-ad08" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="fe16-9a73-3811-ad08" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca3f-48c0-f870-ade3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af7b-ea97-028d-7b06" type="max"/>
@@ -4150,7 +4150,7 @@
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2698-04a9-5e92-a1fe" name="One member may replace their Adrastus Bolt Caliver with Adrathic Destructor &amp; Magisterium Vexilla" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2698-04a9-5e92-a1fe" name="One member may replace their Adrastus Bolt Caliver with Adrathic Destructor &amp; Magisterium 军旗" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e65-14ca-4dc5-1e5e" type="max"/>
           </constraints>
@@ -4161,7 +4161,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c994-b822-e387-7115" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="ff86-e8e2-bc0d-2824" name="Magisterium Vexilla" hidden="false" collective="false" import="true" targetId="b7c1-be91-5d72-c763" type="selectionEntry">
+            <entryLink id="ff86-e8e2-bc0d-2824" name="Magisterium 军旗" hidden="false" collective="false" import="true" targetId="b7c1-be91-5d72-c763" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e423-9957-6159-bdb5" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="868f-7ddf-c554-8e70" type="min"/>
@@ -4174,7 +4174,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3d85-f3f4-90be-5e1f" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3d85-f3f4-90be-5e1f" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="e7e0-227a-c1d8-2b42" name="New EntryLink" hidden="false" collective="false" import="true" targetId="648a-e853-bb44-9cee" type="selectionEntry">
               <modifiers>
@@ -4257,13 +4257,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d8-2d71-f63b-6101" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="1877-a5b8-c164-bb1c" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="1877-a5b8-c164-bb1c" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c82-e27f-90c3-dfc5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="058e-1b70-4451-9b3f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="5c3d-5fa9-546d-48cf" name="Refractor Feild" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
+        <entryLink id="5c3d-5fa9-546d-48cf" name="偏转立场" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcbf-df52-c7aa-89ef" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db47-c50d-61e1-75db" type="min"/>
@@ -5281,7 +5281,7 @@ decided.</description>
             <characteristic name="Side" typeId="5369646523232344415441232323">12</characteristic>
             <characteristic name="Rear" typeId="5265617223232344415441232323">11</characteristic>
             <characteristic name="HP" typeId="485023232344415441232323">7</characteristic>
-            <characteristic name="Type" typeId="5479706523232344415441232323">超重型飞行器 (悬浮, Transport)</characteristic>
+            <characteristic name="Type" typeId="5479706523232344415441232323">超重型飞行器 (悬浮, 运输载具)</characteristic>
           </characteristics>
         </profile>
         <profile id="7ee3-dea7-8bc2-0013" name="Orion Assault Dropship (运载)" hidden="false" typeId="307d-047f-ca13-706b" typeName="运输载具">
@@ -5442,7 +5442,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="417c-2d09-9e00-5c5a" name="Entire squad 可以装备:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="417c-2d09-9e00-5c5a" name="整个小队可以装备:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="cec1-4e26-6240-6f23" name="热熔炸弹" hidden="false" collective="false" import="true" targetId="648a-e853-bb44-9cee" type="selectionEntry">
               <modifiers>
@@ -5511,13 +5511,13 @@ decided.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eef-6ab2-ce69-2cf8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="88d5-2997-5aec-2b63" name="Refractor Feild" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
+        <entryLink id="88d5-2997-5aec-2b63" name="偏转立场" hidden="false" collective="false" import="true" targetId="011a-b751-e773-6b90" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c268-aa80-eb94-5333" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c28-8a28-da42-07a9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9077-465a-c0f7-0928" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="9077-465a-c0f7-0928" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8bb-e3dd-a8e0-918f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="405e-8e13-6eb8-4481" type="max"/>
@@ -6031,7 +6031,7 @@ decided.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a8f5-e837-0cfa-b0f3" name="Plasma + Krak Grenades" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
+        <entryLink id="a8f5-e837-0cfa-b0f3" name="Plasma + 穿甲手雷" hidden="false" collective="false" import="true" targetId="42e2-2cc0-6353-4d47" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30dd-3f09-eead-9f2b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4e-8937-9c72-f335" type="min"/>
@@ -6119,9 +6119,9 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b7c1-be91-5d72-c763" name="Magisterium Vexilla" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b7c1-be91-5d72-c763" name="Magisterium 军旗" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="631b-0da4-3458-792f" name="Magesterium Vexilla" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
+            <infoLink id="631b-0da4-3458-792f" name="Magesterium 军旗" hidden="false" targetId="74a8-38a9-870a-f02d" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -6136,7 +6136,7 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="42e2-2cc0-6353-4d47" name="Plasma + Krak Grenades" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="42e2-2cc0-6353-4d47" name="Plasma + 穿甲手雷" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="cec2-cbf0-7874-0f36" name="New InfoLink" hidden="false" targetId="d9f7-775b-1047-f335" type="profile"/>
             <infoLink id="c600-66fb-51ef-43a0" name="New InfoLink" hidden="false" targetId="7b4d-1c91-ab33-1b12" type="profile"/>
@@ -7225,12 +7225,12 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
     </profile>
     <profile id="8801-24fc-bb8c-ef86" name="Praesidium Shield" publicationId="ca571888--pubN92115" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Praesidium Shield increases the 特殊保护 of the bearer by 1 (e.g., a 5+ becomes a 4+), to a maximum of 3+. It also imposes a -1 penalty on To Hit rolls of opponents who direct their attacks against the model in the 突击阶段, to a maximum of 6+. A model equipped with a Praesidium shield however cannot use a weapon with the 双手 规则, claim the benefit of an additional 近战武器 in assault or use the increased close combat profile when charging for a Guardian spear-type weapon.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Praesidium Shield increases the 特殊保护 of the bearer by 1 (e.g., a 5+ becomes a 4+), to a maximum of 3+. It also imposes a -1 penalty on To Hit rolls of opponents who direct their attacks against the model in the 突击阶段, to a maximum of 6+. A model equipped with a Praesidium shield however cannot use a weapon with the 双手 规则, claim the benefit of an 额外近战武器 in assault or use the increased close combat profile when charging for a Guardian spear-type weapon.</characteristic>
       </characteristics>
     </profile>
     <profile id="0a62-df1f-aed7-fc07" name="Aquillon Pattern Terminator Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aquilon Pattern Terminator Armour provides a 2+ armor save, a 4+ 特殊保护, and the 愤怒之锤 规则. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo 武器, counting as stationary even if they moved in the previous movement phase. They may also charge after firing Rapid Fire, Heavy, or Salvo 武器. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire 坚守射击 and make 追击.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aquilon Pattern Terminator Armour provides a 2+ 装甲保护, a 4+ 特殊保护, and the 愤怒之锤 规则. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo 武器, counting as stationary even if they moved in the previous 移动阶段. They may also charge after firing Rapid Fire, Heavy, or Salvo 武器. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire 坚守射击 and make 追击.</characteristic>
       </characteristics>
     </profile>
     <profile id="ccdd-40a2-abb2-09a3" name="Teleportation Transponder" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
@@ -7238,14 +7238,14 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit comprising models that are all equipped with teleportation transponders gains the 深度打击 rule.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a660-c6dd-f169-e9f3" name="Refractor Feild" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
+    <profile id="a660-c6dd-f169-e9f3" name="偏转立场" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">5++</characteristic>
       </characteristics>
     </profile>
-    <profile id="74a8-38a9-870a-f02d" name="Magesterium Vexilla" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
+    <profile id="74a8-38a9-870a-f02d" name="Magesterium 军旗" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit with the Magisterium Vexilla 可以重投失败的 Leadership tests and gains the 恐怖 规则. In addition, you may add +1 to the Wounds score calculated to see if any friendly unit with any models within 12&quot; of any magisterium Vaxilla wins a combat in the 突击阶段 - this bonus only applies once.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A unit with the Magisterium 军旗 可以重投失败的 Leadership tests and gains the 恐怖 规则. In addition, you may add +1 to the Wounds score calculated to see if any friendly unit with any models within 12&quot; of any magisterium Vaxilla wins a combat in the 突击阶段 - this bonus only applies once.</characteristic>
       </characteristics>
     </profile>
     <profile id="b429-19fb-4cf4-1e2e" name="Arae-Shrikes (深度打击 Interference)" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">

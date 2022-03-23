@@ -27,7 +27,7 @@
             炮兵单位只要包含任何火炮模型就不能冲锋.如果一个炮兵单位被冲锋,只有炮手可以坚守射击.坚守射击完成后,如常移动冲锋模型使其与炮手火炮模型底盘接触.不会有任何伤害会被分配到火炮模型.所有敌方的命中和造伤骰视作针对炮手,即使他们只与火炮模型交战.炮手可以反击但火炮不能.
 
             士气和撤退移动
-            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
+            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以追击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
 
             炮兵和长官小心
             不能使用长官小心规则将伤害转移到火炮模型上.</description>
@@ -157,7 +157,7 @@ actions, insurgency, and tactical skirmishes.
 following unit are restricted:
 
 Tanks, Fliers, Drop Pods, Superheavies are not allowed.
-Bikes, Attack Bikes, Jet Bikes, 炮兵, 巨兽, 利维坦
+摩托, Attack 摩托, Jet 摩托, 炮兵, 巨兽, 利维坦
 Siege Dreadnoughts are 0-1 choices.
 
 Note this precludes some Rites of War and Army Lists from Centurion mode.</description>
@@ -290,11 +290,11 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
     </forceEntry>
     <forceEntry id="4e06-f510-5de0-195b" name="黑暗盟军" hidden="false">
       <rules>
-        <rule id="cc25-0704-2c85-ff7d" name="Disposable" hidden="false">
-          <description>The Disposable 规则 given in the unit entry for the Inducted Levy Squad in the Imperialis Militia and Cults army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only Inducted Levy Squads</description>
+        <rule id="cc25-0704-2c85-ff7d" name="消耗品" hidden="false">
+          <description>The 消耗品 规则 given in the unit entry for the 动员兵小队 in the 帝国民兵和异教徒 army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only 动员兵小队s</description>
         </rule>
         <rule id="03ea-ee83-b8a7-6d8a" name="Warmaster&apos;s Due" hidden="false">
-          <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the Imperialis Militia and Cults army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the 掩体保护 bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
+          <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the 帝国民兵和异教徒 army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the 掩体保护 bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1700,7 +1700,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="cbe4-385f-c29c-60bf" name="New CategoryLink" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f2c5-1a74-e6e8-326d" name="Rogue 灵能者 (AoW)" hidden="true" collective="false" import="true" targetId="6608-2a61-24a6-0cdc" type="selectionEntry">
+    <entryLink id="f2c5-1a74-e6e8-326d" name="流浪灵能者 (AoW)" hidden="true" collective="false" import="true" targetId="6608-2a61-24a6-0cdc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2032,7 +2032,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="25c4-ab1a-3773-5ced" name="Infravisors" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="25c4-ab1a-3773-5ced" name="夜视仪" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="5">
                   <repeats>
@@ -9835,7 +9835,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <profiles>
             <profile id="5f91-e2d7-5879-4b23" name="Metaphasic Reader" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The unit, as well as any Solar 辅助军 unit from the same detachment within 12&quot;, gain the 拦截 规则.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The unit, as well as any Solar 辅助军unit from the same detachment within 12&quot;, gain the 拦截 规则.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10073,7 +10073,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="d23b-52e4-1467-a217" name="4. 致盲弹幕" hidden="false">
-                  <description>The Warlord’s controlling player may choose to unleash a 致盲 bombardment at the start of the game. If this is done, all friendly Solar 辅助军 units gain the 笼罩 规则 for the duration of the first game turn only.</description>
+                  <description>The Warlord’s controlling player may choose to unleash a 致盲 bombardment at the start of the game. If this is done, all friendly Solar 辅助军units gain the 笼罩 规则 for the duration of the first game turn only.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -10273,7 +10273,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <characteristic name="距离" typeId="52616e676523232344415441232323">18&quot;</characteristic>
         <characteristic name="S" typeId="537472656e67746823232344415441232323">*</characteristic>
         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-        <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸, Concussion, 重力脉冲, 电磁干扰</characteristic>
+        <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 爆炸, 震荡, 重力脉冲, 电磁干扰</characteristic>
       </characteristics>
     </profile>
     <profile id="cc4860a0-465c-fb33-3175-119d9ea47519" name="重型链锯剑" publicationId="ca571888--pubN84158" page="248" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">

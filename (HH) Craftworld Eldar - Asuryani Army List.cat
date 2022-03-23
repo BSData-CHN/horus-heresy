@@ -898,7 +898,7 @@
         <rule id="06ec-0321-4e9c-63ac" name="Distort Rift" publicationId="5c4c-bef9-9681-e0fc" page="12" hidden="false">
           <description>Distort Rift: The D-Impaler ignores all active 虚空盾 and power fields on a target model, but does not destroy or remove them. In
 addition, after the D-Impaler has fired, roll a D6. On 4+, leave the 巨大爆炸 (7&quot;) 喷射盖板 in place until the beginning of the
-controlling players next game turn. If any model begins or ends the movement phase under the 喷射盖板, roll a D6. A 非载具 model
+controlling players next game turn. If any model begins or ends the 移动阶段 under the 喷射盖板, roll a D6. A 非载具 model
 suffers a single wound on a 6, with no armour saves, 特殊保护 or cover saves. 载具 models take a Glancing hit on the roll of a 6.
 Super Heavy vehicles and 超级巨兽 are unaffected.</description>
         </rule>
@@ -2287,7 +2287,7 @@ If the 灵能者 chose the first target model, they can choose the second and th
         <profile id="9d87-5b1a-5501-ecef" name="Serpent Shield" publicationId="5c4c-bef9-9681-e0fc" page="18" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
           <characteristics>
             <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">All penetrating hits inflicted against the front or side armour of a 载具 equipped with a Serpent Shield are downgraded to glancing hits on a D6 roll of 2+.
-整场游戏一次, the Serpent Shield can be used as a weapon in the controlling player&apos;s 射击阶段, with the profile listed below. This is treated as a hull-mounted weapon that is pointing forward.
+整场游戏一次, the Serpent Shield can be used as a weapon in the controlling player&apos;s 射击阶段, with the profile listed below. This is treated as a 车体weapon that is pointing forward.
 For the remainder of the battle after the shooting attack has been resolved, all subsequent hits against the 载具 are treated as though the 载具 was not equipped with a Serpent Shield.</characteristic>
           </characteristics>
         </profile>
@@ -7587,7 +7587,7 @@ The Wraith Guide must be attached to a squad of either Wraithguard or Wraithblad
           <rules>
             <rule id="fb63-90f7-66c5-0292" name="Path of the Shaper" publicationId="5c4c-bef9-9681-e0fc" page="37" hidden="false">
               <description>The unit which the Bonesinger is attached to gains 不知疼痛 (5+).
-In the 射击阶段 the Bonesinger may repair a single Hull Point on a friendly Asuryani 载具 or Building within 6&quot; or heal a single Wound on a friendly Asuryani Wraith model within 6&quot;. If this option is used the unit loses their 不知疼痛 bonus until the start of their following turn.</description>
+In the 射击阶段 the Bonesinger may 修理 a single Hull Point on a friendly Asuryani 载具 or Building within 6&quot; or heal a single Wound on a friendly Asuryani Wraith model within 6&quot;. If this option is used the unit loses their 不知疼痛 bonus until the start of their following turn.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8987,7 +8987,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             <entryLink id="1dc4-5331-0783-ec3a" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="00a4-f293-8e54-74c7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bcb7-49ac-cab5-d71d" name="For every five Guardians in the unit one 可以替换 their 近战武器s and shiriken pisto for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bcb7-49ac-cab5-d71d" name="For every five Guardians in the unit one 可以替换 their 近战武器 and shiriken pisto for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="386b-fb65-f51d-54a2" value="1">
               <repeats>
@@ -9009,7 +9009,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c310-a136-33a4-0d2a" name="For every five Guardians in the unit one 可以替换 their 近战武器s and shiriken pisto for:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c310-a136-33a4-0d2a" name="For every five Guardians in the unit one 可以替换 their 近战武器 and shiriken pisto for:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="4cca-7f85-6eba-3853" value="1">
               <repeats>
@@ -10857,7 +10857,7 @@ Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9d90-7b2c-72e3-95ec" name="The entire squad must exchange their Aeldari Jetbike&apos;s 双联Shuriken Catapult for a:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8035-5f77-a438-ec4c">
+        <selectionEntryGroup id="9d90-7b2c-72e3-95ec" name="The 整个小队must exchange their Aeldari Jetbike&apos;s 双联Shuriken Catapult for a:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8035-5f77-a438-ec4c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecde-7da6-59ab-57d2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b56-11eb-fb4d-6090" type="min"/>
@@ -12601,7 +12601,7 @@ D6 Result
       <description>One box on a 立场 Organisation chart allows you to make one selection from that part of your army list. Dark boxes indicate compulsory selections, which must be included as part of the army, while the lighter boxes indicate optional choices, which are only included as part of the army if the player in question chooses to do so. If constructing an army using the Crusade 立场 Organisation chart, this would mean that an army would be required to take at least one HQ choice and two Troops choices. These compulsory choices are intended to ensure that the core of each army is illustrative of the force represented by the Army List in use, and that all armies are capable of properly participating in the varied missions available to players in the Age of Darkness.</description>
     </rule>
     <rule id="15d6-c0a2-6e1a-32c5" name="支援单位" publicationId="ca571888--pubN106502" page="" hidden="false">
-      <description>This unit type may not be chosen as a 强制基础槽位 choice for the army.</description>
+      <description>此单为不能作为强制基础槽位的选择.</description>
     </rule>
     <rule id="1dcf-177e-eec5-5d33" name="Linked Fire" publicationId="5c4c-bef9-9681-e0fc" page="61" hidden="false">
       <description>If a Fire Prism squadron contains more than one model, the squadron can link its prism cannons instead of firing normally. Nominate one model in the squadron as the firer; the other models in the squadron cannot fire their prism cannons this turn. The firer shoots with its prism cannon as normal, adding 1 to the Strength (to a maximum of 10) and subtracting 1 from the AP (to a minimum of 1) for each other Fire Prism in the squadron that could have otherwise fired its prism cannon normally. For example, a squadron of 3 Fire Prisms, 1 of which is affected by a 乘员震晕 result and can only fire 仓促射击, could fire a single focussed shot at Strength 8 AP1.</description>

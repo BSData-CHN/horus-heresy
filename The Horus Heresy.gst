@@ -412,7 +412,7 @@ To determine which trait your Warlord has, you need to choose which 主将特性
             炮兵单位只要包含任何火炮模型就不能冲锋.如果一个炮兵单位被冲锋,只有炮手可以坚守射击.坚守射击完成后,如常移动冲锋模型使其与炮手火炮模型底盘接触.不会有任何伤害会被分配到火炮模型.所有敌方的命中和造伤骰视作针对炮手,即使他们只与火炮模型交战.炮手可以反击但火炮不能.
 
             士气和撤退移动
-            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以扫荡打击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
+            任何士气测试和其他LD测试以及计算近战战果始终忽略火炮模型.因为使炮兵单位移动需要每个火炮至少有一个炮手,如果一个炮兵单位被迫撤退时不能做到每个火炮有一个炮手,任何在炮手范围外的火炮模型立即视作伤亡被移除.单位中的其余模型如常撤退.如果一个炮兵单位被迫从近战中撤退则敌方可以追击,然后炮兵单位I测试自动失败,被胜利者追上并被摧毁.
 
             炮兵和长官小心
             不能使用长官小心规则将伤害转移到火炮模型上.</description>
@@ -2073,12 +2073,12 @@ D6    结果  S AP
     </selectionEntry>
     <selectionEntry id="5d8d-02d9-88cf-965f" name="学派: Daemonology (Malefic)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2bd4-22b0-173e-277f" name="6. Possession" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
+        <profile id="2bd4-22b0-173e-277f" name="6. 种源" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
           <characteristics>
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">3</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">6</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Possession creates one of the following new units (your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the 灵能者 is immediately removed as a casualty (if the 灵能者 was part of a unit with the 灵能者兄弟会/巫师兄弟会 规则, remove the entire unit as casualties). If, when using this power, the 灵能者 fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">种源 creates one of the following new units (your choice): 1 Bloodthirster, 1 Lord of Change, 1 Great Unclean One or 1 Keeper of Secrets. If this power is successfully manifested, the 灵能者 is immediately removed as a casualty (if the 灵能者 was part of a unit with the 灵能者兄弟会/巫师兄弟会 规则, remove the entire unit as casualties). If, when using this power, the 灵能者 fails his Psychic test, he automatically suffers Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="9bc0-7e8d-d0cf-d07c" name="3. Infernal Gaze" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="9c33-b0c8-74bd-e5a7" typeName="灵能 (攻击)">
@@ -2563,7 +2563,7 @@ D6    结果  S AP
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f28c-280b-6161-6d1b" name="Battle Cannon" page="" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f28c-280b-6161-6d1b" name="战斗炮" page="" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="948f-e308-f953-1c3e" type="max"/>
               </constraints>
@@ -2614,7 +2614,7 @@ D6    结果  S AP
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c848-ee1c-56f5-3df0" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6056-ffd8-14e6-d1b6" name="Battle Cannon" page="" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6056-ffd8-14e6-d1b6" name="战斗炮" page="" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="89f7-7df8-88d7-5d5c" type="max"/>
               </constraints>
@@ -3141,7 +3141,7 @@ In the event of enemy models embarking inside the Primus Redoubt, the Battle Cre
                 <cost name="分" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4820-a666-af97-ac7e" name="Battle Cannon Turret" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4820-a666-af97-ac7e" name="战斗炮 Turret" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f64e-2266-9649-520b" type="max"/>
               </constraints>
@@ -3378,7 +3378,7 @@ The Bunkers of the Castellum Stronghold have a 5+ 特殊保护 against shooting 
                     <cost name="分" typeId="points" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0ed7-6b83-ea28-d01c" name="Battle Cannon Turret" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="0ed7-6b83-ea28-d01c" name="战斗炮 Turret" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0c8-986d-53b8-ccbb" type="max"/>
                   </constraints>
@@ -6341,7 +6341,7 @@ Please let us know what worked well as a part of these rules and also what could
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="8e8a-52ec-ee76-3145" name="Turret-Mounted 毒刃 Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8e8a-52ec-ee76-3145" name="炮塔毒刃 Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af28-f5ed-2543-9494" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a49-c181-362a-bf65" type="min"/>
@@ -6375,13 +6375,13 @@ Please let us know what worked well as a part of these rules and also what could
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8b03-190b-b917-054d" name="Hull-Mounted 破坏者攻城炮" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8b03-190b-b917-054d" name="车体破坏者攻城炮" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0354-fb7e-c35e-2d17" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de8-7992-288e-98a8" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="8f37-209e-4c25-6bfe" name="Demonlisher Cannon" hidden="false" targetId="431c-d4dc-7243-5e8f" type="profile"/>
+            <infoLink id="8f37-209e-4c25-6bfe" name="破坏者攻城炮" hidden="false" targetId="431c-d4dc-7243-5e8f" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
@@ -6408,7 +6408,7 @@ Please let us know what worked well as a part of these rules and also what could
               </constraints>
               <rules>
                 <rule id="e4fb-460b-2f4b-5d6b" name="超重型指挥坦克" publicationId="ca571888--pubN84158" page="243" hidden="false">
-                  <description>If the 载具 is upgraded to a 超重型指挥坦克, all allied units within 24&quot; of the 载具 可以重投失败的 士气测试.</description>
+                  <description>超重型指挥坦克24&quot;范围内的友方步兵单位可以冲头失败的士气测试.</description>
                 </rule>
               </rules>
               <costs>
@@ -6734,13 +6734,13 @@ Please let us know what worked well as a part of these rules and also what could
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="2ce2-a16c-16a6-c0ba" name="Macharius Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2ce2-a16c-16a6-c0ba" name="Macharius 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2b-7f2e-8b2a-9161" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bf-9560-1087-a037" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c0ae-96be-2cbd-1b6c" name="Macharius Battle Cannon" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="c0ae-96be-2cbd-1b6c" name="Macharius 战斗炮" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">72</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -6821,9 +6821,9 @@ Please let us know what worked well as a part of these rules and also what could
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c921-67d3-80ee-fd54" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="9c8f-5408-1f3e-3a5e" name="Two 侧挂Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="9c8f-5408-1f3e-3a5e" name="Two 侧挂重机枪" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two 侧挂Heavy Stubbers"/>
+                    <modifier type="set" field="name" value="Two 侧挂重机枪"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="919f-59a3-ea73-8235" type="max"/>
@@ -7096,13 +7096,13 @@ Please let us know what worked well as a part of these rules and also what could
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="f52b-cd4f-a4d2-53aa" name="Macharius Vanquisher Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f52b-cd4f-a4d2-53aa" name="Macharius Vanquisher 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2311-8855-b21c-3f08" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e445-ded9-5526-66df" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0fb9-9da6-802d-aca0" name="Macharius Vanquisher Battle Cannon (AP Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="0fb9-9da6-802d-aca0" name="Macharius Vanquisher 战斗炮 (AP Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -7110,7 +7110,7 @@ Please let us know what worked well as a part of these rules and also what could
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 双联, 装甲杀手, 主武器</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="adab-d3af-5889-d8b6" name="Macharius Vanquisher Battle Cannon (爆炸 Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="adab-d3af-5889-d8b6" name="Macharius Vanquisher 战斗炮 (爆炸 Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -7120,7 +7120,7 @@ Please let us know what worked well as a part of these rules and also what could
                 </profile>
               </profiles>
               <rules>
-                <rule id="fa64-7c84-359d-fb3a" name="Macharius Vanquisher Battle Cannon" hidden="false">
+                <rule id="fa64-7c84-359d-fb3a" name="Macharius Vanquisher 战斗炮" hidden="false">
                   <description>You must choose the type of shell fired before the dice is rolled and you can only fire one shell type a turn.
 Any abilities that allow the 载具 to fire multiple shots will use the same shell type for all shots fired that turn.</description>
                 </rule>
@@ -7191,9 +7191,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="150c-2a46-5da9-644c" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="2b0d-74d6-7cd6-a42e" name="Two 侧挂Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2b0d-74d6-7cd6-a42e" name="Two 侧挂重机枪" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two 侧挂Heavy Stubbers"/>
+                    <modifier type="set" field="name" value="Two 侧挂重机枪"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5bf4-3a62-44b2-63ac" type="max"/>
@@ -7378,9 +7378,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eebb-b405-778e-001d" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="6693-7731-9572-8476" name="Two 侧挂Heavy Stubbers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6693-7731-9572-8476" name="Two 侧挂重机枪" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="name" value="Two 侧挂Heavy Stubbers"/>
+                    <modifier type="set" field="name" value="Two 侧挂重机枪"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4274-6b78-05c5-e015" type="max"/>
@@ -7506,7 +7506,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               </constraints>
               <rules>
                 <rule id="453a-4b6e-0c29-332a" name="超重型指挥坦克" publicationId="ca571888--pubN84158" page="243" hidden="false">
-                  <description>If the 载具 is upgraded to a 超重型指挥坦克, all allied units within 24&quot; of the 载具 可以重投失败的 士气测试.</description>
+                  <description>超重型指挥坦克24&quot;范围内的友方步兵单位可以冲头失败的士气测试.</description>
                 </rule>
               </rules>
               <costs>
@@ -7651,7 +7651,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="13aa-dfaf-b30c-c696" name="Hull-Mounted 双联重爆弹" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="13aa-dfaf-b30c-c696" name="车体双联重爆弹" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="30d9-8568-dcb2-92ce" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc72-6bd1-2022-afde" type="max"/>
@@ -7684,7 +7684,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               </constraints>
               <rules>
                 <rule id="afcc-af80-aee8-3e9b" name="超重型指挥坦克" publicationId="ca571888--pubN84158" page="243" hidden="false">
-                  <description>If the 载具 is upgraded to a 超重型指挥坦克, all allied units within 24&quot; of the 载具 可以重投失败的 士气测试.</description>
+                  <description>超重型指挥坦克24&quot;范围内的友方步兵单位可以冲头失败的士气测试.</description>
                 </rule>
               </rules>
               <costs>
@@ -7814,7 +7814,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               </constraints>
               <rules>
                 <rule id="d00c-b8ac-7eb4-2c6a" name="超重型指挥坦克" publicationId="ca571888--pubN84158" page="243" hidden="false">
-                  <description>If the 载具 is upgraded to a 超重型指挥坦克, all allied units within 24&quot; of the 载具 可以重投失败的 士气测试.</description>
+                  <description>超重型指挥坦克24&quot;范围内的友方步兵单位可以冲头失败的士气测试.</description>
                 </rule>
               </rules>
               <costs>
@@ -8528,7 +8528,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                         <characteristic name="距离" typeId="52616e676523232344415441232323">12-120</characteristic>
                         <characteristic name="S" typeId="537472656e67746823232344415441232323">6</characteristic>
                         <characteristic name="AP" typeId="415023232344415441232323">4</characteristic>
-                        <characteristic name="类型" typeId="5479706523232344415441232323">重炮 弹幕 2, 7&quot; 爆炸, 主武器, 双联, No Cover Save</characteristic>
+                        <characteristic name="类型" typeId="5479706523232344415441232323">重炮 弹幕 2, 7&quot; 爆炸, 主武器, 双联, 无视掩体</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9397,7 +9397,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be86-7cb9-6f78-eb14" name="Additional Psychic Disciplines" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="be86-7cb9-6f78-eb14" name="额外灵能学派" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="1fef-57fa-2040-546d" value="0.0">
           <conditions>
@@ -9414,8 +9414,8 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fef-57fa-2040-546d" type="max"/>
       </constraints>
       <rules>
-        <rule id="c932-d68a-fc33-802e" name="Additional Psychic Disciplines" hidden="false">
-          <description>Any 灵能者 may choose to replace their Primaris power (if they have selected one) a power from one of the following additional Psychic Disciplines.</description>
+        <rule id="c932-d68a-fc33-802e" name="额外灵能学派" hidden="false">
+          <description>Any 灵能者 may choose to replace their Primaris power (if they have selected one) a power from one of the following 额外灵能学派.</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -12943,7 +12943,7 @@ Command Benefits:
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5342-bf92-d6c0-ebb9" name="打带跑" publicationId="ca571888--pubN106502" page="164" hidden="false">
-      <description>至少包含一个该规则模型的单位被锁入近战后可以选择在任何突袭阶段结束时离开近战.这样做的单位必须做一次敏锐性测试.如果测试通过,选择一个方向并投3D6,若结果足够整个单位移动到距离任何敌模型1&quot;以上,这个单位便从近战中脱离并且立即移动刚才投出的3D6&quot;,忽略与它们锁入近战的单位,也不会被扫荡打击.不再被锁入近战的敌军单位立即重整D6&quot;.这种移动不会被困难地形拖慢,但是会受危险地形的影响.它不能被利用来和敌军接触.如果双方单位都有这条规则,那么通过拼骰来决定谁先走,然后轮流把模型脱离战斗.如果最后单位不再处于近战中,则立即重整.</description>
+      <description>至少包含一个该规则模型的单位被锁入近战后可以选择在任何突袭阶段结束时离开近战.这样做的单位必须做一次敏锐性测试.如果测试通过,选择一个方向并投3D6,若结果足够整个单位移动到距离任何敌模型1&quot;以上,这个单位便从近战中脱离并且立即移动刚才投出的3D6&quot;,忽略与它们锁入近战的单位,也不会被追击.不再被锁入近战的敌军单位立即重整D6&quot;.这种移动不会被困难地形拖慢,但是会受危险地形的影响.它不能被利用来和敌军接触.如果双方单位都有这条规则,那么通过拼骰来决定谁先走,然后轮流把模型脱离战斗.如果最后单位不再处于近战中,则立即重整.</description>
     </rule>
     <rule id="d219-2314-4834-c054" name="深度打击" publicationId="ca571888--pubN106502" page="162" hidden="false">
       <description>单位中所有模型都要有深入打击规则,并且游戏开始时在预备队中,才能进行深入打击,并且要告知对手你的预备队中哪个单位是准备进行深入打击.有些单位必须深入打击,这种单位(及可能运载其中的单位)不计入预备队总上限之中.
@@ -13312,7 +13312,7 @@ Command Benefits:
       <description>这种规则的建筑可以自动对敌人开火,无需友军占领,反之敌人也可射击和冲锋这种建筑,即使当时无人占领.</description>
     </rule>
     <rule id="4608-a89f-8d54-2fe4" name="缓慢沉着" publicationId="ca571888--pubN106502" page="172" hidden="false">
-      <description>至少包含一个具有该规则的模型的单位不能奔跑/涡轮加速/极速移动,也不能扫荡打击和坚守射击.同时获得毫不留情规则.</description>
+      <description>至少包含一个具有该规则的模型的单位不能奔跑/涡轮加速/极速移动,也不能追击和坚守射击.同时获得毫不留情规则.</description>
     </rule>
     <rule id="38ff-a919-70c4-aec4" name="分散火力" publicationId="ca571888--pubN106502" page="172" hidden="false">
       <description>本单位至少要包含一个具有该规则的模型,这个单位中一个模型可以射击与其余模型不同的目标.选择单位中的一个模型,立即用它射击,射击结算完后,单位内的其它模型开始射击,但目标必须不同,注意这两个射击在规则上仍然是同时发生的,不得利用此规则击毁运输载具,然后分开射击的模型射击被迫下车的乘客.</description>
@@ -13662,7 +13662,7 @@ In addition, attacks with the 狙击 规则 only cause a Wound on a roll of a 6.
       <description>闪避获得的地形保护+1.</description>
     </rule>
     <rule id="2346-6a18-14c6-11a6" name="自动控制火炮" publicationId="ca571888--pubN106502" page="157" hidden="false">
-      <description>和普通火炮不同,自动控制火炮不需要成员操作,也不会因为没有乘员而被移除,因此必须按照火炮数值将其击毁才能移除该单位.自动控制火炮不能移动不能冲锋,被冲锋时不会跟进,也不会被锁入近战.近战攻击他们的单位自动命中但是正常出伤,如果自动控制火炮输掉了近战,攻击他们的单位不能扫荡打击,不能跟进,也没有胜利移动,而自动控制火炮仍留在原地,下回合可以继续射击.如果自动火炮获得了近战胜利,则敌方按常规进行士气测试,但是自动控制火炮不能扫荡打击也无法胜利移动.</description>
+      <description>和普通火炮不同,自动控制火炮不需要成员操作,也不会因为没有乘员而被移除,因此必须按照火炮数值将其击毁才能移除该单位.自动控制火炮不能移动不能冲锋,被冲锋时不会跟进,也不会被锁入近战.近战攻击他们的单位自动命中但是正常出伤,如果自动控制火炮输掉了近战,攻击他们的单位不能追击,不能跟进,也没有胜利移动,而自动控制火炮仍留在原地,下回合可以继续射击.如果自动火炮获得了近战胜利,则敌方按常规进行士气测试,但是自动控制火炮不能追击也无法胜利移动.</description>
     </rule>
     <rule id="0bd1-9bcc-46e0-5e1e" name="同轴武器" publicationId="ca571888--pubN106502" page="161" hidden="false">
       <description>同轴武器通常会特定指明与其同轴的另一件武器,同轴武器必须先射击,同轴武器命中目标后,其同轴的另一武器在射击该目标时可以重投失败的命中.</description>
@@ -13726,11 +13726,11 @@ In addition, attacks with the 狙击 规则 only cause a Wound on a roll of a 6.
       <description>使用地狱风暴盖板的喷射盖板武器.</description>
     </rule>
     <rule id="903b-709a-b328-d48d" name="Armoured Steed" publicationId="ca571888--pubN106502" page="64" hidden="false">
-      <description>Bikes and Jetbikes cannot 卧倒 and cannot be Pinned.</description>
+      <description>摩托 and Jetbikes cannot 卧倒 and cannot be Pinned.</description>
     </rule>
     <rule id="6124-c329-b1b4-a52a" name="Turbo Boost" publicationId="ca571888--pubN106502" page="64" hidden="false">
-      <description>Bikes and Jetbikes cannot Run, but can make a special Turbo-boost move instead of firing in their 射击阶段.
-Turbo-boosting Bikes move 至多 12&quot; and Turbo-boosting Jetbikes move 至多 24&quot;. Bikes or Jetbikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
+      <description>摩托 and Jetbikes cannot Run, but can make a special Turbo-boost move instead of firing in their 射击阶段.
+Turbo-boosting 摩托 move 至多 12&quot; and Turbo-boosting Jetbikes move 至多 24&quot;. 摩托 or Jetbikes cannot shoot, charge or execute any other voluntary action after Turbo-boosting until the end of their turn.</description>
     </rule>
     <rule id="5c8a-63f9-5cdc-b17b" name="从天而降" publicationId="ca571888--pubN106502" page="66" hidden="false">
       <description>
