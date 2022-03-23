@@ -759,7 +759,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="8063-c1d8-51dc-4795" name="黑暗联军" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8063-c1d8-51dc-4795" name="黑暗盟军" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="b9e8-93cb-b89e-24a1" name="New CategoryLink" hidden="false" targetId="5297-7e0f-fa0b-3537" primary="true"/>
         <categoryLink id="9420-adca-b388-9142" name="New CategoryLink" hidden="false" targetId="c1d8-4cbf-e883-4e44" primary="false"/>
