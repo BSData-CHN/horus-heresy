@@ -562,7 +562,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="54ac-2a19-c69f-45a3" name="Centurion" hidden="false">
+    <forceEntry id="54ac-2a19-c69f-45a3" name="百夫长" hidden="false">
       <categoryLinks>
         <categoryLink id="8296-f0fc-8933-c474" name="指挥槽位:" hidden="false" targetId="a91b-7f8f-d085-e564" primary="false">
           <constraints>
@@ -692,7 +692,7 @@
         <categoryLink id="37ce-9c4b-233a-a5fe" name="喷气摩托:" hidden="false" targetId="1b66-02c5-8ff6-bb14" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="00ee-96bc-de42-dc49" name="Legio Custodes Aquilon Terminator Squad" hidden="false" collective="false" import="true" targetId="6ced-0f69-b659-41da" type="selectionEntry">
+    <entryLink id="00ee-96bc-de42-dc49" name="Legio Custodes Aquilon 终结者小队" hidden="false" collective="false" import="true" targetId="6ced-0f69-b659-41da" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="afca-6efd-adde-3bf2" name="Elite (Test)" hidden="false" targetId="7757-4995-3312-d330" primary="true"/>
       </categoryLinks>
@@ -1017,7 +1017,7 @@
         <categoryLink id="70c6-8363-d09f-7def" name="人物:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b22a-c4d7-d40e-19f4" name="Knight-Errant" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
+    <entryLink id="b22a-c4d7-d40e-19f4" name="游侠骑士" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1089,7 +1089,7 @@
         <categoryLink id="2cf5-7b21-5280-9ddb" name="New CategoryLink" hidden="false" targetId="7757-4995-3312-d330" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4728-810f-2c00-9a0d" name="Knight-Errant (Mournival) (AoE)" hidden="true" collective="false" import="true" targetId="3a03-8d12-66b4-9e28" type="selectionEntry">
+    <entryLink id="4728-810f-2c00-9a0d" name="游侠骑士 (Mournival) (AoE)" hidden="true" collective="false" import="true" targetId="3a03-8d12-66b4-9e28" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1679,9 +1679,9 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1a44-d231-f811-79a2" name="Arachnus Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1a44-d231-f811-79a2" name="阿拉克鲁斯 Heavy Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="name" value="双联Arachnus Heavy Blaze Cannon"/>
+                <modifier type="set" field="name" value="双联阿拉克鲁斯 Heavy Blaze Cannon"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace5-b0fb-7510-ef42" type="max"/>
@@ -1690,9 +1690,9 @@
                 <infoLink id="816c-b96b-c88d-c685" name="New InfoLink" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="ea0c-7693-8f54-6862" name="Arachnus Heavy Blaze cannon" hidden="false" collective="false" import="true" targetId="9cee-6cf2-e0af-4002" type="selectionEntry">
+                <entryLink id="ea0c-7693-8f54-6862" name="阿拉克鲁斯 Heavy Blaze cannon" hidden="false" collective="false" import="true" targetId="9cee-6cf2-e0af-4002" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="双联Arachnus Heavy Blaze Cannon"/>
+                    <modifier type="set" field="name" value="双联阿拉克鲁斯 Heavy Blaze Cannon"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6b8-2e45-2bf7-18cb" type="max"/>
@@ -1739,7 +1739,7 @@
         <categoryLink id="2b9b-e3b7-bbbd-a019" name="步兵:" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5beb-9fea-4ae4-a141" name="A Single Shield Captain in your army 可以升级 a Tribune as long as the detachment they are part of is 2000 points or more." hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5beb-9fea-4ae4-a141" name="A Single Shield Captain in your army 可以升级 a Tribune as long as the 分队 they are part of is 2000 points or more." hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="0696-9416-701b-3785" value="1">
               <conditions>
@@ -1753,7 +1753,7 @@
           </constraints>
           <rules>
             <rule id="0369-cd01-ae2d-dc35" name="Legio Custodes Tribune" hidden="false">
-              <description>A Legio Custodes Tribune retains all the rules and options listed previously, but gains the 无畏 and 永恒战士 speicla rules. In addition, you may select rather than randomly determine a 主将特性 for them. If present in your Primary Detachment, a Legio Custodes Tribune must be your Warlord unless Constantin Valdor, Jenetia Krole or the Emperor of Mankind is also present</description>
+              <description>A Legio Custodes Tribune retains all the rules and options listed previously, but gains the 无畏 and 永恒战士 speicla rules. In addition, you may select rather than randomly determine a 主将特性 for them. If present in your 主分队, a Legio Custodes Tribune must be your 主将 unless Constantin Valdor, Jenetia Krole or the Emperor of Mankind is also present</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1953,7 +1953,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7541-15b2-b5db-11ad" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="8a7c-10cd-47b3-53f7" name="Warlord" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry"/>
+        <entryLink id="8a7c-10cd-47b3-53f7" name="主将" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="190.0"/>
@@ -2130,7 +2130,7 @@
         </entryLink>
         <entryLink id="7b17-c07b-0e9a-2c33" name="New EntryLink" hidden="false" collective="false" import="true" targetId="e5f6-cd68-595a-306c" type="selectionEntry"/>
         <entryLink id="95b4-1d37-fc2f-fc35" name="New EntryLink" hidden="false" collective="false" import="true" targetId="9e07-f5e7-b880-2bd5" type="selectionEntry"/>
-        <entryLink id="9473-4c1c-821f-845f" name="Warlord" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry"/>
+        <entryLink id="9473-4c1c-821f-845f" name="主将" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="75.0"/>
@@ -2484,7 +2484,7 @@
         <categoryLink id="c45c-ab0a-2011-b592" name="步兵:" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2926-8f43-4f60-f18f" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2926-8f43-4f60-f18f" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec17-55bc-f608-7b9e" type="max"/>
           </constraints>
@@ -2497,11 +2497,11 @@
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>If Constantin Valdor is your Warlord he may re-roll attempts to seize the initiative in missions where this is a factor. Additionally, if Constantin Valdor is your Warlord he gains the Teleportation Transponders item of 装备 and may also grant one unit with the Legio Custodes 规则 Teleportation Transponders at no additional cost.</description>
+              <description>If Constantin Valdor is your 主将 he may re-roll attempts to seize the initiative in missions where this is a factor. Additionally, if Constantin Valdor is your 主将 he gains the Teleportation Transponders item of 装备 and may also grant one unit with the Legio Custodes 规则 Teleportation Transponders at no additional cost.</description>
             </rule>
           </rules>
           <entryLinks>
-            <entryLink id="7142-5637-eee3-884e" name="Warlord" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry">
+            <entryLink id="7142-5637-eee3-884e" name="主将" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ca-9872-ceaf-4fdb" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5756-0f55-9ff6-5ebc" type="max"/>
@@ -2597,7 +2597,7 @@
               </conditions>
             </modifier>
           </modifiers>
-          <description>If Jenetia Krole is your Warlord, you may opt to reroll the dice to Sieze the Initiative in missions where this is relevent, and you may also dive D3 of your 步兵 units the Scouts 规则.</description>
+          <description>If Jenetia Krole is your 主将, you may opt to reroll the dice to Sieze the Initiative in missions where this is relevent, and you may also dive D3 of your 步兵 units the Scouts 规则.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2648,13 +2648,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a1-2ffe-4f8f-0f8c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a6e4-0697-7bd2-6ed2" name="Warlord" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry"/>
+        <entryLink id="a6e4-0697-7bd2-6ed2" name="主将" hidden="false" collective="false" import="true" targetId="bef2-c1b8-bbe1-eab5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ced-0f69-b659-41da" name="Legio Custodes Aquilon Terminator Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6ced-0f69-b659-41da" name="Legio Custodes Aquilon 终结者小队" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="points" value="25.0">
           <conditions>
@@ -2670,13 +2670,13 @@
         <categoryLink id="38aa-53e8-008b-0f77" name="步兵:" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="292d-3014-ca2e-eaf1" name="Aquilon Terminator" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="292d-3014-ca2e-eaf1" name="Aquilon 终结者" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db9-b814-6c6a-fbdb" type="min"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84da-58c1-5c94-36bd" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="eac1-a220-ea5f-eb46" name="Aquilon Terminator" hidden="false" targetId="b2b1-a620-b8da-15a0" type="profile"/>
+            <infoLink id="eac1-a220-ea5f-eb46" name="Aquilon 终结者" hidden="false" targetId="b2b1-a620-b8da-15a0" type="profile"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="a577-87f3-9f70-a3f1" name="人物:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
@@ -2794,7 +2794,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="4a7d-1224-4110-f4ed" name="Aquilon Pattern Terminator Armor" hidden="false" collective="false" import="true" targetId="6e95-2ae6-4dd8-c24b" type="selectionEntry">
+        <entryLink id="4a7d-1224-4110-f4ed" name="Aquilon Pattern 终结者 Armor" hidden="false" collective="false" import="true" targetId="6e95-2ae6-4dd8-c24b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9101-4949-6d57-81ac" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e703-3065-03c8-e804" type="min"/>
@@ -3237,7 +3237,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="37a0-222f-3e30-5879" name="双联Arachnus Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="37a0-222f-3e30-5879" name="双联阿拉克鲁斯 Blaze Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4d-5b0d-29a1-2a74" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e137-31c5-63df-4b5e" type="min"/>
@@ -3246,9 +3246,9 @@
             <infoLink id="6d05-4639-6ea6-7b8b" name="New InfoLink" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
           </infoLinks>
           <entryLinks>
-            <entryLink id="4544-3a82-2293-5ae4" name="Arachnus Blaze Cannon" hidden="false" collective="false" import="true" targetId="b33a-20a1-ddf9-38b5" type="selectionEntry">
+            <entryLink id="4544-3a82-2293-5ae4" name="阿拉克鲁斯 Blaze Cannon" hidden="false" collective="false" import="true" targetId="b33a-20a1-ddf9-38b5" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="双联Arachnus Blaze Cannon"/>
+                <modifier type="set" field="name" value="双联阿拉克鲁斯 Blaze Cannon"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23c9-233a-7f50-7fe8" type="max"/>
@@ -3854,15 +3854,15 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3996-8917-9bf8-d5a2" name="可以替换 it&apos;s 双联Arachnus Blaze Cannon with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4896-60b8-f27d-d852">
+            <selectionEntryGroup id="3996-8917-9bf8-d5a2" name="可以替换 it&apos;s 双联阿拉克鲁斯 Blaze Cannon with:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4896-60b8-f27d-d852">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0486-bcd4-1176-907d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e66-09ad-2f6e-49a2" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="4896-60b8-f27d-d852" name="Arachnus Blaze Cannon" hidden="false" collective="false" import="true" targetId="b33a-20a1-ddf9-38b5" type="selectionEntry">
+                <entryLink id="4896-60b8-f27d-d852" name="阿拉克鲁斯 Blaze Cannon" hidden="false" collective="false" import="true" targetId="b33a-20a1-ddf9-38b5" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="双联Arachnus Blaze Cannon"/>
+                    <modifier type="set" field="name" value="双联阿拉克鲁斯 Blaze Cannon"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da81-9120-df99-33c7" type="max"/>
@@ -4833,7 +4833,7 @@
           <entryLinks>
             <entryLink id="72f4-a4f3-b079-2c0d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="9ee5-e80d-e9cf-92c8" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Two Bolt Pistols"/>
+                <modifier type="set" field="name" value="Two 爆弹手枪"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff0b-ee89-f1df-471c" type="max"/>
@@ -5363,7 +5363,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="370f-f593-58d0-e2fd" name="Arachnus Heavy Blaze cannon" hidden="false" collective="false" import="true" targetId="9cee-6cf2-e0af-4002" type="selectionEntry">
+        <entryLink id="370f-f593-58d0-e2fd" name="阿拉克鲁斯 Heavy Blaze cannon" hidden="false" collective="false" import="true" targetId="9cee-6cf2-e0af-4002" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f98e-a211-fac2-d7c3" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071f-06a5-2294-032a" type="min"/>
@@ -5385,7 +5385,7 @@ decided.</description>
         <cost name="pts" typeId="points" value="615.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bef2-c1b8-bbe1-eab5" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bef2-c1b8-bbe1-eab5" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e94-d65a-de11-c02f" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d44-9436-c09c-779f" type="max"/>
@@ -5542,7 +5542,7 @@ decided.</description>
         </profile>
       </profiles>
       <rules>
-        <rule id="0fc8-8907-18c5-4bcc" name="Exposed Arachnus-Capacitors" publicationId="ca571888--pubN103311" page="287" hidden="false">
+        <rule id="0fc8-8907-18c5-4bcc" name="Exposed 阿拉克鲁斯-Capacitors" publicationId="ca571888--pubN103311" page="287" hidden="false">
           <description>Contrary to the usual rules for 超重型 Flayers, shuold the Ares Gunship suffer a penetrating hit from its Rare arc which results in an Exploses! result on the Cehicle Damage table, roll a D6. On a 5+ the Ares Gunship Immediately loses all of its remaining Hull points and suffers Catastrophic Damage.</description>
         </rule>
       </rules>
@@ -5591,13 +5591,13 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6332-6774-13cb-2e9a" name="Arachnus Magna-Blaze Cannon" publicationId="ca571888--pubN103311" page="287" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6332-6774-13cb-2e9a" name="阿拉克鲁斯 Magna-Blaze Cannon" publicationId="ca571888--pubN103311" page="287" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e1-ed77-9e41-eac1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b3-0801-b4cb-06b6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="99aa-6807-bbf4-9461" name="Arachnus Magna-Blaze Cannon (Concentrated 爆炸)" publicationId="ca571888--pubN103311" page="287" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+            <profile id="99aa-6807-bbf4-9461" name="阿拉克鲁斯 Magna-Blaze Cannon (Concentrated 爆炸)" publicationId="ca571888--pubN103311" page="287" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -5605,7 +5605,7 @@ decided.</description>
                 <characteristic name="Type" typeId="5479706523232344415441232323">主武器 2, 连环震击*, 精工, 装甲杀手, 即死</characteristic>
               </characteristics>
             </profile>
-            <profile id="f52e-8352-8e92-00d1" name="Arachnus Magna-Blaze Cannon (Burst Fire)" publicationId="ca571888--pubN103311" page="287" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+            <profile id="f52e-8352-8e92-00d1" name="阿拉克鲁斯 Magna-Blaze Cannon (Burst Fire)" publicationId="ca571888--pubN103311" page="287" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -5654,7 +5654,7 @@ decided.</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7f99-b9d6-4482-1b8c" name="Arachnus Heavy Blaze cannon" hidden="false" collective="false" import="true" targetId="9cee-6cf2-e0af-4002" type="selectionEntry">
+        <entryLink id="7f99-b9d6-4482-1b8c" name="阿拉克鲁斯 Heavy Blaze cannon" hidden="false" collective="false" import="true" targetId="9cee-6cf2-e0af-4002" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1e-5aa7-43c4-9c96" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9d9-05aa-ef30-c13a" type="min"/>
@@ -5811,12 +5811,12 @@ decided.</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="53b4-cf3a-a65a-4aab" name="Aquilon Pattern Terminator Armor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="53b4-cf3a-a65a-4aab" name="Aquilon Pattern 终结者 Armor" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8468-e5ba-1676-3afe" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a58d-316d-b9a1-1e8c" name="Aquillon Pattern Terminator Armour" hidden="false" targetId="0a62-df1f-aed7-fc07" type="profile"/>
+                <infoLink id="a58d-316d-b9a1-1e8c" name="Aquillon Pattern 终结者甲" hidden="false" targetId="0a62-df1f-aed7-fc07" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
@@ -6323,7 +6323,7 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b33a-20a1-ddf9-38b5" name="Arachnus Blaze Cannon" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b33a-20a1-ddf9-38b5" name="阿拉克鲁斯 Blaze Cannon" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="a9f3-7952-8e1f-14a7" name="连环震击" hidden="false" targetId="2740-e6d7-076b-9d5c" type="rule"/>
             <infoLink id="2831-cd24-bbed-e6db" name="New InfoLink" hidden="false" targetId="458c-cc54-229f-324d" type="profile"/>
@@ -6333,10 +6333,10 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9cee-6cf2-e0af-4002" name="Arachnus Heavy Blaze cannon" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9cee-6cf2-e0af-4002" name="阿拉克鲁斯 Heavy Blaze cannon" publicationId="ca571888--pubN92115" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="c24c-4f89-6ab2-f803" name="Arachnus Heavy Blaze Cannon (Concentrated 爆炸)" hidden="false" targetId="9262-8169-5662-60de" type="profile"/>
-            <infoLink id="b82a-b1d9-56a5-b4e7" name="Arachnus Heavy Blaze Cannon (Burst Fire)" hidden="false" targetId="e58e-67e0-e173-1f8b" type="profile"/>
+            <infoLink id="c24c-4f89-6ab2-f803" name="阿拉克鲁斯 Heavy Blaze Cannon (Concentrated 爆炸)" hidden="false" targetId="9262-8169-5662-60de" type="profile"/>
+            <infoLink id="b82a-b1d9-56a5-b4e7" name="阿拉克鲁斯 Heavy Blaze Cannon (Burst Fire)" hidden="false" targetId="e58e-67e0-e173-1f8b" type="profile"/>
             <infoLink id="d979-2634-1cae-44c7" name="New InfoLink" hidden="false" targetId="2740-e6d7-076b-9d5c" type="rule"/>
           </infoLinks>
           <costs>
@@ -6347,13 +6347,13 @@ decided.</description>
     </selectionEntryGroup>
     <selectionEntryGroup id="0f60-5d21-a0b9-4c6a" name="Armour" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="6e95-2ae6-4dd8-c24b" name="Aquilon Pattern Terminator Armor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6e95-2ae6-4dd8-c24b" name="Aquilon Pattern 终结者 Armor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2be-7d67-7bed-bf62" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d88-51ef-6d43-1ae9" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="86ef-7588-7f40-2102" name="Aquillon Pattern Terminator Armour" hidden="false" targetId="0a62-df1f-aed7-fc07" type="profile"/>
+            <infoLink id="86ef-7588-7f40-2102" name="Aquillon Pattern 终结者甲" hidden="false" targetId="0a62-df1f-aed7-fc07" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -7022,7 +7022,7 @@ decided.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="edfc-5a45-95fd-1199" name="Arachnus Storm Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="edfc-5a45-95fd-1199" name="阿拉克鲁斯 Storm Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="bce1-df07-92cb-f56c" name="Burst Fire" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
@@ -7069,7 +7069,7 @@ decided.</description>
       <description>A unit with this 规则 is immune to 恐怖 and 压制测试, and 可以重投 failed Deny the Witch attempts. This unit does not suffer penalties to its LEadership when taking 士气测试.</description>
     </rule>
     <rule id="c49a-b905-f536-8810" name="The Sodality" publicationId="ca571888--pubN92115" hidden="false">
-      <description>A unit composed entirely of models with this 规则 has a coherency of 3&quot; instead of the usual 2&quot; and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
+      <description>A unit composed entirely of models with this 规则 has a coherency of 3&quot; instead of the usual 2&quot; and may always attempt to Regroup as an unmodified LD测试 regardless of casualties taken or any other effects.</description>
     </rule>
     <rule id="a37c-753a-33b4-8101" name="Lightning Blows" publicationId="ca571888--pubN92115" hidden="false">
       <description>Every roll of a 6 To Hit with this weapon generates another attack with the same weapon at the same Initiative step. These extra attacks do not themselves also generate additional attacks.</description>
@@ -7109,10 +7109,10 @@ If any Psyhic model is in base contact with a model that has this 规则 at the 
       <description>Models with this 规则 are 无畏. In addition, they have 憎恨 (Psykers) 规则.</description>
     </rule>
     <rule id="05b9-9f16-29f9-9dad" name="Company Cadre Structure" publicationId="ca571888--pubN92115" hidden="false">
-      <description>In order to field any units with the Company-Cadre 规则 using the Talons of the Emperor army list, at least one HQ unit with this 规则 must be part of this detachment for every 3 non-HQ units with the Company Cadre 规则 in the same detachment.</description>
+      <description>In order to field any units with the Company-Cadre 规则 using the Talons of the Emperor army list, at least one HQ unit with this 规则 must be part of this 分队 for every 3 non-HQ units with the Company Cadre 规则 in the same 分队.</description>
     </rule>
     <rule id="6774-89d9-ba61-1071" name="Cadre Tactics" publicationId="ca571888--pubN92115" hidden="false">
-      <description>One of the following additional benefits may be given to all units in the detachment with the Company-Cadre 规则.
+      <description>One of the following additional benefits may be given to all units in the 分队 with the Company-Cadre 规则.
 渗透
 远征军
 隐蔽
@@ -7134,7 +7134,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
       <description>If this weapon inflicts a sucessful hit, it becomes D3 hits on the target unit. For each hit inflicted, the opposing player must make a Strength test. For each Strength test failed, the unit suffers a single wound with no armour saves allowed (Invulnerable saves may be taken as normal). This weapon has no effect on 超级巨兽 or Vehicles.</description>
     </rule>
     <rule id="71ff-3b5a-6f75-55fc" name="Enhanced Voidsheen Cloak" publicationId="ca571888--pubN92115" hidden="false">
-      <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
+      <description>获得 the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
     </rule>
     <rule id="3eed-1fde-941e-af2d" name="Compression Tanks" publicationId="ca571888--pubN92115" page="255" hidden="false">
       <description>整场游戏一次, a model equipped with this 装备 can use it, and their controlling player must declare its use before any rolls To Wound are made for this attack. When it is used, the 喷火器&apos;s Strenght is increated to 6. Once used in this manner the 喷火器 cannot be used again at all for the rest of the game.</description>
@@ -7143,7 +7143,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
       <description>When in close compat with any 人物 without any other models being present in the combat, all attacks made by a unit with this 规则 carry the 即死 规则.</description>
     </rule>
     <rule id="4648-cbf1-884b-d7b4" name="Witchfinders" publicationId="ca571888--pubN92115" hidden="false">
-      <description>You may only take an Excruciatus Cadre as your Detachment&apos;s 强制指挥槽位 choice if the Detachment costs 500pts or less in total.</description>
+      <description>You may only take an Excruciatus Cadre as your 分队&apos;s 强制指挥槽位 choice if the 分队 costs 500pts or less in total.</description>
     </rule>
     <rule id="8fd8-2be9-519b-1b68" name="憎恨 (Psykers, Daemons)" publicationId="ca571888--pubN92115" hidden="false">
       <description>This rule is often presented as 憎恨 (X) where X identifies a specific type of foe. If the 规则 does not specify a type of foe, then the unit has 憎恨 against everyone. This can refer to a Faction, or a specific unit. For example, 憎恨 (Orks) means any model with the Ork Faction, whilst 憎恨 (Big Meks) means only Big Meks. A model striking a hated foe 近战中 重投 所有失败的 To Hit rolls during the first round of each close combat.</description>
@@ -7161,7 +7161,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
       <description>In the 突击阶段 on a turn in which this model has charged, To Hit rolls of 6 with this weapon are resolved as Destroyer Hits.</description>
     </rule>
     <rule id="9e6d-607b-824f-30ea" name="Death Mark" publicationId="ca571888--pubN92115" hidden="false">
-      <description>After both sides have deployed but before the game begins, if a Detachment contains any Vigilator Cadres, their controlling player must declare a single enemy 步兵 unit or Independant 人物 as carrying the Death Mark this game. All Vigilator units in the Detachment gain the 宿敌 规则 when attacking this unit or 人物.</description>
+      <description>After both sides have deployed but before the game begins, if a 分队 contains any Vigilator Cadres, their controlling player must declare a single enemy 步兵 unit or Independant 人物 as carrying the Death Mark this game. All Vigilator units in the 分队 gain the 宿敌 规则 when attacking this unit or 人物.</description>
     </rule>
     <rule id="3ca6-ef89-ab4d-85c8" name="Battle Auspex" publicationId="ca571888--pubN92115" hidden="false">
       <description>The Kharon Pattern Acquisitor has the 夜视 规则. In addition, it reduces the cover saves of enemy targets it fires on by -1.</description>
@@ -7220,7 +7220,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
     </profile>
     <profile id="f07e-858e-d637-e858" name="Custodian Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian armour provides a 2+ 装甲保护 and confers the 穿越地形 规则.  </characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian armour 获得 a 2+ 装甲保护 and confers the 穿越地形 规则.  </characteristic>
       </characteristics>
     </profile>
     <profile id="8801-24fc-bb8c-ef86" name="Praesidium Shield" publicationId="ca571888--pubN92115" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
@@ -7228,9 +7228,9 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A Praesidium Shield increases the 特殊保护 of the bearer by 1 (e.g., a 5+ becomes a 4+), to a maximum of 3+. It also imposes a -1 penalty on To Hit rolls of opponents who direct their attacks against the model in the 突击阶段, to a maximum of 6+. A model equipped with a Praesidium shield however cannot use a weapon with the 双手 规则, claim the benefit of an 额外近战武器 in assault or use the increased close combat profile when charging for a Guardian spear-type weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0a62-df1f-aed7-fc07" name="Aquillon Pattern Terminator Armour" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
+    <profile id="0a62-df1f-aed7-fc07" name="Aquillon Pattern 终结者甲" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aquilon Pattern Terminator Armour provides a 2+ 装甲保护, a 4+ 特殊保护, and the 愤怒之锤 规则. A model equipped with Aquilon Pattern Terminator armour may fire Heavy and Salvo 武器, counting as stationary even if they moved in the previous 移动阶段. They may also charge after firing Rapid Fire, Heavy, or Salvo 武器. A model equipped with Aquilon pattern Terminator armour may not make Run moves, but may still fire 坚守射击 and make 追击.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Aquilon Pattern 终结者甲 获得 a 2+ 装甲保护, a 4+ 特殊保护, and the 愤怒之锤 规则. A model equipped with Aquilon Pattern 终结者甲 may fire Heavy and Salvo 武器, counting as stationary even if they moved in the previous 移动阶段. They may also charge after firing Rapid Fire, Heavy, or Salvo 武器. A model equipped with Aquilon pattern 终结者甲 may not make Run moves, but may still fire 坚守射击 and make 追击.</characteristic>
       </characteristics>
     </profile>
     <profile id="ccdd-40a2-abb2-09a3" name="Teleportation Transponder" publicationId="ca571888--pubN92115" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
@@ -7386,7 +7386,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">重型 D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="458c-cc54-229f-324d" name="Arachnus Blaze Cannon (Concentrated 爆炸)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+    <profile id="458c-cc54-229f-324d" name="阿拉克鲁斯 Blaze Cannon (Concentrated 爆炸)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -7394,7 +7394,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 连环震击</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e1e-6409-2b91-7534" name="Arachnus Blaze Cannon (Burst Fire)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+    <profile id="3e1e-6409-2b91-7534" name="阿拉克鲁斯 Blaze Cannon (Burst Fire)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">36&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">6</characteristic>
@@ -7402,7 +7402,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">重型 3</characteristic>
       </characteristics>
     </profile>
-    <profile id="9262-8169-5662-60de" name="Arachnus Heavy Blaze Cannon (Concentrated 爆炸)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+    <profile id="9262-8169-5662-60de" name="阿拉克鲁斯 Heavy Blaze Cannon (Concentrated 爆炸)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">72&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">10</characteristic>
@@ -7410,7 +7410,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">重型 1, 连环震击</characteristic>
       </characteristics>
     </profile>
-    <profile id="e58e-67e0-e173-1f8b" name="Arachnus Heavy Blaze Cannon (Burst Fire)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+    <profile id="e58e-67e0-e173-1f8b" name="阿拉克鲁斯 Heavy Blaze Cannon (Burst Fire)" publicationId="ca571888--pubN92115" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">48&quot;</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -7721,7 +7721,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Type" typeId="5479706523232344415441232323">快速 悬浮 Tank</characteristic>
       </characteristics>
     </profile>
-    <profile id="b2b1-a620-b8da-15a0" name="Aquilon Terminator" publicationId="ca571888--pubN92115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="b2b1-a620-b8da-15a0" name="Aquilon 终结者" publicationId="ca571888--pubN92115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -7973,7 +7973,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
     </profile>
     <profile id="783e-c8f7-4312-98c7" name="Custodian Jump Harness" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian jump harness provides a 3+ 装甲保护 and the Auramite Pinions 规则.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Custodian jump harness 获得 a 3+ 装甲保护 and the Auramite Pinions 规则.</characteristic>
       </characteristics>
     </profile>
     <profile id="11d9-f1a7-f2de-8ffa" name="Custodian Venatari" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">

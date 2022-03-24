@@ -404,7 +404,7 @@
           <description>The unit which the Iterator is attached to gains +1 to all Combat Resolution results. If this would result in Drawn combat, the Iterators unit is considered the winner. In the rare circumstance that two units containing Iterators are opposing each other, both units will become 无畏 until one Iterator is killed.</description>
         </rule>
         <rule id="bbeb-be83-8e29-a6a3" name="Persuasive Diplomat" publicationId="931a-ad98-6258-e12a" hidden="false">
-          <description>While the Iterator is part of an army, allies count as one level higher on the Ally Matrix. In addition, if the Iterator is part of a Shattered Legions force in which the Warlord has been killed the different Legions treat each other as Fellow Warriors instead of Distrusted Allies while the Iterator lives.</description>
+          <description>While the Iterator is part of an army, allies count as one level higher on the Ally Matrix. In addition, if the Iterator is part of a 破碎军团 force in which 主将 has been killed the different Legions treat each other as Fellow Warriors instead of Distrusted Allies while the Iterator lives.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -663,7 +663,7 @@ Note however this has no effect against models with any of the following 规则,
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="827a-c92e-9236-bd7d" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="827a-c92e-9236-bd7d" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
         <infoLink id="4700-2adc-9224-4657" name="Execute the Mandate" hidden="false" targetId="c9d0-2b23-d585-a57d" type="rule"/>
         <infoLink id="8fde-4860-8c2a-64c8" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="4c8d-fb8a-1c86-8f51" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
@@ -829,7 +829,7 @@ Note however this has no effect against models with any of the following 规则,
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="fb09-8add-d5da-fed8" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="fb09-8add-d5da-fed8" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
         <infoLink id="3a80-2b70-b1df-7fa4" name="Execute the Mandate" hidden="false" targetId="c9d0-2b23-d585-a57d" type="rule"/>
         <infoLink id="c0a8-2c2c-863c-e7ec" name="恐怖" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
         <infoLink id="c9e1-6149-4393-135f" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
@@ -967,7 +967,7 @@ Note however this has no effect against models with any of the following 规则,
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="929b-7906-5288-40b2" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="929b-7906-5288-40b2" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
         <infoLink id="3195-1733-bd45-8c82" name="Execute the Mandate" hidden="false" targetId="c9d0-2b23-d585-a57d" type="rule"/>
         <infoLink id="a345-ec67-c4f4-bc30" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="ef57-762b-9593-a5d1" name="Independent Operative" hidden="false" targetId="9abe-fdb4-fa91-3da4" type="rule"/>
@@ -1116,7 +1116,7 @@ Note however this has no effect against models with any of the following 规则,
           <description>A unit with this 规则 adds 3” to its maximum move distance when it moves in the 移动阶段, when it Runs and when it makes charge moves. Additionally, they do not suffer the penalty to their Initiative for charging enemies through difficult terrain.</description>
         </rule>
         <rule id="0610-4a59-9f5c-f60d" name="Bionic Nuncio Linkage" hidden="false">
-          <description>A unit composed entirely of models with this 规则 has a unit coherency of 3&quot; instead of the usual 2&quot;, and may always attempt to Regroup as an unmodified Leadership test regardless of casualties taken or any other effects.</description>
+          <description>A unit composed entirely of models with this 规则 has a unit coherency of 3&quot; instead of the usual 2&quot;, and may always attempt to Regroup as an unmodified LD测试 regardless of casualties taken or any other effects.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1259,7 +1259,7 @@ Observer: The Lodge Master must end the game in the enemy deployment zone for 1 
 Mentor: Select a friendly 独立人物 other than the Lodge Master, that model must survive the game for 1 Victory Point.
 Hand of the Warmaster: The Lodge Master gains 无情推进. If the model holds any Objective outside the friendly deployment zone gain D2 Victory Points.
 Godkiller: If an enemy 基因原体 (or Valdor) is slain during the game gain D3 Victory Points.
-Skulltaker: The Lodge Master must personally kill the enemy Warlord e.g. through a Challenge, Precision Strike/Shots etc. for D3+1 Victory Points.</description>
+Skulltaker: The Lodge Master must personally kill the enemy 主将 e.g. through a Challenge, Precision Strike/Shots etc. for D3+1 Victory Points.</description>
         </rule>
         <rule id="5969-c652-ffdf-e3d1" name="Of the Legion" hidden="false">
           <description>The Lodge Master must be painted so as to be clearly identifiable as a member of a particular Legion. He has that version of the 阿斯塔特军团 rule and can select equipment and options as an 独立人物 of that Legion.</description>
@@ -1938,12 +1938,12 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
                 <characteristic name="Range" typeId="52616e676523232344415441232323">12&quot;</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">5</characteristic>
-                <characteristic name="Type" typeId="5479706523232344415441232323">手枪, Banestrike, 毒伤</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">手枪, 灾星, 毒伤</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
-            <rule id="597b-54e3-8eb8-7cee" name="Banestrike" publicationId="ca571888--pubN80998" page="81 &amp; 125" hidden="false">
+            <rule id="597b-54e3-8eb8-7cee" name="灾星" publicationId="ca571888--pubN80998" page="81 &amp; 125" hidden="false">
               <description>When rolling to wound, results of a 6 are AP 3.</description>
             </rule>
           </rules>
@@ -1979,8 +1979,8 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
       <rules>
         <rule id="c2ef-73cf-1782-e96b" name="Orders of the Sigillite" hidden="false">
           <description>Before the game begins but after deployment, the controlling player must select one of the two following missions for the Chosen to perform.
-- Escort: Select a single friendly 人物 who is not the Warlord, the Chosen must remain in the Characters unit for as long as the 人物 is alive. While part of the same unit, the Chosen may automatically pass Heroic Intervention and Look Out Sir tests relating to the escorted 人物. If the escorted 人物 survives the game they are worth a single Victory Point, however if they are removed from play the opposing player gains two Victory Points.
-- Recover: The opposing player must nominate a single, 人物 (other than the Warlord) in their army to be the bearer of the Artefact. Should the 人物 be killed the Artefact is immediately dropped and a marker placed to designate its location. If the Chosen is within 1&quot; of the Artefact marker they may immediately pick it up. Once in 种源 of the Artefact the Chosen may attempt to leave the table by any table edge, even in a transport 载具. If, at the end of the game, the Chosen is in 种源 of the Artefact, either on or willing off the table, the controlling player gains 1 Victory Point.</description>
+- Escort: Select a single friendly 人物 who is not 主将, the Chosen must remain in the Characters unit for as long as the 人物 is alive. While part of the same unit, the Chosen may automatically pass Heroic Intervention and Look Out Sir tests relating to the escorted 人物. If the escorted 人物 survives the game they are worth a single Victory Point, however if they are removed from play the opposing player gains two Victory Points.
+- Recover: The opposing player must nominate a single, 人物 (other than 主将) in their army to be the bearer of the Artefact. Should the 人物 be killed the Artefact is immediately dropped and a marker placed to designate its location. If the Chosen is within 1&quot; of the Artefact marker they may immediately pick it up. Once in 种源 of the Artefact the Chosen may attempt to leave the table by any table edge, even in a transport 载具. If, at the end of the game, the Chosen is in 种源 of the Artefact, either on or willing off the table, the controlling player gains 1 Victory Point.</description>
         </rule>
         <rule id="24e2-4af8-c713-42e8" name="Resolute" hidden="false">
           <description>Roll a D6 each time the Chosen loses their final Wound while:
@@ -1989,7 +1989,7 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7c64-9bb9-aca5-6e02" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="7c64-9bb9-aca5-6e02" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="efac-e474-8d5b-3fdf" name="人物:" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
@@ -2056,7 +2056,7 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
           <profiles>
             <profile id="b365-b15e-b233-2c96" name="虚空坚毅装甲" publicationId="ca571888--pubN84158" page="251" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
-                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">Provides a 4+ save and counts as being 虚空坚毅 in games of Zone Mortalis.  Additionally, wearer must re-roll failed saves against 喷射盖板 and 爆炸 type 武器.  </characteristic>
+                <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">获得 a 4+ save and counts as being 虚空坚毅 in games of Zone Mortalis.  Additionally, wearer must re-roll failed saves against 喷射盖板 and 爆炸 type 武器.  </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2118,7 +2118,7 @@ Upfortunately it is near imposible to add all legion equipment, upgrades and opt
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="3655-a26c-7118-7417" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="3655-a26c-7118-7417" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
         <infoLink id="284c-08b8-49b2-317e" name="Execute the Mandate" hidden="false" targetId="c9d0-2b23-d585-a57d" type="rule"/>
         <infoLink id="c299-fe9e-aeef-45a9" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="d71e-507e-8516-b46f" name="Independent Operative" hidden="false" targetId="9abe-fdb4-fa91-3da4" type="rule"/>
@@ -2278,7 +2278,7 @@ one 规则 the unit possesses ceases to have any effect</description>
         <infoLink id="0154-0b76-1094-98fe" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="07d8-4f8e-bd01-2348" name="渗透" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule"/>
         <infoLink id="5e1d-d524-aba3-c89f" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
-        <infoLink id="34aa-25b7-9481-b870" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="34aa-25b7-9481-b870" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
         <infoLink id="838f-9d64-ea14-1b75" name="Execute the Mandate" hidden="false" targetId="c9d0-2b23-d585-a57d" type="rule"/>
         <infoLink id="8bf2-6d2b-13aa-bbda" name="Independent Operative" hidden="false" targetId="9abe-fdb4-fa91-3da4" type="rule"/>
         <infoLink id="35ae-aa16-be19-7d2b" name="Lightning Reflexes" hidden="false" targetId="fe1a-f255-6485-1a93" type="rule"/>
@@ -2463,7 +2463,7 @@ one 规则 the unit possesses ceases to have any effect</description>
         <infoLink id="1437-8f5a-ae03-fc1f" name="隐蔽" hidden="false" targetId="0d66-14c9-d2f4-708b" type="rule"/>
         <infoLink id="af41-63f2-28db-b917" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="db03-a7f5-b30e-b585" name="宿敌" hidden="false" targetId="4dd2-fcb0-de6a-5b70" type="rule"/>
-        <infoLink id="0dba-f16d-3cd0-510f" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="0dba-f16d-3cd0-510f" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
         <infoLink id="1594-f051-479c-8125" name="Lightning Reflexes" hidden="false" targetId="fe1a-f255-6485-1a93" type="rule"/>
         <infoLink id="e4e1-4dfa-322d-068c" name="无法逃避" hidden="false" targetId="06a2-c4fd-8d61-c628" type="rule"/>
         <infoLink id="4eda-752f-97cd-8e51" name="Independent Operative" hidden="false" targetId="9abe-fdb4-fa91-3da4" type="rule"/>
@@ -2616,9 +2616,9 @@ one 规则 the unit possesses ceases to have any effect</description>
         <cost name="pts" typeId="points" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1923-4c29-45f2-7779" name="Exodus Assassin (AoW)" publicationId="e085-bc29-3c2d-2c49" page="18" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1923-4c29-45f2-7779" name="伊修度斯 Assassin (AoW)" publicationId="e085-bc29-3c2d-2c49" page="18" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="bdb9-7c2c-8a8d-6ac2" name="Exodus Assassin" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="bdb9-7c2c-8a8d-6ac2" name="伊修度斯 Assassin" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -2638,7 +2638,7 @@ one 规则 the unit possesses ceases to have any effect</description>
           <description>All successful hits, excluding 仓促射击, gain the 精准射击 rule.</description>
         </rule>
         <rule id="043d-0908-9d86-56eb" name="孤独杀手" hidden="false">
-          <description>An Exodus Assassin can never join or be joined by other models. May not be selected as a 强制指挥槽位 or be the Warlord of an army.</description>
+          <description>An 伊修度斯 Assassin can never join or be joined by other models. May not be selected as a 强制指挥槽位 or be 主将 of an army.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2657,22 +2657,22 @@ one 规则 the unit possesses ceases to have any effect</description>
         <categoryLink id="8915-dfcb-83d4-4ae1" name="步兵" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bef1-eac0-3b07-9141" name="阿斯塔特军团 (Alpha Legion)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bef1-eac0-3b07-9141" name="阿斯塔特军团 (阿尔法军团)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c2-41b2-ac45-c16a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c32-a505-988f-1ee2" type="min"/>
           </constraints>
           <rules>
-            <rule id="7f2b-c8c5-6434-ba5b" name="The Alpha Legion" publicationId="ca571888--pubN67459" page="124" hidden="false">
-              <description>• Mutable Tactics: An Alpha Legion army must pick one of the following 规则 at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the detachment with the 阿斯塔特军团 (Alpha Legion) 规则 for the duration of this game:
+            <rule id="7f2b-c8c5-6434-ba5b" name="The 阿尔法军团" publicationId="ca571888--pubN67459" page="124" hidden="false">
+              <description>• Mutable Tactics: An 阿尔法军团 army must pick one of the following 规则 at the point where 主将特性 have been selected for the game. This rule then applies to all of the units in the 分队 with the 阿斯塔特军团 (阿尔法军团) 规则 for the duration of this game:
 - 侦察
 - 渗透
 - 坦克猎手
 - 反击
 - 穿越地形
 - 精金意志
-• Martial Hubris: In any mission where secondary objectives are being used, and an Alpha Legion army is your army’s primary detachment, if the Alpha Legion army has suffered more units destroyed than their enemy at the end of the game, then their enemy gains 1 Victory point.
-(In the case of Shattered Legions. The army only gains both of these benifits if the Warlord is Alpha Legion)</description>
+• Martial Hubris: In any mission where secondary objectives are being used, and an 阿尔法军团 army is your army’s 主分队, if the 阿尔法军团 army has suffered more units destroyed than their enemy at the end of the game, then their enemy gains 1 Victory point.
+(In the case of 破碎军团. The army only gains both of these benifits if 主将 is 阿尔法军团)</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2694,12 +2694,12 @@ one 规则 the unit possesses ceases to have any effect</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ecf1-d4e7-e2e0-89f7" name="Power Dagger" publicationId="ca571888--pubN67459" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ecf1-d4e7-e2e0-89f7" name="动力匕首" publicationId="ca571888--pubN67459" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e464-0413-85b3-080a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b178-489e-a59f-a897" name="Power Dagger" publicationId="ca571888--pubN67459" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+            <profile id="b178-489e-a59f-a897" name="动力匕首" publicationId="ca571888--pubN67459" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">-1</characteristic>
@@ -2718,7 +2718,7 @@ one 规则 the unit possesses ceases to have any effect</description>
           </constraints>
           <rules>
             <rule id="5b0f-9337-ec01-a995" name="Venom Spheres" publicationId="ca571888--pubN67459" page="" hidden="false">
-              <description>Replaces Frag grenades.  Assault grenade that grants 愤怒之锤 to user.</description>
+              <description>Replaces Frag grenades.  突击手雷 that grants 愤怒之锤 to user.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2815,7 +2815,7 @@ one 规则 the unit possesses ceases to have any effect</description>
       <rules>
         <rule id="9012-5629-0e4f-de43" name="种源" hidden="false">
           <description>If the 流浪灵能者 is killed either by losing wounds or as the result of suffering a Perils of the Warp attack, roll a D6. On a result of a 5+ normally or a 2+ in the case of Perils of the Warp, the model becomes 附魔 with the profile given above. The model gains the 恶魔 and 撕裂 规则 but loses the 灵能者 规则.
-If a 流浪灵能者 who is the army’s Warlord becomes 附魔, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
+If a 流浪灵能者 who is the army’s 主将 becomes 附魔, they are still counted as destroyed for the purpose of any victory conditions of the mission being played.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2989,7 +2989,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
             <modifier type="set" field="name" value="憎恨 (Psykers)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c1a5-fe85-abfe-1e29" name="Agent of the Emperor" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
+        <infoLink id="c1a5-fe85-abfe-1e29" name="帝皇特勤" hidden="false" targetId="d54b-4d1d-8464-b92c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fcc8-2bf1-7053-9feb" name="人物" hidden="false" targetId="8ab2-4493-44a4-b282" primary="false"/>
@@ -3004,7 +3004,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="09e1-697b-17ef-fbcb" name="Enhanced Voidsheen Cloak" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-              <description>Provides the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
+              <description>获得 the wearer with a 4++, which increases to a 3++ vs 喷射盖板 and 爆炸 武器</description>
             </rule>
           </rules>
           <costs>
@@ -3299,7 +3299,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
           </constraints>
           <rules>
             <rule id="e64f-a960-b19f-0b8c" name="Company Cadre Structure" publicationId="e085-bc29-3c2d-2c49" hidden="false">
-              <description>For each HQ unit with this 规则, at least three other units with this rule can be included in the same detachment. If no HQ model is included, then these units may not be selected. Additionally, choose one of the following rules to apply to all models with this rule in the detachment: 渗透, 远征军, 隐蔽, Overawe (+1 to combat resolution)</description>
+              <description>For each HQ unit with this 规则, at least three other units with this rule can be included in the same 分队. If no HQ model is included, then these units may not be selected. Additionally, choose one of the following rules to apply to all models with this rule in the 分队: 渗透, 远征军, 隐蔽, Overawe (+1 to combat resolution)</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -3451,7 +3451,7 @@ All models with psychic powers suffer a penalty to roll to manifest psychic powe
       <rules>
         <rule id="2c18-c129-edc5-7302" name="导航者 Powers" publicationId="ca571888--pubN67636" hidden="false">
           <description>导航者 Powers
-Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers. In order to use a 导航者 power, the 导航者 must make a Leadership test. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
+Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers. In order to use a 导航者 power, the 导航者 must make a LD测试. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
 • The Lidless Stare
 Use in the controlling player’s 射击阶段, counting as a shooting attack. Place a 喷射盖板 as if the 导航者 was shooting a 喷射盖板 weapon. Every 步兵 type model, friend or foe, under the 喷射盖板 must pass an Initiative test. Models that fail the test suffer an automatic 即死 wound with no Armour saves possible.
 • Warp Prescience
@@ -3577,9 +3577,9 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a03-8d12-66b4-9e28" name="Knight-Errant (Mournival) (AoE)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3a03-8d12-66b4-9e28" name="游侠骑士 (Mournival) (AoE)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="563d-fec8-30eb-812e" name="Knight-Errant" publicationId="ca571888--pubN89821" page="212" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+        <profile id="563d-fec8-30eb-812e" name="游侠骑士" publicationId="ca571888--pubN89821" page="212" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
           <characteristics>
             <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -3595,7 +3595,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         </profile>
       </profiles>
       <rules>
-        <rule id="4fd4-8d24-3cf2-9cac" name="宿敌 (Traitors)" hidden="false">
+        <rule id="4fd4-8d24-3cf2-9cac" name="宿敌 (反叛方)" hidden="false">
           <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
         <rule id="3aff-8491-713d-80e0" name="Legions Astartes" hidden="false">
@@ -3973,7 +3973,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         </selectionEntryGroup>
         <selectionEntryGroup id="57b9-c008-05ea-ae93" name="可以升级:" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="2b2c-41e5-151c-11ce" name="Consul: Librarian" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="2b2c-41e5-151c-11ce" name="顾问: Librarian" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d447-17b3-51ec-c7e9" type="max"/>
               </constraints>
@@ -4217,7 +4217,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
       <description>The model can never join or be joined by other models.</description>
     </rule>
     <rule id="c9d0-2b23-d585-a57d" name="Execute the Mandate" hidden="false">
-      <description>Gain +1VP at the end of the game if the enemy’s Warlord was removed as a casualty as the result of a Wound inflicted by a model with this rule.</description>
+      <description>Gain +1VP at the end of the game if the enemy’s 主将 was removed as a casualty as the result of a Wound inflicted by a model with this rule.</description>
     </rule>
   </sharedRules>
 </catalogue>

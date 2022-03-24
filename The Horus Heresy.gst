@@ -202,10 +202,10 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd42-e9a9-8fd1-2d3a" type="min"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="0617-4e0c-126d-17f3" name="Mournival Centurion Restricted Unit" hidden="false"/>
-    <categoryEntry id="f810-2708-088d-9099" name="Mournival Centurion Restricted 2K 0-1" hidden="false"/>
-    <categoryEntry id="a684-3954-1c52-f1a5" name="Mournival Centurion Unavailble" hidden="false"/>
-    <categoryEntry id="c00c-5a5c-3d86-f5a5" name="Mournival Centurion Unrestricted" hidden="false"/>
+    <categoryEntry id="0617-4e0c-126d-17f3" name="Mournival 百夫长 Restricted Unit" hidden="false"/>
+    <categoryEntry id="f810-2708-088d-9099" name="Mournival 百夫长 Restricted 2K 0-1" hidden="false"/>
+    <categoryEntry id="a684-3954-1c52-f1a5" name="Mournival 百夫长 Unavailble" hidden="false"/>
+    <categoryEntry id="c00c-5a5c-3d86-f5a5" name="Mournival 百夫长 Unrestricted" hidden="false"/>
     <categoryEntry id="a660-a665-c4aa-5e82" name="超重型选项" hidden="false"/>
     <categoryEntry id="a7c6-e380-f10f-9798" name="Mechanicum" hidden="false"/>
     <categoryEntry id="6077-281f-c55d-9bf0" name="联军分队" hidden="false"/>
@@ -368,19 +368,19 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a75-0029-fd9c-c449" type="min"/>
       </constraints>
       <rules>
-        <rule id="430e-8c2b-1d89-3569" name="The Warlord" publicationId="ca571888--pubN106502" page="138" hidden="false">
-          <description>When choosing your army, you must nominate one model to be your Warlord. Unless specified otherwise – this must be a 人物 model. If you do not have any 人物 models in your army, then select any other model in your army to be the Warlord. The model you choose as your Warlord must be from the Primary Detachment of the 立场 Organisation chart in use, unless another rule specifically states otherwise.</description>
+        <rule id="430e-8c2b-1d89-3569" name="主将" publicationId="ca571888--pubN106502" page="138" hidden="false">
+          <description>When choosing your army, you must nominate one model to be your 主将. Unless specified otherwise – this must be a 人物 model. If you do not have any 人物 models in your army, then select any other model in your army to be 主将. The model you choose as your 主将 must be from the 主分队 of the Force Organisation chart in use, unless another rule specifically states otherwise.</description>
         </rule>
         <rule id="9fe9-f7c3-437a-2f30" name="主将特性" publicationId="ca571888--pubN106502" page="138" hidden="false">
-          <description>Your Warlord is a potent force upon the battlefield. Not only are they a mighty hero, with all the skills and renown you might expect from the leader of a great army, but over the course of a long career they will also have picked up one or more specialised abilities, which we refer to as ‘Traits’.
-If your Warlord is a 人物 model, then they have one 主将特性. Note that if you have had to pick a non-人物 model as your Warlord, then they do not receive a 主将特性, but count as a Warlord for all other rules purposes.
-To determine which trait your Warlord has, you need to choose which 主将特性 table to roll on. You must roll on this table immediately before you deploy the first unit in your army (see page 137). Sometimes, other publications present alternative 主将特性 tables that you can choose to roll on instead.</description>
+          <description>Your 主将 is a potent force upon the battlefield. Not only are they a mighty hero, with all the skills and renown you might expect from the leader of a great army, but over the course of a long career they will also have picked up one or more specialised abilities, which we refer to as ‘Traits’.
+If your 主将 is a 人物 model, then they have one 主将特性. Note that if you have had to pick a 非人物 model as your 主将, then they do not receive a 主将特性, but count as a 主将 for all other rules purposes.
+To determine which trait your 主将 has, you need to choose which 主将特性 table to roll on. You must roll on this table immediately before you deploy the first unit in your army (see page 137). Sometimes, other publications present alternative 主将特性 tables that you can choose to roll on instead.</description>
         </rule>
         <rule id="abb5-1673-1a04-1e24" name="主将特性 and Unique Units" publicationId="ca571888--pubN106502" page="138" hidden="false">
-          <description>Many Unique 独立人物 are listed as having a specific 主将特性 in their Army List entry. If such a unit is your Warlord, do not roll on a 主将特性 table – instead, that unit automatically has the listed 主将特性. Note that the unit will only gain that 主将特性 if it is your Warlord. If another model is selected as your Warlord, then the unique unit will not have any 主将特性, even if there is a trait listed in its entry.</description>
+          <description>Many Unique 独立人物 are listed as having a specific 主将特性 in their Army List entry. If such a unit is your 主将, do not roll on a 主将特性 table – instead, that unit automatically has the listed 主将特性. Note that the unit will only gain that 主将特性 if it is your 主将. If another model is selected as your 主将, then the unique unit will not have any 主将特性, even if there is a trait listed in its entry.</description>
         </rule>
-        <rule id="5b00-bf3b-b24d-c76e" name="Death of the Warlord" publicationId="ca571888--pubN106502" page="138" hidden="false">
-          <description>If your Warlord is removed as a casualty during your game, any abilities or 规则 granted by their 主将特性 are immediately lost. If the 主将特性 in question conferred a 规则 that allows an unusual method of deployment from Reserves (such as conferring the 侧击 ability on certain units), that 规则 is immediately lost and the affected units must instead deploy from Reserves in the normal fashion.</description>
+        <rule id="5b00-bf3b-b24d-c76e" name="Death of 主将" publicationId="ca571888--pubN106502" page="138" hidden="false">
+          <description>If your 主将 is removed as a casualty during your game, any abilities or 规则 granted by their 主将特性 are immediately lost. If the 主将特性 in question conferred a 规则 that allows an unusual method of deployment from Reserves (such as conferring the 侧击 ability on certain units), that 规则 is immediately lost and the affected units must instead deploy from Reserves in the normal fashion.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -430,7 +430,7 @@ To determine which trait your Warlord has, you need to choose which 主将特性
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b94-5299-71bb-0588" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="5adb-4a52-7ff5-8fbf" name="固定实体:" hidden="false">
+    <categoryEntry id="5adb-4a52-7ff5-8fbf" name="不可移动:" hidden="false">
       <constraints>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c101-3e98-b4da-3e01" type="max"/>
       </constraints>
@@ -716,7 +716,7 @@ To determine which trait your Warlord has, you need to choose which 主将特性
         <rule id="ff86-ae5b-51fe-97ae" name="导航者 Powers" publicationId="ca571888--pubN67636" hidden="false">
           <description>Navigators have a range of powers, one of which may be attempted in the phase indicated so long as the 导航者 is not engaged in an assault. These powers do not count as Psychic Powers and the 导航者 does not use Warp Charge points or have access to any Psychic Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers.
 
-In order to use a 导航者 power, the 导航者 must make a Leadership test. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
+In order to use a 导航者 power, the 导航者 must make a LD测试. 如果测试通过, the chosen power is used as described. If the test is failed, the power is not used and the 导航者 and their unit is Pinned (though they do not 卧倒).
 
 • The Lidless Stare
 Use in the controlling player’s 射击阶段, counting as a shooting attack. Place a 喷射盖板 as if the 导航者 was shooting a 喷射盖板 weapon. Every 步兵 type model, friend or foe, under the 喷射盖板 must pass an Initiative test. Models that fail the test suffer an automatic 即死 wound with no Armour saves possible.
@@ -1863,32 +1863,32 @@ D6    结果  S AP
       <profiles>
         <profile id="cfe2-9cdd-5a7f-c824" name="主将特性: Inspiring Presence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Friendly units within 12&quot; of the Warlord can use his Leadership rather than their own.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Friendly units within 12&quot; of 主将 can use his Leadership rather than their own.</characteristic>
           </characteristics>
         </profile>
         <profile id="b0c9-26c9-a259-9acf" name="主将特性: Coordinated Assault" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">In the 突击阶段, your Warlord and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">In the 突击阶段, your 主将 and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="faee-6ac9-e1e9-2475" name="主将特性: Target Priority" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">In the 射击阶段, your Warlord and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">In the 射击阶段, your 主将 and all friendly units within 12&quot; of him re-roll To Hit rolls of 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="a578-9a31-6f36-26da" name="主将特性: Master of the Vanguard" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord, and all friendly units within 12&quot;, add 1&quot; to the distance that they can move when they Run or Charge.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your 主将, and all friendly units within 12&quot;, add 1&quot; to the distance that they can move when they Run or Charge.</characteristic>
           </characteristics>
         </profile>
         <profile id="e2fd-c583-0688-4738" name="主将特性: Intimidating Presence" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Enemy units within 12&quot; of the Warlord must use their Lowest Leadership value, not the highest.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Enemy units within 12&quot; of 主将 must use their Lowest Leadership value, not the highest.</characteristic>
           </characteristics>
         </profile>
         <profile id="2123-b3b6-de4b-0db5" name="主将特性: The Dust of a Thousand Worlds" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord, and all friendly units within 12&quot;, have the 穿越地形 规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your 主将, and all friendly units within 12&quot;, have the 穿越地形 规则.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1958,12 +1958,12 @@ D6    结果  S AP
         </profile>
         <profile id="c745-d7b2-68f7-9d92" name="主将特性: Master of Ambush" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your Warlord and three 非载具 units of your choice have the 渗透 规则.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Your 主将 and three 非载具 units of your choice have the 渗透 规则.</characteristic>
           </characteristics>
         </profile>
         <profile id="312e-33bf-d4e0-36ba" name="主将特性: Strategic Genius" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">You add +1 to any Seize the Initiative roll.  In addition, whilst your Warlord is alive, you 可以重投 any Reserve Rolls (failed or successful).</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">You add +1 to any Seize the Initiative roll.  In addition, whilst your 主将 is alive, you 可以重投 any Reserve Rolls (failed or successful).</characteristic>
           </characteristics>
         </profile>
         <profile id="cde5-6744-ed87-eaa7" name="主将特性: Princeps of Deceit" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
@@ -1973,7 +1973,7 @@ D6    结果  S AP
         </profile>
         <profile id="ead1-056f-4340-b428" name="主将特性: Divide to Conquer" publicationId="ca571888--pubN106502" page="137" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Whilst your Warlord is alive, your opponent has a -1 modifier to their Reserve Rolls.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Whilst your 主将 is alive, your opponent has a -1 modifier to their Reserve Rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2461,7 +2461,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">诅咒</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire 坚守射击 does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Whilst the power is in effect, the target unit must pass a LD测试 each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase. A unit that fails this test when attempting to fire 坚守射击 does not fire any shots, but acts normally in the ensuing Fight sub-phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7251-be85-3b42-d921" name="3. Terrify" publicationId="ca571888--pubN106502" page="188" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2836,7 +2836,7 @@ D6    结果  S AP
           </constraints>
           <rules>
             <rule id="06a0-3947-0f73-4a55" name="Mysterious Containers" publicationId="ca571888--pubN80309" hidden="false">
-              <description>The first time a unit moves or deploys in base contact with a Munitorum Armoured Container, roll a D6 and consult the following table to discover its contents. If you are using the Munitorum Armoured Containers to represent Objective Markers, this table replaces the Mysterious Objectives in BRB. 
+              <description>The first time a unit moves or deploys in base contact with a Munitorum Armoured Container, roll a D6 and 顾问t the following table to discover its contents. If you are using the Munitorum Armoured Containers to represent Objective Markers, this table replaces the Mysterious Objectives in BRB.
 
 1 - Xenos Creature: The container was transporting a rare and deadly xenos creature that immediately lashes out in anger as it escapes. All units within 6&quot; of the armoured container take D6 S 4 AP 6 hits with the 无视掩体 规则. Wounds are randomly allocated.
 2 - Nothing of Note: The container contains vital supplies of red berets en route to an Astra Militarum regiment, but has no additional effect on the game.
@@ -5601,7 +5601,7 @@ D6    结果  S AP
       </profiles>
       <rules>
         <rule id="0ecc-85fa-880b-5e24" name="Mysterious Wreckage" publicationId="ca571888--pubN106502" page="123" hidden="false">
-          <description>The first time a unit enters or deploys in base contact with a 被摧毁的帝国登陆平台, roll a D6 and consult the following table:
+          <description>The first time a unit enters or deploys in base contact with a 被摧毁的帝国登陆平台, roll a D6 and 顾问t the following table:
 
 D6 Result
 1 Unstable Fuel Core: 
@@ -6707,15 +6707,15 @@ Please let us know what worked well as a part of these rules and also what could
         <cost name="分" typeId="points" value="420.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e786-debb-a21b-d5ee" name="Macharius" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e786-debb-a21b-d5ee" name="马卡里乌斯" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="5721-e2cd-59fe-751b" name="Macharius" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5721-e2cd-59fe-751b" name="马卡里乌斯" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299d-4cdc-9b35-2593" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228a-600a-702c-a1c9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b5a8-ea2a-f13e-444d" name="Macharius" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+            <profile id="b5a8-ea2a-f13e-444d" name="马卡里乌斯" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
               <modifiers>
                 <modifier type="increment" field="425323232344415441232323" value="1">
                   <conditions>
@@ -6734,13 +6734,13 @@ Please let us know what worked well as a part of these rules and also what could
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="2ce2-a16c-16a6-c0ba" name="Macharius 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2ce2-a16c-16a6-c0ba" name="马卡里乌斯 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2b-7f2e-8b2a-9161" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bf-9560-1087-a037" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c0ae-96be-2cbd-1b6c" name="Macharius 战斗炮" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="c0ae-96be-2cbd-1b6c" name="马卡里乌斯 战斗炮" page="" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">72</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -6893,15 +6893,15 @@ Please let us know what worked well as a part of these rules and also what could
         <cost name="分" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc26-df44-2b56-fd88" name="Macharius Omega" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cc26-df44-2b56-fd88" name="马卡里乌斯 Omega" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="775e-bddc-018c-70f2" name="Macharius Omega" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="775e-bddc-018c-70f2" name="马卡里乌斯 Omega" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f38-afb0-62bb-4ce6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf90-4a2f-5389-6a71" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a21d-ca72-b918-ea57" name="Macharius Omega" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+            <profile id="a21d-ca72-b918-ea57" name="马卡里乌斯 Omega" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
               <modifiers>
                 <modifier type="increment" field="425323232344415441232323" value="1">
                   <conditions>
@@ -7066,18 +7066,18 @@ Please let us know what worked well as a part of these rules and also what could
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4b0-56e7-4f8c-7ea5" name="Macharius Vanquisher" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d4b0-56e7-4f8c-7ea5" name="马卡里乌斯 Vanquisher" page="" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="6890-e2d1-c944-f20d" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="90b5-7741-f1ae-0e4d" name="Macharius Vanquisher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="90b5-7741-f1ae-0e4d" name="马卡里乌斯 Vanquisher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b8-568c-d37f-0ba7" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aebb-730c-79d0-6319" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b076-a786-eede-ce9c" name="Macharius Vanquisher" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+            <profile id="b076-a786-eede-ce9c" name="马卡里乌斯 Vanquisher" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
               <modifiers>
                 <modifier type="increment" field="425323232344415441232323" value="1">
                   <conditions>
@@ -7096,13 +7096,13 @@ Please let us know what worked well as a part of these rules and also what could
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="f52b-cd4f-a4d2-53aa" name="Macharius Vanquisher 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f52b-cd4f-a4d2-53aa" name="马卡里乌斯 Vanquisher 战斗炮" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2311-8855-b21c-3f08" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e445-ded9-5526-66df" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0fb9-9da6-802d-aca0" name="Macharius Vanquisher 战斗炮 (AP Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="0fb9-9da6-802d-aca0" name="马卡里乌斯 Vanquisher 战斗炮 (AP Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -7110,7 +7110,7 @@ Please let us know what worked well as a part of these rules and also what could
                     <characteristic name="类型" typeId="5479706523232344415441232323">重型 1, 双联, 装甲杀手, 主武器</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="adab-d3af-5889-d8b6" name="Macharius Vanquisher 战斗炮 (爆炸 Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
+                <profile id="adab-d3af-5889-d8b6" name="马卡里乌斯 Vanquisher 战斗炮 (爆炸 Shells)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
                   <characteristics>
                     <characteristic name="距离" typeId="52616e676523232344415441232323">72&quot;</characteristic>
                     <characteristic name="S" typeId="537472656e67746823232344415441232323">8</characteristic>
@@ -7120,7 +7120,7 @@ Please let us know what worked well as a part of these rules and also what could
                 </profile>
               </profiles>
               <rules>
-                <rule id="fa64-7c84-359d-fb3a" name="Macharius Vanquisher 战斗炮" hidden="false">
+                <rule id="fa64-7c84-359d-fb3a" name="马卡里乌斯 Vanquisher 战斗炮" hidden="false">
                   <description>You must choose the type of shell fired before the dice is rolled and you can only fire one shell type a turn.
 Any abilities that allow the 载具 to fire multiple shots will use the same shell type for all shots fired that turn.</description>
                 </rule>
@@ -7250,18 +7250,18 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e95a-57cf-a5c3-772f" name="Macharius Vulcan" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e95a-57cf-a5c3-772f" name="马卡里乌斯 Vulcan" page="" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="204e-fe50-c2c8-23ce" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="87c0-d55a-fd71-b37d" name="Macharius Vulcan" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="87c0-d55a-fd71-b37d" name="马卡里乌斯 Vulcan" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d76f-ce05-74e8-390b" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbe2-3018-af36-bb69" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2a60-6b16-9dee-6aae" name="Macharius Vulcan" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+            <profile id="2a60-6b16-9dee-6aae" name="马卡里乌斯 Vulcan" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
               <modifiers>
                 <modifier type="increment" field="425323232344415441232323" value="1">
                   <conditions>
@@ -7313,7 +7313,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               </profiles>
               <rules>
                 <rule id="7b06-37ce-37d5-272d" name="Vulcan mega-bolter" page="" hidden="false">
-                  <description>If the Macharius Vulcan remains stationary in its controlling player&apos;s 移动阶段, it may fire its Vulcan mega-bolter twice in that turn&apos;s 射击阶段 (both shots must be directed at the same target).</description>
+                  <description>If the 马卡里乌斯 Vulcan remains stationary in its controlling player&apos;s 移动阶段, it may fire its Vulcan mega-bolter twice in that turn&apos;s 射击阶段 (both shots must be directed at the same target).</description>
                 </rule>
               </rules>
               <costs>
@@ -7955,12 +7955,12 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef9-9ddb-aedf-7b0a" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="d682-6cc7-60ab-1702" name="Armour Plates Replacing Side Sponsons" page="0" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d682-6cc7-60ab-1702" name="装甲板 Replacing Side Sponsons" page="0" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cfa-7c96-eb2d-8b02" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="62e8-c935-5b56-8ffb" name="Armour Plates" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
+                    <profile id="62e8-c935-5b56-8ffb" name="装甲板" hidden="false" typeId="57616c6b657223232344415441232323" typeName="机甲">
                       <characteristics>
                         <characteristic name="WS" typeId="575323232344415441232323"/>
                         <characteristic name="BS" typeId="425323232344415441232323"/>
@@ -8449,15 +8449,15 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d41d-ed8d-3629-ab1a" name="Praetor Armoured Assault Launcher" page="" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d41d-ed8d-3629-ab1a" name="执政官 Armoured Assault Launcher" page="" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="5ee5-1184-f11b-30a3" name="Praetor Armoured Assault Launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5ee5-1184-f11b-30a3" name="执政官 Armoured Assault Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fea-eb0d-28f4-80b1" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f0-3942-19ab-320e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d0f-1004-82bd-f25f" name="Praetor" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
+            <profile id="5d0f-1004-82bd-f25f" name="执政官" page="" hidden="false" typeId="56656869636c6523232344415441232323" typeName="载具">
               <modifiers>
                 <modifier type="increment" field="425323232344415441232323" value="1">
                   <conditions>
@@ -8476,7 +8476,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="38a2-423c-63a5-a96c" name="Praetor Launcher Munitions" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="38a2-423c-63a5-a96c" name="执政官 Launcher Munitions" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dd25-37df-fc89-1657" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="57c2-2091-eeb1-ee2a" type="max"/>
@@ -9009,7 +9009,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e193-171f-03c4-8655" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7968-d08f-b68a-b003" name="Distinctive Paint Schemes" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+                <profile id="7968-d08f-b68a-b003" name="特殊涂装标志" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
                     <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">These are a single use item.  While the owning 载具 is in play an on the board (not in ongoing reserves), one friendly unit 视线内 may re-roll a single Morale test.  Distinctive Paint Scheme or Markings must be represented on the model. </characteristic>
                   </characteristics>
@@ -9194,7 +9194,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e62-be0e-f1d4-0a1c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="d8c1-3d7e-fe54-649e" name="Distinctive Paint Schemes" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
+                <profile id="d8c1-3d7e-fe54-649e" name="特殊涂装标志" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
                     <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">These are a single use item.  While the owning 载具 is in play an on the board (not in ongoing reserves), one friendly unit 视线内 may re-roll a single Morale test.  Distinctive Paint Scheme or Markings must be represented on the model. </characteristic>
                   </characteristics>
@@ -9316,7 +9316,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
               <profiles>
                 <profile id="99b2-dc77-6cbf-af8b" name="地面跟踪占卜" publicationId="ca571888--pubN80998" page="43" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides 对地扫射 规则.  </characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 对地扫射 规则.  </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9977,7 +9977,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
           <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
         <rule id="4b80-59db-9369-a6ca" name="The Emperor Protects" hidden="false">
-          <description>The first time Garro loses his last wound, make a Leadership test. 如果测试通过, he remains in play with a single wound remaining.</description>
+          <description>The first time Garro loses his last wound, make a LD测试. 如果测试通过, he remains in play with a single wound remaining.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -10078,9 +10078,9 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0b3e-7f6d-3556-5446" name="Knight-Errant" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0b3e-7f6d-3556-5446" name="游侠骑士" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="85cf-9401-70bd-63fd" name="Knight-Errant" publicationId="ca571888--pubN89821" page="212" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
+        <profile id="85cf-9401-70bd-63fd" name="游侠骑士" publicationId="ca571888--pubN89821" page="212" hidden="false" typeId="556e697423232344415441232323" typeName="单位">
           <characteristics>
             <characteristic name="类型" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
             <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
@@ -10096,7 +10096,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </profile>
       </profiles>
       <rules>
-        <rule id="90b4-3d5a-1cf7-b8ab" name="宿敌 (Traitors)" hidden="false">
+        <rule id="90b4-3d5a-1cf7-b8ab" name="宿敌 (反叛方)" hidden="false">
           <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
       </rules>
@@ -10595,7 +10595,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </profile>
       </profiles>
       <rules>
-        <rule id="2908-f026-0047-3174" name="宿敌 (Traitors)" hidden="false">
+        <rule id="2908-f026-0047-3174" name="宿敌 (反叛方)" hidden="false">
           <description>A unit that contains at least one model with this 规则 重投 failed To Hit and 造伤骰 of 1 if attacking its 宿敌. This applies both to shooting and 近战攻击.</description>
         </rule>
         <rule id="bc59-735e-d83d-a4a8" name="Psionic Fury" publicationId="ca571888--pubN89821" page="210" hidden="false">
@@ -10745,21 +10745,21 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c02-08fa-6a10-f515" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="e16c-6219-cacc-ad8f" name=" Raider Primary Detachment" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="e16c-6219-cacc-ad8f" name=" Raider 主分队" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0077-08a8-cc13-52d6" type="max"/>
                     <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="628a-be9a-2a03-ed82" type="max"/>
                   </constraints>
                   <rules>
-                    <rule id="0427-733e-049c-a44d" name="Raider Primary Detachment" publicationId="ca571888--pubN84158" page="177" hidden="false">
-                      <description>快速 Moving, Hard Hitting: Raider detachment must consist of models of a single faction, and no other detachment in the army 可以选择 a Fortifications detachment.  All Elites units are counted as scoring units, while Troops choices are Denial units only.
+                    <rule id="0427-733e-049c-a44d" name="Raider 主分队" publicationId="ca571888--pubN84158" page="177" hidden="false">
+                      <description>快速 Moving, Hard Hitting: Raider 分队 must consist of models of a single faction, and no other 分队 in the army 可以选择 a Fortifications 分队.  All Elites units are counted as scoring units, while Troops choices are Denial units only.
 
 In addition, any 战争之王槽位 must fulfil one of the following criteria:
 - Unit has the 超重型 (快速) type
 - Unit is a 超重型载具 or 机甲 with less than 6 Hull Points
 - Unit has the 超重型飞行器 type
 
-The Element of Surprise: Prior to any rolls for for first turn or units are deployed.  The player using the Raider Detachment chooses one fo the following options, informing their opponent before beginning play.  
+The Element of Surprise: Prior to any rolls for for first turn or units are deployed.  The player using the Raider 分队 chooses one fo the following options, informing their opponent before beginning play.
 - 夜战 rules are automatically in effect for the first turn, and the second turn on a 4+
 - Grant D3+2 of the Raider player&apos;s units the 渗透 and 侧击 规则
 - The Raider player may re-roll any dice rolled to determine which player takes the first turn, and Siezes the Initiative on a 4+ instead of the usually required score.</description>
@@ -10769,16 +10769,16 @@ The Element of Surprise: Prior to any rolls for for first turn or units are depl
                     <cost name="分" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fc71-c60e-a448-4de1" name=" Garrison Primary Detachment" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="fc71-c60e-a448-4de1" name=" Garrison 主分队" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a94-1ab0-1307-4604" type="max"/>
                     <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eac5-3e2e-a441-2834" type="max"/>
                   </constraints>
                   <rules>
-                    <rule id="28a4-8d94-085d-757d" name="Garrison Primary Detachment" publicationId="ca571888--pubN84158" page="177" hidden="false">
-                      <description>Prepared Ground: In games where objectives are in use, the player using a Garrison Detachment may reposition all placed objectives by 6&quot; in any direction before beginning the first turn, as long as this does not place them outside the play area, within impassable terrain, or within a 载具, building, or fortification.
+                    <rule id="28a4-8d94-085d-757d" name="Garrison 主分队" publicationId="ca571888--pubN84158" page="177" hidden="false">
+                      <description>Prepared Ground: In games where objectives are in use, the player using a Garrison 分队 may reposition all placed objectives by 6&quot; in any direction before beginning the first turn, as long as this does not place them outside the play area, within impassable terrain, or within a 载具, building, or fortification.
 
-Fortress-bound: Each fortification deployed on the table must be occupied by at least one 步兵 unit from the same detachment if it has either Battlements or a Transport Capacity.</description>
+Fortress-bound: Each fortification deployed on the table must be occupied by at least one 步兵 unit from the same 分队 if it has either Battlements or a Transport Capacity.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -10826,7 +10826,7 @@ Fortress-bound: Each fortification deployed on the table must be occupied by at 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e829-09e5-5020-b258" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="dc72-082d-808e-dd2f" name=" Incursion 立场 Primary Detachment" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="dc72-082d-808e-dd2f" name=" Incursion 立场 主分队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="970b-5a6a-6f88-5ffc" value="0.0">
                       <conditions>
@@ -10839,19 +10839,19 @@ Fortress-bound: Each fortification deployed on the table must be occupied by at 
                     <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="970b-5a6a-6f88-5ffc" type="max"/>
                   </constraints>
                   <rules>
-                    <rule id="7655-2b74-db09-457e" name="Incursion 立场 Primary Detachment" publicationId="ca571888--pubN84158" page="193" hidden="false">
-                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Only 1 HQ in the Incursion 立场 may be a Praetor, across all 3 available Incursion 立场 Detachments.  No Rites of War may be used.
+                    <rule id="7655-2b74-db09-457e" name="Incursion 立场 主分队" publicationId="ca571888--pubN84158" page="193" hidden="false">
+                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Only 1 HQ in the Incursion 立场 may be a 执政官, across all 3 available Incursion 立场 分队s.  No Rites of War may be used.
 
 Command Benefits:
 - 目标安全: All Troops units from this detatchment have the 目标安全 规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
-- Close Coordination: 步兵 units from this detachment gain the 拦截 rule when within 6&quot; of any 载具 from the same sub-detachment, but only when firing at enemy 步兵 models.</description>
+- Close Coordination: 步兵 units from this 分队 gain the 拦截 rule when within 6&quot; of any 载具 from the same sub-分队, but only when firing at enemy 步兵 models.</description>
                     </rule>
                   </rules>
                   <costs>
                     <cost name="分" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="c9fd-8e3f-eaa7-b788" name=" Entrenched 立场 Primary Detachment" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c9fd-8e3f-eaa7-b788" name=" Entrenched 立场 主分队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="8e13-a4f3-ae37-b5fd" value="0.0">
                       <conditions>
@@ -10864,19 +10864,19 @@ Command Benefits:
                     <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e13-a4f3-ae37-b5fd" type="max"/>
                   </constraints>
                   <rules>
-                    <rule id="4b23-8920-a6e2-4649" name="Entrenched 立场 Primary Detachment" publicationId="ca571888--pubN84158" page="193" hidden="false">
-                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Compulsory Heavy Support  must be a unit with the 步兵 type.  Optional Fortification Detachment may not include any fortifications with the 固若金汤 规则.
+                    <rule id="4b23-8920-a6e2-4649" name="Entrenched 立场 主分队" publicationId="ca571888--pubN84158" page="193" hidden="false">
+                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Compulsory Heavy Support  must be a unit with the 步兵 type.  Optional Fortification 分队 may not include any fortifications with the 固若金汤 规则.
 
 Command Benefits:
 - 目标安全: All Troops units from this detatchment have the 目标安全 规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
-- Entrenched: On the first game turn only, all units with the 步兵 type in this detachment gain +1 to any cover saves granted by 废墟, defence lines, craters, battlements, and barricades, to a maximum of 2+.</description>
+- Entrenched: On the first game turn only, all units with the 步兵 type in this 分队 gain +1 to any cover saves granted by 废墟, defence lines, craters, battlements, and barricades, to a maximum of 2+.</description>
                     </rule>
                   </rules>
                   <costs>
                     <cost name="分" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4635-338b-aef0-a2cc" name=" Incursion 立场 Sub-Detachment" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="4635-338b-aef0-a2cc" name=" Incursion 立场 Sub-分队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -10889,12 +10889,12 @@ Command Benefits:
                     <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="a762-3ed5-8aab-50ee" type="max"/>
                   </constraints>
                   <rules>
-                    <rule id="d276-9043-617e-c931" name="Incursion 立场 Sub-Detachment" publicationId="ca571888--pubN84158" page="192" hidden="false">
-                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Only 1 HQ in the Incursion 立场 may be a Praetor, across all 3 available Incursion 立场 Detachments.  No Rites of War may be used.
+                    <rule id="d276-9043-617e-c931" name="Incursion 立场 Sub-分队" publicationId="ca571888--pubN84158" page="192" hidden="false">
+                      <description>Restrictions: All units chosen must be of the same Faction (or have no Faction).  Only 1 HQ in the Incursion 立场 may be a 执政官, across all 3 available Incursion 立场 分队s.  No Rites of War may be used.
 
 Command Benefits:
 - 目标安全: All Troops units from this detatchment have the 目标安全 规则.  A unit with this rule controls objectives and occupies a ruin, even if an enemy scoring unit is within range of the objective or within the ruin, unless the enemy unit also has this rule.
-- Close Coordination: 步兵 units from this detachment gain the 拦截 rule when within 6&quot; of any 载具 from the same sub-detachment, but only when firing at enemy 步兵 models.</description>
+- Close Coordination: 步兵 units from this 分队 gain the 拦截 rule when within 6&quot; of any 载具 from the same sub-分队, but only when firing at enemy 步兵 models.</description>
                     </rule>
                   </rules>
                   <costs>
@@ -12048,7 +12048,7 @@ Command Benefits:
           <profiles>
             <profile id="3550-c008-51d0-86d2" name="共情链接" publicationId="ca571888--pubN103311" page="305" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">游戏开始时,选择相同分队中2个属于同阿斯塔特军团的灵能者独立人物模型,以每个模型15分建立一个共情链接.军队中只能有1对灵能者可以建立共情链接.只要建立共情链接的2个模型都在桌上,他们便获得永恒战士规则.此外,如果共情链接任何一方遭受灵能反噬,则灵能反噬表的结果作用与链接的双方.如果游戏中共情链接的某一方损失了W(灵能反噬以外的),只要共情链接的另一方对其有视线,他可以尝试将伤害转移到自己身上.投掷D6,结果为3+,则原模型不会受伤,而是转移到共情链接的搭档身上.转移后的伤害不能再次重新分配.如果结果是2,尝试失败,原模型如常受伤.如果结果是1,尝试为对方承受伤害的做法失败,且自身感受到了来自战斗的更为强烈的痛苦,其失去1点不能被任何保护的W,原模型如常受伤.如果共情链接的其中一方因灵能反噬之外的原因死亡,共情链接被破坏立即中断,不会对另一方造成影响.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">游戏开始时,选择相同分队中两个属于同阿斯塔特军团的灵能者独立人物模型,以每个模型15分建立一个共情链接.军队中只能有1对灵能者可以建立共情链接.只要建立共情链接的两个模型都在桌上,他们便获得永恒战士规则.此外,如果共情链接任何一方遭受灵能反噬,则灵能反噬表的结果作用与链接的双方.如果游戏中共情链接的某一方损失了W(灵能反噬以外的),只要共情链接的另一方对其有视线,他可以尝试将伤害转移到自己身上.投掷D6,结果为3+,则原模型不会受伤,而是转移到共情链接的搭档身上.转移后的伤害不能再次重新分配.如果结果是2,尝试失败,原模型如常受伤.如果结果是1,尝试为对方承受伤害的做法失败,且自身感受到了来自战斗的更为强烈的痛苦,其失去1点不能被任何保护的W,原模型如常受伤.如果共情链接的其中一方因灵能反噬之外的原因死亡,共情链接被破坏立即中断,不会对另一方造成影响.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12668,7 +12668,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="61f9-d517-24fa-e88e" name="1. Inspiring Presence" hidden="false">
-                  <description>Friendly units within 12&quot; of the Warlord can use the Warlord’s Leadership rather than their own.</description>
+                  <description>Friendly units within 12&quot; of 主将 can use 主将’s Leadership rather than their own.</description>
                 </rule>
               </rules>
               <costs>
@@ -12681,7 +12681,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="7e5b-ed4b-8b9c-feeb" name="2. Intimidating Presence" hidden="false">
-                  <description>Enemy units within 12&quot; of the Warlord must use their lowest Leadership value, not the highest.</description>
+                  <description>Enemy units within 12&quot; of 主将 must use their lowest Leadership value, not the highest.</description>
                 </rule>
               </rules>
               <costs>
@@ -12694,7 +12694,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="c966-58bd-5a8d-71ac" name="3. The Dust of a Thousand Worlds" hidden="false">
-                  <description>Your Warlord, and all friendly units within 12&quot;, have the 穿越地形 规则.</description>
+                  <description>Your 主将, and all friendly units within 12&quot;, have the 穿越地形 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12710,7 +12710,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="717c-b7a7-612a-8455" name="4. Master of the Vanguard" hidden="false">
-                  <description>Your Warlord, and all friendly units within 12&quot;, add 1&quot; to the distance that they can move when they Run or Charge</description>
+                  <description>Your 主将, and all friendly units within 12&quot;, add 1&quot; to the distance that they can move when they Run or Charge</description>
                 </rule>
               </rules>
               <costs>
@@ -12723,7 +12723,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="5499-c5d5-154a-119a" name="5. Target Priority" hidden="false">
-                  <description>In the 射击阶段, your Warlord and all friendly units within 12&quot; of the Warlord re-roll To Hit rolls of 1.</description>
+                  <description>In the 射击阶段, your 主将 and all friendly units within 12&quot; of 主将 re-roll To Hit rolls of 1.</description>
                 </rule>
               </rules>
               <costs>
@@ -12736,7 +12736,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="9d20-9b57-8e60-cd67" name="6. Coordinated Assault" hidden="false">
-                  <description>In the 突击阶段, your Warlord and all friendly units within 12&quot; of the Warlord re-roll To Hit rolls of 1.</description>
+                  <description>In the 突击阶段, your 主将 and all friendly units within 12&quot; of 主将 re-roll To Hit rolls of 1.</description>
                 </rule>
               </rules>
               <costs>
@@ -12786,7 +12786,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="5158-be42-1a20-501d" name="3. Master of Ambush" hidden="false">
-                  <description>Your Warlord and three 非载具 units of your choice have the 渗透 规则.</description>
+                  <description>Your 主将 and three 非载具 units of your choice have the 渗透 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12802,7 +12802,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="147d-4305-8ff1-6a59" name="4. Strategic Genius" hidden="false">
-                  <description>You add +1 to any Seize the Initiative roll. In addition, whilst your Warlord is alive, you 可以重投 any Reserve rolls (failed or successful).</description>
+                  <description>You add +1 to any Seize the Initiative roll. In addition, whilst your 主将 is alive, you 可以重投 any Reserve rolls (failed or successful).</description>
                 </rule>
               </rules>
               <costs>
@@ -12815,7 +12815,7 @@ Command Benefits:
               </constraints>
               <rules>
                 <rule id="31a7-1aed-815e-6fd1" name="5. Divide to Conquer" hidden="false">
-                  <description>Whilst your Warlord is alive, your opponent has a -1 modifier to their Reserve rolls.</description>
+                  <description>Whilst your 主将 is alive, your opponent has a -1 modifier to their Reserve rolls.</description>
                 </rule>
               </rules>
               <costs>
@@ -13050,9 +13050,9 @@ Command Benefits:
     </rule>
     <rule id="cb2c-171e-df0f-2bec" name="金属典范" publicationId="ca571888--pubN103311" page="113" hidden="false">
       <description>
-        - 不受程序化行为规则的影响,并拥有不死之身和狂暴规则
+        - 不受程序化行为规则的影响,并拥有他不会死和狂暴规则
         - 永远不算作得分单位
-        - 如果对此模型的智控仪式失败, 则恶毒敌意结果自动生效
+        - 如果对此模型的智控神力失败, 则恶毒敌意结果自动生效
       </description>
     </rule>
     <rule id="72d9-7041-9d30-d150" name="他不会死" publicationId="ca571888--pubN106502" page="167" hidden="false">
@@ -13114,8 +13114,8 @@ Command Benefits:
         无畏:至少包含一个无畏的模型的单位自动通过所有士气/压制/重整/恐惧测试,但是不能卧倒,也不能使用主动选择士气失败的规则.如果已经卧倒的单位获得无畏规则,则卧倒效果立即移除
 
         智控机械适性:
-        -带有毒性攻击和血肉杀手规则的攻击对抗有此规则的模型,必须重掷成功的出伤
-        -带有干扰规则的攻击对抗有此规则的模型在正常的出伤之外,额外单独扔一个D6,出6 则出伤.这些伤可做正常的保护.
+        -带有毒性攻击和血肉杀手规则的攻击对抗有此规则的模型,必须重投成功的造伤
+        -电磁干扰攻击需要额外投掷D6, 结果为6则造伤, 伤害可以正常投保护.
 
         射击协议:具有此规则的模型在射击阶段可以射击自身携带的最多3件武器,然而只能射击一个目标单位.
         机械造物:由拥有智控处理控制器的模型组成的单位永远不能作为得分单位,但仍然视作干扰单位.
@@ -13228,7 +13228,7 @@ Command Benefits:
 突击阶段: 装备突击手雷的模型不受到冲锋穿越困难地形的敏锐性惩罚,使用正常I值战斗.</description>
     </rule>
     <rule id="38d5-b6eb-bda8-2497" name="庞大" publicationId="ca571888--pubN106502" page="161" hidden="false">
-      <description>庞大模型占用2个运输载具槽位.</description>
+      <description>庞大模型占用两个运输载具槽位.</description>
     </rule>
     <rule id="abc9-8566-bb61-4b7c" name="非常庞大" publicationId="ca571888--pubN105292" hidden="false">
       <description>非常庞大的模型占用3个运输载具槽位.</description>
@@ -13466,7 +13466,7 @@ Command Benefits:
       <description>Emplaced 武器 on a 火焰风暴哨站 that have the 对空火力 规则 must fire at the nearest enemy 飞行器 of 飞行巨兽 unit within range and 视线. If no enemy unit of either of these types is within range or 视线, that emplaced weapon must instead fire at the nearest enemy unit within range and 视线.</description>
     </rule>
     <rule id="92e1-df2b-07ca-179c" name="Prometheum Charges" hidden="false">
-      <description>此模型 counts as being equipped with assault grenades (see Warhammer 40,000: The Rules ). However, cover saves cannot be taken against Wounds caused by promethium charges in the 射击阶段.</description>
+      <description>此模型 counts as being equipped with 突击手雷 (see Warhammer 40,000: The Rules ). However, cover saves cannot be taken against Wounds caused by promethium charges in the 射击阶段.</description>
     </rule>
     <rule id="2189-13e6-c68c-ab23" name="灵能者驾驶员" publicationId="ca571888--pubN106502" page="169" hidden="false">
       <description>具有此规则的载具是灵能者. 此规则通常以精通级别呈现,并在方括号中显示,如果未显示则载具的“精通等级”为1.该单位遵循所有用于生成和使用灵能的常规规则,并作以下说明: 如果需要使用载具来破除灵能或处理灵能反噬,则该载具被视作LD10.</description>
@@ -13550,12 +13550,12 @@ Command Benefits:
 如果任何非载具模型遭受了至少一个拥有此规则的伤害,不管保护成功与否,将视为在困难地形移动,持续到它的下个回合结束时,最好做出适当标记</description>
     </rule>
     <rule id="d4ca-a14b-89b0-9f96" name="Supressing Fire" publicationId="ca571888--pubN106502" hidden="false">
-      <description>f a 非载具 model suffers one or more hits from a shooting attack made by this model, the target 必须进行一次 Leadership test once this model has finished its attacks for that phase. This is called a 压制测试.
-If the target fails the test, it must immediately 卧倒 (see Warhammer 40,000: The Rules ). As the target has already taken its saves, Going to Ground does not protect it against the fire of the weapon that caused the test – it’s too late! As long as the test is passed, a target can be called upon to take multiple 压制 tests in a single turn, but only once for each model shooting at them. If a model has already Gone to Ground, no further 压制 tests are taken.
+      <description>f a 非载具 model suffers one or more hits from a shooting attack made by this model, the target 必须进行一次 LD测试 once this model has finished its attacks for that phase. This is called a 压制测试.
+If the target fails the test, it must immediately 卧倒 (see Warhammer 40,000: The Rules ). As the target has already taken its saves, Going to Ground does not protect it against the fire of the weapon that caused the test – it’s too late! As long as the test is passed, a target can be called upon to take multiple 压制测试 in a single turn, but only once for each model shooting at them. If a model has already Gone to Ground, no further 压制测试 are taken.
 If the 规则 of a model specify that they can never be Pinned, they automatically pass this test. Such models can still 卧倒 voluntarily if they wish.</description>
     </rule>
     <rule id="9079-7061-f12c-a6ba" name="集群" publicationId="ca571888--pubN106502" page="173" hidden="false">
-      <description>集群单位遭受任何爆炸盖板或喷射盖板攻击时,每个未保护成功的伤害会变成2个除非这种伤害拥有即死规则.永远优先从生命值最少的模型开始分配伤害. 完全具有集群属性的单位不会被困难地形减慢.</description>
+      <description>集群单位遭受任何爆炸盖板或喷射盖板攻击时,每个未保护成功的伤害会变成两个除非这种伤害拥有即死规则.永远优先从生命值最少的模型开始分配伤害. 完全具有集群属性的单位不会被困难地形减慢.</description>
     </rule>
     <rule id="8065-2f17-bb00-d535" name="雷霆撞击" publicationId="ca571888--pubN106502" page="91" hidden="false">
       <description>超重型载具可以使用坦克震撼和撞击. 使用时, 投掷一次雷霆撞击结果表,在进行坦克震撼前需要为单位做一次士气测试,在进行撞击前投掷一次穿甲骰.
@@ -13680,7 +13680,7 @@ In addition, attacks with the 狙击 规则 only cause a Wound on a roll of a 6.
       <description>单挑时I+1.</description>
     </rule>
     <rule id="adce-5b90-49f6-033c" name="连环震击" publicationId="ca571888--pubN106502" page="163" hidden="false">
-      <description>具有此规则的武器成功造成穿击伤害时,立即投掷一个D6,4+则对同1目标造成第2个自动穿击,不能使用地形保护来保护这第2个穿击结果.</description>
+      <description>具有此规则的武器成功造成穿击伤害时,立即投掷一个D6,4+则对同1目标造成第两个自动穿击,不能使用地形保护来保护这第两个穿击结果.</description>
     </rule>
     <rule id="203b-1db2-c7b2-54ab" name="热追踪" publicationId="ca571888--pubN106502" page="164" hidden="false">
       <description>被有该规则的武器攻击时不能闪避(Jink)</description>
@@ -13802,7 +13802,7 @@ tabletop. Any models that cannot manage this are crushed and removed from play a
       </description>
     </rule>
     <rule id="0d00-d0cd-12d1-d3b0" name="Oath of Moment" publicationId="ca571888--pubN89821" page="209" hidden="false">
-      <description>Fielding a Knight-Errant dramatically alters the victory conditions for the side that includes the model, for the presence of such a fated individual is a sure indication that the mission is of dire import indeed. At the beginning of the game, at the same time that 主将特性 and psychic powers are determined, an Oath of Moment must be secretly noted down for each model with this 规则. The note is revealed at the end of the game when Victory points are being tallied. Each Oath of Moment represents an objective which that Knight-Errant must achieve, chosen from the list below.
+      <description>Fielding a 游侠骑士 dramatically alters the victory conditions for the side that includes the model, for the presence of such a fated individual is a sure indication that the mission is of dire import indeed. At the beginning of the game, at the same time that 主将特性 and psychic powers are determined, an Oath of Moment must be secretly noted down for each model with this 规则. The note is revealed at the end of the game when Victory points are being tallied. Each Oath of Moment represents an objective which that 游侠骑士 must achieve, chosen from the list below.
 
 Each of the secret objectives has an associated Victory points score – if the objective is achieved, the Knight Errant&apos;s side earns the indicated number of bonus Victory points in addition to any claimed as part of the mission. If the secret objective is not achieved, the Knight Errant’s side may not claim a victory in the battle, regardless of any other factors.
 
@@ -13810,14 +13810,14 @@ Each of the secret objectives has an associated Victory points score – if the 
 
 Protector (2 Victory points): Note the identity of another 独立人物 in the army. 此模型 must survive the game to earn the Oath of Moment Victory points.
 
-Hand of the Sigillite (2/3 Victory points): If objective markers are in play, the Knight-Errant must control one of the objective markers at the end of the game to earn the Oath of Moment Victory points. If the marker is in the enemy deployment zone, this Oath of Moment is worth 3 Victory points instead.
+Hand of the Sigillite (2/3 Victory points): If objective markers are in play, the 游侠骑士 must control one of the objective markers at the end of the game to earn the Oath of Moment Victory points. If the marker is in the enemy deployment zone, this Oath of Moment is worth 3 Victory points instead.
 
-Headsman (3 Victory points): The Knight-Errant must slay the enemy Warlord in a Challenge in order to earn the Oath of Moment Victory points.
+Headsman (3 Victory points): The 游侠骑士 must slay the enemy 主将 in a Challenge in order to earn the Oath of Moment Victory points.
 
-King Slayer (3 Victory points): If the opposing army includes a 基因原体, this model must be slain for the Knight-Errant to earn the Oath of Moment Victory points</description>
+King Slayer (3 Victory points): If the opposing army includes a 基因原体, this model must be slain for the 游侠骑士 to earn the Oath of Moment Victory points</description>
     </rule>
     <rule id="575f-1255-f276-df91" name="By Falsehood Cloaked" publicationId="ca571888--pubN89821" page="209" hidden="false">
-      <description>Knights-Errant may deploy via 深度打击, and when doing so does not roll to scatter. On the controlling player’s turn that he deploys, and throughout the opposing player’s following player turn, any shots made against a Knight-Errant having deployed in this manner are made as 仓促射击. In addition, any charges made against Garro during this time count as Disordered.</description>
+      <description>Knights-Errant may deploy via 深度打击, and when doing so does not roll to scatter. On the controlling player’s turn that he deploys, and throughout the opposing player’s following player turn, any shots made against a 游侠骑士 having deployed in this manner are made as 仓促射击. In addition, any charges made against Garro during this time count as Disordered.</description>
     </rule>
     <rule id="b1da-bb0d-6990-b5c7" name="ZM (无法使用)" publicationId="ca571888--pubN106705" page="https://www.warhammer-community.com/wp-content/uploads/2019/11/HHZone_Mortalis_Rules.pdf" hidden="false">
       <description>Forces selected for fighting in a Zone Mortalis action should be chosen from their army list as normal with the following exceptions:
@@ -13854,12 +13854,12 @@ Beasts have the 迅捷 规则.</description>
 Assualt: Models charging a unit that includes any models equipped with 防御手雷 do not gain bonus Attacks from charging (see page 51). However, if the charged unit was already locked in combat from a previous turn, or has Gone to Ground, these grenades have no effect and the attackers gain bonus Attacks as normal</description>
     </rule>
     <rule id="adbd-7129-14fe-19bc" name="Compulsory" page="132" hidden="false">
-      <description>One box on a 立场 Organisation chart allows you to make one selection from that part of your army list. Dark boxes indicate compulsory selections, which must be included as part of the army, while the lighter boxes indicate optional choices, which are only included as part of the army if the player in question chooses to do so. If constructing an army using the Crusade 立场 Organisation chart, this would mean that an army would be required to take at least one HQ choice and two Troops choices. These compulsory choices are intended to ensure that the core of each army is illustrative of the force represented by the Army List in use, and that all armies are capable of properly participating in the varied missions available to players in the Age of Darkness.</description>
+      <description>One box on a Force Organisation chart allows you to make one selection from that part of your army list. Dark boxes indicate compulsory selections, which must be included as part of the army, while the lighter boxes indicate optional choices, which are only included as part of the army if the player in question chooses to do so. If constructing an army using the Crusade Force Organisation chart, this would mean that an army would be required to take at least one HQ choice and two Troops choices. These compulsory choices are intended to ensure that the core of each army is illustrative of the force represented by the Army List in use, and that all armies are capable of properly participating in the varied missions available to players in the Age of Darkness.</description>
     </rule>
     <rule id="dd50-c987-f28a-1dca" name="伺服臂" publicationId="ca571888--pubN106502" page="181" hidden="false">
       <description>每回合可以用伺服臂额外攻击一次. 此外, 可以使战争铁匠的任何维修骰结果+1.</description>
     </rule>
-    <rule id="d54b-4d1d-8464-b92c" name="Agent of the Emperor" hidden="false">
+    <rule id="d54b-4d1d-8464-b92c" name="帝皇特勤" hidden="false">
       <description>These Agents are loyal to the Emperor and Terra, they count as Sworn Brothers to all 忠诚方方 forces, Distrusted Allies to unaligned Imperials and Death First! to Traitors.
 Death First!: The two forces are unwilling to fight besides one another, even in the face of a
 common enemy. These Factions cannot be part of the same army.</description>

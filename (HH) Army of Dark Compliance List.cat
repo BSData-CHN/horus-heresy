@@ -327,7 +327,7 @@
       </constraints>
       <rules>
         <rule id="9066-81bf-e6dd-0afc" name="先进武器" publicationId="ca571888--pubN68042" page="188" hidden="false">
-          <description>掷弹兵和排级指挥小队可以每个单位 +20 分使装备的激光手枪, 激光卡宾枪, 激光步枪, 激光燧发枪, 转管炮 +1S. 如果选择升级, 军中所有相同的单位必须同时升级. 掷弹兵和排级指挥小队可以选择犀牛或原型兰德掠袭者作为专属运输载具, 或在单位不超过12个模型时选择白蚁突击钻. </description>
+          <description>掷弹兵和排级指挥小队可以每个单位 +20 分使装备的激光手枪, 激光卡宾枪, 激光步枪, 激光燧发枪, 转管炮 +1S. 如果选择升级, 军中所有相同的单位必须同时升级. 掷弹兵和排级指挥小队可以选择犀牛或原型兰德掠袭者作为专属运输载具, 或在单位不超过1两个模型时选择白蚁突击钻. </description>
         </rule>
       </rules>
       <costs>
@@ -9599,10 +9599,10 @@ As such if you wish to use them in ZM there are a couple of &quot;House Rules&qu
         <entryLink id="7549-e16b-27e6-27c2" name="Stormsword" hidden="false" collective="false" import="true" targetId="e5ad-07be-63c1-71e3" type="selectionEntry"/>
         <entryLink id="6c59-933c-588a-94d3" name="毒刃" hidden="false" collective="false" import="true" targetId="093f-6472-95d0-553f" type="selectionEntry"/>
         <entryLink id="37ea-18d3-1bb0-86d3" name="毒锤" hidden="false" collective="false" import="true" targetId="27c7-0760-039c-2cd7" type="selectionEntry"/>
-        <entryLink id="fe2c-089a-1269-81d4" name="Macharius" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry"/>
-        <entryLink id="2e7e-c2bd-5e8a-297b" name="Macharius Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry"/>
-        <entryLink id="7942-a5ca-8541-0112" name="Macharius Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry"/>
-        <entryLink id="b813-1817-2cd8-f5ae" name="Macharius Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry"/>
+        <entryLink id="fe2c-089a-1269-81d4" name="马卡里乌斯" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry"/>
+        <entryLink id="2e7e-c2bd-5e8a-297b" name="马卡里乌斯 Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry"/>
+        <entryLink id="7942-a5ca-8541-0112" name="马卡里乌斯 Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry"/>
+        <entryLink id="b813-1817-2cd8-f5ae" name="马卡里乌斯 Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry"/>
         <entryLink id="5405-d6e3-584f-fd4e" name="影剑" hidden="false" collective="false" import="true" targetId="ed2c-8dcf-d0d2-720e" type="selectionEntry"/>
         <entryLink id="8292-588b-9ea1-0767" name="风暴之主" hidden="false" collective="false" import="true" targetId="7d56-481b-6478-681e" type="selectionEntry"/>
         <entryLink id="812b-1837-7f12-2809" name="泰坦军团掠夺者主战泰坦" hidden="false" collective="false" import="true" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry"/>
@@ -9861,7 +9861,7 @@ As such if you wish to use them in ZM there are a couple of &quot;House Rules&qu
           <profiles>
             <profile id="008b-4668-1a56-9f8c" name="Warp Shunt Field" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The warp shunt field provides the bearer with a 3+ 特殊保护 against Shooting attacks only. In addition, for every 6 rolled when saving against an enemy attack that draws a direct 视线 between shooter and target, the enemy unit that fired the shot takes D6 Str 5 AP- hits. </characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The warp shunt field 获得 the bearer with a 3+ 特殊保护 against Shooting attacks only. In addition, for every 6 rolled when saving against an enemy attack that draws a direct 视线 between shooter and target, the enemy unit that fired the shot takes D6 Str 5 AP- hits. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10061,7 +10061,7 @@ As such if you wish to use them in ZM there are a couple of &quot;House Rules&qu
     <rule id="6b07-5fa5-6a1d-b243" name="支援小队" publicationId="ca571888--pubN68042" page="183" hidden="false">
       <description>不能被选作部队的强制槽位.</description>
     </rule>
-    <rule id="ef5f-9bb7-8cf1-0ec1" name="Warmaster&apos;s Due" hidden="false">
+    <rule id="ef5f-9bb7-8cf1-0ec1" name="战帅特使" hidden="false">
       <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the 帝国民兵和异教徒 army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the 掩体保护 bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
     </rule>
     <rule id="5b86-272e-132e-75d5" name="消耗品" hidden="false">

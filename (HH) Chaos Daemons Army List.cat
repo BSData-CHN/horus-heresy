@@ -1251,7 +1251,7 @@
                 
         </entryLink>
             
-        <entryLink id="2c33-5e9d-c3fa-af33" name="Samus, 恶魔 Prince of the Ruinstorm" hidden="false" targetId="60a7-a2c7-0f4e-72fa" type="selectionEntry">
+        <entryLink id="2c33-5e9d-c3fa-af33" name="萨姆斯, 毁灭风暴恶魔亲王" hidden="false" targetId="60a7-a2c7-0f4e-72fa" type="selectionEntry">
                   
             <profiles/>
                   
@@ -2651,9 +2651,9 @@
                               
                     <modifiers/>
                               
-                    <description>Cor’bax Utterblight’s corporeal form is little more than a mass of roiling gelatinous and pestilential flesh, which makes him even harder to harm than many of his 恶魔 kin and allows him to seethe across the battlefield like a destroying tide of plague.
+                    <description>荒芜者科尔&apos;巴克斯’s corporeal form is little more than a mass of roiling gelatinous and pestilential flesh, which makes him even harder to harm than many of his 恶魔 kin and allows him to seethe across the battlefield like a destroying tide of plague.
 
-Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores all 危险地形 and difficult terrain. He counts as being armed with assault grenades when charging. In addition, if he is destroyed replace his model with the 巨大爆炸 (7") 喷射盖板. All models under the 喷射盖板 that do not have the 恶魔 of Nurgle 规则 suffer a single 毒伤 (4+) AP 4 hit.</description>
+荒芜者科尔&apos;巴克斯 inflicts D3 愤怒之锤 hits when charging. He ignores all 危险地形 and difficult terrain. He counts as being armed with 突击手雷 when charging. In addition, if he is destroyed replace his model with the 巨大爆炸 (7") 喷射盖板. All models under the 喷射盖板 that do not have the 恶魔 of Nurgle 规则 suffer a single 毒伤 (4+) AP 4 hit.</description>
                             
                 </rule>
                         
@@ -4327,7 +4327,7 @@ Cor’bax Utterblight inflicts D3 愤怒之锤 hits when charging. He ignores al
                 
         </selectionEntry>
             
-        <selectionEntry id="ab06-4df6-b427-4e06" name="Warlord" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ab06-4df6-b427-4e06" name="主将" hidden="false" collective="false" type="upgrade">
                   
             <profiles/>
                   
@@ -10360,11 +10360,11 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                 
         </selectionEntry>
             
-        <selectionEntry id="60a7-a2c7-0f4e-72fa" name="Samus, 恶魔 Prince of the Ruinstorm" hidden="false" collective="false" type="model">
+        <selectionEntry id="60a7-a2c7-0f4e-72fa" name="萨姆斯, 毁灭风暴恶魔亲王" hidden="false" collective="false" type="model">
                   
             <profiles>
                         
-                <profile typeId="556e697423232344415441232323" typeName="Unit" id="90bf-d5b2-7c61-7dcd" name="Samus, 恶魔 Prince of the Ruinstorm" hidden="false">
+                <profile typeId="556e697423232344415441232323" typeName="Unit" id="90bf-d5b2-7c61-7dcd" name="萨姆斯, 毁灭风暴恶魔亲王" hidden="false">
                               
                     <profiles/>
                               
@@ -10414,7 +10414,7 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                               
                     <modifiers/>
                               
-                    <description>Samus must enter play via 深度打击 (and must start in reserve). If a model with the 人物 type is slain before Samus enters play, place a counter within 3" of the model. If the player wishes to, on the turn Samus enters play he may 深度打击 at one of these counters. If he does so, he deep strikes without scattering (provided he can 深度打击 without hitting either friendly orwithin 1" of enemy models).</description>
+                    <description>萨姆斯 must enter play via 深度打击 (and must start in reserve). If a model with the 人物 type is slain before 萨姆斯 enters play, place a counter within 3" of the model. If the player wishes to, on the turn 萨姆斯 enters play he may 深度打击 at one of these counters. If he does so, he deep strikes without scattering (provided he can 深度打击 without hitting either friendly orwithin 1" of enemy models).</description>
                             
                 </rule>
                         
@@ -10428,11 +10428,11 @@ On a roll of a 2-5, it remains wrecked but the controlling player may attempt to
                               
                     <modifiers/>
                               
-                    <description>1.If Samus is part of your army, all enemy reserve rolls are -1 regardless. If the opponent has ongoing reserves, a unit may fail to arrive on a D6 roll of a 1.
+                    <description>1.If 萨姆斯 is part of your army, all enemy reserve rolls are -1 regardless. If the opponent has ongoing reserves, a unit may fail to arrive on a D6 roll of a 1.
 
-2. If Samus is part of your army, then the Warp Charge cost of any blessing psychic powers are increased by +1.
+2. If 萨姆斯 is part of your army, then the Warp Charge cost of any blessing psychic powers are increased by +1.
 
-3. Any model in combat with, or taking a 恐怖 test to charge at Samus will have their Ld halved unless they are 无畏 or 坚毅.</description>
+3. Any model in combat with, or taking a 恐怖 test to charge at 萨姆斯 will have their Ld halved unless they are 无畏 or 坚毅.</description>
                             
                 </rule>
                       
@@ -11390,7 +11390,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <modifiers/>
                               
-                    <description>Counts as being equipped with assault grenades when charging. Receives an additional +D6 attacks on the charge. Passes Deny the Witch on a 2+</description>
+                    <description>Counts as being equipped with 突击手雷 when charging. Receives an additional +D6 attacks on the charge. Passes Deny the Witch on a 2+</description>
                             
                 </rule>
                       
@@ -14844,7 +14844,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">If your Warlord generates all his powers from the 学派 of Change, he knows all the its powers.</characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">If your 主将 generates all his powers from the 学派 of Change, he knows all the its powers.</characteristic>
                                   
                     </characteristics>
                             
@@ -15008,7 +15008,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                               
                     <characteristics>
                                     
-                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">3+ 特殊保护. Each time wearer suffers an unsaved wound, it must pass a Leadership test or be removed from play. </characteristic>
+                        <characteristic typeId="4465736372697074696f6e23232344415441232323" name="Description">3+ 特殊保护. Each time wearer suffers an unsaved wound, it must pass a LD测试 or be removed from play. </characteristic>
                                   
                     </characteristics>
                             
@@ -28908,7 +28908,7 @@ The Dance of Dreaming: Until the start of the Masque's next 射击阶段, the ta
                               
                     <modifiers/>
                               
-                    <description>It 重投 所有失败的 To-hit and To-wound rolls in combat and is equipped with assault grenades when charging. When charging into an assault, it gets +D3 attacks.
+                    <description>It 重投 所有失败的 To-hit and To-wound rolls in combat and is equipped with 突击手雷 when charging. When charging into an assault, it gets +D3 attacks.
 Any non-无畏 unit in CC with this unit must pass a leadership check or be unable to strike blows that turn. Roll once for the unit, with IC's rolled separately.</description>
                             
                 </rule>
@@ -29311,7 +29311,7 @@ Any non-无畏 unit in CC with this unit must pass a leadership check or be unab
                               
                     <modifiers/>
                               
-                    <description>Whilst Epidemius is alive, keep a count of all unsaved Wounds caused by the psychic powers, shooting, and 近战攻击 of Daemons of Nurgle (friend or foe) - even those that are negated by means other than saving throws, such as 不知疼痛. At the start of each of your turns, consult the table below to determine the effect of the Tally of Pestilence. All Daemons of Nurgle in units within 6" of Epidemius recieve the bonus characteristic or 规则 shown below. All effects from the Tally of Pestilence are cumulative.
+                    <description>Whilst Epidemius is alive, keep a count of all unsaved Wounds caused by the psychic powers, shooting, and 近战攻击 of Daemons of Nurgle (friend or foe) - even those that are negated by means other than saving throws, such as 不知疼痛. At the start of each of your turns, 顾问t the table below to determine the effect of the Tally of Pestilence. All Daemons of Nurgle in units within 6" of Epidemius recieve the bonus characteristic or 规则 shown below. All effects from the Tally of Pestilence are cumulative.
 
 Wounds / Effect
 0-6  No effect
@@ -32480,7 +32480,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                   
             <modifiers/>
                   
-            <description>The Warlord's Melee 武器 have the 即死 规则.</description>
+            <description>主将's Melee 武器 have the 即死 规则.</description>
                 
         </rule>
             

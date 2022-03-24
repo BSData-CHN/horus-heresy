@@ -80,7 +80,7 @@
     </categoryEntry>
     <categoryEntry id="9480-d3f6-fff1-7b35" name="悬浮" hidden="false"/>
     <categoryEntry id="df44-81ea-e2ee-9849" name="飞行器" hidden="false"/>
-    <categoryEntry id="18c5-559b-55e0-382e" name="固定实体" hidden="false"/>
+    <categoryEntry id="18c5-559b-55e0-382e" name="不可移动" hidden="false"/>
     <categoryEntry id="2d6f-e613-ab10-e55a" name="深度打击" hidden="false"/>
     <categoryEntry id="51a3-45ca-ea32-7519" name="空降仓" hidden="false"/>
     <categoryEntry id="e448-6dab-e008-3247" name="岗哨炮" hidden="false"/>
@@ -138,29 +138,29 @@
     <categoryEntry id="37f2-7398-84ee-6fdf" name="死隶机甲" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="6329-878c-da3f-aa5e" name="Fan Made - Centurion" page="https://ia801902.us.archive.org/12/items/CENTURION1.1/CENTURION%201.1.pdf" hidden="false">
+    <forceEntry id="6329-878c-da3f-aa5e" name="Fan Made - 百夫长" page="https://ia801902.us.archive.org/12/items/百夫长1.1/百夫长%201.1.pdf" hidden="false">
       <rules>
-        <rule id="046f-848f-7dfe-36c3" name="Fan Made - Centurion Mode" hidden="false">
-          <description>CENTURION – draft ruleset 1.1
-The Centurion 学派 is a middle-ground between Zone Mortalis* and Frontline* games.
+        <rule id="046f-848f-7dfe-36c3" name="Fan Made - 百夫长 Mode" hidden="false">
+          <description>百夫长 – draft ruleset 1.1
+The 百夫长 学派 is a middle-ground between Zone Mortalis* and Frontline* games.
 Aesthetically drawing inspiration from Warhammer 40k 2nd Edition, and rules-wise
 providing more narrative games where 步兵 and characters are the focus of
 the action. Some units are restricted in this 学派, the narrative shaped by
 dense terrain in which tanks and aircraft are not viable, yet the battle is still a
 savage tale of retribution and massacre.
 
-Centurion games are played on a 6x4 with more terrain than Frontline games,
+百夫长 games are played on a 6x4 with more terrain than Frontline games,
 using Shadow War missions and a points level of 1500-2000 to represent smaller
 actions, insurgency, and tactical skirmishes.
 
 步兵, Walkers, and Speeders should be the focus of your army and the
 following unit are restricted:
 
-Tanks, Fliers, Drop Pods, Superheavies are not allowed.
+Tanks, Fliers, 空降仓, Superheavies are not allowed.
 摩托, Attack 摩托, Jet 摩托, 炮兵, 巨兽, 利维坦
 Siege Dreadnoughts are 0-1 choices.
 
-Note this precludes some Rites of War and Army Lists from Centurion mode.</description>
+Note this precludes some Rites of War and Army Lists from 百夫长 mode.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -291,9 +291,9 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
     <forceEntry id="4e06-f510-5de0-195b" name="黑暗盟军" hidden="false">
       <rules>
         <rule id="cc25-0704-2c85-ff7d" name="消耗品" hidden="false">
-          <description>The 消耗品 规则 given in the unit entry for the 动员兵小队 in the 帝国民兵和异教徒 army list may be applied to any Militia unit in the army. Units that take this option never count as scoring or denial units. This Option should be declaired at the same time as warlord traits, Psykic Powers, etc, are rolledfor and if the option is not declaired, the rule applies to only 动员兵小队s</description>
+          <description>动员兵小队获得消耗品规则. 此种单位永远不能算作得分单位或拒绝单位. 此选项应和主将特性灵能等同时选择. 规则仅适用于动员兵小队.</description>
         </rule>
-        <rule id="03ea-ee83-b8a7-6d8a" name="Warmaster&apos;s Due" hidden="false">
+        <rule id="03ea-ee83-b8a7-6d8a" name="战帅特使" hidden="false">
           <description>Any Model with the 阿斯塔特军团 规则 that is part of this theme may claim a bonus of +1 to any cover saves granted because of weapon fire passing through any 步兵 units from the 帝国民兵和异教徒 army list to reach them. However, if this bonus is claimed, the Militia unit immediately suffers D3 wounds per unit firing through them against which this save bonus has been claimed. Wounds inflicted in this way are distributed as if the enemy unit against which the 掩体保护 bonus has been claimed had fired upon the Militia unit, and have no AP value.</description>
         </rule>
       </rules>
@@ -1354,27 +1354,27 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="9733-ec49-f989-0912" name="战争之王槽位" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a82f-0e33-31e3-27cc" name="Praetor Armoured Assault Launcher" hidden="false" collective="false" import="true" targetId="d41d-ed8d-3629-ab1a" type="selectionEntry">
+    <entryLink id="a82f-0e33-31e3-27cc" name="执政官 Armoured Assault Launcher" hidden="false" collective="false" import="true" targetId="d41d-ed8d-3629-ab1a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6539-30f1-c721-018c" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e1a1-0b05-0320-435d" name="Macharius" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry">
+    <entryLink id="e1a1-0b05-0320-435d" name="马卡里乌斯" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c54c-3ca7-a363-973d" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1b26-ea93-fba2-9a48" name="Macharius Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry">
+    <entryLink id="1b26-ea93-fba2-9a48" name="马卡里乌斯 Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4a08-cf3c-ee8f-293d" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4215-aad9-c002-1c33" name="Macharius Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry">
+    <entryLink id="4215-aad9-c002-1c33" name="马卡里乌斯 Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d787-f7cf-9d97-9493" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a804-30dc-bb34-d6b3" name="Macharius Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry">
+    <entryLink id="a804-30dc-bb34-d6b3" name="马卡里乌斯 Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8d0e-402e-4e43-b38a" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
       </categoryLinks>
@@ -1403,7 +1403,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="1aa0-8475-0d2f-695c" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2f75-e7f8-b9a2-6e50" name="Knight-Errant" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
+    <entryLink id="2f75-e7f8-b9a2-6e50" name="游侠骑士" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1528,7 +1528,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="2908-9ce9-850e-257c" name="New CategoryLink" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4c56-a111-3f20-5b2f" name="Knight-Errant (Mournival) (AoE)" hidden="true" collective="false" import="true" targetId="3a03-8d12-66b4-9e28" type="selectionEntry">
+    <entryLink id="4c56-a111-3f20-5b2f" name="游侠骑士 (Mournival) (AoE)" hidden="true" collective="false" import="true" targetId="3a03-8d12-66b4-9e28" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -1649,7 +1649,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="9b55-b1ee-d855-d9d9" name="New CategoryLink" hidden="false" targetId="456c6974657323232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1010-2e0d-cee4-1d14" name="Exodus Assassin (AoW)" hidden="true" collective="false" import="true" targetId="1923-4c29-45f2-7779" type="selectionEntry">
+    <entryLink id="1010-2e0d-cee4-1d14" name="伊修度斯 Assassin (AoW)" hidden="true" collective="false" import="true" targetId="1923-4c29-45f2-7779" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -9750,7 +9750,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <profiles>
             <profile id="5000-c23c-5956-2b30" name="Warp Shunt Field" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The warp shunt field provides the bearer with a 3+ 特殊保护 against Shooting attacks only. In addition, for every 6 rolled when saving against an enemy attack that draws a direct 视线 between shooter and target, the enemy unit that fired the shot takes D6 Str 5 AP- hits. </characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The warp shunt field 获得 the bearer with a 3+ 特殊保护 against Shooting attacks only. In addition, for every 6 rolled when saving against an enemy attack that draws a direct 视线 between shooter and target, the enemy unit that fired the shot takes D6 Str 5 AP- hits. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9835,7 +9835,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <profiles>
             <profile id="5f91-e2d7-5879-4b23" name="Metaphasic Reader" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The unit, as well as any Solar 辅助军unit from the same detachment within 12&quot;, gain the 拦截 规则.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The unit, as well as any Solar 辅助军unit from the same 分队 within 12&quot;, gain the 拦截 规则.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9855,7 +9855,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <profiles>
             <profile id="12aa-65f5-c9b4-db9a" name="Apex 数字激光" publicationId="ca571888--pubN84158" page="87" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The Apex digital weapon counts as a normal digital weapon (Provides +1 attack 近战中). In addition 整场游戏一次 it may be fired as either a 激光炮, 多管热熔, 等离子炮 or 爆燃步枪.</characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The Apex digital weapon counts as a normal digital weapon (获得 +1 attack 近战中). In addition 整场游戏一次 it may be fired as either a 激光炮, 多管热熔, 等离子炮 or 爆燃步枪.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10025,7 +10025,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="0feb-381d-3673-0025" name="1. Uncanny Survivor" hidden="false">
-                  <description>The Warlord gains the 永恒战士 规则.</description>
+                  <description>主将 gains the 永恒战士 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -10041,7 +10041,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="0f3d-1511-0ee4-a329" name="2. Shattering Bombardment" hidden="false">
-                  <description>While the Warlord is alive, select a single weapon in a unit within 6&quot; of them in the 射击阶段 that has the Ordnance 规则. That weapon counts as being 双联 for this player turn.</description>
+                  <description>While 主将 is alive, select a single weapon in a unit within 6&quot; of them in the 射击阶段 that has the Ordnance 规则. That weapon counts as being 双联 for this player turn.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -10057,7 +10057,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="6182-8871-98d3-ccf6" name="3. Bitter Blood" hidden="false">
-                  <description>When fighting in a challenge, the Warlord gains the 憎恨 规则.</description>
+                  <description>When fighting in a challenge, 主将 gains the 憎恨 规则.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -10073,7 +10073,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="d23b-52e4-1467-a217" name="4. 致盲弹幕" hidden="false">
-                  <description>The Warlord’s controlling player may choose to unleash a 致盲 bombardment at the start of the game. If this is done, all friendly Solar 辅助军units gain the 笼罩 规则 for the duration of the first game turn only.</description>
+                  <description>主将’s controlling player may choose to unleash a 致盲 bombardment at the start of the game. If this is done, all friendly Solar 辅助军units gain the 笼罩 规则 for the duration of the first game turn only.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -10089,7 +10089,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
               </constraints>
               <rules>
                 <rule id="caec-032d-d417-e03b" name="5. Void Master" hidden="false">
-                  <description>The Warlord gains the 坚毅 规则, and they and any unit they join gains the 穿越地形 规则.</description>
+                  <description>主将 gains the 坚毅 规则, and they and any unit they join gains the 穿越地形 规则.</description>
                 </rule>
               </rules>
               <infoLinks>

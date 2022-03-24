@@ -54,7 +54,7 @@
     <categoryEntry id="e59c-462e-9d9c-66dd" name="坦克" hidden="false"/>
     <categoryEntry id="9480-d3f6-fff1-7b35" name="悬浮" hidden="false"/>
     <categoryEntry id="df44-81ea-e2ee-9849" name="飞行器" hidden="false"/>
-    <categoryEntry id="18c5-559b-55e0-382e" name="固定实体" hidden="false"/>
+    <categoryEntry id="18c5-559b-55e0-382e" name="不可移动" hidden="false"/>
     <categoryEntry id="2d6f-e613-ab10-e55a" name="深度打击" hidden="false"/>
     <categoryEntry id="51a3-45ca-ea32-7519" name="空降仓" hidden="false"/>
     <categoryEntry id="e448-6dab-e008-3247" name="岗哨炮" hidden="false"/>
@@ -114,29 +114,29 @@
     <categoryEntry id="5f7c-939a-f2de-413a" name="泰坦" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="6329-878c-da3f-aa5e" name="Fan Made - Centurion" page="https://ia801902.us.archive.org/12/items/CENTURION1.1/CENTURION%201.1.pdf" hidden="false">
+    <forceEntry id="6329-878c-da3f-aa5e" name="Fan Made - 百夫长" page="https://ia801902.us.archive.org/12/items/百夫长1.1/百夫长%201.1.pdf" hidden="false">
       <rules>
-        <rule id="046f-848f-7dfe-36c3" name="Fan Made - Centurion Mode" hidden="false">
-          <description>CENTURION – draft ruleset 1.1
-The Centurion 学派 is a middle-ground between Zone Mortalis* and Frontline* games.
+        <rule id="046f-848f-7dfe-36c3" name="Fan Made - 百夫长 Mode" hidden="false">
+          <description>百夫长 – draft ruleset 1.1
+The 百夫长 学派 is a middle-ground between Zone Mortalis* and Frontline* games.
 Aesthetically drawing inspiration from Warhammer 40k 2nd Edition, and rules-wise
 providing more narrative games where 步兵 and characters are the focus of
 the action. Some units are restricted in this 学派, the narrative shaped by
 dense terrain in which tanks and aircraft are not viable, yet the battle is still a
 savage tale of retribution and massacre.
 
-Centurion games are played on a 6x4 with more terrain than Frontline games,
+百夫长 games are played on a 6x4 with more terrain than Frontline games,
 using Shadow War missions and a points level of 1500-2000 to represent smaller
 actions, insurgency, and tactical skirmishes.
 
 步兵, Walkers, and Speeders should be the focus of your army and the
 following unit are restricted:
 
-Tanks, Fliers, Drop Pods, Superheavies are not allowed.
+Tanks, Fliers, 空降仓, Superheavies are not allowed.
 摩托, Attack 摩托, Jet 摩托, 炮兵, 巨兽, 利维坦
 Siege Dreadnoughts are 0-1 choices.
 
-Note this precludes some Rites of War and Army Lists from Centurion mode.</description>
+Note this precludes some Rites of War and Army Lists from 百夫长 mode.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1704,7 +1704,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="7df5-ef15-e7db-1de3" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2598-5bc9-b505-1309" name="Praetor Armoured Assault Launcher" hidden="false" collective="false" import="true" targetId="d41d-ed8d-3629-ab1a" type="selectionEntry">
+    <entryLink id="2598-5bc9-b505-1309" name="执政官 Armoured Assault Launcher" hidden="false" collective="false" import="true" targetId="d41d-ed8d-3629-ab1a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="698b-4188-03d0-8a23" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="312b-4578-1f65-93cc" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
@@ -1728,25 +1728,25 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="02f0-a991-b097-b752" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ae52-3dd6-2eea-66b0" name="Macharius" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry">
+    <entryLink id="ae52-3dd6-2eea-66b0" name="马卡里乌斯" hidden="false" collective="false" import="true" targetId="e786-debb-a21b-d5ee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7ee1-7937-b3ee-8533" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="e2cb-a6f2-10e2-0056" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4ec5-73aa-753c-26fd" name="Macharius Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry">
+    <entryLink id="4ec5-73aa-753c-26fd" name="马卡里乌斯 Omega" hidden="false" collective="false" import="true" targetId="cc26-df44-2b56-fd88" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0b95-750d-3a37-12b8" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="bf99-e47f-10c2-3f2a" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ca5f-e6da-3f4a-d975" name="Macharius Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry">
+    <entryLink id="ca5f-e6da-3f4a-d975" name="马卡里乌斯 Vanquisher" hidden="false" collective="false" import="true" targetId="d4b0-56e7-4f8c-7ea5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6b0f-07c7-963e-0051" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="4826-8628-f9d2-2dae" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9f49-b46e-cad9-c0a3" name="Macharius Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry">
+    <entryLink id="9f49-b46e-cad9-c0a3" name="马卡里乌斯 Vulcan" hidden="false" collective="false" import="true" targetId="e95a-57cf-a5c3-772f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7f44-77c5-1aa5-1897" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true"/>
         <categoryLink id="a5dd-4a03-4b3d-216a" name="Mechanicum" hidden="false" targetId="a7c6-e380-f10f-9798" primary="false"/>
@@ -1794,7 +1794,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="fda0-8b6c-763b-6fcd" name="阿斯塔特军团" hidden="false" targetId="0c56-27b8-a737-c9fd" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7bac-2b8b-f84f-f144" name="Knight-Errant" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
+    <entryLink id="7bac-2b8b-f84f-f144" name="游侠骑士" hidden="false" collective="false" import="true" targetId="0b3e-7f6d-3556-5446" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1980,7 +1980,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="d27a-eaf4-c1a2-0d2c" name="New CategoryLink" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="90c8-c6eb-a475-953a" name="Exodus Assassin (AoW)" hidden="true" collective="false" import="true" targetId="1923-4c29-45f2-7779" type="selectionEntry">
+    <entryLink id="90c8-c6eb-a475-953a" name="伊修度斯 Assassin (AoW)" hidden="true" collective="false" import="true" targetId="1923-4c29-45f2-7779" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2026,7 +2026,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <categoryLink id="94c4-3c03-9a00-a25e" name="New CategoryLink" hidden="false" targetId="485123232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e51e-71ac-5c4f-eb4c" name="Knight-Errant (Mournival) (AoE)" hidden="true" collective="false" import="true" targetId="3a03-8d12-66b4-9e28" type="selectionEntry">
+    <entryLink id="e51e-71ac-5c4f-eb4c" name="游侠骑士 (Mournival) (AoE)" hidden="true" collective="false" import="true" targetId="3a03-8d12-66b4-9e28" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -7140,7 +7140,7 @@ D6  结果                 S                 AP
                         Powers and the 导航者 does not use Warp Charge points or have access to any Psychic
                         Disciplines. However, the 导航者 does count as a 灵能者 for the purposes of rules that work
                         against Psykers, such as 憎恨 (Psykers) or 武器 that have additional rules against Psykers.
-                        In order to use a 导航者 power, the 导航者 must make a Leadership test. If the test is
+                        In order to use a 导航者 power, the 导航者 must make a LD测试. If the test is
                         passed, the chosen power is used as described. If the test is failed, the power is not used and
                         the 导航者 and their unit is Pinned (though they do not 卧倒).
                         • The Lidless Stare
@@ -10189,7 +10189,7 @@ D6  结果                 S                 AP
               <profiles>
                 <profile id="accb-30d1-328e-384b" name="巨灵集束" publicationId="ca571888--pubN85920" page="215" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his primary detachment (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his 装备 to benefit from +1 BS. - Friendly units from the primary detachment including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 武器 in the same detachment may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his 主分队 (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his 装备 to benefit from +1 BS. - Friendly units from the 主分队 including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 武器 in the same 分队 may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10857,7 +10857,7 @@ D6  结果                 S                 AP
               <profiles>
                 <profile id="b6fd-18e2-a87b-70f1" name="巨灵集束" publicationId="ca571888--pubN85920" page="215" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Provides the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his primary detachment (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his 装备 to benefit from +1 BS. - Friendly units from the primary detachment including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 武器 in the same detachment may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">获得 the following:  - At the start of his 射击阶段, the 首席大贤者 may nominate a single unit from his 主分队 (including himself) within 6&quot; of him or any 智控观察者 purchased as a part of his 装备 to benefit from +1 BS. - Friendly units from the 主分队 including the 大贤者 who 深度打击 within 6&quot; do not scatter - 弹幕 武器 in the same 分队 may draw 视线 from the 大贤者 or any of his Cyrber-occularis</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11952,7 +11952,7 @@ D6  结果                 S                 AP
                 </profile>
                 <profile id="bf51-5ebd-8e9f-7225" name="Ion Gauntlet Shield" publicationId="ca571888--pubN85920" page="2310" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
                   <characteristics>
-                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Operates as a Knights 离子护盾 with the following exceptions:  - May not protect Rear armour - Provides 5++ 特殊保护 近战中 - Forces 近战攻击 by other 超重型机甲 or 超级巨兽 to suffer a -1 to hit. </characteristic>
+                    <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Operates as a Knights 离子护盾 with the following exceptions:  - May not protect Rear armour - 获得 5++ 特殊保护 近战中 - Forces 近战攻击 by other 超重型机甲 or 超级巨兽 to suffer a -1 to hit. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13901,7 +13901,7 @@ D6  结果                 S                 AP
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1a2-53c9-7ce7-738e" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="07f6-db23-a831-6891" name="+ Master Crafted to Fusillade Weapon (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="07f6-db23-a831-6891" name="+ 精工 to Fusillade Weapon (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -14236,7 +14236,7 @@ D6  结果                 S                 AP
                     <cost name="分" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f2ed-b68c-421e-1b17" name="+ Master Crafted to 手枪 (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f2ed-b68c-421e-1b17" name="+ 精工 to 手枪 (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditionGroups>
@@ -14299,7 +14299,7 @@ D6  结果                 S                 AP
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb8c-1199-7136-8cba" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="a414-a9c8-b096-912c" name="+ Master Crafted to 近战武器 (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="a414-a9c8-b096-912c" name="+ 精工 to 近战武器 (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c104-1e27-08f2-e410" type="max"/>
                   </constraints>
@@ -14649,7 +14649,7 @@ D6  结果                 S                 AP
                     <cost name="分" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="96a3-26d5-51aa-29e4" name="+ Master Crafted to Weapon One (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="96a3-26d5-51aa-29e4" name="+ 精工 to Weapon One (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -15152,7 +15152,7 @@ D6  结果                 S                 AP
                     <cost name="分" typeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="ab20-d7d0-463e-87f7" name="+ Master Crafted to Weapon Two (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="ab20-d7d0-463e-87f7" name="+ 精工 to Weapon Two (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -15614,7 +15614,7 @@ D6  结果                 S                 AP
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b7-8967-5cc0-c71c" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="cd66-f4dc-901b-1fb7" name="+ Master Crafted to Additional Weapon (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="cd66-f4dc-901b-1fb7" name="+ 精工 to Additional Weapon (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -15893,7 +15893,7 @@ D6  结果                 S                 AP
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a916-dbe9-280a-3f72" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8b56-fa66-36f8-03f9" name="+ Master Crafted to Tech-Harness (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8b56-fa66-36f8-03f9" name="+ 精工 to Tech-Harness (Bonus upgrade)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -16005,7 +16005,7 @@ D6  结果                 S                 AP
               </constraints>
               <rules>
                 <rule id="caea-4fdb-feac-3fa4" name="伺服臂阵列" publicationId="ca571888--pubN66580" page="112" hidden="false">
-                  <description>A 伺服臂阵列 adds +1 to its user’s Toughness value and provides the 夜视 规则. It also incorporates a 喷火器 and an 地狱手枪, and the user can either opt to fire both of these 武器 in the 射击阶段, or one of them and another 远程武器 the model is carrying.
+                  <description>A 伺服臂阵列 adds +1 to its user’s Toughness value and 获得 the 夜视 规则. It also incorporates a 喷火器 and an 地狱手枪, and the user can either opt to fire both of these 武器 in the 射击阶段, or one of them and another 远程武器 the model is carrying.
 A model with the 战争铁匠 规则 may add +2 to their 维修骰 result if they are also equipped with a 伺服臂阵列.
 A model equipped with a 伺服臂阵列 may make two additional attacks per turn 近战中 as well as any they would normally be eligible to make. This is done using the profile shown below:
 *Included in Battlescribe Profiles when taken</description>
@@ -16554,15 +16554,15 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
               <rules>
                 <rule id="8c70-5673-28a0-ce16" name="Patterns of 立场" hidden="false">
                   <description>Patterns of 立场: The 源还修会’s military doctrines are methodical and highly idiosyncratic, focusing on the use of armoured vehicles, punishing ordnance barrages and the use of their purpose-designed 死隶机兵 shock troops. While they will make use of adsecularis and other ‘weaker’ troops, they find them of limited value. Conversely, while they value the semi-sentient creations of the 智控军团 for their power and durability, they retain a fundamental wariness of the threat of Malifica in the minds of machines not of their own devising.
-强制基础槽位 choices in any 源还修会 War Covenant detachment must be comprised of units of Mechanicum 死隶机兵小队s.
-An 源还修会 War Covenant force may not contain a greater number of 战斗自动机兵 and 攻城自动机兵 units than half the total number of units in the detachment regardless of that detachment’s type. So, for example, if a Primary Detachment force made from an 源还修会 War Covenant comprises a total of six units, 至多 three of these units could be 战斗自动机兵 and/or 攻城自动机兵 units</description>
+强制基础槽位 choices in any 源还修会 War Covenant 分队 must be comprised of units of Mechanicum 死隶机兵小队s.
+An 源还修会 War Covenant force may not contain a greater number of 战斗自动机兵 and 攻城自动机兵 units than half the total number of units in the 分队 regardless of that 分队’s type. So, for example, if a 主分队 force made from an 源还修会 War Covenant comprises a total of six units, 至多 three of these units could be 战斗自动机兵 and/or 攻城自动机兵 units</description>
                 </rule>
               </rules>
               <costs>
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0439-35c6-5d71-0978" name="Bodyguard" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0439-35c6-5d71-0978" name="保镖" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -17187,7 +17187,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
                   </constraints>
                   <rules>
                     <rule id="e22b-aed8-54d7-1d71" name="The Death of Flesh" hidden="false">
-                      <description>All units in the detachment have 宿敌 (步兵) while within 3” of an Objective</description>
+                      <description>All units in the 分队 have 宿敌 (步兵) while within 3” of an Objective</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -17220,7 +17220,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
                   </constraints>
                   <rules>
                     <rule id="8c85-2352-869b-213b" name="Master of Mechanisms" hidden="false">
-                      <description>One 巨兽单位 or vehicles in the 人物’s detachment gains 他不会死</description>
+                      <description>One 巨兽单位 or vehicles in the 人物’s 分队 gains 他不会死</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -17612,7 +17612,7 @@ Hyperaction Protocols (Alpha): Until the start of your next turn, all models in 
                   </constraints>
                   <rules>
                     <rule id="7168-0c98-1ace-5a30" name="Overrun" hidden="false">
-                      <description>The 人物 adds +1 to Sweeping Advance rolls when victorious in a combat</description>
+                      <description>The 人物 adds +1 to 追击 rolls when victorious in a combat</description>
                     </rule>
                   </rules>
                   <costs>
@@ -19168,7 +19168,7 @@ A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
           <profiles>
             <profile id="b62b-c095-fea4-786c" name="Warp Shunt Field" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
               <characteristics>
-                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The warp shunt field provides the bearer with a 3+ 特殊保护 against Shooting attacks only. In addition, for every 6 rolled when saving against an enemy attack that draws a direct 视线 between shooter and target, the enemy unit that fired the shot takes D6 Str 5 AP- hits. </characteristic>
+                <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The warp shunt field 获得 the bearer with a 3+ 特殊保护 against Shooting attacks only. In addition, for every 6 rolled when saving against an enemy attack that draws a direct 视线 between shooter and target, the enemy unit that fired the shot takes D6 Str 5 AP- hits. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -19780,7 +19780,7 @@ A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
     </profile>
     <profile id="4687f5b1-f0b1-12bd-8cc7-27f9f25befaf" name="信息统筹模块" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
-        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">Model equipped with Cognis-sigum gains 夜视 规则.  In addition, in lieu of firing a weapon in the 射击阶段, a single designated unit of the controlling player&apos;s choice withing 6&quot; of the signum-equipped model (excluding 独立人物 and Super-Heavies) gains a bonus of +1 to their BS for that 射击阶段.  </characteristic>
+        <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">装备信息统筹模块的模型获得夜视规则.此外,在射击阶段代替射击,玩家选择的一个装备者6&quot;内的单位(不包括独立人物和超重型单位)在这个射击阶段BS+1.</characteristic>
       </characteristics>
     </profile>
     <profile id="244f6dcc-d526-1cef-a743-6120614e3898" name="战斗盾" page="" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">

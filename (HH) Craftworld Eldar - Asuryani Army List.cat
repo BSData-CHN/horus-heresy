@@ -34,7 +34,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="b207-b70b-fabc-892f" name="Crusade Detachment" hidden="false">
+    <forceEntry id="b207-b70b-fabc-892f" name="Crusade 分队" hidden="false">
       <categoryLinks>
         <categoryLink id="4809-be25-c8fb-33a3" name="快速打击槽位" hidden="false" targetId="d968-07ca-4ac7-d474" primary="false">
           <constraints>
@@ -2537,22 +2537,22 @@ has the 大爆炸.</description>
       </constraints>
       <rules>
         <rule id="4fe1-013c-a7d8-50ac" name="6) Seer of the Shifting Vector" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>Friendly Asuryani units arriving by 深度打击 do not scatter as long as the first model is placed within 12&quot; of the Warlord.</description>
+          <description>Friendly Asuryani units arriving by 深度打击 do not scatter as long as the first model is placed within 12&quot; of 主将.</description>
         </rule>
         <rule id="3894-63a0-d6f7-17c0" name="5) Mark of the Incomparable Hunter" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>The Warlord has the 分散火力 规则.</description>
+          <description>主将 has the 分散火力 规则.</description>
         </rule>
         <rule id="772a-87c9-a19f-8c0a" name="4) Fate&apos;s Messenger" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>The Warlord 重投 all saving throw results of 1.</description>
+          <description>主将 重投 all saving throw results of 1.</description>
         </rule>
         <rule id="9d89-ceca-e413-9e72" name="3) Falcon&apos;s Swiftness" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>The Warlord and any unit attached to them add 3 to the dice roll when determining how far they can Run (this will normally be D6+3&quot;).</description>
+          <description>主将 and any unit attached to them add 3 to the dice roll when determining how far they can Run (this will normally be D6+3&quot;).</description>
         </rule>
         <rule id="bef9-3162-cc80-9b50" name="2) An Eye on Distant Events" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
           <description>Choose 至多 D3 units in your army. These units gain the 侦察 规则.</description>
         </rule>
         <rule id="b925-b196-ed81-4613" name="1) Ambush of Blades" publicationId="5c4c-bef9-9681-e0fc" page="22" hidden="false">
-          <description>一次性. Declare your Warlord is using this ability at the start of one of your Shooting or Assault phases. For the duration of the phase, the Warlord and all friendly Asuryani units within 12&quot; of the model re-roll 造伤骰 of 1.</description>
+          <description>一次性. Declare your 主将 is using this ability at the start of one of your Shooting or Assault phases. For the duration of the phase, 主将 and all friendly Asuryani units within 12&quot; of the model re-roll 造伤骰 of 1.</description>
         </rule>
       </rules>
       <costs>
@@ -2700,7 +2700,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dacd-6eff-97b4-ce1d" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dacd-6eff-97b4-ce1d" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70d-d510-c493-e0ac" type="max"/>
           </constraints>
@@ -2717,7 +2717,7 @@ has the 大爆炸.</description>
                 <infoLink id="3128-e0bc-7b51-c699" name="Defense Tactics" hidden="false" targetId="066e-a55a-99f5-e62a" type="rule"/>
                 <infoLink id="b965-c497-e094-a602" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
                 <infoLink id="7f3d-583b-5a1d-1e4d" name="目标安全" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
-                <infoLink id="3107-e8b2-bcce-2286" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="3107-e8b2-bcce-2286" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="8df4-326a-6691-d5c2" name="Dire Avengers" hidden="false" collective="false" import="true" type="model">
@@ -2853,7 +2853,7 @@ has the 大爆炸.</description>
         <infoLink id="324a-c1a0-3667-a516" name="Herald of Victory" hidden="false" targetId="2565-1d88-9b27-208d" type="rule"/>
         <infoLink id="66f4-e246-7207-0383" name="Autarch" hidden="false" targetId="f626-45d2-8e53-9e5e" type="rule"/>
         <infoLink id="5e1b-16b1-46ec-6642" name="Intercept" hidden="false" targetId="8a74-ef3d-633c-fffc" type="rule"/>
-        <infoLink id="0b2a-0de2-fb57-c049" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+        <infoLink id="0b2a-0de2-fb57-c049" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="78ee-3ae8-4ca9-e580" name="Autarch" hidden="false" targetId="e71d-eadd-fe62-184a" primary="false"/>
@@ -2933,7 +2933,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="738c-c583-29af-00d8" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="738c-c583-29af-00d8" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a01-ae36-5650-b17b" type="max"/>
           </constraints>
@@ -2949,7 +2949,7 @@ has the 大爆炸.</description>
                 <infoLink id="931e-f134-d022-8352" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                 <infoLink id="974d-b4f6-a1c9-e65e" name="Intercept" hidden="false" targetId="8a74-ef3d-633c-fffc" type="rule"/>
                 <infoLink id="c77b-4093-ba47-5a45" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                <infoLink id="18ee-c531-7051-57ef" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="18ee-c531-7051-57ef" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="2904-7a74-1dd9-ffce" name="Swooping Hawks" hidden="false" collective="false" import="true" type="model">
@@ -3128,7 +3128,7 @@ has the 大爆炸.</description>
         <infoLink id="7a97-12e9-2196-948b" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="31cb-01d8-f44c-2ee3" name="Autarch" hidden="false" targetId="f626-45d2-8e53-9e5e" type="rule"/>
         <infoLink id="6dc5-39e2-050c-d538" name="Aerobatic Grace" hidden="false" targetId="fe41-83f8-73ae-c59c" type="rule"/>
-        <infoLink id="c138-47c7-6b32-59d0" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+        <infoLink id="c138-47c7-6b32-59d0" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c85d-5b19-a0eb-d05d" name="Autarch" hidden="false" targetId="e71d-eadd-fe62-184a" primary="false"/>
@@ -3228,7 +3228,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ba54-9b22-4828-c35d" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ba54-9b22-4828-c35d" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2aa-e4fc-a858-2e12" type="max"/>
           </constraints>
@@ -3246,7 +3246,7 @@ has the 大爆炸.</description>
                 <infoLink id="7f5c-9818-efb4-8943" name="熟练骑手" hidden="false" targetId="e6e1-afb0-377d-27a8" type="rule"/>
                 <infoLink id="3534-8561-9524-28f2" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                 <infoLink id="92ea-8abb-82fb-1bb9" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                <infoLink id="1e8c-1c1d-8aa8-872d" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="1e8c-1c1d-8aa8-872d" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="a895-ba57-5fbd-1923" name="Shining Spears" hidden="false" collective="false" import="true" type="model">
@@ -3376,7 +3376,7 @@ has the 大爆炸.</description>
         <infoLink id="8f6c-b727-36fc-16bd" name="Crack Shot" hidden="false" targetId="8c51-655b-c7ab-8d5c" type="rule"/>
         <infoLink id="77dd-bc99-f469-94e4" name="Assured Destruction" hidden="false" targetId="c956-c812-1189-f16f" type="rule"/>
         <infoLink id="f4cc-6f4a-5194-4d76" name="Autarch" hidden="false" targetId="f626-45d2-8e53-9e5e" type="rule"/>
-        <infoLink id="e155-4a84-7966-ee6b" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+        <infoLink id="e155-4a84-7966-ee6b" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b99d-0eac-195b-5530" name="Autarch" hidden="false" targetId="e71d-eadd-fe62-184a" primary="false"/>
@@ -3444,7 +3444,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="588b-5d65-c969-4b0a" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="588b-5d65-c969-4b0a" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2617-442d-061d-b097" type="max"/>
           </constraints>
@@ -3459,7 +3459,7 @@ has the 大爆炸.</description>
                 <infoLink id="7679-25f5-f57e-fa50" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
                 <infoLink id="946e-4b33-2404-0e09" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                 <infoLink id="e630-5015-ddad-6ea0" name="Assured Destruction" hidden="false" targetId="c956-c812-1189-f16f" type="rule"/>
-                <infoLink id="bf80-e525-9ec7-51bf" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="bf80-e525-9ec7-51bf" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                 <infoLink id="bb18-d665-e8cf-3101" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -3599,7 +3599,7 @@ has the 大爆炸.</description>
       </profiles>
       <rules>
         <rule id="995f-3442-197b-8ed2" name="Twilight Terror" hidden="false">
-          <description>Any enemy units within 12&quot; of Irillyth or any unit he has joined must pass a Leadership test when attempting to make a Shooting attack against Irillyth or his unit. If they fail this test, they may only Snap Fire. The effects of Shadow of Death apply to this test.</description>
+          <description>Any enemy units within 12&quot; of Irillyth or any unit he has joined must pass a LD测试 when attempting to make a Shooting attack against Irillyth or his unit. If they fail this test, they may only Snap Fire. The effects of Shadow of Death apply to this test.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3616,7 +3616,7 @@ has the 大爆炸.</description>
         <infoLink id="667b-cf1b-76b9-37aa" name="夜视" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
         <infoLink id="afbd-0363-1c16-4671" name="Autarch" hidden="false" targetId="f626-45d2-8e53-9e5e" type="rule"/>
         <infoLink id="91a0-5b99-d644-c6fe" name="Shadow of Death" hidden="false" targetId="dda4-d280-402c-284b" type="rule"/>
-        <infoLink id="3daa-c692-0171-cb18" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+        <infoLink id="3daa-c692-0171-cb18" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3729-46d1-8de6-13ac" name="Autarch" hidden="false" targetId="e71d-eadd-fe62-184a" primary="false"/>
@@ -3677,7 +3677,7 @@ has the 大爆炸.</description>
                 <characteristic name="Range" typeId="52616e676523232344415441232323">-</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2/+1</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">2/3</characteristic>
-                <characteristic name="Type" typeId="5479706523232344415441232323">近战, Master Crafted</characteristic>
+                <characteristic name="Type" typeId="5479706523232344415441232323">近战, 精工</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3710,7 +3710,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d0ab-cad2-5e59-0630" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d0ab-cad2-5e59-0630" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c2-ce2f-36c1-4f44" type="max"/>
           </constraints>
@@ -3727,7 +3727,7 @@ has the 大爆炸.</description>
                 <infoLink id="5408-f82d-d5a1-5f44" name="恐怖" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
                 <infoLink id="391b-8f61-4929-05f2" name="Ghostlight" hidden="false" targetId="b22c-c6e2-e837-6074" type="rule"/>
                 <infoLink id="2f4b-e408-c6b0-1a7f" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                <infoLink id="f075-5100-c331-f71f" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="f075-5100-c331-f71f" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="fca7-62f9-63f7-362f" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="model">
@@ -3968,7 +3968,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="135e-8b9d-f2c3-e885" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="135e-8b9d-f2c3-e885" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45f-5be3-c64a-c0c8" type="max"/>
           </constraints>
@@ -3984,7 +3984,7 @@ has the 大爆炸.</description>
                 <infoLink id="8e5f-eafc-df3e-f3e3" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
                 <infoLink id="3405-a92e-4449-b294" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                 <infoLink id="4a0b-dbff-5ff0-3fbb" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                <infoLink id="0779-44d3-89fa-adfd" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="0779-44d3-89fa-adfd" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="5c69-667b-f294-1916" name="Howling Banshee" hidden="false" collective="false" import="true" type="model">
@@ -4135,7 +4135,7 @@ has the 大爆炸.</description>
         <infoLink id="d4e5-f23e-ab58-87bf" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
         <infoLink id="5387-c9a7-5a2f-8dcd" name="夜视" hidden="false" targetId="a225-e39b-3699-c8f8" type="rule"/>
         <infoLink id="74ff-607f-7b25-cce5" name="Autarch" hidden="false" targetId="f626-45d2-8e53-9e5e" type="rule"/>
-        <infoLink id="40f7-0321-0979-1cf1" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+        <infoLink id="40f7-0321-0979-1cf1" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5d3e-8d71-b950-38ae" name="Autarch" hidden="false" targetId="e71d-eadd-fe62-184a" primary="false"/>
@@ -4224,7 +4224,7 @@ has the 大爆炸.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9f1a-7068-0d39-5e59" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9f1a-7068-0d39-5e59" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="065a-af96-8900-6852" type="max"/>
           </constraints>
@@ -4239,7 +4239,7 @@ has the 大爆炸.</description>
                 <infoLink id="b87b-4e8b-525a-4774" name="Inescapable Accuracy" hidden="false" targetId="55d5-50ec-cd0a-e6f2" type="rule"/>
                 <infoLink id="f064-5a5d-f9e2-f2bf" name="缓慢沉着" hidden="false" targetId="4608-a89f-8d54-2fe4" type="rule"/>
                 <infoLink id="7ab0-e264-e315-3579" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                <infoLink id="24ff-34d6-bf30-fdc3" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                <infoLink id="24ff-34d6-bf30-fdc3" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="594e-2c67-13af-5c4d" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="model">
@@ -4663,7 +4663,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="87d9-8b81-e523-b085" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="87d9-8b81-e523-b085" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -4687,7 +4687,7 @@ has the 大爆炸.</description>
                         <infoLink id="c634-754a-df75-c4ac" name="Flickerjump" hidden="false" targetId="a976-c503-b7ff-a13c" type="rule"/>
                         <infoLink id="1c40-c58d-34a0-e794" name="打带跑" hidden="false" targetId="5342-bf92-d6c0-ebb9" type="rule"/>
                         <infoLink id="5515-02b6-ecc3-f13e" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="bf36-e4e5-dbee-d6fb" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="bf36-e4e5-dbee-d6fb" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="21e2-ac6b-5458-1e7f" name="Warp Spiders" publicationId="5c4c-bef9-9681-e0fc" page="58" hidden="false" collective="false" import="true" type="model">
@@ -4928,7 +4928,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="dd53-d554-7de7-0331" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="dd53-d554-7de7-0331" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -4950,7 +4950,7 @@ has the 大爆炸.</description>
                         <infoLink id="341f-eb3e-6d41-a3e8" name="Inescapable Accuracy" hidden="false" targetId="55d5-50ec-cd0a-e6f2" type="rule"/>
                         <infoLink id="5413-eb1f-b703-5d42" name="缓慢沉着" hidden="false" targetId="4608-a89f-8d54-2fe4" type="rule"/>
                         <infoLink id="8905-7ff9-4637-7f33" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="ef52-d8f3-fb90-9551" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="ef52-d8f3-fb90-9551" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="d3be-9d93-6071-ead6" name="Dark Reapers" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false" collective="false" import="true" type="model">
@@ -5223,7 +5223,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="04a8-2e65-8900-6d0c" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="04a8-2e65-8900-6d0c" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5247,7 +5247,7 @@ has the 大爆炸.</description>
                         <infoLink id="cbea-dbb5-7738-940e" name="Defense Tactics" hidden="false" targetId="066e-a55a-99f5-e62a" type="rule"/>
                         <infoLink id="7af8-4b78-9ab9-d78e" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
                         <infoLink id="f5f9-ef42-c657-1e9e" name="目标安全" hidden="false" targetId="4764-48d9-da41-afaa" type="rule"/>
-                        <infoLink id="98f5-a3f0-1e4d-9c03" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="98f5-a3f0-1e4d-9c03" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="72b0-d348-1cf8-3dfb" name="Dire Avengers" hidden="false" collective="false" import="true" type="model">
@@ -5544,7 +5544,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="5aba-ad81-773a-5c53" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5aba-ad81-773a-5c53" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5566,7 +5566,7 @@ has the 大爆炸.</description>
                         <infoLink id="1d06-b69b-db5a-d974" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
                         <infoLink id="52a9-fc47-fbff-b48a" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                         <infoLink id="6e36-2367-5a24-7e21" name="Assured Destruction" hidden="false" targetId="c956-c812-1189-f16f" type="rule"/>
-                        <infoLink id="0036-e08e-6096-caf2" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="0036-e08e-6096-caf2" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                         <infoLink id="907c-1ba4-20f9-2984" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
@@ -5798,7 +5798,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="7b63-cbfe-887e-39c2" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="7b63-cbfe-887e-39c2" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -5822,7 +5822,7 @@ has the 大爆炸.</description>
                         <infoLink id="f6ae-0c2b-8b1e-42e7" name="恐怖" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule"/>
                         <infoLink id="89a2-254d-2349-8c86" name="Ghostlight" hidden="false" targetId="b22c-c6e2-e837-6074" type="rule"/>
                         <infoLink id="dc7f-af36-8fde-cf90" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="c198-ce88-604a-e039" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="c198-ce88-604a-e039" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="af70-4083-46ad-f978" name="Shadow Spectres" publicationId="5c4c-bef9-9681-e0fc" page="54" hidden="false" collective="false" import="true" type="model">
@@ -6042,7 +6042,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4f4d-6312-43fe-4e31" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="4f4d-6312-43fe-4e31" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -6065,7 +6065,7 @@ has the 大爆炸.</description>
                         <infoLink id="ef75-d814-2c03-a1e5" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
                         <infoLink id="bd90-6b7d-2ee2-87a7" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                         <infoLink id="861d-7c32-a88e-b5fb" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="6c78-df15-58a3-f8cb" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="6c78-df15-58a3-f8cb" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="e43c-ab77-6636-3e82" name="Howling Banshee" hidden="false" collective="false" import="true" type="model">
@@ -6340,7 +6340,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="a6db-274d-1021-00bf" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="a6db-274d-1021-00bf" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -6365,7 +6365,7 @@ has the 大爆炸.</description>
                         <infoLink id="0e01-1572-0d73-6fd2" name="熟练骑手" hidden="false" targetId="e6e1-afb0-377d-27a8" type="rule"/>
                         <infoLink id="e8dc-a09d-4c3b-0123" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                         <infoLink id="5752-fc99-80a7-bb3a" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="648d-881a-53de-250f" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="648d-881a-53de-250f" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="70a1-b0fc-c969-b108" name="Shining Spears" hidden="false" collective="false" import="true" type="model">
@@ -6595,7 +6595,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="acde-6fa1-7a18-6223" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="acde-6fa1-7a18-6223" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -6618,7 +6618,7 @@ has the 大爆炸.</description>
                         <infoLink id="73b0-2da6-ff4e-5870" name="迅捷" hidden="false" targetId="69e5-fc02-1f9d-63c2" type="rule"/>
                         <infoLink id="0e45-97f5-153a-5645" name="Intercept" hidden="false" targetId="8a74-ef3d-633c-fffc" type="rule"/>
                         <infoLink id="a702-657b-a358-a793" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="0e25-97d9-8542-d30c" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="0e25-97d9-8542-d30c" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="0a0d-0e49-8f5a-c2db" name="Swooping Hawks" hidden="false" collective="false" import="true" type="model">
@@ -6855,7 +6855,7 @@ has the 大爆炸.</description>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="edbb-7e6b-1629-2b21" name="Command Squad" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="edbb-7e6b-1629-2b21" name="指挥小队" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -6880,7 +6880,7 @@ has the 大爆炸.</description>
                         <infoLink id="9d3a-16c3-904c-294f" name="渗透" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule"/>
                         <infoLink id="cfcc-7bf9-3095-e1b6" name="穿越地形" hidden="false" targetId="6d06-5ea0-9a17-ca97" type="rule"/>
                         <infoLink id="3d79-6b9d-704d-bb22" name="Scoring (Autarch)" hidden="false" targetId="fee2-7fc6-ef66-3a58" type="rule"/>
-                        <infoLink id="2c4c-2f88-bbf2-612c" name="Command Squad" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
+                        <infoLink id="2c4c-2f88-bbf2-612c" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry id="4f23-0e46-b379-1a69" name="Striking Scorpions" publicationId="5c4c-bef9-9681-e0fc" page="41" hidden="false" collective="false" import="true" type="model">
@@ -12399,7 +12399,7 @@ Exarchs available.
       <rules>
         <rule id="5d57-0075-2247-5310" name="Path of the Seer" publicationId="5c4c-bef9-9681-e0fc" page="11" hidden="false">
           <description>Asuryani armies built using this trait have the following conditions:
-• A Farseer must be the armies Warlord.
+• A Farseer must be the armies 主将.
 • A Seer Council must be taken.
 • Any number of Seers in the Seer Council unit may be split off from this unit and assigned to a unit from the below list and are considered a 灵能者 (Mastery Level 1). Any Seers moved in this way are excluded from the requirement to be equipped with Aeldari Jetbikes if the Seer Council unit is and vice versa, however they do still reduce the number of models in the unit for the Communion of Minds.
 Available units: Guardians, Storm Guardians, Vaul&apos;s Wrath Support Battery, Windriders, Windrider Support Squads.</description>
@@ -12522,7 +12522,7 @@ hits would be resolved at +2 Strength and -2AP.</description>
 3D6 for Armour penetration.</description>
     </rule>
     <rule id="6acd-81dc-df2e-9c95" name="Soulrazor" publicationId="5c4c-bef9-9681-e0fc" page="15" hidden="false">
-      <description>Soulrazor: When a model suffers one or more unsaved Wounds from this weapon, it must pass a separate Leadership test for each
+      <description>Soulrazor: When a model suffers one or more unsaved Wounds from this weapon, it must pass a separate LD测试 for each
 Wound suffered or be removed from play.</description>
     </rule>
     <rule id="e04f-0392-8802-3ccb" name="A Doomed Race" publicationId="5c4c-bef9-9681-e0fc" page="10" hidden="false">
@@ -12580,7 +12580,7 @@ D6 Result
       <description>A unit that consists entirely of models with this 规则 adds 3&quot; to its maximum move distance when it Runs and when it makes charge moves. Furthermore, models with this 规则 do not suffer the Initiative penalty for charging enemies through difficult terrain.</description>
     </rule>
     <rule id="f626-45d2-8e53-9e5e" name="Autarch" publicationId="5c4c-bef9-9681-e0fc" page="33" hidden="false">
-      <description>There can only be a single model with the Autarch 规则 in the army and it must be the Warlord. All Aspect Warriors from the same Shrine as the Autarch become Scoring, if they were already Scoring they gain 目标安全, in addition a single squad may be taken as a command squad under the same HQ slot as the Autarch.</description>
+      <description>There can only be a single model with the Autarch 规则 in the army and it must be 主将. All Aspect Warriors from the same Shrine as the Autarch become Scoring, if they were already Scoring they gain 目标安全, in addition a single squad may be taken as a 指挥小队 under the same HQ slot as the Autarch.</description>
     </rule>
     <rule id="dda4-d280-402c-284b" name="Shadow of Death" publicationId="5c4c-bef9-9681-e0fc" page="27" hidden="false">
       <description>All enemy units withing 12&quot; of a Shadow Spectre squad that contains a model with this 规则 rolls an extra D6 when making Leadership tests for 士气测试, using the two highest rolls to resolve the test. Models with the 无畏 规则 are immune to this effect.</description>
@@ -12598,7 +12598,7 @@ D6 Result
       <description>When a unit with this 规则 is chosen as the target of a shooting attack, it can immediately make a Warp jump, moving 2D6&quot; instead of 6+2D6&quot;, so long as it is not 撤退. The firing unit cannot choose a different target, even if the target unit is now out of range or 视线. A unit that makes a Warp jump in this way cannot make a Warp jump in its following 移动阶段.</description>
     </rule>
     <rule id="084e-c33b-59b1-fdba" name="Compulsory" publicationId="ca571888--pubN106502" page="132" hidden="false">
-      <description>One box on a 立场 Organisation chart allows you to make one selection from that part of your army list. Dark boxes indicate compulsory selections, which must be included as part of the army, while the lighter boxes indicate optional choices, which are only included as part of the army if the player in question chooses to do so. If constructing an army using the Crusade 立场 Organisation chart, this would mean that an army would be required to take at least one HQ choice and two Troops choices. These compulsory choices are intended to ensure that the core of each army is illustrative of the force represented by the Army List in use, and that all armies are capable of properly participating in the varied missions available to players in the Age of Darkness.</description>
+      <description>One box on a Force Organisation chart allows you to make one selection from that part of your army list. Dark boxes indicate compulsory selections, which must be included as part of the army, while the lighter boxes indicate optional choices, which are only included as part of the army if the player in question chooses to do so. If constructing an army using the Crusade Force Organisation chart, this would mean that an army would be required to take at least one HQ choice and two Troops choices. These compulsory choices are intended to ensure that the core of each army is illustrative of the force represented by the Army List in use, and that all armies are capable of properly participating in the varied missions available to players in the Age of Darkness.</description>
     </rule>
     <rule id="15d6-c0a2-6e1a-32c5" name="支援单位" publicationId="ca571888--pubN106502" page="" hidden="false">
       <description>此单为不能作为强制基础槽位的选择.</description>
@@ -12622,7 +12622,7 @@ The controlling player may choose to have the Lynx deployed on the table at the 
     <rule id="13d7-c159-325d-5622" name="快速 Shot" publicationId="5c4c-bef9-9681-e0fc" page="30" hidden="false">
       <description>A model with this 规则 always fires one more shot than is normal for its weapon, i.e if its weapon is Heavy 2, it fires 3 shots.</description>
     </rule>
-    <rule id="81e5-0111-8395-e884" name="Command Squad" hidden="false">
+    <rule id="81e5-0111-8395-e884" name="指挥小队" hidden="false">
       <description>Any Aspect Warrior unit attached to an Autarch or Phoenix Lord does not count towards this limit as they are considered the Autarchs personal retinue.</description>
     </rule>
     <rule id="2140-38a0-2f2f-7029" name="Wraith Titan" publicationId="5c4c-bef9-9681-e0fc" page="70" hidden="false">
@@ -12681,7 +12681,7 @@ In addition when a Wraith Titan chooses to Run it moves 12&quot; instead of roll
     </profile>
     <profile id="bfd1-a683-1cbc-4c07" name="Heavy Mesh Armour" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
       <characteristics>
-        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A reinforced version of the Guardian Mesh Armour, this suit has been stiffened with psycho-reactive plate along vulnerable areas. Heavy Mesh armour provides a 4+ 装甲保护.</characteristic>
+        <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">A reinforced version of the Guardian Mesh Armour, this suit has been stiffened with psycho-reactive plate along vulnerable areas. Heavy Mesh armour 获得 a 4+ 装甲保护.</characteristic>
       </characteristics>
     </profile>
     <profile id="23d9-1978-2074-bfa6" name="Heavy Weapon Platform" publicationId="5c4c-bef9-9681-e0fc" page="17" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">

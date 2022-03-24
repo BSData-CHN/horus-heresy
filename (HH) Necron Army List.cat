@@ -10,7 +10,7 @@
     <categoryEntry id="a673-7d7e-4e32-171a" name="快速打击槽位" hidden="false"/>
     <categoryEntry id="a740-e34d-c712-38e8" name="重型支援槽位" hidden="false"/>
     <categoryEntry id="a709-2112-971c-8fa9" name="工事槽位" hidden="false"/>
-    <categoryEntry id="d072-dc72-6fdf-7e55" name="Nodel Detachments" hidden="false"/>
+    <categoryEntry id="d072-dc72-6fdf-7e55" name="Nodel 分队s" hidden="false"/>
     <categoryEntry id="c032-96cb-48fb-6615" name="Allied HQ" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false"/>
     <categoryEntry id="e118-bd6a-9b94-51a6" name="Allied Elite" hidden="false"/>
     <categoryEntry id="bb83-c3a0-088e-e8a5" name="Allied 快速 Attack" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false"/>
@@ -41,7 +41,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="6b8a-fd52-467d-22e4" name="Nodel Command 立场 Organisation Chart" hidden="false">
+    <forceEntry id="6b8a-fd52-467d-22e4" name="Nodel Command Force Organisation Chart" hidden="false">
       <categoryLinks>
         <categoryLink id="86d3-b225-6264-3efe" name="指挥槽位" hidden="false" targetId="a369-9929-a547-3fd4" primary="false">
           <modifiers>
@@ -164,7 +164,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b667-894b-3112-a6af" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="75b2-c3d6-2d9a-f8be" name="Nodel Detachments" hidden="false" targetId="d072-dc72-6fdf-7e55" primary="false"/>
+        <categoryLink id="75b2-c3d6-2d9a-f8be" name="Nodel 分队s" hidden="false" targetId="d072-dc72-6fdf-7e55" primary="false"/>
         <categoryLink id="6962-868a-4910-3b02" name="Allied HQ" hidden="false" targetId="c032-96cb-48fb-6615" primary="false">
           <modifiers>
             <modifier type="increment" field="eebd-b3e1-b65b-386d" value="1.0">
@@ -794,7 +794,7 @@
         <categoryLink id="512c-a622-897d-3e03" name="New CategoryLink" hidden="false" targetId="e118-bd6a-9b94-51a6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c961-b04b-5108-6867" name="Triarch Praetorians" hidden="false" collective="false" import="true" targetId="0f3b-d163-7e94-a7a3" type="selectionEntry">
+    <entryLink id="c961-b04b-5108-6867" name="Triarch 执政官ians" hidden="false" collective="false" import="true" targetId="0f3b-d163-7e94-a7a3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -880,7 +880,7 @@
       </profiles>
       <rules>
         <rule id="04f1-8a04-30c6-2c94" name="Expulsion Protocol" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>Instead of performing a Sweeping Advance models with this 规则 may 坚守射击 their 武器 at units which 撤退, even if they are not normally permitted to conduct a Sweeping Advance.</description>
+          <description>Instead of performing a 追击 models with this 规则 may 坚守射击 their 武器 at units which 撤退, even if they are not normally permitted to conduct a 追击.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1127,7 +1127,7 @@
       </constraints>
       <rules>
         <rule id="08d6-cc63-f773-1952" name="Royal Court" hidden="false">
-          <description>The members of the Conclave may be distributed and attached amongst the armies Dynastic Legion units, except for Tomb Blades, and the armies Lords, Nemesor and/or Overlord. In addition each Cryptek Lord may count as a Bronze Lord for the purposes of the 立场 Organisational Chart, but may not be Warlord.</description>
+          <description>The members of the Conclave may be distributed and attached amongst the armies Dynastic Legion units, except for Tomb Blades, and the armies Lords, Nemesor and/or Overlord. In addition each Cryptek Lord may count as a Bronze Lord for the purposes of the Force Organisational Chart, but may not be 主将.</description>
         </rule>
         <rule id="7c02-e184-03cb-00ba" name="Technomancer" hidden="false">
           <description>If this model and the unit it is attached to is destroyed, the Technomancer may attempt its Reanimation Protocol first and, if successful, allows for the rest of the unit to also attempt its Reanimation Protocol.</description>
@@ -1915,7 +1915,7 @@
       </profiles>
       <rules>
         <rule id="a082-9776-2e0e-53ad" name="Doomsday Phalanx" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-          <description>By selecting a Doomsday Monolith, the regular Monolith option in the Heavy Support slot becomes unavailable, allowing Monoliths only to be taken through this unit option. All Monoliths may be deployed independently and still count as Heavy Support choices for mission rules and other purposes except for the 立场 Organisation slot use.</description>
+          <description>By selecting a Doomsday Monolith, the regular Monolith option in the Heavy Support slot becomes unavailable, allowing Monoliths only to be taken through this unit option. All Monoliths may be deployed independently and still count as Heavy Support choices for mission rules and other purposes except for the Force Organisation slot use.</description>
         </rule>
         <rule id="d155-e2f9-1111-9eba" name="Energy Grid" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>Any Monolith within 12&quot; of the Doomsday Monolith may forgo firing any of its 武器 in the 射击阶段 in favour of focusing its energy into the Doomsday Monliths energy grid. Declare how many Monoliths will do this at the start of the 射击阶段. For each Monolith that chooses to act in this fashion, the number of shots fired by the Doomsday Monoliths Gauss Obliterator is increased by one for that Turn. These extra shots may be fired at different targets. Any Monolith which opts to do this may not use its Eternity Gate the following turn.</description>
@@ -1957,7 +1957,7 @@
                 <profile id="bc06-327b-df06-4b36" name="Null Field Emitter" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
                   <characteristics>
                     <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If two models with a Null Field Emitter are within 24&quot; of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its 视线 across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla 武器.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 Leadership test or treat it as impassable terrain.
+In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 LD测试 or treat it as impassable terrain.
 
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
@@ -2053,7 +2053,7 @@ If there are three or more models all projecting Nightshrouds between them, they
               <rules>
                 <rule id="9679-b5c4-fc73-f849" name="Null Field Emitters" hidden="false">
                   <description>If two models with Null Field Emitters are within 24&quot; of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its 视线 across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla 武器.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 Leadership test or treat it as impassable terrain.
+In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 LD测试 or treat it as impassable terrain.
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
 • Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate 次元充能 and all Pyschic effects are nullified. In addition all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</description>
@@ -3520,7 +3520,7 @@ the Fight subphase.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1ba1-4ae1-b786-0311" name="Fortification Detachment (Optional)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1ba1-4ae1-b786-0311" name="Fortification 分队 (Optional)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd01-e63c-f133-d49a" type="max"/>
           </constraints>
@@ -3659,8 +3659,8 @@ If objective markers are in play, Trazyn or his Acquisition Phalanx Lychguards m
 Relics of History .................................................................. 2 Victory points
 If there is some form of special war gear (Relics of the Dark of Technology, Relics of the Great Crusade, Named War gear [those often found on Special Characters]) on a model within the enemy army it may be taken by Trazyn or his Acquisition Phalanx Lychguards. In order to do this the model with the war gear must be killed/destroyed 近战中 which includes either Trazyn or his Immortals, even if they did not kill the model themselves.
 
-Famous Warlord ................................................................ 3 Victory points
-In order to obtain this Exhibit, Trazyn himself must capture the enemy Warlord or a Special 人物 in the enemy army by using his Tesseract Labyrinth and he must remain alive until the completion of the game. If the Warlord and all Special Characters are killed before this is achieved or if the Tesseract Labyrinth is used on another model then this Exhibit cannot be completed.
+Famous 主将 ................................................................ 3 Victory points
+In order to obtain this Exhibit, Trazyn himself must capture the enemy 主将 or a Special 人物 in the enemy army by using his Tesseract Labyrinth and he must remain alive until the completion of the game. If 主将 and all Special Characters are killed before this is achieved or if the Tesseract Labyrinth is used on another model then this Exhibit cannot be completed.
 
 Feature Exhibit ................................................................... 5 Victory points
 This Exhibit can only be obtained by capturing a truly legendary figure who has made such impacts on the path of history that their lose would be a devastating blow for all time to pass. The 人物 must be captured by Trazyn himself by using his Tesseract Labyrinth and must remain alive until the completion of the game.
@@ -3712,7 +3712,7 @@ Designer Note: If any of these Exhibits are taken as part of a Narrative Campaig
           </constraints>
           <rules>
             <rule id="de3d-fbec-e43e-0ad4" name="Royal Guard" hidden="false">
-              <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single 立场 Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. In addition they count as within Nodal Command Range of their respective HQ while they are both on the table.</description>
+              <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. In addition they count as within Nodal Command Range of their respective HQ while they are both on the table.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4120,7 +4120,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making 近战攻击 that r
           </profiles>
           <rules>
             <rule id="19a0-ad11-9fec-b019" name="Command Wave" hidden="false">
-              <description>All friendly units with the Dynastic Legion 规则 within the Overlords Command range re-roll 所有失败的 Morale, 压制 and 恐怖 tests. If this model is the armies Warlord and has the Immortal Hubris 主将特性, it also gains the Advanced Networking Algorithms as an additional Trait.</description>
+              <description>All friendly units with the Dynastic Legion 规则 within the Overlords Command range re-roll 所有失败的 Morale, 压制 and 恐怖 tests. If this model is the armies 主将 and has the Immortal Hubris 主将特性, it also gains the Advanced Networking Algorithms as an additional Trait.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -4268,7 +4268,7 @@ The bearer can use the Tesseract Labyrinth in lieu of making 近战攻击 that r
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7582-9db2-0390-b60f" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7582-9db2-0390-b60f" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="b7fe-2c58-cd64-162a" value="0.0">
           <conditions>
@@ -4826,7 +4826,7 @@ In addition, the controlling may sacrifice any number of drones in their 射击�
     <selectionEntry id="0c7c-a0a3-bf78-997e" name="Tomb Blades" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="c0ab-cfb8-fb5d-beac" name="Hyper-fractal Programming" hidden="false">
-          <description>Even when outside of Nodal Command range, models with this 规则 are able to move as normal, ignoring the effects of 缓慢沉着 for movement only (they still cannot perform Sweeping Advance).</description>
+          <description>Even when outside of Nodal Command range, models with this 规则 are able to move as normal, ignoring the effects of 缓慢沉着 for movement only (they still cannot perform 追击).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5268,7 +5268,7 @@ In addition, models with this 规则 may use the Leadership value of any Nodal C
       </constraints>
       <rules>
         <rule id="1318-0ade-4678-b7e7" name="Royal Guard" hidden="false">
-          <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single 立场 Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. In addition they count as within Nodal Command Range of their respective HQ while they are both on the table.</description>
+          <description>Only a single unit of Lychguard may be purchased for each Nemesor and/or Overlord and are treated as their personal retinue. They take up a single Force Organisation chart choice with that 人物, but do not have to be deployed with them and are treated as a separate unit during the game. In addition they count as within Nodal Command Range of their respective HQ while they are both on the table.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5435,7 +5435,7 @@ In addition, models with this 规则 may use the Leadership value of any Nodal C
       <rules>
         <rule id="c3ea-1a89-a50d-4450" name="Scarab Hive" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>Once per friendly 移动阶段, each Canoptek Spyder can use this 规则 to create Canoptek Scarabs. To do so, nominate a friendly unit of Canoptek Scarabs that is within 6&quot; of the Canoptek Spyder. Add a single Canoptek Scarab base to the unit – this can take the unit beyond its starting size, but must be placed within 6&quot; of the Canoptek Spyder. If a model cannot be placed for any reason, it is destroyed. Canoptek Scarabs created in this manner can move and act normally this turn. Roll a D6 each time a Canoptek Spyder uses its Scarab Hive 规则, immediately after placing any Canoptek Scarabs that were created – on a roll of a 1 the Canoptek Spyder suffers a single Wound with no saves of any kind allowed
- In addition, for each unit of Spyders in the army, a unit of Canoptek Scarabs may be taken which do count towards the maximum number of units in their respective 立场 Organisation slot.</description>
+ In addition, for each unit of Spyders in the army, a unit of Canoptek Scarabs may be taken which do count towards the maximum number of units in their respective Force Organisation slot.</description>
         </rule>
         <rule id="a318-f497-a0b2-d18e" name="Nodal Relay" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
           <description>If a Canoptek Spyder is within Command range of a Nodal Command model it will extend that range an additional 6&quot; from the Spyder model, acting as a relay point.</description>
@@ -5911,7 +5911,7 @@ In addition, models with this 规则 may use the Leadership value of any Nodal C
             <profile id="7dc6-49fa-a818-ec3d" name="Null Field Emitter" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备 Item">
               <characteristics>
                 <characteristic name="Description" typeId="4465736372697074696f6e23232344415441232323">If two models with a Null Field Emitter are within 24&quot; of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its 视线 across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla 武器.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 Leadership test or treat it as impassable terrain.
+In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 LD测试 or treat it as impassable terrain.
 
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
@@ -6160,8 +6160,8 @@ If there are three or more models all projecting Nightshrouds between them, they
           </profiles>
           <rules>
             <rule id="726a-1294-6729-d1d7" name="Tesseract Singularity Chamber" hidden="false">
-              <description>The Tesseract Singularity Chamber is treated as a weapon and can be taken out of action by a 武器损坏 damage result with potentially catastrophic consequences, and while active provides the several abilities as well as being used as a 远程武器:
-• Containment Fields: The containment field of the Singularity Chamber provides the Tessearct Ark with a 5+ 特殊保护.
+              <description>The Tesseract Singularity Chamber is treated as a weapon and can be taken out of action by a 武器损坏 damage result with potentially catastrophic consequences, and while active 获得 the several abilities as well as being used as a 远程武器:
+• Containment Fields: The containment field of the Singularity Chamber 获得 the Tessearct Ark with a 5+ 特殊保护.
 • Gravitational Flux: Any model trying to assault or ram the Tesseract Ark 必须进行一次 危险地形 test, and any unit charging the Ark is always forced into making a 散乱冲锋 by doing so.
 • Unleashed Power: The Tesseract Singularity Chamber can unleash its energies as a shooting attack from the vehicles forward arc. Pick one of the following energy modes each time the Ark fires:</description>
             </rule>
@@ -6330,7 +6330,7 @@ Should the unit be placed on top of any unit which does not pose an obstacle to 
               </conditions>
             </modifier>
           </modifiers>
-          <description> The containment field of the Singularity Chamber provides the Construct with a 5+ 特殊保护.</description>
+          <description> The containment field of the Singularity Chamber 获得 the Construct with a 5+ 特殊保护.</description>
         </rule>
         <rule id="93d6-2d43-3a8d-8712" name="Gravitational Flux" hidden="true">
           <modifiers>
@@ -6880,7 +6880,7 @@ Enemy models attempting to 深度打击 onto the Tomb Citadel will suffer a 深�
                   <rules>
                     <rule id="65c0-50a9-e109-7f24" name="Null Field Emitters" hidden="false">
                       <description>If two models with Null Field Emitters are within 24&quot; of each other, they project a Nightshroud. The line of effect is drawn from the center of each interconnected model. Any shot that traces its 视线 across one or more Nightshrouds has its Strength reduced by one. This has no effect on shots from Gauss or Tesla 武器.
-In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 Leadership test or treat it as impassable terrain.
+In addition, Psychic powers cannot be targeted through a Nightshroud and any Pysker or 恶魔 attempting to cross such a line 必须进行一次 LD测试 or treat it as impassable terrain.
 If there are three or more models all projecting Nightshrouds between them, they create a Nodal Grid. The area of the Nodal Grid is located inside the lines of the Nightshrouds. While the Nodal Grid is in operation the following rules apply:
 • Models inside the Nodal Grid need to roll 1 less than normal for their Resurrection Protocol rolls to a maximum of a 3+ (i.e a 5+ Resurrection Protocol would become a 4+, a 4+ would become a 3+).
 • Null Field: No Pyschic Powers can be generated inside the Nodal Grid, no Pyskers generate 次元充能 and all Pyschic effects are nullified. In addition all Daemons or models with the 恶魔 rule are considered to be 致盲 and have -2 Strength and -2 Toughness while inside the Nodal Grid.</description>
@@ -7163,7 +7163,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
           <description>Surrounded by a mist of Necrotic chemicals exuded by its body, the model immune to all 毒伤 and othe chemical effects (辐射噬菌体, Rad-grenades included). In addition if the model is ever reduced to zero Wounds, each model within D6&quot; suffers a 毒伤 4+ AP- hit.</description>
         </rule>
         <rule id="c3c9-d80f-22cb-2323" name="Cranial Hunger" hidden="false">
-          <description>Gain +1 VP at the end of the game if the enemy&apos;s Warlord was removed as a casualty as a result of a Wound inflicted by a model with this rule.</description>
+          <description>Gain +1 VP at the end of the game if the enemy&apos;s 主将 was removed as a casualty as a result of a Wound inflicted by a model with this rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -7309,19 +7309,19 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f3b-d163-7e94-a7a3" name="Triarch Praetorians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0f3b-d163-7e94-a7a3" name="Triarch 执政官ians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cd75-caca-14ac-b674" name="Reanimation Protocols" hidden="false" targetId="d0e0-b3d2-1273-9e33" type="rule"/>
         <infoLink id="9cad-06a2-0481-30c6" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="8f1b-afbe-99ba-b0ad" name="Triarch Praetorians" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f1b-afbe-99ba-b0ad" name="Triarch 执政官ians" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cafa-de2c-21a5-6764" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3e7-0a3e-0e26-e0d0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8fd5-f3e4-9dbc-2941" name="Triarch Praetorians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+            <profile id="8fd5-f3e4-9dbc-2941" name="Triarch 执政官ians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">跳跃步兵</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7601,10 +7601,10 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="a36a-adb9-6b16-8974" name="Tomb Guardians" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>Only a single unit with the Tomb Guardians rule may be used in any army which is built using the Nodal Command 立场 Organisation Chart and does not contain any Fortifications, should the army contain Fortifications there is no limit.</description>
+      <description>Only a single unit with the Tomb Guardians rule may be used in any army which is built using the Nodal Command Force Organisation Chart and does not contain any Fortifications, should the army contain Fortifications there is no limit.</description>
     </rule>
     <rule id="e2e6-948a-8cfd-3994" name="Annihilation Protocol" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>Only a single unit with Annihilation Protocol may be taken in armies using the Nodal Command 立场 Organisation Chart that contains any Fortifications.</description>
+      <description>Only a single unit with Annihilation Protocol may be taken in armies using the Nodal Command Force Organisation Chart that contains any Fortifications.</description>
     </rule>
     <rule id="667c-046f-f5be-4f4e" name="Teleportation Reserves" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
       <description>A unit which has been placed into Teleportation Reserve may only enter play through another unit, fortification or effect which has this 规则. Most commonly this would be through an Eternity Gate on a Monolith or attached to a fortification.</description>
@@ -7613,7 +7613,7 @@ A Monolith docked at the Ziggurat cannot use its Eternity Gate but can undock an
       <description>When a model with this 规则 suffers an unsaved Wound, there is a chance that it will self 修理 and return to play 在当前阶段结束时. Whenever a unit takes one or more casualties, either lay the models down or replace them with counters/markers to indicate how many casualties were taken. If the unit makes a fall back move, remove any counters from it - any damaged Necrons are left behind and self-destruct. At the start of the players following turn, after Reserves but before Movement, roll a D6 for each Reanimation Protocol counter next to the unit. On a 1-4 the damage is too severe and no self-修理 occurs - nothing happens. On a 5+, a Necron reassembles itself and continues to fight - return one model, with a single wound, for each successful Reanimation Protocol roll made to the unit. Each returning model must be placed within unit coherency of a 人物 or another model which did not self-修理 from the same unit, and at least 1&quot; away from enemy models. If the model&apos;s unit is engaged 近战中, the model immediately makes a 跟进移动. Models that cannot be placed in this way do not return. Reanimation Protocol rolls cannot be attempted if the unit was detroyed - once the last model has been removed as a casualty, remove all of the counters unless it is affected by Technomancer rule . Note that while characters do not count as part of the unit for the purposes of Reanimation Protocols, they may always attempt to self-修理 whether their accompanying unit was destroyed or not, or even if they were by themselves.</description>
     </rule>
     <rule id="50eb-0732-d269-4c45" name="Nodal Command" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
-      <description>Models with this 规则 will have an accompanying rank, Bronze, Silver or Gold. Each rank will have a unique benefit which can be bestowed onto units containing models with the Dynastic Legion rule (and from the same Dynasty) along with a range for which these benefits take affect. These benefits will be listed in the units profile alongside its other 规则. In addition the highest Nodal Command level must be the armies Warlord.
+      <description>Models with this 规则 will have an accompanying rank, Bronze, Silver or Gold. Each rank will have a unique benefit which can be bestowed onto units containing models with the Dynastic Legion rule (and from the same Dynasty) along with a range for which these benefits take affect. These benefits will be listed in the units profile alongside its other 规则. In addition the highest Nodal Command level must be the armies 主将.
 In addition all units which are within Nodal Command range gain the 坚毅 规则 while they are inside the range, should the Nodal Command be severed, the unit will lose the 坚毅 rule.</description>
     </rule>
     <rule id="3968-2abf-2a9f-ae4e" name="Living Metal" publicationId="6fc6-dd7c-7a39-b0c8" hidden="false">
