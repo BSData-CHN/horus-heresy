@@ -1270,7 +1270,7 @@ Skulltaker: The Lodge Master must personally kill the enemy 主将 e.g. through 
         <infoLink id="4595-527e-0d6c-88ec" name="精准打击" hidden="false" targetId="a080-af1b-fb2e-4860" type="rule"/>
         <infoLink id="3462-fc2a-e729-f00e" name="宿敌" hidden="false" targetId="4dd2-fcb0-de6a-5b70" type="rule">
           <modifiers>
-            <modifier type="append" field="name" value="(Loyalists)"/>
+            <modifier type="append" field="name" value="(忠诚方)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -3973,7 +3973,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         </selectionEntryGroup>
         <selectionEntryGroup id="57b9-c008-05ea-ae93" name="可以升级:" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="2b2c-41e5-151c-11ce" name="顾问: Librarian" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="2b2c-41e5-151c-11ce" name="顾问: 智库" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d447-17b3-51ec-c7e9" type="max"/>
               </constraints>

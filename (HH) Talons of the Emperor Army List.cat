@@ -764,7 +764,7 @@
         <categoryLink id="46db-754e-a210-9f31" name="New CategoryLink" hidden="false" targetId="9704-4a93-21b2-be00" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="990c-a548-b447-1e9a" name="Sisters of Silence Vigilator Cadre" hidden="false" collective="false" import="true" targetId="7017-b303-200f-730b" type="selectionEntry">
+    <entryLink id="990c-a548-b447-1e9a" name="Sisters of Silence 守夜者 Cadre" hidden="false" collective="false" import="true" targetId="7017-b303-200f-730b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4796-d420-4c5c-7222" name="New CategoryLink" hidden="false" targetId="220b-7c51-58b3-6ac0" primary="true"/>
       </categoryLinks>
@@ -4855,7 +4855,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7017-b303-200f-730b" name="Sisters of Silence Vigilator Cadre" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7017-b303-200f-730b" name="Sisters of Silence 守夜者 Cadre" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b196-7d3e-c2ad-afd2" name="New InfoLink" hidden="false" targetId="05b9-9f16-29f9-9dad" type="rule"/>
         <infoLink id="3a5d-f5dd-fbdb-0e1a" name="New InfoLink" hidden="false" targetId="584d-e540-7fdd-92c9" type="rule"/>
@@ -4866,7 +4866,7 @@
         <categoryLink id="2d11-ab1c-1395-e9f6" name="步兵:" hidden="false" targetId="a2ba-16b0-8590-b017" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fcd4-d99f-6309-de2e" name="Vigilator" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fcd4-d99f-6309-de2e" name="守夜者" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="decrement" field="6885-f288-2ef8-97b0" value="1">
               <repeats>
@@ -4916,7 +4916,7 @@
             <cost name="pts" typeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ff92-0d54-1940-fc5f" name="Vigilator Mistress" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ff92-0d54-1940-fc5f" name="守夜者 Mistress" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d20-753e-467e-8a13" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127d-5309-03c4-6718" type="min"/>
@@ -5063,7 +5063,7 @@
             <cost name="pts" typeId="points" value="37.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="43fe-849e-c031-a64e" name="Vigilator w/ Breaching Charge" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="43fe-849e-c031-a64e" name="守夜者 w/ Breaching Charge" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4783-609f-c012-39da" type="max"/>
           </constraints>
@@ -7161,7 +7161,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
       <description>In the 突击阶段 on a turn in which this model has charged, To Hit rolls of 6 with this weapon are resolved as Destroyer Hits.</description>
     </rule>
     <rule id="9e6d-607b-824f-30ea" name="Death Mark" publicationId="ca571888--pubN92115" hidden="false">
-      <description>After both sides have deployed but before the game begins, if a 分队 contains any Vigilator Cadres, their controlling player must declare a single enemy 步兵 unit or Independant 人物 as carrying the Death Mark this game. All Vigilator units in the 分队 gain the 宿敌 规则 when attacking this unit or 人物.</description>
+      <description>After both sides have deployed but before the game begins, if a 分队 contains any 守夜者 Cadres, their controlling player must declare a single enemy 步兵 unit or Independant 人物 as carrying the Death Mark this game. All 守夜者 units in the 分队 gain the 宿敌 规则 when attacking this unit or 人物.</description>
     </rule>
     <rule id="3ca6-ef89-ab4d-85c8" name="Battle Auspex" publicationId="ca571888--pubN92115" hidden="false">
       <description>The Kharon Pattern Acquisitor has the 夜视 规则. In addition, it reduces the cover saves of enemy targets it fires on by -1.</description>
@@ -7763,7 +7763,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="84d2-df3c-0971-52b2" name="Vigilator" publicationId="ca571888--pubN92115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="84d2-df3c-0971-52b2" name="守夜者" publicationId="ca571888--pubN92115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
@@ -7777,7 +7777,7 @@ Overawe(+1 to the total score to determine the result of an assault)</descriptio
         <characteristic name="Save" typeId="5361766523232344415441232323">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="516a-af98-8713-2632" name="Vigilator Mistress" publicationId="ca571888--pubN92115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
+    <profile id="516a-af98-8713-2632" name="守夜者 Mistress" publicationId="ca571888--pubN92115" hidden="false" typeId="556e697423232344415441232323" typeName="Unit">
       <characteristics>
         <characteristic name="Unit Type" typeId="556e6974205479706523232344415441232323">步兵 (人物)</characteristic>
         <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>

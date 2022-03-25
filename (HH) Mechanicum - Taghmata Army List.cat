@@ -16493,7 +16493,7 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
                 <cost name="分" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8215-019b-07f6-2512" name="Bombardment" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8215-019b-07f6-2512" name="轰炸" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
@@ -16505,8 +16505,8 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9b-a325-ec0c-0ae0" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b7c2-6875-11d5-e92a" name="Bombardment" hidden="false" targetId="fbb5-204d-7ade-9f91" type="profile"/>
-                <infoLink id="5581-d943-51d9-a8a4" name="Bombardment" hidden="false" targetId="9eb7-96bc-4249-85a5" type="rule"/>
+                <infoLink id="b7c2-6875-11d5-e92a" name="轰炸" hidden="false" targetId="fbb5-204d-7ade-9f91" type="profile"/>
+                <infoLink id="5581-d943-51d9-a8a4" name="轰炸" hidden="false" targetId="9eb7-96bc-4249-85a5" type="rule"/>
                 <infoLink id="0624-7594-0401-847d" name="装甲杀手" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule"/>
                 <infoLink id="1306-3f76-4a1e-2861" name="压制" hidden="false" targetId="f624-f475-e5ec-0dfa" type="rule"/>
               </infoLinks>

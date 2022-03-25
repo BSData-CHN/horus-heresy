@@ -2850,7 +2850,7 @@ has the 大爆炸.</description>
         <infoLink id="51c8-f666-45d0-a95e" name="独立人物" hidden="false" targetId="3ad4-1c37-d60b-1a4e" type="rule"/>
         <infoLink id="0535-ebc3-a612-4690" name="A Doomed Race" hidden="false" targetId="e04f-0392-8802-3ccb" type="rule"/>
         <infoLink id="ab10-dc7e-90c3-e130" name="无畏" hidden="false" targetId="dc70-e199-5525-e78c" type="rule"/>
-        <infoLink id="324a-c1a0-3667-a516" name="Herald of Victory" hidden="false" targetId="2565-1d88-9b27-208d" type="rule"/>
+        <infoLink id="324a-c1a0-3667-a516" name="先锋 of Victory" hidden="false" targetId="2565-1d88-9b27-208d" type="rule"/>
         <infoLink id="66f4-e246-7207-0383" name="Autarch" hidden="false" targetId="f626-45d2-8e53-9e5e" type="rule"/>
         <infoLink id="5e1b-16b1-46ec-6642" name="Intercept" hidden="false" targetId="8a74-ef3d-633c-fffc" type="rule"/>
         <infoLink id="0b2a-0de2-fb57-c049" name="指挥小队" hidden="false" targetId="81e5-0111-8395-e884" type="rule"/>
@@ -6548,7 +6548,7 @@ has the 大爆炸.</description>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="0df5-d073-b9b2-9d06" name="Herald of Victory" hidden="false" targetId="2565-1d88-9b27-208d" type="rule"/>
+                <infoLink id="0df5-d073-b9b2-9d06" name="先锋 of Victory" hidden="false" targetId="2565-1d88-9b27-208d" type="rule"/>
                 <infoLink id="ee58-692a-bc95-2963" name="Aspect Armour" hidden="false" targetId="53e9-e70b-b1df-3b4c" type="profile"/>
                 <infoLink id="5a90-73d6-9f94-1a7b" name="A Doomed Race" hidden="false" targetId="e04f-0392-8802-3ccb" type="rule"/>
                 <infoLink id="6cd7-58a3-2ec2-0638" name="Battle Focus" hidden="false" targetId="73b1-8e5e-6dba-a77f" type="rule"/>
@@ -12567,7 +12567,7 @@ D6 Result
     <rule id="688d-1919-2b9c-be92" name="War Shout" publicationId="5c4c-bef9-9681-e0fc" page="28" hidden="false">
       <description>Enemy units locked in combat with a model that has this 规则 subtract 2 from their Leadership.</description>
     </rule>
-    <rule id="2565-1d88-9b27-208d" name="Herald of Victory" publicationId="5c4c-bef9-9681-e0fc" page="24" hidden="false">
+    <rule id="2565-1d88-9b27-208d" name="先锋 of Victory" publicationId="5c4c-bef9-9681-e0fc" page="24" hidden="false">
       <description>A unit that contains at least one model with this 规则 does not scatter when it arrives by 深度打击.</description>
     </rule>
     <rule id="55d5-50ec-cd0a-e6f2" name="Inescapable Accuracy" publicationId="5c4c-bef9-9681-e0fc" page="59" hidden="false">

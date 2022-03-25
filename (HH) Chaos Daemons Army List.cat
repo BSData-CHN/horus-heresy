@@ -1939,7 +1939,7 @@
                 
         </entryLink>
             
-        <entryLink id="839c-89f3-e053-abb4" name="Daemonic Heralds" hidden="false" targetId="57b7-84c2-b736-3bed" type="selectionEntry">
+        <entryLink id="839c-89f3-e053-abb4" name="Daemonic 先锋s" hidden="false" targetId="57b7-84c2-b736-3bed" type="selectionEntry">
                   
             <profiles/>
                   
@@ -12396,7 +12396,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="7028-da28-32e8-fe95" name="Herald of Khorne" hidden="false" collective="false">
+                <selectionEntryGroup id="7028-da28-32e8-fe95" name="先锋 of Khorne" hidden="false" collective="false">
                               
                     <profiles/>
                               
@@ -17382,7 +17382,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 
         </selectionEntry>
             
-        <selectionEntry id="57b7-84c2-b736-3bed" name="Daemonic Heralds" page="0" hidden="false" collective="false" type="unit">
+        <selectionEntry id="57b7-84c2-b736-3bed" name="Daemonic 先锋s" page="0" hidden="false" collective="false" type="unit">
                   
             <profiles/>
                   
@@ -17404,7 +17404,7 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                   
             <selectionEntryGroups>
                         
-                <selectionEntryGroup id="0d9c-528d-15e4-b765" name="Type of Herald" hidden="false" collective="false">
+                <selectionEntryGroup id="0d9c-528d-15e4-b765" name="Type of 先锋" hidden="false" collective="false">
                               
                     <profiles/>
                               
@@ -18802,11 +18802,11 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 
         </selectionEntry>
             
-        <selectionEntry id="31ac-c3be-e8c4-f915" name="Herald of Khorne" page="0" hidden="false" collective="false" type="model">
+        <selectionEntry id="31ac-c3be-e8c4-f915" name="先锋 of Khorne" page="0" hidden="false" collective="false" type="model">
                   
             <profiles>
                         
-                <profile typeId="556e697423232344415441232323" typeName="Unit" id="86ef-4f5e-e64c-3557" name="Herald of Khorne" page="0" hidden="false">
+                <profile typeId="556e697423232344415441232323" typeName="Unit" id="86ef-4f5e-e64c-3557" name="先锋 of Khorne" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -19434,11 +19434,11 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 
         </selectionEntry>
             
-        <selectionEntry id="8433-dbac-40fd-6901" name="Herald of Nurgle" page="0" hidden="false" collective="false" type="model">
+        <selectionEntry id="8433-dbac-40fd-6901" name="先锋 of Nurgle" page="0" hidden="false" collective="false" type="model">
                   
             <profiles>
                         
-                <profile typeId="556e697423232344415441232323" typeName="Unit" id="b08f-6a69-698a-efc9" name="Herald of Nurgle" page="0" hidden="false">
+                <profile typeId="556e697423232344415441232323" typeName="Unit" id="b08f-6a69-698a-efc9" name="先锋 of Nurgle" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -19936,11 +19936,11 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 
         </selectionEntry>
             
-        <selectionEntry id="4b61-e0cc-1462-0565" name="Herald of Slaanesh" page="0" hidden="false" collective="false" type="model">
+        <selectionEntry id="4b61-e0cc-1462-0565" name="先锋 of Slaanesh" page="0" hidden="false" collective="false" type="model">
                   
             <profiles>
                         
-                <profile typeId="556e697423232344415441232323" typeName="Unit" id="0d04-f00e-e776-162e" name="Herald of Slaanesh" page="0" hidden="false">
+                <profile typeId="556e697423232344415441232323" typeName="Unit" id="0d04-f00e-e776-162e" name="先锋 of Slaanesh" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -20676,11 +20676,11 @@ If there is no space for the pink horrors, or no models, they are then destroyed
                 
         </selectionEntry>
             
-        <selectionEntry id="0db1-e0e8-a3f8-2de7" name="Herald of Tzeentch" page="0" hidden="false" collective="false" type="model">
+        <selectionEntry id="0db1-e0e8-a3f8-2de7" name="先锋 of Tzeentch" page="0" hidden="false" collective="false" type="model">
                   
             <profiles>
                         
-                <profile typeId="556e697423232344415441232323" typeName="Unit" id="ee5c-46b0-ebd5-e8a8" name="Herald of Tzeentch" page="0" hidden="false">
+                <profile typeId="556e697423232344415441232323" typeName="Unit" id="ee5c-46b0-ebd5-e8a8" name="先锋 of Tzeentch" page="0" hidden="false">
                               
                     <profiles/>
                               
@@ -27180,11 +27180,11 @@ Note that its Attacks characteristic cannot exceed 10.</description>
                               
                     <selectionEntries>
                                     
-                        <selectionEntry id="d424-7784-f0e9-1983" name="Phlegm Bombardment" page="0" hidden="false" collective="false" type="upgrade">
+                        <selectionEntry id="d424-7784-f0e9-1983" name="Phlegm 轰炸" page="0" hidden="false" collective="false" type="upgrade">
                                           
                             <profiles>
                                                 
-                                <profile typeId="576561706f6e23232344415441232323" typeName="Weapon" id="fb8d-155f-a107-77ef" name="Phlegm Bombardment" page="0" hidden="false">
+                                <profile typeId="576561706f6e23232344415441232323" typeName="Weapon" id="fb8d-155f-a107-77ef" name="Phlegm 轰炸" page="0" hidden="false">
                                                       
                                     <profiles/>
                                                       
@@ -33294,7 +33294,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="556e697423232344415441232323" typeName="" id="56cd0e77-4032-9070-7826-91b5101bc620" name="Herald of Khorne" page="0" hidden="false">
+        <profile typeId="556e697423232344415441232323" typeName="" id="56cd0e77-4032-9070-7826-91b5101bc620" name="先锋 of Khorne" page="0" hidden="false">
                   
             <profiles/>
                   
@@ -33330,7 +33330,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="556e697423232344415441232323" typeName="" id="56d2f3a3-f2d8-1ef0-5c79-fde39c7a09b9" name="Herald of Nurgle" page="0" hidden="false">
+        <profile typeId="556e697423232344415441232323" typeName="" id="56d2f3a3-f2d8-1ef0-5c79-fde39c7a09b9" name="先锋 of Nurgle" page="0" hidden="false">
                   
             <profiles/>
                   
@@ -33366,7 +33366,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="556e697423232344415441232323" typeName="" id="2ab19c32-7eae-0f27-ce45-63733cc78894" name="Herald of Slaanesh" page="0" hidden="false">
+        <profile typeId="556e697423232344415441232323" typeName="" id="2ab19c32-7eae-0f27-ce45-63733cc78894" name="先锋 of Slaanesh" page="0" hidden="false">
                   
             <profiles/>
                   
@@ -33402,7 +33402,7 @@ If you roll The Dark Prince Thirsts, you may re-roll a single dice roll to deter
                 
         </profile>
             
-        <profile typeId="556e697423232344415441232323" typeName="" id="955c5161-a34e-aead-f474-424a7a766209" name="Herald of Tzeentch" page="0" hidden="false">
+        <profile typeId="556e697423232344415441232323" typeName="" id="955c5161-a34e-aead-f474-424a7a766209" name="先锋 of Tzeentch" page="0" hidden="false">
                   
             <profiles/>
                   

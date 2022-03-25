@@ -2124,7 +2124,7 @@ D6    结果  S AP
             <characteristic name="次元充能" typeId="5ffd-b800-c317-532a">1</characteristic>
             <characteristic name="灵能类型" typeId="f04c-a782-d794-ddad">Conjuration</characteristic>
             <characteristic name="距离" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
-            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Sacrifice creates one of the following units (your choice): 1 Herald of Khorne, 1 Herald of Tzeentch, 1 Herald of Nurgle or 1 Herald of Slaanesh, with 至多 30 points’ worth of options. If this power is successfully manifested, one friendly model within 6&quot; of the 灵能者 (or the 灵能者 himself) immediately suffers a single Wound with no saves of any kind allowed.</characteristic>
+            <characteristic name="描述" typeId="ad96-dfa4-b4ed-656d">Sacrifice creates one of the following units (your choice): 1 先锋 of Khorne, 1 先锋 of Tzeentch, 1 先锋 of Nurgle or 1 先锋 of Slaanesh, with 至多 30 points’ worth of options. If this power is successfully manifested, one friendly model within 6&quot; of the 灵能者 (or the 灵能者 himself) immediately suffers a single Wound with no saves of any kind allowed.</characteristic>
           </characteristics>
         </profile>
         <profile id="724f-ebc5-d6c3-3172" name="5. Incursion" publicationId="ca571888--pubN106502" page="190" hidden="false" typeId="ae70-4738-0161-bec0" typeName="灵能">
@@ -2989,7 +2989,7 @@ D6    结果  S AP
         </profile>
         <profile id="465d-2e63-c6a2-c4eb" name="立场 Dome" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
           <characteristics>
-            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The Primus Redoubt is protected from enemy attack by a projected force shield intended primarily to ward off bombardments from planetary assault vessels in low orbit or from strategic bombardments fired from a great distance away. The redoubt has a 4+ 特殊保护 against direct shooting attacks, increased to 3+ against barrage attacks that are fired without being adjusted by the firer’s or an observer’s BS.</characteristic>
+            <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">The Primus Redoubt is protected from enemy attack by a projected force shield intended primarily to ward off 轰炸s from planetary assault vessels in low orbit or from strategic 轰炸s fired from a great distance away. The redoubt has a 4+ 特殊保护 against direct shooting attacks, increased to 3+ against barrage attacks that are fired without being adjusted by the firer’s or an observer’s BS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10391,7 +10391,7 @@ Any abilities that allow the 载具 to fire multiple shots will use the same she
         </selectionEntryGroup>
         <selectionEntryGroup id="05ea-550f-2ac1-930c" name="可以升级:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="7790-7f3d-ba19-dec4" name="Librarian" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7790-7f3d-ba19-dec4" name="智库" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7034-170e-9062-3384" type="max"/>
                 <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8eeb-de7b-7040-3ebd" type="max"/>

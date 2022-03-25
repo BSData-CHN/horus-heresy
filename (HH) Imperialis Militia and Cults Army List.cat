@@ -5976,7 +5976,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9ee-665f-aaee-6ece" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="name" value="(Loyalists)"/>
+            <modifier type="append" field="name" value="(忠诚方)"/>
           </modifiers>
         </infoLink>
         <infoLink id="ea14-acf1-512c-c607" name="侦察" hidden="false" targetId="9b30-1da3-eb8d-ce7a" type="rule">
@@ -11252,7 +11252,7 @@ As such if you wish to use them in ZM there are a couple of &quot;House Rules&qu
         <categoryLink id="2a97-8060-88ec-48ac" name="New CategoryLink" hidden="false" targetId="03d8-3acd-b7ca-5649" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b150-f91b-a246-38f2" name="Select 2" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b150-f91b-a246-38f2" name="选择两个" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b2-fd35-49ef-19ad" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0927-9177-9236-f5d7" type="max"/>

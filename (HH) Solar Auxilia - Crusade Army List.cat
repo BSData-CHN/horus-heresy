@@ -2014,7 +2014,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
       <selectionEntryGroups>
         <selectionEntryGroup id="5a40-8fd5-37b7-8ec4" name="小队可以选择任何升级:" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="6801-cbdd-fb6a-761c" name="Searchlights" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6801-cbdd-fb6a-761c" name="探照灯" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1">
                   <repeats>
@@ -4799,7 +4799,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
             </profile>
             <profile id="bc8f-48fa-41da-ffb5" name="精准轰炸" publicationId="ca571888--pubN84158" page="258" hidden="false" typeId="576561706f6e23232344415441232323" typeName="武器">
               <characteristics>
-                <characteristic name="距离" typeId="52616e676523232344415441232323">Unlimited</characteristic>
+                <characteristic name="距离" typeId="52616e676523232344415441232323">无限</characteristic>
                 <characteristic name="S" typeId="537472656e67746823232344415441232323">9</characteristic>
                 <characteristic name="AP" typeId="415023232344415441232323">2</characteristic>
                 <characteristic name="类型" typeId="5479706523232344415441232323">重炮 1, 压制, 大爆炸</characteristic>
@@ -9174,7 +9174,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8d6d-b360-4f50-213b" name="Select 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="e310-8ca8-22a9-93c9">
+        <selectionEntryGroup id="8d6d-b360-4f50-213b" name="选择两个" hidden="false" collective="false" import="true" defaultSelectionEntryId="e310-8ca8-22a9-93c9">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e06d-ffd8-39fb-4a37" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e38c-1706-c86e-7a1c" type="max"/>
@@ -10035,12 +10035,12 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b5c2-9f0e-8b21-11ac" name="2. Shattering Bombardment" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b5c2-9f0e-8b21-11ac" name="2. Shattering 轰炸" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d867-500f-a7d9-2a39" type="max"/>
               </constraints>
               <rules>
-                <rule id="0f3d-1511-0ee4-a329" name="2. Shattering Bombardment" hidden="false">
+                <rule id="0f3d-1511-0ee4-a329" name="2. Shattering 轰炸" hidden="false">
                   <description>While 主将 is alive, select a single weapon in a unit within 6&quot; of them in the 射击阶段 that has the Ordnance 规则. That weapon counts as being 双联 for this player turn.</description>
                 </rule>
               </rules>
@@ -10073,7 +10073,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
               </constraints>
               <rules>
                 <rule id="d23b-52e4-1467-a217" name="4. 致盲弹幕" hidden="false">
-                  <description>主将’s controlling player may choose to unleash a 致盲 bombardment at the start of the game. If this is done, all friendly Solar 辅助军units gain the 笼罩 规则 for the duration of the first game turn only.</description>
+                  <description>主将’s controlling player may choose to unleash a 致盲 轰炸 at the start of the game. If this is done, all friendly Solar 辅助军units gain the 笼罩 规则 for the duration of the first game turn only.</description>
                 </rule>
               </rules>
               <infoLinks>
