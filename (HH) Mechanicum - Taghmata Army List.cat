@@ -16397,7 +16397,7 @@ A model equipped with a 伺服臂阵列 may make two additional attacks per turn
                 <cost name="分" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6350-b479-13d8-18be" name="憎恨 (Everything)" hidden="true" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6350-b479-13d8-18be" name="憎恨 (所有)" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
