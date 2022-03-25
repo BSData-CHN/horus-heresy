@@ -41,15 +41,16 @@
     <publication id="ece2-a265-6237-7efa" name="HH Mechanicum Knight Moirax Talon Download"/>
     <publication id="cf03-f607-pubN70802" name="HH-Questoris-Knight-Armiger-Talon Download"/>
     <publication id="8700-b3bb-pubN77868" name="Corbax_Utterblight.pdf" publisherUrl="https://www.forgeworld.co.uk/resources/fw_site/fw_pdfs/Warhammer_40000/Corbax_Utterblight.pdf"/>
-    <publication id="688f-de2e-d4f4-882e" name="HH - The Battle of Pluto: Hydra&apos;s Devastation (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TBoP: HD" publicationDate="Sept 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/09/Xwccsydzg8YpDsho.pdf"/>
+    <publication id="688f-de2e-d4f4-882e" name="HH - The Battle Of Pluto: Hydra&apos;s Devastation (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TBoP: HD" publicationDate="Sept 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/09/Xwccsydzg8YpDsho.pdf"/>
     <publication id="931a-ad98-6258-e12a" name="Mournival Events Battle Manual v1.5"/>
     <publication id="e085-bc29-3c2d-2c49" name="Mournival Events 3.7 Digital Version"/>
     <publication id="4325-6c62-8f6c-297c" name="Mournival Events FAQ and Experimental Errata v3.7"/>
-    <publication id="a3ac-f7b8-f0a2-6a3a" name="HH - The Defence of Sotha: Aegidas Lament (Exemplary Battles of the Age of Darkness)" publicationDate="Nov 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/11/9eA3ZYnzr5tXbxjX.pdf"/>
-    <publication id="db9a-ae25-9e59-7f3f" name="HH - The Siege of Hydra Cordatus: Sundering of The Cadmean Citadel (Exemplary Battles of the Age of Darkness)" publicationDate="Nov 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/11/NUTJvW4qx8d08Fkr.pdf"/>
-    <publication id="6490-b351-71df-886d" name="HH - The Battle Of Armatura (Exemplary Battles of the Age of Darkness)" publicationDate="Dec 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/12/fcMVfgBlCyDHmejD.pdf"/>
-    <publication id="e8fe-5cea-8dc9-ec19" name="HH - The Battle Of Perditus - Umbral-51 (Exemplary Battles of the Age of Darkness)" publicationDate="Jan 22" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2022/01/mouvfePNquxVdprP.pdf"/>
-    <publication id="18fc-e8f3-462f-9e60" name="HH - The Battle Of Calth - Underground War (Exemplary Battles of the Age of Darkness)" publicationDate="Feb 22" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2022/02/iIVebnZrYRFbaDGH.pdf"/>
+    <publication id="a3ac-f7b8-f0a2-6a3a" name="HH - The Defence Of Sotha: Aegidas Lament (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TDOS: AL" publicationDate="Nov 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/11/9eA3ZYnzr5tXbxjX.pdf"/>
+    <publication id="db9a-ae25-9e59-7f3f" name="HH - The Siege Of Hydra Cordatus: Sundering of The Cadmean Citadel (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TSOHC  SOTCC" publicationDate="Nov 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/11/NUTJvW4qx8d08Fkr.pdf"/>
+    <publication id="6490-b351-71df-886d" name="HH - The Battle Of Armatura (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TBoA" publicationDate="Dec 21" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2021/12/fcMVfgBlCyDHmejD.pdf"/>
+    <publication id="e8fe-5cea-8dc9-ec19" name="HH - The Battle Of Perditus - Umbral-51 (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TBoP: U51" publicationDate="Jan 22" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2022/01/mouvfePNquxVdprP.pdf"/>
+    <publication id="18fc-e8f3-462f-9e60" name="HH - The Battle Of Calth - Underground War (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TBoC: UW" publicationDate="Feb 22" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2022/02/iIVebnZrYRFbaDGH.pdf"/>
+    <publication id="19f5-43eb-a30a-3b6c" name="HH - The Battle For Kalium Gate (Exemplary Battles of the Age of Darkness)" shortName="HH = EBotAoD - TBFKG" publicationDate="Mar 22" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2022/03/V7pz4FAPFUM2apkb.pdf"/>
   </publications>
   <costTypes>
     <costType id="points" name="分" defaultCostLimit="0.0" hidden="false"/>
@@ -801,7 +802,7 @@ Use at the start of the controlling player’s turn. Until the beginning of thei
         <rule id="69e6-5a2f-a5c5-6f75" name="敏捷" publicationId="ca571888--pubN66500" page="273" hidden="false">
           <description>可以选择:
 - 射击所有武器
-- 射击一种武器额外移动 D6&quot; 
+- 射击一种武器额外移动 D6&quot;
 - 放弃射击额外移动 2D6&quot;</description>
         </rule>
         <rule id="3853-4f8a-29a2-0005" name="高耸的巨兽(战犬)" publicationId="ca571888--pubN68042" page="260" hidden="false">
@@ -11142,6 +11143,7 @@ Command Benefits:
           <infoLinks>
             <infoLink id="216b-9307-b3ba-e86a" name="New InfoLink" hidden="false" targetId="a1d8-f9f3-865a-9faf" type="profile"/>
             <infoLink id="aa52-fcd3-90ad-72c4" name="New InfoLink" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule"/>
+            <infoLink id="e7b1-3cbc-02aa-a6ff" name="Unwieldy" hidden="false" targetId="5eea-958c-d623-c3c9" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="分" typeId="points" value="5.0"/>
@@ -13524,29 +13526,29 @@ Command Benefits:
 恐怖:
 在每个格斗子阶段的开始,任何攻击之前,与拥有恐怖规则的模型底盘接触的单位必须进行一次领导力测试(接触多个恐怖的模型也只做一次测试).如果通过,没有特别的效果.如果失败,该单位的所有模型WS 减为1,直到该子阶段结束.恐怖可以被他们无所畏惧或无畏抵消.但是造成恐怖的模型本身并不免疫恐怖.
 
-穿越地形: 
+穿越地形:
 至少包含一个拥有该规则模型的单位在移动穿越困难地形时额外投掷一个D6,在大部分情况下这意味着他们会投掷 3D6 然后挑选最高的点数.并在冲锋穿越困难地形时不减速,这样的模型(注意不是单位)自动通过危险地形测试.
 
-无敌巨兽: 
+无敌巨兽:
 任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.</description>
     </rule>
     <rule id="f8b2-c433-0765-f1e7" name="超重型机甲" publicationId="ca571888--pubN106502" hidden="false">
       <description>超重型步行机甲拥有以下规则:
 
-恐怖: 
+恐怖:
 在每个格斗子阶段的开始,任何攻击之前,与拥有恐怖规则的模型底盘接触的单位必须进行一次领导力测试(接触多个恐怖的模型也只做一次测试).如果通过,没有特别的效果.如果失败,该单位的所有模型WS 减为1,直到该子阶段结束.恐怖可以被他们无所畏惧或无畏抵消.但是造成恐怖的模型本身并不免疫恐怖.
 
-愤怒之锤: 
+愤怒之锤:
 具有该规则的模型在结束冲锋移动与敌人底盘接触后,造成一次自动命中的攻击,使用本身未经修正的力量和无穿甲值结算.这次攻击以敏锐性10 的攻击顺序结算,但是此攻击不会造成跟进移动,不会因模型的任何规则而加强,如果该模型冲锋的是载具或建筑,愤怒之锤攻击载具或建筑而非在内的模型.攻击载具或建筑时按接触面向的装甲值计算,攻击步行机甲时,除非机甲失去动力,否则按攻击正面装甲计算,失去动力后按攻击一般载具计算
 
 无敌巨兽:
 任何造成目标模型损毁,变成残骸,爆炸或其他移出游戏的效果都改成损失 D3 点HP.另外,任何永久降低目标装甲值的攻击或规则对此模型不生效.但是如光矛这种将对方装甲降低计算的武器依然照常生效.
 穿越地形: 至少包含一个拥有该规则模型的单位在移动穿越困难地形时额外投掷一个D6,在大部分情况下这意味着他们会投掷3D6 然后挑选最高的点数.并在冲锋穿越困难地形时不减速,这样的模型(注意不是单位)自动通过危险地形测试.
 
-毫不留情: 
+毫不留情:
 拥有此规则的模型移动不影响发射武器,如同他们没有移动过一样,发射武器不影响是否能冲锋.
 
-击倒: 
+击倒:
 如果任何非载具模型遭受了至少一个拥有此规则的伤害,不管保护成功与否,将视为在困难地形移动,持续到它的下个回合结束时,最好做出适当标记</description>
     </rule>
     <rule id="d4ca-a14b-89b0-9f96" name="Supressing Fire" publicationId="ca571888--pubN106502" hidden="false">
@@ -14543,7 +14545,7 @@ common enemy. These Factions cannot be part of the same army.</description>
     <profile id="3c28-4994-00ed-bbe5" name="星际战士喷气摩托" publicationId="ca571888--pubN105292" hidden="false" typeId="57617267656172204974656d23232344415441232323" typeName="装备">
       <characteristics>
         <characteristic name="描述" typeId="4465736372697074696f6e23232344415441232323">+1 T, 2+ 装甲保护, 不能卧倒, 不会被压制, 不会因困难地形而减速, 视所有困难地形为危险地形, 撤退移动 3D6&quot;, 涡轮加速至多 24&quot;. 喷气摩托具有愤怒之锤, 闪避, 毫不留情, 非常庞大规则.
-喷气摩托可以在所有其他模型或地形上方移动. 如果在困难地形中开始或结束移动, 则必须进行一次危险地形测试. 
+喷气摩托可以在所有其他模型或地形上方移动. 如果在困难地形中开始或结束移动, 则必须进行一次危险地形测试.
 喷漆模型不能再模型或不可移动地形上结束移动, 除非其可以将模型放置在不可移动地形上, 此时会将此处地形视作危险地形.</characteristic>
       </characteristics>
     </profile>

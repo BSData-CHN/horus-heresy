@@ -2181,6 +2181,23 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
         <categoryLink id="2da7-ad0a-2464-4210" name="New CategoryLink" hidden="false" targetId="456c6974657323232344415441232323" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="f5fa-1244-1cd9-282a" name="Sisters of Silence Oblivion Knight-Centura (AoE)" hidden="true" collective="false" import="true" targetId="b15d-a195-9431-9386" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c859-6b16-c533-7e97" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a735-9091-b1d2-02d8" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="aa1a-9ff4-1242-2ab5" name="New CategoryLink" hidden="false" targetId="456c6974657323232344415441232323" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="04c4-8239-657a-ced2" name="支援小队" hidden="false" collective="false" import="true" type="upgrade">
@@ -3719,7 +3736,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
       </constraints>
       <rules>
         <rule id="c96a-49b9-1d4e-a82f" name="护卫机仆协议" publicationId="ca571888--pubN68042" page="223" hidden="false">
-          <description>位于同分对拥有战争铁匠或智控神力模型 24&quot; 内时获得无畏规则. 
+          <description>位于同分对拥有战争铁匠或智控神力模型 24&quot; 内时获得无畏规则.
 如果范围内没有上述单位, 则在其移动阶段开始时必须进行一次 LD 测试, 只有通过才能移动.
 如果被锁入近战, 其可以进行正常战斗.</description>
         </rule>
@@ -4473,7 +4490,7 @@ Note this precludes some Rites of War and Army Lists from 百夫长 mode.</descr
               </constraints>
               <rules>
                 <rule id="94cc-7da2-ca6f-8738" name="工造士" publicationId="ca571888--pubN66489" page="34" hidden="false">
-                  <description>修士获得 +1 战争铁匠结果, 获得伺服臂装备. 
+                  <description>修士获得 +1 战争铁匠结果, 获得伺服臂装备.
 单位中的伺服自动机兵获得伺服自动机兵支援规则.</description>
                 </rule>
                 <rule id="6395-c56f-b1bd-27ea" name="伺服自动机兵支援" publicationId="ca571888--pubN85920" page="219" hidden="false">
@@ -5853,6 +5870,21 @@ D6  结果                 S                 AP
         <categoryLink id="9ac2-d03c-a520-d659" name="New CategoryLink" hidden="false" targetId="e4e0-c5d1-3430-f101" primary="false"/>
         <categoryLink id="24ef-6fd9-6ed6-e5d1" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b258-5df4-be5b-2fb5" name="Twin-linked Lascannon" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c7a-5bd1-e6e4-00fd" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80aa-e667-61a1-6939" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4953-1746-190d-c2cd" name="Twin-Linked Lascannon" hidden="false" targetId="2cd1-0fb3-7484-e486" type="profile"/>
+            <infoLink id="99c6-9b0c-0cfa-3fa5" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6ad6-9dd7-4994-60f9" name="可以选择一个:" hidden="false" collective="false" import="true">
           <constraints>
@@ -19706,7 +19738,7 @@ A Unit may not use Counter Attack 规则 if it used Reaction Fire.</description>
     </rule>
     <rule id="01ed-f688-9443-bbeb" name="虚空坚毅" hidden="false">
       <description>虚空坚毅装甲 (Cold Void mission 规则 from Betrayal).
-对喷射盖板和爆炸武器可以重投失败的装甲保护.  
+对喷射盖板和爆炸武器可以重投失败的装甲保护.
 冲锋, 追击, 奔跑结果减少 1&quot;.</description>
     </rule>
     <rule id="a5ba-753a-58f6-81cc" name="辐射中毒" page="" hidden="false">
